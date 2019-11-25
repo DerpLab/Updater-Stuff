@@ -1,0 +1,17 @@
+ROM:
+- Added Ambient Visualizer
+- Added Lockscreen cover art filter (grayscale, accent tint, blurry, grayscale and blurry, gradient blur)
+- Added Statusbar logo, color and positions options
+- Improved Ambient/AOD behavior
+- Added option to enable AOD on charging only
+- Added Incall vibration options
+- Led lights: don't skip dialer and other ones
+- Added AOKP custom system animations
+- Added Ethans animations
+- Added statusbar brightness control
+- Improved media seekbar
+- Added changelog to about phone
+- Added OTA app (I hope I can push next release)
+- Updated webview providers for Q
+- Added hebrew translation for DerpQuest
+- Some more things maybe I can't remember more :P
