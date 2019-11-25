@@ -1,0 +1,399 @@
+====================
+     02-10-2020
+====================
+
+
+   * build/make/
+d571d8e1f Merge pull request #1 from x00t-los/ten
+f324543e5 NoGapps: Build ExactCalculator for NoGapps builds
+
+   * device/aosip/sepolicy/
+907829b sepolicy: Allow Snap to execute bcc
+
+   * device/xiaomi/cepheus/
+825d374 cepheus: overlay: Update autoBrightness levels
+e10dab8 cepheus: Use AI Button for Screenshots
+
+   * frameworks/av/
+454b089fb Camera: Skip stream size check for whitelisted apps.
+92a53d5d2 cameraservice: move client_package_name to data/misc
+38989dc20 libcameraservice: add TARGET_CAMERA_NEEDS_CLIENT_INFO
+cab547a91 libstagefright: Fix memory leak due to lock timeout
+
+   * frameworks/base/
+a19f0408fd6 SystemUI: Recognizing fingerprint animation picker [1/2]
+2d45e989de4 FODCircleView: Recognizing fingerprint animation [1/2]
+3d02df4afbd FODCircleView: only move in Y direction
+7f1e48ff6c5 FODCircleView: disable touch detection on screen off
+d1b07a5dbd2 FODCircleView: Dont change alpha of fod on AOD
+05efc74a929 FODCircleView: FOD pressed state [1/2]
+3c27d75e27c SystemUI: Add more FOD icons [1/2]
+a9300d8c34c SystemUI: FOD icon picker [1/2]
+73730566683 FODCircleView: Add MIUI FP icon
+83c1f1dada6 FODCircleView: Patch screen flickering
+7f334dcfe56 Camera: Ignore torch status update for aux or compsite camera
+b13d9f2e910 Camera: Force HAL1 for predefined package list.
+1a3facd3b63 Camera: Squashed support for Aux camera {black,white}list feature
+7ef873cfab9 Revert "Camera: Expose Aux camera to apps present in the whitelist"
+f2a7e38e4e8 aosipUtils: Add isAppInstalled
+7fd79c5c391 TypeClock: bring back O’minute
+
+   * manifest/
+49a92d1 Merge pull request #1 from x00t-los/ten
+6109e01 NoGapps: Track some repos for NoGapps builds
+
+   * packages/apps/DerpQuest/
+1e947e3 DerpQuest: Recognizing fingerprint animation picker [2/2]
+88c31e2 DerpQuest: Recognizing fingerprint animation [2/2]
+3a21460 DerpQuest: FOD pressed state [2/2]
+698fbc3 DerpQuest: Add more FOD icons [2/2]
+834a47b DerpQuest: FOD icon picker [2/2]
+
+   * packages/services/Telecomm/
+ecb803ad Add synchronized lock when set call state ANSWERED
+
+   * vendor/aosip/
+8114627 vendor: soong: add target_needs_client_info
+dfc9009 vendor: Remove VendorSupportLib
+
+====================
+     02-09-2020
+====================
+
+
+   * device/xiaomi/sm8150-common/
+e145226 DNM: cepheus: Use prebuilt Q dtbo
+
+   * frameworks/base/
+29487c6d578 AoD: Always force brightness updates on pause
+294ec74031c Revert "DozeUi: do not prepare for gentle wakeup"
+a09b519d2ff Fix NPE with void android.view.VelocityTracker.clear()
+7f6386444e2 base: Fix unnecessary truncation in Slice
+9c5d16bd9ba SystemUI: Fix minute digits for accent based lockscreen clock style
+9be3f8d6c1e base: add Bootleg's Date Styles [1/2]
+405006e05a2 base: add Q beta pill background [1/2]
+03ce3ac4348 Introduce lockscreen date styles [1/2]
+7787baa6ace Decrease line spacing in sammy clock styles
+e0f53f3a619 SystemUI: fix accent based lockscreen clocks
+d48e0904896 Always keep clock widget visible while dozing
+bb426a2822a SystemUI: Option to hide lockscreen clock & date [1/2]
+82d7ec10b5e SystemUI: Lockscreen clock styles: Add sammy accent hour clock [1/2]
+9df8d7a288b SystemUI: Lockscreen clock styles: Add accent clocks from pie [1/2]
+0e3b455400d SystemUI: Lockscreen clock styles: Add sammy accent clock and a variant [1/2]
+d9f73a39a89 Introduce lockscreen clock/date styles [1/2]
+041ad507d6f base: Revert old lockclock implementation [1/2]
+
+   * packages/apps/DerpQuest/
+bcac7cb DerpQuest: Date styles: Add Bootleg's styles [2/2]
+7faa617 DerpQuest: Date styles: Add Q beta pill [2/2]
+330af3f DerpQuest: Lockscreen date styles [2/2]
+6626cde DerpQuest: Option to hide lockscreen clock & date [2/2]
+6a582e5 DerpQuest: Lockscreen clock styles: Add sammy accent hour clock [2/2]
+25944f3 DerpQuest: More lockscreen clock styles [2/2]
+5e93884 DerpQuest: Introduce lockscreen clock/date styles [2/2]
+2965955 DerpQuest: Revert old lockclock implementation [2/2]
+
+   * packages/apps/OmniStyle/
+8a5341a OmniStyle: Introduce Q headers
+
+====================
+     02-08-2020
+====================
+
+
+   * device/aosip/sepolicy/
+5f044f7 sepolicy: Fix Lawnchair denials
+
+   * packages/apps/DerpQuest/
+0d65e2d DerpQuest: Update German translations
+
+   * packages/apps/ThemePicker/
+9787a33 ThemePicker: limit number of icon previews shown
+a8e8060 ThemePicker: wrap font name content
+
+   * vendor/aosip/
+dc7a2a0 backuptool: Fix addon.d version check for A-only
+f22ae8b backuptool: Execute check_blacklist from the current directory
+58d1e8c backuptool: Run check_{black, white}list with proper system path
+
+   * vendor/overlay/
+4b4f31e overlay: Extend icon previews list
+90f8fdf overlay: Allow to theme Settings with primary
+
+   * vendor/pixelstyle/
+cabfc3d pixelstyle: Update bootanimations
+
+====================
+     02-07-2020
+====================
+
+
+   * frameworks/base/
+3109b37fbe9 SystemUI: DigitalClock: increase linespacing
+0dd899d1726 SystemUI: fixup analog clock for aod support
+1a9ab36de24 SystemUI: TypeClock: adapt to recents clock keyguard changes
+9662895b17e SystemUI: custom keyguard clock kick off
+243f817d255 base: Add custom charging info fonts [1/2]
+b97bd06f04a base: keyguardStatusView: Fix some ugly code and save a lot of runtime
+
+   * packages/apps/DerpQuest/
+9a2f091 DerpQuest: Add custom charging info fonts [2/2]
+
+   * packages/apps/ThemePicker/
+7f2d13b ThemePicker: Add German translations
+a966fbc ThemePicker: Fix derp of f7a9b12fd32664c57926e663060509f2a65c9b00
+
+   * packages/inputmethods/LatinIME/
+27f16a501 Add Hardslog light theme
+e8d379e56 few more tweaks for hs_dark to make it more material
+8ddfa4e3e New theme:  BLACKOUT
+567697750 Add new hardslog_dark theme
+
+====================
+     02-06-2020
+====================
+
+
+   * device/aosip/sepolicy/
+7dd8995 snap_app: Allow binder call with gpuservice
+9711db6 sepolicy: Add rules for Long screenshot service
+4b37652 sepolicy: Label ro.telephony.use_old_mnc_mcc_format
+
+   * frameworks/base/
+24d32549120 SystemUI: EnhancedEstimatesGoogleImp: Get turbo going again
+f51f85cb10a SystemUI: EnhancedEstimatesGoogleImp: Catch NameNotFoundException
+e0fbaf71ce0 base: Increase Longshot timeout to 2 seconds
+a77f9c5cafd SystemUI: Lockscreen weather code fixes
+d66f90bbe00 Revert "SystemUI: tiles: Migrate to new screenshot method with Longshot support"
+4381b497077 base: Port extended screenshot function from OOS
+fbd6f40f4dc Revert "base: Port extended screenshot function from OOS"
+5481dafe471 base: Update Status bar logos [1/2]
+
+   * kernel/xiaomi/sm8150/
+94af1d3434f9 Merge branch 'kernel.lnx.4.14.r4-rel' of https://github.com/android-linux-stable/msm-4.14 into ten
+d3912a5c9714 Merge 4.14.170 into kernel.lnx.4.14.r4-rel
+e0f8b8a65a47 Linux 4.14.170
+5008c125d553 perf report: Fix no libunwind compiled warning break s390 issue
+e1404bf53694 btrfs: do not zero f_bavail if we have available space
+9b7a4bed4c78 net: Fix skb->csum update in inet_proto_csum_replace16().
+964646964ef4 l2t_seq_next should increase position index
+b2fd13e9ced4 seq_tab_next() should increase position index
+772c96a03b0d net/sonic: Quiesce SONIC before re-initializing descriptor memory
+36db400a662d net/sonic: Fix receive buffer handling
+3a8debf8b1ee net/sonic: Use MMIO accessors
+3c8a4483d801 net/sonic: Add mutual exclusion for accessing shared state
+5d47f5ed5a1a net: fsl/fman: rename IF_MODE_XGMII to IF_MODE_10G
+743bc2ab644f net/fsl: treat fsl,erratum-a011043
+5d45e8aa20fb powerpc/fsl/dts: add fsl,erratum-a011043
+fcd0c0d36a58 qlcnic: Fix CPU soft lockup while collecting firmware dump
+ce9ba09d135b r8152: get default setting of WOL before initializing
+6f0f284b770a airo: Add missing CAP_NET_ADMIN check in AIROOLDIOCTL/SIOCDEVPRIVATE
+33fc8d611378 airo: Fix possible info leak in AIROOLDIOCTL/SIOCDEVPRIVATE
+ffc1f3076eda tee: optee: Fix compilation issue with nommu
+9da4de4d00cc ARM: 8955/1: virt: Relax arch timer version check during early boot
+49e509787b77 scsi: fnic: do not queue commands during fwreset
+9c8c51176e9d vti[6]: fix packet tx through bpf_redirect()
+adafa3c54b4a ARM: dts: am335x-boneblack-common: fix memory size
+e99b5648c7a7 bnxt_en: Fix ipv6 RFS filter matching logic.
+dc2e1d86500c net: dsa: bcm_sf2: Configure IMP port for 2Gb/sec
+95f5057bb1a3 wireless: wext: avoid gcc -O3 warning
+0a4b3ef53f0a mac80211: Fix TKIP replay protection immediately after key setup
+2dbb6faebb94 cfg80211: Fix radar event during another phy CAC
+8f6b2439a2b9 wireless: fix enabling channel 12 for custom regulatory domain
+f5929c9f3a52 qmi_wwan: Add support for Quectel RM500Q
+3403f8652c45 ASoC: sti: fix possible sleep-in-atomic
+5c273c3a8bb0 igb: Fix SGMII SFP module discovery for 100FX/LX.
+0350ed7bccd8 ixgbe: Fix calculation of queue with VFs and flow director on interface flap
+ca60e5ca55b8 ixgbevf: Remove limit of 10 entries for unicast filter list
+aecd1fe0edac clk: mmp2: Fix the order of timer mux parents
+89f54ffd5073 mac80211: mesh: restrict airtime metric to peered established plinks
+852c2bb97925 soc: ti: wkup_m3_ipc: Fix race condition with rproc_boot
+f795e1f7b434 ARM: dts: beagle-x15-common: Model 5V0 regulator
+719e8e93e81e ARM: dts: sun8i: a83t: Correct USB3503 GPIOs polarity
+c7d812223d22 media: si470x-i2c: Move free() past last use of 'radio'
+060af799ef5a cgroup: Prevent double killing of css when enabling threaded cgroup
+58e957b9c7c2 Bluetooth: Fix race condition in hci_release_sock()
+ab84fd0d3dc8 ttyprintk: fix a potential deadlock in interrupt context issue
+fb5e3b56c4c4 media: dvb-usb/dvb-usb-urb.c: initialize actlen to 0
+03a8533d9d06 media: gspca: zero usb_buf
+b7fae41e420f media: af9005: uninitialized variable printked
+2e0ebd897abc media: digitv: don't continue if remote control state can't be read
+4397069f236d reiserfs: Fix memory leak of journal device string
+569ae81e2ed8 mm/mempolicy.c: fix out of bounds write in mpol_parse_str()
+08e4a312439c ext4: validate the debug_want_extra_isize mount option at parse time
+64700ad97eab arm64: kbuild: remove compressed images on 'make ARCH=arm64 (dist)clean'
+44d8703769f3 tools lib: Fix builds when glibc contains strlcpy()
+1fa12145cd03 PM / devfreq: Add new name attribute for sysfs
+806dbe2dfa48 perf c2c: Fix return type for histogram sorting comparision functions
+db4d8e42eca7 crypto: pcrypt - Fix user-after-free on module unload
+e3f5c2e99092 x86/resctrl: Fix a deadlock due to inaccurate reference
+df57e8ba374c x86/resctrl: Fix use-after-free due to inaccurate refcount of rdtgroup
+d20edc0bca55 x86/resctrl: Fix use-after-free when deleting resource groups
+40642747dd9f vfs: fix do_last() regression
+713ff7e4d605 crypto: af_alg - Use bh_lock_sock in sk_destruct
+c662ea4fab81 rsi: fix use-after-free on probe errors
+b4cdf5066ce2 net_sched: ematch: reject invalid TCF_EM_SIMPLE
+ebb7fb7dfd65 usb-storage: Disable UAS on JMicron SATA enclosure
+5ed8ea1798f5 PCI: Add DMA alias quirk for Intel VCA NTB
+5be2654a3fd9 atm: eni: fix uninitialized variable warning
+c698d678854c gpio: max77620: Add missing dependency on GPIOLIB_IRQCHIP
+e52f8ff34eaa net: wan: sdla: Fix cast from pointer to integer of different size
+d24cfcdb6285 drivers/net/b44: Change to non-atomic bit operations on pwol_mask
+b56f2a4a4327 spi: spi-dw: Add lock protect dw_spi rx/tx to prevent concurrent calls
+60cf76ecde8c watchdog: rn5t618_wdt: fix module aliases
+d2b24c965f8f watchdog: max77620_wdt: fix potential build errors
+aba29b46dfea phy: cpcap-usb: Prevent USB line glitches from waking up modem
+a30b232c18fa HID: ite: Add USB id match for Acer SW5-012 keyboard dock
+0f6f06934937 arc: eznps: fix allmodconfig kconfig warning
+108b4537f1a4 zd1211rw: fix storage endpoint lookup
+419d0f93ac3c rtl8xxxu: fix interface sanity check
+684cf943bb47 brcmfmac: fix interface sanity check
+2f4c65c23fcd ath9k: fix storage endpoint lookup
+6a35190cc2ed crypto: chelsio - fix writing tfm flags to wrong place
+a2e73efbb312 serial: 8250_bcm2835aux: Fix line mismatch on driver unbind
+c6c4999a16f2 staging: vt6656: Fix false Tx excessive retries reporting.
+bba758d3f3b9 staging: vt6656: use NULLFUCTION stack on mac80211
+abb33ca71867 staging: vt6656: correct packet types for CTS protect, mode.
+07219a4cf2fc staging: wlan-ng: ensure error return is actually returned
+6560fd66278f staging: most: net: fix buffer overflow
+e1b4f5461f8b usb: dwc3: turn off VBUS when leaving host mode
+2cb7f8d0e751 USB: serial: ir-usb: fix IrLAP framing
+dc7692a8975b USB: serial: ir-usb: fix link-speed handling
+172b7f71488c USB: serial: ir-usb: add missing endpoint sanity check
+98a23baf0794 rsi_91x_usb: fix interface sanity check
+a79def80c7a4 orinoco_usb: fix interface sanity check
+abd9ef47b627 power: smb5-lib: fix fast charging issue
+
+   * packages/apps/DerpQuest/
+41ce8d2 DerpQuest: Update Status bar logos [2/2]
+417fe11 DerpQuest: Add Chinese translations
+7b722b9 DerpQuest: Change BatteryBar switch dependency so it makes sense
+
+   * packages/apps/OpenDelta/
+a742155 Merge branch 'android-10' of https://github.com/omnirom/android_packages_apps_OpenDelta into ten
+
+   * packages/apps/Settings/
+34db819f70 FeatureFactoryImpl: PowerUsageFeatureProviderGoogleImpl: Catch NameNotFoundException
+8143ef69da FeatureFactoryImpl: Update PowerUsageFeatureProviderGoogleImpl
+3282ce6bc6 Settings: Update raw animations and drawables from Pixel 4 XL
+cc3ea4819a Settings: Adaptive brightness: Fix summary fuckery
+d5c6397cdb Use IEC units in app info data usage.
+355ffdc4ab Power detail pages: Finish off the rest of the icon tinting
+e0732c8d77 Settings: fix icon tinting in power detail pages
+1ac23d88c7 Themes: make sure settings shortcut icons follow system accent
+99ea749ff3 Desktop backup password: Tint buttons to match system theme
+
+   * system/sepolicy/
+ab7677e4 app_zygote need access to oem partition
+8bb47088 Export vold FDE algorithm properties
+72c6c1c3 Mark mediacodec_2{6,7,8} as hal_omx_server
+511ebe1d Set odm and vendor build.version.incremental to be publicly readable
+8ef2530a Allow vendor to configure lmkd properties
+
+   * vendor/aosip/
+eab738f vendor: Optimize Pixel charger animation
+f93252c vendor: Use Pixel charger animation
+01fb934 vendor: Update Longshot [1/2]
+66ec62d derp: Add support for X01BD
+
+   * vendor/overlay/
+10ee4ed Overlays: Compress and optimize our default wallpaper
+
+   * vendor/prebuilts/
+200d709 prebuilts: Update Longshot [2/2]
+c0e38c7 prebuilts: Lawnchair: Update to q_pre_alpha v2616
+
+====================
+     02-05-2020
+====================
+
+
+   * frameworks/base/
+cc731d8d556 GlobalScreenshot: do not capture multiple screenshots simultaneously
+ce07f8c436d SystemUI: block gestural navigation when using partial screenshot
+e20ba7fd2da SystemUI: Pass correct NetworkTemplate to CellularTile detail view
+f7f2a4630b9 Revert "SystemUI: QS: Fix mobile data usage qs details view content"
+7aeab564fd9 [SQUASHED] base: Revert recent bluetooth changes
+
+   * hardware/qcom-caf/msm8996/audio/
+3e32f8e78 Merge tag 'LA.UM.8.6.r1-02900-89xx.0' of https://source.codeaurora.cn/quic/la/platform/hardware/qcom/audio into HEAD
+
+   * packages/apps/DerpQuest/
+c52c7a2 DerpQuest: Move ANBI switch to the right category * And fix a small logic issue
+
+   * packages/apps/ThemePicker/
+14f8889 ThemePicker: Fix showing primary color titles
+
+   * system/core/
+c16793886 Set /sys/power/wake_lock permissions on init.
+
+====================
+     02-04-2020
+====================
+
+
+   * build/make/
+c4f723a46 Fix zsh compatibility issue in build/envsetup.sh
+edda74a5f Fix lunch choices w/zsh
+4b4cdf784 Gather lunch choices before printing prompt
+dd472d71a Merge tag 'android-10.0.0_r27' of https://android.googlesource.com/platform//build into HEAD
+
+   * frameworks/av/
+c4b9cb36a Merge tag 'android-10.0.0_r27' of https://android.googlesource.com/pl…
+
+   * frameworks/base/
+3b4b1652f71 Fix android setup permissions
+c5ac7882294 AMS: Fix the null pointer exception in IntentResolver
+3e3bef959fb Fix MtpDatabase multithreading NullPointerException
+a186b6324dd Fix incorrect context classloader initialization in system_server
+feb0e469f25 Fix LockdownVpnTracker deadlock when resetting legacy Always-On VPN
+72b714647f8 data: update systemui priv-app permissions
+bfdf13100db Update priv-app permissions
+cb490caa3e5 RebootTile: Make default state inactive
+05329a51b60 Extend reboot tile to add power off
+8435fa496ef RebootTile: Fix gradient message display for reboot to recovery
+67d8a090225 Add Reboot/Recovery QS Tile
+f617b431aca Revert "SystemUI: QS: Add Reboot/Recovery Tile"
+9f63e81eb39 Merge tag 'android-10.0.0_r27' of https://android.googlesource.com/platform//frameworks/base into HEAD
+500cf5be2f7 base: Add an option to pulse edge light for all doze triggers [1/2]
+
+   * frameworks/native/
+38602b2d5 Merge tag 'android-10.0.0_r27' of https://android.googlesource.com/platform//frameworks/native into HEAD
+
+   * frameworks/opt/net/wifi/
+9c908c549 Merge tag 'android-10.0.0_r27' of https://android.googlesource.com/platform//frameworks/opt/net/wifi into HEAD
+
+   * hardware/libhardware/
+1dde6678 Merge tag 'android-10.0.0_r27' into ten
+
+   * kernel/xiaomi/sm8150/
+6f372972036f dsi: panel: disable doze on screen off
+
+   * manifest/
+e82bd39 Initial tracking for DerpFest
+f7850cb Merge tag 'android-10.0.0_r27' into ten
+a7193f2 Manifest for Android 10.0.0 Release 27 (QQ1B.200205.002)
+7696dbc Manifest for Android 10.0.0 Release 26 (QQ1A.200205.002)
+78aff0a Update README for new domain
+
+   * packages/apps/Bluetooth/
+9e336b2b Merge tag 'android-10.0.0_r27' of https://android.googlesource.com/platform//packages/apps/Bluetooth into HEAD
+
+   * packages/apps/CertInstaller/
+5529564 Merge tag 'android-10.0.0_r27' into ten
+
+   * packages/apps/DerpQuest/
+cd5a946 DerpQuest: Move charging info text switch to DerpQuest [2/2]
+ed550df DerpQuest: Add an option to pulse edge light for all doze triggers [2/2]
+fe5b3b4 DerpQuest: Add back missing edge lighting preview
+
+   * packages/apps/Settings/
+c132ddf3b1 Settings: Move charging info text switch to DerpQuest [1/2]
+26baf7c842 Merge tag 'android-10.0.0_r27' of https://android.googlesource.com/platform//packages/apps/Settings into HEAD
+
+   * packages/services/Telecomm/
+7cb3cbe4 Merge tag 'android-10.0.0_r27' of https://android.googlesource.com/platform//packages/services/Telecomm into HEAD
+
+   * system/bt/
+994f06e73 Merge tag 'android-10.0.0_r27' into ten
+

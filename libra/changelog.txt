@@ -1,0 +1,107 @@
+====================
+     01-28-2020
+====================
+
+
+   * device/xiaomi/msm8994-common/
+14dc9bc msm8994-common: Fix build errors with libgps.utils.so
+
+   * frameworks/base/
+d93f77bb Revert "base: Remove aosp accents"
+
+   * kernel/xiaomi/libra/
+bcf5a4b5 drivers: soc: qcom: Added check to avoid opening multiple instance
+
+   * manifest/
+8da6983 Initial tracking for DerpFest
+
+   * vendor/aosip/
+ea8b6f9 vendor: Include PixelLiveWallpaperPrebuilt
+
+   * vendor/gapps/
+d8658c3 gapps: Don't build GooglePackageInstaller
+
+   * vendor/overlay/
+06a952e DNM: Overlays: Update accents for DerpFest
+
+   * vendor/prebuilts/
+a435d2f prebuilts: Build Google prebuilts conditionally
+
+   * vendor/xiaomi/libra/
+80a3023 libra: fix build error...
+
+====================
+     01-27-2020
+====================
+
+
+   * packages/apps/DerpQuest/
+3ffc94d Running services icon toggle [2/2]
+
+   * packages/apps/Settings/
+cbc45af Allow to quickly open Running Services from QS panel [2/2]
+
+====================
+     01-26-2020
+====================
+
+
+====================
+     01-25-2020
+====================
+
+
+   * hardware/qcom-caf/sm8150/audio/
+8a9ac4f Merge tag 'LA.UM.8.1.r1-13500-sm8150.0' of https://source.codeaurora.org/quic/la/platform/hardware/qcom/audio into ten
+
+   * hardware/qcom-caf/sm8150/media/
+e4d47f3 Merge tag 'LA.UM.8.1.r1-13500-sm8150.0' of https://source.codeaurora.org/quic/la/platform/hardware/qcom/media into ten
+
+====================
+     01-24-2020
+====================
+
+
+   * packages/apps/Dialer/
+cdb6ba0 Dailer: match adaptive icon to contacts one
+
+====================
+     01-23-2020
+====================
+
+
+   * frameworks/av/
+ec2545f audio policy: fix capture policy for HOTWORD source
+
+   * packages/apps/Bluetooth/
+87c4095 Merge pull request #1 from nullxception/npe-fix
+
+   * packages/apps/OpenDelta/
+7ae5fdf OpenDelta: Allow overriding the download url in json
+
+   * packages/apps/ThemePicker/
+f63fe67 ThemePicker: Prevent random crash when trying to set wallpaper bitmap this fixes crash: https://del.dog/yunatamico
+
+   * vendor/google/customization/
+0a7bfb7 Add google FI support
+
+====================
+     01-22-2020
+====================
+
+
+   * device/xiaomi/aries/
+e2ba7a2 aries: TARGET_INCLUDE_WIFI_EXT to false
+
+   * device/xiaomi/msm8960-common/
+cf9a9fd msm8960-common: trying to make it boot
+
+   * packages/apps/Contacts/
+af9800b Contacts: add dark mode support
+
+   * packages/inputmethods/LatinIME/
+973bbe1 LatinIME: Change jni lib to prebuilt Google version
+
+   * packages/providers/ContactsProvider/
+0371370 ContactsProvider: Prevent device contact being deleted.
+

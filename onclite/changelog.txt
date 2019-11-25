@@ -1,0 +1,11 @@
+Changelogs :
+- Introduce an Energy Model management framework
+- Introduce Unwanted apps blocker
+- 70Hz Screen Refresh Rate
+- Dynamic FPS
+- Updated coral feb fingerprint
+- some optimization on device & kernel source
+- Enabled 1080p on YouTube
+- Enable manual network search
+- enable cpuidle during boot
+- Set GPU Max speed & CPU Min speed on boot

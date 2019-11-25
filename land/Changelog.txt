@@ -1,0 +1,183 @@
+====================
+     02-11-2020
+====================
+
+
+====================
+     02-10-2020
+====================
+
+
+====================
+     02-09-2020
+====================
+
+
+   * frameworks/base/
+29487c6 AoD: Always force brightness updates on pause
+294ec74 Revert "DozeUi: do not prepare for gentle wakeup"
+a09b519 Fix NPE with void android.view.VelocityTracker.clear()
+7f63864 base: Fix unnecessary truncation in Slice
+9c5d16b SystemUI: Fix minute digits for accent based lockscreen clock style
+9be3f8d base: add Bootleg's Date Styles [1/2]
+405006e base: add Q beta pill background [1/2]
+03ce3ac Introduce lockscreen date styles [1/2]
+7787baa Decrease line spacing in sammy clock styles
+e0f53f3 SystemUI: fix accent based lockscreen clocks
+d48e090 Always keep clock widget visible while dozing
+bb426a2 SystemUI: Option to hide lockscreen clock & date [1/2]
+82d7ec1 SystemUI: Lockscreen clock styles: Add sammy accent hour clock [1/2]
+9df8d7a SystemUI: Lockscreen clock styles: Add accent clocks from pie [1/2]
+0e3b455 SystemUI: Lockscreen clock styles: Add sammy accent clock and a variant [1/2]
+d9f73a3 Introduce lockscreen clock/date styles [1/2]
+041ad50 base: Revert old lockclock implementation [1/2]
+
+   * packages/apps/DerpQuest/
+bcac7cb DerpQuest: Date styles: Add Bootleg's styles [2/2]
+7faa617 DerpQuest: Date styles: Add Q beta pill [2/2]
+330af3f DerpQuest: Lockscreen date styles [2/2]
+6626cde DerpQuest: Option to hide lockscreen clock & date [2/2]
+6a582e5 DerpQuest: Lockscreen clock styles: Add sammy accent hour clock [2/2]
+25944f3 DerpQuest: More lockscreen clock styles [2/2]
+5e93884 DerpQuest: Introduce lockscreen clock/date styles [2/2]
+2965955 DerpQuest: Revert old lockclock implementation [2/2]
+
+   * packages/apps/OmniStyle/
+8a5341a OmniStyle: Introduce Q headers
+
+====================
+     02-08-2020
+====================
+
+
+   * device/aosip/sepolicy/
+5f044f7 sepolicy: Fix Lawnchair denials
+
+   * packages/apps/DerpQuest/
+0d65e2d DerpQuest: Update German translations
+
+   * packages/apps/ThemePicker/
+9787a33 ThemePicker: limit number of icon previews shown
+a8e8060 ThemePicker: wrap font name content
+
+   * vendor/aosip/
+dc7a2a0 backuptool: Fix addon.d version check for A-only
+f22ae8b backuptool: Execute check_blacklist from the current directory
+58d1e8c backuptool: Run check_{black, white}list with proper system path
+
+   * vendor/overlay/
+4b4f31e overlay: Extend icon previews list
+90f8fdf overlay: Allow to theme Settings with primary
+
+   * vendor/pixelstyle/
+cabfc3d pixelstyle: Update bootanimations
+
+====================
+     02-07-2020
+====================
+
+
+   * frameworks/base/
+3109b37 SystemUI: DigitalClock: increase linespacing
+0dd899d SystemUI: fixup analog clock for aod support
+1a9ab36 SystemUI: TypeClock: adapt to recents clock keyguard changes
+9662895 SystemUI: custom keyguard clock kick off
+243f817 base: Add custom charging info fonts [1/2]
+b97bd06 base: keyguardStatusView: Fix some ugly code and save a lot of runtime
+
+   * packages/apps/DerpQuest/
+9a2f091 DerpQuest: Add custom charging info fonts [2/2]
+
+   * packages/apps/ThemePicker/
+7f2d13b ThemePicker: Add German translations
+a966fbc ThemePicker: Fix derp of f7a9b12fd32664c57926e663060509f2a65c9b00
+
+   * packages/inputmethods/LatinIME/
+27f16a5 Add Hardslog light theme
+e8d379e few more tweaks for hs_dark to make it more material
+8ddfa4e New theme:  BLACKOUT
+5676977 Add new hardslog_dark theme
+
+====================
+     02-06-2020
+====================
+
+
+   * device/aosip/sepolicy/
+7dd8995 snap_app: Allow binder call with gpuservice
+9711db6 sepolicy: Add rules for Long screenshot service
+4b37652 sepolicy: Label ro.telephony.use_old_mnc_mcc_format
+
+   * frameworks/base/
+24d3254 SystemUI: EnhancedEstimatesGoogleImp: Get turbo going again
+f51f85c SystemUI: EnhancedEstimatesGoogleImp: Catch NameNotFoundException
+e0fbaf7 base: Increase Longshot timeout to 2 seconds
+a77f9c5 SystemUI: Lockscreen weather code fixes
+d66f90b Revert "SystemUI: tiles: Migrate to new screenshot method with Longshot support"
+4381b49 base: Port extended screenshot function from OOS
+fbd6f40 Revert "base: Port extended screenshot function from OOS"
+5481daf base: Update Status bar logos [1/2]
+
+   * packages/apps/DerpQuest/
+41ce8d2 DerpQuest: Update Status bar logos [2/2]
+417fe11 DerpQuest: Add Chinese translations
+7b722b9 DerpQuest: Change BatteryBar switch dependency so it makes sense
+
+   * packages/apps/OpenDelta/
+a742155 Merge branch 'android-10' of https://github.com/omnirom/android_packages_apps_OpenDelta into ten
+
+   * packages/apps/Settings/
+34db819 FeatureFactoryImpl: PowerUsageFeatureProviderGoogleImpl: Catch NameNotFoundException
+8143ef6 FeatureFactoryImpl: Update PowerUsageFeatureProviderGoogleImpl
+3282ce6 Settings: Update raw animations and drawables from Pixel 4 XL
+cc3ea48 Settings: Adaptive brightness: Fix summary fuckery
+d5c6397 Use IEC units in app info data usage.
+355ffdc Power detail pages: Finish off the rest of the icon tinting
+e0732c8 Settings: fix icon tinting in power detail pages
+1ac23d8 Themes: make sure settings shortcut icons follow system accent
+99ea749 Desktop backup password: Tint buttons to match system theme
+
+   * system/sepolicy/
+ab7677e app_zygote need access to oem partition
+8bb4708 Export vold FDE algorithm properties
+72c6c1c Mark mediacodec_2{6,7,8} as hal_omx_server
+511ebe1 Set odm and vendor build.version.incremental to be publicly readable
+8ef2530 Allow vendor to configure lmkd properties
+
+   * vendor/aosip/
+eab738f vendor: Optimize Pixel charger animation
+f93252c vendor: Use Pixel charger animation
+01fb934 vendor: Update Longshot [1/2]
+66ec62d derp: Add support for X01BD
+
+   * vendor/overlay/
+10ee4ed Overlays: Compress and optimize our default wallpaper
+
+   * vendor/prebuilts/
+200d709 prebuilts: Update Longshot [2/2]
+c0e38c7 prebuilts: Lawnchair: Update to q_pre_alpha v2616
+
+====================
+     02-05-2020
+====================
+
+
+   * frameworks/base/
+cc731d8 GlobalScreenshot: do not capture multiple screenshots simultaneously
+ce07f8c SystemUI: block gestural navigation when using partial screenshot
+e20ba7f SystemUI: Pass correct NetworkTemplate to CellularTile detail view
+f7f2a46 Revert "SystemUI: QS: Fix mobile data usage qs details view content"
+7aeab56 [SQUASHED] base: Revert recent bluetooth changes
+
+   * hardware/qcom-caf/msm8996/audio/
+3e32f8e Merge tag 'LA.UM.8.6.r1-02900-89xx.0' of https://source.codeaurora.cn/quic/la/platform/hardware/qcom/audio into HEAD
+
+   * packages/apps/DerpQuest/
+c52c7a2 DerpQuest: Move ANBI switch to the right category * And fix a small logic issue
+
+   * packages/apps/ThemePicker/
+14f8889 ThemePicker: Fix showing primary color titles
+
+   * system/core/
+c167938 Set /sys/power/wake_lock permissions on init.
+

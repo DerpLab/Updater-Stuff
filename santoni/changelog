@@ -1,0 +1,22 @@
+Device:
+- Goodix,FPC both working now
+- Compiled Clarity CAF With Clang 10.0.2 
+- Improve  Memory Management
+- Update Time from LA.UM.8.6.r1-02600-89xx.0
+- Update QMI/Radio/IMS blobs from LA.UM.8.6.r1-02900-89xx.0 
+- Update ADSP blobs from LA.UM.8.6.r1-02600-89xx.0
+- Update media from LA.UM.8.6.r1-02600-89xx.0
+- Update graphics stack from LA.UM.8.6.r1-02600-89xx.0
+- Update WFD from LA.UM.8.6.r1-02600-89xx.0 
+- Update perf from LA.UM.8.6.r1-02600-89xx.0
+- Update FM from LA.UM.8.6.r1-02600-89xx.0 
+- Update thermal blobs from LA.UM.8.6.r1-02600-89xx.0
+- Update QTI Bluetooth from LA.UM.8.6.r1-02600-89xx.0 
+- Update Power-Off Alarm from LA.UM.8.6.r1-02600-89xx.0 
+- Update Audio blobs from LA.UM.8.6.r1-02600-89xx.0 
+- Update sensor blobs from LA.UM.8.6.r1-02600-89xx.0 
+- Update charger from LA.UM.8.6.r1-02600-89xx.0 
+- Update ANT+ from LA.UM.8.6.r1-02600-89xx.0
+- Update peripheral manager from LA.UM.8.6.r1-02600-89xx.0 
+- Update listen blobs from LA.UM.8.6.r1-02600-89xx.0 
+- Update DRM from LA.UM.8.6.2.r1-03700-89xx.0
