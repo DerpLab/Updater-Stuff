@@ -1,0 +1,54 @@
+ Changelog for DerpFest Build Update 18.11.2019 for Sanders:
+
+
+[SOURCE]
+
+• Ambient music: pulse on new tracks even if all Ambient options are off
+• Added Option to configure the height of the back gesture
+• Added Extended audio panel
+• Added charging Animation toggle
+• Switched to VoLTE icon from OOS pie
+• Allow switching to drawable for qs icons (useful for some substratum themes)
+• Added option to show battery percent & estimate together
+• Added support for max/min fling velocity sysproperties
+- Removed LOS Recorder
+• Made aspect ratio hack configable on app level
+• Allow screen to be rotated via the accelerometer in all 4 rotations
+• Shortened network transition timeout
+• Disabled long click for AOD qs tile
+• Added interface declaration for audio hal service
+• Introduced QSEECom backend implementation
+• Added QS drag handle toggle
+• Added QS persistent settings icons toggle
+• Fixed QS footer side margin
+• Fixed Bootanimation stack overflow
+• Fixed Layout of qs header info
+• Fixed Status bar header height in edit mode
+• Fixed Color/tint of wifi/mobile status bar icons in some cases
+• Disabled statusbar time refresh when screen off and forced a clock update if the screen is turned back on
+• Added german translation for DerpQuest and Settings
+• Some more things maybe I can't remember more :P
+
+
+[MISC]
+
+• Removed Gapps
+• Added AOSP apps
+• Added Wallpaper picker app
+• Added Pixel styles
+• Added Updater
+
+
+[DEVICE]
+
+• Fixed the Gcam 7.x force close
+• Made build more smoother
+• Updated aptx blobs from crosshatch QP1A.190711.020
+• Some minor bug fixes
+
+#StayDerped
+
+
+Note1: Kindly read all information provided on website. Still you have any doubts ask @marshmello_61 on t.me/DerpfestSanders
+
+Note2: YOU CAN ALWAYS SET THE DEFAULT CPU GOVERNOR TO INTERACTIVE IF YOU WANT BETTER BATTERY
