@@ -1,0 +1,40 @@
+Rom changelog
+- Added Custom Rounded Corner and Padding preferences (Thanks to @911-Future_Maker)
+- Improved Statusbar logos (thanks to @fraz14)
+- Added Increasing ring feature (thanks to @fraz14)
+- Added Option to edit footer text
+- Added Screen off animations
+- Added Combined & Dynamic Network Traffic Mode
+- Added Option to select size of Single Traffic (Up/Down) Font Size
+- Added Hide notch support
+- Added Option to suppress notifications sound/vibration if screen is on
+- Modified In-display fingerprint icon (thanks to @okitavera)
+- Added OP Screen Recorder (available from qs tile)
+- Updated Pixel LiveWallpapers (color options included for example)
+- Added Switch for pre P mobile type icon style
+- Improved Network tuner switches and ims icon behavior
+- Fixed custom app selection dialog for hw keys
+- Added flash-call-on-waiting options
+- Added back developer QS tiles
+- Added back SELinux info
+- Properly handle View Visibility for left clock
+- Fixed right clock padding
+- Fixed statusbar clock overlapping after reboot
+- Improved Compass qs tile and added a device supports compass check
+- Allowed disabling BrightlineFalsingManager with config flag
+- Use matching data usage size formatting between QS and Settings
+- Added support for showing Notification LED in zen mode
+- Switched to new AOSP method to set screenshot delay to 0
+- Turned off some more debugging
+- Force disabled PlayServices OTA checks
+- Conditionally disabled uncrypt for ota
+- Granted some more permissions for Google apps
+- Some more things maybe I can't remember more :P
+
+Device changelog 
+- Added Button customization 
+- Fix lock screen glitch 
+- Fix OTA app crash
+- Fix camera crash 
+- Update new ims 
+- Improve notification panel padding
