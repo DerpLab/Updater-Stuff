@@ -1,0 +1,39 @@
+ROM:
+- R16 December Patch Merged
+- Added Screen off animations
+- Introduce DataSwitchTile
+- Bring Back Fonts From PIE (OOS & CircularStd)
+- Added Custom Rounded Corner and Padding preferences
+- Improved Statusbar logos
+- Added Increasing ring feature
+- Added Option to edit footer text
+- Added Screen off animations
+- Added Combined & Dynamic Network Traffic Mode
+- Added Option to select size of Single Traffic (Up/Down) Font Size
+- Added Hide notch support
+- Added Option to suppress notifications sound/vibration if screen is on
+- Modified In-display fingerprint icon
+- Added OP Screen Recorder
+- Updated Pixel LiveWallpapers (color options included for example)
+- Improved Network tuner switches and ims icon behavior
+- Added back developer QS tiles
+- Added back SELinux info
+- Properly handle View Visibility for left clock
+- Fixed right clock padding
+- Fixed statusbar clock overlapping after reboot
+- Improved Compass qs tile and added a device supports compass check
+- Allowed disabling BrightlineFalsingManager with config flag
+- Use matching data usage size formatting between QS and Settings
+- Added support for showing Notification LED in zen mode
+- Switched to new AOSP method to set screenshot delay to 0
+- Turned off some more debugging
+- Force disabled PlayServices OTA checks
+- Conditionally disabled uncrypt for ota
+- Granted some more permissions for Google apps
+
+Device Side :
+- Added Inbuilt TWRP (Latest 3.3.1-0)
+- OTA Updates (Seamless Ota starts from this build)
+- Added Dirac Enable/Disable Q/S Toogle (From ROS)
+- Added New Material Based Icons For Dirac (From ROS)
+- Fixed Settings Cache Not Being Over Written By Update
