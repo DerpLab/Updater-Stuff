@@ -1,32 +1,57 @@
- Changelog for DerpFest Build Update 18.11.2019 for Sanders:
+Changelog for Official DerpFest Build Update 06.12.2019 for Sanders:
 
+AOSiP DerpFest is now DerpFest
 
 [SOURCE]
 
-• Ambient music: pulse on new tracks even if all Ambient options are off
-• Added Option to configure the height of the back gesture
-• Added Extended audio panel
-• Added charging Animation toggle
-• Switched to VoLTE icon from OOS pie
-• Allow switching to drawable for qs icons (useful for some substratum themes)
-• Added option to show battery percent & estimate together
-• Added support for max/min fling velocity sysproperties
-- Removed LOS Recorder
-• Made aspect ratio hack configable on app level
-• Allow screen to be rotated via the accelerometer in all 4 rotations
-• Shortened network transition timeout
-• Disabled long click for AOD qs tile
-• Added interface declaration for audio hal service
-• Introduced QSEECom backend implementation
-• Added QS drag handle toggle
-• Added QS persistent settings icons toggle
-• Fixed QS footer side margin
-• Fixed Bootanimation stack overflow
-• Fixed Layout of qs header info
-• Fixed Status bar header height in edit mode
-• Fixed Color/tint of wifi/mobile status bar icons in some cases
-• Disabled statusbar time refresh when screen off and forced a clock update if the screen is turned back on
-• Added german translation for DerpQuest and Settings
+• Merged December security patch (10.0.0_r16)
+• Added Edge pulse notification
+• Open Sound settings on long click at the panel button
+• Added ambient pulse notification
+• Added customization for Custom Carrier Label & Carrier Label Placement
+• Added customization for QS panel opacity
+• Allow to hide arrow for back gesture
+• Added Ambient Visualizer
+• Added Lockscreen cover art filter (grayscale, accent tint, blurry, grayscale and blurry, gradient blur)
+• Added Statusbar logo, color and positions options
+• Improved Ambient/AOD behavior
+• Added option to enable AOD on charging only
+• Added Incall vibration options
+• Led lights: don't skip dialer and other ones
+• Added AOKP custom system animations
+• Added Ethans animations
+• Added statusbar brightness control
+• Improved media seekbar
+• Added changelog to about phone
+• Added OTA app (was already there in sanders build)
+• Updated webview providers for Q
+• Added hebrew translation for DerpQuest
+• Added Custom Rounded Corner and Padding preferences
+• Improved Statusbar logos
+• Added Increasing ring feature
+• Added Option to edit footer text
+• Added Combined & Dynamic Network Traffic Mode
+• Added Option to select size of Single Traffic (Up/Down) Font Size
+• Added Hide notch support
+• Added Option to suppress notifications sound/vibration if screen is on
+• Modified In-display fingerprint icon (for device with fod obviously)
+• Added OP Screen Recorder
+• Updated Pixel LiveWallpapers (color options included for example)
+• Improved Network tuner switches and ims icon behavior
+• Added back developer QS tiles
+• Added back SELinux info
+• Properly handle View Visibility for left clock
+• Fixed right clock padding
+• Fixed statusbar clock overlapping after reboot
+• Improved Compass qs tile and added a device supports compass check
+• Allowed disabling BrightlineFalsingManager with config flag
+• Use matching data usage size formatting between QS and Settings
+• Added support for showing Notification LED in zen mode
+• Switched to new AOSP method to set screenshot delay to 0
+• Turned off some more debugging
+• Force disabled PlayServices OTA checks
+• Conditionally disabled uncrypt for ota
+• Granted some more permissions for Google apps
 • Some more things maybe I can't remember more :P
 
 
@@ -34,17 +59,35 @@
 
 • Removed Gapps
 • Added AOSP apps
-• Added Wallpaper picker app
-• Added Pixel styles
-• Added Updater
+• Changed the default wallpaper
 
 
 [DEVICE]
 
-• Fixed the Gcam 7.x force close
-• Made build more smoother
-• Updated aptx blobs from crosshatch QP1A.190711.020
-• Some minor bug fixes
+• Added Parallax-plus as default kernel (want suggestions for this)
+• Added back spectrum support (need to install spectrum apk)
+• Added DTV init files to fix DTV
+• Updated thermal-engine from latest CAF tag
+• Fixed power off charging display
+• Added some tweaks for optimization
+• Modified WiFi configs from latest CAF tag
+• Disabled SystemUI anti-falsing on lockscreen
+• Added missing permission for AR
+• Updated Camera props for Google Camera
+• Bulk Props update from Stock OPSS28.65-36-11-14
+• Vendor image upgrade to Stock OPSS28.65-36-11-14
+• Used Proper call recording overlay
+• Given light sensor some time to warm up
+• Added moar privapp-permissions
+• Disabled heatmap
+• Imported aptX blobs from crosshatch
+• Changed data properties to comply with Treble (so no network breakage on turning on & off airplane mode)
+• Added runtime pregrants for fixing Android Auto
+• Updated few frameworks/base overlays from LA.UM.8.6.r1-02300-89xx.0 CAF tag
+• Updated CarrierConfig from LA.UM.8.6.r1-02300-89xx.0 CAF tag
+• Added OpenCamera in place of Camera2 for now
+• Added Netflix-Specific prop so it recognizes the device as HD playback eligible
+• Some here & there performance improvements and minor bug fixes
 
 #StayDerped
 
