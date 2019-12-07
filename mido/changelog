@@ -1,20 +1,21 @@
 Rom changelog
-- Added Custom Rounded Corner and Padding preferences (Thanks to @911-Future_Maker)
-- Improved Statusbar logos (thanks to @fraz14)
-- Added Increasing ring feature (thanks to @fraz14)
+- R16 December Patch Merged
+- Added Screen off animations
+- Introduce DataSwitchTile
+- Bring Back Fonts From PIE (OOS & CircularStd)
+- Added Custom Rounded Corner and Padding preferences
+- Improved Statusbar logos
+- Added Increasing ring feature
 - Added Option to edit footer text
 - Added Screen off animations
 - Added Combined & Dynamic Network Traffic Mode
 - Added Option to select size of Single Traffic (Up/Down) Font Size
 - Added Hide notch support
 - Added Option to suppress notifications sound/vibration if screen is on
-- Modified In-display fingerprint icon (thanks to @okitavera)
-- Added OP Screen Recorder (available from qs tile)
+- Modified In-display fingerprint icon
+- Added OP Screen Recorder
 - Updated Pixel LiveWallpapers (color options included for example)
-- Added Switch for pre P mobile type icon style
 - Improved Network tuner switches and ims icon behavior
-- Fixed custom app selection dialog for hw keys
-- Added flash-call-on-waiting options
 - Added back developer QS tiles
 - Added back SELinux info
 - Properly handle View Visibility for left clock
@@ -29,7 +30,8 @@ Rom changelog
 - Force disabled PlayServices OTA checks
 - Conditionally disabled uncrypt for ota
 - Granted some more permissions for Google apps
-- Some more things maybe I can't remember more :P
+- Fixed AOD
+- Added edge lighting
 
 Device changelog 
 - Added Button customization 
