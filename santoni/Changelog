@@ -1,0 +1,28 @@
+Device:
+- Default Kernel: Clarity CAF
+
+ROM:
+- Merged December Security Patch (r16)
+- Added DataSwitch QS tile
+- Added Edge lighting notification option
+- Added Custom Carrier Label & Carrier Label Placement options
+- Added option to hide arrow for back gesture
+- Added QS panel opacity option
+- Removed Screen off animations (broken after r16 merge)
+- Improved Partial screenshot (allowed back action only from right side)
+- Improved Screenshot QS tile
+- Added option for visualizer default color
+- Added Double tap to trigger doze
+- Added option to set pulse brightness
+- Fixed tilepage layout update for QS tiles
+- Fixed black screen after AOD_PAUSED
+- Restored cache clean up code in PackageManagerService
+- Cellular QS tile title is based on carrier now
+- Removed data tile dialog
+- Added Omni Doze settings & TimeInState
+- Reimported Google TextClock translations and removed 24h translations
+- Added ability to open sound settings on long click at the panel button
+- Changed default font size of Single Traffic to 21dp
+- Enabled double tap sleep gestures by default
+- Improved Bluetooth battery level icons
+- Some more things maybe I can't remember more :P
