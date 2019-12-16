@@ -1,0 +1,33 @@
+ROM:
+- Merged AOSP r18
+- Reverted latest TextClock translation changes
+- Improved QS header and footer layout
+- Added 4th row option for portrait
+- Added config to decrease max rows per device
+- Fixed QS Signal Bars
+- Fixed data disabled icon
+- Added auto color option for edge lightning
+- Visualizer: Custom Color code clean-up & improvements
+- Reworked the system accents (removed some, added some)
+- Hide lock icon while dozing
+- Improved Navigation Bar toggle
+- Don't force show battery percent on keyguard
+- Fixed protected broadcast error for doze intents
+- Vibrate on volume panel button long press
+- Allow torch during ambient display
+- CPUInfoService: Don't show during doze
+- Some Google permission changes
+- Some more things maybe I can't remember more :P
+
+Device:
+- Updated GCam V1.6 with new package name
+- Enable Burn in protection
+- Added Safetynet hack
+- Fixed Notch Behavior not showing up
+- Audio, Media, Display HALs updated to latest Tag
+
+Kernel:
+- F2FS Stable + Rapid GC
+- Unwanted App Blocker
+- Latest CAF Tag
+- exFAT support
