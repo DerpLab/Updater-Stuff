@@ -1,0 +1,47 @@
+ROM:
+- Merged AOSP r18
+- Reverted latest TextClock translation changes
+- Improved QS header and footer layout
+- Added 4th row option for portrait
+- Added config to decrease max rows per device
+- Fixed QS Signal Bars
+- Fixed data disabled icon
+- Added auto color option for edge lightning
+- Visualizer: Custom Color code clean-up & improvements
+- Reworked the system accents (removed some, added some)
+- Hide lock icon while dozing
+- Improved Navigation Bar toggle
+- Don't force show battery percent on keyguard
+- Fixed protected broadcast error for doze intents
+- Vibrate on volume panel button long press
+- Allow torch during ambient display
+- CPUInfoService: Don't show during doze
+- Some Google permission changes
+- fixed volume key music control
+- fix nav. bar hiding
+- fix black screen for pulse
+- Some more things maybe I can't remember more :P
+
+Device:
+- fixed Edge Lightning with primary wallpaper color . 
+- Enable Burn in protection
+- fixed brightness issue
+- fixed FOD for both AOD and locksreen
+- fixed 3 finger swipe to screenshot ( screen move bug )
+- fixed AOD - notifications made display blank 
+- fixed NFC
+- bluetooth fixes
+- improved rounded corners
+- audio: switch to 24bit format for speaker output
+- Increase no. of visible max notifications icons 
+- Allow all apps to use smart replies 
+-  and many more things to list here ! :P
+
+Kernel:
+- Latest immensity ! 
+
+Caution :
+- If u flash any new kernel,remember to remove and re enroll Fingerprint to 
+not get unregistered finger unlock issue
+- try to keep only one fingerprint for one finger ! 
+- latest IN vendor 11.0.3.0 makes FOD worse! be on 11.0.1.0 IN ( For indian users )
