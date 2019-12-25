@@ -1,0 +1,20 @@
+Device:
+- Uprev power HAL
+- Fixed RiL issues
+- OTA implementation
+- ZRAM size increased to 1.5 GB 
+Note:- Chrome browser needs a bit of horsepower, and our device being SD450, trying clearing all background tasks and run chrome, or use mozilla.
+
+ROM:
+- Improvements for swipe to screenshot
+- Improved edge lightning behavior on live wallpaper
+- Added option to changing duration of ambient edge light
+- Added more notification snooze times
+- Allowed torch action also on ambient display & added haptic feedback
+- Reworked qs brightness slider implementation
+- Added User selectable VoLTE Icon
+- Imported PowerUsageFeatureProviderGoogleImpl
+- Fixed hardcoded black text in storage summary
+- Added context-aware Bluetooth airplane mode
+- Some more things maybe I can't remember more :P
+ 
