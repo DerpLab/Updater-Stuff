@@ -1,28 +1,35 @@
-Changelog for Official DerpFest Build Update 14.12.2019 for Sanders:
+Changelog for Official DerpFest Build Update 25.12.2019 for Sanders:
 
 [SOURCE]
 
-• Added Double tap to trigger doze
-• Disabled drag handle switch when always settings is enabled
-• Set default value of QS opacity to 100%
-• Some QS header improvements
-• Fixed signal bars always empty on expanded QS after r16 merge
-• Added DataSwitch QS tile
-• Improved Partial screenshot (allowed back action only from right side)
-• Improved Screenshot QS tile
-• Added option for visualizer default color
-• Added Double tap to trigger doze
-• Added option to set pulse brightness
-• Fixed tilepage layout update for QS tiles
-• Fixed black screen after AOD_PAUSED
-• Restored cache clean up code in PackageManagerService
-• Cellular QS tile title is based on carrier now
-• Removed data tile dialog
-• Added Omni Doze settings & TimeInState
-• Reimported Google TextClock translations and removed 24h translations
-• Changed default font size of Single Traffic to 21dp
-• Enabled double tap sleep gestures by default
-• Improved Bluetooth battery level icons
+• Merged AOSP r18 patch
+• Bring back the bootanimation from DerpFest pie
+• Improvements for swipe to screenshot
+• Improved edge lightning behavior on live wallpaper
+• Added option to changing duration of ambient edge light
+• Added more notification snooze times
+• Allowed torch action also on ambient display & added haptic feedback
+• Reworked qs brightness slider implementation
+• Added User selectable VoLTE Icon
+• Imported PowerUsageFeatureProviderGoogleImpl
+• Fixed hardcoded black text in storage summary
+• Added context-aware Bluetooth airplane mode
+• Reverted latest TextClock translation changes
+• Improved QS header and footer layout
+• Added 4th row option for portrait
+• Added config to decrease max rows per device
+• Fixed data disabled icon
+• Added auto color option for edge lightning
+• Visualizer: Custom Color code clean-up & improvements
+• Reworked the system accents (removed some, added some)
+• Hide lock icon while dozing
+• Improved Navigation Bar toggle
+• Don't force show battery percent on keyguard
+• Fixed protected broadcast error for doze intents
+• Vibrate on volume panel button long press
+• Allow torch during ambient display
+• CPUInfoService: Don't show during doze
+• Some Google permission changes
 • Some more things maybe I can't remember more :P
 
 
@@ -35,8 +42,15 @@ Changelog for Official DerpFest Build Update 14.12.2019 for Sanders:
 
 [DEVICE]
 
-• Fixed the minimum governor frequency was set always 1401MHz (thanks to ronax for helping)
-• Some little performance & battery improvements
+• Added prebuilt WallpapersTheme app from Pixel 4 (now you can choose from all 4 icon customizations)
+• Added working FM radio app with new design
+• Added the DTV init file to fix DTV (report me, working or not)
+• Fixed Vulkan permission files
+• Updated radio props from coral
+• Added the DerpQuest statusbar logo overlay from DerpFest pie
+• Added Google Dialer Frameworks which were missing from source (now you can download google dialer from playstore even without Gapps)
+• Added permissions for google dialer
+• Added PixelExperience feature for google dialer
 
 
 #StayDerped
