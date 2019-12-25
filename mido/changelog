@@ -1,38 +1,27 @@
 Rom cgangelog 
 
-- Merged AOSP r18
-- Reverted latest TextClock translation changes
-- Improved QS header and footer layout (without custom header looks better now)
-- Added 4th row option for portrait
-- Added config to decrease max rows per device
-- Fixed QS Signal Bars
-- Added auto color option for edge lightning
-- Visualizer: Custom Color code clean-up & improvements
-- Reworked the system accents (removed some, added some)
-- Hide lock icon while dozing
-- Improved Navigation Bar toggle
-- Don't force show battery percent on keyguard
-- Fixed protected broadcast error for doze intents
-- Vibrate on volume panel button long press
-- Allow torch during ambient display
-- CPUInfoService: Don't show during doze
-- Removed "Phone ringtone setting for Multi SIM device"
-- Removed Double tap to trigger doze option
-- VisualizerView: Don't add null end actions to animators
-- Fixed volume key music control on ambient display
-- Unlinked AoD switch pref from AoD on charge
-- Fixed Statusbar Clock font array values
-- Fixed edge lighting colorpicker showing wrong colorhex in summary
-- Disabled ANBI when enabling navbar
-- Some Google permission changes
+- Improvements for swipe to screenshot
+- Improved edge lightning behavior on live wallpaper
+- Added option to changing duration of ambient edge light
+- Added more notification snooze times
+- Allowed torch action also on ambient display & added haptic feedback
+- Reworked qs brightness slider implementation
+- Added User selectable VoLTE Icon
+- Imported PowerUsageFeatureProviderGoogleImpl
+- Fixed hardcoded black text in storage summary
+- Added context-aware Bluetooth airplane mode
 - Some more things maybe I can't remember more :P
 
-
-Device changelog
-
-- Fix AOD 
-- Fix Edge light notification
-- Fix Network bar on QS
-- Fix Media lag 
-- Ignore RSSNR Signal Level
-- Fixed Edge Lightning with primary wallpaper color
+Device Changelog
+- Fix Airtel volte
+- Fix Network fluctuation
+- Fix always on display 
+- Fix Edge lighting on default wallpaper
+- Improve Sound performance 
+- Fix Media lag
+- Update IMS
+- Update Time service 
+- Update rtp deamons (thanks to @GiaSen)
+- Enable AFEEC format
+- Update Aptx blobs
+- Update qti telephony
