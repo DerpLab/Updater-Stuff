@@ -1,0 +1,13 @@
+- Initial Official build
+- Added OTA update support
+- Improvements for swipe to screenshot
+- Improved edge lightning behavior on live wallpaper
+- Added option to changing duration of ambient edge light
+- Added more notification snooze times
+- Allowed torch action also on ambient display & added haptic feedback
+- Reworked qs brightness slider implementation
+- Added User selectable VoLTE Icon
+- Imported PowerUsageFeatureProviderGoogleImpl
+- Fixed hardcoded black text in storage summary
+- Added context-aware Bluetooth airplane mode
+- Some more things maybe I can't remember more :P
