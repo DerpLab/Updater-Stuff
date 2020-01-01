@@ -1,56 +1,84 @@
-Changelog for Official DerpFest Build Update 25.12.2019 for Sanders:
+Changelog for Official DerpFest Build Update 01.01.2020 for Sanders:
 
 [SOURCE]
 
-• Merged AOSP r18 patch
-• Bring back the bootanimation from DerpFest pie
-• Improvements for swipe to screenshot
-• Improved edge lightning behavior on live wallpaper
-• Added option to changing duration of ambient edge light
-• Added more notification snooze times
-• Allowed torch action also on ambient display & added haptic feedback
-• Reworked qs brightness slider implementation
-• Added User selectable VoLTE Icon
-• Imported PowerUsageFeatureProviderGoogleImpl
-• Fixed hardcoded black text in storage summary
-• Added context-aware Bluetooth airplane mode
-• Reverted latest TextClock translation changes
-• Improved QS header and footer layout
-• Added 4th row option for portrait
-• Added config to decrease max rows per device
-• Fixed data disabled icon
-• Added auto color option for edge lightning
-• Visualizer: Custom Color code clean-up & improvements
-• Reworked the system accents (removed some, added some)
-• Hide lock icon while dozing
-• Improved Navigation Bar toggle
-• Don't force show battery percent on keyguard
-• Fixed protected broadcast error for doze intents
-• Vibrate on volume panel button long press
-• Allow torch during ambient display
-• CPUInfoService: Don't show during doze
-• Some Google permission changes
+• Introduced new theming category in DerpQuest (Replaced Pixel theme stub with open sourced version)
+• Added Lockscreen Clock Fonts & Size options
+• Added Lockscreen Date Fonts & Size options
+• Added Lockscreen Owner info Fonts & Size options
+• Added Blur settings search bar and DocumentsUI
+• Removed QS brightness mirror
+• Added support for internal audio recording for OP recorder
+• Lockscreen charging info: show decimal in battery temperature
+• Statusbar Logos are using automatic color now
+• Show current and new version on apk installation
+• Added switch to hide status bar on lock screen
+• Various fixes for Ambient music
+• Added switch for brighness min/max icons
+• Added switch for hiding the QS security footer
+• Show RGB value instead of ARGB for Edge light color picker
+• Added support for devices with popup camera
+• Allowed third party apps to access identifiers
+• Fixed LockscreenSettings crash for devices without Fingerprint
+• Fixed dt2s issue introduced during mismerge of r16 tag
+• Brought back Multisim ringtone settings
+• Added back Double tap to trigger doze
+• Added buildtype to about phone
+• Disabled Google Play system update check
+• Added Config to disable wake to ambient on soli devices
+• Added dalvik-heap device-configs for 4/6/8/16GB devices
+• Fixed QS opacity after reboot
+• Fix NPE in Google Drive
+• AppTransitions: Removed hackery for controls duration
+• Fixed crash in development settings for some devices
+• Edge Light: Hide category if Ambient wake gestures are unavailable
+• Added russian translations for DerpQuest
 • Some more things maybe I can't remember more :P
 
 
 [MISC]
 
+• Added new outlined icon for caffeine qs tile for matching other android 10 qs tile
 • Removed Gapps
-• Added AOSP apps
-• Changed the default wallpaper to very minimal one
+• Added few AOSP apps
+• Changed default wallpaper to very minimal one
 
 
 [DEVICE]
 
-• Added prebuilt WallpapersTheme app from Pixel 4 (now you can choose from all 4 icon customizations)
-• Added working FM radio app with new design
-• Added the DTV init file to fix DTV (report me, working or not)
-• Fixed Vulkan permission files
-• Updated radio props from coral
-• Added the DerpQuest statusbar logo overlay from DerpFest pie
-• Added Google Dialer Frameworks which were missing from source (now you can download google dialer from playstore even without Gapps)
-• Added permissions for google dialer
-• Added PixelExperience feature for google dialer
+• Default cpu governor is 'interactive' now so no worries of changing it for better battery (yeaah)
+• Used AOSP surfaceflinger, so rom will be smoother than ever
+• Added the pre persist mount so that no one else loses baseband
+• Added safailnet, so you can pass safetynet and use banking apps even without magisk
+• Removed spectrum support
+• Added missing com.nxp.mifare.xml file for NFC for make it properly work
+• Disable ZRAM & swap memory for improved caching performance in device
+• Removed unused swap and cgroup folder from proc because of zram
+• Removed heterogenous cpuset information on our homogenous cpu
+• Removed process reclaim and lmk
+• Kanged walleye offsets for GPU composition
+• Turned on GPU protected Composition
+• Added few configs from bonito
+• Fixed the issue where only lower frequecies are being used which results in lag while playing games and other CPU intensive tasks
+• Switched to cryptfshw QSEECom impl
+• Fixed some vm props
+• Added qti_libpermissions for qcrilmsgtunnel
+• Updated WFD blobs from LA.UM.8.6.r1-01900-89xx.0
+• Updated CNEService.apk from mata QP1A.190502.046
+• Used qcrilmsgtunnel from mata QP1A.190502.046
+• Updated qti telephony from LA.UM.8.6.r1-01900-89xx.0
+• fingerprint: keep fingerprint in system-background
+• Updated Widevine L1 Blobs from Lavender
+• Updated EGL and Vulkan drivers
+• Updated Wlan profiles from walleye QQ1A.191205.008
+• Updated esepowermanager, BT,gnss, fm from stock 36-14
+• Updated fingerprint and firmware blobs from OPS28.65-36-14
+• Updated sensor blobs from OPSS28.65-36-14
+• Updated framework jars from OPS28.65-36-14
+• Added emmc and update upd firmware from OPS28.65-36-14
+• Imported Offline Charging daemon from OPS28.65-36-14
+• Updated Perf Stack from taimen QP1A.191105.004-5908170
+• Some more changes may be I can't remember
 
 
 #StayDerped
@@ -58,4 +86,3 @@ Changelog for Official DerpFest Build Update 25.12.2019 for Sanders:
 
 Note1: Kindly read all information provided on website. Still you have any doubts ask @marshmello_61 on t.me/DerpfestSanders
 
-Note2: YOU CAN ALWAYS SET THE DEFAULT CPU GOVERNOR TO INTERACTIVE IF YOU WANT BETTER BATTERY
