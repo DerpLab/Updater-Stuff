@@ -1,0 +1,6 @@
+Kernel:
+- Upstream to 4.14.161
+- Added unwanted app blocker
+
+Device:
+- Fixed RIL crashing when opening contacts
