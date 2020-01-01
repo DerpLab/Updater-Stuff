@@ -1,45 +1,44 @@
 ROM:
-- Now Stable (Marry Xmas)
-- Improvements for swipe to screenshot
-- Added Longshot
-- Improved edge lightning behavior on live wallpaper
-- Added option to changing duration of ambient edge light
-- Added more notification snooze times
-- Allowed torch action also on ambient display & added haptic feedback
-- Reworked qs brightness slider implementation
-- Added User selectable VoLTE Icon
-- Imported PowerUsageFeatureProviderGoogleImpl
-- Fixed hardcoded black text in storage summary
-- Added context-aware Bluetooth airplane mode
-- Merged r18
-- Reverted latest TextClock translation changes
-- Improved QS header and footer layout (without custom header looks better now)
-- Added 4th row option for portrait
-- Added config to decrease max rows per device
-- Fixed QS Signal Bars
-- Added auto color option for edge lightning
-- Visualizer: Custom Color code clean-up & improvements
-- Reworked the system accents (removed some, added some)
-- Hide lock icon while dozing
-- Improved Navigation Bar toggle
-- Don't force show battery percent on keyguard
-- Fixed protected broadcast error for doze intents
-- Vibrate on volume panel button long press
-- Allow torch during ambient display
-- CPUInfoService: Don't show during doze
-- Removed "Phone ringtone setting for Multi SIM device"
-- Removed Double tap to trigger doze option
-- VisualizerView: Don't add null end actions to animators
-- Fixed volume key music control on ambient display
-- Unlinked AoD switch pref from AoD on charge
-- Fixed Statusbar Clock font array values
-- Fixed edge lighting colorpicker showing wrong colorhex in summary
-- Disabled ANBI when enabling navbar
-- Some Google permission changes
+- Introduced new theming category in DerpQuest (Replaced Pixel theme stub with open sourced version)
+- Added Lockscreen Clock Fonts & Size options
+- Added Lockscreen Date Fonts & Size options
+- Added Lockscreen Owner info Fonts & Size options
+- Added Blur settings search bar and DocumentsUI
+- Removed QS brightness mirror
+- Added support for internal audio recording for OP recorder
+- Lockscreen charging info: show decimal in battery temperature
+- Statusbar Logos are using automatic color now
+- Show current and new version on apk installation
+- Added switch to hide status bar on lock screen
+- Various fixes for Ambient music
+- Added switch for brighness min/max icons
+- Added switch for hiding the QS security footer
+- Show RGB value instead of ARGB for Edge light color picker
+- Added support for devices with popup camera
+- Allowed third party apps to access identifiers
+- Fixed LockscreenSettings crash for devices without Fingerprint
+- Fixed dt2s issue introduced during mismerge of r16 tag
+- Brought back Multisim ringtone settings
+- Added back Double tap to trigger doze
+- Added buildtype to about phone
+- Disabled Google Play system update check
+- Added Config to disable wake to ambient on soli devices
+- Added dalvik-heap device-configs for 4/6/8/16GB devices
+- Fixed QS opacity after reboot
+- Fix NPE in Google Drive
+- AppTransitions: Removed hackery for controls duration
+- Fixed crash in development settings for some devices
+- Edge Light: Hide category if Ambient wake gestures are unavailable
+- Added russian translations for DerpQuest
+- Some more things maybe I can't remember more :P
 
 Device Side :
-- Upstreamed Kernel to 206
-- SeLinux Status Now Enforcing
-- Added Fast Charging In Kernel (Disabled By Default)
-- Slightly Undervolt the kernel
-- Renamed it to -pref (not perf) for a reson xD
+- Upstreamed Kernel to latest tag(v. 207)
+- Addressed More Se-Denials
+- Improved 5ghz wifi support
+- Fix Lags On Live Wallpapers
+- More near to accurate Battery stats
+- Added LOS FM Radio
+- Encryption With Enforcing Supported
+- Improved Wifi with Bluetooth Connectivity to some extent (not completely fixed)
+- Renamed back kernel to -perf
