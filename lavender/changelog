@@ -1,5 +1,6 @@
-- Thanks to Kjjjnob for his sources and Catuva for the kernel
+- Thanks to Kjjjnob for his sources, Catuva for the kernel and TeamPhenom testers
 - Drop gcam
+- XiaomiParts
 - Selinux enforcing
 - Introduced new theming category in DerpQuest (Replaced Pixel theme stub with open sourced version)
 - Added Lockscreen Clock Fonts & Size options
