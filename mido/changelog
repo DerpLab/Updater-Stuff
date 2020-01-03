@@ -1,27 +1,45 @@
-Rom cgangelog 
-
-- Improvements for swipe to screenshot
-- Improved edge lightning behavior on live wallpaper
-- Added option to changing duration of ambient edge light
-- Added more notification snooze times
-- Allowed torch action also on ambient display & added haptic feedback
-- Reworked qs brightness slider implementation
-- Added User selectable VoLTE Icon
-- Imported PowerUsageFeatureProviderGoogleImpl
-- Fixed hardcoded black text in storage summary
-- Added context-aware Bluetooth airplane mode
+==============
+Rom Changelog
+==============
+- Introduced new theming category in DerpQuest (Replaced Pixel theme stub with open sourced version)
+- Added Lockscreen Clock Fonts & Size options
+- Added Lockscreen Date Fonts & Size options
+- Added Lockscreen Owner info Fonts & Size options
+- Added Blur settings search bar and DocumentsUI
+- Removed QS brightness mirror
+- Added support for internal audio recording for OP recorder
+- Lockscreen charging info: show decimal in battery temperature
+- Statusbar Logos are using automatic color now
+- Show current and new version on apk installation
+- Added switch to hide status bar on lock screen
+- Various fixes for Ambient music
+- Added switch for brighness min/max icons
+- Added switch for hiding the QS security footer
+- Show RGB value instead of ARGB for Edge light color picker
+- Added support for devices with popup camera
+- Allowed third party apps to access identifiers
+- Fixed LockscreenSettings crash for devices without Fingerprint
+- Fixed dt2s issue introduced during mismerge of r16 tag
+- Brought back Multisim ringtone settings
+- Added back Double tap to trigger doze
+- Added buildtype to about phone
+- Disabled Google Play system update check
+- Added Config to disable wake to ambient on soli devices
+- Added dalvik-heap device-configs for 4/6/8/16GB devices
+- Fixed QS opacity after reboot
+- Fix NPE in Google Drive
+- AppTransitions: Removed hackery for controls duration
+- Fixed crash in development settings for some devices
+- Edge Light: Hide category if Ambient wake gestures are unavailable
+- Added russian translations for DerpQuest
 - Some more things maybe I can't remember more :P
 
+=================
 Device Changelog
-- Fix Airtel volte
-- Fix Network fluctuation
-- Fix always on display 
-- Fix Edge lighting on default wallpaper
-- Improve Sound performance 
-- Fix Media lag
-- Update IMS
-- Update Time service 
-- Update rtp deamons (thanks to @GiaSen)
-- Enable AFEEC format
-- Update Aptx blobs
-- Update qti telephony
+=================
+- Update Dexpreopt flags
+- Enable RSSNR 
+- Fix LockdownVpnTracker
+- Load performance lib from Zygote
+- Add support for max/min fling velocity sysproperties
+- fix live wallpaper lag
