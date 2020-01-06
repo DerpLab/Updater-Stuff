@@ -1,6 +1,21 @@
-Kernel:
-- Upstream to 4.14.161
-- Added unwanted app blocker
+ROM: 
+- Added Option to hide lock icon on lockscreen
+- Added Option to change the device hostname
+- Added navbar editor back to navbar tuner
+- Added vibration tick when opening notification panel
+- Added missing national roaming infos for several countries and provider
+- Changed charging thresholds
+- Revised Mult SIM ringtone settings
+- Only German and Russian translations for Textclock
+- Removed Blur settings search bar and switched back to Pixel DocumentsUI
+- Improvements to make animations smoother
+- Update Russian translations for DerpQuest
 
 Device:
-- Fixed RIL crashing when opening contacts
+- Updated GCam to V1.9
+- Original package name can use AUX lenses again
+- Increased max notification icons
+
+Kernel:
+- Upstreamed to Linux 4.14.162
+- Wireguard support
