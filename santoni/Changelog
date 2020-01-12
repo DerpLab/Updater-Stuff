@@ -1,28 +1,39 @@
 Device:
 - Default Kernel: Clarity CAF
+- - Update Data-ipa-cfg-mgr from LA.UM.8.6.2.r2-01100-89xx.0
+- Bluetooth Audio Issue Fixed
+- Use aosp SurfaceFlinger For more smoother ui
+- Introduce Safailnet For Safetynet bypass
+- Fixes Green Video Glitch on chrome
+- update mobile tcp buffers
+- Update Dexpreopt flags
+- Add aud_pasthru_adsp access for audio
+- Enable always on display
+-  Enabling sound trigger V2.2
+- Add fwk detect aosp support
+- Fix rank of QC OMX components
+- rebase power HAL from latest LineageOS
+- Update QTI bluetooth stack from LA.UM.8.6.2.r1-03700-89xx.0
+-  Localise NTP to improve GPS TTFF
+- update DPM from raphael QKQ1.190716.003
+- Adding Audio HAL V5: Direction API
+-  Force enable mobile network settings v2
+- update Graphics firmware from LA.UM.8.6.r1-01900-89xx.0
+- Add dataadpl from LA.UM.8.6.r1-01900-89xx.0
+- Update vulkan blobs from LA.UM.8.6.r1-01900-89xx.0
+- Update again ADSP blobs from LA.UM.8.6.r1-01900-89xx.0
 
 ROM:
-- Merged December Security Patch (r16)
-- Added DataSwitch QS tile
-- Added Edge lighting notification option
-- Added Custom Carrier Label & Carrier Label Placement options
-- Added option to hide arrow for back gesture
-- Added QS panel opacity option
-- Removed Screen off animations (broken after r16 merge)
-- Improved Partial screenshot (allowed back action only from right side)
-- Improved Screenshot QS tile
-- Added option for visualizer default color
-- Added Double tap to trigger doze
-- Added option to set pulse brightness
-- Fixed tilepage layout update for QS tiles
-- Fixed black screen after AOD_PAUSED
-- Restored cache clean up code in PackageManagerService
-- Cellular QS tile title is based on carrier now
-- Removed data tile dialog
-- Added Omni Doze settings & TimeInState
-- Reimported Google TextClock translations and removed 24h translations
-- Added ability to open sound settings on long click at the panel button
-- Changed default font size of Single Traffic to 21dp
-- Enabled double tap sleep gestures by default
-- Improved Bluetooth battery level icons
-- Some more things maybe I can't remember more :P
+- Derp latest Source Already updated
+- Merged r25 tag (January Security Patch)
+- Added Option to hide lock icon on lockscreen
+- Added Option to change the device hostname
+- Added navbar editor back to navbar tuner
+- Added vibration tick when opening notification panel
+- Added missing national roaming infos for several countries and provider
+- Changed charging thresholds
+- Revised Mult SIM ringtone settings
+- Only German and Russian translations for Textclock
+- Removed Blur settings search bar and switched back to Pixel DocumentsUI
+- Improvements to make animations smoother
+- Update Russian translations for DerpQuest
