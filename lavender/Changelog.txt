@@ -1,3 +1,5 @@
+- Synced with PE trees (Thanks to @letsmakecakes)
+- OniiChan Kernel X-2.0
 - Merged January Security patch (r23)
 - Switched to Omni Updater
 - Switched to Lawnchair as default launcher
