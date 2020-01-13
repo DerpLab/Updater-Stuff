@@ -1,13 +1,8 @@
 {
   "response": [
     {
-      "datetime": 1578916671,
-      "filename": "DerpFest-10-Official-lavender-20200113.zip",
-      "id": "fd96f214a84252746f5880d84f7be820",
-      "romtype": "Official",
-      "size":  1599965909,
-      "url": "https://sourceforge.net/projects/team-phenom/files/Derpfest/DerpFest-10-Official-lavender-20200113.zip/download",
-      "version": "10"
+     "datetime": 1578916671,
+     "filename": "DerpFest-10-Official-lavender-20200113.zip"
     }
   ]
 }
