@@ -1,0 +1,45 @@
+(13/01/20)
+######################
+## DEVICE CHANGELOG ##
+######################
+
+- Switch to Raphael perf blobs for EAS
+- Upstream to 209
+- Fix Voip Call Reboot issue
+- Energy Model by Kdragon 
+- Walt
+- Better idle
+- Scroll stuttering fixed
+- Enable proximity sensor check before pulsing 
+
+
+######################
+##  ROM  CHANGELOG  ##
+######################
+- Merged January Security patch (r23)
+- Switched to Omni Updater
+- Switched to Lawnchair as default launcher
+- Added Lockscreen clock/date styles
+- Added QS theme options
+- Added date/weather info for Type Clock styles
+- Added option hide pill in full gestural nav mode
+- Removed theming category in favor of Pixel theme picker and our old accents
+- Added option to hide battery icon from QS header
+- Improved Power menu
+- Improved Custom header settings
+- Added visual preview to AmbientLight settings
+- Moved lockscreen/ambient preference on top
+- Moved doze brightness settings to lock screen
+- Improved Ambient Music Ticker settings
+- Made recents grid view accept more than 8 tasks
+- Added aptX-Adaptive codec entry to Framework
+- Added support for audio extended codecs
+- Gesture nav Assistant handles: don't show them in lockscreen
+- Avoid adding useless empty quick settings page
+- Added Cylinder and Square icon shape overlay
+- Fixed carkit can't get phonebook access permission by default
+- Fixed sound panel create multiple SoundSettings activity
+- Added backuptool support
+- Added Polish translations for DerpQuest
+- Updated Hebrew translations for DerpQuest
+- Some more things maybe I can't remember more :P
