@@ -1,71 +1,66 @@
-Changelog for Official DerpFest Build Update 13.01.2020 for Sanders:
+Changelog for Official DerpFest Build Update 27.01.2020 for Sanders:
+
+ [DEVICE]
+
+• A brand new MotoActions Icon in Settings
+• Adapted brightness model from sargo, so more accurate, more bright
+• Patched the ims.apk so no more irritating HD capable notification (volte is fine and so as volte logo lol)
+• Made the Live Wallpaper smoother
+• Fixed the Gcam FC for some users
+• Disable the default color mode, so no display glitches on boot
+• Smarter decisions on WiFi on whether to use a 2 or 5Ghz AP
+• Added low memory killer properties
+• Don't ship DTV on device that not support
+• Tried to fix DTV, once and for all
+• Updated opencamera.apk to v1.47.3
+• Decreased default max cpu frequency by one level, this won't affect performance giving better battery
+• Properly Implemented the mounting of Data partition before bootanimation
+• A huge cleanup of tree for way bettter performance and battery
+• Patched tinyalsa for Wifi Display
+• Many more improvements I can't describe them all
+
 
 [SOURCE]
 
-• Merged January Security patch (r23)
-• Switched to Omni Updater
-• Switched to Lawnchair as default launcher
-• Added Lockscreen clock/date styles
-• Added QS theme options
-• Added date/weather info for Type Clock styles
-• Added option hide pill in full gestural nav mode
-• Removed theming category in favor of Pixel theme picker and our old accents
-• Added option to hide battery icon from QS header
-• Improved Power menu
-• Improved Custom header settings
-• Added visual preview to AmbientLight settings
-• Moved lockscreen/ambient preference on top
-• Moved doze brightness settings to lock screen
-• Improved Ambient Music Ticker settings
-• Made recents grid view accept more than 8 tasks
-• Added aptX-Adaptive codec entry to Framework
-• Added support for audio extended codecs
-• Gesture nav Assistant handles: don't show them in lockscreen
-• Avoid adding useless empty quick settings page
-• Added Cylinder and Square icon shape overlay
-• Fixed carkit can't get phonebook access permission by default
-• Fixed sound panel create multiple SoundSettings activity
-• Added backuptool support
-• Added Option to hide lock icon on lockscreen
-• Added Option to change the device hostname
-• Added navbar editor back to navbar tuner
-• Added vibration tick when opening notification panel
-• Added missing national roaming infos for several countries and provider
-• Changed charging thresholds
-• Revised Mult SIM ringtone settings
-• Only German and Russian translations for Textclock
-• Removed Blur settings search bar and switched back to Pixel DocumentsUI
-• Improvements to make animations smoother
-• Update Russian translations for DerpQuest
-• Added Polish translations for DerpQuest
-• Updated Hebrew translations for DerpQuest
-• Some more things maybe I can't remember more :P
+• Added Reboot/Recovery QS Tile
+• Added Sync QS Tile
+• Moved To AOSP Themer
+• Added the theming section under DerpQuest
+• Fixed Fonts (Every Font Works Now)
+• Added Background Colors under theming
+• Improved 3 Finger Swipe ScreenShot
+• Add Missing Animations
+• Moved Rounded Corner pereferences from Misc to Themes Menu
+• Added capability to use tethering with vpn upstreams
+• Added SQLite 3
+• Added Overlays for LawnChair
+• Move aosp gestures to DerpQuest
+• Added QS Blur & Toogle
+• Disable Long Click for Sound Search
+• Fixed Mobile Data Usage Indication In QS & Settings
+• Added Toggle for Gentle Notifications
+• Fixed "Enable On Screen  Nav Bar Toogle"
+• Added Toogle To (Increase/Decrease) Blur Intensity of QS
+• Added Changelog Option In Open Delta
+• Fixed Fingerprint position at time of setup
+• Fixed Brightness slider under Settings/Display
+• Themed Power Menu Icons as well as background
+• Q/S Footer : Animate Multiuser Avtar
+• Add prebuilt keyboard swipe lib google version
+• Dailer: match adaptive icon to contacts one
+• Added the Gaming mode tile
+• Added Running services icon on QS panel with toggle
+• Maybe some more things I can't remember ;P
+
 
 
 [MISC]
 
-• Added back the blur settings search bar
-• Added back the blur DocumentsUI
-• Changed the lock and unlock sound
-• Changed the default wallpaper to the creative one
-• Added dark theme to some of the AOSP apps
-
-
-[DEVICE]
-
-• Fixed the max cpu freq to 2016
-• Overlayed the "DerpQuest 1" status bar logo from the DerpFest pie
-• Used tha CAF surfaceflinger
-• Fixed some of the UI glitches that some user complained in previous build (if you still have, just tag @marshmello_61 in https://t.me/derpfestsanders)
-• Updated Via.apk to v3.9.5
-• Used 4GB dalvik-heap config that was previously of 2GB
-• Updated PRIVATE_BUILD_DESC fingerprint prop to stock's latest
-• Increased a lil bit of incall volume
-• Upreved widevine HALs to 1.2
-• Updated widevine HIDL to 1.2 from mata QP1A.190711.107 release
-• Some minor bug fixes
-
-
+• Changed lock and unlock sound
+• Changed the default wallpaper again to match the default theme
+• Removed the Blurred DocumentsUI
+• Removed the blurred settings searchbar
+ 
 #StayDerped
 
 
