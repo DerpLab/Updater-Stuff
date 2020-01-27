@@ -1,50 +1,17 @@
-ROM:
-- Correct fingerprint position during setup
-- Support project paths detection on different branches
-- Drop string after semicolon when parsing destination
-- Add permission for SurfaceFlinger
-  (fixes screenshot tile)
-- Remove show navbar from backup
-  (as it interferes with gestures when it's disabled)
-- Have navbar enabled by default 
-- Merged January Security patch (r23)
-- Switched to Omni Updater
-- Switched to Lawnchair as default launcher
-- Added Lockscreen clock/date styles
-- Added QS theme options
-- Added option hide pill in full gestural nav mode
-- Removed theming category in favor of Pixel theme picker and our old accents
-- Added option to hide battery icon from QS header
-- Improved Power menu
-- Improved Custom header settings
-- Added visual preview to AmbientLight settings
-- Moved lockscreen/ambient preference on top
-- Moved doze brightness settings to lock screen
-- Improved Ambient Music Ticker settings
-- Made recents grid view accept more than 8 tasks
-- Added aptX-Adaptive codec entry to Framework
-- Added support for audio extended codecs
-- Gesture nav Assistant handles: don't show them in lockscreen
-- Avoid adding useless empty quick settings page
-- Added Cylinder and Square icon shape overlay
-- Fixed carkit can't get phonebook access permission by default
-- Fixed sound panel create multiple SoundSettings activity
-- Added backuptool support
-- PackageInstaller: Remove side padding from the dialog
-- Skip loading contextual cards if legacy cards are used
-- Added Polish translations for DerpQuest
-- Updated Hebrew translations for DerpQuest
-- Some more things maybe I can't remember more :P
+Device
+- Bring it to the official
+- Fix unnecessary drain caused by PowerHAL
+- Address some SEPolicy denials on FOD
+- Several code cleanups
 
-DEVICES:
-- Update latest from source
-- Use camera miui ANX from RealAkito 
+Kernel
+- Fix several performance regression
+- Fix thermal throttling bug
 
-
-KERNEL:
-- Use immensity 
-- Update latest immensity
-
-NOTES ON OPENDELTA OTA:
-- It saves builds in /sdcard/OpenDelta/
-- You should add any mods you want to be flashed after build to: /sdcard/OpenDelta/FlashAfterUpdate zip files will be flashed by the order of their names - numbers first then letters (0-9 a-z)
+ROM
+- Add Running services icon toggle
+- More Settings values will be backed-up
+- Fix Icons list in themer
+- Introduce Adjustable Blur Intensity for QS
+- Update In-display Fingerprint Implementation
+- Merge CAF LA.UM.8.1.r1-13500-sm8150.0 for Media and Audio libs
