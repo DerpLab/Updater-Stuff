@@ -1,17 +1,13 @@
 Device
-- Bring it to the official
-- Fix unnecessary drain caused by PowerHAL
-- Address some SEPolicy denials on FOD
-- Several code cleanups
+- Import CarrierConfig LA.UM.8.2.r1-04300-sdm660.0 (Fix VoLIT, hopefully)
+- Import more stock networking setup (Fix Hotspot missing)
 
 Kernel
-- Fix several performance regression
-- Fix thermal throttling bug
+- Update to Linux 4.14.168
+- Fix more performance regression
 
 ROM
-- Add Running services icon toggle
-- More Settings values will be backed-up
-- Fix Icons list in themer
-- Introduce Adjustable Blur Intensity for QS
-- Update In-display Fingerprint Implementation
-- Merge CAF LA.UM.8.1.r1-13500-sm8150.0 for Media and Audio libs
+- DozeSensors: do not use binned brightness sensor for proximity if not supported (Fix AOD auto brightness issues)
+- FODCircleView: fix incorrect position on keyguard (lockscreen)
+- Restore AOSP Accents
+- And maybe more stuff hmm ¯\_(ツ)_/¯
