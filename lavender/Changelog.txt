@@ -1,40 +1,243 @@
 - Synced with PE trees (Thanks to @letsmakecakes)
-- OniiChan Kernel X-2.0
-- Merged January Security patch (r23)
-- Switched to Omni Updater
-- Switched to Lawnchair as default launcher
-- Added Lockscreen clock/date styles
-- Added QS theme options
-- Added date/weather info for Type Clock styles
-- Added option hide pill in full gestural nav mode
-- Removed theming category in favor of Pixel theme picker and our old accents
-- Added option to hide battery icon from QS header
-- Improved Power menu
-- Improved Custom header settings
-- Added visual preview to AmbientLight settings
-- Moved lockscreen/ambient preference on top
-- Moved doze brightness settings to lock screen
-- Improved Ambient Music Ticker settings
-- Made recents grid view accept more than 8 tasks
-- Added aptX-Adaptive codec entry to Framework
-- Added support for audio extended codecs
-- Gesture nav Assistant handles: don't show them in lockscreen
-- Avoid adding useless empty quick settings page
-- Added Cylinder and Square icon shape overlay
-- Fixed carkit can't get phonebook access permission by default
-- Fixed sound panel create multiple SoundSettings activity
-- Added backuptool support
-- Added Polish translations for DerpQuest
-- Updated Hebrew translations for DerpQuest
-- Added Option to hide lock icon on lockscreen
-- Added Option to change the device hostname
-- Added navbar editor back to navbar tuner
-- Added vibration tick when opening notification panel
-- Added missing national roaming infos for several countries and provider
-- Changed charging thresholds
-- Revised Mult SIM ringtone settings
-- Only German and Russian translations for Textclock
-- Removed Blur settings search bar and switched back to Pixel DocumentsUI
-- Improvements to make animations smoother
-- Update Russian translations for DerpQuest
-- Some more things maybe I can't remember more :P
+- OniiChan Kernel X-3.1
+====================
+     01-28-2020
+====================
+
+
+   * frameworks/base/
+d93f77bb651 Revert "base: Remove aosp accents"
+
+   * manifest/
+8da6983 Initial tracking for DerpFest
+
+   * vendor/aosip/
+ea8b6f9 vendor: Include PixelLiveWallpaperPrebuilt
+1a2eafe vendor: add OmniStyle
+5fa8c1f vendor: add OmniRecord to build
+a6f46a0 vendor: Build Gapps and AOSP apps conditionally [1/2]
+9fc04d6 vendor: Switch to OpenDelta updater
+a6cbfba vendor: build Updater conditionally
+94e957e vendor: themes: Categorise core theme packages
+502f189 vendor: config: Include vendor/google/customization
+e0c85c8 vendor: Allow providing camera server and service
+c53b321 vendor: overlay: Remove security footer side margin and end padding for left-aligned status bar clock
+b3d3171 vendor: increase qs_panel_padding_top to prevent overlap of brightness with header
+90826cd vendor: reduce qs footer height
+1284696 vendor: cleanup SystemUI dimens overlay
+44e96af [2/2] overlay: header image tweaks
+4c29ea8 [4/4] overlay: qs status bar header image
+fcb9a5a vendor: overlay: set default qs_header_tile_margin_horizontal to 13dp
+d19f051 vendor: overlay: dimen tweaks
+0678c25 kernel: Fix ccache not being used when building
+1cbcfc9 vendor: Build sqlite3
+e547c7a vendor: Use speed tuning for performance critical applications
+527b74d envsetup: fix mka behavior
+94a078a vendor: Bring back Android Beam
+0f17313 prebuilt: init: custom-system: hide Magisk better
+d3dfd0a vendor: Allow the use of aosp apn's
+60c18ca vendor: Add support for custom bootloader offset
+29d25e8 vendor: Add support for dark bootanimation
+0f804a1 vendor: Refactor setup wizard overlays
+2029c11 vendor: Enable and refactor SetupWizardOverlay
+5b1f9aa vendor: Add overlay for SetupWizard [2/2]
+69e1618 vendor: Include gapps and pixelstyle
+a2d70fc Revert "aosip: Add sysfs permissions for pocket bridge"
+642c403 vendor: Fix compilation errors with prebuilt kernel
+824d0e1 kernel: pass custom compiler string directly to make
+16f1610 Revert "aosip: remove usage of KBUILD_COMPILER_STRING"
+c8c74bb vendor: allow editing build date format from device tree
+af2dca0 vendor: Update devices list for DerpFest
+
+   * vendor/gapps/
+d8658c3 gapps: Don't build GooglePackageInstaller
+
+   * vendor/overlay/
+06a952e DNM: Overlays: Update accents for DerpFest
+6bdc5de Overlay: Add Lead Black Primary
+24983cf Overlay: Add Charcoal Black Primary
+8b215e4 Overlays: Switch to Lawnchair [2/3]
+11781c5 Overlays: Derpify it
+
+   * vendor/prebuilts/
+a435d2f prebuilts: Build Google prebuilts conditionally
+
+====================
+     01-27-2020
+====================
+
+
+   * frameworks/base/
+581bb48d4eb Running services icon toggle [1/2]
+b00db0f19a2 Allow to quickly open Running Services from QS panel [1/2]
+5a6188278b7 base: Settings: Always finding more values to backup * and fix some derps
+4c6ace65e25 Revert "overlay: Target pixel launcher/pixel themes"
+
+   * packages/apps/DerpQuest/
+3ffc94d Running services icon toggle [2/2]
+
+   * packages/apps/Settings/
+cbc45afd83 Allow to quickly open Running Services from QS panel [2/2]
+
+   * vendor/aosip/
+b452d4a soong_config: add TARGET_NEEDS_NETD_DIRECT_CONNECT_RULE
+a0bfa78 vendor: Add soong variable for TARGET_CAMERA_BOOTTIME_TIMESTAMP
+8db910a vendor: Fix TARGET_USE_AOSP_SURFACEFLINGER logic
+a4b424d vendor: Allow disabling CAF surfaceflinger
+4f98661 vendor: Cleanup uses_qcom_um_family soong param
+eac4cfd vendor: Add back soong and build configuration for qcom platform
+c1cb8b0 vendor: Introduce overlay for Lawnchair default conf
+4c4f852 vendor: Switch to Lawnchair [3/3]
+adca332 vendor: tools: Rename json to the product name
+adbc94b vendor: tools: Allow forcing json generation and only print required values for OpenDelta * force the json generation with 'export FORCE_JSON=1' before compiling
+933d766 vendor: tools: Make number of changlog days generated stand out with colors
+157d949 vendor: tools: Rewrite json generator script * Make the script readable * Use our relevant values * Generate a link for SF * Add outputs with colors
+5681de2 vendor: tools: Make json generator add new lines
+1d5115b vendor: tools: Make the generator follow the OTA format
+edb23f4 Fixed JSON file_size parsing
+8c89937 vendor: tools: Make the generator suit the current OTA system needs
+d063449 vendor: tools: Generate OTA variables
+9305100 vendor: build: Generate json file with zip info after build
+1feb294 tools: changelog: Only fetch necessary dates
+42ed54a tools: changelog: Shorten the line.
+df9916b vendor: Changelog bringup [squashed]
+82dad06 build: Show the DerpFest bloody ascii on build complete
+
+   * vendor/prebuilts/
+1a44f29 prebuilts: Switch to Lawnchair [1/3]
+
+====================
+     01-26-2020
+====================
+
+
+   * frameworks/base/
+8f551b316ad SystemUI: Introduce Adjustable Blur Intensity [1/2]
+
+   * manifest/
+b7de397 manifest: lineage: Track devicesettings for all devices
+
+   * packages/apps/DerpQuest/
+ec8c625 DerpQuest: Introduce Adjustable Blur Intensity [2/2]
+
+   * vendor/aosip/
+4e16752 May the GOD bless my ancestors...
+
+====================
+     01-25-2020
+====================
+
+
+   * frameworks/base/
+0bc9099f741 Merge pull request #36 from DarkDampSquib/ten
+
+====================
+     01-24-2020
+====================
+
+
+   * frameworks/base/
+e3dfd72f18d FODCircleView: Add partial wakelock on aod
+2743f4c7bb5 KeyguardView: report transiting bouncer as shown
+088c8db5677 FODCircleView: dispatch onPress to HAL only after dimming is applied
+562869c19ef FODCircleView: rewrite and simplify implementation
+be57adf9e75 FODCircleView: place above other UI elements
+
+   * hardware/qcom-caf/sm8150/audio/
+8a9ac4fc Merge tag 'LA.UM.8.1.r1-13500-sm8150.0' of https://source.codeaurora.org/quic/la/platform/hardware/qcom/audio into ten
+
+   * hardware/qcom-caf/sm8150/media/
+e4d47f31 Merge tag 'LA.UM.8.1.r1-13500-sm8150.0' of https://source.codeaurora.org/quic/la/platform/hardware/qcom/media into ten
+
+====================
+     01-23-2020
+====================
+
+
+   * packages/apps/Dialer/
+cdb6ba0bb Dailer: match adaptive icon to contacts one
+
+   * packages/apps/OpenDelta/
+7ae5fdf OpenDelta: Allow overriding the download url in json
+
+   * vendor/overlay/
+b7c7592 wallpaper: change default name to our custom
+c48418d Sounds: Set ringtone, notification and alarm
+a57c50c overlay: Exclude overlays in this repo from enforcing RRO
+
+====================
+     01-22-2020
+====================
+
+
+   * frameworks/av/
+ec2545f01 audio policy: fix capture policy for HOTWORD source
+
+   * frameworks/base/
+88decf2b957 SystemUI: QS: GamingModeTile: Show "What's This?" on long click.
+7a3100aa966 SystemUI: QS: GamingModeTile: stop adjusting volume
+aaf4891618c SystemUI: QS: Add Gaming mode tile
+9e7eade3ba1 systemui: use headline font for vpn
+f4a103f4806 packages: SystemUI: improve the VPN footer layout
+31e7691bf8d base: Allow controlling QS blur alpha [1/2]
+52681b6f6aa base: Make gentle notifications header toggleable [1/2]
+e7b7812fd69 Properly set fonts and icons on keyguard when changing styles
+f5d755ee4e3 QSFooterImpl: Animate multiuser avatar
+9f340398e8c Camera: Avoid removing valid repeating requests
+4cd928aff9f Make NtpTrustedTime safer / expand docs
+74ef5d5377a CellularTile: Fix mobile data usage qs details view content
+75d0fa9b730 update qs blur keyguard check
+b422a403f31 Make QS blur togglable [1/2]
+16694b03de7 Blur behind quick settings thanks to @Dil3mm4 utility which allows to take screenshots and blur them
+712ca8c5d09 ImageUtilities: A utility that's able to take screenshots via screenshotSurface and to blur images via blurImage
+
+   * manifest/
+9c6923b manifest: Track ContactsProvider
+
+   * packages/apps/Bluetooth/
+87c4095b Merge pull request #1 from nullxception/npe-fix
+5e490cd9 Check Null-safeness when switching optional-codecs state
+
+   * packages/apps/Contacts/
+af9800bf5 Contacts: add dark mode support
+b294d5bbf Contacts: PoorManThemes: fix editor popup items
+d2d3384e9 PoorManThemes: fix selector bg color
+145eb0bc4 [1/2] Contacts: fix action mode theme coloring
+4fd45abd8 Contacts: dann halt mit Gewalt
+b25081bab Contacts: use commnon menu style for themed apps
+8a6ca20ae Contacts: add missing primary color to launcher theme
+d38080430 Contacts: style fast scroll thumb like in Dialer
+f0036b6b8 Contacts: allow some Poor Man Theming
+2700bf356 Contacts: tint launcher icons based on primary color
+70014cdec Contacts: add missing bottom margin for fab
+490e3491f Contacts: provide adaptive icons
+8c2fbbfa0 Allow calling contacts via specific phone accounts.
+0e7a59706 Place EmergencyInfo shortcut on drawer
+404548e40 Place MyInfo shortcut on drawer
+47b1f9ecd Contacts: Enable support for device contact.
+4fb7383af Contacts: Up minimum SDK to 26
+b5f2a6e1b Contacts: Remove unused boolean resource
+
+   * packages/apps/DerpQuest/
+78716b2 DerpQuest: Allow controlling QS blur alpha [2/2]
+8bf3796 DerpQuest: Make gentle notifications header toggleable [2/2]
+
+   * packages/apps/ThemePicker/
+f63fe67 ThemePicker: Prevent random crash when trying to set wallpaper bitmap this fixes crash: https://del.dog/yunatamico
+08b1407 ThemeFragment: handle case where no custom wallpaper is available
+
+   * packages/inputmethods/LatinIME/
+973bbe103 LatinIME: Change jni lib to prebuilt Google version
+
+   * packages/providers/ContactsProvider/
+0371370c ContactsProvider: Prevent device contact being deleted.
+
+   * vendor/aosip/
+2190e8e aosip: Add prebuilt keyboard swipe lib google version
+
+   * vendor/google/customization/
+0a7bfb7 Add google FI support
+
+   * vendor/overlay/
+5178604 Disable default media picker activity
+
