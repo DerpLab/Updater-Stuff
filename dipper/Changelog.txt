@@ -1,4 +1,72 @@
 ====================
+     01-31-2020
+====================
+
+
+   * frameworks/base/
+9b4de0ba0fd base: Whitelist more permissions needed for SystemUIGoogle
+b4a41161ae3 Updates to various icons
+eaea6b91159 Partial screenshot: Layout improvements
+e0ea7858c5e PowerMenu: Fix items not tinting correctly in landscape
+185d52c1a6a Updates to "Context-aware Bluetooth airplane mode"
+a9f47f31fa0 Bluetooth: Fix BT stability issues
+b2965e2ba80 Revert "Move BT state to OFF when BLE app count is zero"
+99f507b0342 Revert "Crash occured due to null pointer exception."
+682eaf758ef SystemUI: Fix minute digits for accent based lockscreen clock style
+a64d0d0f1ea ScreenshotHelper: ignore timeout when taking partial screenshots
+6f1d9b9eb8c SystemUI: implement better partial screenshot
+c0bdf3c68f9 Revert "base: refine partial screenshot handling"
+a4f82e907dc Revert "Partial screenshot: allow BACK action only from right side"
+c395a0b852d SystemUI: tiles: Migrate to new screenshot method with Longshot support
+f3c3238f389 base: Port extended screenshot function from OOS
+de838793154 Revert "Revert "KeyguardSliceView: adjust placement when Type clock is in use""
+b599013c26b base: Add Fira Sans font [1/2]
+caef447a0ae base: Add Samsung One font [1/2]
+0a1700a5f4e qs footer: Tint build info as secondary text
+37cf061c88a Toasts: Use a snackbar-like animation
+28de51cba15 Avoid system reboot while invalidate LegacyGlobalAction
+fb49f36670e SystemUI: Bring back ic_qs_bluetooth_connected.xml
+9c446fd4052 FrameworkBase: Fix NullPointerException of AMS
+b886afbc0f9 Set the Network Specifier on Emergency SUPL
+722469b5c18 Fix to handle duplicate call id for conference call
+f38d8e433f5 Consolidate ActivityStack#finishCurrentActivityLocked checking
+bedbbaf753c Add Network Preference Bitmaps (1/2)
+419bcbc0de4 Fix DerpFest Logo from remaining active when notifications arrive
+2be7b8a192f fwb: cLock: Add a user toggle to show/hide status area [1/2]. Other part is in ThemePicker
+81afa6f5735 Volume panel: Adjust the left padding
+7d03243300b Volume panel: avoid multiple animations on touch spam
+8dc8ad66242 Fix StorageManagerService linkToDeath more than one time when vold/storaged died.
+659ce6490b0 SystemUI: Adjust powermenu and qs customizer background
+57b6d9e1a57 TypeClockController: Set shouldShowStatusArea to true
+cc23a5f388e SystemUI: Use color accent for user avatar default color
+635adb18772 base: Status bar notification ticker [1/2]
+322a1ffbe33 base: Add NotificationColorUtil back
+ab90b0306a3 DozeSensors: do not use binned brightness sensor for proximity if not supported
+2975f1aba50 Revert "base: Remove aosp accents"
+
+   * packages/apps/OpenDelta/
+c413c13 OpenDelta: Let the logo follow accent color
+
+   * packages/apps/Settings/
+b2b4db484e Settings: Fix string for system summary
+6e2b50641e Settings: Fix charging sounds string
+3938e85976 Settings: Use an xml property for maintainer string * No need to use a build.prop for this and overlaying from DT will be easier for maintainers this way * A partial revert of aa95452a54
+
+   * vendor/aosip/
+a87011e vendor: Update package name of Longshot
+7b199b8 vendor: Fix privileged permission for Longshot
+
+   * vendor/overlay/
+cd60c28 Overlays: Add teal accent back
+
+   * vendor/prebuilts/
+8866d5e prebuilts: Update libhoko_blur.so
+f736af4 prebuilts: Improve Lawnchair build config
+b774138 prebuilts: Update Longshot
+23b056a prebuilts: Import modded Longshot app
+d23f753 prebuilts: Add Lawnfeed 2.1-2598
+
+====================
      01-30-2020
 ====================
 
@@ -8,12 +76,7 @@
 e97e918 Allow Snap cam access for gpu service
 99e383c sepolicy: Adress apexd denial
 
-   * frameworks/base/
-0c79292f7da base: Add Fira Sans font [1/2]
-fe1fcd5e315 base: Add Samsung One font [1/2]
-
    * packages/apps/DerpQuest/
-0dc31c1 DerpQuest: Edge light: Automatically turn off AOD & turn on ambient wake gestures. And show the users a toast so that they know what has happened...
 d5996a8 Revert "Edge Light: Hide category if Ambient wake gestures are unavailable."
 
    * packages/apps/Settings/
@@ -59,32 +122,6 @@ d0a1419 pixelstyle: fonts: Update GoogleSans
 9e965486d build: Allow supplying a prebuilt recovery ramdisk cpio
 bf8b1292f build: Build Gapps and AOSP apps conditionally [2/2]
 
-   * frameworks/base/
-1b2d37ff3bc qs footer: Tint build info as secondary text
-cb3861ca2f9 Toasts: Use a snackbar-like animation
-5460ed745a4 Merge pull request #38 from adi8900/ten-fod
-20d01c53278 Avoid system reboot while invalidate LegacyGlobalAction
-42e71dad6a8 SystemUI: Bring back ic_qs_bluetooth_connected.xml
-9ead0644dae FrameworkBase: Fix NullPointerException of AMS
-9687d762e48 Set the Network Specifier on Emergency SUPL
-597a29ff8d2 Fix to handle duplicate call id for conference call
-9ba3d6dff8c Consolidate ActivityStack#finishCurrentActivityLocked checking
-6a6fb8d6d50 Add Network Preference Bitmaps (1/2)
-92d307b6e58 Fix DerpFest Logo from remaining active when notifications arrive
-6827f6cd31a fwb: cLock: Add a user toggle to show/hide status area [1/2]. Other part is in ThemePicker
-0bb2698b1a1 SystemUI: Improve Samsung clock layout
-b084aad8b03 Introduce bold digital and Samsung like lockscreen clocks
-acd2067e019 Volume panel: Adjust the left padding
-4eeb6de9dbd Volume panel: avoid multiple animations on touch spam
-462adca4173 Fix StorageManagerService linkToDeath more than one time when vold/storaged died.
-5a8d3ba5d88 SystemUI: Adjust powermenu and qs customizer background
-9c067a6faca KeyguardClockPositionAlgorithm: Allow forcing default clockY positioning
-1eaeaa3e66b TypeClockController: Set shouldShowStatusArea to true
-ef18fa6ec9c SystemUI: Use color accent for user avatar default color
-56adc1d9206 base: Status bar notification ticker [1/2]
-23909bb2ab9 base: Add NotificationColorUtil back
-a6701437a39 DozeSensors: do not use binned brightness sensor for proximity if not supported
-
    * packages/apps/DerpQuest/
 f852b3e DerpQuest: Search Index: Make sure our features show up under Settings search.
 daf2ed5 DerpQuest: Update Settings icons: new layout and size. * 24x24 -> 36x36 Icons created by @RogerdotT
@@ -106,26 +143,16 @@ d2ef763 ThemePicker: cLock: Add a user toggle to show/hide status area [2/2]. Ot
 93ef36b vendor: overlays: Import QS Color overlay from POSP
 5bed9e6 Revert "Revert "kernel: Fix specifying custom clang compiler version""
 
-   * vendor/prebuilts/
-215efbe prebuilts: Add Lawnfeed 2.1-2598
-
 ====================
      01-28-2020
 ====================
 
 
    * frameworks/base/
-d93f77bb651 Revert "base: Remove aosp accents"
 2d3c5de8536 FODCircleView: fix incorrect position on keyguard
-581bb48d4eb Running services icon toggle [1/2]
-b00db0f19a2 Allow to quickly open Running Services from QS panel [1/2]
-5a6188278b7 base: Settings: Always finding more values to backup * and fix some derps
 
    * manifest/
 8da6983 Initial tracking for DerpFest
-
-   * packages/apps/Settings/
-cbc45afd83 Allow to quickly open Running Services from QS panel [2/2]
 
    * vendor/aosip/
 ea8b6f9 vendor: Include PixelLiveWallpaperPrebuilt
@@ -190,11 +217,17 @@ a435d2f prebuilts: Build Google prebuilts conditionally
 
 
    * frameworks/base/
+581bb48d4eb Running services icon toggle [1/2]
+b00db0f19a2 Allow to quickly open Running Services from QS panel [1/2]
+5a6188278b7 base: Settings: Always finding more values to backup * and fix some derps
 4c6ace65e25 Revert "overlay: Target pixel launcher/pixel themes"
 8f551b316ad SystemUI: Introduce Adjustable Blur Intensity [1/2]
 
    * manifest/
 b7de397 manifest: lineage: Track devicesettings for all devices
+
+   * packages/apps/Settings/
+cbc45afd83 Allow to quickly open Running Services from QS panel [2/2]
 
    * vendor/aosip/
 c1cb8b0 vendor: Introduce overlay for Lawnchair default conf
@@ -241,12 +274,4 @@ be57adf9e75 FODCircleView: place above other UI elements
 
    * hardware/qcom-caf/sm8150/media/
 e4d47f31 Merge tag 'LA.UM.8.1.r1-13500-sm8150.0' of https://source.codeaurora.org/quic/la/platform/hardware/qcom/media into ten
-
-====================
-     01-24-2020
-====================
-
-
-   * packages/apps/Dialer/
-cdb6ba0bb Dailer: match adaptive icon to contacts one
 
