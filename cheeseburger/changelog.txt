@@ -1,38 +1,53 @@
 Device:
--  Updated blobs from OOS 9.0.10
 -  SELinux still set to permissive
--  Fixed kernel issues after 4.4.208 merge
--  Updated display / media blobs from 'QQ1A.200105.007-515'
--  Rebased device tree and vendor to clean it up
--  Added automatic detection for RAM variant to set proper Dalvik heap configuration for each device
--  Added c2 encoders performance values
+-  Upstreamed Kronic to 4.4.212 and LA.UM.8.4.r1-05000-8x98.0
+-  Updated CarrierConfig
+-  Updated vendor.display.config version to 1.7
+-  Some libinit changes
 
 ROM:
-- Merged January Security patch (r23)
-- Switched to Omni Updater
-- Switched to Lawnchair as default launcher
-- Added Lockscreen clock/date styles
-- Added QS theme options
-- Added option hide pill in full gestural nav mode
-- Removed theming category in favor of Pixel theme picker and our old accents
-- Added option to hide battery icon from QS header
-- Improved Power menu
-- Improved Custom header settings
-- Added visual preview to AmbientLight settings
-- Moved lockscreen/ambient preference on top
-- Moved doze brightness settings to lock screen
-- Improved Ambient Music Ticker settings
-- Made recents grid view accept more than 8 tasks
-- Added aptX-Adaptive codec entry to Framework
-- Added support for audio extended codecs
-- Gesture nav Assistant handles: don't show them in lockscreen
-- Avoid adding useless empty quick settings page
-- Added Cylinder and Square icon shape overlay
-- Fixed carkit can't get phonebook access permission by default
-- Fixed sound panel create multiple SoundSettings activity
-- Added backuptool support
-- PackageInstaller: Remove side padding from the dialog
-- Skip loading contextual cards if legacy cards are used
-- Added Polish translations for DerpQuest
-- Updated Hebrew translations for DerpQuest
+- Ported extended screenshot function from OOS
+- Migrated Screenshot QS tile to new method with Longshot support
+- Implement better partial screenshot
+- Updated DerpQuest Settings icons (new layout and size)
+- Added reworked theming category back to DerpQuest
+- Added themepicker toggle to show/hide weather and date on custom clocks
+- Added Samsung One and Fira sans fonts
+- Changed default wallpaper
+- Added toggle for Blur behind quick settings (enabled by default)
+- Added options for Blur intensity and opacity
+- Made gentle notifications header toggleable (disabled by default)
+- Added option for Running Services from QS panel
+- Fixed minute digits for accent based lockscreen clock style
+- Fixed mobile data usage qs details view content
+- Added Lawnfeed prebuilt
+- Beautified toast notifications
+- Improved Navbar toggle
+- Added Gaming mode QS tile
+- Added Sync QS Tile
+- Added Reboot/Recovery QS Tile
+- Disabled 3 columns in landscape
+- Added Status bar notification ticker
+- Imported MIUI SwipeToScreenshot implementation
+- Added capability to allow tethering to use VPN upstreams
+- Improved the VPN footer layout
+- Updated VPN settings icon drawable
+- Improved power menu and volume panel layout
+- Changed back gesture height intervals
+- Fixed DerpFest Logo from remaining active when notifications arrive
+- Moved AOSP gestures to DerpQuest
+- Fixed gap when toggling airplane mode
+- Removed hide notch overlays
+- Added more DerpQuest settings to Google backup
+- Added whitelist permissions needed for SystemUIGoogle
+- Made sure DerpQuest features show up under Settings search
+- Improved search bar avatar
+- Added GPlay version entry back to about phone
+- Added maintainer string to about phone
+- Disabled long click for SoundSearch qs tile
+- Several improvements for FOD implementation
+- Show a warning dialog before network search
+- Commented out double options that were under accessibility
+- Removed unneeded collapse limits in several settings
+- Added PA bionic optimizations
 - Some more things maybe I can't remember more :P
