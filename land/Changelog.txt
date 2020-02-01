@@ -1,441 +1,273 @@
 ====================
-     01-13-2020
+     02-01-2020
 ====================
 
 
-   * build/make/
-d3b75e0 releasetools: Move system mount handling to backuptool
-ee3b105 releasetools: squash backuptool support
-
-   * frameworks/av/
-3d6efcc Restore stream [dis]connect parameters in deprecated state
-33f332f Fix the name of the constant for device [dis]connect parameter
-a6303aa Cast enum to uint32_t before comparing with AUDIO_MODE_CNT
-31823a9 audiopolicy: Match DIRECT and MMAP_NOIRQ flags exactly in IOProfile
-157c960 Require HW AV sync flag match for compatible output IOProfile
-0e29cf4 av: Add AUDIO_OUTPUT_FLAG_MMAP_NOIRQ flag.
-48daa19 AudioPolicyManager: Handle error from setInputDevice in startInput
-47ff71a Remove usages of USE_XML_AUDIO_POLICY_CONF
-
-   * frameworks/base/
-cc6acb9 KeyguardClockPositionAlgorithm: Allow forcing default clockY positioning
-e0714eb TypeClockController: Set shouldShowStatusArea to true
-84692ae Camera: Clearing exception for Extended Face
-ad206cb Camera: Extend face detection
-e82989f Use vendor.camera.aux.packagelist for all privapp checking
-4ef85c3 camera: Skip HFR checks for privileged apps.
-80f44e5 Camera: Skip stream size check for whitelisted apps..
-7a1eb6c Restore light font styling of AOSP
-44e9f73 Add regular / light font config
-598f66f Wire up default fonts with font engine
-2424c8c Update default config for headline fonts
-ab91a29 Update Google Sans font style [1/2]
-750da91 Convert VPN Server endpoint to numeric
-0d47bad hwui: Relax the desiredPresent time in RenderAhead feature
-d3eb88d base: QS themes [1/2]
-4f6c34b SystemUI: Fixes to QSContainerImpl
-4214dd9 SystemUI: [HACK] set requestLegacyExternalStorage for the moment
-fd952f7 Add cylinder icon shape overlay
-3a15df9 Build Square icon shape overlay
-fe0a7f3 base: overlays: Hide pill in full gestural nav mode [1/2]
-6b9dfaa SystemUI: Lockscreen clock styles: Add accent clocks from pie [1/2]
-4f6f29e SystemUI: Lockscreen clock styles: Add sammy accent clock and a variant [1/2]
-ea46fb0 SystemUI: Lockscreen clock styles: Add small size style [1/2]
-5c18705 SystemUI: Avoid adding useless empty quick settings page
-4b72ef3 Introduce lockscreen clock/date styles [1/2]
-bae9894 Gesture nav Assistant handles: don't show them in lockscreen
-76a30d5 base: Handle NPE for ContentObserver
-bba05af FingerprintManager: return "Try again" by default
-583160c Revert "BatteryStats: Update WifiState even if EnergyInfo is invalid"
-beeda78 aapt2: silence positional arguments warnings
-3936087 Revert "NotificationService causes watchdog issues and improves performance"
-f952ebc Add missing hide flag to public deviceHasSoli api
-a8f2068 TWS-A2DP: Add TWS+ codec to DevUI support
-4c1034b audio: Add support for audio extended codecs
-b598c24 BT: Adding aptX-Adaptive codec entry to Framework
-a81ba9f Reset permission when network becomes default again.
-d00f1d2 SystemUI: Make recents grid view accept more than 8 tasks
-95603e1 GlobalActions: Set the initial status of airplane mode toggle
-5fd9608 PowerMenu: Fix Advanced button position on low DPI
-ee4692d PowerMenu: Tint power menu items with the system accent
-2d7ddd8 PowerMenu: Only tint items once
-
-   * manifest/
-71c1999 manifest: Track our gapps
-f8f3edf manifest: Track vendor_google_customization
-1a8e244 manifest: Track our system_apex
-
-   * packages/apps/DerpQuest/
-631e5dd Update Russian translation
-da66a28 DerpQuest: QS themes [2/2]
-a6a8bbb DerpQuest: Fixes to QS panel opacity
-545efe0 DerpQuest: Lockscreen clock styles: Add more styles [2/2]
-0bafe9b DerpQuest: Introduce lockscreen clock/date styles [2/2]
-48a5dec DerpQuest: AmbientLight: add visual preview
-
-   * packages/apps/OmniStyle/
-a318d50 OmniStyle: Remove missing Western headers
-f83932f OmniStyle: change header local/remote switch also to a spinner
-c61dc7b OmniStyle: fix switchbar bg color
-c2cdb36 Partially revert "OmniStyle: Remove unneeded parts"
-8f38f8e OmniStyle: HACK set requestLegacyExternalStorage for the moment
-
-   * packages/apps/OpenDelta/
-70e3d58 Merge branch 'android-10' of https://github.com/omnirom/android_packages_apps_OpenDelta into ten
-
    * packages/apps/Settings/
-ab6593b Fix volume slider color is not correct
-f65213a Settings: Move the hide pill toggle to gesture settings dialog
-befb630 Settings: Hide pill in full gestural nav mode [2/2]
-0010728 Fixes sound panel create multiple SoundSettings activity
-9895ae0 Fix carkit can't get phonebook access permission by default.
-b26f66e Settings: Ambient Music Ticker: Several improvements from Pie
-9f475ff Revert "Remove "clocks" from string"
-c140f8b Display menu: move lockscreen/ambient preference on top
+718358d Settings Icons: add VPN icon
+6b0c1b8 Revert "Settings: Add drawable for Private DNS"
 
    * vendor/aosip/
-c4c5a0e prebuilt: backuptool: Implement dynamic system mount for A-only
-32ca54a vendor: config: Include vendor/google/customization
-fbc7a57 vendor: Re-enable and update LC to q_pre_alpha_2599
-84ed8f9 vendor: Switch to Lawnchair
-6d2ee77 Revert "vendor: Add overlay for Pixel Launcher"
-f72895d Revert "Make NexusLauncher overlay static"
-e9f5f78 Revert "vendor: Add NexusLauncherRelease to PRODUCT_DEXPREOPT_SPEED_APPS"
+c3e68c7 vendor: Move dimen overlays to overlay vendor [1/2]
 
-   * vendor/gapps/
-375f2e2 gapps: Don't build GooglePackageInstaller
-
-   * vendor/pixelstyle/
-f32067b idek
-9ea04c1 pixelstyle: Add semi bold font alias for custom fonts
-3e750b8 pixelstyle: Remove pixel launcher
-a977839 pixelstyle: Update Google Sans font style [2/2]
+   * vendor/overlay/
+51ad2b3 vendor: Move dimen overlays to overlay vendor [2/2]
 
 ====================
-     01-12-2020
+     01-31-2020
 ====================
 
-
-   * manifest/
-2807705 Merge pull request #2 from marshmello61/patch-2
-
-   * packages/apps/DerpQuest/
-756e3e4 DerpQuest: Move doze brightness settings to lock screen
-
-   * packages/apps/Launcher3/
-9ca3d5c Launcher3: add dark primary support
-
-   * packages/apps/ThemePicker/
-a580993 ThemePicker: fix wrong background color on side of buttons
-ebb02e9 ThemePicker: fix drawing theme option border
-ca4f128 ThemePicker: store clock plugin as JSON
-27b881a ThemePicker: remove bottm navbar tip code
-df8cdae ThemePicker: fix marking current selected clock face on start
-
-====================
-     01-11-2020
-====================
-
-
-   * device/qcom/sepolicy-legacy/
-8c76366 Merge remote-tracking branch 'LineageOS/lineage-17.1-legacy' into ten-legacy
-
-   * manifest/
-8c862d8 Track system/qcom
-
-   * packages/apps/Launcher3/
-c0e794f Launcher3: Use customization for wallpaper package
-0c5a6aa No Calendarwidget 4x4 widget displayed
-ec5368b Use common style for recents task menu divider
-1d14f79 Use Google's strings for Google now panel
-9a61b6e Let's make the search bar on all apps round
-0c6ed55 Launcher3: Add updated Google Feed lib from Pixel 3 launcher
-dd60814 Launcher3: Allow swipe for google now to be optional
-65ddd3d Launcher3: Animate workspace when animating the Google now page
-fc7786f Launcher3: Make sure service is connected before trying to unbind
-2ba3c3a Launcher3: Support google now tab
-ef7283b Launcher3: Import reversed google now lib
-93520c8 Launcher3: Can't search out local app by Chinese
-23d0467 Use new widget style for Google searchbar
-cff9f61 Launcher: disable uneeded dev settings
-8dc4aab Add back button to Settings
-76a427d Stability NullPointer issue
-95a44b2 Elevate to 'core/platform' app'
-661f6ef Launcher3: correctly apply grid changes from grid control provider
-976647e Launcher3: fix preview rendering after adding qsb switch
-9f4e68f Launcher3: add switch to hide search widget
-
-   * packages/apps/OpenDelta/
-01de556 OpenDelta: Add some logger entries and fix md5sum fetcher logic
-e3906db Automatic translation import
-
-   * vendor/google/customization/
-455e1dc Move from vendor/gapps
-
-====================
-     01-10-2020
-====================
-
-
-====================
-     01-09-2020
-====================
-
-
-   * manifest/
-67509ab Track OpenDelta
-
-   * packages/apps/OpenDelta/
-208c289 OpenDelta: Update config and json to meet our current configuration change the code accordingly to be able to use sourceforge and our current json generator
-
-====================
-     01-08-2020
-====================
-
-
-   * bootable/recovery/
-f5ef937 misc_writer: Add system variant
-
-   * build/make/
-ebce490 check_boot_jars: Add IFAA Manager to whitelist
-37be4b7 envsetup: add function to detect shell
-71f5a3d build: Don't fail when trying to run 'export' cmd
-af6cae4 build: Remove su inclusion
-4aff549 build: generate recovery ramdisk image from TARGET_PREBUILT_RECOVERY_RAMDISK
-6c80f61 build: support using a prebuilt recovery ramdisk
-b6e5684 GoogleAudio: set new pixel sounds as defaults [2/2]
-52269c6 Use Google Nexus Audio Files [1/2]
-8760fc6 build: Erase package_cache upon flashing To avoid the resources bug when dirty flashing
-9f24101 Makefile: Changelog bringup
-6de985a Partially Revert "build: Remove wallpapers from full_base."
-cb19a7e Support PRESIGNED in soong_app_prebuilt.mk
-c47c839 build: Add back ro.build.fingerprint
-95c6e32 build: make script look good in recovery xd
-c670cba Remove ro.kernel.android.checkjni
-b6d915d envsetup: Automatically set CCACHE_EXEC to the system's ccache
-6cdeaea build: Remove some debugging props
-d598c33 Remove compatibility.zip
-8df7d2b no matter what build type we dont want to see anything but Build_ID
-8d7a0f2 Use 0 compression when creating the target_files package
-591ceba build: Remove some apps by default
-07a1872 build: Remove wallpapers from full_base.
-acace78 Revert "Fix inheritance of PRODUCT_PROPERTY_OVERRIDES for AOSiP audio files"
-18ec29b Revert "build: Conditionally include AudioPackage14.mk instead of AllAudio.mk"
-dd2de42 build: Derpify it
 
    * frameworks/base/
-682d3b1 Merge tag 'android-10.0.0_r23' of https://android.googlesource.com/platform//frameworks/base into HEAD
-ceebf92 base: Remove aosp accents
-acb7729 base: lightservice: strengthen useScaleBrightness checking
-9f98959 fwb: Conditionally set scaled brightness
-3472717 base: Allow hiding battery icon from QS header [1/2]
-c1ddc2d base: SystemUI: Allow hiding the lock icon on lockscreen [1/2]
-a90c3af base: SystemUI: Code cleanup of aa0026eafe
-5873b7e Notify ClockChangedListeners on main thread
-56a2988 SystemUI: add vibration tick when opening notification panel
-adb6162 aapt2: do not use compression
-6155fe4 Move BT state to OFF when BLE app count is zero
-28b306b base: SystemUI: add navbar editor back to navbar tuner Partial revert of d5201240f6
-eabb5e8 base: Settings: Back up rounded corner values aswell and properly document each setting
-017dccb Add an option to change the device hostname [1/2]
-1da49373a1 Revert "SystemUI: Implement EnhancedEstimatesGoogleImpl" Is not used anymore after 898584f This reverts commit 538afd309c40b0177e6b9e901de1c77bd9742986.
-0700ba8 Make the spinners faster
-000bc8e Make spinners even smoother
-b2ae697 SmoothSpinners: Makes the loading "spinner" animation smoother
-9fa55a7 ViewRootImpl: set max fling ticks per sec to 24
-739d766 TelephonyManager: add some inconsistent methods
-4336178 [SQUASHED] Add missing national roaming info
-a5a0290 Check GL extension is supported before using it in glwallpaper
-5a933c0 Crash occured due to null pointer exception.
-99b151e hwui: Avoid fake high input latency while vsync drifting
-834380d Get clock title on demand
-5c388d3 Always use a positive value for timestamp
-279a781 SystemUI: QS: keep emergency call only text consistent
-1168609 SystemUI: config: change charging thresholds
-83d6823 base: Enable burn-in protection by default and set the value to 40 maintainers that need to disable this should overlay: <bool name="config_enableBurnInProtection">false</bool> <bool name=config_statusBarBurnInProtection>false</bool>
-1e014ba base: add SF Pro Fonts Overlay
-5c982e5 Revert "SystemUI: SystemUIGoogleModule: Switch to EnhancedEstimatesGoogleImpl"
-39002a1 base: SystemUI: Kill brightness mirror
-7027ffa RecorderConstants: Use OP Screen Recorder package name
-c6b34e9 VolumeDialogControllerImpl: Check for internal audio recording support
-bd7aea1 SystemUI: Whitelist our recorder on CastController
-eb5f421 fwb: Add support for internal audio recording
-2a34b7c Logo: Use automatic color instead [1/2]
-678105c Revert "TypeClockController: Set shouldShowStatusArea to true"
-4e6cd53 Disable Wake to Ambient on Soli devices [1/2]
-5ac1ff0 Revert "KeyguardSliceView: adjust placement when Type clock is in use"
-2985aa3 SystemUI: fix constant FC on certain devices
-55be0aa base: Settings: Backup yet more settings values
-c99b20d base: SystemUI: Code cleanup of 253e196b73
-b3f14ae Update wifi interface ip state upon receiving ap disable event
-b514360 base: SystemUI: Code cleanup of 880381ea7d
-71f4986 Fix no default ringtone for slot2
-7d44055 By default turn off Ambient on wake gestures.
-816c233 base: tuner: fix navbar layout switch and remove old cruft
-1058d34 base: tuner: bring back tuner navbar editor from N
-8901cab fix Lockscreen fonts not changing
-5733312 Make Pulsing bright again
-4975e0c SystemUI: fix dt2s issue introduced during mismerge of r16 tag
-ccc54e8 DNM: HAX: Allow third party apps to access identifiers
-399bad8 Support NR when creating cell info.
-fd35d0934 base: Add support for setting fonts as LS or SB clock/date/carrier label fonts
-0f1425c overlays: Use Slate for OnePlus as OPSlate font [1/3]
-e7bde25 TextClock: Allow font resizing
-f510dd7 TextClock: Add font styles
-463377b Lockscreen font size: Clock and date improvements
-4d3ffcc Default Clock preview: Add a static widget
-ffc27ec Font styles: Add missing system fonts as choices [1/3]
-2d595a4 LS OwnerInfo Fonts & Size Options [1/2]
-bd47a20 Lock Clock & Date Font Sizes [1/2]
-5bac309 Lockscreen Date Fonts [1/2]
-533ab6b Lockscreen Clock Widget Fonts [1/2]
-dcfeb13 AppTransitions: Remove hackery for controls duration
-63d4e44 Treat default value that wasn't found as empty value
-916c1f2 Recents: Fix NPE while changing themes
-32c55dd CastTile: Fix availability of Cast Quick Setting Tile
-f41af50 Lockscreen charging info: show decimal in battery temperature
-f090c25 Graphics: Fix NPE in Gdrive
-c33eb34 SystemUI: Remove annoying log caused by aosp bug
-7497e33 SystemUI: CarrierLabel: Set default font to Google Sans
-d46bef7 SystemUI: Clock: Set default font to Google Sans [1/2]
-c477452 QS: Fix opacity after reboot
-22a555a Added Fonts From Pie [1/2]
-7114adb Ambient instead of lockscreen on wake gesture: code fixes
-3c5833b Ambient music: allow disable dt2skiptrack on Soli devices
-2ac412e Ambient music: send the proper pulse reason on slpi tap
-1802f55 Add overlay for Ambient wake gestures [1/2].
-de1bc4b Package installer: show current and new version on apk installation
-24a8833 base: Fix derp in 57b636f35ac96c8a3bf30f08a9d8481d920ecfc8
-b198010 KeyguardSliceView: adjust placement when Type clock is in use
-18e1580 ServiceRegistry: Don't throw an exception if OEM_LOCK is missing
-a7ab81b TypeClockController: Set shouldShowStatusArea to true
-
-   * frameworks/native/
-8727a99 Merge tag 'android-10.0.0_r23' of https://android.googlesource.com/platform//frameworks/native into HEAD
-
-   * hardware/libhardware/
-c886465 libhardware: Add new display types.
-
-   * manifest/
-bee1e31 manifest: Track ThemePicker and WallpaperPicker2 from AOSiP
-5f5dd61 manifest: update to android-10.0.0_r23
-
-   * packages/apps/DerpQuest/
-d46bc63 DerpQuest: QuickSettings: All statements should return true * this was noticed after 708439fa59 because of an instinctively *derp* fix
-c0c4690 DerpQuest: Move NavBar categoty switches inside buttons category
-bb2c12c DerpQuest: Allow hiding battery icon from QS header [2/2]
-bd9fcb0 DerpQuest: Enable/Disable NavBar tuner programmatically * this fixes FC on devices with HW keys * crash log: https://del.dog/wygreckulo.log
-c229f5c DerpFest: Update hebrew translation
-3cfc675 Added polish translations
-fa051a6 DerpQuest: Allow hiding the lock icon on lockscreen [2/2]
-379b7b2 DerpQuest: Add a warning for 3 fingers screenshot gesture switch
-8aa00e6 DerpQuest: Add navbar tuner pref page
-6175451 DerpQuest: Update Russian translation
-98b2045 DerpQuest: ColorPicker: make it more user friendly Show RGB value instead of ARGB because most average users dont even know about alpha in hex color values Make edittext limited to 7 chars and one line Remove enter imagebutton, it confused me at first time and confirm entered hex with enter key instead
-0a81cb9 DerpQuest: AmbientLight: update summary to show RGB value instead of ARGB
-31b38af DerpQuest: Add some missing preference categories
-860b911 DerpQuest: LockScreenSettings: Fix FC for devices without FP.
-870f976 DerpQuest: Logo: Use automatic color instead [2/2]
-6de6e61 DerpQuest: Add our favorite fonts in AOSP FontEngine [3/3]
-9617e70 DerpQuest: Use Slate for OnePlus as OPSlate font [3/3]
-1504f03 DerpQuest: Lockscreen font size: Adjust min & max values
-ad717d0 DerpQuest: Font styles: Add missing system fonts as choices [2/3]
-09b4976 DerpQuest: LS OwnerInfo Fonts & Size Options [2/2]
-9d11698 DerpQuest: Lock Clock & Date Font Sizes [2/2]
-c5c85f2 DerpQuest: Lockscreen Date Fonts [2/2]
-5f682f8 DerpQuest: Lockscreen Clock Widget Fonts [2/2]
-264c923 DerpQuest: Misc fixes
-7e35966 DerpQuest: Fix LockscreenSettings crash
-eb16b81 DerpQuest: Clock: Set default font to Google Sans [2/2]
-e41bef5 DerpQuest: Network Traffic: Correct logic problem when unlocking the UI elements.
-88cfebf DerpQuest: Dt2s gestures: Turn off by default. It turned out that these settings caused problems when waking up the device by the double tap or lift gesture.
-5c1bfd9 DerpQuest: Nuke volume key cursor control coz it doesn't work in Q.
-175e6c5 DerpQuest: Edge Light: Hide category if Ambient wake gestures are unavailable.
+9b4de0b base: Whitelist more permissions needed for SystemUIGoogle
+b4a4116 Updates to various icons
+eaea6b9 Partial screenshot: Layout improvements
+e0ea785 PowerMenu: Fix items not tinting correctly in landscape
+185d52c Updates to "Context-aware Bluetooth airplane mode"
+a9f47f3 Bluetooth: Fix BT stability issues
+b2965e2 Revert "Move BT state to OFF when BLE app count is zero"
+99f507b Revert "Crash occured due to null pointer exception."
+682eaf7 SystemUI: Fix minute digits for accent based lockscreen clock style
+a64d0d0 ScreenshotHelper: ignore timeout when taking partial screenshots
+6f1d9b9 SystemUI: implement better partial screenshot
+c0bdf3c Revert "base: refine partial screenshot handling"
+a4f82e9 Revert "Partial screenshot: allow BACK action only from right side"
+c395a0b SystemUI: tiles: Migrate to new screenshot method with Longshot support
+f3c3238 base: Port extended screenshot function from OOS
+de83879 Revert "Revert "KeyguardSliceView: adjust placement when Type clock is in use""
+b599013 base: Add Fira Sans font [1/2]
+caef447 base: Add Samsung One font [1/2]
+0a1700a qs footer: Tint build info as secondary text
+37cf061 Toasts: Use a snackbar-like animation
+28de51c Avoid system reboot while invalidate LegacyGlobalAction
+fb49f36 SystemUI: Bring back ic_qs_bluetooth_connected.xml
+9c446fd FrameworkBase: Fix NullPointerException of AMS
+b886afb Set the Network Specifier on Emergency SUPL
+722469b Fix to handle duplicate call id for conference call
+f38d8e43 Consolidate ActivityStack#finishCurrentActivityLocked checking
+bedbbaf Add Network Preference Bitmaps (1/2)
+419bcbc Fix DerpFest Logo from remaining active when notifications arrive
+2be7b8a fwb: cLock: Add a user toggle to show/hide status area [1/2]. Other part is in ThemePicker
+81afa6f Volume panel: Adjust the left padding
+7d03243 Volume panel: avoid multiple animations on touch spam
+8dc8ad6 Fix StorageManagerService linkToDeath more than one time when vold/storaged died.
+659ce64 SystemUI: Adjust powermenu and qs customizer background
+57b6d9e TypeClockController: Set shouldShowStatusArea to true
+cc23a5f SystemUI: Use color accent for user avatar default color
+635adb1 base: Status bar notification ticker [1/2]
+322a1ff base: Add NotificationColorUtil back
+ab90b03 DozeSensors: do not use binned brightness sensor for proximity if not supported
+2975f1a Revert "base: Remove aosp accents"
 
    * packages/apps/OpenDelta/
-60fecc9 OpenDelta: Derpify logo
+c413c13 OpenDelta: Let the logo follow accent color
 
    * packages/apps/Settings/
-9336791 Settings: Switch to OpenDelta updater
-60a7d3a Merge tag 'android-10.0.0_r23' of https://android.googlesource.com/platform//packages/apps/Settings into HEAD
-910673c Settings: Add an option to change the device hostname [2/2]
+b2b4db4 Settings: Fix string for system summary
+6e2b506 Settings: Fix charging sounds string
+3938e85 Settings: Use an xml property for maintainer string * No need to use a build.prop for this and overlaying from DT will be easier for maintainers this way * A partial revert of aa95452a54
 
-   * packages/services/Telecomm/
-9a07e69 Telecomm: Phone ringtone setting for Multi SIM device [3/3]
-b60144f Added features flash-call-on-waiting [2/3]
-fb1acc0 Use double vibration on call hang-up
-9516689 Add back increasing ring feature (1/3).
-20187b0 Incall vibration options [2/3]
+   * vendor/aosip/
+a87011e vendor: Update package name of Longshot
+7b199b8 vendor: Fix privileged permission for Longshot
 
-   * system/apex/
-e706700 Disable the build of com.android.apex.cts.shim.v1_prebuilt
+   * vendor/overlay/
+cd60c28 Overlays: Add teal accent back
+
+   * vendor/prebuilts/
+8866d5e prebuilts: Update libhoko_blur.so
+f736af4 prebuilts: Improve Lawnchair build config
+b774138 prebuilts: Update Longshot
+23b056a prebuilts: Import modded Longshot app
+d23f753 prebuilts: Add Lawnfeed 2.1-2598
+
+====================
+     01-30-2020
+====================
+
+
+   * device/aosip/sepolicy/
+3b5bd70 sepolicy: Label ro.telephony.use_old_mnc_mcc_format
+e97e918 Allow Snap cam access for gpu service
+99e383c sepolicy: Adress apexd denial
+
+   * packages/apps/DerpQuest/
+d5996a8 Revert "Edge Light: Hide category if Ambient wake gestures are unavailable."
+
+   * packages/apps/Settings/
+c0cd6c8 SearchBar: Add avatar to search bar
+aa95452 Settings: Add simple maintainer string
+0475678 Revert "Make fingerprint illustrations single color"
+be84d61 Settings: No need of extra effort
+979b32d Optimize NetworkScan for only User-Enabled RANs (2/2)
+ca8afed Settings: remove unneeded collapse limits II
+f852c22 Settings: remove unneeded collapse limits
+c620b4d Comment out double options that were under accessibility
+fd5e6a2 Add back arrow to Desktop backup password
+2009346 Show a warning dialog before network search
 
    * system/core/
-1c8e2b8 Merge tag 'android-10.0.0_r23' of https://android.googlesource.com/platform/system/core into HEAD
-
-   * vendor/aosip/
-29b9b56 vendor: tools: Rename json to the product name
-14ee812 vendor: tools: Allow forcing json generation and only print required values for OpenDelta * force the json generation with 'export FORCE_JSON=1' before compiling
-99e5882 vendor: Switch to OpenDelta updater
-6ed086c vendor: Add NexusLauncherRelease to PRODUCT_DEXPREOPT_SPEED_APPS
-a1583d6 vendor: Remove ThemePicker
-67c5546 vendor: Revise the accent colors
-f474227 vendor: Add Mint accent color
-51caeed vebdor: accents: Add new accent colors for Q
-c8b2007 vendor: tools: Make number of changlog days generated stand out with colors
-5ace8c5 vendor: tools: Rewrite json generator script * Make the script readable * Use our relevant values * Generate a link for SF * Add outputs with colors
-c675afe vendor: tools: Make json generator add new lines
-b209733 vendor: Remove some redundant overlays
-42fd04a build: Show the DerpFest bloody ascii on build complete
-6fca789 vendor: overlay: devicesettings: Change pref category style
-c2c2423 vendor: remove aosip-tcp.rc
-d692a60 vendor: drop latinime gesture libs
-104cccf vendor: drop unneeded pe weather bits
-ee22606 vendor: drop sdclang call as we never used
-79fd8cf vendor: Remove obsolete overlays and configs
-19203b3 vendor: Allow providing camera server and service
-fe7fb58 vendor: tools: Make the generator follow the OTA format
-4c78868 Fixed JSON file_size parsing
-a652b83 vendor: tools: Make the generator suit the current OTA system needs
-a30c88c vendor: tools: Generate OTA variables
-06b0b65 vendor: build: Generate json file with zip info after build
-ed93773 vendor: overlay: Remove security footer side margin and end padding for left-aligned status bar clock
-0e99ed8 vendor: increase qs_panel_padding_top to prevent overlap of brightness with header
-d895521 vendor: reduce qs footer height
-1722234 vendor: cleanup SystemUI dimens overlay
-cfc463f [2/2] overlay: header image tweaks
-410c071 [4/4] overlay: qs status bar header image
-d52f556 vendor: overlay: set default qs_header_tile_margin_horizontal to 13dp
-3c52f71 vendor: overlay: dimen tweaks
-a0703d7 kernel: Fix ccache not being used when building
-4329e58 config: Split priv-app permission whitelist
-410e1ca envsetup: fix mka behavior
-26fded5 Make NexusLauncher overlay static
-f2e6e88 vendor: Add overlay for Pixel Launcher
-971a0d6 vendor: Add hide notch support [2/3]
-3160fd4 vendor: privapp elgoog: fix opengapps stuff AGAIN
-5cb8cf3 vendor: elgoog: fix new permissions for Q
-be8a008 vendor: Use speed tuning for performance critical applications
-77bcf04 tools: changelog: Only fetch necessary dates
-72266e3 tools: changelog: Shorten the line.
+dcf3bd3 Tweak /init to never expose verifiedbootstate=orange
+ee1b2f1 Filter GalleryDatab*
+092ff9c Silence spammy logs from camera blobs (AEC_PORT and mm-camera)
+70ee406 init: ro.build.selinux should be 0
+3fc46c2 init: add several more keys to spoof
+2b5c410 init: workaround SafetyNet check
+9a66baf init: Weaken property override security for the init extension
+aff3b4a Set /sys/power/wake_lock permissions on init.
+9db0ebb init: only provide control message results for devices launching > Q
+1ecd565 Ignore class_{reset|start}_post_data on non-updatable APEX.
+2e90453 Reland^2: "init: run property service in a thread"
+39a4b65 init: add error handling in control message
+b5c3b8a init: simplify async restorecon
+a02a862 init: handle getpeercon() errors
+86ebc2f init: set up SelinuxAuditCallback() earlier
 
    * vendor/pixelstyle/
-d41f406 Partially revert "pixelstyle: Derpify it"
+b725208 pixelstyle: fonts: Add Fira Sans font [2/2]
+d7fb160 pixelstyle: fonts: Add Samsung One font [2/2]
+d0a1419 pixelstyle: fonts: Update GoogleSans
 
 ====================
-     01-07-2020
+     01-29-2020
 ====================
 
 
    * build/make/
-190a2ea Merge tag 'android-10.0.0_r23' of https://android.googlesource.com/platform//build into HEAD
+9e96548 build: Allow supplying a prebuilt recovery ramdisk cpio
+bf8b129 build: Build Gapps and AOSP apps conditionally [2/2]
+
+   * packages/apps/DerpQuest/
+f852b3e DerpQuest: Search Index: Make sure our features show up under Settings search.
+daf2ed5 DerpQuest: Update Settings icons: new layout and size. * 24x24 -> 36x36 Icons created by @RogerdotT
+0d0fb6d DerpQuest: Status bar notification ticker [2/2]
+856ee30 Running services icon toggle [2/2]
+a96a360 DerpQuest: Introduce Adjustable Blur Intensity [2/2]
+fb20615 DerpQuest: Allow controlling QS blur alpha [2/2]
+3d30288 DerpQuest: Make gentle notifications header toggleable [2/2]
+
+   * packages/apps/Settings/
+1239247 Settings: Fix NullPointerException in BatteryUtils
+7d47df2 Settings: Fix usage of ChooseLockSettingsHelper
+52ee708 Revert "Settings: Remove GPlay version entry"
+
+   * packages/apps/ThemePicker/
+d2ef763 ThemePicker: cLock: Add a user toggle to show/hide status area [2/2]. Other part is in fw/b
+
+   * vendor/aosip/
+93ef36b vendor: overlays: Import QS Color overlay from POSP
+5bed9e6 Revert "Revert "kernel: Fix specifying custom clang compiler version""
+
+====================
+     01-28-2020
+====================
+
+
+   * frameworks/base/
+2d3c5de FODCircleView: fix incorrect position on keyguard
+581bb48 Running services icon toggle [1/2]
+b00db0f Allow to quickly open Running Services from QS panel [1/2]
+5a61882 base: Settings: Always finding more values to backup * and fix some derps
 
    * manifest/
-7025634 Update README.mkdn
+8da6983 Initial tracking for DerpFest
 
-   * packages/apps/Launcher3/
-26c0597 Merge tag 'android-10.0.0_r23' of https://android.googlesource.com/platform//packages/apps/Launcher3 into HEAD
+   * packages/apps/Settings/
+cbc45af Allow to quickly open Running Services from QS panel [2/2]
 
-   * system/bt/
-89d4b0f Merge tag 'android-10.0.0_r23' of https://android.googlesource.com/platform//system/bt into HEAD
+   * vendor/aosip/
+ea8b6f9 vendor: Include PixelLiveWallpaperPrebuilt
+1a2eafe vendor: add OmniStyle
+5fa8c1f vendor: add OmniRecord to build
+a6f46a0 vendor: Build Gapps and AOSP apps conditionally [1/2]
+9fc04d6 vendor: Switch to OpenDelta updater
+a6cbfba vendor: build Updater conditionally
+94e957e vendor: themes: Categorise core theme packages
+502f189 vendor: config: Include vendor/google/customization
+e0c85c8 vendor: Allow providing camera server and service
+c53b321 vendor: overlay: Remove security footer side margin and end padding for left-aligned status bar clock
+b3d3171 vendor: increase qs_panel_padding_top to prevent overlap of brightness with header
+90826cd vendor: reduce qs footer height
+1284696 vendor: cleanup SystemUI dimens overlay
+44e96af [2/2] overlay: header image tweaks
+4c29ea8 [4/4] overlay: qs status bar header image
+fcb9a5a vendor: overlay: set default qs_header_tile_margin_horizontal to 13dp
+d19f051 vendor: overlay: dimen tweaks
+0678c25 kernel: Fix ccache not being used when building
+1cbcfc9 vendor: Build sqlite3
+e547c7a vendor: Use speed tuning for performance critical applications
+527b74d envsetup: fix mka behavior
+94a078a vendor: Bring back Android Beam
+0f17313 prebuilt: init: custom-system: hide Magisk better
+d3dfd0a vendor: Allow the use of aosp apn's
+60c18ca vendor: Add support for custom bootloader offset
+29d25e8 vendor: Add support for dark bootanimation
+0f804a1 vendor: Refactor setup wizard overlays
+2029c11 vendor: Enable and refactor SetupWizardOverlay
+5b1f9aa vendor: Add overlay for SetupWizard [2/2]
+69e1618 vendor: Include gapps and pixelstyle
+a2d70fc Revert "aosip: Add sysfs permissions for pocket bridge"
+642c403 vendor: Fix compilation errors with prebuilt kernel
+824d0e1 kernel: pass custom compiler string directly to make
+16f1610 Revert "aosip: remove usage of KBUILD_COMPILER_STRING"
+c8c74bb vendor: allow editing build date format from device tree
+af2dca0 vendor: Update devices list for DerpFest
+b452d4a soong_config: add TARGET_NEEDS_NETD_DIRECT_CONNECT_RULE
+a0bfa78 vendor: Add soong variable for TARGET_CAMERA_BOOTTIME_TIMESTAMP
+8db910a vendor: Fix TARGET_USE_AOSP_SURFACEFLINGER logic
+a4b424d vendor: Allow disabling CAF surfaceflinger
+4f98661 vendor: Cleanup uses_qcom_um_family soong param
+eac4cfd vendor: Add back soong and build configuration for qcom platform
+
+   * vendor/gapps/
+d8658c3 gapps: Don't build GooglePackageInstaller
+
+   * vendor/overlay/
+06a952e DNM: Overlays: Update accents for DerpFest
+6bdc5de Overlay: Add Lead Black Primary
+24983cf Overlay: Add Charcoal Black Primary
+8b215e4 Overlays: Switch to Lawnchair [2/3]
+11781c5 Overlays: Derpify it
+
+   * vendor/prebuilts/
+a435d2f prebuilts: Build Google prebuilts conditionally
+
+====================
+     01-27-2020
+====================
+
+
+   * frameworks/base/
+4c6ace65 Revert "overlay: Target pixel launcher/pixel themes"
+8f551b31 SystemUI: Introduce Adjustable Blur Intensity [1/2]
+
+   * manifest/
+b7de397 manifest: lineage: Track devicesettings for all devices
+
+   * vendor/aosip/
+c1cb8b0 vendor: Introduce overlay for Lawnchair default conf
+4c4f852 vendor: Switch to Lawnchair [3/3]
+adca332 vendor: tools: Rename json to the product name
+adbc94b vendor: tools: Allow forcing json generation and only print required values for OpenDelta * force the json generation with 'export FORCE_JSON=1' before compiling
+933d766 vendor: tools: Make number of changlog days generated stand out with colors
+157d949 vendor: tools: Rewrite json generator script * Make the script readable * Use our relevant values * Generate a link for SF * Add outputs with colors
+5681de2 vendor: tools: Make json generator add new lines
+1d5115b vendor: tools: Make the generator follow the OTA format
+edb23f4 Fixed JSON file_size parsing
+8c89937 vendor: tools: Make the generator suit the current OTA system needs
+d063449 vendor: tools: Generate OTA variables
+9305100 vendor: build: Generate json file with zip info after build
+1feb294 tools: changelog: Only fetch necessary dates
+42ed54a tools: changelog: Shorten the line.
+df9916b vendor: Changelog bringup [squashed]
+82dad06 build: Show the DerpFest bloody ascii on build complete
+4e16752 May the GOD bless my ancestors...
+
+   * vendor/prebuilts/
+1a44f29 prebuilts: Switch to Lawnchair [1/3]
+
+====================
+     01-26-2020
+====================
+
 
