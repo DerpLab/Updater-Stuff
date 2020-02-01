@@ -1,13 +1,44 @@
 Device
-- Import CarrierConfig LA.UM.8.2.r1-04300-sdm660.0 (Fix VoLIT, hopefully)
-- Import more stock networking setup (Fix Hotspot missing)
+- Unmask vendor-specific overlays back
+- Improved zRam creation 
+- Introduce Raise to wake gesture
+- Some proprietary-blobs updates from QKQ1.190825.002
 
 Kernel
-- Update to Linux 4.14.168
-- Fix more performance regression
+- Update to Linux stable 4.14.169
 
 ROM
-- DozeSensors: do not use binned brightness sensor for proximity if not supported (Fix AOD auto brightness issues)
-- FODCircleView: fix incorrect position on keyguard (lockscreen)
-- Restore AOSP Accents
-- And maybe more stuff hmm ¯\_(ツ)_/¯
+- Added GPlay version entry back to about phone
+- Added Lawnfeed prebuilt
+- Added option for Running Services from QS panel
+- Added reworked theming category back to DerpQuest
+- Added Samsung One and Fira sans fonts
+- Added Status bar notification ticker
+- Added themepicker toggle to show/hide weather and date on custom clocks
+- Added whitelist permissions needed for SystemUIGoogle
+- Beautified toast notifications
+- Changed back gesture height intervals
+- Changed default wallpaper
+- Commented out double options that were under accessibility
+- Disabled long click for SoundSearch qs tile
+- Fixed DerpFest Logo from remaining active when notifications arrive
+- Fixed gap when toggling airplane mode
+- Fixed minute digits for accent based lockscreen clock style
+- Fixed mobile data usage qs details view content
+- Implement better partial screenshot
+- Improved Navbar toggle
+- Improved power menu and volume panel layout
+- Improved search bar avatar
+- Made gentle notifications header toggleable (disabled by default)
+- Made sure DerpQuest features show up under Settings search
+- Migrated Screenshot QS tile to new method with Longshot support
+- Ported extended screenshot function from OOS
+- Removed hide notch overlays
+- Removed unneeded collapse limits in several settings
+- Several improvements for FOD implementation
+- Several improvements for VPN
+- Show a warning dialog before network search
+- Update Google Sans Fonts
+- Update Lawnchair libs
+- Updated DerpQuest Settings icons (new layout and size)
+- And maybe more stuff unlisted ( ͡° ͜ʖ ͡°)
