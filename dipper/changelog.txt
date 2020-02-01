@@ -1,72 +1,48 @@
-====================
-     01-31-2020
-====================
-
 ROM:
+- Ported extended screenshot function from OOS
+- Migrated Screenshot QS tile to new method with Longshot support
+- Implement better partial screenshot
+- Updated DerpQuest Settings icons (new layout and size)
+- Added reworked theming category back to DerpQuest
+- Added themepicker toggle to show/hide weather and date on custom clocks
+- Added Samsung One and Fira sans fonts
+- Changed default wallpaper
+- Added toggle for Blur behind quick settings (enabled by default)
+- Added options for Blur intensity and opacity
+- Made gentle notifications header toggleable (disabled by default)
+- Added option for Running Services from QS panel
+- Fixed minute digits for accent based lockscreen clock style
+- Fixed mobile data usage qs details view content
+- Added Lawnfeed prebuilt
+- Beautified toast notifications
+- Improved Navbar toggle
+- Added Gaming mode QS tile
+- Added Sync QS Tile
+- Added Reboot/Recovery QS Tile
+- Disabled 3 columns in landscape
+- Added Status bar notification ticker
+- Imported MIUI SwipeToScreenshot implementation
+- Added capability to allow tethering to use VPN upstreams
+- Improved the VPN footer layout
+- Updated VPN settings icon drawable
+- Improved power menu and volume panel layout
+- Changed back gesture height intervals
+- Fixed DerpFest Logo from remaining active when notifications arrive
+- Moved AOSP gestures to DerpQuest
+- Fixed gap when toggling airplane mode
+- Removed hide notch overlays
+- Added more DerpQuest settings to Google backup
+- Added whitelist permissions needed for SystemUIGoogle
+- Made sure DerpQuest features show up under Settings search
+- Improved search bar avatar
+- Added GPlay version entry back to about phone
+- Added maintainer string to about phone
+- Disabled long click for SoundSearch qs tile
+- Several improvements for FOD implementation
+- Show a warning dialog before network search
+- Commented out double options that were under accessibility
+- Removed unneeded collapse limits in several settings
+- Added PA bionic optimizations
 
-   * frameworks/base/
-9b4de0ba0fd base: Whitelist more permissions needed for SystemUIGoogle
-b4a41161ae3 Updates to various icons
-eaea6b91159 Partial screenshot: Layout improvements
-e0ea7858c5e PowerMenu: Fix items not tinting correctly in landscape
-185d52c1a6a Updates to "Context-aware Bluetooth airplane mode"
-a9f47f31fa0 Bluetooth: Fix BT stability issues
-b2965e2ba80 Revert "Move BT state to OFF when BLE app count is zero"
-99f507b0342 Revert "Crash occured due to null pointer exception."
-682eaf758ef SystemUI: Fix minute digits for accent based lockscreen clock style
-a64d0d0f1ea ScreenshotHelper: ignore timeout when taking partial screenshots
-6f1d9b9eb8c SystemUI: implement better partial screenshot
-c0bdf3c68f9 Revert "base: refine partial screenshot handling"
-a4f82e907dc Revert "Partial screenshot: allow BACK action only from right side"
-c395a0b852d SystemUI: tiles: Migrate to new screenshot method with Longshot support
-f3c3238f389 base: Port extended screenshot function from OOS
-de838793154 Revert "Revert "KeyguardSliceView: adjust placement when Type clock is in use""
-b599013c26b base: Add Fira Sans font [1/2]
-caef447a0ae base: Add Samsung One font [1/2]
-0a1700a5f4e qs footer: Tint build info as secondary text
-37cf061c88a Toasts: Use a snackbar-like animation
-28de51cba15 Avoid system reboot while invalidate LegacyGlobalAction
-fb49f36670e SystemUI: Bring back ic_qs_bluetooth_connected.xml
-9c446fd4052 FrameworkBase: Fix NullPointerException of AMS
-b886afbc0f9 Set the Network Specifier on Emergency SUPL
-722469b5c18 Fix to handle duplicate call id for conference call
-f38d8e433f5 Consolidate ActivityStack#finishCurrentActivityLocked checking
-bedbbaf753c Add Network Preference Bitmaps (1/2)
-419bcbc0de4 Fix DerpFest Logo from remaining active when notifications arrive
-2be7b8a192f fwb: cLock: Add a user toggle to show/hide status area [1/2]. Other part is in ThemePicker
-81afa6f5735 Volume panel: Adjust the left padding
-7d03243300b Volume panel: avoid multiple animations on touch spam
-8dc8ad66242 Fix StorageManagerService linkToDeath more than one time when vold/storaged died.
-659ce6490b0 SystemUI: Adjust powermenu and qs customizer background
-57b6d9e1a57 TypeClockController: Set shouldShowStatusArea to true
-cc23a5f388e SystemUI: Use color accent for user avatar default color
-635adb18772 base: Status bar notification ticker [1/2]
-322a1ffbe33 base: Add NotificationColorUtil back
-ab90b0306a3 DozeSensors: do not use binned brightness sensor for proximity if not supported
-2975f1aba50 Revert "base: Remove aosp accents"
-
-   * packages/apps/OpenDelta/
-c413c13 OpenDelta: Let the logo follow accent color
-
-   * packages/apps/Settings/
-b2b4db484e Settings: Fix string for system summary
-6e2b50641e Settings: Fix charging sounds string
-3938e85976 Settings: Use an xml property for maintainer string * No need to use a build.prop for this and overlaying from DT will be easier for maintainers this way * A partial revert of aa95452a54
-
-   * vendor/aosip/
-a87011e vendor: Update package name of Longshot
-7b199b8 vendor: Fix privileged permission for Longshot
-
-   * vendor/overlay/
-cd60c28 Overlays: Add teal accent back
-
-   * vendor/prebuilts/
-8866d5e prebuilts: Update libhoko_blur.so
-f736af4 prebuilts: Improve Lawnchair build config
-b774138 prebuilts: Update Longshot
-23b056a prebuilts: Import modded Longshot app
-d23f753 prebuilts: Add Lawnfeed 2.1-2598
-
-device:
-
-Use TwistedKernel as the stock kernel
+Kernel:
+Use Twisted Kernel (paudio branch)
