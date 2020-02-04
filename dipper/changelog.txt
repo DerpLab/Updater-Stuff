@@ -1,48 +1,148 @@
-ROM:
-- Ported extended screenshot function from OOS
-- Migrated Screenshot QS tile to new method with Longshot support
-- Implement better partial screenshot
-- Updated DerpQuest Settings icons (new layout and size)
-- Added reworked theming category back to DerpQuest
-- Added themepicker toggle to show/hide weather and date on custom clocks
-- Added Samsung One and Fira sans fonts
-- Changed default wallpaper
-- Added toggle for Blur behind quick settings (enabled by default)
-- Added options for Blur intensity and opacity
-- Made gentle notifications header toggleable (disabled by default)
-- Added option for Running Services from QS panel
-- Fixed minute digits for accent based lockscreen clock style
-- Fixed mobile data usage qs details view content
-- Added Lawnfeed prebuilt
-- Beautified toast notifications
-- Improved Navbar toggle
-- Added Gaming mode QS tile
-- Added Sync QS Tile
-- Added Reboot/Recovery QS Tile
-- Disabled 3 columns in landscape
-- Added Status bar notification ticker
-- Imported MIUI SwipeToScreenshot implementation
-- Added capability to allow tethering to use VPN upstreams
-- Improved the VPN footer layout
-- Updated VPN settings icon drawable
-- Improved power menu and volume panel layout
-- Changed back gesture height intervals
-- Fixed DerpFest Logo from remaining active when notifications arrive
-- Moved AOSP gestures to DerpQuest
-- Fixed gap when toggling airplane mode
-- Removed hide notch overlays
-- Added more DerpQuest settings to Google backup
-- Added whitelist permissions needed for SystemUIGoogle
-- Made sure DerpQuest features show up under Settings search
-- Improved search bar avatar
-- Added GPlay version entry back to about phone
-- Added maintainer string to about phone
-- Disabled long click for SoundSearch qs tile
-- Several improvements for FOD implementation
-- Show a warning dialog before network search
-- Commented out double options that were under accessibility
-- Removed unneeded collapse limits in several settings
-- Added PA bionic optimizations
+====================
+     02-04-2020
+====================
 
-Kernel:
-Use Twisted Kernel (paudio branch)
+
+   * build/make/
+c4f723a46 Fix zsh compatibility issue in build/envsetup.sh
+edda74a5f Fix lunch choices w/zsh
+4b4cdf784 Gather lunch choices before printing prompt
+dd472d71a Merge tag 'android-10.0.0_r27' of https://android.googlesource.com/platform//build into HEAD
+
+   * frameworks/av/
+c4b9cb36a Merge tag 'android-10.0.0_r27' of https://android.googlesource.com/pl…
+
+   * frameworks/base/
+3b4b1652f71 Fix android setup permissions
+c5ac7882294 AMS: Fix the null pointer exception in IntentResolver
+3e3bef959fb Fix MtpDatabase multithreading NullPointerException
+a186b6324dd Fix incorrect context classloader initialization in system_server
+feb0e469f25 Fix LockdownVpnTracker deadlock when resetting legacy Always-On VPN
+72b714647f8 data: update systemui priv-app permissions
+bfdf13100db Update priv-app permissions
+cb490caa3e5 RebootTile: Make default state inactive
+05329a51b60 Extend reboot tile to add power off
+8435fa496ef RebootTile: Fix gradient message display for reboot to recovery
+67d8a090225 Add Reboot/Recovery QS Tile
+f617b431aca Revert "SystemUI: QS: Add Reboot/Recovery Tile"
+9f63e81eb39 Merge tag 'android-10.0.0_r27' of https://android.googlesource.com/platform//frameworks/base into HEAD
+500cf5be2f7 base: Add an option to pulse edge light for all doze triggers [1/2]
+e4628cbb105 base: Allow limiting edge lighting repeats [1/2]
+bba1c5aed7e SystemUI: Allow changing duration of ambient edge light [1/2]
+53fdd21779f SystemUI: Improve edge lightning behavior on live wallpaper
+523483179d4 SystemUI: Add color options for edge lightning [1/2]
+005135a72ee SystemUI: only call  showAodContent(true) if we are still on the keyguard
+016df0bd19e SystemUI: replace pulse light drawable with our own vector
+7d6a91dcf86 SystemUI: use ROWS_HIGH_PRIORITY for active notification pulse check
+46015298a29 SystemUI: kill any leftover notification pulse on new pulse start
+9f9ad9e5a28 SystemUI: add Ambient Lights always on hide aod content option
+de8c2dbee88 SystemUI: trigger pulse light only for notifications
+d1c21cbee8c SystemUI: add Pulse and Ambient notification bars [1/2]
+93642e02a9b base: Revert old edge lighting in favor of new one [1/2]
+
+   * frameworks/native/
+38602b2d5 Merge tag 'android-10.0.0_r27' of https://android.googlesource.com/platform//frameworks/native into HEAD
+
+   * frameworks/opt/net/wifi/
+9c908c549 Merge tag 'android-10.0.0_r27' of https://android.googlesource.com/platform//frameworks/opt/net/wifi into HEAD
+
+   * hardware/libhardware/
+1dde6678 Merge tag 'android-10.0.0_r27' into ten
+
+   * manifest/
+e82bd39 Initial tracking for DerpFest
+f7850cb Merge tag 'android-10.0.0_r27' into ten
+a7193f2 Manifest for Android 10.0.0 Release 27 (QQ1B.200205.002)
+7696dbc Manifest for Android 10.0.0 Release 26 (QQ1A.200205.002)
+78aff0a Update README for new domain
+
+   * packages/apps/Bluetooth/
+9e336b2b Merge tag 'android-10.0.0_r27' of https://android.googlesource.com/platform//packages/apps/Bluetooth into HEAD
+
+   * packages/apps/CertInstaller/
+5529564 Merge tag 'android-10.0.0_r27' into ten
+
+   * packages/apps/DerpQuest/
+cd5a946 DerpQuest: Move charging info text switch to DerpQuest [2/2]
+ed550df DerpQuest: Add an option to pulse edge light for all doze triggers [2/2]
+fe5b3b4 DerpQuest: Add back missing edge lighting preview
+31d120b DerpQuest: Allow limiting edge lighting repeats [2/2]
+ad907b1 DerpQuest: Allow changing duration of ambient edge light [2/2]
+31ea9f9 DerpQuest: Add color options for edge lightning [2/2]
+528663b DerpQuest: ambient light settings
+2fcdad7 DerpQuest: Pulse and Ambient notification bars [2/2]
+0720aee DerpQuest: Revert old edge lighting in favor of new one [2/2]
+
+   * packages/apps/Settings/
+c132ddf3b1 Settings: Move charging info text switch to DerpQuest [1/2]
+26baf7c842 Merge tag 'android-10.0.0_r27' of https://android.googlesource.com/platform//packages/apps/Settings into HEAD
+
+   * packages/services/Telecomm/
+7cb3cbe4 Merge tag 'android-10.0.0_r27' of https://android.googlesource.com/platform//packages/services/Telecomm into HEAD
+
+   * system/bt/
+994f06e73 Merge tag 'android-10.0.0_r27' into ten
+
+   * system/core/
+56f6db5bc adb: host: Provide better sideload status
+
+====================
+     02-03-2020
+====================
+
+
+   * frameworks/base/
+e53cf23e874 base: omnistyle: Stinky workaround for header shadow and tinted images
+533d071efc5 base: Add Tinkerbell [1/2]
+b77400cba16 base: SystemUI: Actually set battery bar visability on runtime [1/2]
+3262773a609 base: Kang La Fontage from Bootleggers [1/2]
+934646f91ea SystemUI: Nope. This shouldn't be here *Introduced in 94bfbab816
+
+   * packages/apps/DerpQuest/
+94f11ac DerpFest: Actually set battery bar visability on runtime [2/2]
+2749f64 DerpQuest: Avoid showing two switches to devices with HW navigation keys
+
+   * packages/apps/Settings/
+317b409438 Settings: Add primary color picker from Styles & Wallpapers
+2265ba1552 Settings: Add Statusbar Icon Picker from Styles & Wallpapers
+53ad1c6d66 Settings: Move theming to display settings
+
+   * packages/apps/ThemePicker/
+394a67e ThemePicker: Show status area on clock by default [2/2]
+
+   * vendor/overlay/
+0ca1464 Overlay: Add Solarized Dark Primary
+5b464c3 vendor: Move dimen overlays to overlay vendor [2/2]
+5e66a91 Overlays: Revise accent colors for DerpFest
+
+   * vendor/pixelstyle/
+e6eb261 pixelstyle: fonts: Add Tinkerbell [2/2]
+baec340 pixelstyle: Kang La Fontage from Bootleggers [2/2]
+
+====================
+     02-02-2020
+====================
+
+
+   * frameworks/base/
+055b630334a base: Show status area on clock by default [1/2] *And backup the setting value *Code fixup of 2be7b8a192
+d45a531a5cc Bring back ticker for music ticker and Android 10 fixes
+9ec23302ad7 base: SystemUI: Network traffic monitor should come first in header
+25eef3ebb62 ScreenshotSelector: mark externally unused functions as private
+48d1f646ac0 base: Allow using a custom color for lockscreen battery bar [1/2]
+253ed6679b1 base: Lower the internal audio capture restriction
+
+   * packages/apps/DerpQuest/
+580dfbd DerpQuest: Allow using a custom color for lockscreen battery bar [2/2]
+
+   * packages/apps/ThemePicker/
+f83ce66 ThemePicker: Extend the max theme limit
+eae02b4 ThemePicker: Show items name under the title
+a24347c ThemeFragment: handle themes with no specified wallpaper
+bfe3582 Revert "ThemeFragment: handle case where no custom wallpaper is available"
+
+   * prebuilts/clang/host/linux-x86/clang-6170260/
+ace08c8 clang 10.0.2 (based on r370808b) from build 6170260
+
+   * vendor/aosip/
+66e9ba2 derp: Add support for onclite
