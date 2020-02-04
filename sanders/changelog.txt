@@ -1,68 +1,47 @@
-Changelog for Official DerpFest Build Update 27.01.2020 for Sanders:
+Changelog for Official DerpFest Build Update 04.02.2020 for Sanders:
 
- [DEVICE]
+ [SOURCE]
 
-• A brand new MotoActions Icon in Settings
-• Adapted brightness model from sargo, so more accurate, more bright
-• Patched the ims.apk so no more irritating HD capable notification (volte is fine and so as volte logo lol)
-• Made the Live Wallpaper smoother
-• Fixed the Gcam FC for some users
-• Disable the default color mode, so no display glitches on boot
-• Smarter decisions on WiFi on whether to use a 2 or 5Ghz AP
-• Added low memory killer properties
-• Don't ship DTV on device that not support
-• Tried to fix DTV, once and for all
-• Updated opencamera.apk to v1.47.3
-• Decreased default max cpu frequency by one level, this won't affect performance giving better battery
-• Properly Implemented the mounting of Data partition before bootanimation
-• A huge cleanup of tree for way bettter performance and battery
-• Patched tinyalsa for Wifi Display
-• Many more improvements I can't describe them all
-
-
-[SOURCE]
-
-• Added Reboot/Recovery QS Tile
-• Added Sync QS Tile
-• Moved To AOSP Themer
-• Added the theming section under DerpQuest
-• Fixed Fonts (Every Font Works Now)
-• Added Background Colors under theming
-• Improved 3 Finger Swipe ScreenShot
-• Add Missing Animations
-• Moved Rounded Corner pereferences from Misc to Themes Menu
-• Added capability to use tethering with vpn upstreams
-• Added SQLite 3
-• Added Overlays for LawnChair
-• Move aosp gestures to DerpQuest
-• Added QS Blur & Toogle
-• Disable Long Click for Sound Search
-• Fixed Mobile Data Usage Indication In QS & Settings
-• Added Toggle for Gentle Notifications
-• Fixed "Enable On Screen  Nav Bar Toogle"
-• Added Toogle To (Increase/Decrease) Blur Intensity of QS
-• Added Changelog Option In Open Delta
-• Fixed Fingerprint position at time of setup
-• Fixed Brightness slider under Settings/Display
-• Themed Power Menu Icons as well as background
-• Q/S Footer : Animate Multiuser Avtar
-• Add prebuilt keyboard swipe lib google version
-• Dailer: match adaptive icon to contacts one
-• Added the Gaming mode tile
-• Added Running services icon on QS panel with toggle
-• Maybe some more things I can't remember ;P
-
+• Merged February Security patch (10.0.0_r27)
+• Moved charging info text to DerpQuest
+• Added the maintainer string in about phone section
+• Added PowerOff Tile inside Reboot/Recovery Tile
+• Improved Edge Lightning
+• Added  Custom Color for Lockscreen Battery Bar
+• Added Statusbar Notification Ticker
+• Added New Fonts
+• Added New Primary Background Colors
+• Improved Themepicker 
+• Fixed Animated Arrow Hide & Show 
+• Added New Toast Animations
+• Ported extended screenshot function from OOS (it's WIP tho)
+• Migrated Screenshot QS tile to new method with Longshot support
+• Implement better partial screenshot
+• Updated DerpQuest Settings icons (new layout and size)
+• Added reworked theming category back to DerpQuest
+• Added themepicker toggle to show/hide weather and date on custom clocks
+• Added Samsung One and Fira sans fonts
+• Changed default wallpaper
+• Fixed minute digits for accent based lockscreen clock style
+• Some more things I can't remember ;P
 
 
 [MISC]
 
-• Changed lock and unlock sound
-• Changed the default wallpaper again to match the default theme
-• Removed the Blurred DocumentsUI
-• Removed the blurred settings searchbar
+• Updated Lawnchair.apk to q_pre_alpha_2614
+• Added the intent action for maintainer string in about phone
+• Added the intent action for build type in about phone
+• Tinted the default wallpaper to the blue side
+• Added a brand new accent (somewhat bluish but new)
+
+
+
+[DEVICE]
+
+• Added surface flinger sensor props
+• Minor improvements
  
 #StayDerped
-
 
 Note1: Kindly read all information provided on website. Still you have any doubts ask @marshmello_61 on t.me/DerpfestSanders
 
