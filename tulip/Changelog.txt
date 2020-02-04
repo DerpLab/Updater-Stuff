@@ -1,0 +1,319 @@
+====================
+     02-03-2020
+====================
+
+
+   * frameworks/base/
+e4628cbb105 base: Allow limiting edge lighting repeats [1/2]
+bba1c5aed7e SystemUI: Allow changing duration of ambient edge light [1/2]
+53fdd21779f SystemUI: Improve edge lightning behavior on live wallpaper
+523483179d4 SystemUI: Add color options for edge lightning [1/2]
+005135a72ee SystemUI: only call  showAodContent(true) if we are still on the keyguard
+016df0bd19e SystemUI: replace pulse light drawable with our own vector
+7d6a91dcf86 SystemUI: use ROWS_HIGH_PRIORITY for active notification pulse check
+46015298a29 SystemUI: kill any leftover notification pulse on new pulse start
+9f9ad9e5a28 SystemUI: add Ambient Lights always on hide aod content option
+de8c2dbee88 SystemUI: trigger pulse light only for notifications
+d1c21cbee8c SystemUI: add Pulse and Ambient notification bars [1/2]
+93642e02a9b base: Revert old edge lighting in favor of new one [1/2]
+
+   * packages/apps/DerpQuest/
+cda3374 DerpQuest: Add back missing edge lighting preview
+31d120b DerpQuest: Allow limiting edge lighting repeats [2/2]
+ad907b1 DerpQuest: Allow changing duration of ambient edge light [2/2]
+31ea9f9 DerpQuest: Add color options for edge lightning [2/2]
+528663b DerpQuest: ambient light settings
+2fcdad7 DerpQuest: Pulse and Ambient notification bars [2/2]
+0720aee DerpQuest: Revert old edge lighting in favor of new one [2/2]
+
+====================
+     02-02-2020
+====================
+
+
+   * frameworks/base/
+e53cf23e874 base: omnistyle: Stinky workaround for header shadow and tinted images
+533d071efc5 base: Add Tinkerbell [1/2]
+b77400cba16 base: SystemUI: Actually set battery bar visability on runtime [1/2]
+3262773a609 base: Kang La Fontage from Bootleggers [1/2]
+
+   * packages/apps/DerpQuest/
+94f11ac DerpFest: Actually set battery bar visability on runtime [2/2]
+2749f64 DerpQuest: Avoid showing two switches to devices with HW navigation keys
+
+   * packages/apps/Settings/
+317b409438 Settings: Add primary color picker from Styles & Wallpapers
+2265ba1552 Settings: Add Statusbar Icon Picker from Styles & Wallpapers
+53ad1c6d66 Settings: Move theming to display settings
+
+   * packages/apps/ThemePicker/
+394a67e ThemePicker: Show status area on clock by default [2/2]
+
+   * vendor/overlay/
+0ca1464 Overlay: Add Solarized Dark Primary
+5b464c3 vendor: Move dimen overlays to overlay vendor [2/2]
+5e66a91 Overlays: Revise accent colors for DerpFest
+
+   * vendor/pixelstyle/
+e6eb261 pixelstyle: fonts: Add Tinkerbell [2/2]
+baec340 pixelstyle: Kang La Fontage from Bootleggers [2/2]
+
+====================
+     02-01-2020
+====================
+
+
+   * frameworks/base/
+934646f91ea SystemUI: Nope. This shouldn't be here *Introduced in 94bfbab816
+055b630334a base: Show status area on clock by default [1/2] *And backup the setting value *Code fixup of 2be7b8a192
+d45a531a5cc Bring back ticker for music ticker and Android 10 fixes
+9ec23302ad7 base: SystemUI: Network traffic monitor should come first in header
+25eef3ebb62 ScreenshotSelector: mark externally unused functions as private
+48d1f646ac0 base: Allow using a custom color for lockscreen battery bar [1/2]
+253ed6679b1 base: Lower the internal audio capture restriction
+
+   * manifest/
+a15f38d Initial tracking for DerpFest
+
+   * packages/apps/DerpQuest/
+580dfbd DerpQuest: Allow using a custom color for lockscreen battery bar [2/2]
+
+   * packages/apps/ThemePicker/
+f83ce66 ThemePicker: Extend the max theme limit
+eae02b4 ThemePicker: Show items name under the title
+a24347c ThemeFragment: handle themes with no specified wallpaper
+bfe3582 Revert "ThemeFragment: handle case where no custom wallpaper is available"
+
+   * prebuilts/clang/host/linux-x86/clang-6170260/
+ace08c8 clang 10.0.2 (based on r370808b) from build 6170260
+
+   * vendor/aosip/
+66e9ba2 derp: Add support for onclite
+
+====================
+     01-31-2020
+====================
+
+
+   * packages/apps/Settings/
+718358de7b Settings Icons: add VPN icon
+6b0c1b8310 Revert "Settings: Add drawable for Private DNS"
+
+   * vendor/aosip/
+c3e68c7 vendor: Move dimen overlays to overlay vendor [1/2]
+
+====================
+     01-30-2020
+====================
+
+
+   * frameworks/base/
+9b4de0ba0fd base: Whitelist more permissions needed for SystemUIGoogle
+b4a41161ae3 Updates to various icons
+eaea6b91159 Partial screenshot: Layout improvements
+e0ea7858c5e PowerMenu: Fix items not tinting correctly in landscape
+185d52c1a6a Updates to "Context-aware Bluetooth airplane mode"
+a9f47f31fa0 Bluetooth: Fix BT stability issues
+b2965e2ba80 Revert "Move BT state to OFF when BLE app count is zero"
+99f507b0342 Revert "Crash occured due to null pointer exception."
+682eaf758ef SystemUI: Fix minute digits for accent based lockscreen clock style
+a64d0d0f1ea ScreenshotHelper: ignore timeout when taking partial screenshots
+6f1d9b9eb8c SystemUI: implement better partial screenshot
+c0bdf3c68f9 Revert "base: refine partial screenshot handling"
+a4f82e907dc Revert "Partial screenshot: allow BACK action only from right side"
+c395a0b852d SystemUI: tiles: Migrate to new screenshot method with Longshot support
+f3c3238f389 base: Port extended screenshot function from OOS
+de838793154 Revert "Revert "KeyguardSliceView: adjust placement when Type clock is in use""
+b599013c26b base: Add Fira Sans font [1/2]
+caef447a0ae base: Add Samsung One font [1/2]
+0a1700a5f4e qs footer: Tint build info as secondary text
+37cf061c88a Toasts: Use a snackbar-like animation
+28de51cba15 Avoid system reboot while invalidate LegacyGlobalAction
+fb49f36670e SystemUI: Bring back ic_qs_bluetooth_connected.xml
+9c446fd4052 FrameworkBase: Fix NullPointerException of AMS
+b886afbc0f9 Set the Network Specifier on Emergency SUPL
+722469b5c18 Fix to handle duplicate call id for conference call
+f38d8e433f5 Consolidate ActivityStack#finishCurrentActivityLocked checking
+bedbbaf753c Add Network Preference Bitmaps (1/2)
+419bcbc0de4 Fix DerpFest Logo from remaining active when notifications arrive
+2be7b8a192f fwb: cLock: Add a user toggle to show/hide status area [1/2]. Other part is in ThemePicker
+81afa6f5735 Volume panel: Adjust the left padding
+7d03243300b Volume panel: avoid multiple animations on touch spam
+8dc8ad66242 Fix StorageManagerService linkToDeath more than one time when vold/storaged died.
+659ce6490b0 SystemUI: Adjust powermenu and qs customizer background
+57b6d9e1a57 TypeClockController: Set shouldShowStatusArea to true
+cc23a5f388e SystemUI: Use color accent for user avatar default color
+635adb18772 base: Status bar notification ticker [1/2]
+322a1ffbe33 base: Add NotificationColorUtil back
+ab90b0306a3 DozeSensors: do not use binned brightness sensor for proximity if not supported
+2975f1aba50 Revert "base: Remove aosp accents"
+
+   * packages/apps/OpenDelta/
+c413c13 OpenDelta: Let the logo follow accent color
+
+   * packages/apps/Settings/
+b2b4db484e Settings: Fix string for system summary
+6e2b50641e Settings: Fix charging sounds string
+3938e85976 Settings: Use an xml property for maintainer string * No need to use a build.prop for this and overlaying from DT will be easier for maintainers this way * A partial revert of aa95452a54
+
+   * vendor/aosip/
+a87011e vendor: Update package name of Longshot
+7b199b8 vendor: Fix privileged permission for Longshot
+
+   * vendor/prebuilts/
+8866d5e prebuilts: Update libhoko_blur.so
+f736af4 prebuilts: Improve Lawnchair build config
+b774138 prebuilts: Update Longshot
+23b056a prebuilts: Import modded Longshot app
+d23f753 prebuilts: Add Lawnfeed 2.1-2598
+
+====================
+     01-29-2020
+====================
+
+
+   * device/aosip/sepolicy/
+3b5bd70 sepolicy: Label ro.telephony.use_old_mnc_mcc_format
+e97e918 Allow Snap cam access for gpu service
+99e383c sepolicy: Adress apexd denial
+
+   * packages/apps/DerpQuest/
+d5996a8 Revert "Edge Light: Hide category if Ambient wake gestures are unavailable."
+
+   * packages/apps/Settings/
+c0cd6c8a12 SearchBar: Add avatar to search bar
+aa95452a54 Settings: Add simple maintainer string
+047567879a Revert "Make fingerprint illustrations single color"
+be84d614ef Settings: No need of extra effort
+979b32d5ed Optimize NetworkScan for only User-Enabled RANs (2/2)
+ca8afedd00 Settings: remove unneeded collapse limits II
+f852c22f86 Settings: remove unneeded collapse limits
+c620b4db85 Comment out double options that were under accessibility
+fd5e6a2801 Add back arrow to Desktop backup password
+2009346889 Show a warning dialog before network search
+
+   * system/core/
+dcf3bd389 Tweak /init to never expose verifiedbootstate=orange
+ee1b2f17b Filter GalleryDatab*
+092ff9c44 Silence spammy logs from camera blobs (AEC_PORT and mm-camera)
+70ee4064e init: ro.build.selinux should be 0
+3fc46c290 init: add several more keys to spoof
+2b5c410d5 init: workaround SafetyNet check
+9a66baf80 init: Weaken property override security for the init extension
+aff3b4a13 Set /sys/power/wake_lock permissions on init.
+9db0ebbec init: only provide control message results for devices launching > Q
+1ecd56570 Ignore class_{reset|start}_post_data on non-updatable APEX.
+2e9045389 Reland^2: "init: run property service in a thread"
+39a4b6530 init: add error handling in control message
+b5c3b8a33 init: simplify async restorecon
+a02a862ad init: handle getpeercon() errors
+86ebc2f12 init: set up SelinuxAuditCallback() earlier
+
+   * vendor/pixelstyle/
+b725208 pixelstyle: fonts: Add Fira Sans font [2/2]
+d7fb160 pixelstyle: fonts: Add Samsung One font [2/2]
+d0a1419 pixelstyle: fonts: Update GoogleSans
+
+====================
+     01-28-2020
+====================
+
+
+   * build/make/
+9e965486d build: Allow supplying a prebuilt recovery ramdisk cpio
+bf8b1292f build: Build Gapps and AOSP apps conditionally [2/2]
+
+   * packages/apps/DerpQuest/
+f852b3e DerpQuest: Search Index: Make sure our features show up under Settings search.
+daf2ed5 DerpQuest: Update Settings icons: new layout and size. * 24x24 -> 36x36 Icons created by @RogerdotT
+0d0fb6d DerpQuest: Status bar notification ticker [2/2]
+856ee30 Running services icon toggle [2/2]
+a96a360 DerpQuest: Introduce Adjustable Blur Intensity [2/2]
+fb20615 DerpQuest: Allow controlling QS blur alpha [2/2]
+3d30288 DerpQuest: Make gentle notifications header toggleable [2/2]
+
+   * packages/apps/Settings/
+1239247db8 Settings: Fix NullPointerException in BatteryUtils
+7d47df2914 Settings: Fix usage of ChooseLockSettingsHelper
+52ee708936 Revert "Settings: Remove GPlay version entry"
+
+   * packages/apps/ThemePicker/
+d2ef763 ThemePicker: cLock: Add a user toggle to show/hide status area [2/2]. Other part is in fw/b
+
+   * vendor/aosip/
+93ef36b vendor: overlays: Import QS Color overlay from POSP
+5bed9e6 Revert "Revert "kernel: Fix specifying custom clang compiler version""
+
+====================
+     01-27-2020
+====================
+
+
+   * frameworks/base/
+2d3c5de8536 FODCircleView: fix incorrect position on keyguard
+581bb48d4eb Running services icon toggle [1/2]
+b00db0f19a2 Allow to quickly open Running Services from QS panel [1/2]
+5a6188278b7 base: Settings: Always finding more values to backup * and fix some derps
+
+   * packages/apps/Settings/
+cbc45afd83 Allow to quickly open Running Services from QS panel [2/2]
+
+   * packages/resources/devicesettings/
+be06a91 Automatic translation import
+
+   * vendor/aosip/
+ea8b6f9 vendor: Include PixelLiveWallpaperPrebuilt
+1a2eafe vendor: add OmniStyle
+5fa8c1f vendor: add OmniRecord to build
+a6f46a0 vendor: Build Gapps and AOSP apps conditionally [1/2]
+9fc04d6 vendor: Switch to OpenDelta updater
+a6cbfba vendor: build Updater conditionally
+94e957e vendor: themes: Categorise core theme packages
+502f189 vendor: config: Include vendor/google/customization
+e0c85c8 vendor: Allow providing camera server and service
+c53b321 vendor: overlay: Remove security footer side margin and end padding for left-aligned status bar clock
+b3d3171 vendor: increase qs_panel_padding_top to prevent overlap of brightness with header
+90826cd vendor: reduce qs footer height
+1284696 vendor: cleanup SystemUI dimens overlay
+44e96af [2/2] overlay: header image tweaks
+4c29ea8 [4/4] overlay: qs status bar header image
+fcb9a5a vendor: overlay: set default qs_header_tile_margin_horizontal to 13dp
+d19f051 vendor: overlay: dimen tweaks
+0678c25 kernel: Fix ccache not being used when building
+1cbcfc9 vendor: Build sqlite3
+e547c7a vendor: Use speed tuning for performance critical applications
+527b74d envsetup: fix mka behavior
+94a078a vendor: Bring back Android Beam
+0f17313 prebuilt: init: custom-system: hide Magisk better
+d3dfd0a vendor: Allow the use of aosp apn's
+60c18ca vendor: Add support for custom bootloader offset
+29d25e8 vendor: Add support for dark bootanimation
+0f804a1 vendor: Refactor setup wizard overlays
+2029c11 vendor: Enable and refactor SetupWizardOverlay
+5b1f9aa vendor: Add overlay for SetupWizard [2/2]
+69e1618 vendor: Include gapps and pixelstyle
+a2d70fc Revert "aosip: Add sysfs permissions for pocket bridge"
+642c403 vendor: Fix compilation errors with prebuilt kernel
+824d0e1 kernel: pass custom compiler string directly to make
+16f1610 Revert "aosip: remove usage of KBUILD_COMPILER_STRING"
+c8c74bb vendor: allow editing build date format from device tree
+af2dca0 vendor: Update devices list for DerpFest
+b452d4a soong_config: add TARGET_NEEDS_NETD_DIRECT_CONNECT_RULE
+a0bfa78 vendor: Add soong variable for TARGET_CAMERA_BOOTTIME_TIMESTAMP
+8db910a vendor: Fix TARGET_USE_AOSP_SURFACEFLINGER logic
+a4b424d vendor: Allow disabling CAF surfaceflinger
+4f98661 vendor: Cleanup uses_qcom_um_family soong param
+eac4cfd vendor: Add back soong and build configuration for qcom platform
+
+   * vendor/overlay/
+6bdc5de Overlay: Add Lead Black Primary
+24983cf Overlay: Add Charcoal Black Primary
+8b215e4 Overlays: Switch to Lawnchair [2/3]
+11781c5 Overlays: Derpify it
+
+   * vendor/prebuilts/
+a435d2f prebuilts: Build Google prebuilts conditionally
+
+   * vendor/qcom/opensource/fm-commonsys/
+2d47ecf Automatic translation import
+
