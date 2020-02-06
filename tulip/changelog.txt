@@ -1,4 +1,155 @@
 ====================
+     02-06-2020
+====================
+
+
+   * device/aosip/sepolicy/
+7dd8995 snap_app: Allow binder call with gpuservice
+9711db6 sepolicy: Add rules for Long screenshot service
+4b37652 sepolicy: Label ro.telephony.use_old_mnc_mcc_format
+
+   * frameworks/base/
+24d32549120 SystemUI: EnhancedEstimatesGoogleImp: Get turbo going again
+f51f85cb10a SystemUI: EnhancedEstimatesGoogleImp: Catch NameNotFoundException
+e0fbaf71ce0 base: Increase Longshot timeout to 2 seconds
+a77f9c5cafd SystemUI: Lockscreen weather code fixes
+d66f90bbe00 Revert "SystemUI: tiles: Migrate to new screenshot method with Longshot support"
+4381b497077 base: Port extended screenshot function from OOS
+fbd6f40f4dc Revert "base: Port extended screenshot function from OOS"
+5481dafe471 base: Update Status bar logos [1/2]
+
+   * packages/apps/DerpQuest/
+41ce8d2 DerpQuest: Update Status bar logos [2/2]
+417fe11 DerpQuest: Add Chinese translations
+7b722b9 DerpQuest: Change BatteryBar switch dependency so it makes sense
+
+   * packages/apps/OpenDelta/
+bd97344 OpenDelta: Let the logo follow accent color pt 2
+
+   * packages/apps/Settings/
+34db819f70 FeatureFactoryImpl: PowerUsageFeatureProviderGoogleImpl: Catch NameNotFoundException
+8143ef69da FeatureFactoryImpl: Update PowerUsageFeatureProviderGoogleImpl
+3282ce6bc6 Settings: Update raw animations and drawables from Pixel 4 XL
+cc3ea4819a Settings: Adaptive brightness: Fix summary fuckery
+d5c6397cdb Use IEC units in app info data usage.
+355ffdc4ab Power detail pages: Finish off the rest of the icon tinting
+e0732c8d77 Settings: fix icon tinting in power detail pages
+1ac23d88c7 Themes: make sure settings shortcut icons follow system accent
+99ea749ff3 Desktop backup password: Tint buttons to match system theme
+
+   * system/sepolicy/
+ab7677e4 app_zygote need access to oem partition
+8bb47088 Export vold FDE algorithm properties
+72c6c1c3 Mark mediacodec_2{6,7,8} as hal_omx_server
+511ebe1d Set odm and vendor build.version.incremental to be publicly readable
+8ef2530a Allow vendor to configure lmkd properties
+
+   * vendor/aosip/
+eab738f vendor: Optimize Pixel charger animation
+f93252c vendor: Use Pixel charger animation
+01fb934 vendor: Update Longshot [1/2]
+66ec62d derp: Add support for X01BD
+
+   * vendor/overlay/
+10ee4ed Overlays: Compress and optimize our default wallpaper
+
+   * vendor/prebuilts/
+200d709 prebuilts: Update Longshot [2/2]
+c0e38c7 prebuilts: Lawnchair: Update to q_pre_alpha v2616
+
+====================
+     02-05-2020
+====================
+
+
+   * frameworks/base/
+cc731d8d556 GlobalScreenshot: do not capture multiple screenshots simultaneously
+ce07f8c436d SystemUI: block gestural navigation when using partial screenshot
+e20ba7fd2da SystemUI: Pass correct NetworkTemplate to CellularTile detail view
+f7f2a4630b9 Revert "SystemUI: QS: Fix mobile data usage qs details view content"
+7aeab564fd9 [SQUASHED] base: Revert recent bluetooth changes
+
+   * hardware/qcom-caf/msm8996/audio/
+3e32f8e78 Merge tag 'LA.UM.8.6.r1-02900-89xx.0' of https://source.codeaurora.cn/quic/la/platform/hardware/qcom/audio into HEAD
+
+   * packages/apps/DerpQuest/
+c52c7a2 DerpQuest: Move ANBI switch to the right category * And fix a small logic issue
+
+   * packages/apps/OpenDelta/
+a742155 Merge branch 'android-10' of https://github.com/omnirom/android_packages_apps_OpenDelta into ten
+
+   * system/core/
+29eaf03b8 adb: host: Provide better sideload status
+c16793886 Set /sys/power/wake_lock permissions on init.
+
+====================
+     02-04-2020
+====================
+
+
+   * build/make/
+c4f723a46 Fix zsh compatibility issue in build/envsetup.sh
+edda74a5f Fix lunch choices w/zsh
+4b4cdf784 Gather lunch choices before printing prompt
+dd472d71a Merge tag 'android-10.0.0_r27' of https://android.googlesource.com/platform//build into HEAD
+
+   * frameworks/av/
+c4b9cb36a Merge tag 'android-10.0.0_r27' of https://android.googlesource.com/pl…
+
+   * frameworks/base/
+3b4b1652f71 Fix android setup permissions
+c5ac7882294 AMS: Fix the null pointer exception in IntentResolver
+3e3bef959fb Fix MtpDatabase multithreading NullPointerException
+a186b6324dd Fix incorrect context classloader initialization in system_server
+feb0e469f25 Fix LockdownVpnTracker deadlock when resetting legacy Always-On VPN
+72b714647f8 data: update systemui priv-app permissions
+bfdf13100db Update priv-app permissions
+cb490caa3e5 RebootTile: Make default state inactive
+05329a51b60 Extend reboot tile to add power off
+8435fa496ef RebootTile: Fix gradient message display for reboot to recovery
+67d8a090225 Add Reboot/Recovery QS Tile
+f617b431aca Revert "SystemUI: QS: Add Reboot/Recovery Tile"
+9f63e81eb39 Merge tag 'android-10.0.0_r27' of https://android.googlesource.com/platform//frameworks/base into HEAD
+
+   * frameworks/native/
+38602b2d5 Merge tag 'android-10.0.0_r27' of https://android.googlesource.com/platform//frameworks/native into HEAD
+
+   * frameworks/opt/net/wifi/
+9c908c549 Merge tag 'android-10.0.0_r27' of https://android.googlesource.com/platform//frameworks/opt/net/wifi into HEAD
+
+   * hardware/libhardware/
+1dde6678 Merge tag 'android-10.0.0_r27' into ten
+
+   * manifest/
+e82bd39 Initial tracking for DerpFest
+f7850cb Merge tag 'android-10.0.0_r27' into ten
+a7193f2 Manifest for Android 10.0.0 Release 27 (QQ1B.200205.002)
+7696dbc Manifest for Android 10.0.0 Release 26 (QQ1A.200205.002)
+
+   * packages/apps/Bluetooth/
+9e336b2b Merge tag 'android-10.0.0_r27' of https://android.googlesource.com/platform//packages/apps/Bluetooth into HEAD
+
+   * packages/apps/CertInstaller/
+5529564 Merge tag 'android-10.0.0_r27' into ten
+
+   * packages/apps/DerpQuest/
+cd5a946 DerpQuest: Move charging info text switch to DerpQuest [2/2]
+ed550df DerpQuest: Add an option to pulse edge light for all doze triggers [2/2]
+
+   * packages/apps/Settings/
+c132ddf3b1 Settings: Move charging info text switch to DerpQuest [1/2]
+26baf7c842 Merge tag 'android-10.0.0_r27' of https://android.googlesource.com/platform//packages/apps/Settings into HEAD
+
+   * packages/apps/ThemePicker/
+14f8889 ThemePicker: Fix showing primary color titles
+
+   * packages/services/Telecomm/
+7cb3cbe4 Merge tag 'android-10.0.0_r27' of https://android.googlesource.com/platform//packages/services/Telecomm into HEAD
+
+   * system/bt/
+994f06e73 Merge tag 'android-10.0.0_r27' into ten
+
+====================
      02-03-2020
 ====================
 
