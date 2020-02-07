@@ -1,56 +1,11 @@
-Rom Changelog :
-- Ported extended screenshot function from OOS 
-- Migrated Screenshot QS tile to new method with Longshot support 
-- Implement better partial screenshot 
-- Updated DerpQuest Settings icons (new layout and size) 
-- Added reworked theming category back to DerpQuest 
-- Added themepicker toggle to show/hide weather and date on custom clocks 
-- Added Samsung One and Fira sans fonts 
-- Changed default wallpaper 
-- Added toggle for Blur behind quick settings (enabled by default) 
-- Added options for Blur intensity and opacity 
-- Made gentle notifications header toggleable (disabled by default) 
-- Added option for Running Services from QS panel 
-- Fixed minute digits for accent based lockscreen clock style 
-- Fixed mobile data usage qs details view content 
-- Added Lawnfeed prebuilt 
-- Beautified toast notifications 
-- Improved Navbar toggle 
-- Added Gaming mode QS tile 
-- Added Sync QS Tile 
-- Added Reboot/Recovery QS Tile 
-- Disabled 3 columns in landscape 
-- Added Status bar notification ticker 
-- Imported MIUI SwipeToScreenshot implementation 
-- Added capability to allow tethering to use VPN upstreams 
-- Improved the VPN footer layout 
-- Updated VPN settings icon drawable 
-- Improved power menu and volume panel layout 
-- Changed back gesture height intervals 
-- Fixed DerpFest Logo from remaining active when notifications arrive 
-- Moved AOSP gestures to DerpQuest 
-- Fixed gap when toggling airplane mode 
-- Removed hide notch overlays 
-- Added more DerpQuest settings to Google backup 
-- Added whitelist permissions needed for SystemUIGoogle 
-- Made sure DerpQuest features show up under Settings search 
-- Improved search bar avatar 
-- Added GPlay version entry back to about phone 
-- Added maintainer string to about phone 
-- Disabled long click for SoundSearch qs tile 
-- Several improvements for FOD implementation 
-- Show a warning dialog before network search 
-- Commented out double options that were under accessibility 
-- Removed unneeded collapse limits in several settings
-- Added PA bionic optimizations
-
-Device Changelog :
-- Patch ims to remove persistent ims HD icon
-- Fix lag on LiveWallpapers
-- Correct sha1sums for qti-telephony-common
-- Uprev vendor.display.config to 1.11
-- Enable graphics mapper version 2.1
-- Drop liblight from device tree
-- Remove wifi dual band support
-- Drop custom display flags
-- Move ConfigStore flags to system properties
+Changelogs :
+- Synced Rom Source
+- February Security Patch
+- boost some more incall audio
+- enable wifi calling for more india carriers
+- Kang some overlays and system props from coral
+- Kernel Upstreamed to 4.9.212
+- Optimize Schedutil Governor
+- Add tripndroid io scheduler
+- Added dynamic fsync V2.3
+- Performance & Stability Optimization
