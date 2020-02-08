@@ -1,11 +1,4 @@
 Changelogs :
-- Synced Rom Source
-- February Security Patch
-- boost some more incall audio
-- enable wifi calling for more india carriers
-- Kang some overlays and system props from coral
-- Kernel Upstreamed to 4.9.212
-- Optimize Schedutil Governor
-- Add tripndroid io scheduler
-- Added dynamic fsync V2.3
-- Performance & Stability Optimization
+- Fixed Updater App
+- Upstreamed Kernel to 4.9.213
+- Fixed Hotspot
