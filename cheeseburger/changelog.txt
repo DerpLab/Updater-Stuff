@@ -1,53 +1,41 @@
 Device:
--  SELinux still set to permissive
--  Upstreamed Kronic to 4.4.212 and LA.UM.8.4.r1-05000-8x98.0
--  Updated CarrierConfig
--  Updated vendor.display.config version to 1.7
--  Some libinit changes
+- SELinux still set to permissive
+- Upstreamed Kronic to 4.4.213 and merged ASB-2020-02-05_4.4-p
+- Fixed VoWifi on SIM1
+- Added FPS overlay QS tile
+- Added few surfaceflinger props
 
 ROM:
-- Ported extended screenshot function from OOS
-- Migrated Screenshot QS tile to new method with Longshot support
-- Implement better partial screenshot
-- Updated DerpQuest Settings icons (new layout and size)
-- Added reworked theming category back to DerpQuest
-- Added themepicker toggle to show/hide weather and date on custom clocks
-- Added Samsung One and Fira sans fonts
-- Changed default wallpaper
-- Added toggle for Blur behind quick settings (enabled by default)
-- Added options for Blur intensity and opacity
-- Made gentle notifications header toggleable (disabled by default)
-- Added option for Running Services from QS panel
-- Fixed minute digits for accent based lockscreen clock style
-- Fixed mobile data usage qs details view content
-- Added Lawnfeed prebuilt
-- Beautified toast notifications
-- Improved Navbar toggle
-- Added Gaming mode QS tile
-- Added Sync QS Tile
-- Added Reboot/Recovery QS Tile
-- Disabled 3 columns in landscape
-- Added Status bar notification ticker
-- Imported MIUI SwipeToScreenshot implementation
-- Added capability to allow tethering to use VPN upstreams
-- Improved the VPN footer layout
-- Updated VPN settings icon drawable
-- Improved power menu and volume panel layout
-- Changed back gesture height intervals
-- Fixed DerpFest Logo from remaining active when notifications arrive
-- Moved AOSP gestures to DerpQuest
-- Fixed gap when toggling airplane mode
-- Removed hide notch overlays
-- Added more DerpQuest settings to Google backup
-- Added whitelist permissions needed for SystemUIGoogle
-- Made sure DerpQuest features show up under Settings search
-- Improved search bar avatar
-- Added GPlay version entry back to about phone
-- Added maintainer string to about phone
-- Disabled long click for SoundSearch qs tile
-- Several improvements for FOD implementation
-- Show a warning dialog before network search
-- Commented out double options that were under accessibility
-- Removed unneeded collapse limits in several settings
-- Added PA bionic optimizations
+- Merged February Security patch (r27)
+- Improved extended Screenshot implementation
+- Improved partial Screenshot implementation
+- Fixed overlapping of notifications and added AOD support for theme picker clocks
+- Added Custom color option for lockscreen battery bar
+- Added Custom charging info fonts
+- Added System fonts from Bootleggers
+- Added Tinkerbell system font
+- Reworked Edge lighting options with latest Omni changes
+- Added Option for limiting edge lighting repeats
+- Added Option to pulse edge light for all doze triggers
+- Improved Lockscreen clock style options
+- Added Lockscreen date styles from Pie
+- ThemePicker: Show items name under the title
+- Fixed theming of Settings with primary color
+- Added Solarized Dark Primary color
+- Added old theming options additionally back to display settings
+- Added 4 new Custom Header images by Owlien
+- Improved theming capabilities in power detail pages
+- Reworked Reboot/Recovery QS Tile and added Power off
+- Workaround for header shadow and tinted header images
+- Improved DerpFest default status bar icon drawable
+- Ensured that Network traffic monitor come first in header view
+- Changed source set battery bar visability on runtime
+- Lowered the internal audio capture restriction
+- Added Pixel offline charger animation
+- Improved Google's EnhancedEstimates implementation
+- Updated raw animations and drawables from Pixel 4 XL
+- Reverted recent Bluetooth changes
+- Updated priv-app permissions
+- Updated German translations
+- Added Chinese translations
 - Some more things maybe I can't remember more :P
