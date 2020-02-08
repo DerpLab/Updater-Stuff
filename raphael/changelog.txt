@@ -1,44 +1,34 @@
 Device
-- Unmask vendor-specific overlays back
-- Improved zRam creation 
-- Introduce Raise to wake gesture
-- Some proprietary-blobs updates from QKQ1.190825.002
+- Do not balance msm_drm and kgsl-3d0 IRQs to improve latency and responsiveness
+- audiopolicy: remove broken vorbis offloading support
+- reconfigure default GPU powerlevels
+- Improve memory management
+- Check proximity before wakeup on raise2wake to avoid wakeup in pocket
+- Fix raise2wake leaked wakelock
+- Migrate back to PowerHAL 1.2
 
-Kernel
-- Update to Linux stable 4.14.169
+Kernel 
+- Inline compile with Clang 10.0.2 x LLD
+- Update to Linux Stable v4.14.170
+- Enable kernel RELR relocations
+- Disable QTI Core Control and sde rotator debugging
+- Fix memory leak in camera
+- Several updates for bbr tcp congestion algorithm, kgsl, scheduler, and others
 
 ROM
-- Added GPlay version entry back to about phone
-- Added Lawnfeed prebuilt
-- Added option for Running Services from QS panel
-- Added reworked theming category back to DerpQuest
-- Added Samsung One and Fira sans fonts
-- Added Status bar notification ticker
-- Added themepicker toggle to show/hide weather and date on custom clocks
-- Added whitelist permissions needed for SystemUIGoogle
-- Beautified toast notifications
-- Changed back gesture height intervals
-- Changed default wallpaper
-- Commented out double options that were under accessibility
-- Disabled long click for SoundSearch qs tile
-- Fixed DerpFest Logo from remaining active when notifications arrive
-- Fixed gap when toggling airplane mode
-- Fixed minute digits for accent based lockscreen clock style
-- Fixed mobile data usage qs details view content
-- Implement better partial screenshot
-- Improved Navbar toggle
-- Improved power menu and volume panel layout
-- Improved search bar avatar
-- Made gentle notifications header toggleable (disabled by default)
-- Made sure DerpQuest features show up under Settings search
-- Migrated Screenshot QS tile to new method with Longshot support
-- Ported extended screenshot function from OOS
-- Removed hide notch overlays
-- Removed unneeded collapse limits in several settings
-- Several improvements for FOD implementation
-- Several improvements for VPN
-- Show a warning dialog before network search
-- Update Google Sans Fonts
-- Update Lawnchair libs
-- Updated DerpQuest Settings icons (new layout and size)
-- And maybe more stuff unlisted ( ͡° ͜ʖ ͡°)
+- Update to Feb Security Patches (10.0.0_r27 QQ1B.200205.002)
+- Update prebuilts Lawnchair q_pre_alpha v2616
+- Add several theming options in Settings>Display for those fuckers who don't know how to open DerpQuest>Themes
+- Add an option to pulse edge light for all doze triggers
+- Add custom charging info fonts
+- Allow limiting edge lighting repeats
+- Allow using a custom color for lockscreen battery bar
+- Update some status bar icons and indicators
+- Bring back ticker for music ticker and Android 10 fixes
+- Extend reboot tile to add power off
+- More SystemUI and ThemePicker fixes
+- Compress and optimize our default wallpaper
+- Bootanimations update (cleanup)
+- Update and add more fixes for Longshot
+- Update German and Chinese translations
+- And more stuff behind the scene :)
