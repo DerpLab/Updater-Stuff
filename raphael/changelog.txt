@@ -1,34 +1,9 @@
 Device
-- Do not balance msm_drm and kgsl-3d0 IRQs to improve latency and responsiveness
-- audiopolicy: remove broken vorbis offloading support
-- reconfigure default GPU powerlevels
-- Improve memory management
-- Check proximity before wakeup on raise2wake to avoid wakeup in pocket
-- Fix raise2wake leaked wakelock
-- Migrate back to PowerHAL 1.2
-
-Kernel 
-- Inline compile with Clang 10.0.2 x LLD
-- Update to Linux Stable v4.14.170
-- Enable kernel RELR relocations
-- Disable QTI Core Control and sde rotator debugging
-- Fix memory leak in camera
-- Several updates for bbr tcp congestion algorithm, kgsl, scheduler, and others
+- Support A2DP offload for Bluetooth Audio HAL V2
+- Update FOD implementation from Latest LOS (better speed and improved consistency)
+- Update properties to match security patch (Fix SafetyNet on GMS)
 
 ROM
-- Update to Feb Security Patches (10.0.0_r27 QQ1B.200205.002)
-- Update prebuilts Lawnchair q_pre_alpha v2616
-- Add several theming options in Settings>Display for those fuckers who don't know how to open DerpQuest>Themes
-- Add an option to pulse edge light for all doze triggers
-- Add custom charging info fonts
-- Allow limiting edge lighting repeats
-- Allow using a custom color for lockscreen battery bar
-- Update some status bar icons and indicators
-- Bring back ticker for music ticker and Android 10 fixes
-- Extend reboot tile to add power off
-- More SystemUI and ThemePicker fixes
-- Compress and optimize our default wallpaper
-- Bootanimations update (cleanup)
-- Update and add more fixes for Longshot
-- Update German and Chinese translations
-- And more stuff behind the scene :)
+- Add Customizable FOD Icons, scanlight, and Animations
+- Add More Lockscreen clock styles
+- And other fixes under the hood
