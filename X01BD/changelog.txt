@@ -1,0 +1,277 @@
+====================
+     02-10-2020
+====================
+
+
+   * build/make/
+d571d8e1f Merge pull request #1 from x00t-los/ten
+f324543e5 NoGapps: Build ExactCalculator for NoGapps builds
+
+   * device/aosip/sepolicy/
+907829b sepolicy: Allow Snap to execute bcc
+
+   * frameworks/av/
+454b089fb Camera: Skip stream size check for whitelisted apps.
+92a53d5d2 cameraservice: move client_package_name to data/misc
+38989dc20 libcameraservice: add TARGET_CAMERA_NEEDS_CLIENT_INFO
+cab547a91 libstagefright: Fix memory leak due to lock timeout
+
+   * frameworks/base/
+7f334dcfe56 Camera: Ignore torch status update for aux or compsite camera
+b13d9f2e910 Camera: Force HAL1 for predefined package list.
+1a3facd3b63 Camera: Squashed support for Aux camera {black,white}list feature
+7ef873cfab9 Revert "Camera: Expose Aux camera to apps present in the whitelist"
+f2a7e38e4e8 aosipUtils: Add isAppInstalled
+7fd79c5c391 TypeClock: bring back O’minute
+
+   * manifest/
+49a92d1 Merge pull request #1 from x00t-los/ten
+6109e01 NoGapps: Track some repos for NoGapps builds
+
+   * packages/services/Telecomm/
+ecb803ad Add synchronized lock when set call state ANSWERED
+
+   * vendor/aosip/
+8114627 vendor: soong: add target_needs_client_info
+dfc9009 vendor: Remove VendorSupportLib
+
+====================
+     02-09-2020
+====================
+
+
+   * frameworks/base/
+29487c6d578 AoD: Always force brightness updates on pause
+294ec74031c Revert "DozeUi: do not prepare for gentle wakeup"
+a09b519d2ff Fix NPE with void android.view.VelocityTracker.clear()
+7f6386444e2 base: Fix unnecessary truncation in Slice
+9c5d16bd9ba SystemUI: Fix minute digits for accent based lockscreen clock style
+9be3f8d6c1e base: add Bootleg's Date Styles [1/2]
+405006e05a2 base: add Q beta pill background [1/2]
+03ce3ac4348 Introduce lockscreen date styles [1/2]
+7787baa6ace Decrease line spacing in sammy clock styles
+e0f53f3a619 SystemUI: fix accent based lockscreen clocks
+d48e0904896 Always keep clock widget visible while dozing
+bb426a2822a SystemUI: Option to hide lockscreen clock & date [1/2]
+82d7ec10b5e SystemUI: Lockscreen clock styles: Add sammy accent hour clock [1/2]
+9df8d7a288b SystemUI: Lockscreen clock styles: Add accent clocks from pie [1/2]
+0e3b455400d SystemUI: Lockscreen clock styles: Add sammy accent clock and a variant [1/2]
+d9f73a39a89 Introduce lockscreen clock/date styles [1/2]
+041ad507d6f base: Revert old lockclock implementation [1/2]
+
+   * packages/apps/DerpQuest/
+bcac7cb DerpQuest: Date styles: Add Bootleg's styles [2/2]
+7faa617 DerpQuest: Date styles: Add Q beta pill [2/2]
+330af3f DerpQuest: Lockscreen date styles [2/2]
+6626cde DerpQuest: Option to hide lockscreen clock & date [2/2]
+6a582e5 DerpQuest: Lockscreen clock styles: Add sammy accent hour clock [2/2]
+25944f3 DerpQuest: More lockscreen clock styles [2/2]
+5e93884 DerpQuest: Introduce lockscreen clock/date styles [2/2]
+2965955 DerpQuest: Revert old lockclock implementation [2/2]
+
+   * packages/apps/OmniStyle/
+8a5341a OmniStyle: Introduce Q headers
+
+====================
+     02-08-2020
+====================
+
+
+   * device/aosip/sepolicy/
+5f044f7 sepolicy: Fix Lawnchair denials
+
+   * packages/apps/DerpQuest/
+0d65e2d DerpQuest: Update German translations
+
+   * packages/apps/ThemePicker/
+9787a33 ThemePicker: limit number of icon previews shown
+a8e8060 ThemePicker: wrap font name content
+
+   * vendor/aosip/
+dc7a2a0 backuptool: Fix addon.d version check for A-only
+f22ae8b backuptool: Execute check_blacklist from the current directory
+58d1e8c backuptool: Run check_{black, white}list with proper system path
+
+   * vendor/overlay/
+4b4f31e overlay: Extend icon previews list
+90f8fdf overlay: Allow to theme Settings with primary
+
+   * vendor/pixelstyle/
+cabfc3d pixelstyle: Update bootanimations
+
+====================
+     02-07-2020
+====================
+
+
+   * frameworks/base/
+3109b37fbe9 SystemUI: DigitalClock: increase linespacing
+0dd899d1726 SystemUI: fixup analog clock for aod support
+1a9ab36de24 SystemUI: TypeClock: adapt to recents clock keyguard changes
+9662895b17e SystemUI: custom keyguard clock kick off
+243f817d255 base: Add custom charging info fonts [1/2]
+b97bd06f04a base: keyguardStatusView: Fix some ugly code and save a lot of runtime
+
+   * packages/apps/DerpQuest/
+9a2f091 DerpQuest: Add custom charging info fonts [2/2]
+
+   * packages/apps/ThemePicker/
+7f2d13b ThemePicker: Add German translations
+a966fbc ThemePicker: Fix derp of f7a9b12fd32664c57926e663060509f2a65c9b00
+
+   * packages/inputmethods/LatinIME/
+27f16a501 Add Hardslog light theme
+e8d379e56 few more tweaks for hs_dark to make it more material
+8ddfa4e3e New theme:  BLACKOUT
+567697750 Add new hardslog_dark theme
+
+====================
+     02-06-2020
+====================
+
+
+   * device/aosip/sepolicy/
+7dd8995 snap_app: Allow binder call with gpuservice
+9711db6 sepolicy: Add rules for Long screenshot service
+4b37652 sepolicy: Label ro.telephony.use_old_mnc_mcc_format
+
+   * frameworks/base/
+24d32549120 SystemUI: EnhancedEstimatesGoogleImp: Get turbo going again
+f51f85cb10a SystemUI: EnhancedEstimatesGoogleImp: Catch NameNotFoundException
+e0fbaf71ce0 base: Increase Longshot timeout to 2 seconds
+a77f9c5cafd SystemUI: Lockscreen weather code fixes
+d66f90bbe00 Revert "SystemUI: tiles: Migrate to new screenshot method with Longshot support"
+4381b497077 base: Port extended screenshot function from OOS
+fbd6f40f4dc Revert "base: Port extended screenshot function from OOS"
+5481dafe471 base: Update Status bar logos [1/2]
+
+   * packages/apps/DerpQuest/
+41ce8d2 DerpQuest: Update Status bar logos [2/2]
+417fe11 DerpQuest: Add Chinese translations
+7b722b9 DerpQuest: Change BatteryBar switch dependency so it makes sense
+
+   * packages/apps/OpenDelta/
+a742155 Merge branch 'android-10' of https://github.com/omnirom/android_packages_apps_OpenDelta into ten
+
+   * packages/apps/Settings/
+34db819f70 FeatureFactoryImpl: PowerUsageFeatureProviderGoogleImpl: Catch NameNotFoundException
+8143ef69da FeatureFactoryImpl: Update PowerUsageFeatureProviderGoogleImpl
+3282ce6bc6 Settings: Update raw animations and drawables from Pixel 4 XL
+cc3ea4819a Settings: Adaptive brightness: Fix summary fuckery
+d5c6397cdb Use IEC units in app info data usage.
+355ffdc4ab Power detail pages: Finish off the rest of the icon tinting
+e0732c8d77 Settings: fix icon tinting in power detail pages
+1ac23d88c7 Themes: make sure settings shortcut icons follow system accent
+99ea749ff3 Desktop backup password: Tint buttons to match system theme
+
+   * system/sepolicy/
+ab7677e4 app_zygote need access to oem partition
+8bb47088 Export vold FDE algorithm properties
+72c6c1c3 Mark mediacodec_2{6,7,8} as hal_omx_server
+511ebe1d Set odm and vendor build.version.incremental to be publicly readable
+8ef2530a Allow vendor to configure lmkd properties
+
+   * vendor/aosip/
+eab738f vendor: Optimize Pixel charger animation
+f93252c vendor: Use Pixel charger animation
+01fb934 vendor: Update Longshot [1/2]
+66ec62d derp: Add support for X01BD
+
+   * vendor/overlay/
+10ee4ed Overlays: Compress and optimize our default wallpaper
+
+   * vendor/prebuilts/
+200d709 prebuilts: Update Longshot [2/2]
+c0e38c7 prebuilts: Lawnchair: Update to q_pre_alpha v2616
+
+====================
+     02-05-2020
+====================
+
+
+   * frameworks/base/
+cc731d8d556 GlobalScreenshot: do not capture multiple screenshots simultaneously
+ce07f8c436d SystemUI: block gestural navigation when using partial screenshot
+e20ba7fd2da SystemUI: Pass correct NetworkTemplate to CellularTile detail view
+f7f2a4630b9 Revert "SystemUI: QS: Fix mobile data usage qs details view content"
+7aeab564fd9 [SQUASHED] base: Revert recent bluetooth changes
+
+   * hardware/qcom-caf/msm8996/audio/
+3e32f8e78 Merge tag 'LA.UM.8.6.r1-02900-89xx.0' of https://source.codeaurora.cn/quic/la/platform/hardware/qcom/audio into HEAD
+
+   * packages/apps/DerpQuest/
+c52c7a2 DerpQuest: Move ANBI switch to the right category * And fix a small logic issue
+
+   * packages/apps/ThemePicker/
+14f8889 ThemePicker: Fix showing primary color titles
+
+   * system/core/
+c16793886 Set /sys/power/wake_lock permissions on init.
+
+====================
+     02-04-2020
+====================
+
+
+   * build/make/
+c4f723a46 Fix zsh compatibility issue in build/envsetup.sh
+edda74a5f Fix lunch choices w/zsh
+4b4cdf784 Gather lunch choices before printing prompt
+dd472d71a Merge tag 'android-10.0.0_r27' of https://android.googlesource.com/platform//build into HEAD
+
+   * frameworks/av/
+c4b9cb36a Merge tag 'android-10.0.0_r27' of https://android.googlesource.com/pl…
+
+   * frameworks/base/
+3b4b1652f71 Fix android setup permissions
+c5ac7882294 AMS: Fix the null pointer exception in IntentResolver
+3e3bef959fb Fix MtpDatabase multithreading NullPointerException
+a186b6324dd Fix incorrect context classloader initialization in system_server
+feb0e469f25 Fix LockdownVpnTracker deadlock when resetting legacy Always-On VPN
+72b714647f8 data: update systemui priv-app permissions
+bfdf13100db Update priv-app permissions
+cb490caa3e5 RebootTile: Make default state inactive
+05329a51b60 Extend reboot tile to add power off
+8435fa496ef RebootTile: Fix gradient message display for reboot to recovery
+67d8a090225 Add Reboot/Recovery QS Tile
+f617b431aca Revert "SystemUI: QS: Add Reboot/Recovery Tile"
+9f63e81eb39 Merge tag 'android-10.0.0_r27' of https://android.googlesource.com/platform//frameworks/base into HEAD
+500cf5be2f7 base: Add an option to pulse edge light for all doze triggers [1/2]
+
+   * frameworks/native/
+38602b2d5 Merge tag 'android-10.0.0_r27' of https://android.googlesource.com/platform//frameworks/native into HEAD
+
+   * frameworks/opt/net/wifi/
+9c908c549 Merge tag 'android-10.0.0_r27' of https://android.googlesource.com/platform//frameworks/opt/net/wifi into HEAD
+
+   * hardware/libhardware/
+1dde6678 Merge tag 'android-10.0.0_r27' into ten
+
+   * manifest/
+e82bd39 Initial tracking for DerpFest
+f7850cb Merge tag 'android-10.0.0_r27' into ten
+a7193f2 Manifest for Android 10.0.0 Release 27 (QQ1B.200205.002)
+7696dbc Manifest for Android 10.0.0 Release 26 (QQ1A.200205.002)
+78aff0a Update README for new domain
+
+   * packages/apps/Bluetooth/
+9e336b2b Merge tag 'android-10.0.0_r27' of https://android.googlesource.com/platform//packages/apps/Bluetooth into HEAD
+
+   * packages/apps/CertInstaller/
+5529564 Merge tag 'android-10.0.0_r27' into ten
+
+   * packages/apps/DerpQuest/
+cd5a946 DerpQuest: Move charging info text switch to DerpQuest [2/2]
+ed550df DerpQuest: Add an option to pulse edge light for all doze triggers [2/2]
+fe5b3b4 DerpQuest: Add back missing edge lighting preview
+
+   * packages/apps/Settings/
+c132ddf3b1 Settings: Move charging info text switch to DerpQuest [1/2]
+26baf7c842 Merge tag 'android-10.0.0_r27' of https://android.googlesource.com/platform//packages/apps/Settings into HEAD
+
+   * packages/services/Telecomm/
+7cb3cbe4 Merge tag 'android-10.0.0_r27' of https://android.googlesource.com/platform//packages/services/Telecomm into HEAD
+
+   * system/bt/
+994f06e73 Merge tag 'android-10.0.0_r27' into ten
+
