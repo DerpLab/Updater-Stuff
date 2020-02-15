@@ -1,45 +1,74 @@
-Changelog for Official DerpFest Build Update 04.02.2020 for Sanders:
+Changelog for Official DerpFest Build Update 15.02.2020 for Sanders:
 
- [SOURCE]
+[SOURCE]
 
-• Merged February Security patch (10.0.0_r27)
-• Moved charging info text to DerpQuest
-• Added the maintainer string in about phone section
-• Added PowerOff Tile inside Reboot/Recovery Tile
-• Improved Edge Lightning
-• Added  Custom Color for Lockscreen Battery Bar
-• Added Statusbar Notification Ticker
-• Added New Fonts
-• Added New Primary Background Colors
-• Improved Themepicker 
-• Fixed Animated Arrow Hide & Show 
-• Added New Toast Animations
-• Ported extended screenshot function from OOS (it's WIP tho)
-• Migrated Screenshot QS tile to new method with Longshot support
-• Implement better partial screenshot
-• Updated DerpQuest Settings icons (new layout and size)
-• Added reworked theming category back to DerpQuest
-• Added themepicker toggle to show/hide weather and date on custom clocks
-• Added Samsung One and Fira sans fonts
-• Changed default wallpaper
-• Fixed minute digits for accent based lockscreen clock style
-• Some more things I can't remember ;P
+• Reworked, organized and made a lot better DerpQuest than before
+• Improved extended Screenshot implementation
+• Improved partial Screenshot implementation
+• Fixed overlapping of notifications and added AOD support for theme picker clocks
+• Added Custom color option for lockscreen battery bar
+• Added Custom charging info fonts
+• Added System fonts from Bootleggers
+• Added Tinkerbell system font
+• Reworked Edge lighting options with latest Omni changes
+• Added Option for limiting edge lighting repeats
+• Improved Lockscreen clock style options
+• Added Lockscreen date styles from Pie
+• Added old theming options additionally back to display settings
+• Added 4 new Custom Header images by Owlien
+• Improved theming capabilities in power detail pages
+• Reworked Reboot/Recovery QS Tile and added Power off
+• Workaround for header shadow and tinted header images
+• Improved DerpFest default status bar icon drawable
+• Ensured that Network traffic monitor come first in header view
+• Changed source set battery bar visability on runtime
+• Lowered the internal audio capture restriction
+• Added Pixel offline charger animation
+• Improved Google's EnhancedEstimates implementation
+• Updated raw animations and drawables from Pixel 4 XL
+• Added screen stabilization
+• TypeClock: bring back O’minute
+• Reverted recent Bluetooth changes
+• Updated priv-app permissions
+• Update PowerUsageFeatureProviderGoogleImpl
+• Updated German translations
+• Added Chinese translations
+• Some more things maybe I can't remember more :P
 
 
 [MISC]
 
-• Updated Lawnchair.apk to q_pre_alpha_2614
-• Added the intent action for maintainer string in about phone
-• Added the intent action for build type in about phone
-• Tinted the default wallpaper to the blue side
-• Added a brand new accent (somewhat bluish but new)
-
+• Tint QS Tile with accent color
+• Make QS Status font bolder and bigger
+• Tint second line of active tile as well
+• Tint active qs tile expand indicator with accent color
 
 
 [DEVICE]
 
-• Added surface flinger sensor props
-• Minor improvements
+• Disable Below Divider line in items of MotoActions
+• Prefer HW codec over SW for thumbnail
+• Fix Crash When Searching For MotoActions' items
+• Use Google Autofill Service by Default
+• Force enable mobile network settings v2
+• More performance improvements
+• Update display config to version 1.9
+• Enable graphics mapper version 2.1
+• Rename the codecs and performance xmls
+• Enable AOSP bluetooth audio HAL v2
+• wifi: Limit hotspot to 10 devices
+• Add packages for Android 10 IMS
+• Enable Smooth Streaming for secure video playback
+• Reduce Frame drop rate in animations
+• Turn on GPU protected contents
+• Enable QC2 bufferqueue block-pool
+• Allow qcrild to access new QMI service
+• Enable workaround for old MCC/MNC format
+• Some network changes (may or may not work)-
+  - Update CarrierConfig for Airtel/Vodafone/Idea VoLTE
+  - Enable overlay of VoWIFI for Airtel
+  - Enable overlay of VoWIFI for MTS (Russia)
+• Some here and there minor improvements
  
 #StayDerped
 
