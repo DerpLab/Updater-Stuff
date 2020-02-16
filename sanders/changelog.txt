@@ -1,5 +1,11 @@
-Changelog for Official DerpFest Build Update 15.02.2020 for Sanders:
+Changelog for Official DerpFest Build Update 16.02.2020 for Sanders:
 
+[HOTFIX]
+
+• Fixed bluetooth that broke on 15.02.2020 update
+• Fixed camera on social media that broke on 15.02.2020 update
+(sorry for inconvenience)
+ 
 [SOURCE]
 
 • Reworked, organized and made a lot better DerpQuest than before
