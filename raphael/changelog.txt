@@ -1,9 +1,219 @@
-Device
-- Support A2DP offload for Bluetooth Audio HAL V2
-- Update FOD implementation from Latest LOS (better speed and improved consistency)
-- Update properties to match security patch (Fix SafetyNet on GMS)
+====================
+     02-17-2020
+====================
 
-ROM
-- Add Customizable FOD Icons, scanlight, and Animations
-- Add More Lockscreen clock styles
-- And other fixes under the hood
+
+   * device/aosip/sepolicy/
+5cc7823 aosip: common: add rules for RGB/HSL accentpicker
+
+   * device/xiaomi/raphael/
+5baa0a4 raphael: update kernel clang version 10.0.3
+49c0bdf raphael: fod: refactor display handling mechanism
+676af60 [squash] Revert Audio Configuration for A2DP Offload
+
+   * frameworks/base/
+1a1ccf9 Process: Use audio-app cpuset if available
+9ed04cc Update issue templates
+
+====================
+     02-16-2020
+====================
+
+
+   * build/make/
+4a8f36c Make allmod() and pathmod() py3 compatible
+5aaf1c1 releasetools: Use the first entry of a mount point when reading fstab
+7c34117 releasetools: Add script to sign zips
+0b9a1cd releasetools: support reading release keys out of some sort of command
+
+   * device/aosip/sepolicy/
+5cc7823 aosip: common: add rules for RGB/HSL accentpicker
+
+   * device/qcom/sepolicy-legacy-um/
+786d76c Merge branch 'ten-legacy-um' of https://github.com/AOSiP/device_qcom_sepolicy into ten-legacy-um
+
+   * device/xiaomi/raphael/
+5baa0a4 raphael: update kernel clang version 10.0.3
+49c0bdf raphael: fod: refactor display handling mechanism
+676af60 [squash] Revert Audio Configuration for A2DP Offload
+
+   * frameworks/base/
+1a1ccf9 Process: Use audio-app cpuset if available
+9ed04cc Update issue templates
+6eda86c Settings: Add FOD icon picker settings values to backup
+2205088 base: Introduce RGB accenter [1/2]
+242a6c0 Use non-wakeup alarm for delay constraint.
+b8534d3 SettingsLib: mutate drawable before tinting for buildBtRainbowDrawable
+3bf8172 Keyguard: ReInflate views when density or font scale change
+537d40b base: Use ro.build.date to clear cache dirs on update
+91d8b40 Increase padding for notifs & qs panel
+4f40d08 SettingsLib: Don't show system overlays on apps list
+0079d14 Revert "SettingsLib: Don't show system overlays on apps list"
+b5c8f21 fwb: Remove old method for enabling setupwizard overlay
+6e1dc44 Dark theme twilight mode backend and tile
+5517be5 Fix nav bar leak in SystemUI
+3af58e9 RingtoneManager: Don't crash if the ringtone doesn't have a numerical ID
+be4ce7e ProgressBar: Media volume bar indicates a wrong value
+67fc8a0 SystemUI: Disable/Enable screenshot sound [1/2]
+121e6c2 Revert "[1/2] base: allow disable of screenshot shutter sound"
+
+   * hardware/aosip/interfaces/
+2d3dbcb aw2013: Fix typo in condition line
+
+   * packages/apps/DerpQuest/
+4bc33b9 DerpQuest: Move RGB accent picker to DerpQuest [2/2]
+
+   * packages/apps/Settings/
+06df6bb Settings: Move RGB accent picker to DerpQuest [1/2]
+1da23c8 Introduce RGB accenter [2/2]
+3013794 DarkUIPreferenceController null exception
+5140aa7 Revert "Revert "Add settings for scheduling dark theme""
+a3d3b34 Settings: Fix QRCamera crash
+fd552ba Bug:PreferredNetworkModePreferenceController.java not being refreshed
+cff996d Settings: Disable/Enable screenshot sound [2/2]
+bb17486 Revert "[2/2] Settings: allow disable of screenshot shutter sound"
+5479c72 Screensaver: Tint button to match system theme
+
+   * packages/apps/ThemePicker/
+d74b757 ThemePicker: Remove accent color step * We have an RGB picker now
+
+   * system/sepolicy/
+d9e3e63 sepolicy: Address denials for legacy last_kmsg file
+3c8a2e1 Allow init to write to /proc/cpu/alignment
+649bd31 sepolicy: Treat proc-based DT fstab the same and sys-based
+337c939 Fix storaged access to /sys/block/mmcblk0/stat after 48027a00
+b7ec403 file_contexts: Include legacy /system/vendor paths
+
+   * vendor/aosip/
+1df7d1c vendor: Define isStatic argument on setupwizard overlay
+514bb8f kernel: allow devices to use newer GCC
+3f81358 kernel: remove x86 target support
+9443edc prebuilt: backuptool: Drop addond version check on A-only
+
+   * vendor/overlay/
+79ddc8b Live captions: Have it follow system accent / fix up navbar
+37157e1 overlay: add EmptyOverlay
+afa7149 overlay: remove left over wallpaper after name change
+d2d604a overlay: open sdcard root when launching DocumentsUI
+
+====================
+     02-15-2020
+====================
+
+
+   * frameworks/base/
+78491de Merge pull request #44 from DarkDampSquib/ten
+acc7a7f SystemUI: Add some Derp FOD icons [1/2]
+12b1a7f SystemUI: Add PureView recognizing FP animations [1/2]
+5877f85 Add OP Recognizing FP animations [1/2]
+
+   * manifest/
+331600a Initial tracking for DerpFest
+aceaa0e manifest: track a couple more repos from lineage
+
+   * packages/apps/DerpQuest/
+1493691 Update complete Chinese Translations
+72cc02b Merge pull request #27 from DarkDampSquib/ten
+5f230e5 DerpQuest: Add some Derp FOD icons [2/2]
+5041932 DerpQuest: Add PureView recognizing FP animations [2/2]
+7af69e2 DerpQuest: Add OP Recognizing FP animations [2/2]
+
+   * packages/apps/Settings/
+24f64d5 Settings: Add support to open device maintainer's telegram * Do this by overlaying on top of <string name="maintainer_telegram"> in aosip_strings.xml
+
+   * packages/services/Telecomm/
+d623ee7 Telecomm: Phone ringtone setting for Multi SIM device [3/3]
+96a35fb Added features flash-call-on-waiting [2/3]
+035e804 Use double vibration on call hang-up
+7a364dc Add back increasing ring feature (1/3).
+98f76e5 Incall vibration options [2/3]
+7d534b6 Telecomm: Change font on some parts
+
+   * packages/services/Telephony/
+bb0f328 Font improvements
+5f5318a Grant START_ACTIVITIES_FROM_BACKGROUND
+2461e21 LteTile: Fix network modes for 10
+074934e ToggleLte: Add missed LTE modes
+0a5912d ToggleLte: fix WCDMA only
+0e7fd5d ToggleLte: multisim compatibility
+d90dd5d Restore previous network value after toggleLTE
+8a718be Implement toggleLte
+
+   * vendor/qcom/opensource/interfaces/
+71518d8 Merge pull request #1 from op5-q/ten
+
+====================
+     02-14-2020
+====================
+
+
+   * vendor/aosip/
+8b81780 vendor: version: Allow adding a timestamp to all build kinds by running
+
+====================
+     02-13-2020
+====================
+
+
+   * device/qcom/sepolicy-legacy/
+4fb8062 sepolicy: address netmgrd denials
+cca7bb4 sepolicy: Allow init to mounton system_file
+5addade sepolicy: Label /firmware(/.*)? instead of /firmware/image(/.*)?
+
+   * external/toybox/
+9d2cfe9 toybox: Restore support for toybox_static binary
+
+====================
+     02-12-2020
+====================
+
+
+   * frameworks/base/
+e3f1922 ScreenStabilization Tile: Settings Menu integrated in Tile itself(long click)
+c09b46c Add ScreenStabilizationTile in QS
+40d76ca Make screen stabilization more responsive
+bf45db5 Screen Stabiization [1/3]
+cf76e1f SystemUI: Add dynamic Immersive mode tile
+28ab8ec [1/2] SystemUI: dont block IME space for back gesture
+
+   * frameworks/native/
+9684a37 Screen Stabilization [2/3]
+
+   * packages/apps/Settings/
+b6ad259 Settings: reword gesture block ime option
+b4d4986 [2/2] Settings: dont block IME space for back gesture
+
+====================
+     02-11-2020
+====================
+
+
+   * packages/apps/Contacts/
+fd051b2 Don't hardcode no contacts text color.
+
+   * packages/apps/DerpQuest/
+52377e5 DerpQuest: Reorganize and Categorize notification settings
+4da8dab DerpQuest: Reorganize and Categorize QS settings
+30bc412 DerpQuest: Move ambient light settings to their own fragment
+c0fda21 DerpQuest: Move flash on-call settings to their own fragment
+9d51833 DerpQuest: Move in-call vibration settings to their own fragment * And some code fixups
+0b48ed6 DerpQuest: Move charging info settings to their own fragment * Prevent FOD settings from showing on all devices * Orginize a bit
+a7cdea2 DerpQuest: Move LS Visualizer settings to their own fragment
+c5121a6 DerpQuest: Move LS Album Art settings to their own fragment
+43fe3af DerpQuest: Move Battery Bar settings to their own fragment * and some code fixups, string changes and comments
+61c65ea DerpQuest: LockScreenSettings: Add to search index
+5e0bf05 DerpQuest: Move Custom Header image setting to their own fragment
+2e950ad DerpQuest: Move QS Header settings to their own fragment
+a8324ba DerpQuest: Move QS Footer settings to their own fragment
+6e562e5 DerpQuest: Move Brightness Slider settings to their own fragment
+de43897 DerpQuest: Move QS Tiles settings to their own fragment
+16b32d2 DerpQuest: Move QS Color settings to their own fragment
+8b79751 DerpQuest: Move QS Blur settings to their own fragment * and some code fixups
+56c7180 DerpQuest: Move ticker settings to their own fragment
+4434823 DerpQuest: Move StatusBar battery settings to their own fragment
+aeefde6 DerpQuest: Convert StatusBar logo to a MasterSwitch
+95e6748 DerpQuest: Move date settings to their own fragment
+2b01433 DerpQuest: Move clock settings to thier own fragment
+9700b34 DerpQuest: Move network traffic to its own preference screen
+33bccbc DerpQuest: Added Italian translation
+cdbeeea DerpQuest: Add complete Chinese translations
