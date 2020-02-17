@@ -1,7 +1,5 @@
-AOSiP DerpFest 11-02-2020 Changelog:
- * UPDATEEEEEE FOD drivers
- * paperplane kernel (okita-based)
- * device tree updates
- * derpfest sync
- * add fake signature spoofing support
- PLEASE RE-ADD FINGERPRINT
+AOSiP DerpFest 17-02-2020 Changelog:
+ * vendor 11.0.1.0Q
+ * paperplane kernel rebase
+ * derp sync
+ * device tree changes
