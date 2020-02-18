@@ -1,0 +1,5 @@
+- Initial Official Build
+- Added RGB accent licker
+- Added lockscreen date & clock styles
+- Upstreamed kernel to 4.9.214
+- Comliled kernel with clang 10.0.3
