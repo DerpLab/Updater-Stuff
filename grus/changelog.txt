@@ -1,5 +1,2 @@
-AOSiP DerpFest 17-02-2020 Changelog:
- * vendor 11.0.1.0Q
- * paperplane kernel rebase
- * derp sync
- * device tree changes
+AOSiP DerpFest 18-02-2020 Changelog:
+ * screen fix
