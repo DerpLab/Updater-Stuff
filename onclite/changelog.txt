@@ -1,11 +1,28 @@
-Changelogs :
-- Introduce an Energy Model management framework
-- Introduce Unwanted apps blocker
-- 70Hz Screen Refresh Rate
-- Dynamic FPS
-- Updated coral feb fingerprint
-- some optimization on device & kernel source
-- Enabled 1080p on YouTube
-- Enable manual network search
-- enable cpuidle during boot
-- Set GPU Max speed & CPU Min speed on boot
+Rom ChangeLogs :
+- Added Screen Stabilization QS tile with menu
+- Added Custom Text Clock customizations to Lockscreen clock styles
+- Added Anaheim font
+- Fonts are now applied to more elements
+- Added option to block IME space for back gesture
+- Added RGB accenter
+- Added Customizable FOD Icons, scanlight, and Animations
+- Fixed Lawnchair crash on boot
+- Live captions: Have it follow system accent / fix up navbar
+- Don't hide preview on white Accents or primarys
+- Preview Light and Dark mode in Primary screen
+- Removed SafetyHub and Pixeltips prebuilt
+- Fixed screenshot sound switch
+- Some more fixes under the hood
+
+Device ChangeLogs :
+- Kernel Upstream To 4.9.214
+- Adjust Swapiness
+- 4096MB dalvik Heap configuration
+- Implement memory optimization
+- Added some more surfaceflinger props
+- Enhance Workqueue power efficient
+- Set Display refresh rate To 60hz As Default
+- Enable ULPS suspend mode
+- Faster deep sleep
+- Some Improvement on Performance & Stability
+
