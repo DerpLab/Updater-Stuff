@@ -1,0 +1,207 @@
+====================
+     02-19-2020
+====================
+
+
+   * device/aosip/sepolicy/
+39844f8 aosip: common: add rules for RGB/HSL accentpicker
+
+   * frameworks/base/
+34a11098b2b Refine battery saver footer string
+47c3cf5d5a6 Fix black image wallpaper issue
+2e14a29a60c fonts: adopt for AOSP Font Engine
+0feaf826695 SystemUI: Custom Text Clock Customizations [1/2]
+13728e1721a Improve Lockscreen CustomTextClock Style
+83773fb69b5 Lockscreen Clock Styles: Introduce Q style text clock [1/2]
+b9045442491 Process: Use audio-app cpuset if available
+b265ea833de Update issue templates
+541683b3789 Settings: Add FOD icon picker settings values to backup
+dcb7b81c6ce base: Introduce RGB accenter [1/2]
+64933a3cb46 Use non-wakeup alarm for delay constraint.
+5559452c98f SettingsLib: mutate drawable before tinting for buildBtRainbowDrawable
+15b3f4eaf83 Keyguard: ReInflate views when density or font scale change
+dcc81ca697c base: Use ro.build.date to clear cache dirs on update
+e4a090135eb SettingsLib: Don't show system overlays on apps list
+dab1184e97d Revert "SettingsLib: Don't show system overlays on apps list"
+53973c6c40e fwb: Remove old method for enabling setupwizard overlay
+
+   * packages/apps/DerpQuest/
+1cd384b DerpQuest: Update Russian translation
+
+   * packages/apps/Settings/
+09c84d338d Settings: Move RGB accent picker to DerpQuest [1/2]
+81b732b257 Introduce RGB accenter [2/2]
+
+   * packages/apps/ThemePicker/
+bf2b566 ThemePicker: Preview Light and Dark mode in Primary screen
+11dbaf1 ThemeFragment: Don't hide preview on white Accents or primarys
+9f5aded Revert "ThemePicker: Remove accent color step"
+
+   * vendor/gapps/
+0a8d88d gapps: Remove TipsPrebuilt
+
+   * vendor/pixelstyle/
+023e92a pixelstyle: Remove SafetyHubPrebuilt
+
+====================
+     02-18-2020
+====================
+
+
+   * device/xiaomi/onclite/
+db63788 onclite: Now using 4096MB dalvik Heap configuration
+6b47afd onclite: add memory optimization & surfaceflinger props
+6dbb1a9 Add Telegram Link
+
+   * packages/apps/DerpQuest/
+d0f4a7e DerpQuest: Add French translation
+
+====================
+     02-17-2020
+====================
+
+
+   * packages/apps/DerpQuest/
+038161e DerpQuest: Custom Text Clock Customizations [2/2]
+
+====================
+     02-16-2020
+====================
+
+
+   * build/make/
+4a8f36cad Make allmod() and pathmod() py3 compatible
+5aaf1c101 releasetools: Use the first entry of a mount point when reading fstab
+7c341178b releasetools: Add script to sign zips
+0b9a1cd89 releasetools: support reading release keys out of some sort of command
+
+   * device/qcom/sepolicy-legacy-um/
+786d76c1 Merge branch 'ten-legacy-um' of https://github.com/AOSiP/device_qcom_sepolicy into ten-legacy-um
+
+   * frameworks/base/
+5517be5b6dc Fix nav bar leak in SystemUI
+3af58e92462 RingtoneManager: Don't crash if the ringtone doesn't have a numerical ID
+be4ce7eb046 ProgressBar: Media volume bar indicates a wrong value
+67fc8a0a14f SystemUI: Disable/Enable screenshot sound [1/2]
+121e6c2d138 Revert "[1/2] base: allow disable of screenshot shutter sound"
+78491de5ab4 Merge pull request #44 from DarkDampSquib/ten
+
+   * hardware/aosip/interfaces/
+2d3dbcb aw2013: Fix typo in condition line
+
+   * manifest/
+331600a Initial tracking for DerpFest
+
+   * packages/apps/DerpQuest/
+4bc33b9 DerpQuest: Move RGB accent picker to DerpQuest [2/2]
+1493691 Update complete Chinese Translations
+72cc02b Merge pull request #27 from DarkDampSquib/ten
+
+   * packages/apps/Settings/
+a3d3b34df8 Settings: Fix QRCamera crash
+fd552ba252 Bug:PreferredNetworkModePreferenceController.java not being refreshed
+cff996d653 Settings: Disable/Enable screenshot sound [2/2]
+bb174864ac Revert "[2/2] Settings: allow disable of screenshot shutter sound"
+5479c72ffd Screensaver: Tint button to match system theme
+24f64d54ba Settings: Add support to open device maintainer's telegram * Do this by overlaying on top of <string name="maintainer_telegram"> in aosip_strings.xml
+
+   * packages/apps/ThemePicker/
+d74b757 ThemePicker: Remove accent color step * We have an RGB picker now
+
+   * packages/services/Telecomm/
+d623ee70 Telecomm: Phone ringtone setting for Multi SIM device [3/3]
+96a35fb7 Added features flash-call-on-waiting [2/3]
+035e804e Use double vibration on call hang-up
+7a364dc0 Add back increasing ring feature (1/3).
+98f76e50 Incall vibration options [2/3]
+7d534b65 Telecomm: Change font on some parts
+
+   * packages/services/Telephony/
+bb0f328b5 Font improvements
+5f5318aca Grant START_ACTIVITIES_FROM_BACKGROUND
+2461e2127 LteTile: Fix network modes for 10
+074934e09 ToggleLte: Add missed LTE modes
+0a5912d38 ToggleLte: fix WCDMA only
+0e7fd5dc3 ToggleLte: multisim compatibility
+d90dd5dbc Restore previous network value after toggleLTE
+8a718be7f Implement toggleLte
+
+   * system/sepolicy/
+d9e3e63a sepolicy: Address denials for legacy last_kmsg file
+3c8a2e1f Allow init to write to /proc/cpu/alignment
+649bd316 sepolicy: Treat proc-based DT fstab the same and sys-based
+337c939f Fix storaged access to /sys/block/mmcblk0/stat after 48027a00
+b7ec4036 file_contexts: Include legacy /system/vendor paths
+
+   * vendor/aosip/
+1df7d1c vendor: Define isStatic argument on setupwizard overlay
+514bb8f kernel: allow devices to use newer GCC
+3f81358 kernel: remove x86 target support
+9443edc prebuilt: backuptool: Drop addond version check on A-only
+
+   * vendor/overlay/
+79ddc8b Live captions: Have it follow system accent / fix up navbar
+37157e1 overlay: add EmptyOverlay
+afa7149 overlay: remove left over wallpaper after name change
+d2d604a overlay: open sdcard root when launching DocumentsUI
+
+====================
+     02-15-2020
+====================
+
+
+   * device/xiaomi/onclite/
+ae40584 onclite: Update coral fingerprint to feb patch
+
+   * frameworks/base/
+acc7a7ffba1 SystemUI: Add some Derp FOD icons [1/2]
+12b1a7fbac7 SystemUI: Add PureView recognizing FP animations [1/2]
+5877f858b43 Add OP Recognizing FP animations [1/2]
+
+   * manifest/
+aceaa0e manifest: track a couple more repos from lineage
+
+   * packages/apps/DerpQuest/
+5f230e5 DerpQuest: Add some Derp FOD icons [2/2]
+5041932 DerpQuest: Add PureView recognizing FP animations [2/2]
+7af69e2 DerpQuest: Add OP Recognizing FP animations [2/2]
+
+   * vendor/qcom/opensource/interfaces/
+71518d8 Merge pull request #1 from op5-q/ten
+
+====================
+     02-14-2020
+====================
+
+
+   * vendor/aosip/
+8b81780 vendor: version: Allow adding a timestamp to all build kinds by running
+
+====================
+     02-13-2020
+====================
+
+
+   * device/qcom/sepolicy-legacy/
+4fb80625 sepolicy: address netmgrd denials
+cca7bb46 sepolicy: Allow init to mounton system_file
+5addade7 sepolicy: Label /firmware(/.*)? instead of /firmware/image(/.*)?
+
+   * external/toybox/
+9d2cfe99 toybox: Restore support for toybox_static binary
+
+   * frameworks/base/
+e3f1922809c ScreenStabilization Tile: Settings Menu integrated in Tile itself(long click)
+c09b46ce7c7 Add ScreenStabilizationTile in QS
+40d76caa425 Make screen stabilization more responsive
+bf45db52fa2 Screen Stabiization [1/3]
+cf76e1fcd7b SystemUI: Add dynamic Immersive mode tile
+28ab8ece93e [1/2] SystemUI: dont block IME space for back gesture
+
+   * frameworks/native/
+9684a3750 Screen Stabilization [2/3]
+
+   * packages/apps/Settings/
+b6ad259999 Settings: reword gesture block ime option
+b4d4986599 [2/2] Settings: dont block IME space for back gesture
+
