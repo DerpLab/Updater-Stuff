@@ -1,945 +1,179 @@
+My Drive
 ====================
-     02-04-2020
+     02-20-2020
 ====================
 
-
-   * build/make/
-c4f723a46 Fix zsh compatibility issue in build/envsetup.sh
-edda74a5f Fix lunch choices w/zsh
-4b4cdf784 Gather lunch choices before printing prompt
-dd472d71a Merge tag 'android-10.0.0_r27' of https://android.googlesource.com/platform//build into HEAD
-
-   * device/xiaomi/davinci/
-4bccc9d3 davinci: audio: Increase adm buffering time
-e8265900 Revert "davinci: Adapt Fstab for Rapid GC"
-af1dc611 davinci: init: Property override ro.apex.updatable true
-8554c488 davinci: Enable updatable APEX
-14246999 davinci: Disable google recorder for now
-aee979fa davinci: parts: raise2wake: check proximity before wakeup
-e2d661c4 davinci: parts: add min interval for raise2wake
-3d7855cb davinci: parts: Introduce raise to wake gesture
-b43b1907 davinci: parts: Add local FileUtils
-9b1114b3 davinci: fod: adjust nit value used based on screen brightness
-0231be6e davinci: fod: calculate dim amount based on real brightness
-838bb2e0 davinci: implement and adapt in-screen fingerprint HAL from cepheus
-b119fa32 davinci: Hide DC dimming for now
-543e2906 davinci: parts: Use SoundPool api for popup sound
-5c9ffb76 davinci: parts: Motor calibration improvements
-77b9d2c8 davinci: parts: Move dc dimming to Settings > Display
-1a97dad3 davinci: parts: Add proximity check on popup camera
-2286952e davinci: parts: PopupCameraService: Add frequent trigger dialog
-160a94e3 davinci: parts: Moar code cleanup
-def8ac57 davinci: parts: Get rid of warning on goBackHome
-b4d629e6 davinci: parts: Implement popup motor calibration
-1b8e2357 davinci: parts: Add settings for popup camera
-54f9b317 davinci: popupcamera: Check if motor is busy before doing any operation
-aed45db7 davinci: parts: Separate fod functions from PopupCameraService
-befa2865 davinci: parts: Add hifi vector icons
-229816e1 davinci: parts: Add vector icons
-5de79fa4 davinci: dirac: Prevent failures when toggling
-667e5c2e davinci: dirac: Only call setEnabled on boot completed
-cd4bdf1d davinci: parts: Refactor Dirac setup
-ab0fdf7f davinci: parts: Dirac fixes
-06a124ed davinci: dirac: Fixes for Dirac
-25006bfa davinci: dirac: Import dirac translations from MIUI
-cba9d37c davinci: dirac: Refactor dirac strings
-bf4a0487 davinci: dirac: Add summary for dirac
-255b35f3 davinci: dirac: Update Dirac vector icons to MD2 versions
-c7da1709 davinci: parts: Add vector icons
-30a2a1ee davinci: popup: remove lineageOS dependencies
-6e683fb0 Reset Parts partially
-
-   * frameworks/av/
-c4b9cb36a Merge tag 'android-10.0.0_r27' of https://android.googlesource.com/pl…
-
-   * frameworks/base/
-3b4b1652f71 Fix android setup permissions
-c5ac7882294 AMS: Fix the null pointer exception in IntentResolver
-3e3bef959fb Fix MtpDatabase multithreading NullPointerException
-a186b6324dd Fix incorrect context classloader initialization in system_server
-feb0e469f25 Fix LockdownVpnTracker deadlock when resetting legacy Always-On VPN
-72b714647f8 data: update systemui priv-app permissions
-bfdf13100db Update priv-app permissions
-cb490caa3e5 RebootTile: Make default state inactive
-05329a51b60 Extend reboot tile to add power off
-8435fa496ef RebootTile: Fix gradient message display for reboot to recovery
-67d8a090225 Add Reboot/Recovery QS Tile
-f617b431aca Revert "SystemUI: QS: Add Reboot/Recovery Tile"
-9f63e81eb39 Merge tag 'android-10.0.0_r27' of https://android.googlesource.com/platform//frameworks/base into HEAD
-500cf5be2f7 base: Add an option to pulse edge light for all doze triggers [1/2]
-
-   * frameworks/native/
-38602b2d5 Merge tag 'android-10.0.0_r27' of https://android.googlesource.com/platform//frameworks/native into HEAD
-
-   * frameworks/opt/net/wifi/
-9c908c549 Merge tag 'android-10.0.0_r27' of https://android.googlesource.com/platform//frameworks/opt/net/wifi into HEAD
-
-   * hardware/libhardware/
-1dde6678 Merge tag 'android-10.0.0_r27' into ten
-
-   * kernel/xiaomi/davinci/
-99818a613b64 Revert "f2fs: implement rapid GC for Android"
-6979646573f3 Revert "f2fs: set ioprio of GC kthread to idle"
-5751207a68a1 Revert "f2fs: convert wakelock APIs to wakeup_source"
-9486267c13c3 Revert "f2fs: switch FB notifier API to MSM DRM notifier"
-4b054004f0fe Revert "f2fs/rapid_gc: do not wait until all invalid blocks are discarded"
-7f6ba6525b86 Revert "f2fs/rapid_gc: Clean up return codes"
-cd1100048b73 Revert "f2fs: explicitly flush device upon foreground GC"
-2068344979fe Revert "f2fs: drop caches upon rapid GC exit"
-bde9c18bda63 Revert "f2fs: do not expose tunables that doesn't work with rapid GC"
-7e328c85342d Revert "f2fs: use a more reasonable discard policy for high utilization"
-b06d6b463a2a Revert "f2fs: don't wait with each discards under gc_urgent"
-53916c16b392 Revert "f2fs: mark gc_threads() functions as static"
-5058db7e276e Revert "f2fs: Update rapid GC for updated F2FS"
-6d7fda235e92 Revert "f2fs: improve naming schemes for rapid GC"
-c066a0b6024b Revert "f2fs: catch a global wakelock instead of per gc_kthread"
-9e7db8a3e93a Revert "f2fs: unlock wakelock properly when f2fs_stop_rapid_gc() is called"
-5165800c333d Revert "f2fs: trigger rapid GC only when screen state actually changes"
-fc5f560b0878 Revert "f2fs: reduce timeout for uncongestion on f2fs_write_cache_pages()"
-7f72de2fc09f Revert "f2fs: Fix absolute jiffy duration in write uncongestion timeout"
-291fb9eb20f2 Revert "f2fs: rename /sys/fs/f2fs"
-dba1e4e48551 Revert "f2fs: use a seperate mutex for setting wakelock"
-d2357d3cf5b1 Revert "f2fs/gc: Replace f2fs_info with f2fs_msg"
-97ae0bb37b64 Revert "sched/fair: prefer exclusive mid cluster cpu for top-app task"
-b997af8fd633 defconfig: Update DEVFREQ_MSM_(CPUBW|LLCCBW)_BOOST_FREQ configs
-a7bbd332c9f3 devfreq_boost: Update and expand to handle CPUBW/LLCCBW boosting
-831f98c16514 defconfig: disable zram
-c4dbea9cfcbc defconfig: Bump stack frame size warning threshold to 6 KiB
-acacda591959 ext4, dax: set ext4_dax_aops for dax files
-9078de4cdf96 ext4: remove additional tracings added by CAF
-41842f5f3d16 mm: util: Guarentee memory access to applications
-
-   * manifest/
-e82bd39 Initial tracking for DerpFest
-f7850cb Merge tag 'android-10.0.0_r27' into ten
-a7193f2 Manifest for Android 10.0.0 Release 27 (QQ1B.200205.002)
-7696dbc Manifest for Android 10.0.0 Release 26 (QQ1A.200205.002)
-78aff0a Update README for new domain
-
-   * packages/apps/Bluetooth/
-9e336b2b Merge tag 'android-10.0.0_r27' of https://android.googlesource.com/platform//packages/apps/Bluetooth into HEAD
-
-   * packages/apps/CertInstaller/
-5529564 Merge tag 'android-10.0.0_r27' into ten
-
-   * packages/apps/DerpQuest/
-cd5a946 DerpQuest: Move charging info text switch to DerpQuest [2/2]
-ed550df DerpQuest: Add an option to pulse edge light for all doze triggers [2/2]
-fe5b3b4 DerpQuest: Add back missing edge lighting preview
 
    * packages/apps/Settings/
-c132ddf3b1 Settings: Move charging info text switch to DerpQuest [1/2]
-26baf7c842 Merge tag 'android-10.0.0_r27' of https://android.googlesource.com/platform//packages/apps/Settings into HEAD
+35566ededd Create aosip_strings.xml
 
-   * packages/services/Telecomm/
-7cb3cbe4 Merge tag 'android-10.0.0_r27' of https://android.googlesource.com/platform//packages/services/Telecomm into HEAD
-
-   * system/bt/
-994f06e73 Merge tag 'android-10.0.0_r27' into ten
-
-   * system/core/
-56f6db5bc adb: host: Provide better sideload status
+   * prebuilts/clang/host/linux-x86/
+d23c69af Update prebuilt Clang to r377782b.
 
 ====================
-     02-03-2020
-====================
-
-
-   * device/xiaomi/davinci/
-25f9a044 Revert "Audio / Media: import some files from MIUI"
-9b7a4a09 davinci: Use MIUI FOD icon
-8923dd35 Revert "FOD: make fod color transparent and add miui icon"
-50b13171 davinci: Remove LiveDisplay
-
-   * frameworks/base/
-e4628cbb105 base: Allow limiting edge lighting repeats [1/2]
-bba1c5aed7e SystemUI: Allow changing duration of ambient edge light [1/2]
-53fdd21779f SystemUI: Improve edge lightning behavior on live wallpaper
-523483179d4 SystemUI: Add color options for edge lightning [1/2]
-005135a72ee SystemUI: only call  showAodContent(true) if we are still on the keyguard
-016df0bd19e SystemUI: replace pulse light drawable with our own vector
-7d6a91dcf86 SystemUI: use ROWS_HIGH_PRIORITY for active notification pulse check
-46015298a29 SystemUI: kill any leftover notification pulse on new pulse start
-9f9ad9e5a28 SystemUI: add Ambient Lights always on hide aod content option
-de8c2dbee88 SystemUI: trigger pulse light only for notifications
-d1c21cbee8c SystemUI: add Pulse and Ambient notification bars [1/2]
-93642e02a9b base: Revert old edge lighting in favor of new one [1/2]
-e53cf23e874 base: omnistyle: Stinky workaround for header shadow and tinted images
-533d071efc5 base: Add Tinkerbell [1/2]
-b77400cba16 base: SystemUI: Actually set battery bar visability on runtime [1/2]
-3262773a609 base: Kang La Fontage from Bootleggers [1/2]
-
-   * kernel/xiaomi/davinci/
-e35d33b7e59a PM / timekeeping: Revert suspend duration message to info level
-76006a7e7ca6 printk: Add sleep time offset to all timestamps
-8a575bb951ff Revert "ANDROID: PM / Suspend: Print wall time at suspend entry and exit"
-a53c234f9863 lowmemorykiller: Enable adaptive LMK by default
-7cfaf9d93af6 mm: Implement minimum bound for performing readahead
-c0f7d79b67b2 FORWARDPORT: sched/fair: Skip frequency updates if CPU about to idle
-2b80e08d44e0 Revert "sched/fair: Drop always true parameter of update_cfs_rq_load_avg()"
-e3ae2136d6d7 usb: dwc3: Fix erroneous error handling in probe
-ac2d84731f4b Revert "msm: kgsl: Wake GPU upon receiving an ioctl rather than upon touch input"
-b9538c398f68 Revert "msm: kgsl: do not wake up GPU on ioctl"
-ed51eb22f609 Revert "defconfig: disable sched_debug"
-
-   * packages/apps/DerpQuest/
-31d120b DerpQuest: Allow limiting edge lighting repeats [2/2]
-ad907b1 DerpQuest: Allow changing duration of ambient edge light [2/2]
-31ea9f9 DerpQuest: Add color options for edge lightning [2/2]
-528663b DerpQuest: ambient light settings
-2fcdad7 DerpQuest: Pulse and Ambient notification bars [2/2]
-0720aee DerpQuest: Revert old edge lighting in favor of new one [2/2]
-94f11ac DerpFest: Actually set battery bar visability on runtime [2/2]
-2749f64 DerpQuest: Avoid showing two switches to devices with HW navigation keys
-
-   * packages/apps/Settings/
-317b409438 Settings: Add primary color picker from Styles & Wallpapers
-2265ba1552 Settings: Add Statusbar Icon Picker from Styles & Wallpapers
-53ad1c6d66 Settings: Move theming to display settings
-
-   * packages/apps/ThemePicker/
-394a67e ThemePicker: Show status area on clock by default [2/2]
-
-   * vendor/overlay/
-0ca1464 Overlay: Add Solarized Dark Primary
-5b464c3 vendor: Move dimen overlays to overlay vendor [2/2]
-5e66a91 Overlays: Revise accent colors for DerpFest
-
-   * vendor/pixelstyle/
-e6eb261 pixelstyle: fonts: Add Tinkerbell [2/2]
-baec340 pixelstyle: Kang La Fontage from Bootleggers [2/2]
-
-====================
-     02-02-2020
-====================
-
-
-   * device/xiaomi/davinci/
-587aaa64 davinci: Set Maintainer Overlay
-903b6a29 davinci: Adapt Fstab for Rapid GC
-ed29e6e8 davinci: Enable FOD
-df1370e4 davinci: Is a phone
-25ec5516 davinci: Include GApps
-57f3c238 davinci: Fix path for Miui camera
-c9fd08a9 davinci: Derp-ify
-7191a93c Overlay: if battery temp > 68°C then shutdown
-82054f3b Remove HW HEVC encoder entries
-dac820a1 Overlay: fix small error
-b2513214 Overlay: we don't use qualcomm location
-fc66f168 Revert "Overlay: remove scale brightness"
-eaff1232 Prop: isUsbOtgEnabled
-280b2349 Overlay: remove useless space
-c9c1e836 Overlay: remove scale brightness
-a03516cb FOD: make fod color transparent and add miui icon
-
-   * frameworks/base/
-934646f91ea SystemUI: Nope. This shouldn't be here *Introduced in 94bfbab816
-055b630334a base: Show status area on clock by default [1/2] *And backup the setting value *Code fixup of 2be7b8a192
-d45a531a5cc Bring back ticker for music ticker and Android 10 fixes
-9ec23302ad7 base: SystemUI: Network traffic monitor should come first in header
-25eef3ebb62 ScreenshotSelector: mark externally unused functions as private
-48d1f646ac0 base: Allow using a custom color for lockscreen battery bar [1/2]
-253ed6679b1 base: Lower the internal audio capture restriction
-
-   * kernel/xiaomi/davinci/
-0d3dd798b895 kernel: time: reduce ntp wakeups
-940445ecaeec Revert "msm: kgsl: Stop slab shrinker when no more pages can be reclaimed"
-55972f138ac8 dsi: panel: disable doze on screen off
-ca60c8fb3dfd Revert "adrenoboost: disable by default"
-24bcb8c53b02 msm: sps: Fix memory leaks in sps_register_bam_device
-59a0fba1d925 msm-geni-serial: Correct the unsupported baudrate error handling
-16c658978735 async: Run Hi Priority WQ when system is booting
-03c6cca48cb4 Revert "video: Add brightness clone sysfs node"
-a1a6a293c6e2 Revert "video: Add backlight notifier callback"
-2d9dce78d4a6 thermal: core: Use qcom drm notifier
-9f19d23abd70 input: touchscreen: gt9886: Enable definition of BTN_INFO
-a5673664b31c input: touchscreen: gt9886: Remove backlight notifier callback
-bb5a79242629 drm: msm: Add fod hbm node
-6332fbc7ae6e drm: msm: Implement aod mode
-65db5f6fe632 drm: msm: Modify lp11 mode logic
-8e2ddea206b0 drm: msm: Handle ss ea and eb dcs types as well
-4d2381ea8f0f drm: msm: Handle ss dcs type
-7205a40c4ea7 drm: msm: Extend qcom drm notifier
-466d9fe89938 Revert "drm: Add display parameter sysfs node"
-bd4d73a3c194 Revert "drm: Add master filter"
-4f3a85dc3dd6 Revert "drm: Add doze brightness sysfs node"
-b47396af0366 Revert "drm: Add mipi reg procfs node"
-70471e5a335a Revert "drm: Add mipi reg sysfs node"
-16e3452c0d28 Revert "drm: add xiaomi early display hacks"
-e65a9ef0ab36 Revert "drm: Add display count sysfs node"
-d9dc8f7cb470 Revert "drm: Add panel info sysfs node"
-deb0a8955c8e Revert "drm: msm: modify lp11 mode logic"
-400cfc21e2c3 Revert "drm: msm: extend QC drm notifier"
-23af534327ae Revert "drm: msm: handle ss dcs type"
-47e2dd125182 Revert "drm: Expose high brightness mode (HBM) status"
-962adf8c234f Revert "goodix_ta: unguard GOODIX_DRM_INTERFACE_WA"
-51c74412ca79 Revert "drm: remove xiaomi early display hacks"
-9521e04c4152 fs: add a /system/ path to file blocker
-1183c2f78ebc lib/zstd/mem.h: replace __inline by inline
-086ee99f2825 random: always fill buffer in get_random_bytes_wait
-bc0c75e303f1 ext4: Allocate allocation-context on the stack
-d80befbf8534 Revert "arm64: remove redundant FRAME_POINTER kconfig option and force to select it"
-eb8cfd507aaa Revert "binder: Reserve caches for small, high-frequency memory allocations"
-
-   * packages/apps/DerpQuest/
-580dfbd DerpQuest: Allow using a custom color for lockscreen battery bar [2/2]
-
-   * packages/apps/ThemePicker/
-f83ce66 ThemePicker: Extend the max theme limit
-eae02b4 ThemePicker: Show items name under the title
-a24347c ThemeFragment: handle themes with no specified wallpaper
-bfe3582 Revert "ThemeFragment: handle case where no custom wallpaper is available"
-
-   * prebuilts/clang/host/linux-x86/clang-6170260/
-ace08c8 clang 10.0.2 (based on r370808b) from build 6170260
-
-   * vendor/aosip/
-66e9ba2 derp: Add support for onclite
-
-====================
-     02-01-2020
-====================
-
-
-   * device/xiaomi/davinci/
-d5755ba7 Add readme file
-0e8bc204 Props: Force enable VoWifi
-d2ff8e1e Props: Update haptic feedback intensities
-bbe01e09 Props: enable PSI monitor
-2dfcd751 Props: add lmkd options from coral
-2e3697ad Props: use Early phase offset configuration for SurfaceFlinger from flame
-3ce83c19 Props: Turn on GPU protected composition.
-6e3ad2f6 Props: enable EGL Image Tracking on SF
-c5be41cc Props: use ConfigStore properties from flame
-1a1e5dfb Props: Add system properties for surfaceflinger
-37daf18e Props: update MM props from CAF
-6a669cd1 Props: Enable GL comp backpressure
-e0821398 Props: Disable priv-app permissions whitelist
-e492524e Props: Force enable mobile network settings v2
-fd200d76 Props: Enable USB debugging at boot
-05def0a1 Add nosdcard characteristic to device
-86185fa3 Build more nfc packages
-33732cea Don't build camera and FM
-ddc91f5a Enable BOARD_KERNEL_SEPARATED_DTBO
-050001db Enable TARGET_USES_NQ_NFC
-7d67249a Enable BUILD_BROKEN_USES_NETWORK
-406569a0 Sort
-bcefaa42 Remove dex flags
-1bb80715 Enable sdclang
-4d016c7d Compile libhwui in perf mode
-f23f9e23 Build kernel with the latest clang possible
-c0b060e2 Include customized version of ANX Camera
-fcac96ce Define FORCE_QCOM_DISPLAY_HAL_VARIANT
-ba731940 Enable TARGET_USES_ALTERNATIVE_MANUAL_NETWORK_SELECT
-736eeb44 Sepolicy: livedisplay
-505e379d Sepolicy: address FOD denials towards backlight interface
-de113491 Sepolicy: Add rules for fingerprint on display HAL
-d1f54f62 Init.qcom.rc: enable display idle state notifier
-6364fd70 Init.qcom.rc: setup camera-daemon cpuset and schedtune
-6e512f4d Init.qcom.rc: Mask up legacy PowerHAL
-67bc7246 Init: nuke cnss diag service
-f829bfd5 Init: nuke ipa diag service
-a887d674 Init.rc: disable sched_stats
-521a7d26 fstab: Import from MIUI
-71dacf42 Introduce 'SafailNet'
-419a2e67 Power: davinci-fy and cleanup
-97ed449f Power: Add explicit initialization for last timestamp and fix time unit
-8fa85ffe Power: modified system variant of libperfmgr
-199045a9 Permissions: Import from MIUI
-b5a5746d Parts: Refactor the whole code
-9cfed2e2 Parts: Import translations
-273cfe99 Overlay: Cleanup & add missing overlays from MIUI
-bb0bb9fc Init: Update fingerprints
-6725b0ac Init: Add missing lines to bypass safetynet
-70ffb16a Init: Disable oem unlock
-8a69ab77 Init: use custom property setter instead
-51a24a72 Init: Use Coral fingerprint from Jan 2020 sec patch
-2570d566 Init: set dalvik heap configuration from here
-9b1ff239 Init: remove duplicate prop override calls
-3c222baa Init: override privapp permissions to log for all variants
-73f61d09 FOD: fetch permission from local folder
-789b8207 FOD: improve semantics
-3dbecbd6 FOD: davinci-fy
-0454e8a3 FOD: setup thread to high CFS priority
-e15912f6 IFAA: Add apis to unrestricted greylist
-9cebe3dc USB: Switch to system side basic USB hal
-11d9420b WiFi: move to a proper folder
-44b728f1 WiFi: update WCNSS configuration from CAF
-2f200c16 WiFi: add configuration file from 9.12.19
-7bacaa7b NFC: Move to a proper folder
-5fad342c Fixes to NFC configuration
-5f6cbaba NFC: Import nfc config
-098787cf Bluetooth: add default name
-f1738476 Bluetooth: Enable WBS
-091c181b Audio / Media: import some files from MIUI
-3dd98b47 Sort and add some missing blobs
-1607138f Remove unsued blobs & add missing AV blobs
-6380e641 Remove qti fw boost and disable services in favor of libperfmgr
-08d4f788 Add popup camera sound effects
-660c7d8c Update sha1sum of qti-telephony-common
-bbc6acbb Update DRM Widevine L1 blobs
-ea6312f4 proprietary-files: add liboemcrypto.so
-c3cf905c Hotword: move to a proper folder
-d4318064 Fix previous conflict
-85660a68 Add Hotword Enrollment support
-7731247e proprietary-files: add ims.apk
-46aa09f4 Remove unused blobs
-11e78fd3 proprietary-files: add camera.qcom.so
-bc51f9dc Clean up
-0d11e66c Davinci-fy, aosp-ify and adapt to sm6150
-
-   * kernel/xiaomi/davinci/
-3366850e2ae9 [FXUP] 985e2bc1097d (" drm: msm: sde: Boost CPU and DDR when a new frame is ready to be committed")
-03cf8fce14bc cgroups: Replace synchronize_sched() with synchronize_rcu()
-d644e1241222 events: Replace synchronize_sched() with synchronize_rcu()
-a6ac0360ed0f slab: Replace synchronize_sched() with synchronize_rcu()
-3308b2be622a mm: fix race between kmem_cache destroy, create and deactivate
-9290ae9f114c fs/file: Replace synchronize_sched() with synchronize_rcu()
-0073bc789692 kprobes: Replace synchronize_sched() with synchronize_rcu()
-8b856ad7fc12 lockdep: Replace synchronize_sched() with synchronize_rcu()
-3417aeb6cead percpu-rwsem: Replace synchronize_sched() with synchronize_rcu()
-134ba69f20ea tools/kernel.h: Replace synchronize_sched() with synchronize_rcu()
-63ad700f4db4 cpufreq/cpufreq_governor: Replace synchronize_sched() with synchronize_rcu()
-1d55efdd91cb livepatch: Replace synchronize_sched() with synchronize_rcu()
-c3150d622d8f rcutorture/formal: Replace synchronize_sched() with synchronize_rcu()
-c5d7205d87e3 tracing: Replace synchronize_sched() and call_rcu_sched()
-fe8e3637d385 modules: Replace synchronize_sched() and call_rcu_sched()
-64d8c746bb2b net/sched: Replace call_rcu_bh() and rcu_barrier_bh()
-2d4344b295d5 percpu-refcount: Replace call_rcu_sched() with call_rcu()
-cf1396e8c91a workqueue: Replace call_rcu_sched() with call_rcu()
-1f84fbf904e8 sched/core: Fix preempt warning in ttwu
-fb904c247ba4 sched/core: Optimize try_to_wake_up() for local wakeups
-5e007681b3db sched/topology: Skip duplicate group rewrites in build_sched_groups()
-855ad6535aae sched: Replace synchronize_sched() with synchronize_rcu()
-524dee967b84 sched: Replace call_rcu_sched() with call_rcu()
-819d1ef90ddc sched/wake_q: Add branch prediction hint to wake_q_add() cmpxchg
-072906aa9a49 sched/membarrier: Replace synchronize_sched() with synchronize_rcu()
-9f41b7903fe6 sched/fair: Fix load_balance redo for !imbalance
-a418f8e8f5f0 netfilter: conntrack: silent a memory leak warning
-41fd729bd6cf net: qualcomm: rmnet: Fix incorrect allocation flag in receive path
-825c3b9d61f1 rcu: Remove !PREEMPT code from rcu_note_voluntary_context_switch()
-1275beff195c timers: Add a function to start/reduce a timer
-dcacd71cb037 timer: Convert schedule_timeout() to use from_timer()
-97c2716cac3f rcu: Clean up flavor-related definitions and comments in rcupdate.h
-9bd1a96c1a66 rcutorture: Fix expected forward progress duration in OOM notifier
-e2bd47f87d85 rcutorture: Remove ->ext_irq_conflict field
-ad646147690f rcutorture: Make rcutorture_extend_mask() comment match the code
-fb2760550ad8 rcu: Fix nohz status in stall warning
-e42981c7ca27 rcu: Move forward-progress checkers into tree_stall.h
-1e8403e52b3f rcu: Move irq-disabled stall-warning checking to tree_stall.h
-79a189408738 rcu: Organize functions in tree_stall.h
-6c8f9d576595 rcu: Move FAST_NO_HZ stall-warning code to tree_stall.h
-16d25a28ea6e rcu: Inline RCU stall-warning info helper functions
-0c7767533d2e rcu: Move rcu_print_task_exp_stall() to tree_exp.h
-dbc2979bcc00 rcu: Inline RCU task stall-warning helper functions
-47a6231ddcac rcu: Move RCU CPU stall-warning code out of tree.c
-25ca8d3c5079 rcu: Move RCU CPU stall-warning code out of tree_plugin.h
-357233527d3f rcu: Move RCU CPU stall-warning code out of update.c
-2f1b83582670 srcu: Remove cleanup_srcu_struct_quiesced()
-2a74cbb2dca1 srcu: Check for in-flight callbacks in _cleanup_srcu_struct()
-de45e2da6184 rcu: Correct READ_ONCE()/WRITE_ONCE() for ->rcu_read_unlock_special
-0ba67ca3d551 rcu: Fix typo in tree_exp.h comment
-88208dcc74d5 rcu: Eliminate redundant NULL-pointer check
-00cd8213b3d0 rcu: Fix force_qs_rnp() header comment
-073fb600cc6b rcu: Update jiffies_to_sched_qs and adjust_jiffies_till_sched_qs() comments
-578021fd5827 rcu: Default jiffies_to_sched_qs to jiffies_till_sched_qs
-156edbd679fa rcu: Fix self-wakeups for grace-period kthread
-af16fbb49394 rcu: Report error for bad rcu_nocbs= parameter values
-7253bc7a84f7 rcu: Allow rcu_nocbs= to specify all CPUs
-9860d5a64d9e rcu: Move common code out of if-else block
-adfda30007bd rcu: Set rcutree.kthread_prio sysfs access to read-only
-5345da1767aa rcu: Make exit_rcu() handle non-preempted RCU readers
-ef2d6b9d73c3 rcu: rcu_qs -- Use raise_softirq_irqoff to not save irqs twice
-3b8ee14c80ae rcu: Avoid unnecessary softirq when system is idle
-5cc5f5dffd03 rcu: Unconditionally expedite during suspend/hibernate
-3e8f22ab14f0 rcuperf: Stop abusing IS_ENABLED()
-cba9f6ef12fd rcutorture: Add grace period after CPU offline
-6f3a3d872d21 rcutorture: Record grace periods in forward-progress histogram
-f48822b25eca srcu: Remove srcu_queue_delayed_work_on()
-4ac0db3af21f rcu: Fix obsolete DYNTICK_IRQ_NONIDLE comment
-318b9d4c54d2 rcu: Repair rcu_nmi_exit() docbook header
-8f81bfef5a3a rcu: Remove preemption disabling from expedited CPU selection
-22989291cbf4 rcu: Rename rcu_process_callbacks() to rcu_core() for Tree RCU
-aa56ba9931ec rcu: Rename rcu_check_callbacks() to rcu_sched_clock_irq()
-e2de1ac44c29 rcu: Prevent needless ->gp_seq_needed update in __note_gp_changes()
-5f484e8d7ba4 rcu: Do RCU GP kthread self-wakeup from softirq and interrupt
-639a9a3419ba rcu: Add sysrq rcu_node-dump capability
-ad379564dbef rcu: Protect rcu_check_gp_kthread_starvation() access to ->gp_flags
-527a1e42294d rcu: Improve diagnostics for failed RCU grace-period start
-ec32da344e39 rcu: Update NOCB comments
-25ff8faaabad rcu: Remove unused rcu_cpu_kthread_cpu per-CPU variable
-369a29678a4d rcu: Move rcu_cpu_has_work to rcu_data structure
-a202898c54cb rcu: Remove unused rcu_cpu_kthread_loops per-CPU variable
-6f9cca64bda7 rcu: Move rcu_cpu_kthread_status to rcu_data structure
-8ac56a588d79 rcu: Move rcu_cpu_kthread_task to rcu_data structure
-4109dde02984 rcu: Accommodate zero jiffies_till_first_fqs and kthread kicking
-1689f352daa3 rcu: Discard separate per-CPU callback counts
-c6632ec4b915 rcu: Inline _synchronize_rcu_expedited() into synchronize_rcu_expedited()
-e79c6b4b02f4 rcu: Consolidate PREEMPT and !PREEMPT synchronize_rcu()
-161feb278fd7 rcu: Consolidate PREEMPT and !PREEMPT synchronize_rcu_expedited()
-02c5a4c329d6 rcu: Determine expedited-GP IPI handler at build time
-83b1696ee189 rcu: Inline rcu_kthread_do_work() into its sole remaining caller
-23e16b714848 rcu: Eliminate RCU_BH_FLAVOR and RCU_SCHED_FLAVOR
-9835c179f320 rcu: Inline force_quiescent_state() into rcu_force_quiescent_state()
-6cb18db01794 rcu: Make expedited IPI handler return after handling critical section
-0ddc8bdb926e rcu: Rename and comment changes due to only one rcuo kthread per CPU
-f4ec7579cff9 rcutorture: Don't do busted forward-progress testing
-a5dc33b863f4 rcutorture: Use 100ms buckets for forward-progress callback histograms
-b9e3ef2232b6 rcutorture: Recover from OOM during forward-progress tests
-a595512e2833 rcutorture: Print forward-progress test age upon failure
-9a7de627741d rcutorture: Print time since GP end upon forward-progress failure
-ebc8f8b8b7a5 rcutorture: Print histogram of CB invocation at OOM time
-dbf99bb2eacf rcutorture: Print GP age upon forward-progress failure
-7005a9243314 rcu: Print per-CPU callback counts for forward-progress failures
-e86894e50a1a rcu: Account for nocb-CPU callback counts in RCU CPU stall warnings
-7b696b72f828 rcutorture: Dump grace-period diagnostics upon forward-progress OOM
-e6307b2c38ee rcutorture: Prepare for asynchronous access to rcu_fwd_startat
-805c9c55422d rcutorture: Affinity forward-progress test to avoid housekeeping CPUs
-1c819e145899 rcutorture: Break up too-long rcu_torture_fwd_prog() function
-36125a7f696f rcutorture: Remove cbflood facility
-db8ce4de4776 rcutorture: Add call_rcu() flooding forward-progress tests
-3e7c0a35d781 srcu: Use "ssp" instead of "sp" for srcu_struct pointer
-874c9585bcf2 srcu: Add notrace variants of srcu_read_{lock,unlock}
-77a2a8de8b50 srcu: Fix kernel-doc missing notation
-9042ac5446a2 srcu: Add notrace variant of srcu_dereference
-d5423c61eb50 lockdep: Convert some users to const
-5c1307cf7624 rcu: Avoid signed integer overflow in rcu_preempt_deferred_qs()
-4c736def991b rcu: Replace this_cpu_ptr() with __this_cpu_read()
-22e79d78bccc rcu: Speed up expedited GPs when interrupting RCU reader
-90fd4a33ddc2 rcu: Trace end of grace period before end of grace period
-de1f1ead9b15 rcu: Adjust the comment of function rcu_is_watching
-8a94a5cb00d5 rcu: Add jiffies-since-GP-activity to show_rcu_gp_kthreads()
-80bce932319b rcu: Add state name to show_rcu_gp_kthreads() output
-e3f1fd4b4cd4 rcu: Parameterize rcu_check_gp_start_stall()
-61ada3e7e905 rcu: Avoid double multiply by HZ
-a6e5af9264e0 rcu: Eliminate BUG_ON() for kernel/rcu/update.c
-ca66cb568518 rcu: Eliminate BUG_ON() for kernel/rcu/tree_plugin.h
-71ccbd41d1e3 rcu: Stop expedited grace periods from relying on stop-machine
-10e07edf3439 srcu: Prevent __call_srcu() counter wrap with read-side critical section
-1e631e8381e3 rcu: Consolidate the RCU update functions invoked by sync.c
-3904759866e4 rcu: Eliminate synchronize_rcu_mult()
-dcb13db7e7b7 Revert "sched/core: Improve CPU hotplug latency for rcu_expedited=1 case"
-3dc5109e6909 rcu: Fix rcu_{node,data} comments about gp_seq_needed
-24e682dd153a rcu: Remove unused rcu_state externs
-98e3487f472a rcu: Eliminate BUG_ON() for kernel/rcu/tree.c
-6b91ee467b38 rcu: Eliminate BUG_ON() for sync.c
-79c0ad7c452d srcu: Make early-boot call_srcu() reuse workqueue lists
-b4f45f8df456 srcu: Make call_srcu() available during very early boot
-474fa8f816b1 kernel/SRCU: provide a static initializer
-1c1c3577bff3 rcu: Convert rcu_state.ofl_lock to raw_spinlock_t
-f083026e9a6d rcu: Remove obsolete ->dynticks_fqs and ->cond_resched_completed
-be0bbd40fb05 rcu: Switch ->dynticks to rcu_data structure, remove rcu_dynticks
-baa6710b9884 rcu: Switch dyntick nesting counters to rcu_data structure
-664392210745 rcu: Switch urgent quiescent-state requests to rcu_data structure
-5d970712638d rcu: Switch lazy counts to rcu_data structure
-76e4ebb30e3f rcu: Switch last accelerate/advance to rcu_data structure
-a37f24741aeb rcu: Switch ->tick_nohz_enabled_snap to rcu_data structure
-3c679e635781 rcu: Merge rcu_dynticks structure into rcu_data structure
-2be26834a327 rcu: Convert "1UL << x" to "BIT(x)"
-a3ae3b95944a rcu: Avoid resched_cpu() when rescheduling the current CPU
-ddb43bf741da rcu: More aggressively enlist scheduler aid for nohz_full CPUs
-44b597f87409 rcu: Compute jiffies_till_sched_qs from other kernel parameters
-c56bca10083f rcu: Provide functions for determining if call_rcu() has been invoked
-c9af12902644 rcu: Eliminate ->rcu_qs_ctr from the rcu_dynticks structure
-c76e1666fbd3 rcu: Motivate Tiny RCU forward progress
-b6ec95dde1ee rcutorture: Dump reader protection sequence if failures or close calls
-efcb98104967 rcu: Provide improved interrupt-from-idle check in rcu_check_callbacks()
-350ac809264c rcu: Make need_resched() respond to urgent RCU-QS needs
-2016fe28e87e rcu: Inline _rcu_barrier() into its sole remaining caller
-0b9715c607ec rcu: Define rcu_all_qs() only in !PREEMPT builds
-c658a42d23c6 rcu: Clean up flavor-related definitions and comments in update.c
-acae57034847 rcu: Clean up flavor-related definitions and comments in tree_plugin.h
-dd0b3aa85566 rcu: Clean up flavor-related definitions and comments in tree_exp.h
-60a2a9234169 rcu: Clean up flavor-related definitions and comments in tree.c
-70d29719c41d rcu: Clean up flavor-related definitions and comments in tiny.c
-223803d98324 rcu: Clean up flavor-related definitions and comments in srcutree.h
-60291ef6ef1c rcu: Clean up flavor-related definitions and comments in rcutorture.c
-6fc58c12763c rcu: Clean up flavor-related definitions and comments in rcu.h
-b5083fe34421 rcu: Clean up flavor-related definitions and comments in Kconfig
-633bc22a9390 rcu: Remove now-unused rcutorture APIs
-a788bba78103 rcuperf: Remove the "rcu_bh" and "sched" torture types
-061166c47fb3 rcutorture: Remove the "rcu_bh" and "sched" torture types
-6a85d2a715f6 rcu: Stop testing RCU-bh and RCU-sched
-d7ed12be0474 rcutorture: Add RCU-bh and RCU-sched support for extended readers
-6d6f9ed185c1 rcu: Consolidate RCU-sched update-side function definitions
-bea162f36115 rcu: Consolidate RCU-bh update-side function definitions
-d07f485f116b rcu: Pull rcu_gp_kthread() FQS loop into separate function
-f20ea8378b06 rcu: Inline increment_cpu_stall_ticks() into its sole caller
-466dd2599ac6 rcu: Fix typo in force_qs_rnp()'s parameter's parameter
-37661f039acc rcu: Eliminate initialization-time use of rsp
-6741444b8f19 rcu: Eliminate RCU-barrier use of rsp
-8e72d3026420 rcu: Eliminate quiescent-state and grace-period-nonstart use of rsp
-97ffaa768b3d rcu: Eliminate callback-invocation/invocation use of rsp
-96f010d33f8a rcu: Eliminate grace-period management code use of rsp
-d77afaac05fd rcu: Eliminate stall-warning use of rsp
-8eba0819a299 rcu: Restructure rcu_check_gp_kthread_starvation()
-45af0cf226f5 rcu: Simplify rcutorture_get_gp_data()
-001f96edcbf0 rcu: Remove for_each_rcu_flavor() flavor-traversal macro
-186b5e6f3e8b rcu: Remove last non-flavor-traversal rsp local variable from tree_plugin.h
-859f71b0b49d rcu: Remove rcu_data structure's ->rsp field
-dfb907113395 rcu: Remove rsp parameter from rcu_node tree accessor macros
-1c070bec533f rcu: Remove rsp parameter from expedited grace-period functions
-ffd2cefc6f3e rcu: Remove rsp parameter from no-CBs CPU functions
-39b475a53d18 rcu: Remove rsp parameter from print_cpu_stall_info()
-2248f00687aa rcu: Remove rsp parameter from rcu_spawn_one_boost_kthread()
-b9fb55a7d93a rcu: Remove rsp parameter from dump_blkd_tasks() and friend
-695b2d33d878 rcu: Remove rsp parameter from rcu_print_detail_task_stall()
-ef57c5b04318 rcu: Remove rsp parameter from rcu_init_one() and friends
-a67b40deac39 rcu: Remove rsp parameter from rcu_boot_init_percpu_data() and friends
-36190e86be72 rcu: Remove rsp parameter from _rcu_barrier() and friends
-b12dbcbddd8b rcu: Remove rsp parameter from __rcu_pending()
-b073f9304440 rcu: Remove rsp parameter from __call_rcu() and friend
-8b54bee1fc7f rcu: Remove rsp parameter from __rcu_process_callbacks()
-fa5c44934f52 rcu: Remove rsp parameter from rcu_check_gp_start_stall()
-aa6dc9dfa6b9 rcu: Remove rsp parameter from force-quiescent-state functions
-b0f875c138a5 rcu: Remove rsp parameter from rcu_do_batch()
-8fc3471e648c rcu: Remove rsp parameter from CPU hotplug functions
-88e7d1ffb776 rcu: Remove rsp parameter from rcu_check_quiescent_state()
-595d50c50168 rcu: Remove rsp parameter from rcu_gp_kthread() and friends
-7e891308ad88 rcu: Remove rsp parameter from rcu_gp_slow()
-0baa62b6b241 rcu: Remove rsp parameter from note_gp_changes()
-8afd6ef49aaa rcu: Remove rsp parameter from __note_gp_changes()
-535bc6da0087 rcu: Remove rsp parameter from rcu_advance_cbs()
-952133be3e6f rcu: Remove rsp parameter from rcu_accelerate_cbs()
-75f32dc6e402 rcu: Remove rsp parameter from rcu_accelerate_cbs_unlocked()
-513ccff84d19 rcu: Remove rsp parameter from rcu_gp_kthread_wake()
-615ee50323b2 rcu: Remove rsp parameter from rcu_future_gp_cleanup()
-7b6a7c3676e4 rcu: Remove rsp parameter from check_cpu_stall()
-29810adbe10e rcu: Remove rsp parameter from print_cpu_stall()
-65991405f60c rcu: Remove rsp parameter from print_other_cpu_stall()
-df65081411e5 rcu: Remove rsp parameter from rcu_stall_kick_kthreads()
-9ff199e098bb rcu: Remove rsp parameter from rcu_dump_cpu_stacks()
-b823c284bab5 rcu: Remove rsp parameter from rcu_check_gp_kthread_starvation()
-a223dfc56f59 rcu: Remove rsp parameter from record_gp_stall_check_time()
-74f791a6c6a1 rcu: Remove rsp parameter from rcu_get_root()
-ed6b6f0f1e8f rcu: Remove rsp parameter from rcu_gp_in_progress()
-800056578b24 rcu: Remove rsp parameter from rcu_report_qs_rdp()
-68862b6de968 rcu: Remove rsp parameter from rcu_report_unblock_qs_rnp()
-7171a5cc599d rcu: Remove rsp parameter from rcu_report_qs_rsp()
-62b3ec3bec92 rcu: Remove rsp parameter from rcu_report_qs_rnp()
-547568e36885 rcu: Remove rcu_data_p pointer to default rcu_data structure
-57861ff01461 rcu: Remove rcu_state_p pointer to default rcu_state structure
-95f5f7a1455c rcu: Remove rcu_state structure's ->rda field
-04c051873477 rcu: Eliminate rcu_state structure's ->call field
-56203d692b83 rcu: Remove RCU_STATE_INITIALIZER()
-d5b25100e09f rcu: Express Tiny RCU updates in terms of RCU rather than RCU-sched
-6d4021b0d778 rcu: Define RCU-sched API in terms of RCU for Tree RCU PREEMPT builds
-306f24cb24e0 Revert "rcu: Make need_resched() respond to urgent RCU-QS needs"
-d3c8c2d85026 rcu: Fix typo in rcu_get_gp_kthreads_prio() header comment
-a269177406e1 rcu: Drop "wake" parameter from rcu_report_exp_rdp()
-69067a0a19bf rcu: Update comments and help text for no more RCU-bh updaters
-9ee56ffb3494 rcu: Define RCU-bh update API in terms of RCU
-7635fde8d26a rcu: Report expedited grace periods at context-switch time
-6edc01ba6ca5 rcu: Apply RCU-bh QSes to RCU-sched and RCU-preempt when safe
-b3e4ea2e96ec rcu: Add warning to detect half-interrupts
-dd7d092da6fd rcu: Remove now-unused ->b.exp_need_qs field from the rcu_special union
-847ff0314b1f rcu: Allow processing deferred QSes for exiting RCU-preempt readers
-55ed127bf1e4 rcutorture: Test extended "rcu" read-side critical sections
-b566b172bf70 rcu: Defer reporting RCU-preempt quiescent states when disabled
-88474ef428d1 rcu: Refactor rcu_{nmi,irq}_{enter,exit}()
-cbc7abf66dd1 rcutorture: Maintain self-propagating CB only during forward-progress test
-7dbab460cb12 rcutorture: Check GP completion at stutter end
-d20d88e8dca8 rcutorture: Print forward-progress test interval on error
-b61bf666c4d0 rcutorture: Adjust number of reader kthreads per CPU-hotplug operations
-c09925cdab46 rcutorture: Reduce priority of forward-progress testing
-18e8da111eec rcutorture: Limit reader duration if irq or bh disabled
-807b0cda705a rcutorture: Increase rcu_read_delay() longdelay_ms
-05a536215241 rcutorture: Add self-propagating callback to forward-progress testing
-24bb79bae593 rcutorture: Vary forward-progress test interval
-f51a702646e0 rcutorture: Avoid no-test complaint if too few forward-progress tries
-c77ca325a5f2 rcutorture: Also use GP sequence to judge forward progress
-8ab4ed688a67 rcutorture: Add forward-progress tests for RCU grace periods
-e2a07afae3f8 rcuperf: Warn on bad perf type for built-in tests
-8646eafe1083 rcutorture: Warn on bad torture type for built-in tests
-dc36b7508b31 rcutorture: Force occasional reader waits
-ad1976c852cb sched/swait: Switch to full exclusive mode
-446dac2574d5 sched/swait: Remove __prepare_to_swait
-d9d1ec704ecf PM / s2idle: Make s2idle_wait_head swait based
-778dd51d5c71 sched/core: Optimize update_stats_*()
-60263ca2a268 sched/core: Optimize ttwu_stat()
-ed18abb810f3 sched/deadline: Don't use dubious signed bitfields
-864ff22f072e sched/deadline: Use C bitfields for the state flags
-ef71a310300e sched/deadline: Fix missing clock update
-0af2d3318c67 sched/idle: Micro-optimize the idle loop
-4c65a73044cf sched/idle: Move quiet_vmstate() into the NOHZ code
-024bba22340a idle: Prevent late-arriving interrupts from disrupting offline
-d2df0e6a5e80 sched/wait: assert the wait_queue_head lock is held in __wake_up_common
-ce924c582140 sched/debug: Fix potential deadlock when writing to sched_features
-6933c3a86dac sched/debug: Use match_string() helper instead of open-coded logic
-cb738e054c0f sched/autogroup: move sched.h include
-890634ee1fdd sched/autogroup: remove unneeded kallsyms include
-5f0c4fdadc18 sched/fair: Remove unused 'curr' parameter from wakeup_gran
-ffed2474716f sched/clock, sched/cputime: Use lockdep to assert IRQs are disabled/enabled
-fd8e43adecbd Revert "ion: Add pm_ops for msm_ion driver"
-39596740f430 Revert "ion: Add hibernation support for secure carveout heap"
-b1e88156c225 Revert "ion: Add hibernation support for secure cma heap"
-4d1c244aa03b Revert "ion: Add hibernation support for system secure heap"
-0117d373f0e1 Revert "ion: msm_ion: Add freeze_late and restore_early callbacks"
-1cd1145dfbc3 Revert "msm: kgsl: Add support to make use of iommu_unmap_fast"
-ab3b9272ee68 Revert "msm: kgsl: Remove ADRENO_DEVICE_HARD_RESET flag"
-80b2aeccbcff Revert "msm: kgsl: Improve rGMU firmware loading time"
-459cd66f351f Revert "msm: kgsl: Update the sequence to resume stalled SMMU"
-d7c0a541f36a lib: Kconfig.debug: Remove debug dependency from SCHED_STACK_END_CHECK
-5ecfcb4332cc Revert "mm/slab_common: Align all caches' objects to hardware cachelines"
-6e2be5642bdf [FIXUP] cdb3af274943 ("drm/atomic: Boost CPU and DDR bus when committing a new frame")
-02010f5a3c22 defconfig: tweak input boost
-6f81f092ffcf mmc: disable SPI CRC
-441c04a8e88b sched/debug: Make sysrq prints of sched debug data optional
-dde129cd6afd Revert "msm: kgsl: Increase worker thread priority"
-33986083b0e0 msm: adreno_ringbuffer: Don't use link-on-stack
-
-   * packages/apps/Settings/
-718358de7b Settings Icons: add VPN icon
-6b0c1b8310 Revert "Settings: Add drawable for Private DNS"
-
-   * vendor/aosip/
-c3e68c7 vendor: Move dimen overlays to overlay vendor [1/2]
-
-====================
-     01-31-2020
-====================
-
-
-   * frameworks/base/
-9b4de0ba0fd base: Whitelist more permissions needed for SystemUIGoogle
-b4a41161ae3 Updates to various icons
-eaea6b91159 Partial screenshot: Layout improvements
-e0ea7858c5e PowerMenu: Fix items not tinting correctly in landscape
-185d52c1a6a Updates to "Context-aware Bluetooth airplane mode"
-a9f47f31fa0 Bluetooth: Fix BT stability issues
-b2965e2ba80 Revert "Move BT state to OFF when BLE app count is zero"
-99f507b0342 Revert "Crash occured due to null pointer exception."
-682eaf758ef SystemUI: Fix minute digits for accent based lockscreen clock style
-a64d0d0f1ea ScreenshotHelper: ignore timeout when taking partial screenshots
-6f1d9b9eb8c SystemUI: implement better partial screenshot
-c0bdf3c68f9 Revert "base: refine partial screenshot handling"
-a4f82e907dc Revert "Partial screenshot: allow BACK action only from right side"
-c395a0b852d SystemUI: tiles: Migrate to new screenshot method with Longshot support
-f3c3238f389 base: Port extended screenshot function from OOS
-de838793154 Revert "Revert "KeyguardSliceView: adjust placement when Type clock is in use""
-b599013c26b base: Add Fira Sans font [1/2]
-caef447a0ae base: Add Samsung One font [1/2]
-0a1700a5f4e qs footer: Tint build info as secondary text
-37cf061c88a Toasts: Use a snackbar-like animation
-28de51cba15 Avoid system reboot while invalidate LegacyGlobalAction
-fb49f36670e SystemUI: Bring back ic_qs_bluetooth_connected.xml
-9c446fd4052 FrameworkBase: Fix NullPointerException of AMS
-b886afbc0f9 Set the Network Specifier on Emergency SUPL
-722469b5c18 Fix to handle duplicate call id for conference call
-f38d8e433f5 Consolidate ActivityStack#finishCurrentActivityLocked checking
-bedbbaf753c Add Network Preference Bitmaps (1/2)
-419bcbc0de4 Fix DerpFest Logo from remaining active when notifications arrive
-2be7b8a192f fwb: cLock: Add a user toggle to show/hide status area [1/2]. Other part is in ThemePicker
-81afa6f5735 Volume panel: Adjust the left padding
-7d03243300b Volume panel: avoid multiple animations on touch spam
-8dc8ad66242 Fix StorageManagerService linkToDeath more than one time when vold/storaged died.
-659ce6490b0 SystemUI: Adjust powermenu and qs customizer background
-57b6d9e1a57 TypeClockController: Set shouldShowStatusArea to true
-cc23a5f388e SystemUI: Use color accent for user avatar default color
-635adb18772 base: Status bar notification ticker [1/2]
-322a1ffbe33 base: Add NotificationColorUtil back
-ab90b0306a3 DozeSensors: do not use binned brightness sensor for proximity if not supported
-2975f1aba50 Revert "base: Remove aosp accents"
-
-   * packages/apps/OpenDelta/
-c413c13 OpenDelta: Let the logo follow accent color
-
-   * packages/apps/Settings/
-b2b4db484e Settings: Fix string for system summary
-6e2b50641e Settings: Fix charging sounds string
-3938e85976 Settings: Use an xml property for maintainer string * No need to use a build.prop for this and overlaying from DT will be easier for maintainers this way * A partial revert of aa95452a54
-
-   * vendor/aosip/
-a87011e vendor: Update package name of Longshot
-7b199b8 vendor: Fix privileged permission for Longshot
-
-   * vendor/prebuilts/
-8866d5e prebuilts: Update libhoko_blur.so
-f736af4 prebuilts: Improve Lawnchair build config
-b774138 prebuilts: Update Longshot
-23b056a prebuilts: Import modded Longshot app
-d23f753 prebuilts: Add Lawnfeed 2.1-2598
-
-   * vendor/xiaomi/davinci/
-91f5383 Fix camera
-
-====================
-     01-30-2020
+     02-19-2020
 ====================
 
 
    * device/aosip/sepolicy/
-3b5bd70 sepolicy: Label ro.telephony.use_old_mnc_mcc_format
-e97e918 Allow Snap cam access for gpu service
-99e383c sepolicy: Adress apexd denial
+39844f8 aosip: common: add rules for RGB/HSL accentpicker
 
-   * kernel/xiaomi/davinci/
-cc2f15d78454 Merge tag 4.14.169 into VantomKernel
-9d627bd4fd6e arm64: crypto: add NEON accelerated XOR implementation
-629ea574a891 random: optimize add_interrupt_randomness
-22f81e1218f2 block: optimize bvec iteration in bvec_iter_advance
-24a6337649d8 block: remove bio_rewind_iter()
-fdc8b68edfd3 block: bounce: don't access bio->bi_io_vec in copy_to_high_bio_irq
-0b4d47003767 lib/string: Add strscpy_pad() function
-bd94b70b6683 lib/string.c: allow searching for NUL with strnchr
-eeb584e7e662 strscpy: reject buffer sizes larger than INT_MAX
-096ff6302dd1 lib/string: Make memzero_explicit() inline instead of external
-dd2d03a62351 alarmtimer: Add ndelay for tight loop
-e81b6fc6b1c5 ipa_v3: Mitigate usleep_range calls
-fca38922ed5c msm_serial_hs: make the Bluetooth tty thread RT
-69c29c15c217 Make msm_serial_hs RT to improve Bluetooth performance
-d3cea98fa7ef power: process: decrease time to enter sleep
-5c405f6f6617 msm: kgsl: increase GMU_IDLE_TIMEOUT slightly
-70602c6b9345 fork: queue mmput_async to a highpri workqueue
-7a8c3f275295 kgsl_pwrscale: prevent userspace from changing minfreq
-6d579679fa65 cpufreq: schedutil: remove tracing from sugov_update_commit
-9fa690a2a016 Linux 4.14.169
-94868d28db84 net/x25: fix nonblocking connect
-f3439dd7ee86 netfilter: ipset: use bitmap infrastructure completely
-8f715caa52ea bitmap: Add bitmap_alloc(), bitmap_zalloc() and bitmap_free()
-e9a80d43d9b5 md: Avoid namespace collision with bitmap API
-20c0aa965935 scsi: iscsi: Avoid potential deadlock in iscsi_if_rx func
-bef0dc84c65d media: v4l2-ioctl.c: zero reserved fields for S/TRY_FMT
-5cdd9e0e7ee9 libertas: Fix two buffer overflows at parsing bss descriptor
-308856261df4 coresight: tmc-etf: Do not call smp_processor_id from preemptible
-a4681849419e coresight: etb10: Do not call smp_processor_id from preemptible
-3e0151deb287 sd: Fix REQ_OP_ZONE_REPORT completion handling
-778de9db9ec2 do_last(): fetch directory ->i_mode and ->i_uid before it's too late
-09efdaaca8c6 tracing: xen: Ordered comparison of function pointers
-1ff739768a3d scsi: RDMA/isert: Fix a recently introduced regression related to logout
-788a56f89075 hwmon: (nct7802) Fix voltage limits to wrong registers
-59b27a9f7ee3 Input: sun4i-ts - add a check for devm_thermal_zone_of_sensor_register
-f4c64034ef35 Input: pegasus_notetaker - fix endpoint sanity check
-c2764d4449e8 Input: aiptek - fix endpoint sanity check
-e11d045f564d Input: gtco - fix endpoint sanity check
-0411b242274f Input: sur40 - fix interface sanity checks
-1130377fb5a8 Input: pm8xxx-vib - fix handling of separate enable register
-c57b0f88fce8 Documentation: Document arm64 kpti control
-da6b467e1129 mmc: sdhci: fix minimum clock rate for v3 controller
-dd5d5e77f725 mmc: tegra: fix SDR50 tuning override
-bb4768b0583e ARM: 8950/1: ftrace/recordmcount: filter relocation types
-ac390c982915 Revert "Input: synaptics-rmi4 - don't increment rmiaddr for SMBus transfers"
-68c538b4a1cb Input: keyspan-remote - fix control-message timeouts
-0a36cb84e2f4 hwmon: (core) Do not use device managed functions for memory allocations
-ffea8daac4c5 hwmon: (core) Fix double-free in __hwmon_device_register()
-4c7b99b4c03b hwmon: Deal with errors from the thermal subsystem
-6090ac18fcc5 hwmon: (adt7475) Make volt2reg return same reg as reg2volt input
-e841252840c4 net: rtnetlink: validate IFLA_MTU attribute in rtnl_create_link()
-7e70784f1702 tcp_bbr: improve arithmetic division in bbr_update_bw()
-d6502fc29846 net: usb: lan78xx: Add .ndo_features_check
-c5fd8a37e971 net-sysfs: Fix reference count leak
-8aca069fb05e net-sysfs: Call dev_hold always in rx_queue_add_kobject
-8ba773a2866a net-sysfs: Call dev_hold always in netdev_queue_add_kobject
-5f36336849ed net-sysfs: fix netdev_queue_add_kobject() breakage
-7ac7cc5e7844 net-sysfs: Fix reference count leak in rx|netdev_queue_add_kobject
-24ac271a627f net_sched: fix datalen for ematch
-426d5d62459d net, ip_tunnel: fix namespaces move
-1cc40dfad03c net, ip6_tunnel: fix namespaces move
-4f26a3a8f999 net: cxgb3_main: Add CAP_NET_ADMIN check to CHELSIO_GET_MEM
-8dbd5ab8ff84 ipv6: sr: remove SKB_GSO_IPXIP6 on End.D* actions
-4f0996db42de gtp: make sure only SOCK_DGRAM UDP sockets are accepted
-70a985445d62 firestream: fix memory leaks
-c39c4e911694 can, slip: Protect tty->disc_data in write_wakeup and close with RCU
-e8f8b2da205b ANDROID: davinci: Enable CRYPTO_DRBG_HASH, CRYPTO_DRBG_CTR
-177fda19b369 arm64: configs: davinci: Enable FQ_CODEL and PIE
-dfe4f13cd366 ANDROID: davinci: enable CONFIG_NET_SCH_NETEM=y
-cdd94871e48a defconfig: enable Clang stack initialization
-9d18d16e6058 UPSTREAM: bpf: relax inode permission check for retrieving bpf program
-35e1f0a0de79 UPSTREAM: net-ipv6-ndisc: add support for RFC7710 RA Captive Portal Identifier
-336a8ca54350 BACKPORT: fix "netfilter: xt_bpf: Fix XT_BPF_MODE_FD_PINNED mode of 'xt_bpf_info_v1'"
-f15ca6ea4bf8 BACKPORT: security: Implement Clang's stack initialization
-f7edb1877850 BACKPORT: security: Create "kernel hardening" config area
-b863c823ec09 ANDROID: xfrm: remove in_compat_syscall() checks
-8e0f7293580e ANDROID: move up spin_unlock_bh() ahead of remove_proc_entry()
-d2b95edc282a ANDROID: fix up 9p filesystem due to CFI non-upstream patches
-3135c81d7d0c ANDROID: sched: Disallow WALT with CFS bandwidth control
-781ed8eac607 ANDROID: fiq_debugger: remove
-19c6747de329 ANDROID: overlayfs: fix printk format
-e24ec5672202 Revert "CHROMIUM: dm: boot time specification of dm="
-525ca4ae7ae8 Revert "ANDROID: dm: do_mounts_dm: Rebase on top of 4.9"
-26992bfab1d0 Revert "ANDROID: dm: do_mounts_dm: fix dm_substitute_devices()"
-9df478a93479 Revert "ANDROID: dm: do_mounts_dm: Update init/do_mounts_dm.c to the latest ChromiumOS version."
-5b85988dc175 qcacld-3.0: reduce battery drain
-0df24e8dc2d2 qcacld: Update Wlan_hdd_cfg.h
-afbead36d8ec qcacld: Update wlan_hdd_cfg.h
-bdec821d8875 qcacld-3.0: Add secondary interface using gEnableConcurrentSTA=wlan1
-8900d7ee5157 qcacld: Update wlan_hdd_cfg.h
-0d4504426f95 qcacld: add wlan_hdd_cfg.h
-fc766c5744d0 qcacld: read config file from wlan_hdd_cfg.h
+   * frameworks/base/
+34a11098b2b Refine battery saver footer string
+47c3cf5d5a6 Fix black image wallpaper issue
+2e14a29a60c fonts: adopt for AOSP Font Engine
+0feaf826695 SystemUI: Custom Text Clock Customizations [1/2]
+13728e1721a Improve Lockscreen CustomTextClock Style
+83773fb69b5 Lockscreen Clock Styles: Introduce Q style text clock [1/2]
+b9045442491 Process: Use audio-app cpuset if available
+b265ea833de Update issue templates
+541683b3789 Settings: Add FOD icon picker settings values to backup
+dcb7b81c6ce base: Introduce RGB accenter [1/2]
+64933a3cb46 Use non-wakeup alarm for delay constraint.
+5559452c98f SettingsLib: mutate drawable before tinting for buildBtRainbowDrawable
+15b3f4eaf83 Keyguard: ReInflate views when density or font scale change
+dcc81ca697c base: Use ro.build.date to clear cache dirs on update
+e4a090135eb SettingsLib: Don't show system overlays on apps list
+dab1184e97d Revert "SettingsLib: Don't show system overlays on apps list"
+53973c6c40e fwb: Remove old method for enabling setupwizard overlay
 
    * packages/apps/DerpQuest/
-d5996a8 Revert "Edge Light: Hide category if Ambient wake gestures are unavailable."
+1cd384be DerpQuest: Update Russian translation
 
    * packages/apps/Settings/
-c0cd6c8a12 SearchBar: Add avatar to search bar
-aa95452a54 Settings: Add simple maintainer string
-047567879a Revert "Make fingerprint illustrations single color"
-be84d614ef Settings: No need of extra effort
-979b32d5ed Optimize NetworkScan for only User-Enabled RANs (2/2)
-ca8afedd00 Settings: remove unneeded collapse limits II
-f852c22f86 Settings: remove unneeded collapse limits
-c620b4db85 Comment out double options that were under accessibility
-fd5e6a2801 Add back arrow to Desktop backup password
-2009346889 Show a warning dialog before network search
+09c84d338d Settings: Move RGB accent picker to DerpQuest [1/2]
+81b732b257 Introduce RGB accenter [2/2]
 
-   * system/core/
-dcf3bd389 Tweak /init to never expose verifiedbootstate=orange
-ee1b2f17b Filter GalleryDatab*
-092ff9c44 Silence spammy logs from camera blobs (AEC_PORT and mm-camera)
-70ee4064e init: ro.build.selinux should be 0
-3fc46c290 init: add several more keys to spoof
-2b5c410d5 init: workaround SafetyNet check
-9a66baf80 init: Weaken property override security for the init extension
-aff3b4a13 Set /sys/power/wake_lock permissions on init.
-9db0ebbec init: only provide control message results for devices launching > Q
-1ecd56570 Ignore class_{reset|start}_post_data on non-updatable APEX.
-2e9045389 Reland^2: "init: run property service in a thread"
-39a4b6530 init: add error handling in control message
-b5c3b8a33 init: simplify async restorecon
-a02a862ad init: handle getpeercon() errors
-86ebc2f12 init: set up SelinuxAuditCallback() earlier
+   * packages/apps/ThemePicker/
+bf2b566 ThemePicker: Preview Light and Dark mode in Primary screen
+11dbaf1 ThemeFragment: Don't hide preview on white Accents or primarys
+9f5aded Revert "ThemePicker: Remove accent color step"
+
+   * vendor/gapps/
+0a8d88d gapps: Remove TipsPrebuilt
 
    * vendor/pixelstyle/
-b725208 pixelstyle: fonts: Add Fira Sans font [2/2]
-d7fb160 pixelstyle: fonts: Add Samsung One font [2/2]
-d0a1419 pixelstyle: fonts: Update GoogleSans
-
-   * vendor/xiaomi/davinci/
-add6b6f Add missing blobs
-d7570c1 11.0.4.0
+023e92a pixelstyle: Remove SafetyHubPrebuilt
 
 ====================
-     01-29-2020
+     02-18-2020
+====================
+
+
+   * packages/apps/DerpQuest/
+d0f4a7e4 DerpQuest: Add French translation
+038161e8 DerpQuest: Custom Text Clock Customizations [2/2]
+
+====================
+     02-17-2020
+====================
+
+
+====================
+     02-16-2020
 ====================
 
 
    * build/make/
-9e965486d build: Allow supplying a prebuilt recovery ramdisk cpio
-bf8b1292f build: Build Gapps and AOSP apps conditionally [2/2]
+4a8f36cad Make allmod() and pathmod() py3 compatible
+5aaf1c101 releasetools: Use the first entry of a mount point when reading fstab
+7c341178b releasetools: Add script to sign zips
+0b9a1cd89 releasetools: support reading release keys out of some sort of command
+
+   * device/qcom/sepolicy-legacy-um/
+786d76c1 Merge branch 'ten-legacy-um' of https://github.com/AOSiP/device_qcom_sepolicy into ten-legacy-um
+
+   * frameworks/base/
+5517be5b6dc Fix nav bar leak in SystemUI
+3af58e92462 RingtoneManager: Don't crash if the ringtone doesn't have a numerical ID
+be4ce7eb046 ProgressBar: Media volume bar indicates a wrong value
+67fc8a0a14f SystemUI: Disable/Enable screenshot sound [1/2]
+121e6c2d138 Revert "[1/2] base: allow disable of screenshot shutter sound"
+78491de5ab4 Merge pull request #44 from DarkDampSquib/ten
+
+   * hardware/aosip/interfaces/
+2d3dbcb aw2013: Fix typo in condition line
 
    * manifest/
-ff7d128 manifest: track system/hardware/interfaces
+331600a Initial tracking for DerpFest
+aceaa0e manifest: track a couple more repos from lineage
 
    * packages/apps/DerpQuest/
-f852b3e DerpQuest: Search Index: Make sure our features show up under Settings search.
-daf2ed5 DerpQuest: Update Settings icons: new layout and size. * 24x24 -> 36x36 Icons created by @RogerdotT
-0d0fb6d DerpQuest: Status bar notification ticker [2/2]
-856ee30 Running services icon toggle [2/2]
-a96a360 DerpQuest: Introduce Adjustable Blur Intensity [2/2]
-fb20615 DerpQuest: Allow controlling QS blur alpha [2/2]
-3d30288 DerpQuest: Make gentle notifications header toggleable [2/2]
+4bc33b91 DerpQuest: Move RGB accent picker to DerpQuest [2/2]
+14936911 Update complete Chinese Translations
+72cc02b2 Merge pull request #27 from DarkDampSquib/ten
 
    * packages/apps/Settings/
-1239247db8 Settings: Fix NullPointerException in BatteryUtils
-7d47df2914 Settings: Fix usage of ChooseLockSettingsHelper
-52ee708936 Revert "Settings: Remove GPlay version entry"
+a3d3b34df8 Settings: Fix QRCamera crash
+fd552ba252 Bug:PreferredNetworkModePreferenceController.java not being refreshed
+cff996d653 Settings: Disable/Enable screenshot sound [2/2]
+bb174864ac Revert "[2/2] Settings: allow disable of screenshot shutter sound"
+5479c72ffd Screensaver: Tint button to match system theme
+24f64d54ba Settings: Add support to open device maintainer's telegram * Do this by overlaying on top of <string name="maintainer_telegram"> in aosip_strings.xml
 
    * packages/apps/ThemePicker/
-d2ef763 ThemePicker: cLock: Add a user toggle to show/hide status area [2/2]. Other part is in fw/b
+d74b757 ThemePicker: Remove accent color step * We have an RGB picker now
 
-   * system/hardware/interfaces/
-e8ba14b system_suspend: start early
+   * packages/services/Telecomm/
+d623ee70 Telecomm: Phone ringtone setting for Multi SIM device [3/3]
+96a35fb7 Added features flash-call-on-waiting [2/3]
+035e804e Use double vibration on call hang-up
+7a364dc0 Add back increasing ring feature (1/3).
+98f76e50 Incall vibration options [2/3]
+7d534b65 Telecomm: Change font on some parts
+
+   * packages/services/Telephony/
+bb0f328b5 Font improvements
+5f5318aca Grant START_ACTIVITIES_FROM_BACKGROUND
+2461e2127 LteTile: Fix network modes for 10
+074934e09 ToggleLte: Add missed LTE modes
+0a5912d38 ToggleLte: fix WCDMA only
+0e7fd5dc3 ToggleLte: multisim compatibility
+d90dd5dbc Restore previous network value after toggleLTE
+8a718be7f Implement toggleLte
+
+   * system/sepolicy/
+d9e3e63a sepolicy: Address denials for legacy last_kmsg file
+3c8a2e1f Allow init to write to /proc/cpu/alignment
+649bd316 sepolicy: Treat proc-based DT fstab the same and sys-based
+337c939f Fix storaged access to /sys/block/mmcblk0/stat after 48027a00
+b7ec4036 file_contexts: Include legacy /system/vendor paths
 
    * vendor/aosip/
-93ef36b vendor: overlays: Import QS Color overlay from POSP
-5bed9e6 Revert "Revert "kernel: Fix specifying custom clang compiler version""
+1df7d1c vendor: Define isStatic argument on setupwizard overlay
+514bb8f kernel: allow devices to use newer GCC
+3f81358 kernel: remove x86 target support
+9443edc prebuilt: backuptool: Drop addond version check on A-only
+
+   * vendor/overlay/
+79ddc8b Live captions: Have it follow system accent / fix up navbar
+37157e1 overlay: add EmptyOverlay
+afa7149 overlay: remove left over wallpaper after name change
+d2d604a overlay: open sdcard root when launching DocumentsUI
+
+   * vendor/qcom/opensource/interfaces/
+71518d8 Merge pull request #1 from op5-q/ten
+
+====================
+     02-15-2020
+====================
+
+
+   * frameworks/base/
+acc7a7ffba1 SystemUI: Add some Derp FOD icons [1/2]
+12b1a7fbac7 SystemUI: Add PureView recognizing FP animations [1/2]
+5877f858b43 Add OP Recognizing FP animations [1/2]
+
+   * packages/apps/DerpQuest/
+5f230e5a DerpQuest: Add some Derp FOD icons [2/2]
+5041932d DerpQuest: Add PureView recognizing FP animations [2/2]
+7af69e2f DerpQuest: Add OP Recognizing FP animations [2/2]
+
+   * vendor/aosip/
+8b81780 vendor: version: Allow adding a timestamp to all build kinds by running
+
+====================
+     02-14-2020
+====================
+
+
