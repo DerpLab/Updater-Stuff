@@ -1,40 +1,18 @@
-ROM
-- Merged February Security patch (r27)
-- Improved extended Screenshot implementation
-- Improved partial Screenshot implementation
-- Fixed overlapping of notifications and added AOD support for theme picker clocks
-- Added Custom color option for lockscreen battery bar
-- Added Custom charging info fonts
-- Added System fonts from Bootleggers
-- Added Tinkerbell system font
-- Reworked Edge lighting options with latest Omni changes
-- Added Option for limiting edge lighting repeats
-- Added Option to pulse edge light for all doze triggers
-- Improved Lockscreen clock style options
-- Added Lockscreen date styles from Pie
-- ThemePicker: Show items name under the title
-- Fixed theming of Settings with primary color
-- Added Solarized Dark Primary color
-- Added old theming options additionally back to display settings
-- Added 4 new Custom Header images by Owlien
-- Improved theming capabilities in power detail pages
-- Reworked Reboot/Recovery QS Tile and added Power off
-- Workaround for header shadow and tinted header images
-- Improved DerpFest default status bar icon drawable
-- Ensured that Network traffic monitor come first in header view
-- Changed source set battery bar visability on runtime
-- Lowered the internal audio capture restriction
-- Added Pixel offline charger animation
-- Improved Google's EnhancedEstimates implementation
-- Updated raw animations and drawables from Pixel 4 XL
-- Reverted recent Bluetooth changes
-- Updated priv-app permissions
-- Updated German translations
-- Added Chinese translations
-- Some more things maybe I can't remember more :P
+ROM:
+- Added Screen Stabilization QS tile with menu
+- Added Custom Text Clock customizations to Lockscreen clock styles
+- Added Anaheim font
+- Fonts are now applied to more elements
+- Added option to block IME space for back gesture
+- Added RGB accenter
+- Added Customizable FOD Icons, scanlight, and Animations
+- Fixed Lawnchair crash on boot
+- Live captions: Have it follow system accent / fix up navbar
+- Don't hide preview on white Accents or primarys
+- Preview Light and Dark mode in Primary screen
+- Removed SafetyHub and Pixeltips prebuilt
+- Fixed screenshot sound switch
+- Some more fixes under the hood
 
-DEVICE:
-non-gapps build not include gcam now
-
-KERNEL:
-use back to PE kernel
+Vendor:
+Update to Q blobs
