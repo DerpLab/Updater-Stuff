@@ -1,4 +1,17 @@
 ====================
+     02-21-2020
+====================
+
+ • violet: rootdir: Import tunables/cpusets from coral
+ • violet: Import SchedTune tuning from b4s4
+ • violet: rootdir: Stop configuring read ahead from post_boot
+ • violet: Update the build fingerprint from Feb patch
+ • violet: Added config_ignoreRssnrSignalLevel
+ • violet: Enable call recording On AOSP Dialler
+ • violet: overlay: Enable VoLTE/VoWIFI for Digi Malaysia
+ • violet: overlay: Show DocumentsUI internal storage by default
+
+====================
      01-22-2020
 ====================
 
