@@ -1,18 +1,7 @@
-ROM:
-- Added Screen Stabilization QS tile with menu
-- Added Custom Text Clock customizations to Lockscreen clock styles
-- Added Anaheim font
-- Fonts are now applied to more elements
-- Added option to block IME space for back gesture
-- Added RGB accenter
-- Added Customizable FOD Icons, scanlight, and Animations
-- Fixed Lawnchair crash on boot
-- Live captions: Have it follow system accent / fix up navbar
-- Don't hide preview on white Accents or primarys
-- Preview Light and Dark mode in Primary screen
-- Removed SafetyHub and Pixeltips prebuilt
-- Fixed screenshot sound switch
-- Some more fixes under the hood
+DEVICE:
+- Fix automatic brightness
+- Fix Mobile Data FC
+- Remove prebuilt gcam
 
-Vendor:
-Update to Q blobs
+Kernel:
+- Use Revolution Kernel v8
