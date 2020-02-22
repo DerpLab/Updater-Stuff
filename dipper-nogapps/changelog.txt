@@ -1,40 +1,54 @@
-ROM
-- Merged February Security patch (r27)
-- Improved extended Screenshot implementation
-- Improved partial Screenshot implementation
-- Fixed overlapping of notifications and added AOD support for theme picker clocks
-- Added Custom color option for lockscreen battery bar
-- Added Custom charging info fonts
-- Added System fonts from Bootleggers
-- Added Tinkerbell system font
-- Reworked Edge lighting options with latest Omni changes
-- Added Option for limiting edge lighting repeats
-- Added Option to pulse edge light for all doze triggers
-- Improved Lockscreen clock style options
-- Added Lockscreen date styles from Pie
-- ThemePicker: Show items name under the title
-- Fixed theming of Settings with primary color
-- Added Solarized Dark Primary color
-- Added old theming options additionally back to display settings
-- Added 4 new Custom Header images by Owlien
-- Improved theming capabilities in power detail pages
-- Reworked Reboot/Recovery QS Tile and added Power off
-- Workaround for header shadow and tinted header images
-- Improved DerpFest default status bar icon drawable
-- Ensured that Network traffic monitor come first in header view
-- Changed source set battery bar visability on runtime
-- Lowered the internal audio capture restriction
-- Added Pixel offline charger animation
-- Improved Google's EnhancedEstimates implementation
-- Updated raw animations and drawables from Pixel 4 XL
-- Reverted recent Bluetooth changes
-- Updated priv-app permissions
-- Updated German translations
-- Added Chinese translations
-- Some more things maybe I can't remember more :P
-
 DEVICE:
-non-gapps build not include gcam now
+- Fix automatic brightness
+- Fix Mobile Data FC
+- Remove prebuilt gcam
 
-KERNEL:
-use back to PE kernel
+Kernel:
+- Use Revolution Kernel v8
+
+ROM:
+   * packages/apps/Settings/
+35566ededd Create aosip_strings.xml
+
+   * prebuilts/clang/host/linux-x86/
+d23c69af Update prebuilt Clang to r377782b.
+
+   * device/aosip/sepolicy/
+39844f8 aosip: common: add rules for RGB/HSL accentpicker
+
+   * frameworks/base/
+34a11098b2b Refine battery saver footer string
+47c3cf5d5a6 Fix black image wallpaper issue
+2e14a29a60c fonts: adopt for AOSP Font Engine
+0feaf826695 SystemUI: Custom Text Clock Customizations [1/2]
+13728e1721a Improve Lockscreen CustomTextClock Style
+83773fb69b5 Lockscreen Clock Styles: Introduce Q style text clock [1/2]
+b9045442491 Process: Use audio-app cpuset if available
+b265ea833de Update issue templates
+541683b3789 Settings: Add FOD icon picker settings values to backup
+dcb7b81c6ce base: Introduce RGB accenter [1/2]
+64933a3cb46 Use non-wakeup alarm for delay constraint.
+5559452c98f SettingsLib: mutate drawable before tinting for buildBtRainbowDrawable
+15b3f4eaf83 Keyguard: ReInflate views when density or font scale change
+dcc81ca697c base: Use ro.build.date to clear cache dirs on update
+e4a090135eb SettingsLib: Don't show system overlays on apps list
+dab1184e97d Revert "SettingsLib: Don't show system overlays on apps list"
+53973c6c40e fwb: Remove old method for enabling setupwizard overlay
+
+   * packages/apps/DerpQuest/
+1cd384be DerpQuest: Update Russian translation
+
+   * packages/apps/Settings/
+09c84d338d Settings: Move RGB accent picker to DerpQuest [1/2]
+81b732b257 Introduce RGB accenter [2/2]
+
+   * packages/apps/ThemePicker/
+bf2b566 ThemePicker: Preview Light and Dark mode in Primary screen
+11dbaf1 ThemeFragment: Don't hide preview on white Accents or primarys
+9f5aded Revert "ThemePicker: Remove accent color step"
+
+   * vendor/gapps/
+0a8d88d gapps: Remove TipsPrebuilt
+
+   * vendor/pixelstyle/
+023e92a pixelstyle: Remove SafetyHubPrebuilt
