@@ -1,138 +1,17 @@
-====================
-     02-16-2020
-====================
-
-
-====================
-     02-15-2020
-====================
-
-
-   * vendor/qcom/opensource/interfaces/
-71518d8 Merge pull request #1 from op5-q/ten
-
-====================
-     02-14-2020
-====================
-
-
-   * vendor/aosip/
-8b81780 vendor: version: Allow adding a timestamp to all build kinds by running
-
-====================
-     02-13-2020
-====================
-
-
-   * frameworks/base/
-e3f1922809c ScreenStabilization Tile: Settings Menu integrated in Tile itself(long click)
-c09b46ce7c7 Add ScreenStabilizationTile in QS
-40d76caa425 Make screen stabilization more responsive
-bf45db52fa2 Screen Stabiization [1/3]
-
-   * frameworks/native/
-9684a3750 Screen Stabilization [2/3]
-
-   * hardware/aosip/interfaces/
-972fb75 aw2013: Fix typo in condition line
-
-====================
-     02-12-2020
-====================
-
-
-   * frameworks/base/
-cf76e1fcd7b SystemUI: Add dynamic Immersive mode tile
-28ab8ece93e [1/2] SystemUI: dont block IME space for back gesture
-
-   * manifest/
-1c9bf48 Initial tracking for DerpFest
-
-   * packages/apps/Settings/
-b6ad259999 Settings: reword gesture block ime option
-b4d4986599 [2/2] Settings: dont block IME space for back gesture
-
-   * packages/services/Telecomm/
-1cdbff65 Merge tag 'LA.UM.8.3.r1-07200-sdm845.0' of https://source.codeaurora.org/quic/la/platform/packages/services/Telecomm into ten
-
-====================
-     02-11-2020
-====================
-
-
-   * frameworks/base/
-a69f6bd9301 FODCircleView: cleanup FOD customization techniques
-109ac603915 base: Add Anaheim [1/2]
-10220a45e14 base: SystemUI: use system fonts
-cc386c220de base: Grant storage permission to Lawnchair
-
-   * packages/apps/Contacts/
-fd051b201 Don't hardcode no contacts text color.
-
-   * packages/apps/DerpQuest/
-52377e5 DerpQuest: Reorganize and Categorize notification settings
-4da8dab DerpQuest: Reorganize and Categorize QS settings
-30bc412 DerpQuest: Move ambient light settings to their own fragment
-c0fda21 DerpQuest: Move flash on-call settings to their own fragment
-9d51833 DerpQuest: Move in-call vibration settings to their own fragment * And some code fixups
-0b48ed6 DerpQuest: Move charging info settings to their own fragment * Prevent FOD settings from showing on all devices * Orginize a bit
-a7cdea2 DerpQuest: Move LS Visualizer settings to their own fragment
-c5121a6 DerpQuest: Move LS Album Art settings to their own fragment
-43fe3af DerpQuest: Move Battery Bar settings to their own fragment * and some code fixups, string changes and comments
-61c65ea DerpQuest: LockScreenSettings: Add to search index
-5e0bf05 DerpQuest: Move Custom Header image setting to their own fragment
-2e950ad DerpQuest: Move QS Header settings to their own fragment
-a8324ba DerpQuest: Move QS Footer settings to their own fragment
-6e562e5 DerpQuest: Move Brightness Slider settings to their own fragment
-de43897 DerpQuest: Move QS Tiles settings to their own fragment
-16b32d2 DerpQuest: Move QS Color settings to their own fragment
-8b79751 DerpQuest: Move QS Blur settings to their own fragment * and some code fixups
-56c7180 DerpQuest: Move ticker settings to their own fragment
-4434823 DerpQuest: Move StatusBar battery settings to their own fragment
-aeefde6 DerpQuest: Convert StatusBar logo to a MasterSwitch
-95e6748 DerpQuest: Move date settings to their own fragment
-2b01433 DerpQuest: Move clock settings to thier own fragment
-9700b34 DerpQuest: Move network traffic to its own preference screen
-33bccbc DerpQuest: Added Italian translation
-cdbeeea DerpQuest: Add complete Chinese translations
-
-   * vendor/aosip/
-afa740b vendor: version: Don't mark gapps builds zips
-
-   * vendor/pixelstyle/
-0fe71e1 pixelstyle: fonts: Add Anaheim [2/2]
-
-====================
-     02-10-2020
-====================
-
-
-   * build/make/
-4fbf6b88c Build VANILLA variant
-
-   * device/aosip/sepolicy/
-907829b sepolicy: Allow Snap to execute bcc
-
-   * frameworks/av/
-454b089fb Camera: Skip stream size check for whitelisted apps.
-92a53d5d2 cameraservice: move client_package_name to data/misc
-38989dc20 libcameraservice: add TARGET_CAMERA_NEEDS_CLIENT_INFO
-cab547a91 libstagefright: Fix memory leak due to lock timeout
-
-   * frameworks/base/
-8d184447630 Merge pull request #42 from DarkDampSquib/ten
-1ab0ff411ff SystemUI: Recognizing fingerprint animation picker [1/2]
-4c28aa6b058 FODCircleView: Recognizing fingerprint animation [1/2]
-bfea2dc3718 FODCircleView: only move in Y direction
-b376629f258 FODCircleView: disable touch detection on screen off
-b2145c9179d FODCircleView: Dont change alpha of fod on AOD
-61e33349156 FODCircleView: FOD pressed state [1/2]
-c0b2b0911e8 SystemUI: Add more FOD icons [1/2]
-fd43b2737cb SystemUI: FOD icon picker [1/2]
-0b4b8862ccc FODCircleView: Add MIUI FP icon
-c4bcc431947 FODCircleView: Patch screen flickering
-7f334dcfe56 Camera: Ignore torch status update for aux or compsite camera
-b13d9f2e910 Camera: Force HAL1 for predefined package list.
-1a3facd3b63 Camera: Squashed support for Aux camera {black,white}list feature
-7ef873cfab9 Revert "Camera: Expose Aux camera to apps present in the whitelist"
-
+- Thanks to @letsmakecakes for their sources 
+- Upstream Tree
+- Upstream kernel
+- Added Screen Stabilization QS tile with menu
+- Added Custom Text Clock customizations to Lockscreen clock styles
+- Added Anaheim font
+- Fonts are now applied to more elements
+- Added option to block IME space for back gesture
+- Added RGB accenter
+- Added Customizable FOD Icons, scanlight, and Animations
+- Fixed Lawnchair crash on boot
+- Live captions: Have it follow system accent / fix up navbar
+- Don't hide preview on white Accents or primarys
+- Preview Light and Dark mode in Primary screen
+- Removed SafetyHub and Pixeltips prebuilt
+- Fixed screenshot sound switch
+- Some more fixes under the hood
