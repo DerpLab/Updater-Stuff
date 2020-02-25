@@ -1,0 +1,3 @@
+-Fixed App Loading Time
+-Kernel Side-Latest CAF Tag Merged "LA.UM.8.6.r1-03400-89xx.0"
+-Under The Hood Changes
