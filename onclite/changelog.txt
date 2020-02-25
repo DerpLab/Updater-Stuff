@@ -1,28 +1,33 @@
 Rom ChangeLogs :
-- Added Screen Stabilization QS tile with menu
-- Added Custom Text Clock customizations to Lockscreen clock styles
-- Added Anaheim font
-- Fonts are now applied to more elements
-- Added option to block IME space for back gesture
-- Added RGB accenter
-- Added Customizable FOD Icons, scanlight, and Animations
-- Fixed Lawnchair crash on boot
-- Live captions: Have it follow system accent / fix up navbar
-- Don't hide preview on white Accents or primarys
-- Preview Light and Dark mode in Primary screen
-- Removed SafetyHub and Pixeltips prebuilt
-- Fixed screenshot sound switch
-- Some more fixes under the hood
+- Added back gesture haptic feedback toggle
+- Improved QS detail view layout
+- Improved AOD QS tile (states and longclick added)
+- Reworked color options for Edge light
+- Added Force Expanded Notifications option
+- Refined battery saver footer string
+- Removed accent step from themepicker
+- Make resolver list layouts have round corners
+- Use colorPrimary for QS detail toolbar
+- Use MD2 icon for missed call notification
+- Don't disable GPS in Doze until the device is stationary
+- Fixed Carrier Label text overlap when notifications arrives
+- Made emergency notification dismissable
+- Fixed failed unlock attempt dialog button
+- Added Signature spoofing support
+- Fixed User edit info dialog during rotation
+- Added cpu set for audio app
+- Reapplied QC blkio cgroup support value adds using new task_profiles
+- Updated Chinese, German and Russian translations
+- Add French and Hindi translations
 
 Device ChangeLogs :
-- Kernel Upstream To 4.9.214
-- Adjust Swapiness
-- 4096MB dalvik Heap configuration
-- Implement memory optimization
-- Added some more surfaceflinger props
-- Enhance Workqueue power efficient
-- Set Display refresh rate To 60hz As Default
-- Enable ULPS suspend mode
-- Faster deep sleep
+- Allow all apps to use smart replies
+- Add Pocket Mode
+- Added Color Modes From coral
+- Enable volte on smartfren
+- Increase Zram size
+- Better RAM Management
+- Enable VoLTE & VoWIFI For Digi Malaysia 
+- Force Enable Mobile Network Settings v2
 - Some Improvement on Performance & Stability
 
