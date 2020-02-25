@@ -1,5 +1,6 @@
 Devicde Changelog:
 
+Using latest TWRP prebuilt.
 switched to userdebug build.
 Imroved OP Camera detection.  (Need to wipe cache > clear OP app data > Reboot, for dirty flash)
 Fixed HBM(High Brightness mode)
