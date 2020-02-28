@@ -1,269 +1,115 @@
-====================
-     01-17-2020
-====================
-
-- Initial Build (reboot)
-- Kernel Dark-Ages-Decimo
 
 ====================
-     01-16-2020
+     02-23-2020
 ====================
 
+- Kernel upstream
+- Source upstream
+- Revert to AOSP SurfaceFlinger
 
-   * bionic/
-ac99f1331 Merge pull request #1 from xdevs23/ten-changes/bionic-optimizations
-
-   * build/soong/
-addc9fa3 Merge pull request #3 from xdevs23/ten-changes/bionic-optimizations
-
-   * vendor/aosip/
-a7c5a4eb5 Correct fingerprint position during setup
-30fc7cdf9 repopick: fix --check-picked on Python 3
-f84f0418d repopick: Support    * paths detection on different branches
-5d544a335 extract_utils: Drop string after semicolon when parsing destination
-
-====================
-     01-15-2020
-====================
-
-
-   * bionic/
-f6ffe49e5 Remove unused files for kryo
-3b5a44fcb Fix memmove() with memcpy() optimization
-bdc1a6da1 libc: Add fortify support for kryo300 memcpy.
-4e06b3944 libc: Add fortify support for kryo memcpy.
-3fadd37d5 libc: kryo specific memory routine
-e689dfc64 libc: update symbol_ordering for new jemalloc
-2a40e724b libc: arm64: add strcpy/stpcpy from arm-optimized-routines
-344f708ab libc: Set __bionic_asm_align to 64 for arm and arm64
-aec55357d libc: arm64: add integer memcpy/memmove from arm-optimized-routines
-48c3ba05b aarch64: Increase small and medium cases for memcpy
-b879da6f9 Sync with upstream OpenBSD strstr().
-da22dd194 android_getaddrinfo_proxy: fix memory leak on failure.
-912ef9670 libm: add l(l)rint/l(l)round routines from musl
-83b63ea9a libm: sync with upstream FreeBSD.
-6389f744e linker: Speed up find_loaded_library_by_inode()
-b35606479 Use builtins for fma/fmax/fmin/nearbyint/rint/round/trunc on 32-bit ARM
-9fd4f9d00 Revert "Revert "arm64: Use builtin for nearbyintf/nearbyint""
-4d16399dc libc: add optimized ARM64 strrchr from newlib
-393f9d68a libc: import ARM strcmp from newlib
-ee825595f libc: arm: Optimise memchr for NEON-enabled processors
-
-   * build/soong/
-0fb6aca2 android: arch: add kryo300
-45358935 soong: use -mcpu=cortex-a55 for kryo300 and kryo385
-9f4cbd84 Define AArch32 soong variable
-
-====================
-     01-14-2020
-====================
-
-
-   * build/make/
-de8f52096 build: Allow supplying a prebuilt recovery ramdisk cpio
-b189ee4a7 build: Build Gapps and AOSP apps conditionally [2/2]
-
-   * build/soong/
-e4d5d082 soong: Whitelist cpio for prebuilt ramdisk extraction
+----------------------------------------------------------
 
    * frameworks/base/
-1f0d41fce26 base: add permission for SurfaceFlinger
-9815e068ea2 PackageInstaller: Remove side padding from the dialog
-5538eb3bd5c SystemUI: Improve EnhancedEstimatesGoogleImpl
-183ff05a39b SystemUI: SystemUIGoogleModule: Switch to EnhancedEstimatesGoogleImpl
-7bef6fada62 Revert "Revert "SystemUI: Implement EnhancedEstimatesGoogleImpl""
-
+50032b56caf Support UnifiedNlp (microG)
+b5e60c3f912 base: [MicroG] Allow location providers also outside of /system
+d093af8f52d PM: Signature spoofing [1/2]
+8b18600fb34 pm: add signature-spoofing permission
+11c3ed29392 Fix: dummy deviceKey is not correct if real device with dummy addr exist
+b4968afc237 Keyguard: Fix failed unlock attempt dialog button
+ebcd4d64da5 Don't disable GPS in Doze until the device is stationary.
+412c645210f Make emergency notification dismissable
+3ed7710e2b6 CarrierLabel: Adapt to heads up when notifications arrive
+4a16935c8ee base: Use MD2 icon for missed call notification
+def472c96ce Use colorPrimary for QS detail toolbar
+c444ad91324 Make resolver list layouts have round corners
+0d779d61efb SystemUI: Improve QS detail view layout
+f7f5953e677 SystemUI: Bring back QS Drag Handle
+b5061ea8468 AODTile: Open LS display settings on long click
+05364cd14c2 AODTile: cycle through AOD states
+59506030b4a Revert "Disable long click for AOD tile"
+d73a3fa1892 base: SystemUI: add config check for aod available in qs tile
+5c8bd994750 fwb: Add German translations
+318a09fd4b6 base: Add German translation for alternative type clock
+76432910dc5 [1/2] SystemUI: support using notification color for pulse light
+957e165867a SystemUI: Pulse light accent color option
    * packages/apps/DerpQuest/
-631e5dd Update Russian translation
-
+5086675 DerpQuest: Signature spoofing [2/2]
+ca5292d Update Chinese Translations
+3a13f66 add hindi translation
+4bc27c8 DerpQuest: Fix QS drag handle switch logic * And QS always show settings switch logic * Can be set seperately after https://github.com/DerpLab/platform_frameworks_bas$
    * packages/apps/Settings/
-b3f2b6ed93 Settings: google dont be such an a..hole doing app themes
-8fd3a0231e Skip loading contextual cards if legacy cards are used
-
-   * vendor/aosip/
-7515ce371 vendor: Build Gapps and AOSP apps conditionally [1/2]
-
+0b697b7916 Settings: Add Hindi Translation For Derpfest Additions
+3987f1db3d Settings: Make IME block switch match others in dialog
+8bb03cfd9a Settings: Add activity for LS display settings
+334a40b415 search: Impliment external searching
+821063acf6 Settings: Avoid rendering hidden preferences
+7e706eab46 Settings: Update German translations
 ====================
-     01-13-2020
+     02-22-2020
 ====================
-
-
-   * build/make/
-d3b75e051 releasetools: Move system mount handling to backuptool
-ee3b105d4 releasetools: squash backuptool support
-
-   * frameworks/av/
-3d6efcc5f Restore stream [dis]connect parameters in deprecated state
-33f332f35 Fix the name of the constant for device [dis]connect parameter
-a6303aa9b Cast enum to uint32_t before comparing with AUDIO_MODE_CNT
-31823a9d7 audiopolicy: Match DIRECT and MMAP_NOIRQ flags exactly in IOProfile
-157c9600f Require HW AV sync flag match for compatible output IOProfile
-0e29cf484 av: Add AUDIO_OUTPUT_FLAG_MMAP_NOIRQ flag.
-48daa1966 AudioPolicyManager: Handle error from setInputDevice in startInput
-47ff71a93 Remove usages of USE_XML_AUDIO_POLICY_CONF
-
+   * packages/apps/DerpQuest/
+8dc9a05 [2/2] OmniGears: support using notification color for pulse light
+   * packages/apps/Settings/
+aa08053276 Settings: Do not translate maintainer strings
+   * system/core/
+b99050198 Add cpu set for audio app
+5c16cef7e sched_policy: add audio cpuset for audio app
+ebc6cecb7 Reapply QC blkio cgroup support value adds using new task_profiles
+====================
+     02-21-2020
+====================
    * frameworks/base/
-84692ae34ee Camera: Clearing exception for Extended Face
-ad206cb75a8 Camera: Extend face detection
-e82989fceea Use vendor.camera.aux.packagelist for all privapp checking
-4ef85c37324 camera: Skip HFR checks for privileged apps.
-80f44e5f8f4 Camera: Skip stream size check for whitelisted apps..
-7a1eb6c08c8 Restore light font styling of AOSP
-44e9f731b31 Add regular / light font config
-598f66f83a3 Wire up default fonts with font engine
-2424c8c8585 Update default config for headline fonts
-ab91a29ba00 Update Google Sans font style [1/2]
-750da915d93 Convert VPN Server endpoint to numeric
-0d47bad5154 hwui: Relax the desiredPresent time in RenderAhead feature
-d3eb88d89d2 base: QS themes [1/2]
-4f6c34bb81b SystemUI: Fixes to QSContainerImpl
-4214dd9fca0 SystemUI: [HACK] set requestLegacyExternalStorage for the moment
-fd952f75a39 Add cylinder icon shape overlay
-3a15df9d749 Build Square icon shape overlay
-fe0a7f3ac66 base: overlays: Hide pill in full gestural nav mode [1/2]
-6b9dfaa15d3 SystemUI: Lockscreen clock styles: Add accent clocks from pie [1/2]
-4f6f29e48f3 SystemUI: Lockscreen clock styles: Add sammy accent clock and a variant [1/2]
-ea46fb03af4 SystemUI: Lockscreen clock styles: Add small size style [1/2]
-5c18705aa31 SystemUI: Avoid adding useless empty quick settings page
-4b72ef3a921 Introduce lockscreen clock/date styles [1/2]
-bae9894a1c6 Gesture nav Assistant handles: don't show them in lockscreen
-76a30d531ab base: Handle NPE for ContentObserver
-bba05af7426 FingerprintManager: return "Try again" by default
-583160cc04f Revert "BatteryStats: Update WifiState even if EnergyInfo is invalid"
-beeda788c93 aapt2: silence positional arguments warnings
-393608781fd Revert "NotificationService causes watchdog issues and improves performance"
-f952ebcb3bf Add missing hide flag to public deviceHasSoli api
-a8f2068966a TWS-A2DP: Add TWS+ codec to DevUI support
-4c1034b8355 audio: Add support for audio extended codecs
-b598c245581 BT: Adding aptX-Adaptive codec entry to Framework
-a81ba9f774d Reset permission when network becomes default again.
-d00f1d2845a SystemUI: Make recents grid view accept more than 8 tasks
-95603e144e0 GlobalActions: Set the initial status of airplane mode toggle
-5fd960861ad PowerMenu: Fix Advanced button position on low DPI
-ee4692d44fc PowerMenu: Tint power menu items with the system accent
-2d7ddd8b298 PowerMenu: Only tint items once
-
-   * manifest/
-71c1999 manifest: Track our gapps
-f8f3edf manifest: Track vendor_google_customization
-1a8e244 manifest: Track our system_apex
-
+39b2a3065f6 Force Expanded Notifications [1/2]
    * packages/apps/DerpQuest/
-da66a28 DerpQuest: QS themes [2/2]
-a6a8bbb DerpQuest: Fixes to QS panel opacity
-545efe0 DerpQuest: Lockscreen clock styles: Add more styles [2/2]
-0bafe9b DerpQuest: Introduce lockscreen clock/date styles [2/2]
-48a5dec DerpQuest: AmbientLight: add visual preview
-
-   * packages/apps/Launcher3/
-9ca3d5c79 Launcher3: add dark primary support
-
-   * packages/apps/OmniStyle/
-a318d50 OmniStyle: Remove missing Western headers
-f83932f OmniStyle: change header local/remote switch also to a spinner
-c61dc7b OmniStyle: fix switchbar bg color
-c2cdb36 Partially revert "OmniStyle: Remove unneeded parts"
-8f38f8e OmniStyle: HACK set requestLegacyExternalStorage for the moment
-
-   * packages/apps/OpenDelta/
-70e3d58 Merge branch 'android-10' of https://github.com/omnirom/android_packages_apps_OpenDelta into ten
-
+eb65fe6 DerpQuest: Updated Russian translation
+3aff5a0 Force Expanded Notifications [2/2]
+====================
+     02-20-2020
+====================
+====================
+     02-19-2020
+====================
+   * device/aosip/sepolicy/
+39844f8 aosip: common: add rules for RGB/HSL accentpicker
+   * frameworks/base/
+34a11098b2b Refine battery saver footer string
+47c3cf5d5a6 Fix black image wallpaper issue
+2e14a29a60c fonts: adopt for AOSP Font Engine
+0feaf826695 SystemUI: Custom Text Clock Customizations [1/2]
+13728e1721a Improve Lockscreen CustomTextClock Style
+83773fb69b5 Lockscreen Clock Styles: Introduce Q style text clock [1/2]
+b9045442491 Process: Use audio-app cpuset if available
+b265ea833de Update issue templates
+541683b3789 Settings: Add FOD icon picker settings values to backup
+dcb7b81c6ce base: Introduce RGB accenter [1/2]
+64933a3cb46 Use non-wakeup alarm for delay constraint.
+5559452c98f SettingsLib: mutate drawable before tinting for buildBtRainbowDrawable
+15b3f4eaf83 Keyguard: ReInflate views when density or font scale change
+dcc81ca697c base: Use ro.build.date to clear cache dirs on update
+   * packages/apps/DerpQuest/
+1cd384b DerpQuest: Update Russian translation
    * packages/apps/Settings/
-ab6593b8d1 Fix volume slider color is not correct
-f65213a77f Settings: Move the hide pill toggle to gesture settings dialog
-befb630817 Settings: Hide pill in full gestural nav mode [2/2]
-0010728a8a Fixes sound panel create multiple SoundSettings activity
-9895ae0658 Fix carkit can't get phonebook access permission by default.
-b26f66eb49 Settings: Ambient Music Ticker: Several improvements from Pie
-9f475ffecf Revert "Remove "clocks" from string"
-c140f8b5db Display menu: move lockscreen/ambient preference on top
-
-   * vendor/aosip/
-c4c5a0e80 prebuilt: backuptool: Implement dynamic system mount for A-only
-32ca54ab0 vendor: config: Include vendor/google/customization
-fbc7a5725 vendor: Re-enable and update LC to q_pre_alpha_2599
-84ed8f91e vendor: Switch to Lawnchair
-6d2ee773a Revert "vendor: Add overlay for Pixel Launcher"
-f72895de6 Revert "Make NexusLauncher overlay static"
-e9f5f7802 Revert "vendor: Add NexusLauncherRelease to PRODUCT_DEXPREOPT_SPEED_APPS"
-
+35566ededd Create aosip_strings.xml
+   * prebuilts/clang/host/linux-x86/
+d23c69af Update prebuilt Clang to r377782b.
    * vendor/gapps/
-375f2e2 gapps: Don't build GooglePackageInstaller
-
+0a8d88d gapps: Remove TipsPrebuilt
    * vendor/pixelstyle/
-f32067b idek
-9ea04c1 pixelstyle: Add semi bold font alias for custom fonts
-3e750b8 pixelstyle: Remove pixel launcher
-a977839 pixelstyle: Update Google Sans font style [2/2]
-
+023e92a pixelstyle: Remove SafetyHubPrebuilt
 ====================
-     01-12-2020
+     02-18-2020
 ====================
-
-
-   * device/qcom/sepolicy-legacy/
-8c763660 Merge remote-tracking branch 'LineageOS/lineage-17.1-legacy' into ten-legacy
-
-   * manifest/
-2807705 Merge pull request #2 from marshmello61/patch-2
-
+   * frameworks/base/
+e4a090135eb SettingsLib: Don't show system overlays on apps list
+dab1184e97d Revert "SettingsLib: Don't show system overlays on apps list"
+53973c6c40e fwb: Remove old method for enabling setupwizard overlay
    * packages/apps/DerpQuest/
-756e3e4 DerpQuest: Move doze brightness settings to lock screen
-
-   * packages/apps/OpenDelta/
-01de556 OpenDelta: Add some logger entries and fix md5sum fetcher logic
-
-   * packages/apps/ThemePicker/
-a580993 ThemePicker: fix wrong background color on side of buttons
-ebb02e9 ThemePicker: fix drawing theme option border
-ca4f128 ThemePicker: store clock plugin as JSON
-27b881a ThemePicker: remove bottm navbar tip code
-df8cdae ThemePicker: fix marking current selected clock face on start
-
+d0f4a7e DerpQuest: Add French translation
+   * packages/apps/Settings/
+09c84d338d Settings: Move RGB accent picker to DerpQuest [1/2]
+81b732b257 Introduce RGB accenter [2/2]
 ====================
-     01-11-2020
+     02-17-2020
 ====================
-
-
-   * manifest/
-8c862d8 Track system/qcom
-
-   * packages/apps/Launcher3/
-c0e794fc0 Launcher3: Use customization for wallpaper package
-0c5a6aa4f No Calendarwidget 4x4 widget displayed
-ec5368b03 Use common style for recents task menu divider
-1d14f7964 Use Google's strings for Google now panel
-9a61b6e28 Let's make the search bar on all apps round
-0c6ed558e Launcher3: Add updated Google Feed lib from Pixel 3 launcher
-dd6081427 Launcher3: Allow swipe for google now to be optional
-65ddd3dc4 Launcher3: Animate workspace when animating the Google now page
-fc7786f94 Launcher3: Make sure service is connected before trying to unbind
-2ba3c3a51 Launcher3: Support google now tab
-ef7283bf3 Launcher3: Import reversed google now lib
-93520c887 Launcher3: Can't search out local app by Chinese
-23d04674e Use new widget style for Google searchbar
-cff9f61be Launcher: disable uneeded dev settings
-8dc4aab04 Add back button to Settings
-76a427ddb Stability NullPointer issue
-95a44b2c8 Elevate to 'core/platform' app'
-661f6ef8b Launcher3: correctly apply grid changes from grid control provider
-976647eab Launcher3: fix preview rendering after adding qsb switch
-9f4e68f92 Launcher3: add switch to hide search widget
-
-   * packages/apps/OpenDelta/
-e3906db Automatic translation import
-
-   * vendor/google/customization/
-455e1dc Move from vendor/gapps
-
-====================
-     01-10-2020
-====================
-
-
-   * manifest/
-67509ab Track OpenDelta
-
-   * packages/apps/OpenDelta/
-208c289 OpenDelta: Update config and json to meet our current configuration change the code accordingly to be able to use sourceforge and our current json generator
-
+   * packages/apps/DerpQuest/
+038161e DerpQuest: Custom Text Clock Customizations [2/2]
