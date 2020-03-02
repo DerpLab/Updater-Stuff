@@ -1,129 +1,37 @@
-==============
-Rom Changelog
-==============
-- Added Option to hide lock icon on lockscreen
-- Added Option to change the device hostname
-- Added navbar editor back to navbar tuner
-- Added vibration tick when opening notification panel
-- Added missing national roaming infos for several countries and provider
-- Changed charging thresholds
-- Revised Mult SIM ringtone settings
-- Only German and Russian translations for Textclock
-- Removed Blur settings search bar and switched back to Pixel DocumentsUI
-- Improvements to make animations smoother
-- Update Russian translations for DerpQuest
-- Merged January Security patch (r23)
-- Switched to Omni Updater
-- Switched to Lawnchair as default launcher
-- Added Lockscreen clock/date styles
-- Added QS theme options
-- Added option hide pill in full gestural nav mode
-- Removed theming category in favor of Pixel theme picker and our old accents
-- Added option to hide battery icon from QS header
-- Improved Power menu
-- Improved Custom header settings
-- Added visual preview to AmbientLight settings
-- Moved lockscreen/ambient preference on top
-- Moved doze brightness settings to lock screen
-- Improved Ambient Music Ticker settings
-- Made recents grid view accept more than 8 tasks
-- Added aptX-Adaptive codec entry to Framework
-- Added support for audio extended codecs
-- Gesture nav Assistant handles: don't show them in lockscreen
-- Avoid adding useless empty quick settings page
-- Added Cylinder and Square icon shape overlay
-- Fixed carkit can't get phonebook access permission by default
-- Fixed sound panel create multiple SoundSettings activity
-- Added backuptool support
-- PackageInstaller: Remove side padding from the dialog
-- Skip loading contextual cards if legacy cards are used
-- Added Polish translations for DerpQuest
-- Updated Hebrew translations for DerpQuest
-- Some more things maybe I can't remember more :)
-- Added Reboot/Recovery QS Tile
-- Added Sync QS Tile
-- Moved To AOSP Themer
-- Fixed Fonts (Every Font Works Now)
-- Added Background Colors (Dark Theme Only)
-- Fixed 3 Finger Swipe ScreenShot
-- Add Missing Animations
-- Moved Rounded Corner pereferences from Misc to Themes Menu
-- Added capability to use tethering with vpn upstreams
-- Added SQLite 3
-- Added Overlays for LawnChair
-- Move aosp gestures to DerpQuest
-- Added QS Blur & Toogle
-- Disable Long Click for Sound Search
-- Fixed Mobile Data Usage Indication In QS & Settings
-- Added Toogle for Gentle Notifications
-- Fixed "Enable On Screen  Nav Bar Toogle"
-- Added Toogle To (Increase/Decrease) Blur Intensity of QS
-- Added Changelog Option In Open Delta
-- Fixed Fingerprint position at time of setup
-- Fixd Brightness slider under Settings/Display
-- Themed Power Menu Icons as well as background
-- Q/S Footer : Animate Multiuser Avtar
-- Some more things maybe I can't remember more 🇵🇫
-- Ported extended screenshot function from OOS
-- Migrated Screenshot QS tile to new method with Longshot support
-- Implement better partial screenshot
-- Updated DerpQuest Settings icons (new layout and size)
-- Added reworked theming category back to DerpQuest
-- Added themepicker toggle to show/hide weather and date on custom clocks
-- Added Samsung One and Fira sans fonts
-- Changed default wallpaper
-- Added toggle for Blur behind quick settings (enabled by default)
-- Added options for Blur intensity and opacity
-- Made gentle notifications header toggleable (disabled by default)
-- Added option for Running Services from QS panel
-- Fixed minute digits for accent based lockscreen clock style
-- Fixed mobile data usage qs details view content
-- Added Lawnfeed prebuilt
-- Beautified toast notifications
-- Improved Navbar toggle
-- Added Gaming mode QS tile
-- Added Sync QS Tile
-- Added Reboot/Recovery QS Tile
-- Disabled 3 columns in landscape
-- Added Status bar notification ticker
-- Imported MIUI SwipeToScreenshot implementation
-- Added capability to allow tethering to use VPN upstreams
-- Improved the VPN footer layout
-- Updated VPN settings icon drawable
-- Improved power menu and volume panel layout
-- Changed back gesture height intervals
-- Fixed DerpFest Logo from remaining active when notifications arrive
-- Moved AOSP gestures to DerpQuest
-- Fixed gap when toggling airplane mode
-- Removed hide notch overlays
-- Added more DerpQuest settings to Google backup
-- Added whitelist permissions needed for SystemUIGoogle
-- Made sure DerpQuest features show up under Settings search
-- Improved search bar avatar
-- Added GPlay version entry back to about phone
-- Added maintainer string to about phone
-- Disabled long click for SoundSearch qs tile
-- Several improvements for FOD implementation
-- Show a warning dialog before network search
-- Commented out double options that were under accessibility
-- Removed unneeded collapse limits in several settings
-- Added PA bionic optimizations
-- February Security Patch
-- Fixed navbar 
+Rom Changelog -
+- Added back gesture haptic feedback toggle
+- Improved QS detail view layout
+- Improved AOD QS tile (states and longclick added)
+- Reworked color options for Edge light
+- Added Force Expanded Notifications option
+- Added Dark theme scheduling
+- Removed system accents entirely and added RGB accent presets for the picker
+- Added Hentai custom header pack
+- Rmoved ugly separator in ChooserActivity
+- Updated AOD QS tile drawable
+- Allowed full heigth for bottom layout in style option picker
+- Allowed to launch themepicker from app drawer with other launchers
+- Use system fonts at more places
+- Fixed USSD alert dialog theme
+- Added an about page to DerpQuest
+- Fixed navbar color in PermissionsManager when using dark themes
+- Make resolver list layouts have round corners
+- Use colorPrimary for QS detail toolbar
+- Use MD2 icon for missed call notification
+- Don't disable GPS in Doze until the device is stationary
+- Fixed Carrier Label text overlap when notifications arrives
+- Made emergency notification dismissable
+- Fixed failed unlock attempt dialog button
+- Added Signature spoofing support
+- Fixed User edit info dialog during rotation
+- Added cpu set for audio app
+- Reapplied QC blkio cgroup support value adds using new task_profiles
+- Refined battery saver footer string
+- Updated Chinese, German and Russian translations
+- Added French and Hindi translations
+- Some more things maybe I can't remember more :P
 
-=================
-Device changelog
-=================
-- Added missing perf blobs
-- Added gnss entries in manifest 
-- Update Remaining pie blobs from Tissot
-- Update Vendor SPL 
-- Added entries for cacert in manifest 
-- Update_sha1sum: Add condition for line split
-- Update media configs 
-- Update display config to version 1.9
-- Update Media/WiFi Display 
-- pdate the default network mode to T/L/G/W/1x/Evdo on both sub 
-- Update listen blobs 
-- Update graphics stack 
-- Update FM from LA.UM.8.6.r1-02600-89xx.0 
+Device Changelog -
+- Build enforcing 
+- Kernel Switch to Jarvis
+- Fix antifalsing overlay 
