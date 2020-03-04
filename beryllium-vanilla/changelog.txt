@@ -1,2 +1,9 @@
-- Fixed Network Traffic Indicator
-- Fixed Mobile Data Usage Counte
+- Added Dark theme scheduling
+- Removed system accents entirely and added RGB accent presets for the picker
+- Rmoved ugly separator in ChooserActivity
+- Updated AOD QS tile drawable
+- Allowed full heigth for bottom layout in style option picker
+- Allowed to launch themepicker from app drawer with other launchers
+- Use system fonts at more places - Fixed USSD alert dialog theme
+- Added an about page to DerpQuest
+- Fixed navbar color in PermissionsManager when using dark themes
