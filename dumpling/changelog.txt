@@ -1,32 +1,38 @@
 Device:
-- SELinux still set to permissive
-- Removed AOSP camera in favor of OP Camera
-- Removed DotFix since we have OP Cam (let me know if you still want it included)
-- Switched to DerpEAS kernel (basically upstreamed Weeb)
-- Removed QTI perf stack and merged latest Pixel Power HAL
-- Reworked ramdisk and bootscript for EAS
-- Reworked powerhint config
-- Added libperfgluelayer from LA.UM.8.2.r1-04300-sdm660.0
-- Updated SDM stack from LA.UM.8.2.r1-04300-sdm660.0
-- Updated display config to version 1.9
-- wifi: ini file changes for Android Q upgrade
-- Updated audio policy config
-- DeviceParts: Avoid OOB exception if restored slider settings value is invalid
-- Build configstore@1.1 (in manifest it was already set to 1.1)
-- Added comp backpressure props
+- Reverted some of recent wifi config changes
+- Updated Clang to 10.0.4
+- Fixed manual network selection
+- Kanged ramdisk tweaks from KuranKaname's mata tree
 
-ROM:
-- Added Screen Stabilization QS tile with menu
-- Added Custom Text Clock customizations to Lockscreen clock styles
-- Added Anaheim font
-- Fonts are now applied to more elements
-- Added option to block IME space for back gesture
-- Added RGB accenter
-- Added Customizable FOD Icons, scanlight, and Animations
-- Fixed Lawnchair crash on boot
-- Live captions: Have it follow system accent / fix up navbar
-- Don't hide preview on white Accents or primarys
-- Preview Light and Dark mode in Primary screen
-- Removed SafetyHub and Pixeltips prebuilt
-- Fixed screenshot sound switch
-- Some more fixes under the hood
+Changelog:
+- Added back gesture haptic feedback toggle
+- Improved QS detail view layout
+- Improved AOD QS tile (states and longclick added)
+- Reworked color options for Edge light
+- Added Force Expanded Notifications option
+- Added Dark theme scheduling
+- Removed system accents entirely and added RGB accent presets for the picker
+- Added Hentai custom header pack
+- Rmoved ugly separator in ChooserActivity
+- Updated AOD QS tile drawable
+- Allowed full heigth for bottom layout in style option picker
+- Allowed to launch themepicker from app drawer with other launchers
+- Use system fonts at more places
+- Fixed USSD alert dialog theme
+- Added an about page to DerpQuest
+- Fixed navbar color in PermissionsManager when using dark themes
+- Make resolver list layouts have round corners
+- Use colorPrimary for QS detail toolbar
+- Use MD2 icon for missed call notification
+- Don't disable GPS in Doze until the device is stationary
+- Fixed Carrier Label text overlap when notifications arrives
+- Made emergency notification dismissable
+- Fixed failed unlock attempt dialog button
+- Added Signature spoofing support
+- Fixed User edit info dialog during rotation
+- Added cpu set for audio app
+- Reapplied QC blkio cgroup support value adds using new task_profiles
+- Refined battery saver footer string
+- Updated Chinese, German and Russian translations
+- Added French and Hindi translations
+- Some more things maybe I can't remember more :P
