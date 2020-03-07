@@ -1,22 +1,7 @@
-Rom ChangeLogs :
-- Added Dark theme scheduling
-- Removed system accents entirely and added RGB accent presets for the picker
-- Added Hentai custom header pack
-- Rmoved ugly separator in ChooserActivity
-- Updated AOD QS tile drawable
-- Allowed full heigth for bottom layout in style option picker
-- Allowed to launch themepicker from app drawer with other launchers
-- Use system fonts at more places
-- Fixed USSD alert dialog theme
-- Added an about page to DerpQuest
-- Fixed navbar color in PermissionsManager when using dark themes
-
-Device ChangeLogs :
-- Kernel Upstream 4.9.215
-- Add Energy Awareness Service
-- Enhanced Charging Speed
-- Optimized Thermals
-- Enable 4k On Front Camera
-- Add LMKD props
-- Add NotchOverlay
-
+ChangeLogs :
+- Synced Rom Source
+- March Security Patch
+- March coral FingerPrint
+- Fix UI Lags
+- Add Netflix-Specific prop
+- Some Other Fixes and improvement
