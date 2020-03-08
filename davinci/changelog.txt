@@ -1,179 +1,373 @@
 ====================
-     02-23-2020
+     03-08-2020
 ====================
 
 
    * device/xiaomi/davinci/
-246b6b84 davinci: Switch to PE version of ANX
-83fe3ed5 davinci: Enable debug.sf.latch_unsignaled
-
-   * frameworks/base/
-65d1e99b1f3 base: Let's shrink file headers bigger than the device size
-5d5d5cdc3e0 base: Add back gesture haptic feedback toggle [1/2]
-50032b56caf Support UnifiedNlp (microG)
-b5e60c3f912 base: [MicroG] Allow location providers also outside of /system
-d093af8f52d PM: Signature spoofing [1/2]
-8b18600fb34 pm: add signature-spoofing permission
+44770aad davinci: Fix Stereo sound not playing through speakers
 
    * kernel/xiaomi/davinci/
-37e137b6fffe defconfig: disable logo
+cb1659e75c26 thermal: Import Xiaomi changes
+38f4d9320987 Revert "thermal: core: Custom thermal limits handling"
 
    * packages/apps/DerpQuest/
-5086675 DerpQuest: Signature spoofing [2/2]
-ca5292d Update Chinese Translations
-3a13f66 add hindi translation
-4bc27c8 DerpQuest: Fix QS drag handle switch logic * And QS always show settings switch logic * Can be set seperately after https://github.com/DerpLab/platform_frameworks_base/commit/f7f5953e67797759b8c4db02c52156fd817e3535
+0a056e7 DerpQuest: Update Italian translation
 
    * packages/apps/Settings/
-5f8e64379a Settings: Add back gesture haptic feedback toggle [2/2]
-c7cd685600 Fix for User edit info dialog during rotation
-368edf6e09 Sync dimen from SystemUI
-ce50343962 Battery icon is too large
-b2eec94dc2 Add a dark theme slice
-331449c641 DarkUIPreferenceController null exception
-0b697b7916 Settings: Add Hindi Translation For Derpfest Additions
-3987f1db3d Settings: Make IME block switch match others in dialog
-8bb03cfd9a Settings: Add activity for LS display settings
-
-   * vendor/MiuiCamera/
-b8244f9 Update ANXCamera to V171
+376261eb15 Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/packages/apps/Settings into ten
 
 ====================
-     02-22-2020
+     03-07-2020
 ====================
 
 
+   * build/make/
+e42d93daf Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/build into ten
+
+   * build/soong/
+7227d328 Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/build/soong into HEAD
+
+   * development/
+79986770b Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/development into HEAD
+
+   * device/generic/goldfish/
+9cf803e Merge tag 'android-10.0.0_r31' into lineage-17.1-android-10.0.0_r31
+
+   * device/xiaomi/davinci/
+85db9cf9 davinci: sepolicy: label gfscreenoffd
+72219708 davinci: gfscreenoffd: optimize listener
+0f9267dc davinci: gfscreenoffd: skip time checking on first touch
+de42e903 davinci: gfscreenoffd: simplify touchscreen searching
+997cef37 davinci: parts: move fodscreenoff daemon handling to device parts
+6caba260 davinci: parts: fod: don't enable daemon immediately
+9b1cfd5c davinci: gfscreenoffd: add missing LOG_TAG
+4279a671 davinci: gfscreenoffd: ignore other ops when screen is already on
+2fc51e91 davinci: gfscreenoffd: rely startup completely on DeviceKeyHandler
+57bde071 davinci: gfscreenoffd: only write fod_status if it was disabled
+80ac24c5 davinci: parts: add settings for fod screen off
+c6748f39 davinci: parts: add DeviceKeyHandler for FOD Screen Off
+
    * frameworks/base/
-11c3ed29392 Fix: dummy deviceKey is not correct if real device with dummy addr exist
-b4968afc237 Keyguard: Fix failed unlock attempt dialog button
-ebcd4d64da5 Don't disable GPS in Doze until the device is stationary.
-412c645210f Make emergency notification dismissable
-3ed7710e2b6 CarrierLabel: Adapt to heads up when notifications arrive
-4a16935c8ee base: Use MD2 icon for missed call notification
-def472c96ce Use colorPrimary for QS detail toolbar
-c444ad91324 Make resolver list layouts have round corners
-0d779d61efb SystemUI: Improve QS detail view layout
-f7f5953e677 SystemUI: Bring back QS Drag Handle
-b5061ea8468 AODTile: Open LS display settings on long click
-05364cd14c2 AODTile: cycle through AOD states
-59506030b4a Revert "Disable long click for AOD tile"
-d73a3fa1892 base: SystemUI: add config check for aod available in qs tile
-5c8bd994750 fwb: Add German translations
-318a09fd4b6 base: Add German translation for alternative type clock
-76432910dc5 [1/2] SystemUI: support using notification color for pulse light
-957e165867a SystemUI: Pulse light accent color option
+639b279e78f lib/androidfw: Fix reversed logic
+ce99044c0b4 [frameworks][base] move -Wno-implicit-fallthrough from cflags to cppflags
+3d06c333af5 fw/b torch: Let long press power turn torch off when screen is on.
+5f6009c034f Pad ime_switcher same as navbar buttons
+c9d19d6b90a Revert "Remove keyguard_indication_area_overlay"
+af6fcd36202 Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/frameworks/base into ten
+d887fdb90f8 Revert "SystemUI: block gestural navigation when using partial screenshot"
+4df86561ba3 Revert "SystemUI: implement better partial screenshot"
+
+   * frameworks/opt/telephony/
+5ecff34d1 Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/frameworks/opt/telephony into HEAD
+
+   * hardware/libhardware/
+f716ee83 Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/hardware/libhardware into HEAD
+
+   * hardware/qcom/audio/
+722c28c23 Merge tag 'android-10.0.0_r31' into lineage-17.1-android-10.0.0_r31
+
+   * hardware/qcom/display/
+d18dd5fe7 Merge tag 'android-10.0.0_r31' into lineage-17.1-android-10.0.0_r31
+
+   * hardware/qcom/media/
+e484f0ede Merge tag 'android-10.0.0_r31' into lineage-17.1-android-10.0.0_r31
 
    * kernel/xiaomi/davinci/
-471e542e4848 msm: mdss: Boost only if last interaction was within 1s
-99043e72902e msm: mdss: Boost CPU when a new frame is ready to be committed
+641cdf4f7f5a random: always fill buffer in get_random_bytes_wait
+4ecd0b953624 ext4: Allocate allocation-context on the stack
+a3242276fe2e Revert "arm64: remove redundant FRAME_POINTER kconfig option and force to select it"
+3c31c1697efe msm: sps: Fix memory leaks in sps_register_bam_device
+f42483b0e714 msm-geni-serial: Correct the unsupported baudrate error handling
+b403610811e2 async: Run Hi Priority WQ when system is booting
+87cb52711d29 Revert "msm: kgsl: Stop slab shrinker when no more pages can be reclaimed"
+34336a5afe94 PM / timekeeping: Revert suspend duration message to info level
+242e5e43aea8 printk: Add sleep time offset to all timestamps
+d0f4eb89509b Revert "ANDROID: PM / Suspend: Print wall time at suspend entry and exit"
+de56958c1cef FORWARDPORT: sched/fair: Skip frequency updates if CPU about to idle
+162848874d95 usb: dwc3: Fix erroneous error handling in probe
+ce21fbcd8855 Revert "msm: kgsl: Wake GPU upon receiving an ioctl rather than upon touch input"
+9ca0d9d9f6bd Revert "msm: kgsl: do not wake up GPU on ioctl"
+ca7da9ba4706 ext4: remove additional tracings added by CAF
+ca69a7e507db mm: util: Guarentee memory access to applications
+95ceab4dd868 defconfig: Update DEVFREQ_MSM_(CPUBW|LLCCBW)_BOOST_FREQ configs
+e2518d67b775 devfreq_boost: Update and expand to handle CPUBW/LLCCBW boosting
+bc46dab4e24a msm: mdss: Boost only if last interaction was within 1s
+a695533ae4f7 msm: mdss: Boost CPU when a new frame is ready to be committed
+9bbf564a1710 msm: mdss: Boost DDR bus when committing a new frame
 
-   * packages/apps/DerpQuest/
-8dc9a05 [2/2] OmniGears: support using notification color for pulse light
+   * manifest/
+e652008 Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/manifest into ten
+0f6d1ec Initial tracking for DerpFest
 
-   * packages/apps/Settings/
-334a40b415 search: Impliment external searching
-821063acf6 Settings: Avoid rendering hidden preferences
-7e706eab46 Settings: Update German translations
-aa08053276 Settings: Do not translate maintainer strings
+   * packages/apps/Bluetooth/
+f382d0d4 Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/packages/apps/Bluetooth into ten
+
+   * packages/apps/CarrierConfig/
+12ca1d7 Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/packages/apps/CarrierConfig into HEAD
+
+   * packages/apps/CellBroadcastReceiver/
+51921e41 Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/packages/apps/CellBroadcastReceiver into HEAD
+
+   * packages/apps/CertInstaller/
+c01555f Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/packages/apps/CertInstaller into HEAD
+
+   * packages/apps/PhoneCommon/
+4df87cd Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/packages/apps/PhoneCommon into HEAD
+
+   * packages/apps/ThemePicker/
+e2ac2ba Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/packages/apps/ThemePicker into ten
+
+   * packages/apps/WallpaperPicker2/
+498f182 Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/packages/apps/WallpaperPicker2 into HEAD
+
+   * packages/inputmethods/LatinIME/
+4277b4e9c Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/packages/inputmethods/LatinIME into HEAD
+
+   * packages/services/Telecomm/
+a37bc474 Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/packages/services/Telecomm into HEAD
+d80ac6b8 Merge remote-tracking branch 'derp/ten' into HEAD
+
+   * packages/services/Telephony/
+95ca3b41d Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/packages/services/Telephony into ten
 
    * system/core/
-b99050198 Add cpu set for audio app
-5c16cef7e sched_policy: add audio cpuset for audio app
-ebc6cecb7 Reapply QC blkio cgroup support value adds using new task_profiles
+4c0ce0513 Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/system/core into HEAD
 
-   * vendor/MiuiCamera/
-1d31f9b Update ANXCamera to V170
+   * system/sepolicy/
+e8939084 Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/system/sepolicy into ten
+
+   * system/vold/
+2dc8dfa Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/system/vold into HEAD
 
 ====================
-     02-21-2020
+     03-06-2020
 ====================
 
+   * art/
+545bc4eb6b Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/art into HEAD
 
-   * device/xiaomi/davinci/
-6080967f davinci : Enable support for pocket mode
+   * bootable/recovery/
+6ed67eec Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/bootable/recovery into HEAD
+
+   * build/blueprint/
+a52ed00 Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/build/blueprint into HEAD
+
+   * frameworks/av/
+97072ef7e Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/frameworks/av into ten
+
+   * frameworks/opt/net/wifi/
+dd71edbe5 Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/frameworks/opt/net/wifi into ten
+
+   * packages/apps/Nfc/
+9006fd14 Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/packages/apps/Nfc into ten
+
+   * packages/providers/MediaProvider/
+5ddf2ff Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/packages/providers/MediaProvider into HEAD
+
+====================
+     03-05-2020
+====================
+
 
    * frameworks/base/
-39b2a3065f6 Force Expanded Notifications [1/2]
+f7d5c26b0c0 AODTile: disable tile when power save mode is on
+c7259d5b7c0 Resolver: Modernize layout
+2b1b00221c2 Revert "Make resolver list layouts have round corners"
+735fbd5e2a9 Revert "Reland "Apply front scrim to doze pulsing""
+2c6c226dd4d Revert "Fix AoD front scrim being opaque at DOZE_PULSING."
 
-   * packages/apps/DerpQuest/
-eb65fe6 DerpQuest: Updated Russian translation
-3aff5a0 Force Expanded Notifications [2/2]
+   * frameworks/native/
+0fcccb557 Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/frameworks/native into ten
+
+   * hardware/interfaces/
+ea37b9443 Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/hardware/interfaces into ten
+
+   * kernel/xiaomi/davinci/
+3f070bfbb761 defconfig: Set VMSTAT_INTERVAL to 20
+405e7dc7ac15 mm: add Kconfig interface for vmstat interval
+a824d3b20cb3 arm64: debug: disable self-hosted debug by default
+66078a9b7f96 ANDROID: davinci: Enable CRYPTO_DRBG_HASH, CRYPTO_DRBG_CTR
+e787fc4b988d arm64: configs: davinci: Enable FQ_CODEL and PIE
+76ddf61da088 ANDROID: davinci: enable CONFIG_NET_SCH_NETEM=y
+
+   * packages/providers/DownloadProvider/
+2d6ecfa2 Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/packages/providers/DownloadProvider into ten
+
+   * system/apex/
+6b785bf Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/system/apex into HEAD
 
 ====================
-     02-20-2020
+     03-04-2020
 ====================
 
 
    * kernel/xiaomi/davinci/
-98a7a38ad705 sched/fair.c: Run sync_boost tasks as if stune boosted
-c9d1e112bb92 sched/fair: if sync flag ignored, try to place in same cluster
-2ca2c32fe9d0 sched: Add task boost feature
-74aa92c59b5f Merge tag 'v4.14.171' into VantomKernel
-273c2a5db1da dtsi: add persist partition into android_fstab
+8f0c2e0da6e9 alarmtimer: Add ndelay for tight loop
+8d15da8d7fdd ipa_v3: Mitigate usleep_range calls
+ccf8a39bab21 msm_serial_hs: make the Bluetooth tty thread RT
+13c859e3be52 Make msm_serial_hs RT to improve Bluetooth performance
+e7e4aca18526 power: process: decrease time to enter sleep
+bea0f92338f7 msm: kgsl: increase GMU_IDLE_TIMEOUT slightly
+0867e2e28497 fork: queue mmput_async to a highpri workqueue
+116a2324ab1f kgsl_pwrscale: prevent userspace from changing minfreq
+15fcdc7f2f12 cpufreq: schedutil: remove tracing from sugov_update_commit
+5cae57d75858 mmc: disable SPI CRC
+f4a98cd3add9 sched/debug: Make sysrq prints of sched debug data optional
+d2624948f512 Revert "msm: kgsl: Increase worker thread priority"
+b3741fa2d75a msm: adreno_ringbuffer: Don't use link-on-stack
+327b2f8ccb93 lib: Kconfig.debug: Remove debug dependency from SCHED_STACK_END_CHECK
+ae6b0b1f9bbe Revert "mm/slab_common: Align all caches' objects to hardware cachelines"
+72769a4028e7 kernel: time: reduce ntp wakeups
+c13f2d66ba0d sched: core: Minimize number of tasks to load balance
+4194cc714a40 BACKPORT: workqueue: respect isolated cpus when queueing an unbound work
+2d6ce0b84c1e BACKPORT: sched/fair: Load balance aggressively for SCHED_IDLE CPUs
+9595e023bfe6 BACKPORT: sched/fair: Make sched-idle CPU selection consistent throughout
+0d8a936c74a6 BACKPORT: sched/fair: Fall back to sched-idle CPU if idle CPU isn't found
+ff9b0ee5edd8 BACKPORT: sched/fair: Start tracking SCHED_IDLE tasks count in cfs_rq
+97153c94d936 sched/fair.c: Disable WALT CPU/TASK utilization signal
+1ecf3129d8a5 add support for verifying page sanitization
+38467af2a67b slub: add support for verifying slab sanitization
+a3422342b606 slub: add basic full slab sanitization
+295481edce77 add a SLAB_HARDENED configuration option
+64195d32d4b0 add simpler page sanitization
+c2ef5045ad47 defconfig: disable zram
+6d9789a82f24 defconfig: enable CONFIG_IP_NF_TARGET_TTL
+1fe591a62c86 defconfig: Enable BPF_JIT and BPF_JIT_ALWAYS_ON
+8aed7b12ed79 defconfig: disable logo
 
-====================
-     02-19-2020
-====================
+   * manifest/
+349b5dc Manifest for Android 10.0.0 Release 31
+720bca6 Add platform/tools/apifinder
 
+   * packages/apps/DerpQuest/
+d60ad6f DerpQuest: Update French translation
+24a7fdd DerpQuest: Removed unused strings in translation files
 
    * packages/apps/Settings/
-35566ededd Create aosip_strings.xml
-
-   * prebuilts/clang/host/linux-x86/
-d23c69af Update prebuilt Clang to r377782b.
+e8a4f457d3 Settings: Removed unused strings in translation files
 
 ====================
-     02-18-2020
+     03-03-2020
 ====================
 
 
-   * device/aosip/sepolicy/
-39844f8 aosip: common: add rules for RGB/HSL accentpicker
-
-   * device/xiaomi/davinci/
-7ebdb231 davinci: Set TG Group Link
+   * external/perfetto/
+1046b543 Merge tag 'android-10.0.0_r31' into ten
 
    * frameworks/base/
-34a11098b2b Refine battery saver footer string
-47c3cf5d5a6 Fix black image wallpaper issue
-2e14a29a60c fonts: adopt for AOSP Font Engine
-0feaf826695 SystemUI: Custom Text Clock Customizations [1/2]
-13728e1721a Improve Lockscreen CustomTextClock Style
-83773fb69b5 Lockscreen Clock Styles: Introduce Q style text clock [1/2]
-b9045442491 Process: Use audio-app cpuset if available
-b265ea833de Update issue templates
-541683b3789 Settings: Add FOD icon picker settings values to backup
-dcb7b81c6ce base: Introduce RGB accenter [1/2]
-64933a3cb46 Use non-wakeup alarm for delay constraint.
-5559452c98f SettingsLib: mutate drawable before tinting for buildBtRainbowDrawable
-15b3f4eaf83 Keyguard: ReInflate views when density or font scale change
-dcc81ca697c base: Use ro.build.date to clear cache dirs on update
-e4a090135eb SettingsLib: Don't show system overlays on apps list
-dab1184e97d Revert "SettingsLib: Don't show system overlays on apps list"
-53973c6c40e fwb: Remove old method for enabling setupwizard overlay
+09f2c4c9868 Revert "FODCircleView: disable touch detection on screen off"
 
-   * packages/apps/DerpQuest/
-1cd384b DerpQuest: Update Russian translation
+   * kernel/xiaomi/davinci/
+63da8d09bd71 defconfig: Disable Kernel LMK and enable PSI
+7373dd8a5e88 drivers/android: binder: update to android-4.19-q
+67a415a9367b UPSTREAM: binder: check for overflow when alloc for security context
+1e5076092307 binder: Set end of SG buffer area properly.
+9922906b4265 sched/fair: fix misfit with PELT
+9553bdc3085f Merge branch 'kernel.lnx.4.14.r4-rel' of https://github.com/android-linux-stable/msm-4.14 into VantomKernel
+1dbee2a426c5 Revert "staging: android: ashmem: Get rid of the big mutex lock"
+8fa23185e24c Merge 4.14.172 into kernel.lnx.4.14.r4-rel
+
+   * manifest/
+38f3fdb Manifest for Android 10.0.0 Release 30
+
+   * packages/apps/Contacts/
+c865bafe2 Merge tag 'android-10.0.0_r31' into ten
+
+   * packages/apps/Dialer/
+e2a760fcf Merge tag 'android-10.0.0_r31' into ten
+
+   * packages/apps/DocumentsUI/
+252aea87d Merge tag 'android-10.0.0_r31' into ten
+
+   * packages/apps/OpenDelta/
+6892564 Revert "OpenDelta: add support for OTA of unofficial devices"
+39a0f8f OpenDelta: reset latest full build info after AB update
+128b518 Automatic translation import
+6d46bc3 OpenDelta: add support for OTA of unofficial devices
+4c9aac5 OpenDelta: fix default value for AB performance mode
+8157dba OpenDelta: use correct file name in AB flash notification
 
    * packages/apps/Settings/
-09c84d338d Settings: Move RGB accent picker to DerpQuest [1/2]
-81b732b257 Introduce RGB accenter [2/2]
+948118f818 Settings: Add AGPS setting menu.
 
-   * vendor/gapps/
-0a8d88d gapps: Remove TipsPrebuilt
+   * packages/providers/ContactsProvider/
+cc92fd2c Merge tag 'android-10.0.0_r31' into ten
 
-   * vendor/pixelstyle/
-023e92a pixelstyle: Remove SafetyHubPrebuilt
-
-====================
-     02-17-2020
-====================
-
-
-   * packages/apps/DerpQuest/
-d0f4a7e DerpQuest: Add French translation
-038161e DerpQuest: Custom Text Clock Customizations [2/2]
+   * platform_testing/
+f5be58d8 Merge tag 'android-10.0.0_r31' into ten
 
    * vendor/MiuiCamera/
-6596b36 Remove unused files
+96a21fa Update ANXCamera to V172
+
+   * vendor/overlay/
+32c3c64 overlay: Nuke accent overlays [3/3]
+
+   * vendor/xiaomi/davinci/
+baf21cc davinci: Redo Vendor
+
+====================
+     03-02-2020
+====================
+
+
+   * bionic/
+43fe73c50 Implement per-process target SDK version override.
+d1cd6e2e2 bionic: Support wildcards in cached hosts file
+
+   * device/xiaomi/davinci/
+642e652f davinci: introduce gfscreenoffd
+e9806b20 davinci: fod: use 630nit fod value
+e160861f Revert "cepheus: fod: adjust nit value used based on screen brightness"
+
+   * frameworks/base/
+99b6805e5b5 SystemUI: AODTile: Use MD2 Icon
+17f1ac92f56 ChooserActivity: remove ugly separator
+84cc8b386d2 Ims: Add suppport for "Ims Preferred" WFC Preference
+90e1877f358 base: set accent_material_dark to light value
+c24b67063dc base: Nuke accent overlays [1/3] * We have RGB presets now
+ceb4dc264f3 Apply Dark theme changes when screen off only
+4d42d845b1b Updated UiModeManagerService to always trigger configuration change for setNightMode if it is AAE.
+5214e6b7791 Fix Settings creating too many threads unexpectedly
+c8b76428ac1 base: fix TwilightService start and initial location update
+de53ec6c94e Revert "Revert "Remove GPS single shot request""
+52e0b32bfcb base: Perform accent prop set in UiModeManagerService
+
+   * packages/apps/OmniStyle/
+3a03cd5 OmniStyle: hentai-header: fix canvas size issues
+8bbc81a OmniStyle: hentai-header: optimize some images
+1396c16 OmniStyle: bring more hentainess
+5522cbe OmniStyle: extend hentai header pack
+49e5565 OmnyStyle: add hentai header pack
+
+   * packages/apps/ThemePicker/
+b5cb8e1 Revert "ThemePicker: integrate into OwlsNest"
+553c16d ThemePicker: allow full heigth for bottom layout in style option picker
+0dd9854 ThemePicker: Preview Light and Dark mode in Primary screen
+0a23caa ThemeFragment: Don't hide preview on white Accents or primarys
+
+   * packages/services/Telecomm/
+309436b9 Telecomm: Phone ringtone setting for Multi SIM device [3/3]
+e658b5b4 Added features flash-call-on-waiting [2/3]
+405a2a7f Use double vibration on call hang-up
+354128c0 Add back increasing ring feature (1/3).
+b6044e02 Incall vibration options [2/3]
+7a8e1aab Telecomm: Change font on some parts
+
+   * vendor/aosip/
+154bcfc Merge pull request #11 from kailashrs/ten
+6be5230 privapp-permissions: Grant CHANGE_OVERLAY_PACKAGES perm to OmniStyle
+d89fb57 dtbo: Sort the files we found
+52e14b3 tasks: dtbo: Add support for custom dtbo generation rules
+
+   * vendor/gapps/
+681e9a0 gapps: Remove GoogleDocumentsUIPrebuilt
+
+   * vendor/overlay/
+a4b6e8e overlay: Seperate Settings exposures from system for primarys
+bc55b61 Notification guts: Adapt to system theme
+0d6f1c3 overlay: PermissionsManager: Fix navbar color when using dark themes
+5de182e overlay: etc: Add Android.mk
+
+   * vendor/pixelstyle/
+52f314f pixelstyle: Remove PixelDocumentsUIGoogleOverlay
 
