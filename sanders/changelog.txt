@@ -1,80 +1,76 @@
-Changelog for Official DerpFest Build Update 16.02.2020 for Sanders:
+Changelog for Official DerpFest Build Update 08.03.2020 for Sanders:
 
-[HOTFIX]
-
-• Fixed bluetooth that broke on 15.02.2020 update
-• Fixed camera on social media that broke on 15.02.2020 update
-(sorry for inconvenience)
- 
 [SOURCE]
 
-• Reworked, organized and made a lot better DerpQuest than before
-• Improved extended Screenshot implementation
-• Improved partial Screenshot implementation
-• Fixed overlapping of notifications and added AOD support for theme picker clocks
-• Added Custom color option for lockscreen battery bar
-• Added Custom charging info fonts
-• Added System fonts from Bootleggers
-• Added Tinkerbell system font
-• Reworked Edge lighting options with latest Omni changes
-• Added Option for limiting edge lighting repeats
-• Improved Lockscreen clock style options
-• Added Lockscreen date styles from Pie
-• Added old theming options additionally back to display settings
-• Added 4 new Custom Header images by Owlien
-• Improved theming capabilities in power detail pages
-• Reworked Reboot/Recovery QS Tile and added Power off
-• Workaround for header shadow and tinted header images
-• Improved DerpFest default status bar icon drawable
-• Ensured that Network traffic monitor come first in header view
-• Changed source set battery bar visability on runtime
-• Lowered the internal audio capture restriction
-• Added Pixel offline charger animation
-• Improved Google's EnhancedEstimates implementation
-• Updated raw animations and drawables from Pixel 4 XL
-• Added screen stabilization
-• TypeClock: bring back O’minute
-• Reverted recent Bluetooth changes
-• Updated priv-app permissions
-• Update PowerUsageFeatureProviderGoogleImpl
-• Updated German translations
-• Added Chinese translations
-• Some more things maybe I can't remember more :P
+• Merged march security patch (r31)
+• Added AGPS option
+• Added Dark theme scheduling
+• Added RGB accent presets for the picker
+• Removed system accents
+• Added Hentai custom header pack
+• Rmoved ugly separator in ChooserActivity
+• Updated AOD QS tile drawable
+• Allowed full heigth for bottom layout in style option picker
+• Allowed to launch themepicker from app drawer with other launchers
+• Use system fonts at more places
+• Fixed USSD alert dialog theme
+• Added an about page to DerpQuest
+• Fixed navbar color in PermissionsManager when using dark themes
+• Added Screen Stabilization QS tile with menu
+• Added Custom Text Clock customizations to Lockscreen clock styles
+• Added Anaheim font
+• Fonts are now applied to more elements
+• Added option to block IME space for back gesture
+• Added Customizable FOD Icons, scanlight, and Animations
+• Fixed Lawnchair crash on boot
+• Live captions: Have it follow system accent / fix up navbar
+• Don't hide preview on white Accents or primarys
+• Preview Light and Dark mode in Primary screen
+• Removed SafetyHub and Pixeltips prebuilt
+• Fixed screenshot sound switch
+• Added back gesture haptic feedback toggle
+• Improved QS detail view layout
+• Improved AOD QS tile (states and longclick added)
+• Reworked color options for Edge light
+• Added Force Expanded Notifications option
+• Refined battery saver footer string
+• Removed accent step from themepicker
+• Make resolver list layouts have round corners
+• Use colorPrimary for QS detail toolbar
+• Use MD2 icon for missed call notification
+• Don't disable GPS in Doze until the device is stationary
+• Fixed Carrier Label text overlap when notifications arrives
+• Made emergency notification dismissable
+• Fixed failed unlock attempt dialog button
+• Added Signature spoofing support
+• Fixed User edit info dialog during rotation
+• Added cpu set for audio app
+• Reapplied QC blkio cgroup support value adds using new task_profiles
+• Updated Chinese, German and Russian translations
+• Add French and Hindi translations
+• Some under the hood changes
 
 
 [MISC]
 
-• Tint QS Tile with accent color
-• Make QS Status font bolder and bigger
-• Tint second line of active tile as well
-• Tint active qs tile expand indicator with accent color
+• Added the sanders telegram group in the DerpQuest->About
+• Added the new accent preset
 
 
 [DEVICE]
 
-• Disable Below Divider line in items of MotoActions
-• Prefer HW codec over SW for thumbnail
-• Fix Crash When Searching For MotoActions' items
-• Use Google Autofill Service by Default
-• Force enable mobile network settings v2
-• More performance improvements
-• Update display config to version 1.9
-• Enable graphics mapper version 2.1
-• Rename the codecs and performance xmls
-• Enable AOSP bluetooth audio HAL v2
-• wifi: Limit hotspot to 10 devices
-• Add packages for Android 10 IMS
-• Enable Smooth Streaming for secure video playback
-• Reduce Frame drop rate in animations
-• Turn on GPU protected contents
-• Enable QC2 bufferqueue block-pool
-• Allow qcrild to access new QMI service
-• Enable workaround for old MCC/MNC format
-• Some network changes (may or may not work)-
-  - Update CarrierConfig for Airtel/Vodafone/Idea VoLTE
-  - Enable overlay of VoWIFI for Airtel
-  - Enable overlay of VoWIFI for MTS (Russia)
-• Some here and there minor improvements
+• Replaced AOSP messaging app with Microsoft's Smsorganizer
+• Updated GPU driver to v@415
+• Removed Via.apk and added OperaMini.apk as default browser
+• Shorten boot wait time to optimize shutdown time
+• Modified dalvik-heap device-configs for 4GB device
+• Updated vulkan driver
+• Added prebuilt qteeconnector blob from OPS28.65-36-14
+• Fixed path for nfc firmware
+• Added NFC NCI PN54x blob from stock OPS28.65-36-14
+• Some battery and performance improvements
+• Minor here and there fixes
+
  
 #StayDerped
 
