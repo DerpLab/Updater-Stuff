@@ -1,327 +1,393 @@
 ====================
-     02-24-2020
+     03-08-2020
 ====================
 
-
-   * device/xiaomi/cepheus/
-72f8e144 cepheus: Import izat.con from MIUI
-032afdad cepheus: overlay: fix jagged on screen rounded corners
-7dbcad8e cepheus: overlay: Tune for AOD
-219a1760 cepheus: bluetooth: Enable WBS
-70b0dbbc cepheus: A2DP offload: swap audio XML files
-4dea935e cepheus: Turn on GPU protected composition.
-2a9e2837 cepheus: enable EGL Image Tracking on SF
-818b2603 cepheus: Pre-opt SystemUI
-c0220062 cepheus: Remove duplicate in props
-5fdcbb00 cepheus: power-libperfmgr: InteractionHandler: exit silently if int state is uninitialized
-49046215 cepheus: power.stats: Update path to wlan sysfs node
-353b7a5d cepheus: Rewrite display-helper into cpp
-d323e5c6 cepheus: PowerHAL: add 60fps streaming hint
-4ede5591 cepheus: Power: set PowerHAL hwbinder thread to high CFS priority
-8794a0bd cepheus: PowerHAL: add CAMERA_STREAMING_SECURE mode
-9aaf63d3 cepheus: Remove CPU0 governor check
-f78a083a cepheus: Remove additional 2.5s boost for camera launch
-6b9a1ca5 cepheus: power: fix camera launch hint to use correct time
-ac32ebe1 cepheus: Expose pixel_power_headers to vendor
-49d0aef0 cepheus: PowerHAL: support more camera streaming modes
-907d6b4e cepheus: Expose TPU hints through AudioStreaming.h
-
-   * frameworks/base/
-65d1e99b1f3 base: Let's shrink file headers bigger than the device size
-5d5d5cdc3e0 base: Add back gesture haptic feedback toggle [1/2]
-50032b56caf Support UnifiedNlp (microG)
-b5e60c3f912 base: [MicroG] Allow location providers also outside of /system
-d093af8f52d PM: Signature spoofing [1/2]
-8b18600fb34 pm: add signature-spoofing permission
-
-   * kernel/xiaomi/cepheus/
-44f72a85cceb defconfig: Enable Sched_debug
 
    * packages/apps/DerpQuest/
-b097589 DerpQuest: Update German translations
-5086675 DerpQuest: Signature spoofing [2/2]
-ca5292d Update Chinese Translations
-3a13f66 add hindi translation
+0a056e7 DerpQuest: Update Italian translation
 
    * packages/apps/Settings/
-8ef0c509f2 Settings: Add back gesture haptic feedback toggle [2/2]
-893a8d1526 Fix for User edit info dialog during rotation
-e74a3b4e20 Sync dimen from SystemUI
-26f39e2ae4 Battery icon is too large
-446bf3ee7f DarkUIPreferenceController null exception
-d6dbaf8edf Settings: Add Hindi Translation For Derpfest Additions
-c82ac7e8c8 Settings: Make IME block switch match others in dialog
-ed53174a64 Settings: Add activity for LS display settings
-19731e1fd2 search: Impliment external searching
-
-   * vendor/MiuiCamera/
-a584bee Update ANXCamera to V171
+376261eb15 Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/packages/apps/Settings into ten
 
 ====================
-     02-23-2020
+     03-07-2020
 ====================
 
+
+   * build/make/
+e42d93daf Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/build into ten
+
+   * build/soong/
+7227d328 Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/build/soong into HEAD
+
+   * development/
+79986770b Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/development into HEAD
+
+   * device/generic/goldfish/
+9cf803e Merge tag 'android-10.0.0_r31' into lineage-17.1-android-10.0.0_r31
 
    * device/xiaomi/cepheus/
-032afdad cepheus: overlay: fix jagged on screen rounded corners
-7dbcad8e cepheus: overlay: Tune for AOD
-219a1760 cepheus: bluetooth: Enable WBS
-70b0dbbc cepheus: A2DP offload: swap audio XML files
-4dea935e cepheus: Turn on GPU protected composition.
-2a9e2837 cepheus: enable EGL Image Tracking on SF
-818b2603 cepheus: Pre-opt SystemUI
-c0220062 cepheus: Remove duplicate in props
-5fdcbb00 cepheus: power-libperfmgr: InteractionHandler: exit silently if int state is uninitialized
-49046215 cepheus: power.stats: Update path to wlan sysfs node
-353b7a5d cepheus: Rewrite display-helper into cpp
-d323e5c6 cepheus: PowerHAL: add 60fps streaming hint
-4ede5591 cepheus: Power: set PowerHAL hwbinder thread to high CFS priority
-8794a0bd cepheus: PowerHAL: add CAMERA_STREAMING_SECURE mode
-9aaf63d3 cepheus: Remove CPU0 governor check
-f78a083a cepheus: Remove additional 2.5s boost for camera launch
-6b9a1ca5 cepheus: power: fix camera launch hint to use correct time
-ac32ebe1 cepheus: Expose pixel_power_headers to vendor
-49d0aef0 cepheus: PowerHAL: support more camera streaming modes
-907d6b4e cepheus: Expose TPU hints through AudioStreaming.h
-561abbc2 cepheus: powerhint.json: Change TASchedtuneBoost to 30 on touch hints.
-a6d7aece cepheus: Use log/log.h instead of utils/Log.h
-a7d025ac cepheus: Add TPU powerhint handling
-3c3c3548 cepheus: Add support for event-based tap to wake gesture control
-9f12f579 cepheus: boost performance by skipping EAS
-9d47f023 cepheus: switch to libperfmgr for powerhint
+1acfeef3c cepheus: Enable vibration multiple intensities
+ac82d994c cepheus: gfscreenoffd: optimize listener
+83ceaa1dc cepheus: gfscreenoffd: skip time checking on first touch
+49ee803fc cepheus: gfscreenoffd: simplify touchscreen searching
 
    * frameworks/base/
-65d1e99b1f3 base: Let's shrink file headers bigger than the device size
-5d5d5cdc3e0 base: Add back gesture haptic feedback toggle [1/2]
-50032b56caf Support UnifiedNlp (microG)
-b5e60c3f912 base: [MicroG] Allow location providers also outside of /system
-d093af8f52d PM: Signature spoofing [1/2]
-8b18600fb34 pm: add signature-spoofing permission
+639b279e78f lib/androidfw: Fix reversed logic
+ce99044c0b4 [frameworks][base] move -Wno-implicit-fallthrough from cflags to cppflags
+3d06c333af5 fw/b torch: Let long press power turn torch off when screen is on.
+5f6009c034f Pad ime_switcher same as navbar buttons
+c9d19d6b90a Revert "Remove keyguard_indication_area_overlay"
+af6fcd36202 Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/frameworks/base into ten
+d887fdb90f8 Revert "SystemUI: block gestural navigation when using partial screenshot"
+4df86561ba3 Revert "SystemUI: implement better partial screenshot"
+
+   * frameworks/opt/telephony/
+5ecff34d1 Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/frameworks/opt/telephony into HEAD
+
+   * hardware/libhardware/
+f716ee83 Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/hardware/libhardware into HEAD
+
+   * hardware/qcom/audio/
+722c28c23 Merge tag 'android-10.0.0_r31' into lineage-17.1-android-10.0.0_r31
+
+   * hardware/qcom/display/
+d18dd5fe7 Merge tag 'android-10.0.0_r31' into lineage-17.1-android-10.0.0_r31
+
+   * hardware/qcom/media/
+e484f0ede Merge tag 'android-10.0.0_r31' into lineage-17.1-android-10.0.0_r31
 
    * kernel/xiaomi/cepheus/
-44f72a85cceb defconfig: Enable Sched_debug
+52be17a8cb10 defconfig: Set VMSTAT_INTERVAL to 20
+be9085284a09 mm: add Kconfig interface for vmstat interval
+4a7e0314b5c9 arm64: debug: disable self-hosted debug by default
+71b0ee3aefdb ANDROID: cepheus: Enable CRYPTO_DRBG_HASH, CRYPTO_DRBG_CTR
 
-   * packages/apps/DerpQuest/
-b097589 DerpQuest: Update German translations
-5086675 DerpQuest: Signature spoofing [2/2]
-ca5292d Update Chinese Translations
-3a13f66 add hindi translation
-4bc27c8 DerpQuest: Fix QS drag handle switch logic * And QS always show settings switch logic * Can be set seperately after https://github.com/DerpLab/platform_frameworks_base/commit/f7f5953e67797759b8c4db02c52156fd817e3535
+   * manifest/
+e652008 Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/manifest into ten
+0f6d1ec Initial tracking for DerpFest
 
-   * packages/apps/Settings/
-8ef0c509f2 Settings: Add back gesture haptic feedback toggle [2/2]
-893a8d1526 Fix for User edit info dialog during rotation
-e74a3b4e20 Sync dimen from SystemUI
-26f39e2ae4 Battery icon is too large
-446bf3ee7f DarkUIPreferenceController null exception
-d6dbaf8edf Settings: Add Hindi Translation For Derpfest Additions
-c82ac7e8c8 Settings: Make IME block switch match others in dialog
-ed53174a64 Settings: Add activity for LS display settings
-19731e1fd2 search: Impliment external searching
+   * packages/apps/Bluetooth/
+f382d0d4 Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/packages/apps/Bluetooth into ten
 
-   * vendor/MiuiCamera/
-a584bee Update ANXCamera to V171
+   * packages/apps/CarrierConfig/
+12ca1d7 Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/packages/apps/CarrierConfig into HEAD
 
-====================
-     02-22-2020
-====================
+   * packages/apps/CellBroadcastReceiver/
+51921e41 Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/packages/apps/CellBroadcastReceiver into HEAD
 
+   * packages/apps/CertInstaller/
+c01555f Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/packages/apps/CertInstaller into HEAD
 
-   * device/xiaomi/cepheus/
-0fd59f3d cepheus: light: simplify alpha scaling logic
-908ffe7d cepheus: light: do not turn on breathing for unlit hardware states
-ee6b5cc9 cepheus: light: avoid resetting state
-c16ff052 cepheus: Switch to ANX version from PE
-5edea8ba cepheus: Support A2DP offload for Bluetooth Audio HAL V2
-a426972d cepheus: Update MAC randomization overlay
+   * packages/apps/PhoneCommon/
+4df87cd Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/packages/apps/PhoneCommon into HEAD
 
-   * frameworks/base/
-11c3ed29392 Fix: dummy deviceKey is not correct if real device with dummy addr exist
-b4968afc237 Keyguard: Fix failed unlock attempt dialog button
-ebcd4d64da5 Don't disable GPS in Doze until the device is stationary.
-412c645210f Make emergency notification dismissable
-3ed7710e2b6 CarrierLabel: Adapt to heads up when notifications arrive
-4a16935c8ee base: Use MD2 icon for missed call notification
-def472c96ce Use colorPrimary for QS detail toolbar
-c444ad91324 Make resolver list layouts have round corners
-0d779d61efb SystemUI: Improve QS detail view layout
-f7f5953e677 SystemUI: Bring back QS Drag Handle
-b5061ea8468 AODTile: Open LS display settings on long click
-05364cd14c2 AODTile: cycle through AOD states
-59506030b4a Revert "Disable long click for AOD tile"
-d73a3fa1892 base: SystemUI: add config check for aod available in qs tile
-5c8bd994750 fwb: Add German translations
-318a09fd4b6 base: Add German translation for alternative type clock
-76432910dc5 [1/2] SystemUI: support using notification color for pulse light
-957e165867a SystemUI: Pulse light accent color option
+   * packages/apps/ThemePicker/
+e2ac2ba Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/packages/apps/ThemePicker into ten
 
-   * kernel/xiaomi/cepheus/
-61bea6af392d power: Reset CAFs PSU changes
-913304bec54d fs: add a /system/ path to file blocker
-aec10495939a sched: debug: enable debugfs
-47e367e39292 lib: debug: remove DEBUG_KERNEL dependency from SCHED_DEBUG
-9c3ad1f354f9 arm64: mark (__)cpus_have_const_cap as __always_inline
-5e3a30e72b4c compiler: allow all arches to enable CONFIG_OPTIMIZE_INLINING
-0930a14271bd fs: block Optimal Mod for Mi 9
-d6e6dbc507a1 fs: block MAGNETAR
+   * packages/apps/WallpaperPicker2/
+498f182 Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/packages/apps/WallpaperPicker2 into HEAD
 
-   * packages/apps/DerpQuest/
-8dc9a05 [2/2] OmniGears: support using notification color for pulse light
+   * packages/inputmethods/LatinIME/
+4277b4e9c Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/packages/inputmethods/LatinIME into HEAD
 
-   * packages/apps/Settings/
-7e706eab46 Settings: Update German translations
-aa08053276 Settings: Do not translate maintainer strings
+   * packages/services/Telecomm/
+a37bc474 Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/packages/services/Telecomm into HEAD
+d80ac6b8 Merge remote-tracking branch 'derp/ten' into HEAD
+
+   * packages/services/Telephony/
+95ca3b41d Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/packages/services/Telephony into ten
 
    * system/core/
-b99050198 Add cpu set for audio app
-5c16cef7e sched_policy: add audio cpuset for audio app
-ebc6cecb7 Reapply QC blkio cgroup support value adds using new task_profiles
+4c0ce0513 Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/system/core into HEAD
 
-   * vendor/MiuiCamera/
-1d31f9b Update ANXCamera to V170
+   * system/sepolicy/
+e8939084 Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/system/sepolicy into ten
 
-====================
-     02-21-2020
-====================
-
-
-   * device/xiaomi/cepheus/
-ee956519 cepheus: Remove PL init
-afd45bc4 cepheus: CPU Input Boost controls our minimum Frequencies
-13acd0b1 cepheus: We set CPUSET in Kernel
-9a71bd1a cepheus: Set read ahead to 128KB
-1d1271d0 cepheus: Add support for doze auto brightness
-3160bf8b cepheus: overlay: enable software navigations method explicitly
-0853a315 cepheus : Enable support for pocket mode
-f6152795 cepheus: Add libfastcvadsp.so
-90c19e40 cepheus: Add missing DRM Blobs
-
-   * frameworks/base/
-39b2a3065f6 Force Expanded Notifications [1/2]
-
-   * packages/apps/DerpQuest/
-eb65fe6 DerpQuest: Updated Russian translation
-3aff5a0 Force Expanded Notifications [2/2]
-
-   * vendor/xiaomi/cepheus/
-7a2a7ba cepheus: Add libfastcvadsp.so
+   * system/vold/
+2dc8dfa Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/system/vold into HEAD
 
 ====================
-     02-20-2020
+     03-06-2020
 ====================
 
+   * art/
+545bc4eb6b Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/art into HEAD
 
-   * device/xiaomi/cepheus/
-a336c31e cepheus: overlay: has higher aspect ratio screen
-6967b813 cepheus: Use cepheus as kernel path
+   * bootable/recovery/
+6ed67eec Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/bootable/recovery into HEAD
+
+   * build/blueprint/
+a52ed00 Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/build/blueprint into HEAD
+
+   * frameworks/av/
+97072ef7e Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/frameworks/av into ten
+
+   * frameworks/opt/net/wifi/
+dd71edbe5 Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/frameworks/opt/net/wifi into ten
 
    * kernel/xiaomi/cepheus/
-a1951e3a9e97 defconfig: enable exFAT
-0462244bd20f Import 'fs/exfat'
-5d402fd51efe Merge branch 'kernel.lnx.4.14.r4-rel' of https://github.com/android-linux-stable/msm-4.14 into ten
+d220dc5f3027 arm64: configs: davinci: Enable FQ_CODEL and PIE
+2e74bd704ce3 ANDROID: davinci: enable CONFIG_NET_SCH_NETEM=y
+4be9e5fce2f3 alarmtimer: Add ndelay for tight loop
+f440b3627a74 ipa_v3: Mitigate usleep_range calls
+9dfa3f00c6db power: process: decrease time to enter sleep
+4c05d2a72ad4 msm: kgsl: increase GMU_IDLE_TIMEOUT slightly
+bb02e990f74c fork: queue mmput_async to a highpri workqueue
+9f6f9c4a6f22 kgsl_pwrscale: prevent userspace from changing minfreq
+29620c3122ba cpufreq: schedutil: remove tracing from sugov_update_commit
+b6535eefe105 mmc: disable SPI CRC
+da9b78f8e6af Revert "msm: kgsl: Increase worker thread priority"
+fe24a42031fb msm: adreno_ringbuffer: Don't use link-on-stack
+b71bd6a62c63 lib: Kconfig.debug: Remove debug dependency from SCHED_STACK_END_CHECK
+707dfc235692 Revert "mm/slab_common: Align all caches' objects to hardware cachelines"
+de8d0f2e2c23 kernel: time: reduce ntp wakeups
+1c2194c7c8a6 sched: core: Minimize number of tasks to load balance
+ffd6aa49331a BACKPORT: workqueue: respect isolated cpus when queueing an unbound work
+8d40282ab830 BACKPORT: sched/fair: Load balance aggressively for SCHED_IDLE CPUs
+329b1a509c93 BACKPORT: sched/fair: Make sched-idle CPU selection consistent throughout
+7509d0dd21ac BACKPORT: sched/fair: Fall back to sched-idle CPU if idle CPU isn't found
+1439345503f9 sched/fair.c: Disable WALT CPU/TASK utilization signal
+1fa84952b0c1 add support for verifying page sanitization
+9cae9e221f09 slub: add support for verifying slab sanitization
+4051eec9a963 slub: add basic full slab sanitization
+3c7b6e2d0d88 add a SLAB_HARDENED configuration option
+f0992662f509 add simpler page sanitization
+17ad7f6b5848 defconfig: Enable BPF_JIT and BPF_JIT_ALWAYS_ON
+0c49ed9dfd9d drivers/android: binder: update to android-4.19-q
+4121eafbffac sched/fair: fix misfit with PELT
+4fc5db850f2d Revert "BACKPORT: perf_event: Add support for LSM and SELinux checks"
+c6f4bb7a123f UPSTREAM: selinux: sidtab reverse lookup hash table
+369ed779d063 UPSTREAM: selinux: avoid atomic_t usage in sidtab
+b8d93f1aad00 UPSTREAM: selinux: check sidtab limit before adding a new entry
+b7e87a2b85ed UPSTREAM: selinux: fix context string corruption in convert_context()
+292a0c5ad94a BACKPORT: selinux: overhaul sidtab to fix bug and improve performance
+a8e8e0be1c36 UPSTREAM: selinux: refactor mls_context_to_sid() and make it stricter
+2c71425c033d UPSTREAM: selinux: Cleanup printk logging in services
+05011512e967 UPSTREAM: scsi: ilog2: create truly constant version for sparse
+977bbd6acc4a BACKPORT: selinux: use separate table for initial SID lookup
+d281da0a7b73 UPSTREAM: selinux: make "selinux_policycap_names[]" const char *
+d47a3776ca1a UPSTREAM: selinux: refactor sidtab conversion
+dafb86c5a7b3 BACKPORT: selinux: wrap AVC state
+6f016c47384f UPSTREAM: selinux: wrap selinuxfs state
+12e4f4318f25 UPSTREAM: selinux: rename the {is,set}_enforcing() functions
+0c389bb5d1d9 BACKPORT: selinux: wrap global selinux state
+b690fc8057b0 REVERT "selinux: Relocate ss_initialized and selinux_enforcing to separate 4k"
+3b0899b17f4e UPSTREAM: selinux: Use kmem_cache for hashtab_node
+4dd800d53dd0 BACKPORT: perf_event: Add support for LSM and SELinux checks
+edff3367cb6b Revert "ANDROID: selinux: modify RTM_GETLINK permission"
+9fe9606cbd73 AIO: Don't plug the I/O queue in do_io_submit()
+9058fb2bcaa1 net_sched: Mark qcb as __maybe_unused
+27d40ae6e0e7 drm: msm: kcal: make the userspace module param vars static and use short instead of integers
+bed2e5b0ecee kcal: pie: fix used pcc setup for sde path
+25407aca0af2 drm: msm: kcal: hue, saturation, value and contrast adjustments
+ead17ae93fd6 drm: msm: kcal: export rgb to userspace and clean it up
+42d5436c2cfb kcal: sde_hw: color proc v4: add RGB bias
+5f7d378133ab xfrm interface: fix memory leak on creation
+d3d70b90232f lib: Disable debug_locks
+a64347059b91 Revert "qcacld-3.0: Enable SAE and GCMP by default"
+f17c6d7a6f7f proc: Don't let Google Camera run in the background
+6d0f26e105ec msm: mdss: Don't cache the address of a stack variable
+9d9baf2ac4ff drivers: video: Add bounds checking in fb_cmap_to_user
+a27aaba3e43a msm: mdss: Wait for VSYNC after continuous splash handoff
+0346fc6d0d12 mdss: Update RT priority
+8d2126aa1601 mdss: rotator: Use FIFO kthread for rotator work
+27efa25e29c4 msm: mdss: save state of vsync handler
+2c54b327c4b2 mm: Boost when memory pressure becomes high
+2fb3381dcc83 UPSTREAM: bpf: permit multiple bpf attachments for a single perf event
+c346022b8a03 UPSTREAM: bpf: multi program support for cgroup+bpf
+e870a3f78d43 ANDROID: bpf: validate bpf_func when BPF_JIT is enabled with CFI
+866c8999b76d UPSTREAM: bpf: use the same condition in perf event set/free bpf handler
+eb9c45df0b77 UPSTREAM: perf/core: Fix the address filtering fix
+caa37ed0894f UPSTREAM: perf, pt, coresight: Fix address filters for vmas with non-zero offset
+47a33801a8df BACKPORT: perf: Copy parent's address filter offsets on clone
+859ad551e48b UPSTREAM: perf/core: Fix bad use of igrab()
+461f63ec7271 Revert "selinux: reduce calls to context_struct_to_string()"
+8e91172ee48e selinux: Avoid dynamic memory allocation for small context buffers
+9703439bf315 selinux: don't require auditing
+51bca811c487 drm/sde: sde_fence: reserve cache for fence allocations
+c8e80fd222ac qos: Don't allow userspace to impose restrictions on CPU idle levels
+45422e4570e4 fs: synlink: allocate using kmem_cache
+81cbd0821897 kernfs: Allocating memory for kernfs_iattrs with kmem_cache.
+13e5e99ab454 USB: Revert problematic autosuspend changes
+e6a664decda9 arm64: Honor limits set by boot parameter
+8bc929065749 Set DUN in dm-default_key
+c1c6cdb376b9 net: qrtr: Attempt to linearize skb for forwarding
+fa68a1dbe50c net: qrtr: Handle error from skb_put_padto
+fd94a5e23116 net: qrtr: use alloc_skb_with_frag() in rx path
 
-   * vendor/xiaomi/cepheus/
-756acda cepheus: Add missing DRM Blobs
+   * packages/apps/Nfc/
+9006fd14 Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/packages/apps/Nfc into ten
+
+   * packages/providers/MediaProvider/
+5ddf2ff Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/packages/providers/MediaProvider into HEAD
 
 ====================
-     02-19-2020
+     03-05-2020
 ====================
 
 
    * device/xiaomi/cepheus/
-85685968 cepheus: Set TG Group Link
-b09a8b52 cepheus: Is a phone
-5b5d5209 cepheus: Set Statusbar padding to 16dp
-77728d18 cepheus: Reorganize Overlays
-541d350c cepheus: parts: raise2wake: check proximity before wakeup
-d38cff32 cepheus: parts: add min interval for raise2wake
-cef7ff1a cepheus: parts: Introduce raise to wake gesture
-26e302b4 cepheus: parts: Add local FileUtils
-db54b686 cepheus: parts: Add hifi vector icons
-ff415b93 cepheus: dirac: Prevent failures when toggling
-5b65fe97 cepheus: dirac: Only call setEnabled on boot completed
-69bd2ec5 cepheus: parts: Refactor Dirac setup
-384c8c14 cepheus: parts: Dirac fixes
-49657d50 cepheus: dirac: Fixes for Dirac
-dc26370b cepheus: dirac: Import dirac translations from MIUI
-17da8de5 cepheus: dirac: Refactor dirac strings
-00c1bd32 cepheus: dirac: Add summary for dirac
-2ea57b71 cepheus: dirac: Update Dirac vector icons to MD2 versions
-46976401 cepheus: parts: Add vector icons
-2832b961 cepheus: parts: Follow Android 10 changes on switchbar
-8334cd33 cepheus: Inject doze preference through ia
-e0ddd508 cepheus: Rename some files
-9609f3ec cepheus: irqbalance: do not balance msm_drm and kgsl-3d0 IRQs
-77ab161a cepheus: Import msm irqbalance
-695affaa cepheus: overlay: Update autoBrightness levels
-0b16c67e cepheus: Use Walleye FP for SafetyNet
-74dd107a cepheus: Build kernel with the latest clang possible
-af1da933 Revert "cepheus: Build with GCC"
-88fadba9 DNM: cepheus: Use prebuilt Q dtbo
-01a97f92 cepheus: Set Maintainer Overlay
-e8658d3c cepheus: Add Hotword Enrollment support
-0f47168a cepheus: Allow network use for build process
-8a0037f4 cepheus: Enable TARGET_USES_PREBUILT_CAMERA_SERVICE
-ec1113a0 cepheus: Update init for PELT
-a0a09966 cepheus: Disable google recorder for now
-d32dff1f cepheus: Hide Notch in ANXCamera
-3d29ba9b cepheus: Include customized version of ANX Camera
-
-   * packages/apps/Settings/
-35566ededd Create aosip_strings.xml
-
-   * prebuilts/clang/host/linux-x86/
-d23c69af Update prebuilt Clang to r377782b.
-
-====================
-     02-18-2020
-====================
-
-
-   * device/aosip/sepolicy/
-39844f8 aosip: common: add rules for RGB/HSL accentpicker
-
-   * device/xiaomi/cepheus/
-2ab1235e cepheus: Derp-ify
+595f3ea7c cepheus: Props: enable PSI monitor
+9b80e5fff Revert "cepheus: Import msm irqbalance"
+db7fe0759 cepheus: Update build description to MIUI V11.0.8.0
+d1c74a9de cepheus: parts: move fodscreenoff daemon handling to device parts
+71c38c1ac cepheus: parts: fod: don't enable daemon immediately
+0186d6d5d cepheus: gfscreenoffd: add missing LOG_TAG
+bc9bc7747 cepheus: gfscreenoffd: ignore other ops when screen is already on
 
    * frameworks/base/
-34a11098b2b Refine battery saver footer string
-47c3cf5d5a6 Fix black image wallpaper issue
-2e14a29a60c fonts: adopt for AOSP Font Engine
-0feaf826695 SystemUI: Custom Text Clock Customizations [1/2]
-13728e1721a Improve Lockscreen CustomTextClock Style
-83773fb69b5 Lockscreen Clock Styles: Introduce Q style text clock [1/2]
-b9045442491 Process: Use audio-app cpuset if available
-b265ea833de Update issue templates
-541683b3789 Settings: Add FOD icon picker settings values to backup
-dcb7b81c6ce base: Introduce RGB accenter [1/2]
-64933a3cb46 Use non-wakeup alarm for delay constraint.
-5559452c98f SettingsLib: mutate drawable before tinting for buildBtRainbowDrawable
-15b3f4eaf83 Keyguard: ReInflate views when density or font scale change
-dcc81ca697c base: Use ro.build.date to clear cache dirs on update
-e4a090135eb SettingsLib: Don't show system overlays on apps list
-dab1184e97d Revert "SettingsLib: Don't show system overlays on apps list"
-53973c6c40e fwb: Remove old method for enabling setupwizard overlay
+f7d5c26b0c0 AODTile: disable tile when power save mode is on
+c7259d5b7c0 Resolver: Modernize layout
+2b1b00221c2 Revert "Make resolver list layouts have round corners"
+735fbd5e2a9 Revert "Reland "Apply front scrim to doze pulsing""
+2c6c226dd4d Revert "Fix AoD front scrim being opaque at DOZE_PULSING."
+
+   * frameworks/native/
+0fcccb557 Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/frameworks/native into ten
+
+   * hardware/interfaces/
+ea37b9443 Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/hardware/interfaces into ten
+
+   * kernel/xiaomi/cepheus/
+2e1ae2611fcc defconfig: Enable PSI and disable almk
+
+   * packages/providers/DownloadProvider/
+2d6ecfa2 Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/packages/providers/DownloadProvider into ten
+
+   * system/apex/
+6b785bf Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/system/apex into HEAD
+
+   * vendor/xiaomi/cepheus/
+dadd75e cepheus: Update Blobs from V11.0.8.0
+
+====================
+     03-04-2020
+====================
+
+
+   * manifest/
+349b5dc Manifest for Android 10.0.0 Release 31
+720bca6 Add platform/tools/apifinder
 
    * packages/apps/DerpQuest/
-1cd384b DerpQuest: Update Russian translation
+d60ad6f DerpQuest: Update French translation
+24a7fdd DerpQuest: Removed unused strings in translation files
 
    * packages/apps/Settings/
-09c84d338d Settings: Move RGB accent picker to DerpQuest [1/2]
-81b732b257 Introduce RGB accenter [2/2]
+e8a4f457d3 Settings: Removed unused strings in translation files
+
+====================
+     03-03-2020
+====================
+
+
+   * external/perfetto/
+1046b543 Merge tag 'android-10.0.0_r31' into ten
+
+   * frameworks/base/
+09f2c4c9868 Revert "FODCircleView: disable touch detection on screen off"
+
+   * manifest/
+38f3fdb Manifest for Android 10.0.0 Release 30
+
+   * packages/apps/Contacts/
+c865bafe2 Merge tag 'android-10.0.0_r31' into ten
+
+   * packages/apps/Dialer/
+e2a760fcf Merge tag 'android-10.0.0_r31' into ten
+
+   * packages/apps/DocumentsUI/
+252aea87d Merge tag 'android-10.0.0_r31' into ten
+
+   * packages/apps/OpenDelta/
+6892564 Revert "OpenDelta: add support for OTA of unofficial devices"
+39a0f8f OpenDelta: reset latest full build info after AB update
+128b518 Automatic translation import
+6d46bc3 OpenDelta: add support for OTA of unofficial devices
+4c9aac5 OpenDelta: fix default value for AB performance mode
+8157dba OpenDelta: use correct file name in AB flash notification
+
+   * packages/apps/Settings/
+948118f818 Settings: Add AGPS setting menu.
+
+   * packages/providers/ContactsProvider/
+cc92fd2c Merge tag 'android-10.0.0_r31' into ten
+
+   * platform_testing/
+f5be58d8 Merge tag 'android-10.0.0_r31' into ten
+
+   * vendor/MiuiCamera/
+96a21fa Update ANXCamera to V172
+
+   * vendor/overlay/
+32c3c64 overlay: Nuke accent overlays [3/3]
+
+====================
+     03-02-2020
+====================
+
+
+   * bionic/
+43fe73c50 Implement per-process target SDK version override.
+d1cd6e2e2 bionic: Support wildcards in cached hosts file
+
+   * device/xiaomi/cepheus/
+276d2a387 cepheus: gfscreenoffd: rely startup completely on DeviceKeyHandler
+753bd4197 cepheus: gfscreenoffd: only write fod_status if it was disabled
+11c1fa5e6 cepheus: parts: add settings for fod screen off
+e2838f797 cepheus: parts: add DeviceKeyHandler for FOD Screen Off
+3a2939ca2 cepheus: introduce gfscreenoffd
+
+   * frameworks/base/
+99b6805e5b5 SystemUI: AODTile: Use MD2 Icon
+17f1ac92f56 ChooserActivity: remove ugly separator
+84cc8b386d2 Ims: Add suppport for "Ims Preferred" WFC Preference
+90e1877f358 base: set accent_material_dark to light value
+c24b67063dc base: Nuke accent overlays [1/3] * We have RGB presets now
+ceb4dc264f3 Apply Dark theme changes when screen off only
+4d42d845b1b Updated UiModeManagerService to always trigger configuration change for setNightMode if it is AAE.
+5214e6b7791 Fix Settings creating too many threads unexpectedly
+c8b76428ac1 base: fix TwilightService start and initial location update
+de53ec6c94e Revert "Revert "Remove GPS single shot request""
+52e0b32bfcb base: Perform accent prop set in UiModeManagerService
+
+   * packages/apps/OmniStyle/
+3a03cd5 OmniStyle: hentai-header: fix canvas size issues
+8bbc81a OmniStyle: hentai-header: optimize some images
+1396c16 OmniStyle: bring more hentainess
+5522cbe OmniStyle: extend hentai header pack
+49e5565 OmnyStyle: add hentai header pack
+
+   * packages/apps/ThemePicker/
+b5cb8e1 Revert "ThemePicker: integrate into OwlsNest"
+553c16d ThemePicker: allow full heigth for bottom layout in style option picker
+0dd9854 ThemePicker: Preview Light and Dark mode in Primary screen
+0a23caa ThemeFragment: Don't hide preview on white Accents or primarys
+
+   * packages/services/Telecomm/
+309436b9 Telecomm: Phone ringtone setting for Multi SIM device [3/3]
+e658b5b4 Added features flash-call-on-waiting [2/3]
+405a2a7f Use double vibration on call hang-up
+354128c0 Add back increasing ring feature (1/3).
+b6044e02 Incall vibration options [2/3]
+7a8e1aab Telecomm: Change font on some parts
+
+   * vendor/aosip/
+154bcfc Merge pull request #11 from kailashrs/ten
+6be5230 privapp-permissions: Grant CHANGE_OVERLAY_PACKAGES perm to OmniStyle
+d89fb57 dtbo: Sort the files we found
+52e14b3 tasks: dtbo: Add support for custom dtbo generation rules
 
    * vendor/gapps/
-0a8d88d gapps: Remove TipsPrebuilt
+681e9a0 gapps: Remove GoogleDocumentsUIPrebuilt
+
+   * vendor/overlay/
+a4b6e8e overlay: Seperate Settings exposures from system for primarys
+bc55b61 Notification guts: Adapt to system theme
+0d6f1c3 overlay: PermissionsManager: Fix navbar color when using dark themes
+5de182e overlay: etc: Add Android.mk
 
    * vendor/pixelstyle/
-023e92a pixelstyle: Remove SafetyHubPrebuilt
-
-====================
-     02-17-2020
-====================
-
-
-   * packages/apps/DerpQuest/
-d0f4a7e DerpQuest: Add French translation
-038161e DerpQuest: Custom Text Clock Customizations [2/2]
+52f314f pixelstyle: Remove PixelDocumentsUIGoogleOverlay
 
