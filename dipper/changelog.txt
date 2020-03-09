@@ -1,26 +1,13 @@
 ROM:
-- Added Dark theme scheduling
-- Removed system accents entirely and added RGB accent presets for the picker
-- Added Hentai custom header pack
-- Rmoved ugly separator in ChooserActivity
-- Updated AOD QS tile drawable
-- Allowed full heigth for bottom layout in style option picker
-- Allowed to launch themepicker from app drawer with other launchers
-- Use system fonts at more places
-- Fixed USSD alert dialog theme
-- Added an about page to DerpQuest
-- Fixed navbar color in PermissionsManager when using dark themes
+- Gradients
+- March Sec Patch
 
 DEVICE:
-- Set QCOM_BOARD_PLATFORMS
-- Changed LMKD,more info see device_xiaomi_sdm845-common
-- Disable Data Enceryption
-- Revert "dipper: Set face unlock camera ID"
-- Add display colour configs to overlay
-- Symlink gps.conf from system to vendor
+- Update NoCutoutOverlay configs so that more beautiful when hide notch
+- Add vendor.camera.aux.packagelist in vendor prop
+- Fix dark theme issues
 
-KERNEL:
-- Use LineageOS kernel
-- Use back to Clang9
+VENDOR:
+- Update blobs to V11.0.3.0 QEAMIXM
 
-Fixed some bugs and improved system stability XD 
+*Advise everyone update firmware to Mi8Global V11.0.3.0.QEAMIXM*
