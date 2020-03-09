@@ -2,77 +2,243 @@
  Over-simplified changelog
  for people in a hurry
 
-* Fix random-reboot issues that present on previous build
-* Add option for Edge lighting pulse timeout
-* Several fixes for Settings and System UI
+- Update to March Security Patch (android-10.0.0_r31)
+- Fix Device Parts switchbar issues
+- Fix FOD Screen Off sometimes can't be disabled
+- Migrate to AOSP Files
+- Theme Picker improvements
+- Thermal engine improvements
+- And other misc improvements and bugfix
 
 ====================
-     03-01-2020
+
+
 ====================
-
-
-   * frameworks/base/
-437d99b Apply Dark theme changes when screen off only
-d1469a3 Updated UiModeManagerService to always trigger configuration change for setNightMode if it is AAE.
-7f07de0 Fix Settings creating too many threads unexpectedly
-ff512d7 base: fix TwilightService start and initial location update
-d324c97 Revert "Revert "Remove GPS single shot request""
-aadb143 base: Perform accent prop set in UiModeManagerService
-b33ac1d Dark theme twilight mode backend and tile
-1533c9c Make smart actions icon to respect dark theme setting
-ff1ce4f SystemUI: add timeout for ambient notification pulse [1/2]
-168b7e7 base: add setting for clamp min auto screen brightness [1/2]
-
-   * kernel/xiaomi/raphael/
-0601990 android: binder: fix compilation on 4.14
-ae9394e1 drivers/android: binder: update to android-4.19-q
-3628a80 drm/msm: do not notify events when the system is shutting down
-307a13f drm/msm: minimize qos remap updates
-e52b620 drm/msm/sde: Cache register values when performing clock control
-6c1e3ef drm/msm/dsi-staging: allow physical power-off
-428aa2d blk: disable IO_STAT completely
-e00d3c2 Merge branch 'kernel.lnx.4.14.r4-rel' of https://github.com/android-linux-stable/msm-4.14
-9276a86 Merge tag 'LE.UM.3.3.2-06600-SDX55' of https://source.codeaurora.org/quic/la/kernel/msm-4.14
-95045e2 Revert "thermal: core: use qcom drm notifier"
-5811f17 drivers: goodix_ta: don't send test input during irq gpio
-99e3949 fingerprint: goodix_ta: checkout to 3ffeab41c076
-7df8c2e drivers: goodix_ts: nuke unnecessary core data fields
-27de88b drivers: goodix_ts: silence event bit reports
-f8ed0ab goodix_ts: convert milliseconds to jiffies properly
-5a6ca88 goodix_ts: drop non-standard logging override
-155fa8d goodix_driver_gt9886: Remove testing bits
-5800c43 goodix_driver_gt9886: rip out Xiaomi touchscreen wrapper code
-1ce4f34 drivers: goodix_ts: checkout to 050f41938fea
-9b68f52 Revert "Revert "drivers: video: apply backlight event notifier changes""
-616f6f5 Revert "drm: msm: extend qcom drm notifier"
-18705f5 Revert "linux: msm_drm_notify: initialize MSM_DRM_BLANK_UNBLANK"
-09f161f Revert "linux: msm_drm_notify: add missing boolean"
-d2e9c0b Revert "drm: msm: dsi_drm: use qcom drm notifier"
-dd5a94f Revert "drm: msm: dsi_panel: use qcom drm notifier"
-
-   * manifest/
-82c272c Merge pull request #2 from MASTERGUY/ten
-193d099 manifest: Added our own xda thread
-
-   * packages/apps/DerpQuest/
-a8edebd OmniGears: add aod notification pulse timeout option [2/2]
+     03-08-2020
+====================
 
    * packages/apps/Settings/
-0aa31f5 wifi: Remove Qr Code scanner during Modify Network option.
-8b34b7d Notification log improvements
-a9dd031 Expose the notification log
-c1c0ef1 Add feature provider for face unlock
-ca05b1a Fix Settings crash when clicks Notifications
-ccd999a Always use local timezone for parsing date
-c9c5882 Fix "Skip lock screen" not working for secondary user
-994e1eb Fix the MMS messages toggle preference not working
-010840a Fix Settings creating too many threads unexpectedly
-25c75d1 Revert "Remove attention controller"
-2d35025 Revert "Update attention string"
-7843e70 Settings: create and set the DarkUI pref controller in DisplaySettings too
-cd9437f Dark theme settings activity
-5168cf4 Dark theme drop down does not show selected option
-35844ab Battery saver mode should disable dark mode modification
-16e8392 Revert "Revert "Add settings for scheduling dark theme""
-46c1ccf Add a dark theme slice
-bdfe027 Settings: add setting for clamp min auto screen brightness [2/2]
+376261e Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/packages/apps/Settings into ten
+
+   * device/generic/goldfish/
+9cf803e Merge tag 'android-10.0.0_r31' into lineage-17.1-android-10.0.0_r31
+
+   * device/xiaomi/raphael/
+7e20971 raphael: parts: Fix dark theme issues
+578092b Revert "raphael: parts: Follow Android 10 changes on switchbar"
+a1a3966 raphael: Use USB audio policy configuration from AOSP
+
+   * frameworks/base/
+639b279 lib/androidfw: Fix reversed logic
+ce99044 [frameworks][base] move -Wno-implicit-fallthrough from cflags to cppflags
+3d06c33 fw/b torch: Let long press power turn torch off when screen is on.
+5f6009c Pad ime_switcher same as navbar buttons
+
+   * hardware/qcom/audio/
+722c28c Merge tag 'android-10.0.0_r31' into lineage-17.1-android-10.0.0_r31
+
+   * hardware/qcom/display/
+d18dd5f Merge tag 'android-10.0.0_r31' into lineage-17.1-android-10.0.0_r31
+
+   * hardware/qcom/media/
+e484f0e Merge tag 'android-10.0.0_r31' into lineage-17.1-android-10.0.0_r31
+
+   * packages/apps/DerpQuest/
+0a056e7 DerpQuest: Update Italian translation
+
+====================
+     03-06-2020
+====================
+
+
+   * build/make/
+e42d93d Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/build into ten
+
+   * build/soong/
+7227d32 Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/build/soong into HEAD
+
+   * development/
+7998677 Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/development into HEAD
+
+   * device/xiaomi/raphael/
+f89e09d raphael: Enable vibration multiple intensities
+ece2b99 raphael: sepolicy: label gfscreenoffd
+
+   * frameworks/av/
+97072ef Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/frameworks/av into ten
+
+   * frameworks/base/
+c9d19d6 Revert "Remove keyguard_indication_area_overlay"
+af6fcd3 Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/frameworks/base into ten
+d887fdb Revert "SystemUI: block gestural navigation when using partial screenshot"
+4df8656 Revert "SystemUI: implement better partial screenshot"
+
+   * frameworks/opt/net/wifi/
+dd71edb Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/frameworks/opt/net/wifi into ten
+
+   * frameworks/opt/telephony/
+5ecff34 Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/frameworks/opt/telephony into HEAD
+
+   * hardware/libhardware/
+f716ee8 Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/hardware/libhardware into HEAD
+
+   * manifest/
+e652008 Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/manifest into ten
+0f6d1ec Initial tracking for DerpFest
+
+   * packages/apps/Bluetooth/
+f382d0d Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/packages/apps/Bluetooth into ten
+
+   * packages/apps/CarrierConfig/
+12ca1d7 Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/packages/apps/CarrierConfig into HEAD
+
+   * packages/apps/CellBroadcastReceiver/
+51921e4 Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/packages/apps/CellBroadcastReceiver into HEAD
+
+   * packages/apps/CertInstaller/
+c01555f Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/packages/apps/CertInstaller into HEAD
+
+   * packages/apps/Nfc/
+9006fd1 Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/packages/apps/Nfc into ten
+
+   * packages/apps/PhoneCommon/
+4df87cd Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/packages/apps/PhoneCommon into HEAD
+
+   * packages/apps/ThemePicker/
+e2ac2ba Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/packages/apps/ThemePicker into ten
+
+   * packages/apps/WallpaperPicker2/
+498f182 Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/packages/apps/WallpaperPicker2 into HEAD
+
+   * packages/inputmethods/LatinIME/
+4277b4e Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/packages/inputmethods/LatinIME into HEAD
+
+   * packages/providers/MediaProvider/
+5ddf2ff Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/packages/providers/MediaProvider into HEAD
+
+   * packages/services/Telecomm/
+a37bc47 Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/packages/services/Telecomm into HEAD
+d80ac6b Merge remote-tracking branch 'derp/ten' into HEAD
+
+   * packages/services/Telephony/
+95ca3b4 Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/packages/services/Telephony into ten
+
+   * system/core/
+4c0ce05 Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/system/core into HEAD
+
+   * system/sepolicy/
+e893908 Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/system/sepolicy into ten
+
+   * system/vold/
+2dc8dfa Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/system/vold into HEAD
+
+====================
+     03-05-2020
+====================
+
+   * art/
+545bc4e Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/art into HEAD
+
+   * bootable/recovery/
+6ed67ee Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/bootable/recovery into HEAD
+
+   * build/blueprint/
+a52ed00 Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/build/blueprint into HEAD
+
+   * device/xiaomi/raphael/
+98682ab raphael: gfscreenoffd: optimize listener
+eda062d raphael: gfscreenoffd: skip time checking on first touch
+0cd2aab raphael: gfscreenoffd: simplify touchscreen searching
+
+   * frameworks/native/
+0fcccb5 Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/frameworks/native into ten
+
+   * hardware/interfaces/
+ea37b94 Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/hardware/interfaces into ten
+
+   * packages/providers/DownloadProvider/
+2d6ecfa Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/packages/providers/DownloadProvider into ten
+
+====================
+     03-04-2020
+====================
+
+
+   * device/xiaomi/raphael/
+e386805 raphael: parts: merge FodScreenOffService into existing FodService
+97da2f8 raphael: parts: move fodscreenoff daemon handling to device parts
+
+   * frameworks/base/
+f7d5c26 AODTile: disable tile when power save mode is on
+c7259d5 Resolver: Modernize layout
+2b1b002 Revert "Make resolver list layouts have round corners"
+735fbd5 Revert "Reland "Apply front scrim to doze pulsing""
+2c6c226 Revert "Fix AoD front scrim being opaque at DOZE_PULSING."
+
+   * manifest/
+349b5dc Manifest for Android 10.0.0 Release 31
+
+   * system/apex/
+6b785bf Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/system/apex into HEAD
+
+====================
+     03-03-2020
+====================
+
+
+   * device/xiaomi/raphael/
+4d11997 raphael: parts: fod: don't enable daemon immediately
+b3810ac raphael: gfscreenoffd: add missing LOG_TAG
+462ddd1 raphael: gfscreenoffd: ignore other ops when screen is already on
+
+   * frameworks/base/
+09f2c4c Revert "FODCircleView: disable touch detection on screen off"
+
+   * manifest/
+720bca6 Add platform/tools/apifinder
+
+   * packages/apps/DerpQuest/
+d60ad6f DerpQuest: Update French translation
+24a7fdd DerpQuest: Removed unused strings in translation files
+
+   * packages/apps/OpenDelta/
+6892564 Revert "OpenDelta: add support for OTA of unofficial devices"
+39a0f8f OpenDelta: reset latest full build info after AB update
+128b518 Automatic translation import
+6d46bc3 OpenDelta: add support for OTA of unofficial devices
+4c9aac5 OpenDelta: fix default value for AB performance mode
+8157dba OpenDelta: use correct file name in AB flash notification
+
+   * packages/apps/Settings/
+e8a4f45 Settings: Removed unused strings in translation files
+948118f Settings: Add AGPS setting menu.
+
+====================
+     03-02-2020
+====================
+
+
+   * external/perfetto/
+1046b54 Merge tag 'android-10.0.0_r31' into ten
+
+   * manifest/
+38f3fdb Manifest for Android 10.0.0 Release 30
+
+   * packages/apps/Contacts/
+c865baf Merge tag 'android-10.0.0_r31' into ten
+
+   * packages/apps/Dialer/
+e2a760f Merge tag 'android-10.0.0_r31' into ten
+
+   * packages/apps/DocumentsUI/
+252aea8 Merge tag 'android-10.0.0_r31' into ten
+
+   * packages/providers/ContactsProvider/
+cc92fd2 Merge tag 'android-10.0.0_r31' into ten
+
+   * platform_testing/
+f5be58d Merge tag 'android-10.0.0_r31' into ten
+
+   * vendor/aosip/
+154bcfc Merge pull request #11 from kailashrs/ten
+6be5230 privapp-permissions: Grant CHANGE_OVERLAY_PACKAGES perm to OmniStyle
