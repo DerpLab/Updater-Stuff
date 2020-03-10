@@ -1,0 +1,23 @@
+Changelog:
+- merge march Security patch r31
+- Support signature spoofing
+- Caf kernel Compiled with clang 10.4
+- Use older isp driver to fix Gcam focus issue
+- Added global CHG_MIN to 1500mA
+- Merge Caf Tag LA.UM.8.6.r1-04000-89xx.0 into kernel
+- Merge Wlan/prima Tag LA.UM.8.6.r1-04000-89xx.0 into kernel
+- overlay: Set default hotspot name Redmi 4X
+- Add google autofill service as default
+- Fix audio recording
+- add pixelsounds in non-gapps build
+- Add Netflix-Specific prop For HD Playback (test rich ppl)
+- Update DICM from LA.UM.8.6.r1-04000-89xx.0
+- add memory optimization tweak
+- Add FPS info overlay
+- Update CarrierConfig overlay from LA.UM.8.6.r1-02900-89xx.0
+- Update port-bridge from LA.UM.8.6.r1-02600-89xx.0 
+- Update DRM/Widevine/TEE from LA.UM.8.6.r1-02600-89xx.0 
+- Add Spectrum Support
+- Import Xiaomi Add-on
+- UI should be more smooth
+- Add lmkd props
