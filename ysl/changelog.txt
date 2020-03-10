@@ -1,12 +1,16 @@
 Device Side Changes
-- Enabled VoWifi
-- Added Xiaomi Doze
-- Fixed App Loading Time
-- Added MIUI Camera
-- Increase Touch Boost Duration
-- Updated GPS Stuff
+- Added Sound Gain In XiaomiParts
+- Added USB Fast Charge Option
+- Added FPS Overlay Option In XiaomiParts
+- Added CACertApp 
+- Updated Few IMS Blobs
 
 Rom Side Changes
+- Merged March Security Patch (r31)
+- Let long press power turn torch off when screen is on
+- Added AGPS setting menu
+- Added Portuguesean translation to TypeClock
+- Updated French and Italian translations
 - Added back gesture haptic feedback toggle
 - Improved QS detail view layout
 - Improved AOD QS tile (states and longclick added)
