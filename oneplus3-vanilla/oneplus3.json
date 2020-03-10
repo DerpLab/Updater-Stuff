@@ -1,8 +1,10 @@
 {
   "response": [
     {
-     "datetime": 1582442015,
-     "filename": "DerpFest-10-Official-oneplus3-20200223-VANILLA.zip"
+     "datetime": 1583779517,
+     "filename": "DerpFest-10-Official-oneplus3-20200309-VANILLA.zip",
+     "url": "https://master.dl.sourceforge.net/project/derpfest/oneplus3-vanilla/DerpFest-10-Official-oneplus3-20200309-VANILLA.zip",
+     "md5url": "https://master.dl.sourceforge.net/project/derpfest/oneplus3-vanilla/DerpFest-10-Official-oneplus3-20200309-VANILLA.zip.md5sum"
     }
   ]
 }
