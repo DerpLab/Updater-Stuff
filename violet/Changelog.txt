@@ -1,7 +1,15 @@
 ====================
-     02-21-2020
+     03-10-2020
 ====================
 
+ • violet: Merged March Security Patch
+ • violet: Merged Kernel Tag into 4.14.172
+ • violet: Upstream Full Kernel From Pe
+ • violet: Added FPS overlay
+ • violet: Update Build Fingerprint to March patch
+ • violet: Enable VoLTE/VoWIFI IDEA
+ • violet: Enable vibration multiple intensities
+ • violet: Added some Ram Tweaks && Added LMKD props
  • violet: rootdir: Import tunables/cpusets from coral
  • violet: Import SchedTune tuning from b4s4
  • violet: rootdir: Stop configuring read ahead from post_boot
