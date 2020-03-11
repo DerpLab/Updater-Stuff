@@ -1,20 +1,9 @@
-Weekly Changelog -
-
-- Added Screen Stabilization QS tile with menu
-- Added Custom Text Clock customizations to Lockscreen clock styles
-- Added Anaheim font
-- Fonts are now applied to more elements
-- Added option to block IME space for back gesture
-- Added RGB accenter
-- Added Customizable FOD Icons, scanlight, and Animations
-- Fixed Lawnchair crash on boot
-- Live captions: Have it follow system accent / fix up navbar
-- Don't hide preview on white Accents or primarys
-- Preview Light and Dark mode in Primary screen
-- Removed SafetyHub and Pixeltips prebuilt
-- Fixed screenshot sound switch
-- Some more fixes under the hood
-
-Device Changelog
-- blink led fast fixed now
-- source sync
+▪️Changelog
+• Removed Dirac
+• Merged March Security Patch (r31)
+• Intoduced Gradient RGB picker (Device specific)
+• Let long press power turn torch off when screen is on
+• Added AGPS setting menu
+• Added Portuguesean translation to TypeClock
+• Updated French and Italian translations
+• Source sync
