@@ -2,12 +2,10 @@
   "response": [
     {
       "datetime": 1583147799,
-      "filename": "DerpFest-10-Official-mido-20200302.zip",
-      "id": "9096cce8f8500993708d593083331501",
-      "romtype": "Official",
-      "size": 1452114715,
-      "url": "https://sourceforge.net/projects/derpfest10/files/Gapps/DerpFest-10-Official-mido-20200302.zip/download",
-      "version": "10"
+      "filename": "DerpFest-10-Official-mido-20200312.zip",
+      "id": "4d61192ff1ce5d49ae6f2f5946f404e0",
+      "url": "https://sourceforge.net/projects/derpfest/files/Mido/Gapps/DerpFest-10-Official-mido-20200312.zip/download",
     }
   ]
 }
+

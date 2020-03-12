@@ -1,0 +1,27 @@
+Rom Changelog -
+- Merged March Security Patch (r31)
+- Let long press power turn torch off when screen is on
+- Added AGPS setting menu
+- Added Portuguesean translation to TypeClock
+- Updated French and Italian translations
+
+Device changelog
+- Goodix fingerprint fixed 
+(speacial thanks to zeelog and @GiaSen)
+- Fixed Settings search bar 
+- Fixed system lag 
+- Fixed Nav bar now no need to reboot 
+- Default hotspot name change to Derpfest_mido
+- Fixed audio recording 
+- Update some Hotspot config
+- Enable AOSP bluetooth audio HAL v2
+- Enable haptic text cursor
+- Update port-bridge
+- Remove Dolby formats by default
+- Update some overlay
+- Force enable mobile network settings v2
+- Build with Derpfest_Mido kernel
+(This is pure caf fx by Rafiester i just change the 
+name with his permission now dont say that i kang it 
+lol)
+
