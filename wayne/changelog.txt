@@ -1,0 +1,200 @@
+====================
+     03-13-2020
+====================
+
+
+   * prebuilts/gcc/linux-x86/aarch64/aarch64-elf/
+811a3bc Import GCC 9.3, binutils 2.34
+
+====================
+     03-12-2020
+====================
+
+
+   * frameworks/base/
+a455d86fb6e SystemUI: fix order of init in keyguard indication
+0a33babc734 AndroidManifest: add a permission group for signature spoofing
+d0bc5843462 Adjust QS tile background and icon color + make qs tile icon smaller by 1dp + reduce qs tile vertical margin @idoybh (DerpFest) edits: Make it work with the switch introduced in: 3472eab234a465e0a95c8f42fdf8dc74d50921ee
+9a016a4bf7d QS tile label: tint it with accent color and use bolder font @idoybh (DerpFest) edits: Make it toggleable by the switch introduced in: 3472eab234a465e0a95c8f42fdf8dc74d50921ee
+388f89f4a59 base: Add full accent sammy clock style [1/2] * And properly document selection
+2187db38d12 base: Settings: Backup LS clock & date styles values
+
+   * packages/apps/DerpQuest/
+17e822a DerpQuest: Update Italian translation
+f5eaa83 DerpQuest: Add full accent sammy clock style [2/2]
+
+   * vendor/aosip/
+e88bd26 apns-conf.xml: fix APN for tre.dk.
+
+====================
+     03-11-2020
+====================
+
+
+   * frameworks/base/
+3472eab234a SystemUI: Add a toggle for the new QS tint [1/2] @idoybh (DerpFest) edits: Use current SettingsObserver
+341e8733b2a SystemUI: Tint QSTile icon with accent color
+
+   * packages/apps/DerpQuest/
+35ee3f3 Evolution: Add a toggle for the new QS tint [2/2]
+
+   * packages/apps/OpenDelta/
+a9068ea OpenDelta: Changelog is generated with capital C
+
+====================
+     03-10-2020
+====================
+
+
+   * frameworks/base/
+0b1c1326e08 base: Add Portuguesean traslation to TypeClock @idoybh edits: fix the hell out of the xml file
+
+   * vendor/qcom/opensource/audio/
+343077c Merge tag 'LA.UM.8.1.r1-14300-sm8150.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/audio into lineage-17.1
+
+   * vendor/qcom/opensource/power/
+b575759 Add power hints for FHD480 and HD960
+
+====================
+     03-09-2020
+====================
+
+
+====================
+     03-08-2020
+====================
+
+
+   * device/generic/goldfish/
+9cf803e Merge tag 'android-10.0.0_r31' into lineage-17.1-android-10.0.0_r31
+
+   * external/p7zip/
+6f674e4 p7zip: Enforce large files support
+
+   * hardware/qcom-caf/msm8996/audio/
+102e042c8 Merge tag 'LA.UM.8.6.r1-04000-89xx.0' of https://source.codeaurora.org/quic/la/platform/hardware/qcom/audio into lineage-17.1-caf-msm8996
+e33f77662 audio: Fix flac offload not working
+
+   * hardware/qcom-caf/msm8996/media/
+b07da4411 Merge tag 'LA.UM.8.6.r1-04000-89xx.0' of https://source.codeaurora.org/quic/la/platform/hardware/qcom/media into lineage-17.1-caf-msm8996
+
+   * hardware/qcom-caf/msm8998/audio/
+007fe16c8 Merge tag 'LA.UM.8.4.r1-05200-8x98.0' of https://source.codeaurora.org/quic/la/platform/hardware/qcom/audio into lineage-17.1-caf-msm8998
+
+   * hardware/qcom-caf/msm8998/media/
+7d9631d63 Merge tag 'LA.UM.8.4.r1-05200-8x98.0' of https://source.codeaurora.org/quic/la/platform/hardware/qcom/media into lineage-17.1-caf-msm8998
+
+   * hardware/qcom-caf/thermal/
+8c677b6 Merge tag 'LA.UM.8.1.r1-14300-sm8150.0' of https://source.codeaurora.org/quic/la/platform/hardware/qcom/thermal into lineage-17.1
+
+   * hardware/qcom-caf/wlan/
+bcc083a Merge tag 'LA.UM.8.1.r1-14300-sm8150.0' of https://source.codeaurora.org/quic/la/platform/hardware/qcom/wlan into lineage-17.1
+
+   * hardware/qcom/audio/
+722c28c23 Merge tag 'android-10.0.0_r31' into lineage-17.1-android-10.0.0_r31
+
+   * hardware/qcom/display/
+d18dd5fe7 Merge tag 'android-10.0.0_r31' into lineage-17.1-android-10.0.0_r31
+
+   * hardware/qcom/media/
+e484f0ede Merge tag 'android-10.0.0_r31' into lineage-17.1-android-10.0.0_r31
+
+   * packages/apps/DerpQuest/
+0a056e7 DerpQuest: Update Italian translation
+
+   * packages/apps/Settings/
+376261eb15 Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/packages/apps/Settings into ten
+
+   * vendor/qcom/opensource/data-ipa-cfg-mgr/
+109aa1e Merge tag 'LA.UM.8.1.r1-14300-sm8150.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/data-ipa-cfg-mgr into lineage-17.1
+
+   * vendor/qcom/opensource/dataservices/
+4293129 Merge tag 'LA.UM.8.1.r1-14300-sm8150.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/dataservices into lineage-17.1
+
+   * vendor/qcom/opensource/fm-commonsys/
+c6f6bde Merge tag 'LA.UM.8.1.r1-14300-sm8150.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/fm-commonsys into lineage-17.1
+
+   * vendor/qcom/opensource/power/
+00f8db4 power: add core ctl and io power changes to powerhal
+fb30af8 power: Add powerhints for QVR use-cases
+85c7adc Power: update powerhal settings
+74887e8 power : Modified APC freqency of lito for R2
+338920c Power:Add powerhints to camera and VR
+
+   * vendor/qcom/opensource/thermal-engine/
+84005fb Merge tag 'LA.UM.8.1.r1-14300-sm8150.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/thermal-engine into lineage-17.1
+
+====================
+     03-07-2020
+====================
+
+
+   * build/make/
+e42d93daf Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/build into ten
+
+   * build/soong/
+7227d328 Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/build/soong into HEAD
+
+   * development/
+79986770b Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/development into HEAD
+
+   * frameworks/base/
+639b279e78f lib/androidfw: Fix reversed logic
+ce99044c0b4 [frameworks][base] move -Wno-implicit-fallthrough from cflags to cppflags
+3d06c333af5 fw/b torch: Let long press power turn torch off when screen is on.
+5f6009c034f Pad ime_switcher same as navbar buttons
+c9d19d6b90a Revert "Remove keyguard_indication_area_overlay"
+af6fcd36202 Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/frameworks/base into ten
+d887fdb90f8 Revert "SystemUI: block gestural navigation when using partial screenshot"
+4df86561ba3 Revert "SystemUI: implement better partial screenshot"
+
+   * frameworks/opt/telephony/
+5ecff34d1 Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/frameworks/opt/telephony into HEAD
+
+   * hardware/libhardware/
+f716ee83 Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/hardware/libhardware into HEAD
+
+   * manifest/
+e652008 Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/manifest into ten
+0f6d1ec Initial tracking for DerpFest
+
+   * packages/apps/Bluetooth/
+f382d0d4 Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/packages/apps/Bluetooth into ten
+
+   * packages/apps/CarrierConfig/
+12ca1d7 Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/packages/apps/CarrierConfig into HEAD
+
+   * packages/apps/CellBroadcastReceiver/
+51921e41 Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/packages/apps/CellBroadcastReceiver into HEAD
+
+   * packages/apps/CertInstaller/
+c01555f Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/packages/apps/CertInstaller into HEAD
+
+   * packages/apps/PhoneCommon/
+4df87cd Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/packages/apps/PhoneCommon into HEAD
+
+   * packages/apps/ThemePicker/
+e2ac2ba Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/packages/apps/ThemePicker into ten
+
+   * packages/apps/WallpaperPicker2/
+498f182 Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/packages/apps/WallpaperPicker2 into HEAD
+
+   * packages/inputmethods/LatinIME/
+4277b4e9c Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/packages/inputmethods/LatinIME into HEAD
+
+   * packages/services/Telecomm/
+a37bc474 Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/packages/services/Telecomm into HEAD
+d80ac6b8 Merge remote-tracking branch 'derp/ten' into HEAD
+
+   * packages/services/Telephony/
+95ca3b41d Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/packages/services/Telephony into ten
+
+   * system/core/
+4c0ce0513 Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/system/core into HEAD
+
+   * system/sepolicy/
+e8939084 Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/system/sepolicy into ten
+
+   * system/vold/
+2dc8dfa Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/system/vold into HEAD
+
