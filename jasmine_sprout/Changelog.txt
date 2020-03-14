@@ -1,45 +1,38 @@
-######################
-##  ROM  CHANGELOG  ##
-######################
-- Added Dark theme scheduling
-- Removed system accents entirely and added RGB accent presets for the picker
-- Added Hentai custom header pack
-- Rmoved ugly separator in ChooserActivity
-- Updated AOD QS tile drawable
-- Allowed full heigth for bottom layout in style option picker
-- Allowed to launch themepicker from app drawer with other launchers
-- Use system fonts at more places
-- Fixed USSD alert dialog theme
-- Added an about page to DerpQuest
-- Fixed navbar color in PermissionsManager when using dark themes
-- torch: Let long press power turn torch off when screen is on.
-- Merge tag 'android-10.0.0_r31'
-- OpenDelta improvements
-
+(14/03/20)
 ######################
 ## DEVICE CHANGELOG ##
 ######################
-- staging: sync: Add a function to check if a fence has been signaled
-- msm: kgsl: Don't try to wait for fences that have been signaled
-- msm: kgsl: Don't allocate memory dynamically for drawobj sync structs
-- ALSA: control_compat: Don't dynamically allocate single-use structs
-- iommu: arm-smmu: Free pgtbl ops when domain contexts are destroyed
-- dmaengine: Fix memory leak in dma_async_device_register
-- mbcache2: Speed up cache entry creation
-- scatterlist: Don't allocate sg lists using __get_free_page
-- ext4: Allocate allocation-context on the stack
-- msm: kgsl: Avoid dynamically allocating small command buffers
-- kernfs: Avoid dynamic memory allocation for small write buffers
-- selinux: Avoid dynamic memory allocation for small context buffers
-- msm: kgsl: Don't allocate memory dynamically for temp command buffers
-- msm: camera: Optimize memory allocation for small buffers
-- media: v4l2-ioctl: Use larger on-stack video copy buffers
-- binfmt_elf: Don't allocate memory dynamically in load_elf_binary
-- xattr: Avoid dynamically allocating memory in getxattr
-- ext4: Avoid dynamically allocating memory in ext4_ext_remove_space
-- ANDROID: crypto: heh - Avoid dynamically allocating memory for keys
-- ion: system_heap: Speed up system heap allocations
-- kobject_uevent: Allocate environment buffer on the stack
-- ANDROID: sdcardfs: Allocate temporary name buffer on the stack
-- Merge 4.4.215 into kernel.lnx.4.4.r38-rel
-- Modified EM
+sdm660-common: Update Graphics (SDM) from LA.UM.8.2.r1-06200-sdm660.0
+sdm660-common: Update Blobs from LA.UM.8.2.r1-05700-sdm660.0
+sdm660-common: Address audio related default_prop denial
+sdm660-common: sepolicy: Adjust for lavender dt2w node
+sdm660-common: sepolicy: Add more /persist related contexts to toolbox rules
+sdm660-common: sepolicy: Drop unnecessary rule
+sdm660-common: Force restorecon for /mnt/vendor/persist
+sdm660: prop: We don't have dual isp camera
+Merge 4.4.216 into kernel.lnx.4.4.r38-rel
+f2fs: clean up rapid gc
+f2fs: use a seperate mutex for setting wakelock
+f2fs: Fix absolute jiffy duration in write uncongestion timeout
+f2fs: unlock wakelock properly when f2fs_stop_rapid_gc() is called
+f2fs: catch a global wakelock instead of per gc_kthread
+f2fs: improve naming schemes for rapid GC
+f2fs: convert wakelock APIs to wakeup_source
+f2fs: mark gc_threads() functions as static
+ARM: dts: msm: fix energy costs for SDM660
+
+######################
+##  ROM  CHANGELOG  ##
+######################
+SystemUI: fix order of init in keyguard indication
+DerpQuest: dashboard icons redesign
+Adjust QS tile background and icon color + make qs tile icon smaller by 1dp + reduce qs tile vertical margin @idoybh (DerpFest) edits: Make it work with the switch introduced in: 3472eab234a465e0a95c8f42fdf8dc74d50921ee
+QS tile label: tint it with accent color and use bolder font @idoybh (DerpFest) edits: Make it toggleable by the switch introduced in: 3472eab234a465e0a95c8f42fdf8dc74d50921ee
+base: Add full accent sammy clock style [1/2] * And properly document selection
+base: Settings: Backup LS clock & date styles values
+DerpQuest: Update Italian translation
+DerpQuest: Add full accent sammy clock style
+SystemUI: Add a toggle for the new QS tint [1/2] @idoybh (DerpFest) edits: Use current SettingsObserver
+SystemUI: Tint QSTile icon with accent color
+Evolution: Add a toggle for the new QS tint [2/2]
+base: Add Portuguesean traslation to TypeClock
