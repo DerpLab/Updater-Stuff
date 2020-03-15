@@ -1,6 +1,12 @@
-AOSiP DerpFest 04-03-2020 Changelog:
-* update vendor blobs 11.0.2.0Q
-* new kernel
-* fix random reboots
-* fix battery drain
-* sync 04.03.2020 derpfest repo
+DerpFest 14-03-2020 MI 9 SE
+Changelog: 
+* update vendor blobs
+* update kernel drivers 
+* fix freezes 
+* add mi sound 
+* scanning fod when the screen is off, thanks to @okitavera 
+* imported some caf tree edits 
+* some edits of the tree, thanks to @faust93 * Android 10_r31
+* sync derp 14.03.2020 repo
+* pixel_smurfutil gov
+* powerprofile changes
