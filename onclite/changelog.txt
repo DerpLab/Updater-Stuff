@@ -1,7 +1,8 @@
 ChangeLogs :
 - Synced Rom Source
-- March Security Patch
-- March coral FingerPrint
-- Fix UI Lags
-- Add Netflix-Specific prop
+- Added Xiaomi Parts
+- Added Notch Killer Overlay
+- Filter and remap display modes
+- Adjust doze brightness automatically
+- Fixed Mic Issue
 - Some Other Fixes and improvement
