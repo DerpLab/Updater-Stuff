@@ -1,13 +1,18 @@
 ROM:
-- Gradients
-- March Sec Patch
+- Add Matlog
+- Update translations
+- QS tint mode
+- And more what idk LeL,more info check this week's changelog on official website
 
 DEVICE:
-- Update NoCutoutOverlay configs so that more beautiful when hide notch
-- Add vendor.camera.aux.packagelist in vendor prop
-- Fix dark theme issues
+- Show more icons when hide notch
+
+KERNEL:
+- Use Simple-Kernel (so Network traffic display works now)
+- Use Clang10
 
 VENDOR:
-- Update blobs to V11.0.3.0 QEAMIXM
+- Update blobs to 20.3.12 (Latest)
 
-*Advise everyone update firmware to Mi8Global V11.0.3.0.QEAMIXM*
+Btw no need for update firmware. Choose if update firmware yourself.
+Can't install the ROM with latest, so prepare another firmware. (Use latest weekly firmware can boot)
