@@ -1,0 +1,19 @@
+- Add Accent-tinted QS Style option
+- Add FPS Counter QS tile
+- Add full accent sammy clock widget style
+- chaldeakernel: Several display panel improvements
+- chaldeakernel: Update to Linux Stable 4.14.173
+- FOD HAL Implementation updates
+- Include MatLog (logcat reader) for bug reporting tools
+- Optimize chaldeavoid's thermal controller routines
+- Rename hentaiheader to ecchiheader (to fix boomers confusion)
+- Rework DerpQuest Dashboard Icons
+- Several translation updates
+- Update ANXCamera to v172 (DarkDampSquib's vendor tree)
+- Update CarrierConfig from violet
+
+... and many other stuff that perhaps I miss.
+For more detailed information about the actual code changes and authorship, check out
+* ROM Source: https://github.com/DerpLab
+* Device Tree: https://github.com/DerpFest-Devices/device_xiaomi_raphael
+* Kernel Source: https://github.com/Chaldeastudio/chaldea_kernel_xiaomi_sm8150
