@@ -1,18 +1,13 @@
-- Add Accent-tinted QS Style option
-- Add FPS Counter QS tile
-- Add full accent sammy clock widget style
-- chaldeakernel: Several display panel improvements
-- chaldeakernel: Update to Linux Stable 4.14.173
-- FOD HAL Implementation updates
-- Include MatLog (logcat reader) for bug reporting tools
-- Optimize chaldeavoid's thermal controller routines
-- Rename hentaiheader to ecchiheader (to fix boomers confusion)
-- Rework DerpQuest Dashboard Icons
-- Several translation updates
-- Update ANXCamera to v172 (DarkDampSquib's vendor tree)
-- Update CarrierConfig from violet
+2020-03-18 Critical Update
 
-... and many other stuff that perhaps I miss.
+- Fix high thermal issues that present in previous build
+- Fix CPU load issues caused by screen off FOD
+- Fixups previous ecchi header naming changes
+- Full-rebase kernel on top of iMMENSITY 2020/03/17 [HEAD:e10a892]
+- In-display Fingerprint improvement on the SystemUI implementation
+- Fix APN Missing Issues
+- Add Brazilian Portuguese translation on DerpQuest, Settings, and Theme Picker
+
 For more detailed information about the actual code changes and authorship, check out
 * ROM Source: https://github.com/DerpLab
 * Device Tree: https://github.com/DerpFest-Devices/device_xiaomi_raphael
