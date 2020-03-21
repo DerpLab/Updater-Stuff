@@ -1,0 +1,25 @@
+Devicde Changelog:
+
+[20-Mar-2020]
+1: Reverted FB to previous state.
+2: Fixed lock/ambient screen batter bar overlaping on FP.
+
+
+[19-Mar-2020]
+1: Enable vibration strength overlat (Settings > accessibility > Vibration & haptic strength)
+2: Upadates vendor to latest stable OOS.
+3: Updates OP prebuilts (Camera,Gallery, Etc)
+4: Removed gradients accent. (WaWas creating weird UI issues)
+5: Fixed reboot to recovery bug.
+6: There are few improvements in lockscreen screen FP. Other colors are working but on above 75% brightness,
+7: Enabled AOSP Color profile overay.
+8: Updated TWRP prebuilt 
+Few other improvements and fixed related to battery. 
+
+[19-Mar-2020]
+Derpfest Changelog:
+- Merged March Security Patch (r31)
+- Let long press power turn torch off when screen is on
+- Added AGPS setting menu
+- Added Portuguesean translation to TypeClock
+- Updated French and Italian translations
