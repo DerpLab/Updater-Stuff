@@ -1,18 +1,19 @@
 ROM:
-- Add Matlog
-- Update translations
-- QS tint mode
-- And more what idk LeL,more info check this week's changelog on official website
+- Update Brazilian Portuguese and Chinese translation
 
 DEVICE:
-- Show more icons when hide notch
+- Switch to brightness model from Sargo
+- Add built-in firmware
+- New splash screen
+- Switch to cortex-a75 TARGET_CPU_VARIANT
+- Use armv8-2a for primary arch
+- Add priv-app sepolicy
+- Remove firmware version checker
 
 KERNEL:
-- Use Simple-Kernel (so Network traffic display works now)
-- Use Clang10
+- Use back to LineageOS kernel aaaagain
+- Use clang9 for building kernel
+- Set SELinux to permissive
 
-VENDOR:
-- Update blobs to 20.3.12 (Latest)
-
-Btw no need for update firmware. Choose if update firmware yourself.
-Can't install the ROM with latest, so prepare another firmware. (Use latest weekly firmware can boot)
+BUG:
+- Automatic brightness doesn't work again
