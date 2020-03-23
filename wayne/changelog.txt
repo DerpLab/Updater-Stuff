@@ -1,16 +1,45 @@
 ====================
-     03-17-2020
+     03-22-2020
+====================
+
+
+====================
+     03-21-2020
+====================
+
+
+====================
+     03-20-2020
+====================
+
+
+   * frameworks/base/
+07e899e base: Make sure media artwork blur restored radius value is valid
+
+====================
+     03-19-2020
+====================
+
+
+====================
+     03-18-2020
 ====================
 
 
    * packages/apps/DerpQuest/
-d41f09c DerpQuest: Add Brazilian Portuguese translation
+4480e47 DerpQuest: Add Vietnamese translation
+ecb6a56 DerpQuest: Update Chinese translation
 
-   * packages/apps/Settings/
-2c928d1 Settings: Add Brazilian Portuguese translation
+====================
+     03-17-2020
+====================
 
-   * packages/apps/ThemePicker/
-cf3fb5d ThemePicker: Add Brazilian Portuguese translation
+
+   * build/make/
+3f031a6 mainline.mk: This shouldn't be here
+
+   * prebuilts/clang/host/linux-x86/
+f2bb48d Update prebuilt Clang to r377782c.
 
 ====================
      03-16-2020
@@ -26,91 +55,12 @@ cf3fb5d ThemePicker: Add Brazilian Portuguese translation
    * hardware/qcom-caf/sm8150/media/
 3f74f6e Merge tag 'LA.UM.8.1.r1-14500-sm8150.0' of https://source.codeaurora.org/quic/la/platform/hardware/qcom/media into HEAD
 
-====================
-     03-15-2020
-====================
-
-
-   * bionic/
-13d7a25 [3/3] bionic: add syslog_read perms for matlog
-
-   * hardware/qcom-caf/msm8998/audio/
-5dcabd2 hal: Remove property violating property isolation
-
-   * hardware/qcom-caf/sm8150/display/
-0225c7b Merge tag 'LA.UM.8.1.r1-14500-sm8150.0' of https://source.codeaurora.org/quic/la/platform/hardware/qcom/display into HEAD
-
-   * manifest/
-b2a7a6c manifest: Track Matlog from Omnirom
-
-   * system/sepolicy/
-79d6016 [2/3] sepolicy: add syslog_read perms for matlog
-
-   * vendor/aosip/
-3bda5e5 [1/3] vendor: add syslog_read perms for matlog
-4cc63f8 vendor: Build MatLog
-
-====================
-     03-14-2020
-====================
-
-
-   * frameworks/base/
-a8dd9c6 base: Update Brazilian Portuguese translation
-71d525e SystemUI: fix notification light pulse for repeating notifications
-4e750dc SystemUI: Tint active qs tile expand indicator with accent color
-c3b3b2e QSTile: tint second line of active tile as well
-c886d9b SystemUI: fix order of init in keyguard indication
-239a8ca AndroidManifest: add a permission group for signature spoofing
-7d936c6 Adjust QS tile background and icon color + make qs tile icon smaller by 1dp + reduce qs tile vertical margin @idoybh (DerpFest) edits: Make it work with the switch introduced in: 3472eab234a465e0a95c8f42fdf8dc74d50921ee
-8a66de5 QS tile label: tint it with accent color and use bolder font @idoybh (DerpFest) edits: Make it toggleable by the switch introduced in: 3472eab234a465e0a95c8f42fdf8dc74d50921ee
-9836a24 base: Add full accent sammy clock style [1/2] * And properly document selection
-
    * packages/apps/DerpQuest/
-34b1ce1 DerpQuest: Update Polish translation
-e462c2b DerpQuest: dashboard icons redesign
-f6e6835 DerpQuest: Update Italian translation
-3c7f91b DerpQuest: Add full accent sammy clock style [2/2]
+d41f09c DerpQuest: Add Brazilian Portuguese translation
 
-====================
-     03-13-2020
-====================
+   * packages/apps/Settings/
+2c928d1 Settings: Add Brazilian Portuguese translation
 
-
-   * prebuilts/gcc/linux-x86/aarch64/aarch64-elf/
-811a3bc Import GCC 9.3, binutils 2.34
-
-====================
-     03-12-2020
-====================
-
-
-====================
-     03-11-2020
-====================
-
-
-   * frameworks/base/
-2187db3 base: Settings: Backup LS clock & date styles values
-
-   * hardware/qcom-caf/sm8150/media/
-5817ded msmnile: Update performance values.
-
-   * vendor/aosip/
-e88bd26 apns-conf.xml: fix APN for tre.dk.
-
-====================
-     03-10-2020
-====================
-
-
-   * frameworks/base/
-3472eab SystemUI: Add a toggle for the new QS tint [1/2] @idoybh (DerpFest) edits: Use current SettingsObserver
-341e873 SystemUI: Tint QSTile icon with accent color
-
-   * packages/apps/DerpQuest/
-35ee3f3 Evolution: Add a toggle for the new QS tint [2/2]
-
-   * packages/apps/OpenDelta/
-a9068ea OpenDelta: Changelog is generated with capital C
+   * packages/apps/ThemePicker/
+cf3fb5d ThemePicker: Add Brazilian Portuguese translation
 
