@@ -1,0 +1,369 @@
+====================
+     03-23-2020
+====================
+
+
+   * device/xiaomi/cepheus/
+3e1c3c9d4 Revert "DNM: cepheus: Use prebuilt Q dtbo"
+
+   * frameworks/base/
+60490e7aec7 base: Update Greek translation (#9)
+
+   * kernel/xiaomi/cepheus/
+e7ff63cfcfbd Revert "kernel: Add API to mark IRQs and kthreads as performance critical"
+b976a929a88d Revert "Revert "Revert "msm: kgsl: Use event workqueue for event work instead of RT Kthread worker"""
+127c2d6a58d8 Revert "msm: kgsl: Mark IRQ and worker thread as performance critical"
+86c62a3d5246 Revert "kernel: cpu: [un/re]affine perf critical IRQs while holding cpu_maps lock"
+7474c68beef7 Revert "kernel: cpu: disallow taking down first cores of clusters"
+9a2a7ba3efa0 slimbug: Mark dev as maybe unused in ngd_allocbw
+a48cffad6649 msm: pcie: Remove pcie_dev definition in msm_pcie_fixup_early
+1712a57f7d67 mmc: sdio:Fix -Wstrlcpy-strlcat-size warning
+d3852a90bf5f workqueue: remove unneeded kallsyms include
+37e38ac6b11b workqueue: Use lockdep to assert IRQs are disabled/enabled
+11f3cd28d73d workqueue: Fix comment for unbound workqueue's attrbutes
+5942584bf60a locking/atomics, workqueue: Convert ACCESS_ONCE() to READ_ONCE()/WRITE_ONCE()
+7761a79cf830 sched/completions: Add support for initializing completions with lockdep_map
+7e03dd41c161 devfreq: update sample_ms tunnable store function
+a7d345c98106 ion: remove references to dmabuf->name
+16dad2d2a4d8 memlat: don't read perf event if other CPU is under scm call
+ebef53130f8c scsi: ufs: Fix IOCTL error checking for input buffer
+9058bbdbdc14 ufshcd: show bogus clkscale_enable even if it's not supported
+559128fc42e2 sched/topology: Enable EAS on SMP systems also
+be9f869539b7 UPSTREAM: sched/topology: Add SD_ASYM_CPUCAPACITY flag detection
+b8153e96b318 ANDROID: kernel: cgroup: cpuset: Clear cpus_requested for empty buf
+ff8b5de51d68 ANDROID: kernel: cgroup: cpuset: Add missing allocation of cpus_requested in alloc_trial_cpuset
+c51e7f195a54 cgroup: Use rcu_work instead of explicit rcu and work item
+0f03a1d1b3fb fs/aio: Use rcu_work instead of explicit rcu and work item
+b7aeb381957f RCU, workqueue: Implement rcu_work
+7460218d73c9 crypto: msm: qce50: Fix warning -Wbool-operation
+
+   * packages/apps/DerpQuest/
+2239436 DerpQuest: Add Greek translation
+
+   * packages/apps/Settings/
+785131a25d Settings: Add greek translation
+
+   * vendor/aosip/
+cb6d173 privapp-permissions: Grant READ_LOGS perm to Matlog (#12)
+
+====================
+     03-22-2020
+====================
+
+
+   * kernel/xiaomi/cepheus/
+3b513aa46795 ARM64: dts: disable phy regulator if datarate is below 1200000000bps
+d50701ca5c3c ARM64: dts: add back drivers controlling gpio states
+7698d04f5844 ARM64: dts: merge to phy poweroff
+65db570776e1 ARM64: dts: disable second gpu thermal zone
+31af7fc7839e ARM64: dts: disable pcie
+8efabd061e04 ARM64: dts: further cleanup
+1f9113da13b2 Revert "regulator: qpnp-lcdb: add voltage reading fix"
+d762a0e789d9 ARM64: dts: disable lcdb regulator control
+d9b6cfab5c39 drm: msm: allow brightness updates during fod hbm
+2767c9e960b1 ARM64: boot: dts: disable dc dimming during fod hbm commands
+addcfe1e5506 ARM64: boot: dts: move fod hbm commands to their proper place
+cbf47e482052 defconfig: Regenerate
+
+====================
+     03-21-2020
+====================
+
+
+   * frameworks/base/
+07e899ec4ef base: Make sure media artwork blur restored radius value is valid
+
+   * kernel/xiaomi/cepheus/
+62ac548d0565 smb5-lib: fix usb typec and pd compliance issues
+a06e6d3e357f smb5-lib: fixed charging current low when reboot with typec
+2b7a51d334ea [FIXUP] 9de93eb ("selinux: Avoid dynamic memory allocation for small context buffers")
+79786b7ce1c8 defconfig: Disable PSI and enable SLMK
+8bd4aec57cc5 mm: vmpressure: Don't cache the window size
+0f5ec5c9fcd9 mm: vmpressure: Interpret zero scanned pages as 100% pressure
+86fca1947d36 mm: vmpressure: Don't exclude any allocation types
+2bd9d7e93563 simple_lmk: Update adj targeting for Android 10
+224e9481b7a6 simple_lmk: Use vmpressure notifier to trigger kills
+b17d058cff32 mm: Stop kswapd early when nothing's waiting for it to free pages
+928dfa7817bf simple_lmk: Include swap memory usage in the size of victims
+4c5070f1ede6 simple_lmk: Relax memory barriers and clean up some styling
+66cbde5ad675 simple_lmk: Place victims onto SCHED_RR
+6edd938e12f9 simple_lmk: Add a timeout to stop waiting for victims to die
+c3e69060e773 simple_lmk: Ignore tasks that won't free memory
+1b79fee4d1c7 simple_lmk: Simplify tricks used to speed up the death process
+10a8c014c530 simple_lmk: Report mm as freed as soon as exit_mmap() finishes
+358157dc8124 simple_lmk: Mark victim thread group with TIF_MEMDIE
+5a8c1ac32148 simple_lmk: Disable OOM killer when Simple LMK is enabled
+d33ed265b227 simple_lmk: Print a message when there are no processes to kill
+438ccf87623f simple_lmk: Remove compat cruft not specific to 4.14
+36b2b8bec1e1 simple_lmk: Update copyright to 2020
+6e8be004be28 simple_lmk: Don't queue up new reclaim requests during reclaim
+f521ec29bb63 simple_lmk: Increase default minfree value
+fc03d451f19d simple_lmk: Clean up some code style nitpicks
+33334eeaca00 simple_lmk: Make reclaim deterministic
+429823d5324c simple_lmk: Fix broken multicopy atomicity for victims_to_kill
+4cc7c76833b5 simple_lmk: Use proper atomic_* operations where needed
+abeb6fec8c8c simple_lmk: Remove kthread_should_stop() exit condition
+7da22a2e3ccd simple_lmk: Fix pages_found calculation
+f8e5cfb634f3 simple_lmk: Introduce Simple Low Memory Killer for Android
+4a5f848f0e91 ARM64: dts: sm8150-gpu: use iommu_unmap_fast
+2f6e0974cf54 msm: kgsl: Change default pagetable creation sequence
+290f92cdcff5 kernel: sched: fix cpu cpu_capacity_orig being capped incorrectly
+c77080425505 sched/fair: Fix excessive packing on the max capacity CPU
+15000eebc37c sched/fair: Fix incorrect CPU access in check_for_migration()
+296331075b00 sched/fair: Derive the downmigration margin wrt the destination CPU
+fe6461aa5f5c Schedtune assist: raise the top-app boost to 10 Needed to reduce the jitter
+fba80bf0998c ion: Consider ion pool pages as indirectly reclaimable
+41692030eabb kernel: cpu: disallow taking down first cores of clusters
+d3b6aa2090ac kernel: cpu: [un/re]affine perf critical IRQs while holding cpu_maps lock
+f6cec4c865c1 msm: kgsl: Mark IRQ and worker thread as performance critical
+24a7fd80df29 Revert "Revert "msm: kgsl: Use event workqueue for event work instead of RT Kthread worker""
+c606b9bb6ff2 kernel: Add API to mark IRQs and kthreads as performance critical
+2006445d091d defconfig: Enable ION_POOL_AUTO_REFILL
+6933670a3d09 ion: msm_ion: Add freeze_late and restore_early callbacks
+faf9b8f02495 ion: Add pm_ops for msm_ion driver
+ace3d846ca08 ion: remove cpu binding of pool refill kthreads
+e113fd881090 ion: enable debugfs for ion heaps
+795a794f7845 staging: android: ion: Bail out upon SIGKILL when allocating memory.
+00180f287c78 ion: skip refilling for order 0 pools
+39b2a2253314 ion: shrink the lower order pools first
+7cdaf0596d16 ion: defer pool refill on low zone watermarks
+7d8c8fe4db5c ion: Implement ion heap pool auto refill
+fe25b3909696 Revert "ion: Consider ion pool pages as indirectly reclaimable"
+66d0a4374c11 ion: system_heap: Speed up system heap allocations
+fcd4814270cd staging: android: ion: Remove unnecessary blank line
+a8a0a83e172f staging: android: Kconfig; Remove excessive hyphens
+50347e1d3f65 staging: android: ion: remove duplicate buffer field initializes
+6a999c556f0a staging: android: ion: Update wording in drivers/staging/android/ion/Kconfig
+88ee23115c20 staging: android: ion: Remove check of idev->debug_root
+76af29cf9e3b staging: android: ion: Remove check of debug_file
+c7dd1550d83b staging: android: ion: Cleanup ion_page_pool_alloc_pages
+67e917288337 staging: android: ion: Return void instead of int
+e350073aacd0 staging: android: ion: Remove dead code in ion_page_pool_free
+231d70e45a17 staging: android: ion: Remove lable debugfs_done
+7c509f555e47 staging: android: ion: Avoid NULL point in error path
+0adf48f88fb5 staging: android: ion: Nuke ion_page_pool_init
+3129eff56306 staging: android: ion: Remove unused include files for ion_page_pool.c
+2eb85dae897d staging: android: ion: Remove unused declaration ion_buffer_fault_user_mappings
+c50d4af38da1 staging: android: check for error from register_shrinker in ion_heap_init_shrinker
+224dd4d8ec18 staging: android: add identifiers to function parameters
+ded6618b69be staging: android: Fix checkpatch.pl error
+91babaebf610 staging: android: Fix checkpatch.pl error
+e1fda53afad8 staging: ion: simplify ioctl args checking function
+63ddad054edd techpack: audio: silence unused variable warnings
+4e82389ea343 mm/page_alloc.c: free order-0 pages through PCP in page_frag_free()
+5ef63fba409b ext4: make __ext4_get_inode_loc plug
+080d937ea898 compat_ioctl: add compat_ptr_ioctl()
+e4831c6f663e random: don't forget compat_ioctl on urandom
+ed5e4020d35a compat_ioctl: remove /dev/random commands
+31658435550f random: try to actively add entropy rather than passively wait for it
+1ff82f60e6f7 random: fix soft lockup when trying to read from an uninitialized blocking pool
+d870d17c34aa random: only read from /dev/random after its pool has received 128 bits
+f204b0b4edda random: remove preempt disabled region
+3f4922a8cf8a random: Fix whitespace pre random-bytes work
+ee8e91487ec1 drivers/char/random.c: remove unused dont_count_entropy
+18e34c6b6ae8 block: fix wrong dun size when merging IOs
+1f84f24dd3f5 block: silently forbid sending any ioctl to a partition
+b142ac7e496f msm: vidc: do not allow queue buffer in flush
+dade80054b5b msm: msm_bus: Never compile debugfs-related code
+02d044365aac msm: msm_bus: Kill transaction logging functionality
+d356f7a2ff26 cpuidle: lpm-levels: Remove debug event logging
+fe4644c29951 writeback: hardcode dirty_expire_centisecs=3000 (30s)
+7b1e684bdfb2 soc: dcc_v2: remove _no_log() usage
+73b499802d39 treewide: remove remaining _no_log() usage
+1671e8d85051 Revert "ARM: msm: add support for logged IO accessors"
+3907d33c8126 Revert "arm64: mm: Log the process id in the rtb"
+98d15c1cb88d Revert "ARM: gic-v3: Log the IRQs in RTB before handling an IRQ"
+aa630887477f Revert "ARM: gic: Add support for logging interrupts in RTB"
+0b717920f332 Revert "trace: rtb: add msm_rtb register tracing feature snapshot"
+acfaf6cc6fc5 Revert "msm: redefine __raw_{read, write}v for RTB"
+4c21ff010e58 Revert "arm64: Prevent msm-rtb tracing in memcpy_{from,to}io and memset_io"
+7baa9d75042c Revert "drivers: GICv3: remove the rtb logs of gic write and read"
+3a3fcddc9ff0 treewide: make every ipc_loggings a no-op
+b969cb6560eb BACKPORT: loop: Add LOOP_SET_BLOCK_SIZE in compat ioctl
+6ce759bfa1e9 ANDROID: defconfig: Disable CONFIG_RT_GROUP_SCHED
+bc458f96a9ce UPSTREAM: Input: reset device timestamp on sync
+4627704a2dd9 UPSTREAM: input: allow drivers specify timestamp for input events
+7eb0196a4045 psi: Use deferrable psi_avgs_work
+be418420ea80 drm/msm: minimize qos remap updates
+ea6c71d2cb1a ICE, pfk: fix to set dio_inode precisely
+72197b2a07c4 BACKPORT: adsprpc: set QoS only to silver cluster
+898a3ad5016b /proc/<pid>/cmdline: remove all the special cases
+c6552327bf36 proc: fix missing final NUL in get_mm_cmdline() rewrite
+45e28af9b1a0 msm: vidc: disable decode batching feature
+a76158c568e1 ANDROID: ext4: avoid log spams in ext4_umount_end
+df28e8f6c377 HID: qvr: Adding numerator and denominator to sensor data
+49db9c817349 HID: qvr: Removing axis orientation
+c48a34b2aea4 drivers: lpm-levels: Use cpu_do_idle for shallower LPM entry
+4a1848404575 drivers: thermal: Avoid trip evaluation for disabled thermal zone
+2995d26fbb7f drivers: msm-poweroff: Restore kaslr offset during hibernation
+c8b915a85d97 net: phy: Add skip sw reset capability
+b48975a7dc75 msm: ipa3: Send actual DL flt rule to Q6
+4033d3c40c8f mhi: core: avoid memset of BHIE registers
+c8844b658f41 ARM: dts: msm: Add a flag to enable TSENS re-init
+7b99f1f06212 ARM: dts: msm: set maximum buffer length to solve malloc failure
+4eb3995cb142 rndis_host: allow packet aggregation
+c9b1635ab1e1 policy_engine: set dual mode writeable for PD device
+f79bca8b45eb Fix QC rebase issue for dual role sysfs access issue
+9cecf05de99c msm: ipa3: Fix to validate the buffer size
+2228071b956a driver/spi: Check spi runtime status before enter suspend.
+d9039b47b777 driver/spi: add spi force resume
+4ed9cf3ed7c6 spi: disable_depth > 0 when pm runtime get sync
+6f1b910c81cf dsi_panel: explicitly enable ULPS mode during suspend
+128982dad736 drm/msm/dsi-staging: enable ULPS
+96633cee2135 drm/msm/dsi-staging: allow physical power-off
+e362c5ccf8f5 drm/msm: do not notify events when the system is shutting down
+0784268280e7 drivers: thermal: Return zero on success for qmi_tmd_send_state_request
+a3fa8505e04a drivers: thermal: step_wise: Clear mitigation on reaching clear threshold
+22a2029e8b34 drivers: thermal: step_wise: Optimize mitigation evaluation
+f9e9d43169bc drivers: thermal: step_wise: Handle the temperature stable trend
+9c8a9c6e20ba Revert "usb: gadget: mtp: Increase RX transfer length to 1M"
+7a1affc261be Revert "usb: gadget: f_mtp: Increase default TX buffer size"
+73fcdb24f469 usb: dwc3: Avoid CLR block DB if run/stop is cleared
+95012a17f00a usb: dwc3: initialize ep0_usb_req.request.dma to avoid crash
+09bff92ee8c4 usb: f_accessory: send uevent for 51,52 requests
+a076b2b4f748 usb: gadget: f_mtp: Optimize usage of read_mutex
+da532ad99851 sched/fair: refine some older changes
+779c4d97e21f sched: use sysctl to control energy aware feature
+689c08200ccb platform: msm: gsi: Correctly allocate memory for copy_from_user
+122eabe7da6a Merge branch 'kernel.lnx.4.14.r4-rel' of https://github.com/android-linux-stable/msm-4.14 into ten
+
+====================
+     03-20-2020
+====================
+
+
+   * kernel/xiaomi/cepheus/
+1c0cab274579 Merge 4.14.174 into kernel.lnx.4.14.r4-rel
+01364dad1d45 Linux 4.14.174
+62a47c2e063e ipv4: ensure rcu_read_lock() in cipso_v4_error()
+992a5c90af04 mm: slub: add missing TID bump in kmem_cache_alloc_bulk()
+3b61a9a65197 ARM: 8958/1: rename missed uaccess .fixup section
+1940bd214aea ARM: 8957/1: VDSO: Match ARMv8 timer in cntvct_functional()
+8419d8e01a6b jbd2: fix data races at struct journal_head
+5930339b092e net: rmnet: fix NULL pointer dereference in rmnet_newlink()
+ebef8d300abe hinic: fix a bug of setting hw_ioctxt
+085e871e8037 slip: not call free_netdev before rtnl_unlock in slip_open
+d8a4a55bdcf5 signal: avoid double atomic counter increments for user accounting
+f4bb37a0f6c5 mac80211: rx: avoid RCU list traversal under mutex
+51425a0d1e47 net: ks8851-ml: Fix IRQ handling and locking
+74f38a3033be net: usb: qmi_wwan: restore mtu min/max values after raw_ip switch
+358e3a57a255 scsi: libfc: free response frame from GPN_ID
+8da8673cbe95 cfg80211: check reg_rule for NULL in handle_channel_custom()
+1d3e7e1be06f HID: i2c-hid: add Trekstor Surfbook E11B to descriptor override
+f098e1a042b7 HID: apple: Add support for recent firmware on Magic Keyboards
+140421867f98 ACPI: watchdog: Allow disabling WDAT at boot
+ba362da15ee2 perf/amd/uncore: Replace manual sampling check with CAP_NO_INTERRUPT flag
+e181bb93c904 batman-adv: Don't schedule OGM for disabled interface
+ca6579b18e79 batman-adv: Avoid free/alloc race when handling OGM buffer
+5427da3add52 batman-adv: Avoid free/alloc race when handling OGM2 buffer
+43340e23e9f6 batman-adv: Fix duplicated OGMs on NETDEV_UP
+da2c2e3c63c6 batman-adv: Fix debugfs path for renamed softif
+33dfa3bf0ec3 batman-adv: Fix debugfs path for renamed hardif
+90ae6475b175 batman-adv: prevent TT request storms by not sending inconsistent TT TLVLs
+98a21317d033 batman-adv: Fix TT sync flags for intermediate TT responses
+6620d5e5d176 batman-adv: Avoid race in TT TVLV allocator helper
+416cada5adab batman-adv: update data pointers after skb_cow()
+78855971878c batman-adv: Fix internal interface indices types
+16e33df6dfa8 batman-adv: Fix lock for ogm cnt access in batadv_iv_ogm_calc_tq
+f0455763b0f4 batman-adv: Fix check of retrieved orig_gw in batadv_v_gw_is_eligible
+1c2139faa923 batman-adv: Always initialize fragment header priority
+c408b35da8ef batman-adv: Avoid spurious warnings from bat_v neigh_cmp implementation
+02f13e4e6823 efi: Add a sanity check to efivar_store_raw()
+5a09fc506075 net/smc: check for valid ib_client_data
+e929f447bea4 ipv6: restrict IPV6_ADDRFORM operation
+5916adba7383 i2c: acpi: put device when verifying client fails
+24de9d8fdd87 iommu/vt-d: Ignore devices with out-of-spec domain number
+3628a53e6cde iommu/vt-d: Fix the wrong printing in RHSA parsing
+a9755e81b69b netfilter: nft_payload: add missing attribute validation for payload csum flags
+94d289a9e813 netfilter: cthelper: add missing attribute validation for cthelper
+66be2d1ab3c6 nl80211: add missing attribute validation for channel switch
+214022646ecf nl80211: add missing attribute validation for beacon report scanning
+1cb937c39c8c nl80211: add missing attribute validation for critical protocol indication
+6f3817634e1d pinctrl: core: Remove extra kref_get which blocks hogs being freed
+217a7c220094 pinctrl: meson-gxl: fix GPIOX sdio pins
+a691dd3d0563 iommu/vt-d: Fix a bug in intel_iommu_iova_to_phys() for huge page
+f680da6339f5 iommu/vt-d: dmar: replace WARN_TAINT with pr_warn + add_taint
+f6efa6116f33 iommu/dma: Fix MSI reservation allocation
+ef0d4fec18b8 x86/mce: Fix logic and comments around MSR_PPIN_CTL
+5c3d354b51be efi: Fix a race and a buffer overflow while reading efivars via sysfs
+b08e88aca8de ARC: define __ALIGN_STR and __ALIGN symbols for ARC
+02cba24f984c KVM: x86: clear stale x86_emulate_ctxt->intercept value
+365851b725f8 gfs2_atomic_open(): fix O_EXCL|O_CREAT handling on cold dcache
+b4ef7d85fe86 cifs_atomic_open(): fix double-put on late allocation failure
+9cc22f086221 ktest: Add timeout for ssh sync testing
+9797798d7d38 drm/amd/display: remove duplicated assignment to grph_obj_type
+48c336253b74 workqueue: don't use wq_select_unbound_cpu() for bound works
+209ac82ca0d7 iommu/vt-d: quirk_ioat_snb_local_iommu: replace WARN_TAINT with pr_warn + add_taint
+81b00ac7528c virtio-blk: fix hw_queue stopped on arbitrary error
+6e9c7d95ee11 iwlwifi: mvm: Do not require PHY_SKU NVM section for 3168 devices
+713f26696c8c cgroup: Iterate tasks that did not finish do_exit()
+b58120a61b25 cgroup: cgroup_procs_next should increase position index
+c07b71b6f377 ipvlan: don't deref eth hdr before checking it's set
+72c457e5a3fe ipvlan: egress mcast packets are not exceptional
+dd18c7005ec4 ipvlan: do not add hardware address of master to its unicast filter list
+e6b382e861bc inet_diag: return classid for all socket types
+d0a5359e5e24 macvlan: add cond_resched() during multicast processing
+daf9c84758b8 net: fec: validate the new settings in fec_enet_set_coalesce()
+e3849fc5a293 slip: make slhc_compress() more robust against malicious packets
+c21c708ca257 bonding/alb: make sure arp header is pulled before accessing it
+ee8cb6a025b7 net: phy: fix MDIO bus PM PHY resuming
+402f86abf2c3 nfc: add missing attribute validation for vendor subcommand
+69f30950da6d nfc: add missing attribute validation for SE API
+41d830acc661 team: add missing attribute validation for array index
+994674f0ef73 team: add missing attribute validation for port ifindex
+2165d304e82c net: fq: add missing attribute validation for orphan mask
+f0247be8076a macsec: add missing attribute validation for port
+13e91bc63dca can: add missing attribute validation for termination
+6fbf53205cd5 nl802154: add missing attribute validation for dev_type
+40ab0c53bc77 nl802154: add missing attribute validation
+47186107f7f2 fib: add missing attribute validation for tun_id
+69b1fc5ce9dd net: memcg: fix lockdep splat in inet_csk_accept()
+357ac1da6e4d net: memcg: late association of sock to memcg
+944f72053415 cgroup: memcg: net: do not associate sock with unrelated cgroup
+e69c7ad48309 bnxt_en: reinitialize IRQs when MTU is modified
+e27f53b37d55 sfc: detach from cb_page in efx_copy_channel()
+9c7cef12efca r8152: check disconnect status after long sleep
+db159fd8e2c7 net/packet: tpacket_rcv: do not increment ring index on drop
+ac07a9a4de59 net: nfc: fix bounds checking bugs on "pipe"
+3f9e0b25fc13 net: macsec: update SCI upon MAC address change.
+d5f90b170386 netlink: Use netlink header as base to calculate bad attribute offset
+7c315855c6f4 ipvlan: do not use cond_resched_rcu() in ipvlan_process_multicast()
+6c5251993d38 ipvlan: add cond_resched_rcu() while processing muticast backlog
+4dcb3398fbb1 ipv6/addrconf: call ipv6_mc_up() for non-Ethernet interface
+31b4b975e3ab gre: fix uninit-value in __iptunnel_pull_header
+81ab17d70bfb cgroup, netclassid: periodically release file_lock on classid updating
+139fe35030c3 net: phy: Avoid multiple suspends
+ffee24cf3053 phy: Revert toggling reset changes.
+
+   * vendor/MiuiCamera/
+dc8a41c Update ANXCamera to V174
+
+====================
+     03-19-2020
+====================
+
+
+   * kernel/xiaomi/cepheus/
+a5554f7a885f fs: block Optimal Mod for Mi 9 again
+ea34a75a03f2 Merge tag 'LA.UM.8.1.r1-14500-sm8150.0' of https://source.codeaurora.org/quic/la/platform/vendor/opensource/audio-kernel into ten
+
+====================
+     03-18-2020
+====================
+
+
+   * build/make/
+3f031a6cc mainline.mk: This shouldn't be here
+
+   * packages/apps/DerpQuest/
+4480e47 DerpQuest: Add Vietnamese translation
+ecb6a56 DerpQuest: Update Chinese translation
+
+====================
+     03-17-2020
+====================
+
+
+   * prebuilts/clang/host/linux-x86/
+f2bb48d6 Update prebuilt Clang to r377782c.
+
