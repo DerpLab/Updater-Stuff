@@ -1,8 +1,12 @@
 ChangeLogs :
-- Synced Rom Source
-- Added Xiaomi Parts
-- Added Notch Killer Overlay
-- Filter and remap display modes
-- Adjust doze brightness automatically
-- Fixed Mic Issue
-- Some Other Fixes and improvement
+-Synced Rom Source
+-New Device Tree
+-SElinux Enforcing
+-Nuked XiaomiParts
+-Support Vi/VoLTE For more Carriers
+-Stock Thermals
+-Upstreamed Kernel 4.9.217
+-Klapse V5.0 with fixes
+-Less Heating While Charging
+-More Smoothness UI
+-Some Fixes , improvement and removing some useless Commits
