@@ -1,12 +1,24 @@
-2020-03-18 Critical Update
+2020-03-25 Update
 
-- Fix high thermal issues that present in previous build
-- Fix CPU load issues caused by screen off FOD
-- Fixups previous ecchi header naming changes
-- Full-rebase kernel on top of iMMENSITY 2020/03/17 [HEAD:e10a892]
-- In-display Fingerprint improvement on the SystemUI implementation
-- Fix APN Missing Issues
-- Add Brazilian Portuguese translation on DerpQuest, Settings, and Theme Picker
+- Implement Settings panel for Wi-Fi, Mobile data, and NFC
+- Fix data usage display on mobile panel
+- Fix Matlog permissions
+- Fix backup-restore media artwork blur radius
+- Fix popup camera sound on silent mode
+- Optimize CPU boost configuration for balance usage
+- Optimize init tuning for PELT usage
+- Setup Pixel-like schedutil's ratelimit
+- Fix readahead being restored by vendor init to the wrong value
+- Update Screen Recorder from H2OS internal beta
+- Translation update (Greek)
+
+Kernel:
+- Update to Linux stable 4.14.174 via Google ACK Merge
+- Merge CAF Tag LE.UM.3.3.2-07100-SDX55 and LA.UM.8.1.r1-14500-sm8150.0
+- Merge CAF Tag LA.UM.8.11.r1-02900-NICOBAR.0 for Wi-Fi, Audio, and Data modules
+- Migrate to PELT and add more scheduler improvements
+- Reset back to latest CAF LMK
+- Apply more fixes for goodix_ta and CAF cpu-boost
 
 For more detailed information about the actual code changes and authorship, check out
 * ROM Source: https://github.com/DerpLab
