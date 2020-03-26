@@ -1,27 +1,46 @@
-Rom Changelog -
-- Merged March Security Patch (r31)
-- Let long press power turn torch off when screen is on
-- Added AGPS setting menu
-- Added Portuguesean translation to TypeClock
-- Updated French and Italian translations
+---------
+Changelog
+---------
+- Added a toggle for the QS tint
+- Improved the qstint then previous build
+- Allowed to backup LS clock & date styles values
+- Added a permission group for signature spoofing
+- Make sure media artwork blur restored radius value is valid
+- Added full accent sammy clock style
+- Brand new colorful and shape adaptable icons under DerpQuest section
+- Added Pt-Br translation of Settings and ThemePicker
+- Added Italian, Polish, Pt-Br, Chinese and Vietnamese DerpQuest translation
 
-Device changelog
-- Goodix fingerprint fixed 
-(speacial thanks to zeelog and @GiaSen)
-- Fixed Settings search bar 
-- Fixed system lag 
-- Fixed Nav bar now no need to reboot 
-- Default hotspot name change to Derpfest_mido
-- Fixed audio recording 
-- Update some Hotspot config
-- Enable AOSP bluetooth audio HAL v2
-- Enable haptic text cursor
-- Update port-bridge
-- Remove Dolby formats by default
-- Update some overlay
-- Force enable mobile network settings v2
-- Build with Derpfest_Mido kernel
-(This is pure caf fx by Rafiester i just change the 
-name with his permission now dont say that i kang it 
-lol)
+---------------
+Device Changelog
+---------------
+- move goodix script service to biometrics init rc
+- Update FM service definition
+- Build LDAC decoder library 
+- Restore dpmd.rc from LA.UM.8.6.r1-03400-89xx.0
+- Update FM 
+- Update blobs 
+- Update CNE 
+- Partial Update RIL/IMS
+- Inject goodix script service in biometrics init rc 
+- Update FM service definition
+- Update WiFi Display from LA.UM.8.6.r1-03400-89xx.0
+- Update time service from LA.UM.8.6.r1-03400-89xx.0 
+- Update thermal blobs from LA.UM.8.6.r1-03400-89xx.0 
+- Update sensors from LA.UM.8.6.r1-03400-89xx.0 
+- Update Power-off Alarm from LA.UM.8.6.r1-03400-89xx.0
+- Update perf blobs/configs from LA.UM.8.6.r1-03400-89xx.0
+- Update Media from LA.UM.8.6.r1-03400-89xx.0
+- Update keystore from LA.UM.8.6.r1-03400-89xx.0 
+- Update Graphics stack from LA.UM.8.6.r1-03400-89xx.0
+- Update GPS from LA.UM.8.6.r1-03400-89xx.0
+- Update Gatekeeper from LA.UM.8.6.r1-03400-89xx.0
+- Update DRM/Widevine from LA.UM.8.6.r1-03400-89xx.0
+- Update CNE from LA.UM.8.6.r1-03400-89xx.0 
+- Update charger from LA.UM.8.6.r1-03400-89xx.0
+- Update Bluetooth from LA.UM.8.6.r1-03400-89xx.0
+- Update Audio/ACDB from LA.UM.8.6.r1-03400-89xx.0 
+- Update ADSP blobs from LA.UM.8.6.r1-03400-89xx.0
+- Removed HD notification from volte
+- Fixed BT calling maybe thanks to @jigen_was_here
 
