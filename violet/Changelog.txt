@@ -1,4 +1,13 @@
 ====================
+      03-26-2020
+====================
+
+• violet: Added Dirac aka Mi Sound Enhancer
+• violet: Fixed Overnight battery Drain issue
+• violet: Merged 4.14.173 into kernel.lnx.4.14.r4-rel
+• violet: Fixed some minor issues
+
+====================
      03-10-2020
 ====================
 
