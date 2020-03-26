@@ -1,0 +1,59 @@
+====================
+     03-26-2020
+====================
+
+
+====================
+     03-25-2020
+====================
+
+
+   * frameworks/base/
+907d2d85481 QS: Add and use Mobile Data panel
+595e53c0531 QS: Use Settings.Panel intents for WiFi and NFC
+
+   * packages/apps/Settings/
+b578bde80c QS panels: fix data usage display on mobile panel
+ac41b89738 QS panels: Improvements
+6d5db55f06 panels: Add Mobile Data panel
+
+====================
+     03-24-2020
+====================
+
+
+   * frameworks/base/
+60490e7aec7 base: Update Greek translation (#9)
+
+   * packages/apps/DerpQuest/
+2239436 DerpQuest: Add Greek translation
+
+   * packages/apps/Settings/
+785131a25d Settings: Add greek translation
+
+====================
+     03-23-2020
+====================
+
+
+   * vendor/aosip/
+cb6d173 privapp-permissions: Grant READ_LOGS perm to Matlog (#12)
+
+====================
+     03-22-2020
+====================
+
+
+====================
+     03-21-2020
+====================
+
+
+   * frameworks/base/
+07e899ec4ef base: Make sure media artwork blur restored radius value is valid
+
+====================
+     03-20-2020
+====================
+
+
