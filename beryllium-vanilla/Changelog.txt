@@ -1,0 +1,7 @@
+- Switched to Optimus Drunk Kernel
+- Updated to latest Optimus Drunk kernel
+- Updated Padding
+- Add Mobile Data Panel
+- Improved QS Panel
+- Fixed Data Usage on Mobile Panel
+- Fix Notification Light Pulse for Repeating Notifications
