@@ -42,5 +42,6 @@ Device Changelog
 - Update Audio/ACDB from LA.UM.8.6.r1-03400-89xx.0 
 - Update ADSP blobs from LA.UM.8.6.r1-03400-89xx.0
 - Removed HD notification from volte
+- Added Xiaomi parts thanks to @smokey_18 @Rafiester
 - Fixed BT calling maybe thanks to @jigen_was_here
 
