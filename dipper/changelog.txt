@@ -1,19 +1,134 @@
-ROM:
-- Update Brazilian Portuguese and Chinese translation
-
 DEVICE:
-- Switch to brightness model from Sargo
-- Add built-in firmware
-- New splash screen
-- Switch to cortex-a75 TARGET_CPU_VARIANT
-- Use armv8-2a for primary arch
-- Add priv-app sepolicy
-- Remove firmware version checker
+- Fix auto brightness
+- Use TARGET_SCREEN_DENSITY
+- Mark as having overridden commands
+- Split system and vendor props
+- Enable HID profile support
+- wifi: Pick config edits from Xiaomi for Q 
+- wifi: Remove TxPower2g and 5g from config file
+- audio: Remove references to misoundfx lib
+- Remove hw_acc effect
+- Add missing fluence prop
 
-KERNEL:
-- Use back to LineageOS kernel aaaagain
-- Use clang9 for building kernel
-- Set SELinux to permissive
+ROM Source:
+====================
+     03-31-2020
+====================
 
-BUG:
-- Automatic brightness doesn't work again
+
+   * frameworks/base/
+64e11e8 SystemUI: simplify qs tile helper
+bef7010 [1/2] SystemUI: change layout of keyguard status slice view
+7232184 QS: Caffeine Tile: Eggtimer
+39e0c3d Revert "Add a one time QS dialog for the caffeine tile"
+f9915eb SystemUI: Port more Assist things from Pixel SystemUI
+9316f74 Revert "Add colors to assistant animation"
+33c3a6a Revert "SystemUI: assist: disable old Assistant animations"
+15583c5 Sanitize Bluetooth device names without regex
+79c7db4 Send battery low intent when battery warning boundary changed
+06cb9f0 SystemUI: Disable heads up debugging on debug builds as well.
+58009f6 SystemUI: Disable heads up debugging on non eng builds
+669a307 Start BiometricService even if no hardware is present
+fdd3a8a SystemUI: Port pixel navigation bar
+22af764 base: add outline style to caffeine qs tile drawable
+2f65d5d DataSwitchTile: Add drawable for No SIM
+1fc67a7 DataSwitchTile: grant missing permission
+d636488 SystemUI: fix binary clock update
+dbabf4c aosipUtils: add statusbarservice
+0672f15 Revert "SystemUI: Enable and fix QS detail view, adapt layout to Pie"
+38c14fa SystemUI: QS blur improvements
+8069b75 QS: Add and use Bluetooth Panel instead of full Settings
+9c63f71 SystemUI: Also use mobile data panel on celular qs tile
+4c563b8 Screenshot: remove white flash if dark mode is enabled
+291ab69 QS: Use Mobile Data panel for CellularTile
+0c37984 Fix derp of 907d2d8548150e4bb9f2f43cd1a27f9b7cd27909
+f916f16 Partially revert 148c1b3efdf1ac8ff3151a55c57d1503c7b0aa30
+30782df QS: Add advanced location tile options
+e9e5c4a WindowManager: Add clearPrivateFlags
+3914ec5 base: Update some icons to MD2
+0fe4ff6 Fix Launcher3 errors due to missing permissions
+81444b7 SystemUI/AndroidManifest.xml: Override authorities for providers
+6bd5f8a base: allow disable of screenshot shutter sound
+a3db232 Partial screenshot block gestures/headsup: code improvements
+30123f4 GlobalScreenshot: do not capture multiple screenshots simultaneously
+4acdc90 Partial screenshot: block gestures and heads up when running
+ed5f063 Partial screenshot: Layout improvements
+
+====================
+     03-30-2020
+====================
+
+
+   * build/make/
+2869685 Do not remove RRO resources
+0e99314 Display progress of system & vendor images when flashing
+e975673 Clean up ROM flash and add DerpFest info
+
+   * external/mksh/
+ae5f5fa mksh: don't use /data/local for TMPDIR in recovery
+
+   * manifest/
+fa9f60e manifest: Track GApps from Derp
+
+   * packages/apps/DerpQuest/
+9f7e88c DerpQuest: Add Greek translation
+
+   * packages/apps/Settings/
+24f5258 Settings: Move DarkUIPreference to theme category
+
+   * packages/apps/ThemePicker/
+866358b Revert "Revert "ThemePicker: integrate into OwlsNest""
+
+   * vendor/aosip/
+10edfa6 prebuilts: Add libstdc++ to libjni_latinimegoogle shared libs
+354678e kernel: Add option for using LLD as linker
+
+   * vendor/gapps/
+472faae gapps: Remove TipsPrebuilt
+
+   * vendor/overlay/
+95ee6b8 [2/2] overlay: change layout of keyguard status slice view
+a95d348 overlays: Add Flame primary
+8bbfa71 themes: Cleanup hardcoded colors and use/overlay AOSP values
+a3a01dd overlay: remove background_floating_device_default_dark exposure
+4f0718b themes: don't hardcode Screenrecord dialog color
+0f9621b overlays: Remove more duplicate exposures
+0db44ba overlays: Remove duplicate exposure for notifications
+
+====================
+     03-29-2020
+====================
+
+
+   * frameworks/base/
+6a02623 SystemUI: implement better partial screenshot
+
+   * packages/apps/OpenDelta/
+54e2430 OpenDelta: Compare build dates only when checking for updates Achieve this by comparing only the date part of the file and not just by removing all chars. Some files have a timpastamp added to their name which pops up a "new" update in some edge cases
+
+   * packages/apps/Settings/
+cf1adf1 Settings: Clean up running services fragment layout
+bfb99ae Settings: panels: Fix pair new device icon
+3cbb40f Settings: panels: Add pair new to BT panel slice
+3f18103 Settings: panels: Add Bluetooth panel
+
+   * vendor/nxp/opensource/sn100x/halimpl/
+e747bcc sn100x: halimpl: ignore autonomous mode writes if the feature is disabled
+
+   * vendor/pixelstyle/
+d2b79f3 pixelstyle: fonts: Use TARGET_COPY_OUT_SYSTEM
+
+====================
+     03-25-2020
+====================
+
+
+   * frameworks/base/
+907d2d8 QS: Add and use Mobile Data panel
+595e53c QS: Use Settings.Panel intents for WiFi and NFC
+
+   * packages/apps/Settings/
+b578bde QS panels: fix data usage display on mobile panel
+ac41b89 QS panels: Improvements
+6d5db55 panels: Add Mobile Data panel
+
