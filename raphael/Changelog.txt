@@ -1,26 +1,29 @@
-2020-03-25 Update
+2020-04-02 update changelog
 
-- Implement Settings panel for Wi-Fi, Mobile data, and NFC
-- Fix data usage display on mobile panel
-- Fix Matlog permissions
-- Fix backup-restore media artwork blur radius
-- Fix popup camera sound on silent mode
-- Optimize CPU boost configuration for balance usage
-- Optimize init tuning for PELT usage
-- Setup Pixel-like schedutil's ratelimit
-- Fix readahead being restored by vendor init to the wrong value
-- Update Screen Recorder from H2OS internal beta
-- Translation update (Greek)
+## ROM and Device-specific sources
+* Migrate to custom vendor (or "OSS" ? you name it)
+  - Support DC Dimming (experimental)
+  - Uses Mi9 FOD (support normalFOD as fallback mechanism if your custom kernel is not supported)
+  - Working Charging LED
+* Optimize Screen off fod power consumption
+* Fix Android Auto
+* Fixup APN issues
+* Fix header padding bug
+* Fix Screen Recorder issues
+* Better partial screenshot
+* And many others improvements
 
-Kernel:
-- Update to Linux stable 4.14.174 via Google ACK Merge
-- Merge CAF Tag LE.UM.3.3.2-07100-SDX55 and LA.UM.8.1.r1-14500-sm8150.0
-- Merge CAF Tag LA.UM.8.11.r1-02900-NICOBAR.0 for Wi-Fi, Audio, and Data modules
-- Migrate to PELT and add more scheduler improvements
-- Reset back to latest CAF LMK
-- Apply more fixes for goodix_ta and CAF cpu-boost
+## Chaldea Kernel
+* Implement DC Dimming (experimental)
+* Migrate to fod_hbm implementation (Mi9 FOD)
+* Merged ION patches from sm8250
+
+## Notes
+* Custom vendor variant, clean flash is a MUST if you comes from non-custom vendor.
+* No camera included, feel free to pick your very own modded GCam.
+* Gapps is included, no vanilla version.
 
 For more detailed information about the actual code changes and authorship, check out
 * ROM Source: https://github.com/DerpLab
 * Device Tree: https://github.com/DerpFest-Devices/device_xiaomi_raphael
-* Kernel Source: https://github.com/Chaldeastudio/chaldea_kernel_xiaomi_sm8150
+* Kernel Source: https://github.com/Chaldeastudio/chaldea_kernel_xiaomi_raphael
