@@ -1,24 +1,227 @@
-DEVICE:
-- Fix auto brightness
-- Use TARGET_SCREEN_DENSITY
-- Mark as having overridden commands
-- Split system and vendor props
-- Enable HID profile support
-- wifi: Pick config edits from Xiaomi for Q 
-- wifi: Remove TxPower2g and 5g from config file
-- audio: Remove references to misoundfx lib
-- Remove hw_acc effect
-- Add missing fluence prop
+====================
+     04-05-2020
+====================
 
-ROM Source:
+
+   * device/xiaomi/dipper/
+c288f3b dipper: Add recovery & FW links overlays
+
+   * device/xiaomi/sdm845-common/
+40d147b sdm845-common: Drop MirrorLink HAL
+43d095a sdm845-common: Add com.motorola.faceunlock package to aux cam list
+5d0f970 sdm845-common: Fix faceunlock denial
+
+   * frameworks/opt/telephony/
+c5de256 Restore getSubIdFromNetworkRequest method
+2acf944 When SPN is empty, use PNN in mobile network settings
+84bdca1 Revert "Split uicc records loading in two groups."
+30ffd7e Revert "Fix data call issue due to improper mnc length"
+f64e2fa Merge tag 'LA.UM.8.1.r1-14300-sm8150.0' of https://source.codeaurora.org/quic/la/platform/frameworks/opt/telephony into ten
+
+   * prebuilts/clang/host/linux-x86/clang-proton/
+65f65a0 Update to 20200404 build
+
+   * scripts/
+ba0e667 scripts: aosp-merger: Rewrite README.md
+b2d263d scripts: aosp-merger: Add a flag to push all remaining staging branches
+
+====================
+     04-04-2020
+====================
+
+
+   * build/make/
+25c46fa build: envsetup: Introduce 'aospremote' function
+
+   * kernel/xiaomi/dipper/
+cde4411 Merge branch 'android-4.9-q' of https://android.googlesource.com/kernel/common into HEAD
+
+   * manifest/
+6447431 manifest: Track scripts repo
+
+   * scripts/
+7acc2f0 scripts: aosp-merger: Add a flag to remove staging branch
+aac70c7 scripts: aosp-merger: Put git push in a function
+367510e scripts: aosp-merger: Save local branches to a file before merging
+7207b99 scripts: aosp-merger: Remove PROJECTOPERATION argument - we always merge
+41ffe75 scripts: aosp-merger: Add and update merge blacklist
+1c9e3b0 scripts: aosp-merger: Reworked the script
+c65e8c0 scripts: Nuke all unneeded scripts
+
+====================
+     04-03-2020
+====================
+
+
+   * frameworks/base/
+1edf46b base: SystemUI: Disable junky LS clock & slice transition animations
+
+   * frameworks/opt/telephony/
+f5dddf4 Fix to block data call request for no change in Data RAT
+1071e4f Use appropriate method to query UiccCard object
+486b317 Reset preferred APN setting after restoring default APNs
+7dcc924 Fix non-roaming overlay not work issue.
+bc33b45 Set service class with SERVICE_CLASS_NONE over CS
+864739b Fix attach issue due to wrong attach apn
+085d2cc Add Null check to getIccId.
+b9f7ad0 MSIM:Fix iccid issue during android upgrade.
+d6feb02 Fix iccid issue during android upgrade.
+42c0223 Emergency Number Implementation for SS & DS
+543210a Telephony: Get SIM card capacity of SMS
+904322f Fix data deactivate issue due to intermediate network requests
+3e6b35b Add check for CSIM application presence
+7baf274 Use tcp buffer values for rat LTE_CA
+0c8896e Fix to release partial wakelock for SRVCC handover.
+6648bd7 Refresh SIM operator numeric for multi-mode SIM
+524a63c Delay intialization of subscription listener
+26b4902 Fix the deregistration which happens soon after registration.
+13ea5d3 Don't unregister supplementary service notification.
+
+   * kernel/xiaomi/dipper/
+8170f2e halls: rewrite to remove userspace dependency
+1caf614 Merge 4.9.218 into android-4.9-q
+a5ad06f Linux 4.9.218
+6d5fd9d perf map: Fix off by one in strncpy() size argument
+fd08eda arm64: alternative: fix build with clang integrated assembler
+8b1d5cd net: ks8851-ml: Fix IO operations, again
+ce7656e bpf: Explicitly memset the bpf_attr structure
+c47de1c vt: vt_ioctl: fix use-after-free in vt_in_use()
+ea9df3c locking/atomic, kref: Add kref_read()
+6bc9bf7 vt: vt_ioctl: fix VT_DISALLOCATE freeing in-use virtual console
+35d6480 vt: vt_ioctl: remove unnecessary console allocation checks
+2e1c84e vt: switch vt_dont_switch to bool
+8c3bc92 vt: ioctl, switch VT_IS_IN_USE and VT_BUSY to inlines
+fc3d6dd vt: selection, introduce vc_is_sel
+2839f7a mac80211: fix authentication with iwlwifi/mvm
+76685e1 mac80211: Check port authorization in the ieee80211_tx_dequeue() case
+8f08a2b media: xirlink_cit: add missing descriptor sanity checks
+be6fdd9 media: stv06xx: add missing descriptor sanity checks
+a1ba881 media: dib0700: fix rc endpoint lookup
+03e73c3 media: ov519: add missing endpoint sanity checks
+696119f libfs: fix infoleak in simple_attr_read()
+482aa95 staging: wlan-ng: fix use-after-free Read in hfa384x_usbin_callback
+eae4e4b staging: wlan-ng: fix ODEBUG bug in prism2sta_disconnect_usb
+8b9ab9f staging: rtl8188eu: Add ASUS USB-N10 Nano B1 to device table
+2236571 media: usbtv: fix control-message timeouts
+d36a039 media: flexcop-usb: fix endpoint sanity check
+edc87d9 usb: musb: fix crash with highmen PIO and usbmon
+a2f1111 USB: serial: io_edgeport: fix slab-out-of-bounds read in edge_interrupt_callback
+4826a0b USB: cdc-acm: restore capability check order
+ce6edbf USB: serial: option: add Wistron Neweb D19Q1
+251acc8 USB: serial: option: add BroadMobi BM806U
+ae1050f USB: serial: option: add support for ASKEY WWHC050
+aae6b58 tools: Let O= makes handle a relative path with -C option
+fbd5896 Input: raydium_i2c_ts - fix error codes in raydium_i2c_boot_trigger()
+9ff4173 Input: raydium_i2c_ts - use true and false for boolean values
+7581565 vti6: Fix memory leak of skb if input policy check fails
+282fd1f netfilter: nft_fwd_netdev: validate family and chain type
+86e98ce xfrm: policy: Fix doulbe free in xfrm_policy_timer
+c2e254e xfrm: add the missing verify_sec_ctx_len check in xfrm_add_acquire
+fa40d12 xfrm: fix uctx len check in verify_sec_ctx_len
+0807f59 vti[6]: fix packet tx through bpf_redirect() in XinY cases
+cc24d74 genirq: Fix reference leaks on irq affinity notifiers
+e52d8af mac80211: mark station unauthorized before key removal
+95b526e scsi: sd: Fix optimal I/O size for devices that change reported values
+8e8ab85 scripts/dtc: Remove redundant YYLOC global declaration
+791b3ea perf probe: Do not depend on dwfl_module_addrsym()
+7ff9fb2 ARM: dts: omap5: Add bus_dma_limit for L3 bus
+35e50a4 ARM: dts: dra7: Add bus_dma_limit for L3 bus
+01d5bf9 i2c: hix5hd2: add missed clk_disable_unprepare in remove
+2f5432e sxgbe: Fix off by one in samsung driver strncpy size arg
+a8351c8 mac80211: Do not send mesh HWMP PREQ if HWMP is disabled
+9509c91 scsi: ipr: Fix softlockup when rescanning devices in petitboot
+4fe8dc0 dt-bindings: net: FMan erratum A050385
+85e8b90 cpupower: avoid multiple definition with gcc -fno-common
+14c137c net: ipv4: don't let PMTU updates increase route MTU
+6be2735 KVM: VMX: Do not allow reexecute_instruction() when skipping MMIO instr
+03e7234 hsr: set .netnsok flag
+c669c93 hsr: add restart routine into hsr_get_node_list()
+9bc97bc hsr: use rcu_read_lock() in hsr_get_node_{list/status}()
+dabbf0e net: mvneta: Fix the case where the last poll did not process all rx
+cc42f98 vxlan: check return value of gro_cells_init()
+a1c9b23 slcan: not call free_netdev before rtnl_unlock in slcan_open
+93b84b9 NFC: fdp: Fix a signedness bug in fdp_nci_send_patch()
+c4453d2 net_sched: keep alloc_hash updated after hash allocation
+97a8e7a net_sched: cls_route: remove the right filter from hashtable
+5e845dc net: dsa: Fix duplicate frames flooded by learning
+52d5891 macsec: restrict to ethernet devices
+a6362a9 hsr: fix general protection fault in hsr_addr_is_self()
+594b060 Revert "drm/dp_mst: Skip validating ports during destruction, just ref"
+0e68b68 staging: greybus: loopback_test: fix potential path truncations
+d444ed6 staging: greybus: loopback_test: fix potential path truncation
+35989bb arm64: smp: fix smp_send_stop() behaviour
+caf4111 ALSA: hda/realtek: Fix pop noise on ALC225
+95c5383 futex: Unbreak futex hashing
+fb099f3b futex: Fix inode life-time issue
+3251c97 kbuild: Disable -Wpointer-to-enum-cast
+8e22289 USB: cdc-acm: fix rounding error in TIOCSSERIAL
+7d09cc7 USB: cdc-acm: fix close_delay and closing_wait units in TIOCSSERIAL
+8c59bdc x86/mm: split vmalloc_sync_all()
+a8a2622 mm, slub: prevent kmalloc_node crashes and memory leaks
+e663542 mm: slub: be more careful about the double cmpxchg of freelist
+62628b8 memcg: fix NULL pointer dereference in __mem_cgroup_usage_unregister_event
+4866ed9 rtc: max8907: add missing select REGMAP_IRQ
+1e99829 intel_th: Fix user-visible error codes
+05f7f08 staging/speakup: fix get_word non-space look-ahead
+7be6822 staging: rtl8188eu: Add device id for MERCUSYS MW150US v2
+bddeb42 mmc: sdhci-of-at91: fix cd-gpios for SAMA5D2
+bc823df iio: magnetometer: ak8974: Fix negative raw values in sysfs
+51d3d67 ALSA: pcm: oss: Remove WARNING from snd_pcm_plug_alloc() checks
+e2edae1 ALSA: pcm: oss: Avoid plugin buffer overflow
+3356e53 ALSA: seq: oss: Fix running status after receiving sysex
+1783ff0 ALSA: seq: virmidi: Fix running status after receiving sysex
+3d53b9e ALSA: line6: Fix endless MIDI read loop
+a07410b USB: serial: pl2303: add device-id for HP LD381
+ad88d8d usb: host: xhci-plat: add a shutdown
+c0bd356 USB: serial: option: add ME910G1 ECM composition 0x110b
+517c81c usb: quirks: add NO_LPM quirk for RTL8153 based ethernet adapters
+55f186f USB: Disable LPM on WD19's Realtek Hub
+95489cb altera-stapl: altera_get_note: prevent write beyond end of 'key'
+108ebbc drm/exynos: dsi: fix workaround for the legacy clock name
+db5cffa drm/exynos: dsi: propagate error value and silence meaningless warning
+3dd8860 spi/zynqmp: remove entry that causes a cs glitch
+99f0be6 ARM: dts: dra7: Add "dma-ranges" property to PCIe RC DT nodes
+30942cd9 powerpc: Include .BTF section
+e0f5fa7 spi: qup: call spi_qup_pm_resume_runtime before suspending
+
+   * manifest/
+c7eb721 manifest: Track proton-clang
+
+   * packages/apps/DerpQuest/
+6887b2e DerpQuest: Set a default header image This solves a padding bug when header image is enabled but not selected
+
+====================
+     04-02-2020
+====================
+
+
+====================
+     04-01-2020
+====================
+
+
+   * device/xiaomi/dipper/
+855e9d7 dipper: Add display colour configs to overlay
+ede062a dipper: Add face unlock cam id property
+2bf08dd dipper: Move system props to product
+
+   * frameworks/base/
+ae5a88e DisplayPolicy: Fix watchdog when adding new display
+
+   * packages/apps/DerpQuest/
+7ec1f89 DerpQuest: Add device specific links support Maintainers should overlay over `about_device_fw_ver` `about_device_fw_link` `about_device_recovery_ver` and `about_device_recovery_link` * Strings contain no value by default and will not show unless overlayed * Version strings should contain a version name that'll be shown in the preference summary (optional) * Link strings should contain full links - recommend using direct download links
+
+   * vendor/overlay/
+2c932b9 Merge pull request #5 from amanrajOO7/ten
+c1aeb1a Overlay: Add OnePlus Dark Primary
+
 ====================
      03-31-2020
 ====================
 
 
    * frameworks/base/
-64e11e8 SystemUI: simplify qs tile helper
-bef7010 [1/2] SystemUI: change layout of keyguard status slice view
+d369d0f SystemUI: simplify qs tile helper
 7232184 QS: Caffeine Tile: Eggtimer
 39e0c3d Revert "Add a one time QS dialog for the caffeine tile"
 f9915eb SystemUI: Port more Assist things from Pixel SystemUI
@@ -54,6 +257,12 @@ a3db232 Partial screenshot block gestures/headsup: code improvements
 4acdc90 Partial screenshot: block gestures and heads up when running
 ed5f063 Partial screenshot: Layout improvements
 
+   * packages/resources/devicesettings/
+0b16352 Automatic translation import
+
+   * vendor/qcom/opensource/fm-commonsys/
+cc7dc91 Automatic translation import
+
 ====================
      03-30-2020
 ====================
@@ -63,6 +272,23 @@ ed5f063 Partial screenshot: Layout improvements
 2869685 Do not remove RRO resources
 0e99314 Display progress of system & vendor images when flashing
 e975673 Clean up ROM flash and add DerpFest info
+
+   * device/xiaomi/dipper/
+44e3961 dipper: Use TARGET_SCREEN_DENSITY
+752b1db dipper: Mark as having overridden commands
+4f209f7 dipper: Split system and vendor props
+363c9da Revert "Revert "dipper: Set face unlock camera ID""
+
+   * device/xiaomi/sdm845-common/
+2fa1047 sdm845-common: Add missing fluence prop
+62a5406 sdm845-common: Move system props to product
+2dcea8c sdm845-common: Split system, odm and vendor props
+7e2e19a sdm845-common: Remove hw_acc effect
+591781f sdm845-common: wifi: Pick config edits from Xiaomi for Q
+448b88a sdm845-common: wifi: Remove TxPower2g and 5g from config file
+53bacf7 sdm845-common: Enable HID profile support
+ef7f83f sdm845-common: audio: Remove references to misoundfx lib
+11d1101 sdm845-common: Enable vendor and system property isolation
 
    * external/mksh/
 ae5f5fa mksh: don't use /data/local for TMPDIR in recovery
@@ -87,48 +313,10 @@ fa9f60e manifest: Track GApps from Derp
 472faae gapps: Remove TipsPrebuilt
 
    * vendor/overlay/
-95ee6b8 [2/2] overlay: change layout of keyguard status slice view
 a95d348 overlays: Add Flame primary
 8bbfa71 themes: Cleanup hardcoded colors and use/overlay AOSP values
 a3a01dd overlay: remove background_floating_device_default_dark exposure
 4f0718b themes: don't hardcode Screenrecord dialog color
 0f9621b overlays: Remove more duplicate exposures
 0db44ba overlays: Remove duplicate exposure for notifications
-
-====================
-     03-29-2020
-====================
-
-
-   * frameworks/base/
-6a02623 SystemUI: implement better partial screenshot
-
-   * packages/apps/OpenDelta/
-54e2430 OpenDelta: Compare build dates only when checking for updates Achieve this by comparing only the date part of the file and not just by removing all chars. Some files have a timpastamp added to their name which pops up a "new" update in some edge cases
-
-   * packages/apps/Settings/
-cf1adf1 Settings: Clean up running services fragment layout
-bfb99ae Settings: panels: Fix pair new device icon
-3cbb40f Settings: panels: Add pair new to BT panel slice
-3f18103 Settings: panels: Add Bluetooth panel
-
-   * vendor/nxp/opensource/sn100x/halimpl/
-e747bcc sn100x: halimpl: ignore autonomous mode writes if the feature is disabled
-
-   * vendor/pixelstyle/
-d2b79f3 pixelstyle: fonts: Use TARGET_COPY_OUT_SYSTEM
-
-====================
-     03-25-2020
-====================
-
-
-   * frameworks/base/
-907d2d8 QS: Add and use Mobile Data panel
-595e53c QS: Use Settings.Panel intents for WiFi and NFC
-
-   * packages/apps/Settings/
-b578bde QS panels: fix data usage display on mobile panel
-ac41b89 QS panels: Improvements
-6d5db55 panels: Add Mobile Data panel
 
