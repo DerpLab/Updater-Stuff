@@ -1,0 +1,59 @@
+Rom ChangeLogs :
+- Fixed system crashing after connected to Android Auto or started screen record
+- OPScreenRecorder: Updated to 2.3.0 (From OP6T OB5)
+- Removed restrictions for system audio record
+- Cleaned up pixel live wallpaper port
+- Updated some qs tile icons to MD2
+- Ported pixel navigation bar
+- Ported more Assist things from Pixel SystemUI
+- QS blur improvements
+- Fixed binary clock update
+- Added Eggtimer to Caffeine tile
+- DataSwitchTile: Added drawable for No SIM
+- Added outline style to caffeine qs tile drawable
+- Added advanced location qs tile options
+- Added new long click QS tiles panel for mobile data, bluetooth, data tile, wifi and nfc
+- Partial screenshot block gestures/headsup: code improvements
+- Fixed screenshot shutter sound toggle
+- Screenshot: Removed white flash if dark mode is enabled
+- Added a toggle for the QS tint
+- Allowed to backup LS clock & date styles values
+- Added a permission group for signature spoofing
+- Make sure media artwork blur restored radius value is valid
+- Added full accent sammy clock style
+- Brand new colorful and shape adaptable icons under DerpQuest section
+- Disabled junky LS clock & slice transition animations
+- Fixed padding bug when header image is enabled but not selected
+- Cleaned up running services fragment layout
+- Added notification log history
+- Brought back pixel layout in qs panel
+- Added Flame primary color
+- Added OnePlus Dark primary color
+- Removed duplicate exposures
+- Cleaned up hardcoded colors and used/overlay AOSP values
+- Added Matlog prebuilt
+- Some more things maybe I can't remember more :P
+
+Device ChangeLogs :
+- FBE Build
+- Kernel Upstreamed To .218
+- under the hood changes in kernel
+- Set Screen Brightness to Adaptive by default
+- 1080 Owl Bootanimation
+- Update Power off alarm blobs from LA.UM.8.6.2.r1-06600-89xx.0
+- Update CnE blobs from LA.UM.8.6.2.r1-06600-89xx.0
+- Update factory version to v2.1
+- Update Latency blobs from LA.UM.8.6.2.r1-06600-89xx.0
+- Update DPM blobs from LA.UM.8.6.2.r1-6600-89xx.0
+- Update DRM stack from LA.UM.8.6.2.r1-06600-89xx.0
+- Update Widevine from daisy-user-10-QKQ1.191002.002-V11.0.2.0.QDLMIXM-release-keys
+- Update Radio stack from LA.UM.8.6.2.r1-06600-89xx.0
+- Update QtiRadio HAL to Version 2.4
+- Update IMS stack from LA.UM.8.6.2.r1-06600-89xx.0
+- Update Peripheral manager stack from LA.UM.8.6.2.r1-06600-89xx.0
+- Update QMI blobs from LA.UM.8.6.2.r1-06600-89xx.0
+- Use dpmserviceapp from daisy-user-10-QKQ1.191002.002-V11.0.2.0.QDLMIXM-release-keys
+- Update Gatekeeper stack from LA.UM.8.6.2.r1-06600-89xx.0
+- Update Keymaster stack from LA.UM.8.6.2.r1-06600-89xx.0
+- Update Qcom TEE stack from LA.UM.8.6.2.r1-06600-89xx.0
+- Update TUI blobs from LA.UM.8.6.2.r1-06600-89xx.0
