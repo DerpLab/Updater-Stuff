@@ -1,0 +1,104 @@
+====================
+     03-28-2020
+====================
+- Added NavBar and gestures by default
+- Added a toggle for the QS tint
+- Improved the qstint then previous build
+- Allowed to backup LS clock & date styles values
+- Added a permission group for signature spoofing
+- Make sure media artwork blur restored radius value is valid
+- Added full accent sammy clock style
+- Brand new colorful and shape adaptable icons under DerpQuest section
+- Added full Greek translation of Settings and SystemUI
+- Added Italian, Polish, Pt-Br, Chinese and Vietnamese DerpQuest translation
+- For this update clean flash needed
+=================
+Device x2 Changelog
+=================
+- Clean flash needed for 03-28-2020 build
+- Added OpenGapps nano as default Gapps
+- Fixed fingerprint response after system restart
+- Build LDAC decoder library 
+- Update blobs 
+- Update CNE 
+- Partial Update RIL/IMS
+- Update WiFi Display from.8.6.r1-03400-89xx.0
+- Update time service from .8.6.r1-03400-89xx.0 
+- Update thermal blobs from.8.6.r1-03400-89xx.0 
+- Update sensors from .8.6.r1-03400-89xx.0 
+- Update Power-off Alarm from .8.6.r1-03400-89xx.0
+- Update perf blobs/configs from .8.6.r1-03400-89xx.0
+- Update Media from .8.6.r1-03400-89xx.0
+- Update keystore from 8.6.r1-03400-89xx.0 
+- Update Graphics stack from .8.6.r1-03400-89xx.0
+- Update GPS from .8.6.r1-03400-89xx.0
+- Update Gatekeeper from .8.6.r1-03400-89xx.0
+- Update DRM/Widevine from .8.6.r1-03400-89xx.0
+- Update CNE from 8.6.r1-03400-89xx.0 
+- Update charger from 8.6.r1-03400-89xx.0
+- Update Bluetooth from .8.6.r1-03400-89xx.0
+- Update Audio/ACDB from .8.6.r1-03400-89xx.0 
+- Update ADSP blobs from .8.6.r1-03400-89xx.0
+- Fixed BT calling maybe thanks to ThE_MarD
+- OTA I think you can update via ota now
+====================
+     03-26-2020
+====================
+LeMax2
+Official build is out
+Updated device tree
+Updated common features
+Updated vendor (bluetooth & sounds)
+Including BlackScreen-7.1
+====================
+     03-25-2020
+====================
+No changes
+====================
+     03-24-2020
+====================
+
+   * frameworks/base/
+907d2d85481 QS: Add and use Mobile Data panel
+595e53c0531 QS: Use Settings.Panel intents for WiFi and NFC
+
+   * packages/apps/Settings/
+b578bde80c QS panels: fix data usage display on mobile panel
+ac41b89738 QS panels: Improvements
+6d5db55f06 panels: Add Mobile Data panel
+
+====================
+     03-23-2020
+====================
+
+
+   * frameworks/base/
+60490e7aec7 base: Update Greek translation (#9)
+
+   * packages/apps/DerpQuest/
+2239436 DerpQuest: Add Greek translation
+
+   * packages/apps/Settings/
+785131a25d Settings: Add greek translation
+
+   * vendor/aosip/
+cb6d173 privapp-permissions: Grant READ_LOGS perm to Matlog (#12)
+
+====================
+     03-22-2020
+====================
+No changes
+
+====================
+     03-21-2020
+====================
+
+
+   * frameworks/base/
+07e899ec4ef base: Make sure media artwork blur restored radius value is valid
+
+====================
+     03-20-2020
+====================
+
+
