@@ -1,26 +1,20 @@
-2020-04-02 update changelog
+2020-04-06 update changelog
 
 ## ROM and Device-specific sources
-* Migrate to custom vendor (or "OSS" ? you name it)
-  - Support DC Dimming (experimental)
-  - Uses Mi9 FOD (support normalFOD as fallback mechanism if your custom kernel is not supported)
-  - Working Charging LED
-* Optimize Screen off fod power consumption
-* Fix Android Auto
-* Fixup APN issues
-* Fix header padding bug
-* Fix Screen Recorder issues
-* Better partial screenshot
-* And many others improvements
+* Add DC Dimming QS Tile
+* Include ANX Camera with working Front Cam and Portrait Mode
+* Fix DC Dimming can't be enabled
+* Fix Device being uncertified on Google Play Store
+* Fix BT Audio when A2DP offload is disabled
+* Fix signal bar display being too low
+* Unify back gesture vibration with system wide haptics
 
 ## Chaldea Kernel
-* Implement DC Dimming (experimental)
-* Migrate to fod_hbm implementation (Mi9 FOD)
-* Merged ION patches from sm8250
+* Merge Linux stable 4.14.175
+* Merge CAF tag LE.UM.3.3.2-07400-SDX55
 
 ## Notes
 * Custom vendor variant, clean flash is a MUST if you comes from non-custom vendor.
-* No camera included, feel free to pick your very own modded GCam.
 * Gapps is included, no vanilla version.
 
 For more detailed information about the actual code changes and authorship, check out
