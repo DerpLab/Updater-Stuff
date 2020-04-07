@@ -1,0 +1,75 @@
+Changelog for Official DerpFest Build Update 07.04.2020 for Sanders:
+
+ [SOURCE]
+
+• Merged April security patch (10.0_r33)
+• Fixed system crashing after connected to Android Auto or started screen record
+• Improvements for partial screenshot
+• Added new WiFi, Mobile data, Bluetooth and NFC panel
+• Moved QS brightness slider settings out of tuner
+• OPScreenRecorder: Updated to 2.3.0 (From OP6T OB5)
+• Removed restrictions for system audio record
+• Updated some qs tile icons to MD2
+• Ported pixel navigation bar
+• Ported more Assist things from Pixel SystemUI
+• QS blur improvements
+• Fixed binary clock update
+• Added Eggtimer to Caffeine tile
+• DataSwitchTile: Added drawable for No SIM
+• Added advanced location qs tile options
+• Added new long click QS tiles panel for mobile data, bluetooth, data tile, wifi and nfc
+• Partial screenshot block gestures/headsup: code improvements
+• Fixed screenshot shutter sound toggle
+• Screenshot: Removed white flash if dark mode is enabled
+• Allowed to backup LS clock & date styles values
+• Added a permission group for signature spoofing
+• Disabled junky LS clock & slice transition animations
+• Fixed padding bug when header image is enabled but not selected
+• Cleaned up running services fragment layout
+• Added notification log history
+• Brought back pixel layout in qs panel
+• Added Flame primary color
+• Added OnePlus Dark primary color
+• Removed duplicate exposures
+• Cleaned up hardcoded colors and used/overlay AOSP values
+• Added MatLog prebuilt
+• Some more things maybe I can't remember more :P
+
+
+[DEVICE]
+
+• Added brand new icon for dirac qs tile
+• Limit background cpus used for better battery backup
+• Performance Improvements
+• Added the gapps-config file so when flashing opengapps, the PackageInstallerGoogle will not replace AOSPPackageInstaller (for OpenGapps only)
+• Show Turbo Charging instead of Charging rapidly
+• Improvements for Fast charging
+• Increase charging current limit
+• Updated gpu and vulkan driver to v@415 01/01/2020 taken from SD630
+• Fixed the bluetooth in call
+• Used libc2dcolorconvert.so from prebuilt
+• Added permissions for DTV
+• Updated QMI, THERMAL, FM, POWERSERVICE, TIMESERVICE, MEDIA, PERIPHERAL MANAGER, ADSP, WFD blobs from CAF tag LA.UM.8.6.r1-02900-89xx.0
+• Allowed all apps to use smart replies
+• Build libldacBT_dec for bluetooth
+• Enabled Secure NFC
+• Added soter service and QTI wifi hals
+• Updated QtiRadio HAL to Version 2.4
+• Added touchcompanion HAL entry for msm8953_64 manifest
+• Added sys_boot cap to peripheral manager
+• Added support for touch_aoi_set and power_set
+• Enabled IMS feature flags for supported carriers
+• Added Some permissions for GApps
+• Enabled graphics mapper version 2.1
+• Added dirac persist props
+• Imported configstore@1.1.policy from Daisy Q
+• Enabled QC framework value-adds
+• Enabled HFP bluetooth support
+• Added CellBroadcastReceiver overlays
+• Updated nfc configs
+• More under-the-hood changes ;)
+ 
+#StayDerped
+
+Note1: Kindly read all information provided on Derped website. Still you have any doubts ask @marshmello_61 on t.me/DerpfestSanders
+
