@@ -1,59 +1,186 @@
-====================
-     03-26-2020
-====================
 
+project build/make/
+c95ef5f29 Merge tag 'android-10.0.0_r33' of https://android.googlesource.com/platform/build into HEAD
+25c46faa8 build: envsetup: Introduce 'aospremote' function
+2869685d8 Do not remove RRO resources
+0e99314fd Display progress of system & vendor images when flashing
+e9756730a Clean up ROM flash and add DerpFest info
 
-====================
-     03-25-2020
-====================
+project device/qcom/sepolicy/
+a11089f0 Fix broken userdebug_or_eng checks
+cbc5d28c Revert "Revert "sepolicy: Define key for TimeService apk""
+a84beac2 Merge tag 'LA.UM.8.1.r1-14500-sm8150.0' of https://source.codeaurora.org/quic/la/device/qcom/sepolicy into ten
+5c6593c8 Merge tag 'LA.UM.8.1.r1-14300-sm8150.0' of https://source.codeaurora.org/quic/la/device/qcom/sepolicy into ten
 
+project external/mksh/
+ae5f5fa mksh: don't use /data/local for TMPDIR in recovery
 
-   * frameworks/base/
-907d2d85481 QS: Add and use Mobile Data panel
-595e53c0531 QS: Use Settings.Panel intents for WiFi and NFC
+project frameworks/av/
+538eb460c Merge tag 'android-10.0.0_r33' into staging/ten-android-10.0.0_r33
 
-   * packages/apps/Settings/
-b578bde80c QS panels: fix data usage display on mobile panel
-ac41b89738 QS panels: Improvements
-6d5db55f06 panels: Add Mobile Data panel
+project frameworks/base/
+afdfb87601a Merge tag 'android-10.0.0_r33' into staging/ten-android-10.0.0_r33
+d8629a96fa6 base: Move QS brightness slider settings out of tuner [1/2]
+63b9dc8d8f0 Fix for recycling key events when sending global button broadcast
+192fa81b4f3 Make sure the right DND config is used
+0424040bce0 Don't include the data dir in zygote library paths.
+48ef28fb004 SystemUI: QSconfig: Re-distribute tiles on changing orientation
+1edf46beebf base: SystemUI: Disable junky LS clock & slice transition animations
+ae5a88e322a DisplayPolicy: Fix watchdog when adding new display
+d369d0fef29 SystemUI: simplify qs tile helper
+7232184964c QS: Caffeine Tile: Eggtimer
+39e0c3d9bc2 Revert "Add a one time QS dialog for the caffeine tile"
+f9915eb8671 SystemUI: Port more Assist things from Pixel SystemUI
+9316f74fe67 Revert "Add colors to assistant animation"
+33c3a6ab996 Revert "SystemUI: assist: disable old Assistant animations"
+15583c5fa12 Sanitize Bluetooth device names without regex
+79c7db476f2 Send battery low intent when battery warning boundary changed
+06cb9f05307 SystemUI: Disable heads up debugging on debug builds as well.
+58009f6f1b6 SystemUI: Disable heads up debugging on non eng builds
+669a307d6e7 Start BiometricService even if no hardware is present
+fdd3a8ac005 SystemUI: Port pixel navigation bar
+22af76457b0 base: add outline style to caffeine qs tile drawable
+2f65d5db1b1 DataSwitchTile: Add drawable for No SIM
+1fc67a71e19 DataSwitchTile: grant missing permission
+d63648855c1 SystemUI: fix binary clock update
+dbabf4c31e3 aosipUtils: add statusbarservice
+0672f151841 Revert "SystemUI: Enable and fix QS detail view, adapt layout to Pie"
+38c14fad096 SystemUI: QS blur improvements
+8069b759a26 QS: Add and use Bluetooth Panel instead of full Settings
+9c63f71ec6d SystemUI: Also use mobile data panel on celular qs tile
+4c563b81fc4 Screenshot: remove white flash if dark mode is enabled
+291ab693d11 QS: Use Mobile Data panel for CellularTile
+0c37984b8d6 Fix derp of 907d2d8548150e4bb9f2f43cd1a27f9b7cd27909
+f916f16e0b3 Partially revert 148c1b3efdf1ac8ff3151a55c57d1503c7b0aa30
+30782df557f QS: Add advanced location tile options
+e9e5c4a1cf2 WindowManager: Add clearPrivateFlags
+3914ec5aedf base: Update some icons to MD2
+0fe4ff6f69b Fix Launcher3 errors due to missing permissions
+81444b7aed3 SystemUI/AndroidManifest.xml: Override authorities for providers
+6bd5f8a45c6 base: allow disable of screenshot shutter sound
+a3db2320b68 Partial screenshot block gestures/headsup: code improvements
+30123f4e3df GlobalScreenshot: do not capture multiple screenshots simultaneously
+4acdc906420 Partial screenshot: block gestures and heads up when running
+ed5f063252d Partial screenshot: Layout improvements
+6a026232b91 SystemUI: implement better partial screenshot
 
-====================
-     03-24-2020
-====================
+project frameworks/opt/telephony/
+c5de25600 Restore getSubIdFromNetworkRequest method
+2acf944fa When SPN is empty, use PNN in mobile network settings
+84bdca11c Revert "Split uicc records loading in two groups."
+30ffd7e67 Revert "Fix data call issue due to improper mnc length"
+f64e2fa81 Merge tag 'LA.UM.8.1.r1-14300-sm8150.0' of https://source.codeaurora.org/quic/la/platform/frameworks/opt/telephony into ten
+f5dddf42e Fix to block data call request for no change in Data RAT
+1071e4f84 Use appropriate method to query UiccCard object
+486b3173c Reset preferred APN setting after restoring default APNs
+7dcc9244b Fix non-roaming overlay not work issue.
+bc33b4520 Set service class with SERVICE_CLASS_NONE over CS
+864739ba2 Fix attach issue due to wrong attach apn
+085d2cc0c Add Null check to getIccId.
+b9f7ad002 MSIM:Fix iccid issue during android upgrade.
+d6feb02a7 Fix iccid issue during android upgrade.
+42c022365 Emergency Number Implementation for SS & DS
+543210a38 Telephony: Get SIM card capacity of SMS
+904322f01 Fix data deactivate issue due to intermediate network requests
+3e6b35bdc Add check for CSIM application presence
+7baf27432 Use tcp buffer values for rat LTE_CA
+0c8896e27 Fix to release partial wakelock for SRVCC handover.
+6648bd79a Refresh SIM operator numeric for multi-mode SIM
+524a63cde Delay intialization of subscription listener
+26b4902c5 Fix the deregistration which happens soon after registration.
+13ea5d3d5 Don't unregister supplementary service notification.
 
+project manifest/
+6447431 manifest: Track scripts repo
+c7eb721 manifest: Track proton-clang
+fa9f60e manifest: Track GApps from Derp
 
-   * frameworks/base/
-60490e7aec7 base: Update Greek translation (#9)
+project packages/apps/DerpQuest/
+250f8e4 DerpQuest: Move QS brightness slider settings out of tuner [2/2]
+045c230 DerpQuest: Set a default header image This solves a padding bug when header image is enabled but not selected
+1c63a20 DerpQuest: Add device specific links support Maintainers should overlay over `about_device_fw_ver` `about_device_fw_link` `about_device_recovery_ver` and `about_device_recovery_link` * Strings contain no value by default and will not show unless overlayed * Version strings should contain a version name that'll be shown in the preference summary (optional) * Link strings should contain full links - recommend using direct download links
+a60c5e9 DerpQuest: Add Greek translation
+3120372 DerpQuest: Add Vietnamese translation
+3da854c DerpQuest: Update Chinese translation
+8b8d143 DerpQuest: Add Brazilian Portuguese translation
+352be0f DerpQuest: Update Polish translation
+eb8ebc8 DerpQuest: dashboard icons redesign
+f3a08cb DerpQuest: Update Italian translation
+95f65f4 DerpQuest: Add full accent sammy clock style [2/2]
+803bb64 DerpQuest: Add a toggle for the new QS tint [2/2]
+a2b085d DerpQuest: Update Italian translation
+8fa4381 DerpQuest: Update French translation
+55245f8 DerpQuest: Removed unused strings in translation files
+f0bc295 DerpQuest: Add RGB accent presets * Using the values of our existing accent overlays
+11f676c DerpQuest: add aod notification pulse timeout option [2/2]
 
-   * packages/apps/DerpQuest/
-2239436 DerpQuest: Add Greek translation
+project packages/apps/OpenDelta/
+54e2430 OpenDelta: Compare build dates only when checking for updates Achieve this by comparing only the date part of the file and not just by removing all chars. Some files have a timpastamp added to their name which pops up a "new" update in some edge cases
 
-   * packages/apps/Settings/
-785131a25d Settings: Add greek translation
+project packages/apps/Settings/
+df4dc12ff8 Merge tag 'android-10.0.0_r33' of https://android.googlesource.com/platform/packages/apps/Settings into HEAD
+24f52587ac Settings: Move DarkUIPreference to theme category
+cf1adf19a4 Settings: Clean up running services fragment layout
+bfb99ae47e Settings: panels: Fix pair new device icon
+3cbb40f848 Settings: panels: Add pair new to BT panel slice
+3f18103cfc Settings: panels: Add Bluetooth panel
 
-====================
-     03-23-2020
-====================
+project packages/apps/ThemePicker/
+866358b Revert "Revert "ThemePicker: integrate into OwlsNest""
 
+project packages/resources/devicesettings/
+0b16352 Automatic translation import
 
-   * vendor/aosip/
-cb6d173 privapp-permissions: Grant READ_LOGS perm to Matlog (#12)
+project prebuilts/clang/host/linux-x86/clang-proton/
+65f65a0 Update to 20200404 build
 
-====================
-     03-22-2020
-====================
+project scripts/
+15a1dfa scripts: aosp-merger: Allow keeping conflicts for later and continue
+4d58734 scripts: aosp-merger: Rewrite README.md
+f7b7320 scripts: aosp-merger: Add a flag to push all remaining staging branches
+ed1c911 scripts: aosp-merger: Add a flag to remove staging branch
+7132a4d scripts: aosp-merger: Put git push in a function
+63ecdc0 scripts: aosp-merger: Save local branches to a file before merging
+0cda3e2 scripts: aosp-merger: Remove PROJECTOPERATION argument - we always merge
+bee56fb scripts: aosp-merger: Add and update merge blacklist
+a337025 scripts: aosp-merger: Reworked the script
+c65e8c0 scripts: Nuke all unneeded scripts
+fb5db09 payload-extractor: Add .img to output file name
+6753c15 device-deps-regenerator: Add lineage-17.1 to branches
 
+project system/update_engine/
+aff97704 Allow skipping timestamp check in certain debug conditions
+b54619ad Run backuptool only in debuggable builds
 
-====================
-     03-21-2020
-====================
+project vendor/aosip/
+10edfa6 prebuilts: Add libstdc++ to libjni_latinimegoogle shared libs
+354678e kernel: Add option for using LLD as linker
 
+project vendor/gapps/
+472faae gapps: Remove TipsPrebuilt
 
-   * frameworks/base/
-07e899ec4ef base: Make sure media artwork blur restored radius value is valid
+project vendor/nxp/opensource/sn100x/halimpl/
+e747bcc8 sn100x: halimpl: ignore autonomous mode writes if the feature is disabled
 
-====================
-     03-20-2020
-====================
+project vendor/overlay/
+2c932b9 Merge pull request #5 from amanrajOO7/ten
+c1aeb1a Overlay: Add OnePlus Dark Primary
+a95d348 overlays: Add Flame primary
+8bbfa71 themes: Cleanup hardcoded colors and use/overlay AOSP values
+a3a01dd overlay: remove background_floating_device_default_dark exposure
+4f0718b themes: don't hardcode Screenrecord dialog color
+0f9621b overlays: Remove more duplicate exposures
+0db44ba overlays: Remove duplicate exposure for notifications
 
+project vendor/pixelstyle/
+d2b79f3 pixelstyle: fonts: Use TARGET_COPY_OUT_SYSTEM
 
+project vendor/qcom/opensource/fm-commonsys/
+cc7dc91 Automatic translation import
+
+project vendor/qcom/opensource/interfaces/
+539c17b Regenerate blueprints for LA.UM.8.1.r1-14500-sm8150.0
+eb56f3f display: Remove mapper 4.0 and allocator 4.0
+c539406 interfaces: Regenerate blueprints
+f39fff1 Merge tag 'LA.UM.8.1.r1-14500-sm8150.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/interfaces into ten
+9a993ed Merge tag 'LA.UM.8.1.r1-14300-sm8150.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/interfaces into ten
