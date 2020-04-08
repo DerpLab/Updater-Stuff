@@ -1,47 +1,147 @@
----------
-Changelog
----------
-- Added a toggle for the QS tint
-- Improved the qstint then previous build
-- Allowed to backup LS clock & date styles values
-- Added a permission group for signature spoofing
-- Make sure media artwork blur restored radius value is valid
-- Added full accent sammy clock style
-- Brand new colorful and shape adaptable icons under DerpQuest section
-- Added Pt-Br translation of Settings and ThemePicker
-- Added Italian, Polish, Pt-Br, Chinese and Vietnamese DerpQuest translation
+====================
+     04-08-2020
+====================
 
----------------
-Device Changelog
----------------
-- move goodix script service to biometrics init rc
-- Update FM service definition
-- Build LDAC decoder library 
-- Restore dpmd.rc from LA.UM.8.6.r1-03400-89xx.0
-- Update FM 
-- Update blobs 
-- Update CNE 
-- Partial Update RIL/IMS
-- Inject goodix script service in biometrics init rc 
-- Update FM service definition
-- Update WiFi Display from LA.UM.8.6.r1-03400-89xx.0
-- Update time service from LA.UM.8.6.r1-03400-89xx.0 
-- Update thermal blobs from LA.UM.8.6.r1-03400-89xx.0 
-- Update sensors from LA.UM.8.6.r1-03400-89xx.0 
-- Update Power-off Alarm from LA.UM.8.6.r1-03400-89xx.0
-- Update perf blobs/configs from LA.UM.8.6.r1-03400-89xx.0
-- Update Media from LA.UM.8.6.r1-03400-89xx.0
-- Update keystore from LA.UM.8.6.r1-03400-89xx.0 
-- Update Graphics stack from LA.UM.8.6.r1-03400-89xx.0
-- Update GPS from LA.UM.8.6.r1-03400-89xx.0
-- Update Gatekeeper from LA.UM.8.6.r1-03400-89xx.0
-- Update DRM/Widevine from LA.UM.8.6.r1-03400-89xx.0
-- Update CNE from LA.UM.8.6.r1-03400-89xx.0 
-- Update charger from LA.UM.8.6.r1-03400-89xx.0
-- Update Bluetooth from LA.UM.8.6.r1-03400-89xx.0
-- Update Audio/ACDB from LA.UM.8.6.r1-03400-89xx.0 
-- Update ADSP blobs from LA.UM.8.6.r1-03400-89xx.0
-- Removed HD notification from volte
-- Added Xiaomi parts thanks to @smokey_18 @Rafiester
-- Fixed BT calling maybe thanks to @jigen_was_here
+
+====================
+     04-07-2020
+====================
+
+
+   * build/make/
+c95ef5f29 Merge tag 'android-10.0.0_r33' of https://android.googlesource.com/platform/build into HEAD
+
+   * frameworks/av/
+538eb460c Merge tag 'android-10.0.0_r33' into staging/ten-android-10.0.0_r33
+
+   * frameworks/base/
+afdfb87601a Merge tag 'android-10.0.0_r33' into staging/ten-android-10.0.0_r33
+d8629a96fa6 base: Move QS brightness slider settings out of tuner [1/2]
+
+   * packages/apps/DerpQuest/
+250f8e4 DerpQuest: Move QS brightness slider settings out of tuner [2/2]
+045c230 DerpQuest: Set a default header image This solves a padding bug when header image is enabled but not selected
+1c63a20 DerpQuest: Add device specific links support Maintainers should overlay over `about_device_fw_ver` `about_device_fw_link` `about_device_recovery_ver` and `about_device_recovery_link` * Strings contain no value by default and will not show unless overlayed * Version strings should contain a version name that'll be shown in the preference summary (optional) * Link strings should contain full links - recommend using direct download links
+a60c5e9 DerpQuest: Add Greek translation
+3120372 DerpQuest: Add Vietnamese translation
+3da854c DerpQuest: Update Chinese translation
+8b8d143 DerpQuest: Add Brazilian Portuguese translation
+352be0f DerpQuest: Update Polish translation
+eb8ebc8 DerpQuest: dashboard icons redesign
+f3a08cb DerpQuest: Update Italian translation
+95f65f4 DerpQuest: Add full accent sammy clock style [2/2]
+803bb64 DerpQuest: Add a toggle for the new QS tint [2/2]
+a2b085d DerpQuest: Update Italian translation
+8fa4381 DerpQuest: Update French translation
+55245f8 DerpQuest: Removed unused strings in translation files
+f0bc295 DerpQuest: Add RGB accent presets * Using the values of our existing accent overlays
+11f676c DerpQuest: add aod notification pulse timeout option [2/2]
+
+   * packages/apps/Settings/
+df4dc12ff8 Merge tag 'android-10.0.0_r33' of https://android.googlesource.com/platform/packages/apps/Settings into HEAD
+
+====================
+     04-06-2020
+====================
+
+
+   * device/qcom/sepolicy/
+a11089f0 Fix broken userdebug_or_eng checks
+cbc5d28c Revert "Revert "sepolicy: Define key for TimeService apk""
+a84beac2 Merge tag 'LA.UM.8.1.r1-14500-sm8150.0' of https://source.codeaurora.org/quic/la/device/qcom/sepolicy into ten
+5c6593c8 Merge tag 'LA.UM.8.1.r1-14300-sm8150.0' of https://source.codeaurora.org/quic/la/device/qcom/sepolicy into ten
+
+   * scripts/
+15a1dfa scripts: aosp-merger: Allow keeping conflicts for later and continue
+4d58734 scripts: aosp-merger: Rewrite README.md
+f7b7320 scripts: aosp-merger: Add a flag to push all remaining staging branches
+ed1c911 scripts: aosp-merger: Add a flag to remove staging branch
+7132a4d scripts: aosp-merger: Put git push in a function
+63ecdc0 scripts: aosp-merger: Save local branches to a file before merging
+0cda3e2 scripts: aosp-merger: Remove PROJECTOPERATION argument - we always merge
+bee56fb scripts: aosp-merger: Add and update merge blacklist
+a337025 scripts: aosp-merger: Reworked the script
+
+   * vendor/qcom/opensource/interfaces/
+539c17b Regenerate blueprints for LA.UM.8.1.r1-14500-sm8150.0
+eb56f3f display: Remove mapper 4.0 and allocator 4.0
+c539406 interfaces: Regenerate blueprints
+f39fff1 Merge tag 'LA.UM.8.1.r1-14500-sm8150.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/interfaces into ten
+9a993ed Merge tag 'LA.UM.8.1.r1-14300-sm8150.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/interfaces into ten
+
+====================
+     04-05-2020
+====================
+
+
+   * frameworks/base/
+63b9dc8d8f0 Fix for recycling key events when sending global button broadcast
+192fa81b4f3 Make sure the right DND config is used
+0424040bce0 Don't include the data dir in zygote library paths.
+48ef28fb004 SystemUI: QSconfig: Re-distribute tiles on changing orientation
+
+   * frameworks/opt/telephony/
+c5de25600 Restore getSubIdFromNetworkRequest method
+2acf944fa When SPN is empty, use PNN in mobile network settings
+84bdca11c Revert "Split uicc records loading in two groups."
+30ffd7e67 Revert "Fix data call issue due to improper mnc length"
+f64e2fa81 Merge tag 'LA.UM.8.1.r1-14300-sm8150.0' of https://source.codeaurora.org/quic/la/platform/frameworks/opt/telephony into ten
+
+   * prebuilts/clang/host/linux-x86/clang-proton/
+65f65a0 Update to 20200404 build
+
+   * system/update_engine/
+aff97704 Allow skipping timestamp check in certain debug conditions
+b54619ad Run backuptool only in debuggable builds
+
+====================
+     04-04-2020
+====================
+
+
+   * build/make/
+25c46faa8 build: envsetup: Introduce 'aospremote' function
+
+   * manifest/
+6447431 manifest: Track scripts repo
+
+   * scripts/
+c65e8c0 scripts: Nuke all unneeded scripts
+
+====================
+     04-03-2020
+====================
+
+
+   * frameworks/base/
+1edf46beebf base: SystemUI: Disable junky LS clock & slice transition animations
+
+   * frameworks/opt/telephony/
+f5dddf42e Fix to block data call request for no change in Data RAT
+1071e4f84 Use appropriate method to query UiccCard object
+486b3173c Reset preferred APN setting after restoring default APNs
+7dcc9244b Fix non-roaming overlay not work issue.
+bc33b4520 Set service class with SERVICE_CLASS_NONE over CS
+864739ba2 Fix attach issue due to wrong attach apn
+085d2cc0c Add Null check to getIccId.
+b9f7ad002 MSIM:Fix iccid issue during android upgrade.
+d6feb02a7 Fix iccid issue during android upgrade.
+42c022365 Emergency Number Implementation for SS & DS
+543210a38 Telephony: Get SIM card capacity of SMS
+904322f01 Fix data deactivate issue due to intermediate network requests
+3e6b35bdc Add check for CSIM application presence
+7baf27432 Use tcp buffer values for rat LTE_CA
+0c8896e27 Fix to release partial wakelock for SRVCC handover.
+6648bd79a Refresh SIM operator numeric for multi-mode SIM
+524a63cde Delay intialization of subscription listener
+26b4902c5 Fix the deregistration which happens soon after registration.
+13ea5d3d5 Don't unregister supplementary service notification.
+
+   * manifest/
+c7eb721 manifest: Track proton-clang
+
+====================
+     04-02-2020
+====================
+
 
