@@ -1,3 +1,13 @@
+===================
+      04-07-2020
+==================
+
+• violet: Merged April Security Patch
+• violet: Merged Latest Coral FP
+• violet: Fixed Some Minor Issue
+• violet: Upstream Kernel
+• violet: Other miscellaneous changes
+
 ====================
       03-26-2020
 ====================
