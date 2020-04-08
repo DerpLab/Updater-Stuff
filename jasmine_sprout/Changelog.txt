@@ -1,38 +1,49 @@
-(14/03/20)
 ######################
 ## DEVICE CHANGELOG ##
-######################
-sdm660-common: Update Graphics (SDM) from LA.UM.8.2.r1-06200-sdm660.0
-sdm660-common: Update Blobs from LA.UM.8.2.r1-05700-sdm660.0
-sdm660-common: Address audio related default_prop denial
-sdm660-common: sepolicy: Adjust for lavender dt2w node
-sdm660-common: sepolicy: Add more /persist related contexts to toolbox rules
-sdm660-common: sepolicy: Drop unnecessary rule
-sdm660-common: Force restorecon for /mnt/vendor/persist
-sdm660: prop: We don't have dual isp camera
-Merge 4.4.216 into kernel.lnx.4.4.r38-rel
-f2fs: clean up rapid gc
-f2fs: use a seperate mutex for setting wakelock
-f2fs: Fix absolute jiffy duration in write uncongestion timeout
-f2fs: unlock wakelock properly when f2fs_stop_rapid_gc() is called
-f2fs: catch a global wakelock instead of per gc_kthread
-f2fs: improve naming schemes for rapid GC
-f2fs: convert wakelock APIs to wakeup_source
-f2fs: mark gc_threads() functions as static
-ARM: dts: msm: fix energy costs for SDM660
+######################   
+
+• fs: expand blocker to cover FDE.AI apps 
+• Merge 4.4.218 into kernel.lnx.4.4.r38-rel 
+• Merge tag 'LA.UM.8.2.r1-06300-sdm660.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/data-ipa-cfg-mgr 
+• Merge tag 'LA.UM.8.2.r1-06300-sdm660.0' of https://source.codeaurora.org/quic/la/platform/hardware/qcom/gps
 
 ######################
 ##  ROM  CHANGELOG  ##
 ######################
-SystemUI: fix order of init in keyguard indication
-DerpQuest: dashboard icons redesign
-Adjust QS tile background and icon color + make qs tile icon smaller by 1dp + reduce qs tile vertical margin @idoybh (DerpFest) edits: Make it work with the switch introduced in: 3472eab234a465e0a95c8f42fdf8dc74d50921ee
-QS tile label: tint it with accent color and use bolder font @idoybh (DerpFest) edits: Make it toggleable by the switch introduced in: 3472eab234a465e0a95c8f42fdf8dc74d50921ee
-base: Add full accent sammy clock style [1/2] * And properly document selection
-base: Settings: Backup LS clock & date styles values
-DerpQuest: Update Italian translation
-DerpQuest: Add full accent sammy clock style
-SystemUI: Add a toggle for the new QS tint [1/2] @idoybh (DerpFest) edits: Use current SettingsObserver
-SystemUI: Tint QSTile icon with accent color
-Evolution: Add a toggle for the new QS tint [2/2]
-base: Add Portuguesean traslation to TypeClock
+
+• Android Sec Patch R33 Merged
+• Added Firmware & Recovery PlaceHolder In DerpQuest About
+• Fixed system crashing after connected to Android Auto or started screen record
+• OPScreenRecorder: Updated to 2.3.0 (From OP6T OB5)
+• Removed restrictions for system audio record
+• Cleaned up pixel live wallpaper port
+• Updated some qs tile icons to MD2
+• Ported pixel navigation bar
+• Ported more Assist things from Pixel SystemUI
+• QS blur improvements
+• Fixed binary clock update
+• Added Eggtimer to Caffeine tile
+• DataSwitchTile: Added drawable for No SIM
+• Added outline style to caffeine qs tile drawable
+• Added advanced location qs tile options
+• Added new long click QS tiles panel for mobile data, bluetooth, data tile, wifi and nfc
+• Partial screenshot block gestures/headsup: code improvements
+• Fixed screenshot shutter sound toggle
+• Screenshot: Removed white flash if dark mode is enabled
+• Added a toggle for the QS tint
+• Allowed to backup LS clock & date styles values
+• Added a permission group for signature spoofing
+• Make sure media artwork blur restored radius value is valid
+• Added full accent sammy clock style
+• Brand new colorful and shape adaptable icons under DerpQuest section
+• Disabled junky LS clock & slice transition animations
+• Fixed padding bug when header image is enabled but not selected
+• Cleaned up running services fragment layout
+• Added notification log history
+• Brought back pixel layout in qs panel
+• Added Flame primary color
+• Added OnePlus Dark primary color
+• Removed duplicate exposures
+• Cleaned up hardcoded colors and used/overlay AOSP values
+• Added Matlog prebuilt
+• Some more things maybe I can't remember more :P
