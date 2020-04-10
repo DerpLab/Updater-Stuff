@@ -1,350 +1,187 @@
 ====================
-     03-31-2020
+     04-10-2020
+====================
+
+
+   * device/xiaomi/davinci/
+e65046df davinci: Use proton clang
+
+   * frameworks/av/
+cf2713a5f [TEMP]: Set xmlDocPtr permanently to NULL
+
+   * kernel/xiaomi/davinci/
+46998b6d9ed8 Add Drivedroid Support
+1a75a67e83c1 power: qcom: Import Xiaomi changes
+29e50dc5eea0 power: qcom: Checkout to LA.UM.8.9.r1-03800-sm6150.0
+426f85aa03b4 Revert "power: supply: Import Xiaomi changes"
+
+   * vendor/aosip/
+71a54c1 Merge pull request #14 from kailashrs/ten
+72b2474 derp: Add support for Z01R
+
+====================
+     04-09-2020
 ====================
 
 
    * frameworks/base/
-d369d0fef29 SystemUI: simplify qs tile helper
-7232184964c QS: Caffeine Tile: Eggtimer
-39e0c3d9bc2 Revert "Add a one time QS dialog for the caffeine tile"
+862efebdef3 base: Italian translations (#11)
 
-   * kernel/xiaomi/davinci/
-a29044e3fd1e qcacld-3.0: nuke rx_wakelock code entirely
-01a4c24a265c defconfig: set zram size to 3GB
-f9f8db00532d zram_drv: allow overriding zram size from kernel
-9265293afde5 defconfig: enable lz4 compression and set it as default
-e56c36a3f901 zram: Move default compression algorithm choice to Kconfig
-7f85368c4ff0 Revert "defconfig: disable zram"
-9d642b2dffe7 zsmalloc: add bp hints to memory allocations
-ac7d98ed1a5e zswap: add bp hints to memory allocations
-a1df1601082d vbswap: do not use vbswap as an entropy source
-f9ce2f1c233c vbswap: free swap_header_page after it's read once
-3be477eadaa5 vbswap: allow reading with offsets
-a28ec34e17af vbswap: use a better method to detect kernel calls
-518d4506a27e vbswap: mark __vbswap_make_request() noinline
-f4ce8fc06fc2 vbswap: move I/O check under __vbswap_make_request()
-a8cd8df68e07 vbswap: remove unused variable in vbswap_make_request()
-7606f60335b3 vbswap: remove a dedicated vbswap_init_disksize()
-d4b0616aa62f vbswap: clean-up vbswap_bvec_rw()
-4e11ac26f3e7 vbswap: pass struct bio_vec as a pointer
-c6a2028e8538 vbswap: remove struct vbswap
-3f29f808b3b4 vbswap: remove rwsem lock
-1a3edc1e7144 vbswap: remove swap_slot_free_notify stat
-edcceb2f21c7 vbswap: remove unused code
-7a7a8918619d mm: do not free pages that failed to flush from vbswap
-c1a68f0bdf78 block: add base vnswap code for vbswap
-3dabdd21b1a0 mm: merge Samsung mm hacks
-6a1244a99c26 Revert "mm: merge Samsung mm hacks"
-4f1b023eb31c staging: remove vnswap
-1f8b2b4366cf zswap: drop dependency to vnswap
-f2ff715aa512 mm: compaction: fix compilation on !CONFIG_ZSWAP
-364a6927b249 drm/sde: remove debug logs on compile time
-960a4f4cfdd0 zswap: use B-tree for search
-e296007fb169 msm: camera: isp: schedule tasklet with priority
-a4bc5dd630a2 cnss2: set iova_start and iova_stop to physical RAM range
-5b324ca0c2ee lz4: remove unused functions
-e3ad32af2ba3 lz4: staticify functions
-c49748e9eb8c lz4: do not export static symbol
-24905c1a8ee5 include/linux/lz4.h: fix spelling and copy-paste errors in documentation
-48fdfa1611c1 lib/lz4: update LZ4 decompressor module
-1e9d34e9166d mm: compaction: compact zswap pool as well
-fb13d3b010dc zswap: add zswap_compact()
-634f1030215a zsmalloc: add compaction callbacks
-7d33aded216e zpool: add compaction api
-6c54af61cae8 zswap: select CRYPTO_LZ4 instead of CRYPTO_LZO
-214469b67fc8 zswap: report total pool size in kb
-d6cdd63bbe67 zswap: initialize ret on all paths
-f604cf6095fe zswap: purge pool limit writeback function
-f21ce5e4b908 Revert "zswap: only save zswap header when necessary"
-947f8bfff469 zswap: set default parameters
-1501c65fc3f2 mm: merge Samsung mm hacks
-7f36e3958c0e vnswap: update block APIs to v4.14
-bb47f15a1027 vnswap: drop dependency to zswap
-12dd0f01bd20 vnswap: static-ify everything
-ea1b2027637f vnswap: get rid of vnswap_sysfs.c
-4d27eb9304d3 vnswap: import from starlte
-6c6f705a804a zswap: add __GFP_HIGHMEM and __GFP_MOVABLE
-8d3d9db71a26 mm/zsmalloc.c: fix build when CONFIG_COMPACTION=n
-62e0e0582072 mm/zsmalloc.c: fix race condition in zs_destroy_pool
-cdc70ea2e433 mm/zsmalloc.c: migration can leave pages in ZS_EMPTY indefinitely
-02f4724eb1a5 mm/zsmalloc.c: remove unused variable
-fd55f688f342 zswap: ignore debugfs_create_dir() return value
-0323f32923e9 zsmalloc: don't bother with dentry_operations
-14b23153ce60 mm/zsmalloc.c: fix fall-through annotation
-ff671abe588e mm/zsmalloc.c: make several functions and a struct static
-272c738aa9c3 zswap: re-check zswap_is_full() after do zswap_shrink()
-ac5780c21969 zsmalloc: introduce zs_huge_class_size()
-d655c8e14086 mm, swap, frontswap: fix THP swap if frontswap enabled
-aaf43be70081 mm/zsmalloc: Prepare to variable MAX_PHYSMEM_BITS
-327954521f3b zsmalloc: use U suffix for negative literals being shifted
-cf8c1e7aed5b zswap: only save zswap header when necessary
-59cdb2c83220 mm/zsmalloc: simplify shrinker init/destroy
-183be676ca1f zswap: same-filled pages handling
-bc4da8f9b87c mm/zsmalloc.c: include fs.h
-7f52c2778afa zsmalloc: calling zs_map_object() from irq is a bug
-7af056d46b04 zsmalloc: revert back to v4.14 state
-f5b2ca6a1ea2 zswap: revert back to v4.14 state
-0b554ac8c664 arm64/neon: Disable -Wincompatible-pointer-types when building with Clang
-ac420bb0b402 arm64/neon: add workaround for ambiguous C99 stdint.h types
-4224a7671b66 lib/nlattr.c: Fix stringop overflow warning in nla_strcmp()
-09acdf834e71 qcacld-3.0: Fix potentially uninitialized session ID usage
-7db3604797a4 ext4: Allocate 128-byte allocation context on the stack
-8d5131d0eecf arm64: dts: dsi-panel: remove esd irq handling
-6f3302d11dc1 ARM: dts: goodix: align power-on delay close to dsi-panel
-5ced34a2f165 input: goodix_ts: reinstantiate status under cfg process
-64693442f6d1 msm: ipa4: Fix to increase coaleascing common event ring size
-73f7c122b66a msm: ipa4: Fix to add wake up handle for coalescing pipe
-aff09e089080 msm: ipa: Allocate pages in a wq context
-7c9f2471ab8d msm: ipa: Fix pointer dereference
-d8e7d2f1a1f1 msm: ipa: Fix copy_from_user() size check
-9f30bd0a849e msm: ipa: Decrease refcount of the pages held in cache before freeing
-3d9de63b3d21 msm: ipa: add additional checks to prevent use-after free errors
-8bda9f51aa15 msm: ipa: Use Qtimer for DPL IPA timer
-3b95936afc54 msm: npu: Increase DSP response queue size to 4096 bytes
-3befb3a1d024 msm: npu: Switch to high priority work queue
-7f9d572764ee msm: npu: Avoid mutex dead lock if turning on clocks failed
-2ab489a44e0b msm: npu: Initialize dev_lock mutex before it is used
-7bded00e3018 serial: msm_geni_serial: Update setup field for hibernation
-01d559cb093f ion: msm: Assume devicetree support
-fdf36214116a diag: Preventing deadlock by adding spin_unlock
-5c74ed769b09 drivers: goodix_ta: don't send test input during irq gpio
-bce59b23bcf4 drivers: goodix_ts: silence event bit reports
-75ec9ffac59d goodix_ts: drop non-standard logging override
-0952f2b54a6b goodix_ts: convert milliseconds to jiffies properly
-7094eeaaec5c UPSTREAM: arm64: uaccess: Formalise types for access_ok()
-1e11f41aead6 drivers: arch_topology: wire up thermal limit for arch_scale_max_freq_capacity
-8ede44802c9f cfq: clear queue pointers from cfqg after unpinning them in cfq_pd_offline
-45f0111b2f17 goodix_ta: use usleep_range() instead of msleep()
-70707a87af36 cpufreq_schedutil: remove tracing
-34becf430c6d Revert "dfc: Clear status flags when entering powersave"
-5dcd7a2912e0 Revert "usb: dwc3: Avoid CLR block DB if run/stop is cleared"
-a822d3918457 Revert "drivers: thermal: Avoid trip evaluation for disabled thermal zone"
-57435c2f1a75 Revert "ion: fix hyp_assing_sg failure handling"
-45869a66c5a3 Revert "msm: kgsl: Change default pagetable creation sequence"
-d186555f7c33 Revert "msm-geni-serial: Correct the unsupported baudrate error handling"
-9d204ae595c8 Revert "arm64: Honor limits set by boot parameter"
-b86e8d48c686 Revert "drivers: lpm-levels: Use cpu_do_idle for shallower LPM entry"
-5b01620f1dec trace: add CONFIG_DISABLE_TRACE_PRINTK option
+   * packages/apps/DerpQuest/
+82a5bd9 DerpQuest: Update Italian translation (#48)
+80c07f6 DerpQuest: About: Make sure a default browser is selected
+fb20297 DerpQuest: Move QS brightness slider settings out of tuner [2/2]
+1a7fbe7 DerpQuest: Set a default header image This solves a padding bug when header image is enabled but not selected
+
+   * vendor/aosip/
+b404043 Ship AOSP Settings Intelligence on Vanilla builds
+
+   * vendor/pixelstyle/
+cd8565c Don't ship Google Settings Intelligence on Vanilla builds
 
 ====================
-     03-30-2020
+     04-08-2020
+====================
+
+
+   * kernel/xiaomi/davinci/
+490e0aa30342 Merge tag 'ASB-2020-04-05_4.14-q' of https://android.googlesource.com/kernel/common into VantomKernel
+
+====================
+     04-07-2020
 ====================
 
 
    * build/make/
-2869685d8 Do not remove RRO resources
-0e99314fd Display progress of system & vendor images when flashing
-e9756730a Clean up ROM flash and add DerpFest info
+c95ef5f29 Merge tag 'android-10.0.0_r33' of https://android.googlesource.com/platform/build into HEAD
 
-   * external/mksh/
-ae5f5fa mksh: don't use /data/local for TMPDIR in recovery
+   * frameworks/av/
+538eb460c Merge tag 'android-10.0.0_r33' into staging/ten-android-10.0.0_r33
 
    * frameworks/base/
-f9915eb8671 SystemUI: Port more Assist things from Pixel SystemUI
-9316f74fe67 Revert "Add colors to assistant animation"
-33c3a6ab996 Revert "SystemUI: assist: disable old Assistant animations"
-15583c5fa12 Sanitize Bluetooth device names without regex
-79c7db476f2 Send battery low intent when battery warning boundary changed
-06cb9f05307 SystemUI: Disable heads up debugging on debug builds as well.
-58009f6f1b6 SystemUI: Disable heads up debugging on non eng builds
-669a307d6e7 Start BiometricService even if no hardware is present
-fdd3a8ac005 SystemUI: Port pixel navigation bar
-22af76457b0 base: add outline style to caffeine qs tile drawable
-2f65d5db1b1 DataSwitchTile: Add drawable for No SIM
-1fc67a71e19 DataSwitchTile: grant missing permission
-d63648855c1 SystemUI: fix binary clock update
-dbabf4c31e3 aosipUtils: add statusbarservice
-0672f151841 Revert "SystemUI: Enable and fix QS detail view, adapt layout to Pie"
-38c14fad096 SystemUI: QS blur improvements
-8069b759a26 QS: Add and use Bluetooth Panel instead of full Settings
-9c63f71ec6d SystemUI: Also use mobile data panel on celular qs tile
-4c563b81fc4 Screenshot: remove white flash if dark mode is enabled
-291ab693d11 QS: Use Mobile Data panel for CellularTile
-0c37984b8d6 Fix derp of 907d2d8548150e4bb9f2f43cd1a27f9b7cd27909
-f916f16e0b3 Partially revert 148c1b3efdf1ac8ff3151a55c57d1503c7b0aa30
-30782df557f QS: Add advanced location tile options
-e9e5c4a1cf2 WindowManager: Add clearPrivateFlags
-3914ec5aedf base: Update some icons to MD2
-0fe4ff6f69b Fix Launcher3 errors due to missing permissions
-81444b7aed3 SystemUI/AndroidManifest.xml: Override authorities for providers
-6bd5f8a45c6 base: allow disable of screenshot shutter sound
-a3db2320b68 Partial screenshot block gestures/headsup: code improvements
-30123f4e3df GlobalScreenshot: do not capture multiple screenshots simultaneously
-4acdc906420 Partial screenshot: block gestures and heads up when running
-ed5f063252d Partial screenshot: Layout improvements
+afdfb87601a Merge tag 'android-10.0.0_r33' into staging/ten-android-10.0.0_r33
+d8629a96fa6 base: Move QS brightness slider settings out of tuner [1/2]
 
-   * manifest/
-fa9f60e manifest: Track GApps from Derp
+   * kernel/xiaomi/davinci/
+d5ab0f850002 ALSA: timer: Fix incorrectly assigned timer instance
+f9ee6f9315bc ALSA: timer: Fix mutex deadlock at releasing card
+103856a18610 ALSA: timer: Simplify error path in snd_timer_open()
+02f95ec9034d HID: Fix assumption that devices have inputs
+357b5f1fca18 Input: ff-memless - kill timer in destroy()
+
+   * packages/apps/Settings/
+df4dc12ff8 Merge tag 'android-10.0.0_r33' of https://android.googlesource.com/platform/packages/apps/Settings into HEAD
+
+====================
+     04-06-2020
+====================
+
+
+   * device/qcom/sepolicy/
+a11089f0 Fix broken userdebug_or_eng checks
+cbc5d28c Revert "Revert "sepolicy: Define key for TimeService apk""
+a84beac2 Merge tag 'LA.UM.8.1.r1-14500-sm8150.0' of https://source.codeaurora.org/quic/la/device/qcom/sepolicy into ten
+5c6593c8 Merge tag 'LA.UM.8.1.r1-14300-sm8150.0' of https://source.codeaurora.org/quic/la/device/qcom/sepolicy into ten
 
    * packages/apps/DerpQuest/
-9f7e88c DerpQuest: Add Greek translation
+1c63a20 DerpQuest: Add device specific links support Maintainers should overlay over `about_device_fw_ver` `about_device_fw_link` `about_device_recovery_ver` and `about_device_recovery_link` * Strings contain no value by default and will not show unless overlayed * Version strings should contain a version name that'll be shown in the preference summary (optional) * Link strings should contain full links - recommend using direct download links
+a60c5e9 DerpQuest: Add Greek translation
+3120372 DerpQuest: Add Vietnamese translation
+3da854c DerpQuest: Update Chinese translation
+8b8d143 DerpQuest: Add Brazilian Portuguese translation
+352be0f DerpQuest: Update Polish translation
+eb8ebc8 DerpQuest: dashboard icons redesign
+f3a08cb DerpQuest: Update Italian translation
+95f65f4 DerpQuest: Add full accent sammy clock style [2/2]
+803bb64 DerpQuest: Add a toggle for the new QS tint [2/2]
+a2b085d DerpQuest: Update Italian translation
+8fa4381 DerpQuest: Update French translation
+55245f8 DerpQuest: Removed unused strings in translation files
+f0bc295 DerpQuest: Add RGB accent presets * Using the values of our existing accent overlays
+11f676c DerpQuest: add aod notification pulse timeout option [2/2]
 
-   * packages/apps/Settings/
-24f52587ac Settings: Move DarkUIPreference to theme category
+   * vendor/MiuiCamera/
+651b93f Update ANXCamera to V175
 
-   * packages/apps/ThemePicker/
-866358b Revert "Revert "ThemePicker: integrate into OwlsNest""
-
-   * vendor/aosip/
-10edfa6 prebuilts: Add libstdc++ to libjni_latinimegoogle shared libs
-354678e kernel: Add option for using LLD as linker
-
-   * vendor/gapps/
-472faae gapps: Remove TipsPrebuilt
-
-   * vendor/overlay/
-a95d348 overlays: Add Flame primary
-8bbfa71 themes: Cleanup hardcoded colors and use/overlay AOSP values
-a3a01dd overlay: remove background_floating_device_default_dark exposure
-4f0718b themes: don't hardcode Screenrecord dialog color
-0f9621b overlays: Remove more duplicate exposures
-0db44ba overlays: Remove duplicate exposure for notifications
-
-====================
-     03-29-2020
-====================
-
-
-   * frameworks/base/
-6a026232b91 SystemUI: implement better partial screenshot
-
-   * kernel/xiaomi/davinci/
-755dda1aa928 arm64/dts: add persist partition into android_fstab
-cbbeda9645f3 Revert "drivers/android: binder: update to android-4.19-q"
-b6c3c859a4ae Revert "android: binder: fix compilation on 4.14"
-8e84b21926d9 Revert "drivers: revert 4.19 backports"
-
-   * packages/apps/OpenDelta/
-54e2430 OpenDelta: Compare build dates only when checking for updates Achieve this by comparing only the date part of the file and not just by removing all chars. Some files have a timpastamp added to their name which pops up a "new" update in some edge cases
-
-   * packages/apps/Settings/
-cf1adf19a4 Settings: Clean up running services fragment layout
-bfb99ae47e Settings: panels: Fix pair new device icon
-3cbb40f848 Settings: panels: Add pair new to BT panel slice
-3f18103cfc Settings: panels: Add Bluetooth panel
-
-   * vendor/pixelstyle/
-d2b79f3 pixelstyle: fonts: Use TARGET_COPY_OUT_SYSTEM
+   * vendor/qcom/opensource/interfaces/
+539c17b Regenerate blueprints for LA.UM.8.1.r1-14500-sm8150.0
+eb56f3f display: Remove mapper 4.0 and allocator 4.0
+c539406 interfaces: Regenerate blueprints
+f39fff1 Merge tag 'LA.UM.8.1.r1-14500-sm8150.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/interfaces into ten
+9a993ed Merge tag 'LA.UM.8.1.r1-14300-sm8150.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/interfaces into ten
 
 ====================
-     03-28-2020
-====================
-
-
-   * device/xiaomi/davinci/
-40ea3ced davinci: parts: simplify fod screenoff daemon handling
-a4da427e Revert "davinci: parts: move fodscreenoff daemon handling to device parts"
-0af44448 davinci: gfscreenoffd: runtime optimization
-1a7c0074 davinci: gfscreenoffd: fixup cpu regression
-72b11dd3 davinci: gfscreenoffd: runtime and code style improvements
-6fa98ccc davinci: Use our modified fstab
-7c645024 davinci: Adapt fstab for rapid GC
-
-   * kernel/xiaomi/davinci/
-05725b094ef1 trace: add CONFIG_DISABLE_TRACE_PRINTK option
-
-====================
-     03-27-2020
-====================
-
-
-   * device/xiaomi/davinci/
-f00bb58c davinci: parts: Added ringer mode checking for camera sound effect
-9abcba0e davinci: parts: Digital-style icon for FPSInfo QS Tile
-3ea6041b davinci: parts: Add FPS overlay QS tile
-e85d96c5 davinci: parts: adapt FPS Info based on exposed data from kernel
-e715836f davinci: parts: introduce FPS overlay
-
-   * kernel/xiaomi/davinci/
-3cc446b60c6c cpufreq: schedutil: Expose default rate-limits as config options
-b571f739563c defconfig: regenerate
-d6309d3437c5 fs: Drop fscrypt_sb_free()
-13c45da11642 Revert "fs-verity: add Kconfig and the helper functions for hashing"
-b6662dc8f65d Revert "fs-verity: add the hook for file ->open()"
-302e33b88873 Revert "fs-verity: add the hook for file ->setattr()"
-f70851c0dcd7 Revert "fs-verity: add data verification hooks for ->readpages()"
-1609d44db199 Revert "fs-verity: implement FS_IOC_ENABLE_VERITY ioctl"
-823372dc6b47 Revert "fs-verity: implement FS_IOC_MEASURE_VERITY ioctl"
-a12cf95bb3ab Revert "fs-verity: add SHA-512 support"
-24375dff45a7 Revert "fs-verity: support builtin file signatures"
-5f78bc30ffd0 Merge tag '5.6-rc1-4.14' of https://kernel.googlesource.com/pub/scm/linux/kernel/git/jaegeuk/f2fs-stable into VantomKernel
-793f75cb706d f2fs: fix ICE support
-625e3c014f41 f2fs: use a seperate mutex for setting wakelock
-318287a119be f2fs: trigger rapid GC only when screen state actually changes
-912abb879efb f2fs: unlock wakelock properly when f2fs_stop_rapid_gc() is called
-1910f2f7c4d9 f2fs: catch a global wakelock instead of per gc_kthread
-b7ea2af3aad3 f2fs: improve naming schemes for rapid GC
-91ecfb950ae5 f2fs: mark gc_threads() functions as static
-8d94825aa1b2 f2fs: don't wait with each discards under gc_urgent
-3c65c98eba55 f2fs: use a more reasonable discard policy for high utilization
-b41dc2735ade f2fs: reduce timeout for uncongestion on f2fs_write_cache_pages()
-8f7e9701cafb f2fs: rename /sys/fs/f2fs
-dd561b1cfa62 f2fs: do not expose tunables that doesn't work with rapid GC
-d2f531f5b101 f2fs: drop caches upon rapid GC exit
-87e97ea1331e f2fs: explicitly flush device upon foreground GC
-e14bdfa43150 f2fs/rapid_gc: Clean up return codes
-3b67d59a67e0 f2fs/rapid_gc: do not wait until all invalid blocks are discarded
-84403c8c8751 f2fs: switch FB notifier API to MSM DRM notifier
-52c48b3a79b5 f2fs: convert wakelock APIs to wakeup_source
-4dd7015ad006 f2fs: implement rapid GC for Android
-5bbb7ce28731 f2fs: set ioprio of GC kthread to idle
-fda2da927018 f2fs: Fix data corruption issue with FBE
-9876da2522ac defconfig: enable CONFIG_UNICODE
-58a2386e0b28 Merge tag '5.5-rc1-4.14' of https://kernel.googlesource.com/pub/scm/linux/kernel/git/jaegeuk/f2fs-stable into VantomKernel
-6274e6b3015b Merge tag '5.4-rc1-4.14' of https://kernel.googlesource.com/pub/scm/linux/kernel/git/jaegeuk/f2fs-stable into VantomKernel
-58f1e36dfa5f Merge tag '5.3-rc1-4.14' of https://kernel.googlesource.com/pub/scm/linux/kernel/git/jaegeuk/f2fs-stable into VantomKernel
-8e32800b8692 time: move frequently used functions to headers and declare them inline
-
-====================
-     03-26-2020
-====================
-
-
-   * kernel/xiaomi/davinci/
-c2b849f15adf fs: crypto: Fix compilation issue
-c5d670d9f55f fscrypt: remove filesystem specific build config option
-9367e3680d15 f2fs: use IS_ENCRYPTED() to check encryption status
-8d5e23657109 ext4: use IS_ENCRYPTED() to check encryption status
-e2a26d9211c6 fscrypt: remove CRYPTO_CTR dependency
-560002dce766 fscrypt: return -EXDEV for incompatible rename or link into encrypted dir
-e04e0ce79bc8 fs: remove remaining android_fs tracings
-df0887b891a5 f2fs: remove additional tracings added by CAF
-90307d8ece98 Revert "kernel: schedtune: use a more agressive boosting preset"
-94542a5c3827 Revert "Schedtune assist: raise the top-app boost to 10 Needed to reduce the jitter"
-
-====================
-     03-25-2020
+     04-05-2020
 ====================
 
 
    * frameworks/base/
-907d2d85481 QS: Add and use Mobile Data panel
-595e53c0531 QS: Use Settings.Panel intents for WiFi and NFC
+63b9dc8d8f0 Fix for recycling key events when sending global button broadcast
+192fa81b4f3 Make sure the right DND config is used
+0424040bce0 Don't include the data dir in zygote library paths.
+48ef28fb004 SystemUI: QSconfig: Re-distribute tiles on changing orientation
+
+   * frameworks/opt/telephony/
+c5de25600 Restore getSubIdFromNetworkRequest method
+2acf944fa When SPN is empty, use PNN in mobile network settings
+84bdca11c Revert "Split uicc records loading in two groups."
+30ffd7e67 Revert "Fix data call issue due to improper mnc length"
+f64e2fa81 Merge tag 'LA.UM.8.1.r1-14300-sm8150.0' of https://source.codeaurora.org/quic/la/platform/frameworks/opt/telephony into ten
 
    * kernel/xiaomi/davinci/
-ddd4bc4a8252 sched: restrict iowait boost to tasks with prefer_idle
-5a33fd10eb5c sched/fair: Prevent false-positive lockdep warnings
-4ddfab2c94a2 trace/irq: sched: irq trace events should be used with !PROVE_LOCKING
-bd944aea8db6 Revert "sched/core: Fix migration to invalid CPU in __set_cpus_allowed_ptr()"
-cd7f2da63818 Merge tag 'LE.UM.4.2.2-00400-SDX55' of https://source.codeaurora.org/quic/la/kernel/msm-4.14 into VantomKernel
-5cb6b4ddc674 drm/msm/sde: Silence unused declarations
-9d255f2ab116 arm64: dts: Disable AVB
-de8c8ce71ac0 dcache: increase DNAME_INLINE_LEN
-ef565a4ab969 msm: vidc: Avoid dynamic memory allocation for small voting data
-bb8daaf87ef4 sde_crtc: Don't allocate memory dynamically in sde_crtc_atomic_check()
-b152d66bff53 dma-buf: Avoid dynamic memory allocation for small info buffers
-d43a17e9e729 power: supply: Classify Battery Monitor Systems as batteries
-1d7502b2dd31 arm64: Avoid watchdog during dump wlan firmware after panic
-562db536127a dma_buf: try to use kmem_cache pool for dmabuf allocations
-9ee55efef657 dma_buf: use kmem_cache pool for struct sync_file
-2ed23eafd356 dma_buf: use kmem_cache pool for struct dma_buf_attachment
-cf3bc047f640 Revert "dma-buf: Make dma-buf anon file name unique"
-ab404704d0b4 Revert "dma-buf: Print dma-buf files associated with each process"
-65101fe48c81 Revert "dma-buf: Use monotonic clock for buffer time tracking"
-e30e3f248b27 drm/sde: hardcode for sdmmagpie
+09f02a609715 bpf: Remove dependency on module support
+f9f00a62a11b bpf, arm64: save 4 bytes in prologue when ebpf insns came from cbpf
+0097647e9896 bpf, arm64: remove obsolete exception handling from div/mod
+48a474e25b37 bpf: fix subprog verifier bypass by div/mod by 0 exception
+b1d6852959dd bpf: fix net.core.bpf_jit_enable race
+86f8bce038e9 UPSTREAM: bpf: permit multiple bpf attachments for a single perf event
+ada099118f4b UPSTREAM: bpf: use the same condition in perf event set/free bpf handler
+3a2548d9ae49 UPSTREAM: bpf: multi program support for cgroup+bpf
+6682795ef1f4 kernel: bpf: fix a memory allocation warning
+dde5e5707d24 kernel: bpf: move syscall allocations to stack
+3bc5df17ccce kallsyms: reduce size a little on 64-bit
+a591c425a142 scripts: Fixed printf format mismatch
+508b0bfe74d1 kallsyms: lower alignment on ARM
+e11187e735b8 arm64: defconfig: enable exposure adjustment
+d088267b4659 drm: exposure_adjustment: reduce usage of ifdef
+7280f6f19380 drm: msm: temporary disable DC dimming when in fod_hbm mode
+3876ade62370 drm: msm: adapt exposure adjustment methods to davinci
 
-   * packages/apps/Settings/
-b578bde80c QS panels: fix data usage display on mobile panel
-ac41b89738 QS panels: Improvements
-6d5db55f06 panels: Add Mobile Data panel
+   * prebuilts/clang/host/linux-x86/clang-proton/
+65f65a0 Update to 20200404 build
+
+   * scripts/
+15a1dfa scripts: aosp-merger: Allow keeping conflicts for later and continue
+4d58734 scripts: aosp-merger: Rewrite README.md
+f7b7320 scripts: aosp-merger: Add a flag to push all remaining staging branches
+ed1c911 scripts: aosp-merger: Add a flag to remove staging branch
+7132a4d scripts: aosp-merger: Put git push in a function
+63ecdc0 scripts: aosp-merger: Save local branches to a file before merging
+0cda3e2 scripts: aosp-merger: Remove PROJECTOPERATION argument - we always merge
+bee56fb scripts: aosp-merger: Add and update merge blacklist
+a337025 scripts: aosp-merger: Reworked the script
+
+   * system/update_engine/
+aff97704 Allow skipping timestamp check in certain debug conditions
+b54619ad Run backuptool only in debuggable builds
+
+====================
+     04-04-2020
+====================
+
+
+   * build/make/
+25c46faa8 build: envsetup: Introduce 'aospremote' function
+
+   * device/xiaomi/davinci/
+db2e90d1 davinci: parts: Add DC-Dimming QS tile
+d64d65c1 davinci: parts: disable dc dimming if it's not supported
+a9d9aa2e davinci: parts: implement dc dimming preference
+449bcf3a davinci: Add fluence properties
+
+   * manifest/
+6447431 manifest: Track scripts repo
+
+   * scripts/
+c65e8c0 scripts: Nuke all unneeded scripts
 
