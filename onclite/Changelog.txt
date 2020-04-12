@@ -35,25 +35,7 @@ Rom ChangeLogs :
 - Some more things maybe I can't remember more :P
 
 Device ChangeLogs :
-- FBE Build
-- Kernel Upstreamed To .218
-- under the hood changes in kernel
-- Set Screen Brightness to Adaptive by default
-- 1080 Owl Bootanimation
-- Update Power off alarm blobs from LA.UM.8.6.2.r1-06600-89xx.0
-- Update CnE blobs from LA.UM.8.6.2.r1-06600-89xx.0
-- Update factory version to v2.1
-- Update Latency blobs from LA.UM.8.6.2.r1-06600-89xx.0
-- Update DPM blobs from LA.UM.8.6.2.r1-6600-89xx.0
-- Update DRM stack from LA.UM.8.6.2.r1-06600-89xx.0
-- Update Widevine from daisy-user-10-QKQ1.191002.002-V11.0.2.0.QDLMIXM-release-keys
-- Update Radio stack from LA.UM.8.6.2.r1-06600-89xx.0
-- Update QtiRadio HAL to Version 2.4
-- Update IMS stack from LA.UM.8.6.2.r1-06600-89xx.0
-- Update Peripheral manager stack from LA.UM.8.6.2.r1-06600-89xx.0
-- Update QMI blobs from LA.UM.8.6.2.r1-06600-89xx.0
-- Use dpmserviceapp from daisy-user-10-QKQ1.191002.002-V11.0.2.0.QDLMIXM-release-keys
-- Update Gatekeeper stack from LA.UM.8.6.2.r1-06600-89xx.0
-- Update Keymaster stack from LA.UM.8.6.2.r1-06600-89xx.0
-- Update Qcom TEE stack from LA.UM.8.6.2.r1-06600-89xx.0
-- Update TUI blobs from LA.UM.8.6.2.r1-06600-89xx.0
+- Synced rom source
+- April Security Patch
+- Updated Coral Fingerprint to April
+- Some other fixes
