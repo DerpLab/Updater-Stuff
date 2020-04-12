@@ -1,3 +1,12 @@
+==================
+     04-11-2020
+==================
+
+• violet: ANX Camera added
+• violet: Adress some sepolicy denials
+• violet: Update Media stack From Violet MIUI Q Release
+• violet: Added smart charging
+
 ===================
       04-07-2020
 ==================
