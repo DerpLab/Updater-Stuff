@@ -1,5 +1,5 @@
 #####################
-#     09/04/2020    #
+#     12/04/2020    #
 #####################
 
-1. Initial Build
+1. Fixed Safetynet without magisk.
