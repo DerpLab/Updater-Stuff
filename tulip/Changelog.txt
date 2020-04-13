@@ -1,34 +1,159 @@
-• Fixed system crashing after connected to Android Auto or started screen record
-• OPScreenRecorder: Updated to 2.3.0 (From OP6T OB5)
-• Removed restrictions for system audio record
-• Cleaned up pixel live wallpaper port
-• Updated some qs tile icons to MD2
-• Ported pixel navigation bar
-• Ported more Assist things from Pixel SystemUI
-• QS blur improvements
-• Fixed binary clock update
-• Added Eggtimer to Caffeine tile
-• DataSwitchTile: Added drawable for No SIM
-• Added outline style to caffeine qs tile drawable
-• Added advanced location qs tile options
-• Added new long click QS tiles panel for mobile data, bluetooth, data tile, wifi and nfc
-• Partial screenshot block gestures/headsup: code improvements
-• Fixed screenshot shutter sound toggle
-• Screenshot: Removed white flash if dark mode is enabled
-• Added a toggle for the QS tint
-• Allowed to backup LS clock & date styles values
-• Added a permission group for signature spoofing
-• Make sure media artwork blur restored radius value is valid
-• Added full accent sammy clock style
-• Brand new colorful and shape adaptable icons under DerpQuest section
-• Disabled junky LS clock & slice transition animations
-• Fixed padding bug when header image is enabled but not selected
-• Cleaned up running services fragment layout
-• Added notification log history
-• Brought back pixel layout in qs panel
-• Added Flame primary color
-• Added OnePlus Dark primary color
-• Removed duplicate exposures
-• Cleaned up hardcoded colors and used/overlay AOSP values
-• Added Matlog prebuilt
-• Some more things maybe I can't remember more :P
+====================
+     04-13-2020
+====================
+
+[frameworks/base]
+base: Squash revert RGB picker [1/5] <17 hours ago> [59c825f6fa8]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[packages/apps/Settings]
+Settings: Sqush revert RGB picker [2/5] <17 hours ago> [a29be2515c]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[packages/apps/ThemePicker]
+ThemePicker: Sqush revert RGB picker [5/5] <17 hours ago> [e8e5a80]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[vendor/aosip]
+Export techpack/audio uapi headers of msm 4.14 kernel <6 weeks ago> [2b5b3d5]
+by: dianlujitao (dianlujitao@lineageos.org)
+changelog: properly split each of manifest entry <24 hours ago> [e853eb3]
+by: Nauval Rizky (enuma.alrizky@gmail.com)
+
+[vendor/overlay]
+overlay: Sqush revert RGB picker [4/5] <17 hours ago> [e6e1caf]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[packages/apps/DerpQuest]
+DerpQuest: Sqush revert RGB picker [3/5] <17 hours ago> [3c4aff3]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+
+====================
+     04-12-2020
+====================
+
+[build/make]
+releasetools: do not remove dynamic partitions in system-only builds <6 weeks ago> [ed4cdc1ec]
+by: Peter Cai (peter@typeblog.net)
+Generate block based OTA for product partitions <11 months ago> [c3e7fdc01]
+by: Tianjie Xu (xunchang@google.com)
+build: Allow supplying a prebuilt recovery ramdisk cpio <2 days ago> [b2881e6f5]
+by: Christian Oder (myself5@carbonrom.org)
+Revert "build: Allow supplying a prebuilt recovery ramdisk cpio" <2 days ago> [6e21ef1d3]
+by: Kailash (kailash.sudhakar@gmail.com)
+
+[device/qcom/sepolicy]
+sepolicy: Remove duplicated iwlan definition <30 hours ago> [5c9853c3]
+by: adi8900 (adrianszymanski242@gmail.com)
+sepolicy: Include wifi-ext sepol <4 months ago> [1dd534df]
+by: Dyneteve (dyneteve@pixelexperience.org)
+sepolicy: qva: Remove duplicate specification for qti.ims.ext <6 months ago> [f31feab6]
+by: theimpulson (aayushgupta219@gmail.com)
+sepolicy: this is AOSiP <7 months ago> [9b933f5d]
+by: Akhil Narang (akhilnarang.1999@gmail.com)
+
+[frameworks/base]
+base: Proper fix of Android Auto <6 days ago> [30f20254eb4]
+by: Hikari-no-Tenshi (kyryljan.serhij@gmail.com)
+base: Set a different battery text color while charging [1/2] <3 days ago> [c7c7186d1a8]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[vendor/aosip]
+changelog: Also generate for repos in local manifests <2 days ago> [83cb572]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+changelog: Prettify output for readability <2 days ago> [072306c]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[packages/apps/DerpQuest]
+DerpQuest: Update Greek translation (#49) <3 days ago> [f7d0f99]
+by: CrisBalGreece (crisbaladim@yahoo.gr)
+DerpQuest: Set a different battery text color while charging [2/2] <3 days ago> [136ecff]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[prebuilts/clang/host/linux-x86]
+Update prebuilt Clang to r377782d. <9 days ago> [85dbf6c4]
+by: Stephen Hines (srhines@google.com)
+
+[prebuilts/clang/host/linux-x86/clang-proton]
+Update to 20200411 build <2 days ago> [ac072c7]
+by: Danny (danny@kdrag0n.dev)
+
+
+====================
+     04-11-2020
+====================
+
+[vendor/aosip]
+vendor: changelog: Avoid using repo to cycle through all repos <3 days ago> [f5095e5]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[packages/apps/OpenDelta]
+OpenDelta: Update Greek translation (#1) <3 days ago> [dc5db5e]
+by: CrisBalGreece (crisbaladim@yahoo.gr)
+
+
+====================
+     04-10-2020
+====================
+
+[vendor/aosip]
+vendor: Build AOSP SettingsIntelligence <3 days ago> [2ec3c59]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+derp: Add support for ysl (#15) <3 days ago> [e28b464]
+by: Tushar Bharti (tushar9915@gmail.com)
+derp: Add support for Z01R (#14) <3 days ago> [3b84863]
+by: Kailash (kailash.sudhakar@gmail.com)
+
+[vendor/pixelstyle]
+pixelstyle: Don't build Google's SettingsIntelligence <3 days ago> [097229a]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+
+====================
+     04-09-2020
+====================
+
+[frameworks/base]
+base: Italian translations (#11) <5 days ago> [862efebdef3]
+by: Pietro Mingo (50447537+pietromingo@users.noreply.github.com)
+
+[packages/apps/DerpQuest]
+DerpQuest: Update Italian translation (#48) <5 days ago> [82a5bd9]
+by: Pietro Mingo (50447537+pietromingo@users.noreply.github.com)
+DerpQuest: About: Make sure a default browser is selected <5 days ago> [80c07f6]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+DerpQuest: Move QS brightness slider settings out of tuner [2/2] <7 days ago> [fb20297]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+DerpQuest: Set a default header image This solves a padding bug when header image is enabled but not selected <13 days ago> [1a7fbe7]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+
+====================
+     04-08-2020
+====================
+
+
+====================
+     04-07-2020
+====================
+
+[build/make]
+Merge tag 'android-10.0.0_r33' of https://android.googlesource.com/platform/build into HEAD <7 days ago> [c95ef5f29]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[frameworks/av]
+Merge tag 'android-10.0.0_r33' into staging/ten-android-10.0.0_r33 <7 days ago> [538eb460c]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[frameworks/base]
+Merge tag 'android-10.0.0_r33' into staging/ten-android-10.0.0_r33 <7 days ago> [afdfb87601a]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+base: Move QS brightness slider settings out of tuner [1/2] <7 days ago> [d8629a96fa6]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[packages/apps/Settings]
+Merge tag 'android-10.0.0_r33' of https://android.googlesource.com/platform/packages/apps/Settings into HEAD <7 days ago> [df4dc12ff8]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+
