@@ -1,7 +1,7 @@
-- Switched Back to Lumos Kernel
-- Added Bluetooth Panel
-- Added OnePlus Dark Primary
-- Added Flame Primary
-- Improved Partial Screenshot
-- Improved QS Blur
-- Added Device Specific Links
+- Merged April Security Patch
+- Updated OP Screen Recorder to 2.3.0
+- Fixed Pixel Live Wallpaper Issue
+- Added IR Face Unlock (Thanks to PE Team)
+- Added Eggtimer to Caffeine Tile
+- Added Custom Thermals (Thanks to @Dinosnore & @amog787)
+- Updated Paddings
