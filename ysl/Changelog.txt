@@ -1,0 +1,171 @@
+Device Changelog
+-Improvement In GPS
+-Set Default Hotspot Name To Redmi Y2
+-New BT LDAC Package
+-Improvement In Overlay For Performance
+-New MIUI Camera 
+-Added Wificond package
+
+====================
+     04-12-2020
+====================
+
+[build/make]
+releasetools: do not remove dynamic partitions in system-only builds <6 weeks ago> [ed4cdc1ec]
+by: Peter Cai (peter@typeblog.net)
+Generate block based OTA for product partitions <11 months ago> [c3e7fdc01]
+by: Tianjie Xu (xunchang@google.com)
+build: Allow supplying a prebuilt recovery ramdisk cpio <22 hours ago> [b2881e6f5]
+by: Christian Oder (myself5@carbonrom.org)
+Revert "build: Allow supplying a prebuilt recovery ramdisk cpio" <22 hours ago> [6e21ef1d3]
+by: Kailash (kailash.sudhakar@gmail.com)
+
+[device/qcom/sepolicy]
+sepolicy: Remove duplicated iwlan definition <6 hours ago> [5c9853c3]
+by: adi8900 (adrianszymanski242@gmail.com)
+sepolicy: Include wifi-ext sepol <4 months ago> [1dd534df]
+by: Dyneteve (dyneteve@pixelexperience.org)
+sepolicy: qva: Remove duplicate specification for qti.ims.ext <6 months ago> [f31feab6]
+by: theimpulson (aayushgupta219@gmail.com)
+sepolicy: this is AOSiP <7 months ago> [9b933f5d]
+by: Akhil Narang (akhilnarang.1999@gmail.com)
+
+[frameworks/base]
+base: Proper fix of Android Auto <5 days ago> [30f20254eb4]
+by: Hikari-no-Tenshi (kyryljan.serhij@gmail.com)
+base: Set a different battery text color while charging [1/2] <2 days ago> [c7c7186d1a8]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[vendor/aosip]
+Export techpack/audio uapi headers of msm 4.14 kernel <6 weeks ago> [78200e1]
+by: dianlujitao (dianlujitao@lineageos.org)
+changelog: Also generate for repos in local manifests <20 hours ago> [be6978b]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+changelog: Prettify output for readability <25 hours ago> [072306c]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[packages/apps/DerpQuest]
+DerpQuest: Update Greek translation (#49) <2 days ago> [f7d0f99]
+by: CrisBalGreece (crisbaladim@yahoo.gr)
+DerpQuest: Set a different battery text color while charging [2/2] <2 days ago> [136ecff]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[prebuilts/clang/host/linux-x86/clang-proton]
+Update to 20200411 build <17 hours ago> [ac072c7]
+by: Danny (danny@kdrag0n.dev)
+
+
+====================
+     04-11-2020
+====================
+
+[vendor/aosip]
+vendor: changelog: Avoid using repo to cycle through all repos <2 days ago> [f5095e5]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[packages/apps/OpenDelta]
+OpenDelta: Update Greek translation (#1) <2 days ago> [dc5db5e]
+by: CrisBalGreece (crisbaladim@yahoo.gr)
+
+
+====================
+     04-10-2020
+====================
+
+[vendor/aosip]
+vendor: Build AOSP SettingsIntelligence <2 days ago> [2ec3c59]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+derp: Add support for ysl (#15) <2 days ago> [e28b464]
+by: Tushar Bharti (tushar9915@gmail.com)
+derp: Add support for Z01R (#14) <2 days ago> [3b84863]
+by: Kailash (kailash.sudhakar@gmail.com)
+
+
+====================
+     04-09-2020
+====================
+
+[frameworks/base]
+base: Italian translations (#11) <4 days ago> [862efebdef3]
+by: Pietro Mingo (50447537+pietromingo@users.noreply.github.com)
+
+[packages/apps/DerpQuest]
+DerpQuest: Update Italian translation (#48) <4 days ago> [82a5bd9]
+by: Pietro Mingo (50447537+pietromingo@users.noreply.github.com)
+
+
+====================
+     04-08-2020
+====================
+
+[packages/apps/DerpQuest]
+DerpQuest: About: Make sure a default browser is selected <4 days ago> [80c07f6]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+DerpQuest: Move QS brightness slider settings out of tuner [2/2] <6 days ago> [fb20297]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+DerpQuest: Set a default header image This solves a padding bug when header image is enabled but not selected <12 days ago> [1a7fbe7]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+
+====================
+     04-07-2020
+====================
+
+[build/make]
+Merge tag 'android-10.0.0_r33' of https://android.googlesource.com/platform/build into HEAD <6 days ago> [c95ef5f29]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[frameworks/av]
+Merge tag 'android-10.0.0_r33' into staging/ten-android-10.0.0_r33 <6 days ago> [538eb460c]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[frameworks/base]
+Merge tag 'android-10.0.0_r33' into staging/ten-android-10.0.0_r33 <6 days ago> [afdfb87601a]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[packages/apps/Settings]
+Merge tag 'android-10.0.0_r33' of https://android.googlesource.com/platform/packages/apps/Settings into HEAD <6 days ago> [df4dc12ff8]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+
+====================
+     04-06-2020
+====================
+
+[frameworks/base]
+base: Move QS brightness slider settings out of tuner [1/2] <6 days ago> [d8629a96fa6]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[packages/apps/DerpQuest]
+DerpQuest: Add device specific links support Maintainers should overlay over `about_device_fw_ver` `about_device_fw_link` `about_device_recovery_ver` and `about_device_recovery_link` * Strings contain no value by default and will not show unless overlayed * Version strings should contain a version name that'll be shown in the preference summary (optional) * Link strings should contain full links - recommend using direct download links <12 days ago> [1c63a20]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+DerpQuest: Add Greek translation <3 weeks ago> [a60c5e9]
+by: CrisBalGreece (crisbaladim@yahoo.gr)
+DerpQuest: Add Vietnamese translation <4 weeks ago> [3120372]
+by: etylix (hkkadpro@gmail.com)
+DerpQuest: Update Chinese translation <4 weeks ago> [3da854c]
+by: zhullyb (43305366+zhullyb@users.noreply.github.com)
+DerpQuest: Add Brazilian Portuguese translation <4 weeks ago> [8b8d143]
+by: jeangraff30 (60828525+jeangraff30@users.noreply.github.com)
+DerpQuest: Update Polish translation <4 weeks ago> [352be0f]
+by: bakusiovskyyyy (bakusiovskyyyy@domwariatow.org.pl)
+DerpQuest: dashboard icons redesign <4 weeks ago> [eb8ebc8]
+by: Nanda Oktavera (codeharuka.yusa@gmail.com)
+DerpQuest: Update Italian translation <5 weeks ago> [f3a08cb]
+by: entony80 (entony80@gmail.com)
+DerpQuest: Add full accent sammy clock style [2/2] <5 weeks ago> [95f65f4]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+DerpQuest: Add a toggle for the new QS tint [2/2] <7 weeks ago> [803bb64]
+by: Joey Huab (joey@evolution-x.org)
+DerpQuest: Update Italian translation <5 weeks ago> [a2b085d]
+by: pietromingo (pietro.mingo@gmail.com)
+DerpQuest: Update French translation <6 weeks ago> [8fa4381]
+by: Scias (shining.scias@gmail.com)
+DerpQuest: Removed unused strings in translation files <6 weeks ago> [55245f8]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+DerpQuest: Add RGB accent presets * Using the values of our existing accent overlays <6 weeks ago> [f0bc295]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+DerpQuest: add aod notification pulse timeout option [2/2] <9 weeks ago> [11f676c]
+by: maxwen (max.weninger@gmail.com)
+
+
