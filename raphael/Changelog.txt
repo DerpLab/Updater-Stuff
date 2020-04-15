@@ -1,17 +1,21 @@
-2020-04-06 update changelog
+2020-04-15 update changelog
 
 ## ROM and Device-specific sources
-* Add DC Dimming QS Tile
-* Include ANX Camera with working Front Cam and Portrait Mode
-* Fix DC Dimming can't be enabled
-* Fix Device being uncertified on Google Play Store
-* Fix BT Audio when A2DP offload is disabled
-* Fix signal bar display being too low
-* Unify back gesture vibration with system wide haptics
+* Latest source sync (April Security Patch)
+* Update graphics, gps, and media libs to CAF LA.UM.8.1.r1-14500-sm8150.0
+* Auto-brightness Improvement
+* Force-encryption enabled
+* Update ANX Camera to v175
+* Other miscellaneous improvements and cleanups
 
-## Chaldea Kernel
-* Merge Linux stable 4.14.175
-* Merge CAF tag LE.UM.3.3.2-07400-SDX55
+## Chaldea Kernel [reborn]
+* Full-rebase over CAF Platform Tag LA.UM.8.1.r1-14700-sm8150.0 (yes, finally not an iMMENSITY-based kernel anymore :D)
+  With Google ACK android-4.14-q branch and Linux stable v4.14.176 merged.
+* Compiled with Avalon Clang 11.0.1 + RELR Relocation and LLVM Polly optimization enabled inline
+* Pure PELT patches and several scheduler optimization merged
+* (Still) Mi9 FOD
+* Refine DC Dimming tuning (lower brightness intensity allowed)
+* and many other optimizations and fixes added for stability
 
 ## Notes
 * Custom vendor variant, clean flash is a MUST if you comes from non-custom vendor.
@@ -20,4 +24,4 @@
 For more detailed information about the actual code changes and authorship, check out
 * ROM Source: https://github.com/DerpLab
 * Device Tree: https://github.com/DerpFest-Devices/device_xiaomi_raphael
-* Kernel Source: https://github.com/Chaldeastudio/chaldea_kernel_xiaomi_raphael
+* Kernel Source: https://github.com/nullxception/kernel_xiaomi_raphael
