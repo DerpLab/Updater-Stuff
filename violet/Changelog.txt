@@ -1,3 +1,15 @@
+=================
+     04-16-2020
+================
+
+• violet: Fixed Slow charge
+• violet: Fixed rendering lags mostly
+• violet: Fixed custom lockscreen wallpaper
+• violet: Add HeadsUp snooze function
+• violet: Add HeadsUp timeout function
+• violet: Tune some dimens to make icon spacing on SB equal
+• violet: Add OnePlus Dark Primary
+
 ==================
      04-11-2020
 ==================
