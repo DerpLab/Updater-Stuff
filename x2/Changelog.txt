@@ -1,4 +1,240 @@
 ====================
+     04-15-2020
+====================
+
+[packages/apps/DerpSettings]
+Fixed KronicGreen theme
+
+====================
+     04-14-2020
+====================
+
+[frameworks/base]
+QSB: Only apply header padding if a custom header image is selected <2 days ago> [591507f62e2]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+base: Squash revert RGB picker [1/5] <3 days ago> [ccf32e91eff]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+base: Proper fix of Android Auto <8 days ago> [85fed7189ed]
+by: Hikari-no-Tenshi (kyryljan.serhij@gmail.com)
+
+[packages/apps/Settings]
+Settings: Squash revert RGB picker [2/5] <3 days ago> [90e85aa7c9]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[packages/apps/ThemePicker]
+ThemePicker: Squash revert RGB picker [5/5] <3 days ago> [c971a3d]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[vendor/overlay]
+overlay: Squash revert RGB picker [4/5] <3 days ago> [d596aca]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+Overlay: Add OnePlus Dark Primary <2 weeks ago> [7f860c3]
+by: Aman Singh (amankumarsingh1412@gmail.com)
+
+[packages/apps/DerpQuest]
+DerpQuest: Squash revert RGB picker [3/5] <3 days ago> [c8fa9f2]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+DerpQuest: Update Greek translation (#49) <5 days ago> [37273b9]
+by: CrisBalGreece (crisbaladim@yahoo.gr)
+
+
+====================
+     04-13-2020
+====================
+
+[device/aosip/sepolicy]
+Revert "aosip: common: add rules for RGB/HSL accentpicker" <2 days ago> [85f9950]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[vendor/aosip]
+Export techpack/audio uapi headers of msm 4.14 kernel <6 weeks ago> [2b5b3d5]
+by: dianlujitao (dianlujitao@lineageos.org)
+changelog: properly split each of manifest entry <3 days ago> [e853eb3]
+by: Nauval Rizky (enuma.alrizky@gmail.com)
+
+
+====================
+     04-12-2020
+====================
+
+[build/make]
+releasetools: do not remove dynamic partitions in system-only builds <6 weeks ago> [ed4cdc1ec]
+by: Peter Cai (peter@typeblog.net)
+Generate block based OTA for product partitions <11 months ago> [c3e7fdc01]
+by: Tianjie Xu (xunchang@google.com)
+build: Allow supplying a prebuilt recovery ramdisk cpio <4 days ago> [b2881e6f5]
+by: Christian Oder (myself5@carbonrom.org)
+Revert "build: Allow supplying a prebuilt recovery ramdisk cpio" <4 days ago> [6e21ef1d3]
+by: Kailash (kailash.sudhakar@gmail.com)
+
+[device/qcom/sepolicy]
+sepolicy: Remove duplicated iwlan definition <3 days ago> [5c9853c3]
+by: adi8900 (adrianszymanski242@gmail.com)
+sepolicy: Include wifi-ext sepol <4 months ago> [1dd534df]
+by: Dyneteve (dyneteve@pixelexperience.org)
+sepolicy: qva: Remove duplicate specification for qti.ims.ext <6 months ago> [f31feab6]
+by: theimpulson (aayushgupta219@gmail.com)
+sepolicy: this is AOSiP <7 months ago> [9b933f5d]
+by: Akhil Narang (akhilnarang.1999@gmail.com)
+
+[vendor/aosip]
+changelog: Also generate for repos in local manifests <4 days ago> [83cb572]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[prebuilts/clang/host/linux-x86]
+Update prebuilt Clang to r377782d. <11 days ago> [85dbf6c4]
+by: Stephen Hines (srhines@google.com)
+
+[prebuilts/clang/host/linux-x86/clang-proton]
+Update to 20200411 build <4 days ago> [ac072c7]
+by: Danny (danny@kdrag0n.dev)
+
+
+====================
+     04-11-2020
+====================
+
+[vendor/aosip]
+changelog: Prettify output for readability <4 days ago> [072306c]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+vendor: changelog: Avoid using repo to cycle through all repos <5 days ago> [f5095e5]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+====================
+     04-10-2020
+====================
+
+   * x2
+     Official Vanilla build is out
+
+====================
+
+====================
+     04-07-2020
+====================
+
+     April security patches r33
+   * x2 vendor/overlay/
+     long press actions
+   * x2 frameworks/base/
+     fixed AOD 
+
+====================
+     04-06-2020
+====================
+
+   * x2 frameworks/base/
+     tehthering fixes
+   * x2 vendor/overlay/
+     audio fixes
+   * x2 frameworks/base/
+     enabled gestures overlay 
+
+====================
+     04-05-2020
+====================
+
+   * x2 rameworks/base/
+     fingerprint fixes merged 8996common overlay
+   * x2 added modified pixel gapps
+   • Android Sec Patch R33 Merged
+  • Added Firmware & Recovery PlaceHolder In     DerpQuest About
+  • Fixed system crashing after connected to Android Auto or started screen record
+
+====================
+     04-04-2020
+====================
+
+
+   * build/make/
+25c46faa8 build: envsetup: Introduce 'aospremote' function
+
+   * manifest/
+6447431 manifest: Track scripts repo
+
+   * scripts/
+e6e0174 scripts: aosp-merger: Save local branches to a file before merging
+d5924db scripts: aosp-merger: Remove PROJECTOPERATION argument - we always merge
+85fe5de scripts: aosp-merger: Add and update merge blacklist
+14dbb80 scripts: aosp-merger: Reworked the script
+0aaccf6 scripts: Nuke all unneeded scripts
+
+====================
+     04-03-2020
+====================
+
+
+   * packages/apps/DerpQuest/
+6887b2e DerpQuest: Set a default header image This solves a padding bug when header image is enabled but not selected
+
+====================
+     04-02-2020
+====================
+
+
+   * frameworks/base/
+1edf46beebf base: SystemUI: Disable junky LS clock & slice transition animations
+
+   * frameworks/opt/telephony/
+f5dddf42e Fix to block data call request for no change in Data RAT
+1071e4f84 Use appropriate method to query UiccCard object
+486b3173c Reset preferred APN setting after restoring default APNs
+7dcc9244b Fix non-roaming overlay not work issue.
+bc33b4520 Set service class with SERVICE_CLASS_NONE over CS
+864739ba2 Fix attach issue due to wrong attach apn
+085d2cc0c Add Null check to getIccId.
+b9f7ad002 MSIM:Fix iccid issue during android upgrade.
+d6feb02a7 Fix iccid issue during android upgrade.
+42c022365 Emergency Number Implementation for SS & DS
+543210a38 Telephony: Get SIM card capacity of SMS
+904322f01 Fix data deactivate issue due to intermediate network requests
+3e6b35bdc Add check for CSIM application presence
+7baf27432 Use tcp buffer values for rat LTE_CA
+0c8896e27 Fix to release partial wakelock for SRVCC handover.
+6648bd79a Refresh SIM operator numeric for multi-mode SIM
+524a63cde Delay intialization of subscription listener
+26b4902c5 Fix the deregistration which happens soon after registration.
+13ea5d3d5 Don't unregister supplementary service notification.
+
+   * manifest/
+c7eb721 manifest: Track proton-clang
+
+====================
+     04-01-2020
+====================
+
+
+   * frameworks/base/
+ae5a88e322a DisplayPolicy: Fix watchdog when adding new display
+
+   * packages/apps/DerpQuest/
+7ec1f89 DerpQuest: Add device specific links support Maintainers should overlay over about_device_fw_ver about_device_fw_link about_device_recovery_ver and about_device_recovery_link * Strings contain no value by default and will not show unless overlayed * Version strings should contain a version name that'll be shown in the preference summary (optional) * Link strings should contain full links - recommend using direct download links
+
+   * prebuilts/clang/host/linux-x86/
+74573a74 Update prebuilt Clang to r377782c.
+
+   * vendor/overlay/
+2c932b9 Merge pull request #5 from amanrajOO7/ten
+c1aeb1a Overlay: Add OnePlus Dark Primary
+
+====================
+     03-31-2020
+====================
+
+
+   * frameworks/base/
+d369d0fef29 SystemUI: simplify qs tile helper
+
+   * packages/resources/devicesettings/
+0b16352 Automatic translation import
+
+   * prebuilts/clang/host/linux-x86/clang-proton/
+0083ce0 Update to 20200330 build
+
+   * vendor/qcom/opensource/fm-commonsys/
+cc7dc91 Automatic translation import
+
+====================
      03-28-2020
 ====================
 - Added NavBar and gestures by default
