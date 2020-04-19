@@ -1,21 +1,25 @@
-2020-04-15 update changelog
+2020-04-19 update changelog
 
 ## ROM and Device-specific sources
-* Latest source sync (April Security Patch)
-* Update graphics, gps, and media libs to CAF LA.UM.8.1.r1-14500-sm8150.0
-* Auto-brightness Improvement
-* Force-encryption enabled
-* Update ANX Camera to v175
+* Add Heads-up options on DerpQuest
+* Add Per-app cellular data, vpn and wifi restrictions
+* Android R-style notification section headers (toggleable in DerpQuest)
+* Auto mount USB storage devices
+* Enforcing SELinux, passed SafetyNet on non-rooted
+* Fix custom lockscreen wallpaper issues
+* Several optimizations on memory and dalvik-vm
+* Translation updates
+* Tune some dimens to make icon spacing on SB equal
+* Test CarrierConfig from OSS 10.0.8
+* Update ANXCamera to V179
+* Update OPScreenRecorder (v2.3.0)
+* Update proprietary-blobs from 11.0.8.0
 * Other miscellaneous improvements and cleanups
 
-## Chaldea Kernel [reborn]
-* Full-rebase over CAF Platform Tag LA.UM.8.1.r1-14700-sm8150.0 (yes, finally not an iMMENSITY-based kernel anymore :D)
-  With Google ACK android-4.14-q branch and Linux stable v4.14.176 merged.
-* Compiled with Avalon Clang 11.0.1 + RELR Relocation and LLVM Polly optimization enabled inline
-* Pure PELT patches and several scheduler optimization merged
-* (Still) Mi9 FOD
-* Refine DC Dimming tuning (lower brightness intensity allowed)
-* and many other optimizations and fixes added for stability
+## Kernel
+* Compiler: Update Avalon Clang to 11.0.1 20200416
+* Fix CPU and IO stats functionality
+* Fix kernel panic on several cases
 
 ## Notes
 * Custom vendor variant, clean flash is a MUST if you comes from non-custom vendor.
