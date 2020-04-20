@@ -1,207 +1,289 @@
 ====================
-     04-10-2020
+     04-20-2020
 ====================
 
+[frameworks/base]
+FODCircleView: update position of icon before show <9 weeks ago> [93b904b94b5]
+by: Demon000 (demonsingur@gmail.com)
+FODCircleView: Fix position on keyguard if cutout is hidden <10 weeks ago> [04e1dc497ba]
+by: Hikari-no-Tenshi (kyryljan.serhij@gmail.com)
+FODCircleView: Fix position if cutout is hidden <9 months ago> [b0f00f5a91a]
+by: jhenrique09 (jhenrique09.mcz@hotmail.com)
+SystemUI: QS: Allow toggling panels [1/2] <21 hours ago> [13258222a76]
+by: Ido Ben-Hur (idoybh2@gmail.com)
 
-   * device/qcom/sepolicy/
-f8da6e9b Revert "Merge tag 'LA.UM.8.1.r1-14300-sm8150.0' of https://source.codeaurora.org/quic/la/device/qcom/sepolicy into ten"
-0de5b10e Revert "Merge tag 'LA.UM.8.1.r1-14500-sm8150.0' of https://source.codeaurora.org/quic/la/device/qcom/sepolicy into ten"
-137aa93a Revert "Revert "Revert "sepolicy: Define key for TimeService apk"""
-8e05b536 Revert "Fix broken userdebug_or_eng checks"
+[packages/apps/DerpQuest]
+DerpQuest: Don't translate what you shouldn't <11 hours ago> [f96c5b5]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+DerpQuest: Allow toggling QS panels [2/2] <21 hours ago> [bdfeb87]
+by: Ido Ben-Hur (idoybh2@gmail.com)
 
-   * device/xiaomi/cepheus/
-dba1a0fa6 cepheus: Use proton clang
-
-   * kernel/xiaomi/cepheus/
-3ce624832c1e3 vdso32: Invoke clang with correct path to GCC toolchain
-151904b1c9447 Revert "ANDROID: arm64: vdso32: fix CC=clang build"
-c76bff6594166 Merge tag 'ASB-2020-04-05_4.14-q' of https://android.googlesource.com/kernel/common into HEAD
-
-   * vendor/aosip/
-67e7a0a derp: Add support for ysl (#15)
-2ec5303 derp: Add support for Z01R (#14)
 
 ====================
-     04-09-2020
+     04-19-2020
 ====================
 
+[manifest]
+Merge remote-tracking branch 'aosp/android-10.0.0_r33' into ten <3 days ago> [9db95ac]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+manifest: Track scripts repo <3 weeks ago> [f65a0bb]
+by: Ido Ben-Hur (idoybh2@gmail.com)
 
-   * device/xiaomi/cepheus/
-efd3a03a2 cepheus: add ANX-filecheck script
+[frameworks/base]
+base: notch-city: Add 3 mode display cutout handler <1 year, 5 months ago> [8fb05eb29a6]
+by: Kshitij Gupta (kshitijgm@gmail.com)
+SystemUI: Cleanup pixel live wallpapers changes <3 weeks ago> [4a4dfda934e]
+by: jhenrique09 (jhenrique09.mcz@hotmail.com)
 
-   * frameworks/base/
-862efebdef3 base: Italian translations (#11)
+[packages/apps/Settings]
+notch-city: Add 3 mode display cutout handler [3/3] (#9) <28 hours ago> [f107e52fa4]
+by: Aman Kumar Singh (46120388+amanrajOO7@users.noreply.github.com)
 
-   * packages/apps/DerpQuest/
-82a5bd9 DerpQuest: Update Italian translation (#48)
+[system/bt]
+Prevent abort in case of command timeout <2 years, 9 months ago> [c8b67066d]
+by: Luke Zhang (lukez@codeaurora.org)
+Bluetooth: Read BLE vendor capability to proceed on Secure conn <4 years, 8 months ago> [de1daf340]
+by: Srinu Jella (sjella@codeaurora.org)
+Add support to force disable enhanced sco commands <2 years, 7 months ago> [ff0f0fe98]
+by: cb (billchen1977@gmail.com)
 
-   * vendor/pixelstyle/
-cd8565c Don't ship Google Settings Intelligence on Vanilla builds
+[vendor/aosip]
+vendor: notch-city: Add 3 mode display cutout handler [2/3] (#19) <28 hours ago> [2753620]
+by: Aman Kumar Singh (46120388+amanrajOO7@users.noreply.github.com)
+
+[device/xiaomi/cepheus]
+cepheus: remove displayfeature props <9 weeks ago> [2d6891d2]
+by: Demon000 (demonsingur@gmail.com)
+cepheus: use dual AP feature additions <3 days ago> [19be05a2]
+by: Demon000 (demonsingur@gmail.com)
+cepheus: remove unused bt a2dp offload prop <3 weeks ago> [c877b6bb]
+by: Demon000 (demonsingur@gmail.com)
+cepheus: remove qti prop never used on AOSP <3 weeks ago> [52379d1f]
+by: Demon000 (demonsingur@gmail.com)
+cepheus: remove bluetooth prop never set on stock <3 weeks ago> [ab30a179]
+by: Demon000 (demonsingur@gmail.com)
+cepheus: sepolicy: let MiuiCamera read FOD property <11 days ago> [cfb6151f]
+by: Demon000 (demonsingur@gmail.com)
+cepheus: define media hal ion usage <8 months ago> [fce52c95]
+by: Demon000 (demonsingur@gmail.com)
+cepheus: Disable UBWC <3 months ago> [53e1fcc6]
+by: PIPIPIG233666 (pig.priv@gmail.com)
+cepheus: Set path for MiuiCamera to ANXCamera <2 days ago> [3fc305aa]
+by: DarkDampSquib (andrin.geiger1998@gmail.com)
+
 
 ====================
-     04-08-2020
+     04-18-2020
 ====================
 
+[frameworks/base]
+base: Make 'R style' notification headers toggleable [1/2] <2 days ago> [f6710cd9ba8]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+Implement R style notification section headers <13 days ago> [25f7dc3bcf2]
+by: shagbag913 (sh4gbag913@gmail.com)
+Revert "Hide gentle notification header independently of section priorities" <2 days ago> [51303bd9fd9]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+Revert "base: Make gentle notifications header toggleable [1/2]" <2 days ago> [14b8bb6f215]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+aosipUtils: Use the right config resource for notch detection <2 days ago> [8e3771e25f5]
+by: Ido Ben-Hur (idoybh2@gmail.com)
 
-   * device/xiaomi/cepheus/
-ca1c383b3 cepheus: sepolicy: added missing fingerprint rules
-14265560a cepheus: sepolicy: add fingerprint rules
-2e0eff06c cepheus: sepolicy: add camera rules
-7a0328ea5 cepheus: sepolicy: allow sensors access to backlight state
-4e13301c6 cepheus: sepolicy: allow radio to read vendor audio prop
-2ab5da9a8 cepheus: sepolicy: label nv_mac
-2b1ab016a cepheus: sepolicy: label wireless power supply
-a28c1e4e9 cepheus: sepolicy: label used camera props
-df4c18d5d cepheus: sepolicy: initial sepolicy
-6f7f8e03f cepheus: add missing bluetooth blob
-7cc34c718 cepheus: Add IO-Prefetcher libs
-72dc96480 cepheus: Add missing Perf libs
-a568e5639 cepheus: Add support for ANT+ service
-acdf91830 cepheus: Update /gps hal to LA.UM.8.1.r1-14500-sm8150.0
-0e1f4af87 cepheus: Update Media blobs to LA.UM.8.1.r1-14500-sm8150.0
-ae5107f17 cepheus: Update GPS blobs to LA.UM.8.1.r1-14500-sm8150.0
-73039c5b5 cepheus: Update graphics blobs to LA.UM.8.1.r1-14500-sm8150.0
-3c40a6cc8 cepheus: Pin updated time blobs
-e3e2c8e03 cepheus: Pin updated Soter blobs
-05c2f3baf cepheus: Pin updated Keymaster blobs
-da4070ff1 cepheus: Pin updated Pasrmanager blobs
-4236e3488 cepheus: Pin updated perf blobs
+[packages/apps/DerpQuest]
+DerpQuest: Make 'R style' notification headers toggleable [2/2] <2 days ago> [c324d72]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+Revert "DerpQuest: Make gentle notifications header toggleable [2/2]" <2 days ago> [a6fa32f]
+by: Ido Ben-Hur (idoybh2@gmail.com)
 
-   * kernel/xiaomi/cepheus/
-f9be56f3460b3 mm: Don't warn on page allocation failures for OOM-killed processes
-4bd6cc17786ba mm: Adjust tsk_is_oom_victim() for Simple LMK
-f596aec508e08 defconfig: enableCONFIG_EXPOSURE_ADJUSTMENT
-9abcc1ce8bb8f drm: exposure_adjustment: reduce usage of ifdef
-1ecf329e60202 drm: msm: temporary disable DC dimming when in fod_hbm mode
-9d0a58aa62f17 drm: msm: adapt exposure adjustment methods to cepheus
+[vendor/pixelstyle]
+vendor: OPScreenRecorder: Update to v2.3.0 <3 weeks ago> [b992140]
+by: AnierinB (anierinb@evolution-x.org)
+pixelstyle: Don't build Google's SettingsIntelligence <10 days ago> [de45d86]
+by: Ido Ben-Hur (idoybh2@gmail.com)
 
-   * packages/apps/DerpQuest/
-80c07f6 DerpQuest: About: Make sure a default browser is selected
-fb20297 DerpQuest: Move QS brightness slider settings out of tuner [2/2]
-1a7fbe7 DerpQuest: Set a default header image This solves a padding bug when header image is enabled but not selected
+[hardware/qcom-caf/sm8150/audio]
+Merge tag 'LA.UM.8.1.r1-14700-sm8150.0' of https://source.codeaurora.org/quic/la/platform/hardware/qcom/audio into ten <2 days ago> [19df4151]
+by: DarkDampSquib (andrin.geiger1998@gmail.com)
 
-   * vendor/xiaomi/cepheus/
-1b8358d cepheus: sync with device tree
-08bcf09 cepheus: Add IO-Prefetcher libs
-19793a1 cepheus: Add missing Perf libs
-32b1017 cepheus: Add ANT+ service support
-1160996 cepheus: Updare Media blobs to LA.UM.8.1.r1-14500-sm8150.0
-c0c4ef4 cepheus: Update GPS blobs to LA.UM.8.1.r1-14500-sm8150.0
-e423a7c cepheus: Update graphics blobs to LA.UM.8.1.r1-14500-sm8150.0
-d1096f8 cepheus: Update Time blobs to LA.UM.8.1.r1-14300-sm8150.0
-c3a9403 cepheus: Update Soter blobs to LA.UM.8.1.r1-14300-sm8150.0
-688838e cepheus: Update Keymaster blobs to LA.UM.8.1.r1-14300-sm8150.0
-9ae71b1 cepheus: Update Pasrmanager to LA.UM.8.1.r1-14300-sm8150.0
-cc9af8a cepheus: Update perf blobs to LA.UM.8.1.r1-14300-sm8150.0
+[hardware/qcom-caf/sm8150/display]
+Merge tag 'LA.UM.8.1.r1-14700-sm8150.0' of https://source.codeaurora.org/quic/la/platform/hardware/qcom/display into ten <2 days ago> [69f1fc4f]
+by: DarkDampSquib (andrin.geiger1998@gmail.com)
+
+[hardware/qcom-caf/sm8150/media]
+Merge tag 'LA.UM.8.1.r1-14700-sm8150.0' of https://source.codeaurora.org/quic/la/platform/hardware/qcom/media into ten <2 days ago> [36260630]
+by: DarkDampSquib (andrin.geiger1998@gmail.com)
+
+[vendor/ANXCamera]
+include script to generate files on sdcard on boot <4 days ago> [64b551d]
+by: Billaids (jimmy.nelle@live.de)
+Update ANXCamera to V179 <2 days ago> [a1796e8]
+by: DarkDampSquib (andrin.geiger1998@gmail.com)
+Update ANXCamera to V178 <2 days ago> [a57986c]
+by: DarkDampSquib (andrin.geiger1998@gmail.com)
+
+[device/xiaomi/cepheus]
+cepheus: remove mac generator <12 days ago> [9cc2dd8d]
+by: DarkDampSquib (andrin.geiger1998@gmail.com)
+cepheus: sepolicy: label property used by ril <3 weeks ago> [bdc1526e]
+by: Demon000 (demonsingur@gmail.com)
+cepheus: address more denials <13 days ago> [0f1ce77e]
+by: billaids (jimmy.nelle@hsw-stud.de)
+cepheus: sepolicy: label manufacturer prop used by camera hal <3 weeks ago> [edbefc20]
+by: Demon000 (demonsingur@gmail.com)
+cepheus: Use proton clang <10 days ago> [29b147e5]
+by: DarkDampSquib (andrin.geiger1998@gmail.com)
+cepheus: sepolicy: Let ANX-Filecheck script run <2 weeks ago> [e378babb]
+by: billaids (jimmy.nelle@hsw-stud.de)
+
 
 ====================
-     04-07-2020
+     04-17-2020
 ====================
 
+[frameworks/base]
+fw/b: Squash of app fw restriction commits (#12) <3 days ago> [805460e04ac]
+by: rahul9999 (36025572+rahul9999xda@users.noreply.github.com)
 
-   * build/make/
-c95ef5f29 Merge tag 'android-10.0.0_r33' of https://android.googlesource.com/platform/build into HEAD
+[packages/apps/Dialer]
+Automatic translation import <4 days ago> [e68f64ce3]
+by: Akhil Narang (akhilnarang.1999@gmail.com)
 
-   * frameworks/av/
-538eb460c Merge tag 'android-10.0.0_r33' into staging/ten-android-10.0.0_r33
+[packages/apps/Launcher3]
+Automatic translation import <4 days ago> [d7dc19b68]
+by: Akhil Narang (akhilnarang.1999@gmail.com)
 
-   * frameworks/base/
-afdfb87601a Merge tag 'android-10.0.0_r33' into staging/ten-android-10.0.0_r33
+[packages/apps/Messaging]
+Automatic translation import <4 days ago> [d9e932d]
+by: Akhil Narang (akhilnarang.1999@gmail.com)
 
-   * packages/apps/Settings/
-df4dc12ff8 Merge tag 'android-10.0.0_r33' of https://android.googlesource.com/platform/packages/apps/Settings into HEAD
+[packages/apps/Settings]
+Settings: per-app cellular data, vpn and wifi restrictions (#8) <3 days ago> [c3ac5ba64d]
+by: rahul9999 (36025572+rahul9999xda@users.noreply.github.com)
+
+[vendor/aosip]
+changelog: Improve Changelog generator (#18) <4 days ago> [c5d328d]
+by: Nauval Rizky (enuma.alrizky@gmail.com)
+
+[vendor/overlay]
+overlay: Squash revert RGB picker [4/5] <8 days ago> [7818d9c]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+Overlay: Add OnePlus Dark Primary <3 weeks ago> [d933521]
+by: Aman Singh (amankumarsingh1412@gmail.com)
+overlays: Add Flame primary <6 weeks ago> [17bf599]
+by: Josh Fox (XlxFoXxlX) (joshfox87@gmail.com)
+themes: Cleanup hardcoded colors and use/overlay AOSP values <6 weeks ago> [0e6009f]
+by: Christian Oder (myself5@carbonrom.org)
+overlay: remove background_floating_device_default_dark exposure <6 weeks ago> [0f201e5]
+by: Josh Fox (XlxFoXxlX) (joshfox87@gmail.com)
+themes: don't hardcode Screenrecord dialog color <6 weeks ago> [eac517d]
+by: Christian Oder (myself5@carbonrom.org)
+overlays: Remove more duplicate exposures <6 weeks ago> [4e34fec]
+by: Josh Fox (XlxFoXxlX) (joshfox87@gmail.com)
+overlays: Remove duplicate exposure for notifications <6 weeks ago> [33e4096]
+by: Josh Fox (XlxFoXxlX) (joshfox87@gmail.com)
+overlay: Nuke accent overlays [3/3] <7 weeks ago> [e86c14f]
+by: NurKeinNeid (mralexman3000@gmail.com)
+overlay: Seperate Settings exposures from system for primarys <7 weeks ago> [c5518ea]
+by: Josh Fox (XlxFoXxlX) (joshfox87@gmail.com)
+Notification guts: Adapt to system theme <8 weeks ago> [0d10ffc]
+by: Alex (du.alexcruz@gmail.com)
+overlay: PermissionsManager: Fix navbar color when using dark themes <3 months ago> [d0215b6]
+by: Alex (du.alexcruz@gmail.com)
+overlay: etc: Add Android.mk <8 weeks ago> [d30b1ff]
+by: Anirudh Gupta (anirudhgupta109@aosip.dev)
+Live captions: Have it follow system accent / fix up navbar <10 weeks ago> [e009aa3]
+by: Alex (du.alexcruz@gmail.com)
+overlay: add EmptyOverlay <3 months ago> [948d2a8]
+by: maxwen (max.weninger@gmail.com)
+overlay: remove left over wallpaper after name change <3 months ago> [e71956c]
+by: Josh Fox (XlxFoXxlX) (joshfox87@gmail.com)
+overlay: open sdcard root when launching DocumentsUI <1 year, 4 months ago> [1c845aa]
+by: jrizzoli (joey@lineageos.org)
+overlay: Extend icon previews list <2 months ago> [4ef3a97]
+by: NurKeinNeid (mralexman3000@gmail.com)
+overlay: Allow to theme Settings with primary <3 months ago> [f56f3b6]
+by: Josh Fox (XlxFoXxlX) (joshfox87@gmail.com)
+Overlays: Compress and optimize our default wallpaper <3 months ago> [7a994c7]
+by: NurKeinNeid (mralexman3000@gmail.com)
+Overlay: Add Solarized Dark Primary <3 months ago> [92a323e]
+by: Aman Singh (amankumarsingh1412@gmail.com)
+
+[packages/apps/DerpQuest]
+DerpQuest: Allow toggling heads up by using a master switch <4 days ago> [6d98cc8]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+DerpQuest: Add HeadsUp blacklists [2/2] <4 days ago> [1fdaee0]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+DerpQuest: Convert HeadsUp snooze and timeout to SeekBar <6 days ago> [1c0272e]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[system/netd]
+system/netd: Squash of app fw restriction commits (#1) <3 days ago> [e267aca3]
+by: rahul9999 (36025572+rahul9999xda@users.noreply.github.com)
+
 
 ====================
-     04-06-2020
+     04-16-2020
 ====================
 
+[frameworks/base]
+SystemUI: Add HeadsUp blacklists [1/2] <2 years, 7 months ago> [ecadfbce3c6]
+by: Decad3nce (decad3nce@gmail.com)
 
-   * device/qcom/sepolicy/
-a11089f0 Fix broken userdebug_or_eng checks
-cbc5d28c Revert "Revert "sepolicy: Define key for TimeService apk""
-a84beac2 Merge tag 'LA.UM.8.1.r1-14500-sm8150.0' of https://source.codeaurora.org/quic/la/device/qcom/sepolicy into ten
-5c6593c8 Merge tag 'LA.UM.8.1.r1-14300-sm8150.0' of https://source.codeaurora.org/quic/la/device/qcom/sepolicy into ten
-
-   * frameworks/base/
-d8629a96fa6 base: Move QS brightness slider settings out of tuner [1/2]
-
-   * packages/apps/DerpQuest/
-1c63a20 DerpQuest: Add device specific links support Maintainers should overlay over `about_device_fw_ver` `about_device_fw_link` `about_device_recovery_ver` and `about_device_recovery_link` * Strings contain no value by default and will not show unless overlayed * Version strings should contain a version name that'll be shown in the preference summary (optional) * Link strings should contain full links - recommend using direct download links
-a60c5e9 DerpQuest: Add Greek translation
-3120372 DerpQuest: Add Vietnamese translation
-3da854c DerpQuest: Update Chinese translation
-8b8d143 DerpQuest: Add Brazilian Portuguese translation
-352be0f DerpQuest: Update Polish translation
-eb8ebc8 DerpQuest: dashboard icons redesign
-f3a08cb DerpQuest: Update Italian translation
-95f65f4 DerpQuest: Add full accent sammy clock style [2/2]
-803bb64 DerpQuest: Add a toggle for the new QS tint [2/2]
-a2b085d DerpQuest: Update Italian translation
-8fa4381 DerpQuest: Update French translation
-55245f8 DerpQuest: Removed unused strings in translation files
-f0bc295 DerpQuest: Add RGB accent presets * Using the values of our existing accent overlays
-11f676c DerpQuest: add aod notification pulse timeout option [2/2]
-
-   * vendor/MiuiCamera/
-651b93f Update ANXCamera to V175
-
-   * vendor/qcom/opensource/interfaces/
-539c17b Regenerate blueprints for LA.UM.8.1.r1-14500-sm8150.0
-eb56f3f display: Remove mapper 4.0 and allocator 4.0
-c539406 interfaces: Regenerate blueprints
-f39fff1 Merge tag 'LA.UM.8.1.r1-14500-sm8150.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/interfaces into ten
-9a993ed Merge tag 'LA.UM.8.1.r1-14300-sm8150.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/interfaces into ten
 
 ====================
-     04-05-2020
+     04-15-2020
 ====================
 
+[frameworks/base]
+base: Tune some dimens to make icon spacing on SB equal <6 days ago> [d997b01e6e8]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+base: Add HeadsUp timeout function [1/2] <4 years, 1 month ago> [28f722cb8ad]
+by: Lars Greiss (kufikugel@googlemail.com)
+base: Add HeadsUp snooze function [1/2] <4 years ago> [14aa5c11563]
+by: Lokesh Chamane (lokesh.c703@gmail.com)
 
-   * frameworks/base/
-63b9dc8d8f0 Fix for recycling key events when sending global button broadcast
-192fa81b4f3 Make sure the right DND config is used
-0424040bce0 Don't include the data dir in zygote library paths.
-48ef28fb004 SystemUI: QSconfig: Re-distribute tiles on changing orientation
+[packages/apps/DerpQuest]
+DerpQuest: Add HeadsUp timeout function [2/2] <3 years, 6 months ago> [41ec605]
+by: Lars Greiss (kufikugel@googlemail.com)
+DerpQuest: Add HeadsUp snooze function [2/2] <3 years, 6 months ago> [6be31c5]
+by: Lokesh Chamane (lokesh.c703@gmail.com)
+DerpQuest: Introduce HeadsUp settings fragment <6 days ago> [abc4a98]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+NetworkTraffic: Fix/adjust and properly restrict text sizing <5 weeks ago> [bafa47c]
+by: calebcabob (calphonic@gmail.com)
 
-   * prebuilts/clang/host/linux-x86/clang-proton/
-65f65a0 Update to 20200404 build
+[kernel/xiaomi/cepheus]
+Merge tag 'LE.UM.3.3.2-07600-SDX55' of https://source.codeaurora.org/quic/la/kernel/msm-4.14 into ten <6 days ago> [00b279cd9640c]
+by: DarkDampSquib (andrin.geiger1998@gmail.com)
 
-   * scripts/
-15a1dfa scripts: aosp-merger: Allow keeping conflicts for later and continue
-4d58734 scripts: aosp-merger: Rewrite README.md
-f7b7320 scripts: aosp-merger: Add a flag to push all remaining staging branches
-ed1c911 scripts: aosp-merger: Add a flag to remove staging branch
-7132a4d scripts: aosp-merger: Put git push in a function
-63ecdc0 scripts: aosp-merger: Save local branches to a file before merging
-0cda3e2 scripts: aosp-merger: Remove PROJECTOPERATION argument - we always merge
-bee56fb scripts: aosp-merger: Add and update merge blacklist
-a337025 scripts: aosp-merger: Reworked the script
 
 ====================
-     04-04-2020
+     04-14-2020
 ====================
 
+[frameworks/base]
+SystemUI: Fix custom lockscreen wallpaper <13 days ago> [918f23a3152]
+by: LuK1337 (priv.luk@gmail.com)
 
-   * device/xiaomi/cepheus/
-87a67cee2 cepheus: parts: Add DC-Dimming QS tile
-3ff0363c4 cepheus: parts: disable dc dimming if it's not supported
-ba1e32e6e cepheus: parts: implement dc dimming preference
+[packages/apps/Settings]
+Settings: Squash revert RGB picker [2/5] <8 days ago> [90e85aa7c9]
+by: Ido Ben-Hur (idoybh2@gmail.com)
 
-   * frameworks/opt/telephony/
-c5de25600 Restore getSubIdFromNetworkRequest method
-2acf944fa When SPN is empty, use PNN in mobile network settings
-84bdca11c Revert "Split uicc records loading in two groups."
-30ffd7e67 Revert "Fix data call issue due to improper mnc length"
-f64e2fa81 Merge tag 'LA.UM.8.1.r1-14300-sm8150.0' of https://source.codeaurora.org/quic/la/platform/frameworks/opt/telephony into ten
+[packages/apps/ThemePicker]
+ThemePicker: Squash revert RGB picker [5/5] <8 days ago> [c971a3d]
+by: Ido Ben-Hur (idoybh2@gmail.com)
 
-   * kernel/xiaomi/cepheus/
-dfd84eb7e890e UPSTREAM: loop: Only freeze block queue when needed.
-893be4cc44224 UPSTREAM: loop: Only change blocksize when needed.
+[packages/apps/DerpQuest]
+DerpQuest: Squash revert RGB picker [3/5] <8 days ago> [c8fa9f2]
+by: Ido Ben-Hur (idoybh2@gmail.com)
 
-   * scripts/
-c65e8c0 scripts: Nuke all unneeded scripts
+[vendor/ANXCamera]
+Update ANXCamera to V177 <8 days ago> [50bd7d7]
+by: DarkDampSquib (andrin.geiger1998@gmail.com)
+Rename MiuiCamera to ANXCamera <8 days ago> [b7c9a48]
+by: DarkDampSquib (andrin.geiger1998@gmail.com)
 
-   * system/update_engine/
-aff97704 Allow skipping timestamp check in certain debug conditions
-b54619ad Run backuptool only in debuggable builds
+[kernel/xiaomi/cepheus]
+Merge tag 'LA.UM.8.9.r1-08700-SM6xx.0' of https://source.codeaurora.org/quic/la/kernel/msm-4.14 into HEAD <6 days ago> [bd4c31801de1e]
+by: DarkDampSquib (andrin.geiger1998@gmail.com)
+
 
