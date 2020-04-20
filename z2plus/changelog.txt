@@ -1,228 +1,240 @@
 Device:
-- Compiled with clang 10.0.4
-- Enforcing
-- Kernel Rebased over sdm660 caf tag by @Dd3Boh
-- Misc bug fixes and improvements 
-- Initial Official Build
+
+Build Date 20/04/2020
+ * Blobs update
+ * Added back ANT+
+ * Opt-in for QCOM surfaceflinger
+ * Under the hood bug fixes and improvements
+
+Build Date 09/03/2020
+ * Compiled with clang 10.0.4
+ * Enforcing
+ * Kernel Rebased over sdm660 caf tag by @Dd3Boh
+ * Misc bug fixes and improvements 
+ * Initial Official Build 
 
 ====================
-     03-09-2020
+     04-20-2020
 ====================
 
+[frameworks/base]
+SystemUI: QS: Allow toggling panels [1/2] <6 hours ago> [13258222a76]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+base: notch-city: Add 3 mode display cutout handler <1 year, 5 months ago> [8fb05eb29a6]
+by: Kshitij Gupta (kshitijgm@gmail.com)
+SystemUI: Cleanup pixel live wallpapers changes <3 weeks ago> [4a4dfda934e]
+by: jhenrique09 (jhenrique09.mcz@hotmail.com)
 
-   * frameworks/base/
-1deecd1b136 base: Add Portuguesean traslation to TypeClock @idoybh edits: fix the hell out of the xml file
-258303d0186 base: Allign LS Battery Bar on our Gradient Shit
-cb62e3dc5d8 base: align more seekbar & switch to gradient
-75f67c65a19 base: [SQUASHED] Intoduce Gradient RGB picker [1/2]
+[packages/apps/Settings]
+notch-city: Add 3 mode display cutout handler [3/3] (#9) <14 hours ago> [f107e52fa4]
+by: Aman Kumar Singh (46120388+amanrajOO7@users.noreply.github.com)
 
-   * packages/apps/DerpQuest/
-d08913b DerpQuest: Update Italian translation @idoybh edits: fix the hell out of the xml file
-bea2df1 DerpQuest: Add RGB gradient presets * Uses current RGB accents array for ease of future additions
-c230138 Introduce RGB Gradient Picker [2/2]
+[system/bt]
+Prevent abort in case of command timeout <2 years, 9 months ago> [c8b67066d]
+by: Luke Zhang (lukez@codeaurora.org)
+Bluetooth: Read BLE vendor capability to proceed on Secure conn <4 years, 8 months ago> [de1daf340]
+by: Srinu Jella (sjella@codeaurora.org)
+Add support to force disable enhanced sco commands <2 years, 7 months ago> [ff0f0fe98]
+by: cb (billchen1977@gmail.com)
+
+[vendor/aosip]
+vendor: notch-city: Add 3 mode display cutout handler [2/3] (#19) <14 hours ago> [2753620]
+by: Aman Kumar Singh (46120388+amanrajOO7@users.noreply.github.com)
+
+[packages/apps/DerpQuest]
+DerpQuest: Allow toggling QS panels [2/2] <6 hours ago> [bdfeb87]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
 
 ====================
-     03-08-2020
+     04-19-2020
 ====================
 
+[manifest]
+Merge remote-tracking branch 'aosp/android-10.0.0_r33' into ten <3 days ago> [9db95ac]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+manifest: Track scripts repo <2 weeks ago> [f65a0bb]
+by: Ido Ben-Hur (idoybh2@gmail.com)
 
-   * device/generic/goldfish/
-9cf803e Merge tag 'android-10.0.0_r31' into lineage-17.1-android-10.0.0_r31
+[frameworks/base]
+base: Make 'R style' notification headers toggleable [1/2] <2 days ago> [f6710cd9ba8]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+Implement R style notification section headers <12 days ago> [25f7dc3bcf2]
+by: shagbag913 (sh4gbag913@gmail.com)
+Revert "Hide gentle notification header independently of section priorities" <2 days ago> [51303bd9fd9]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+Revert "base: Make gentle notifications header toggleable [1/2]" <2 days ago> [14b8bb6f215]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+aosipUtils: Use the right config resource for notch detection <2 days ago> [8e3771e25f5]
+by: Ido Ben-Hur (idoybh2@gmail.com)
 
-   * hardware/qcom/audio/
-722c28c23 Merge tag 'android-10.0.0_r31' into lineage-17.1-android-10.0.0_r31
+[packages/apps/DerpQuest]
+DerpQuest: Make 'R style' notification headers toggleable [2/2] <2 days ago> [c324d72]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+Revert "DerpQuest: Make gentle notifications header toggleable [2/2]" <2 days ago> [a6fa32f]
+by: Ido Ben-Hur (idoybh2@gmail.com)
 
-   * hardware/qcom/display/
-d18dd5fe7 Merge tag 'android-10.0.0_r31' into lineage-17.1-android-10.0.0_r31
+[vendor/pixelstyle]
+vendor: OPScreenRecorder: Update to v2.3.0 <3 weeks ago> [b992140]
+by: AnierinB (anierinb@evolution-x.org)
+pixelstyle: Don't build Google's SettingsIntelligence <10 days ago> [de45d86]
+by: Ido Ben-Hur (idoybh2@gmail.com)
 
-   * hardware/qcom/media/
-e484f0ede Merge tag 'android-10.0.0_r31' into lineage-17.1-android-10.0.0_r31
-
-   * packages/apps/DerpQuest/
-0a056e7 DerpQuest: Update Italian translation
-
-   * packages/apps/Settings/
-376261eb15 Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/packages/apps/Settings into ten
 
 ====================
-     03-07-2020
+     04-18-2020
 ====================
 
+[frameworks/base]
+fw/b: Squash of app fw restriction commits (#12) <3 days ago> [805460e04ac]
+by: rahul9999 (36025572+rahul9999xda@users.noreply.github.com)
 
-   * build/make/
-e42d93daf Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/build into ten
+[packages/apps/Dialer]
+Automatic translation import <3 days ago> [e68f64ce3]
+by: Akhil Narang (akhilnarang.1999@gmail.com)
 
-   * build/soong/
-7227d328 Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/build/soong into HEAD
+[packages/apps/Launcher3]
+Automatic translation import <3 days ago> [d7dc19b68]
+by: Akhil Narang (akhilnarang.1999@gmail.com)
 
-   * development/
-79986770b Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/development into HEAD
+[packages/apps/Messaging]
+Automatic translation import <3 days ago> [d9e932d]
+by: Akhil Narang (akhilnarang.1999@gmail.com)
 
-   * frameworks/base/
-639b279e78f lib/androidfw: Fix reversed logic
-ce99044c0b4 [frameworks][base] move -Wno-implicit-fallthrough from cflags to cppflags
-3d06c333af5 fw/b torch: Let long press power turn torch off when screen is on.
-5f6009c034f Pad ime_switcher same as navbar buttons
-c9d19d6b90a Revert "Remove keyguard_indication_area_overlay"
-af6fcd36202 Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/frameworks/base into ten
-d887fdb90f8 Revert "SystemUI: block gestural navigation when using partial screenshot"
-4df86561ba3 Revert "SystemUI: implement better partial screenshot"
+[packages/apps/Settings]
+Settings: per-app cellular data, vpn and wifi restrictions (#8) <3 days ago> [c3ac5ba64d]
+by: rahul9999 (36025572+rahul9999xda@users.noreply.github.com)
 
-   * frameworks/opt/telephony/
-5ecff34d1 Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/frameworks/opt/telephony into HEAD
+[packages/apps/DerpQuest]
+DerpQuest: Allow toggling heads up by using a master switch <3 days ago> [6d98cc8]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+DerpQuest: Add HeadsUp blacklists [2/2] <4 days ago> [1fdaee0]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+DerpQuest: Convert HeadsUp snooze and timeout to SeekBar <5 days ago> [1c0272e]
+by: Ido Ben-Hur (idoybh2@gmail.com)
 
-   * hardware/libhardware/
-f716ee83 Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/hardware/libhardware into HEAD
+[system/netd]
+system/netd: Squash of app fw restriction commits (#1) <3 days ago> [e267aca3]
+by: rahul9999 (36025572+rahul9999xda@users.noreply.github.com)
 
-   * manifest/
-e652008 Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/manifest into ten
-0f6d1ec Initial tracking for DerpFest
-
-   * packages/apps/Bluetooth/
-f382d0d4 Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/packages/apps/Bluetooth into ten
-
-   * packages/apps/CarrierConfig/
-12ca1d7 Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/packages/apps/CarrierConfig into HEAD
-
-   * packages/apps/CellBroadcastReceiver/
-51921e41 Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/packages/apps/CellBroadcastReceiver into HEAD
-
-   * packages/apps/CertInstaller/
-c01555f Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/packages/apps/CertInstaller into HEAD
-
-   * packages/apps/PhoneCommon/
-4df87cd Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/packages/apps/PhoneCommon into HEAD
-
-   * packages/apps/ThemePicker/
-e2ac2ba Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/packages/apps/ThemePicker into ten
-
-   * packages/apps/WallpaperPicker2/
-498f182 Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/packages/apps/WallpaperPicker2 into HEAD
-
-   * packages/inputmethods/LatinIME/
-4277b4e9c Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/packages/inputmethods/LatinIME into HEAD
-
-   * packages/services/Telecomm/
-a37bc474 Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/packages/services/Telecomm into HEAD
-d80ac6b8 Merge remote-tracking branch 'derp/ten' into HEAD
-
-   * packages/services/Telephony/
-95ca3b41d Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/packages/services/Telephony into ten
-
-   * system/core/
-4c0ce0513 Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/system/core into HEAD
-
-   * system/sepolicy/
-e8939084 Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/system/sepolicy into ten
-
-   * system/vold/
-2dc8dfa Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/system/vold into HEAD
 
 ====================
-     03-06-2020
+     04-17-2020
 ====================
 
-   * art/
-545bc4eb6b Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/art into HEAD
+[frameworks/base]
+SystemUI: Add HeadsUp blacklists [1/2] <2 years, 7 months ago> [ecadfbce3c6]
+by: Decad3nce (decad3nce@gmail.com)
 
-   * bootable/recovery/
-6ed67eec Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/bootable/recovery into HEAD
+[vendor/aosip]
+changelog: Improve Changelog generator (#18) <3 days ago> [c5d328d]
+by: Nauval Rizky (enuma.alrizky@gmail.com)
 
-   * build/blueprint/
-a52ed00 Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/build/blueprint into HEAD
+[vendor/overlay]
+overlay: Squash revert RGB picker [4/5] <7 days ago> [7818d9c]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+Overlay: Add OnePlus Dark Primary <3 weeks ago> [d933521]
+by: Aman Singh (amankumarsingh1412@gmail.com)
+overlays: Add Flame primary <6 weeks ago> [17bf599]
+by: Josh Fox (XlxFoXxlX) (joshfox87@gmail.com)
+themes: Cleanup hardcoded colors and use/overlay AOSP values <6 weeks ago> [0e6009f]
+by: Christian Oder (myself5@carbonrom.org)
+overlay: remove background_floating_device_default_dark exposure <6 weeks ago> [0f201e5]
+by: Josh Fox (XlxFoXxlX) (joshfox87@gmail.com)
+themes: don't hardcode Screenrecord dialog color <6 weeks ago> [eac517d]
+by: Christian Oder (myself5@carbonrom.org)
+overlays: Remove more duplicate exposures <6 weeks ago> [4e34fec]
+by: Josh Fox (XlxFoXxlX) (joshfox87@gmail.com)
+overlays: Remove duplicate exposure for notifications <6 weeks ago> [33e4096]
+by: Josh Fox (XlxFoXxlX) (joshfox87@gmail.com)
+overlay: Nuke accent overlays [3/3] <7 weeks ago> [e86c14f]
+by: NurKeinNeid (mralexman3000@gmail.com)
+overlay: Seperate Settings exposures from system for primarys <7 weeks ago> [c5518ea]
+by: Josh Fox (XlxFoXxlX) (joshfox87@gmail.com)
+Notification guts: Adapt to system theme <8 weeks ago> [0d10ffc]
+by: Alex (du.alexcruz@gmail.com)
+overlay: PermissionsManager: Fix navbar color when using dark themes <3 months ago> [d0215b6]
+by: Alex (du.alexcruz@gmail.com)
+overlay: etc: Add Android.mk <8 weeks ago> [d30b1ff]
+by: Anirudh Gupta (anirudhgupta109@aosip.dev)
+Live captions: Have it follow system accent / fix up navbar <9 weeks ago> [e009aa3]
+by: Alex (du.alexcruz@gmail.com)
+overlay: add EmptyOverlay <2 months ago> [948d2a8]
+by: maxwen (max.weninger@gmail.com)
+overlay: remove left over wallpaper after name change <3 months ago> [e71956c]
+by: Josh Fox (XlxFoXxlX) (joshfox87@gmail.com)
+overlay: open sdcard root when launching DocumentsUI <1 year, 4 months ago> [1c845aa]
+by: jrizzoli (joey@lineageos.org)
+overlay: Extend icon previews list <2 months ago> [4ef3a97]
+by: NurKeinNeid (mralexman3000@gmail.com)
+overlay: Allow to theme Settings with primary <3 months ago> [f56f3b6]
+by: Josh Fox (XlxFoXxlX) (joshfox87@gmail.com)
+Overlays: Compress and optimize our default wallpaper <2 months ago> [7a994c7]
+by: NurKeinNeid (mralexman3000@gmail.com)
+Overlay: Add Solarized Dark Primary <3 months ago> [92a323e]
+by: Aman Singh (amankumarsingh1412@gmail.com)
 
-   * frameworks/av/
-97072ef7e Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/frameworks/av into ten
-
-   * frameworks/opt/net/wifi/
-dd71edbe5 Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/frameworks/opt/net/wifi into ten
-
-   * packages/apps/Nfc/
-9006fd14 Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/packages/apps/Nfc into ten
-
-   * packages/providers/MediaProvider/
-5ddf2ff Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/packages/providers/MediaProvider into HEAD
 
 ====================
-     03-05-2020
+     04-16-2020
 ====================
 
+[frameworks/base]
+base: Tune some dimens to make icon spacing on SB equal <5 days ago> [d997b01e6e8]
+by: Ido Ben-Hur (idoybh2@gmail.com)
 
-   * frameworks/base/
-f7d5c26b0c0 AODTile: disable tile when power save mode is on
-c7259d5b7c0 Resolver: Modernize layout
-2b1b00221c2 Revert "Make resolver list layouts have round corners"
-735fbd5e2a9 Revert "Reland "Apply front scrim to doze pulsing""
-2c6c226dd4d Revert "Fix AoD front scrim being opaque at DOZE_PULSING."
+[packages/apps/DerpQuest]
+DerpQuest: Add HeadsUp timeout function [2/2] <3 years, 6 months ago> [41ec605]
+by: Lars Greiss (kufikugel@googlemail.com)
+DerpQuest: Add HeadsUp snooze function [2/2] <3 years, 6 months ago> [6be31c5]
+by: Lokesh Chamane (lokesh.c703@gmail.com)
 
-   * frameworks/native/
-0fcccb557 Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/frameworks/native into ten
-
-   * hardware/interfaces/
-ea37b9443 Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/hardware/interfaces into ten
-
-   * packages/providers/DownloadProvider/
-2d6ecfa2 Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/packages/providers/DownloadProvider into ten
-
-   * system/apex/
-6b785bf Merge tag 'android-10.0.0_r31' of https://android.googlesource.com/platform/system/apex into HEAD
 
 ====================
-     03-04-2020
+     04-15-2020
 ====================
 
+[frameworks/base]
+base: Add HeadsUp timeout function [1/2] <4 years, 1 month ago> [28f722cb8ad]
+by: Lars Greiss (kufikugel@googlemail.com)
+base: Add HeadsUp snooze function [1/2] <4 years ago> [14aa5c11563]
+by: Lokesh Chamane (lokesh.c703@gmail.com)
+SystemUI: Fix custom lockscreen wallpaper <12 days ago> [918f23a3152]
+by: LuK1337 (priv.luk@gmail.com)
 
-   * manifest/
-349b5dc Manifest for Android 10.0.0 Release 31
-720bca6 Add platform/tools/apifinder
+[packages/apps/Settings]
+Settings: Squash revert RGB picker [2/5] <7 days ago> [90e85aa7c9]
+by: Ido Ben-Hur (idoybh2@gmail.com)
 
-   * packages/apps/DerpQuest/
-d60ad6f DerpQuest: Update French translation
-24a7fdd DerpQuest: Removed unused strings in translation files
+[packages/apps/ThemePicker]
+ThemePicker: Squash revert RGB picker [5/5] <7 days ago> [c971a3d]
+by: Ido Ben-Hur (idoybh2@gmail.com)
 
-   * packages/apps/Settings/
-e8a4f457d3 Settings: Removed unused strings in translation files
+[packages/apps/DerpQuest]
+DerpQuest: Introduce HeadsUp settings fragment <5 days ago> [abc4a98]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+NetworkTraffic: Fix/adjust and properly restrict text sizing <5 weeks ago> [bafa47c]
+by: calebcabob (calphonic@gmail.com)
+DerpQuest: Squash revert RGB picker [3/5] <7 days ago> [c8fa9f2]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
 
 ====================
-     03-03-2020
+     04-14-2020
 ====================
 
+[device/aosip/sepolicy]
+Revert "aosip: common: add rules for RGB/HSL accentpicker" <7 days ago> [85f9950]
+by: Ido Ben-Hur (idoybh2@gmail.com)
 
-   * external/perfetto/
-1046b543 Merge tag 'android-10.0.0_r31' into ten
+[frameworks/base]
+QSB: Only apply header padding if a custom header image is selected <7 days ago> [591507f62e2]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+base: Squash revert RGB picker [1/5] <7 days ago> [ccf32e91eff]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+base: Proper fix of Android Auto <12 days ago> [85fed7189ed]
+by: Hikari-no-Tenshi (kyryljan.serhij@gmail.com)
 
-   * frameworks/base/
-09f2c4c9868 Revert "FODCircleView: disable touch detection on screen off"
-
-   * manifest/
-38f3fdb Manifest for Android 10.0.0 Release 30
-
-   * packages/apps/Contacts/
-c865bafe2 Merge tag 'android-10.0.0_r31' into ten
-
-   * packages/apps/Dialer/
-e2a760fcf Merge tag 'android-10.0.0_r31' into ten
-
-   * packages/apps/DocumentsUI/
-252aea87d Merge tag 'android-10.0.0_r31' into ten
-
-   * packages/apps/OpenDelta/
-6892564 Revert "OpenDelta: add support for OTA of unofficial devices"
-39a0f8f OpenDelta: reset latest full build info after AB update
-128b518 Automatic translation import
-6d46bc3 OpenDelta: add support for OTA of unofficial devices
-4c9aac5 OpenDelta: fix default value for AB performance mode
-8157dba OpenDelta: use correct file name in AB flash notification
-
-   * packages/apps/Settings/
-948118f818 Settings: Add AGPS setting menu.
-
-   * packages/providers/ContactsProvider/
-cc92fd2c Merge tag 'android-10.0.0_r31' into ten
-
-   * platform_testing/
-f5be58d8 Merge tag 'android-10.0.0_r31' into ten
-
-   * vendor/overlay/
-32c3c64 overlay: Nuke accent overlays [3/3]
-
+[packages/apps/DerpQuest]
+DerpQuest: Update Greek translation (#49) <9 days ago> [37273b9]
+by: CrisBalGreece (crisbaladim@yahoo.gr)
