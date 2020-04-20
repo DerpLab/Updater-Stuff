@@ -1,143 +1,15 @@
-====================
-     04-15-2020
-====================
+Changelog for Official DerpFest Build Update 20.04.2020 for X00TD:
 
-[packages/apps/Settings]
-Settings: Squash revert RGB picker [2/5] <2 days ago> [90e85aa7c9]
-by: Ido Ben-Hur (idoybh2@gmail.com)
+[SOURCE]
 
-[packages/apps/ThemePicker]
-ThemePicker: Squash revert RGB picker [5/5] <2 days ago> [c971a3d]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[vendor/overlay]
-overlay: Squash revert RGB picker [4/5] <2 days ago> [d596aca]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-Overlay: Add OnePlus Dark Primary <2 weeks ago> [7f860c3]
-by: Aman Singh (amankumarsingh1412@gmail.com)
-
-[packages/apps/DerpQuest]
-DerpQuest: Squash revert RGB picker [3/5] <2 days ago> [c8fa9f2]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-
-====================
-     04-14-2020
-====================
-
-[device/aosip/sepolicy]
-Revert "aosip: common: add rules for RGB/HSL accentpicker" <2 days ago> [85f9950]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[frameworks/base]
-QSB: Only apply header padding if a custom header image is selected <2 days ago> [591507f62e2]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-base: Squash revert RGB picker [1/5] <2 days ago> [ccf32e91eff]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-base: Proper fix of Android Auto <8 days ago> [85fed7189ed]
-by: Hikari-no-Tenshi (kyryljan.serhij@gmail.com)
-
-[packages/apps/DerpQuest]
-DerpQuest: Update Greek translation (#49) <5 days ago> [37273b9]
-by: CrisBalGreece (crisbaladim@yahoo.gr)
-
-
-====================
-     04-13-2020
-====================
-
-[build/make]
-releasetools: do not remove dynamic partitions in system-only builds <6 weeks ago> [ed4cdc1ec]
-by: Peter Cai (peter@typeblog.net)
-Generate block based OTA for product partitions <11 months ago> [c3e7fdc01]
-by: Tianjie Xu (xunchang@google.com)
-
-[device/qcom/sepolicy]
-sepolicy: Remove duplicated iwlan definition <3 days ago> [5c9853c3]
-by: adi8900 (adrianszymanski242@gmail.com)
-sepolicy: Include wifi-ext sepol <4 months ago> [1dd534df]
-by: Dyneteve (dyneteve@pixelexperience.org)
-sepolicy: qva: Remove duplicate specification for qti.ims.ext <6 months ago> [f31feab6]
-by: theimpulson (aayushgupta219@gmail.com)
-sepolicy: this is AOSiP <7 months ago> [9b933f5d]
-by: Akhil Narang (akhilnarang.1999@gmail.com)
-
-[vendor/aosip]
-Export techpack/audio uapi headers of msm 4.14 kernel <6 weeks ago> [2b5b3d5]
-by: dianlujitao (dianlujitao@lineageos.org)
-changelog: properly split each of manifest entry <3 days ago> [e853eb3]
-by: Nauval Rizky (enuma.alrizky@gmail.com)
-changelog: Also generate for repos in local manifests <4 days ago> [83cb572]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[prebuilts/clang/host/linux-x86]
-Update prebuilt Clang to r377782d. <11 days ago> [85dbf6c4]
-by: Stephen Hines (srhines@google.com)
-
-
-====================
-     04-12-2020
-====================
-
-[build/make]
-build: Allow supplying a prebuilt recovery ramdisk cpio <4 days ago> [b2881e6f5]
-by: Christian Oder (myself5@carbonrom.org)
-Revert "build: Allow supplying a prebuilt recovery ramdisk cpio" <4 days ago> [6e21ef1d3]
-by: Kailash (kailash.sudhakar@gmail.com)
-
-[vendor/aosip]
-changelog: Prettify output for readability <4 days ago> [072306c]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-vendor: changelog: Avoid using repo to cycle through all repos <4 days ago> [f5095e5]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[prebuilts/clang/host/linux-x86/clang-proton]
-Update to 20200411 build <3 days ago> [ac072c7]
-by: Danny (danny@kdrag0n.dev)
-
-
-====================
-     04-11-2020
-====================
-
-[vendor/aosip]
-vendor: Build AOSP SettingsIntelligence <5 days ago> [2ec3c59]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-derp: Add support for ysl (#15) <5 days ago> [e28b464]
-by: Tushar Bharti (tushar9915@gmail.com)
-derp: Add support for Z01R (#14) <5 days ago> [3b84863]
-by: Kailash (kailash.sudhakar@gmail.com)
-
-[packages/apps/OpenDelta]
-OpenDelta: Update Greek translation (#1) <5 days ago> [dc5db5e]
-by: CrisBalGreece (crisbaladim@yahoo.gr)
-
-[vendor/pixelstyle]
-pixelstyle: Don't build Google's SettingsIntelligence <5 days ago> [097229a]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-
-====================
-     04-10-2020
-====================
-
-
-====================
-     04-09-2020
-====================
-
-[frameworks/base]
-base: Italian translations (#11) <7 days ago> [862efebdef3]
-by: Pietro Mingo (50447537+pietromingo@users.noreply.github.com)
-
-[packages/apps/DerpQuest]
-DerpQuest: Update Italian translation (#48) <7 days ago> [82a5bd9]
-by: Pietro Mingo (50447537+pietromingo@users.noreply.github.com)
-DerpQuest: About: Make sure a default browser is selected <7 days ago> [80c07f6]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-DerpQuest: Move QS brightness slider settings out of tuner [2/2] <9 days ago> [fb20297]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-DerpQuest: Set a default header image This solves a padding bug when header image is enabled but not selected <2 weeks ago> [1a7fbe7]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-
+• Added 'R' style notification (has a toggle)
+• Added HeadsUp blacklists (toggle)
+• Added HeadsUp snooze function (toggle)
+• Added HeadsUp timeout function (toggle)
+• Tuned some dimens to make icon spacing on Status bar equal
+• Added proper fix of Android Auto
+• Fixed custom lockscreen wallpaper
+• Removed RGB accent picker
+• Added per-app cellular data, vpn and wifi restrictions
+• Used Aosp settings intelligence
+• Maybe more things can't remember ;)
