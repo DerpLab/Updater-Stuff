@@ -1,186 +1,225 @@
+====================
+     04-21-2020
+====================
 
-project build/make/
-c95ef5f29 Merge tag 'android-10.0.0_r33' of https://android.googlesource.com/platform/build into HEAD
-25c46faa8 build: envsetup: Introduce 'aospremote' function
-2869685d8 Do not remove RRO resources
-0e99314fd Display progress of system & vendor images when flashing
-e9756730a Clean up ROM flash and add DerpFest info
+[frameworks/base]
+SystemUI: FPS Info Overlay & Tile <6 weeks ago> [516f1b8272d]
+by: Marko Man (darkobas@gmail.com)
+FODCircleView: update position of icon before show <9 weeks ago> [93b904b94b5]
+by: Demon000 (demonsingur@gmail.com)
+FODCircleView: Fix position on keyguard if cutout is hidden <10 weeks ago> [04e1dc497ba]
+by: Hikari-no-Tenshi (kyryljan.serhij@gmail.com)
+FODCircleView: Fix position if cutout is hidden <9 months ago> [b0f00f5a91a]
+by: jhenrique09 (jhenrique09.mcz@hotmail.com)
 
-project device/qcom/sepolicy/
-a11089f0 Fix broken userdebug_or_eng checks
-cbc5d28c Revert "Revert "sepolicy: Define key for TimeService apk""
-a84beac2 Merge tag 'LA.UM.8.1.r1-14500-sm8150.0' of https://source.codeaurora.org/quic/la/device/qcom/sepolicy into ten
-5c6593c8 Merge tag 'LA.UM.8.1.r1-14300-sm8150.0' of https://source.codeaurora.org/quic/la/device/qcom/sepolicy into ten
+[packages/apps/DerpQuest]
+DerpQuest: Don't translate what you shouldn't <21 hours ago> [f96c5b5]
+by: Ido Ben-Hur (idoybh2@gmail.com)
 
-project external/mksh/
-ae5f5fa mksh: don't use /data/local for TMPDIR in recovery
 
-project frameworks/av/
-538eb460c Merge tag 'android-10.0.0_r33' into staging/ten-android-10.0.0_r33
+====================
+     04-20-2020
+====================
 
-project frameworks/base/
-afdfb87601a Merge tag 'android-10.0.0_r33' into staging/ten-android-10.0.0_r33
-d8629a96fa6 base: Move QS brightness slider settings out of tuner [1/2]
-63b9dc8d8f0 Fix for recycling key events when sending global button broadcast
-192fa81b4f3 Make sure the right DND config is used
-0424040bce0 Don't include the data dir in zygote library paths.
-48ef28fb004 SystemUI: QSconfig: Re-distribute tiles on changing orientation
-1edf46beebf base: SystemUI: Disable junky LS clock & slice transition animations
-ae5a88e322a DisplayPolicy: Fix watchdog when adding new display
-d369d0fef29 SystemUI: simplify qs tile helper
-7232184964c QS: Caffeine Tile: Eggtimer
-39e0c3d9bc2 Revert "Add a one time QS dialog for the caffeine tile"
-f9915eb8671 SystemUI: Port more Assist things from Pixel SystemUI
-9316f74fe67 Revert "Add colors to assistant animation"
-33c3a6ab996 Revert "SystemUI: assist: disable old Assistant animations"
-15583c5fa12 Sanitize Bluetooth device names without regex
-79c7db476f2 Send battery low intent when battery warning boundary changed
-06cb9f05307 SystemUI: Disable heads up debugging on debug builds as well.
-58009f6f1b6 SystemUI: Disable heads up debugging on non eng builds
-669a307d6e7 Start BiometricService even if no hardware is present
-fdd3a8ac005 SystemUI: Port pixel navigation bar
-22af76457b0 base: add outline style to caffeine qs tile drawable
-2f65d5db1b1 DataSwitchTile: Add drawable for No SIM
-1fc67a71e19 DataSwitchTile: grant missing permission
-d63648855c1 SystemUI: fix binary clock update
-dbabf4c31e3 aosipUtils: add statusbarservice
-0672f151841 Revert "SystemUI: Enable and fix QS detail view, adapt layout to Pie"
-38c14fad096 SystemUI: QS blur improvements
-8069b759a26 QS: Add and use Bluetooth Panel instead of full Settings
-9c63f71ec6d SystemUI: Also use mobile data panel on celular qs tile
-4c563b81fc4 Screenshot: remove white flash if dark mode is enabled
-291ab693d11 QS: Use Mobile Data panel for CellularTile
-0c37984b8d6 Fix derp of 907d2d8548150e4bb9f2f43cd1a27f9b7cd27909
-f916f16e0b3 Partially revert 148c1b3efdf1ac8ff3151a55c57d1503c7b0aa30
-30782df557f QS: Add advanced location tile options
-e9e5c4a1cf2 WindowManager: Add clearPrivateFlags
-3914ec5aedf base: Update some icons to MD2
-0fe4ff6f69b Fix Launcher3 errors due to missing permissions
-81444b7aed3 SystemUI/AndroidManifest.xml: Override authorities for providers
-6bd5f8a45c6 base: allow disable of screenshot shutter sound
-a3db2320b68 Partial screenshot block gestures/headsup: code improvements
-30123f4e3df GlobalScreenshot: do not capture multiple screenshots simultaneously
-4acdc906420 Partial screenshot: block gestures and heads up when running
-ed5f063252d Partial screenshot: Layout improvements
-6a026232b91 SystemUI: implement better partial screenshot
+[frameworks/base]
+SystemUI: QS: Allow toggling panels [1/2] <31 hours ago> [13258222a76]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+base: notch-city: Add 3 mode display cutout handler <1 year, 5 months ago> [8fb05eb29a6]
+by: Kshitij Gupta (kshitijgm@gmail.com)
+SystemUI: Cleanup pixel live wallpapers changes <3 weeks ago> [4a4dfda934e]
+by: jhenrique09 (jhenrique09.mcz@hotmail.com)
 
-project frameworks/opt/telephony/
-c5de25600 Restore getSubIdFromNetworkRequest method
-2acf944fa When SPN is empty, use PNN in mobile network settings
-84bdca11c Revert "Split uicc records loading in two groups."
-30ffd7e67 Revert "Fix data call issue due to improper mnc length"
-f64e2fa81 Merge tag 'LA.UM.8.1.r1-14300-sm8150.0' of https://source.codeaurora.org/quic/la/platform/frameworks/opt/telephony into ten
-f5dddf42e Fix to block data call request for no change in Data RAT
-1071e4f84 Use appropriate method to query UiccCard object
-486b3173c Reset preferred APN setting after restoring default APNs
-7dcc9244b Fix non-roaming overlay not work issue.
-bc33b4520 Set service class with SERVICE_CLASS_NONE over CS
-864739ba2 Fix attach issue due to wrong attach apn
-085d2cc0c Add Null check to getIccId.
-b9f7ad002 MSIM:Fix iccid issue during android upgrade.
-d6feb02a7 Fix iccid issue during android upgrade.
-42c022365 Emergency Number Implementation for SS & DS
-543210a38 Telephony: Get SIM card capacity of SMS
-904322f01 Fix data deactivate issue due to intermediate network requests
-3e6b35bdc Add check for CSIM application presence
-7baf27432 Use tcp buffer values for rat LTE_CA
-0c8896e27 Fix to release partial wakelock for SRVCC handover.
-6648bd79a Refresh SIM operator numeric for multi-mode SIM
-524a63cde Delay intialization of subscription listener
-26b4902c5 Fix the deregistration which happens soon after registration.
-13ea5d3d5 Don't unregister supplementary service notification.
+[packages/apps/Settings]
+notch-city: Add 3 mode display cutout handler [3/3] (#9) <2 days ago> [f107e52fa4]
+by: Aman Kumar Singh (46120388+amanrajOO7@users.noreply.github.com)
 
-project manifest/
-6447431 manifest: Track scripts repo
-c7eb721 manifest: Track proton-clang
-fa9f60e manifest: Track GApps from Derp
+[system/bt]
+Prevent abort in case of command timeout <2 years, 9 months ago> [c8b67066d]
+by: Luke Zhang (lukez@codeaurora.org)
+Bluetooth: Read BLE vendor capability to proceed on Secure conn <4 years, 8 months ago> [de1daf340]
+by: Srinu Jella (sjella@codeaurora.org)
+Add support to force disable enhanced sco commands <2 years, 7 months ago> [ff0f0fe98]
+by: cb (billchen1977@gmail.com)
 
-project packages/apps/DerpQuest/
-250f8e4 DerpQuest: Move QS brightness slider settings out of tuner [2/2]
-045c230 DerpQuest: Set a default header image This solves a padding bug when header image is enabled but not selected
-1c63a20 DerpQuest: Add device specific links support Maintainers should overlay over `about_device_fw_ver` `about_device_fw_link` `about_device_recovery_ver` and `about_device_recovery_link` * Strings contain no value by default and will not show unless overlayed * Version strings should contain a version name that'll be shown in the preference summary (optional) * Link strings should contain full links - recommend using direct download links
-a60c5e9 DerpQuest: Add Greek translation
-3120372 DerpQuest: Add Vietnamese translation
-3da854c DerpQuest: Update Chinese translation
-8b8d143 DerpQuest: Add Brazilian Portuguese translation
-352be0f DerpQuest: Update Polish translation
-eb8ebc8 DerpQuest: dashboard icons redesign
-f3a08cb DerpQuest: Update Italian translation
-95f65f4 DerpQuest: Add full accent sammy clock style [2/2]
-803bb64 DerpQuest: Add a toggle for the new QS tint [2/2]
-a2b085d DerpQuest: Update Italian translation
-8fa4381 DerpQuest: Update French translation
-55245f8 DerpQuest: Removed unused strings in translation files
-f0bc295 DerpQuest: Add RGB accent presets * Using the values of our existing accent overlays
-11f676c DerpQuest: add aod notification pulse timeout option [2/2]
+[vendor/aosip]
+vendor: notch-city: Add 3 mode display cutout handler [2/3] (#19) <2 days ago> [2753620]
+by: Aman Kumar Singh (46120388+amanrajOO7@users.noreply.github.com)
 
-project packages/apps/OpenDelta/
-54e2430 OpenDelta: Compare build dates only when checking for updates Achieve this by comparing only the date part of the file and not just by removing all chars. Some files have a timpastamp added to their name which pops up a "new" update in some edge cases
+[packages/apps/DerpQuest]
+DerpQuest: Allow toggling QS panels [2/2] <31 hours ago> [bdfeb87]
+by: Ido Ben-Hur (idoybh2@gmail.com)
 
-project packages/apps/Settings/
-df4dc12ff8 Merge tag 'android-10.0.0_r33' of https://android.googlesource.com/platform/packages/apps/Settings into HEAD
-24f52587ac Settings: Move DarkUIPreference to theme category
-cf1adf19a4 Settings: Clean up running services fragment layout
-bfb99ae47e Settings: panels: Fix pair new device icon
-3cbb40f848 Settings: panels: Add pair new to BT panel slice
-3f18103cfc Settings: panels: Add Bluetooth panel
 
-project packages/apps/ThemePicker/
-866358b Revert "Revert "ThemePicker: integrate into OwlsNest""
+====================
+     04-19-2020
+====================
 
-project packages/resources/devicesettings/
-0b16352 Automatic translation import
+[manifest]
+Merge remote-tracking branch 'aosp/android-10.0.0_r33' into ten <4 days ago> [9db95ac]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+manifest: Track scripts repo <3 weeks ago> [f65a0bb]
+by: Ido Ben-Hur (idoybh2@gmail.com)
 
-project prebuilts/clang/host/linux-x86/clang-proton/
-65f65a0 Update to 20200404 build
+[frameworks/base]
+base: Make 'R style' notification headers toggleable [1/2] <3 days ago> [f6710cd9ba8]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+Implement R style notification section headers <13 days ago> [25f7dc3bcf2]
+by: shagbag913 (sh4gbag913@gmail.com)
+Revert "Hide gentle notification header independently of section priorities" <3 days ago> [51303bd9fd9]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+Revert "base: Make gentle notifications header toggleable [1/2]" <3 days ago> [14b8bb6f215]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+aosipUtils: Use the right config resource for notch detection <3 days ago> [8e3771e25f5]
+by: Ido Ben-Hur (idoybh2@gmail.com)
 
-project scripts/
-15a1dfa scripts: aosp-merger: Allow keeping conflicts for later and continue
-4d58734 scripts: aosp-merger: Rewrite README.md
-f7b7320 scripts: aosp-merger: Add a flag to push all remaining staging branches
-ed1c911 scripts: aosp-merger: Add a flag to remove staging branch
-7132a4d scripts: aosp-merger: Put git push in a function
-63ecdc0 scripts: aosp-merger: Save local branches to a file before merging
-0cda3e2 scripts: aosp-merger: Remove PROJECTOPERATION argument - we always merge
-bee56fb scripts: aosp-merger: Add and update merge blacklist
-a337025 scripts: aosp-merger: Reworked the script
-c65e8c0 scripts: Nuke all unneeded scripts
-fb5db09 payload-extractor: Add .img to output file name
-6753c15 device-deps-regenerator: Add lineage-17.1 to branches
+[packages/apps/DerpQuest]
+DerpQuest: Make 'R style' notification headers toggleable [2/2] <3 days ago> [c324d72]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+Revert "DerpQuest: Make gentle notifications header toggleable [2/2]" <3 days ago> [a6fa32f]
+by: Ido Ben-Hur (idoybh2@gmail.com)
 
-project system/update_engine/
-aff97704 Allow skipping timestamp check in certain debug conditions
-b54619ad Run backuptool only in debuggable builds
+[vendor/pixelstyle]
+vendor: OPScreenRecorder: Update to v2.3.0 <3 weeks ago> [b992140]
+by: AnierinB (anierinb@evolution-x.org)
+pixelstyle: Don't build Google's SettingsIntelligence <11 days ago> [de45d86]
+by: Ido Ben-Hur (idoybh2@gmail.com)
 
-project vendor/aosip/
-10edfa6 prebuilts: Add libstdc++ to libjni_latinimegoogle shared libs
-354678e kernel: Add option for using LLD as linker
 
-project vendor/gapps/
-472faae gapps: Remove TipsPrebuilt
+====================
+     04-18-2020
+====================
 
-project vendor/nxp/opensource/sn100x/halimpl/
-e747bcc8 sn100x: halimpl: ignore autonomous mode writes if the feature is disabled
+[frameworks/base]
+fw/b: Squash of app fw restriction commits (#12) <4 days ago> [805460e04ac]
+by: rahul9999 (36025572+rahul9999xda@users.noreply.github.com)
 
-project vendor/overlay/
-2c932b9 Merge pull request #5 from amanrajOO7/ten
-c1aeb1a Overlay: Add OnePlus Dark Primary
-a95d348 overlays: Add Flame primary
-8bbfa71 themes: Cleanup hardcoded colors and use/overlay AOSP values
-a3a01dd overlay: remove background_floating_device_default_dark exposure
-4f0718b themes: don't hardcode Screenrecord dialog color
-0f9621b overlays: Remove more duplicate exposures
-0db44ba overlays: Remove duplicate exposure for notifications
+[packages/apps/Dialer]
+Automatic translation import <4 days ago> [e68f64ce3]
+by: Akhil Narang (akhilnarang.1999@gmail.com)
 
-project vendor/pixelstyle/
-d2b79f3 pixelstyle: fonts: Use TARGET_COPY_OUT_SYSTEM
+[packages/apps/Launcher3]
+Automatic translation import <4 days ago> [d7dc19b68]
+by: Akhil Narang (akhilnarang.1999@gmail.com)
 
-project vendor/qcom/opensource/fm-commonsys/
-cc7dc91 Automatic translation import
+[packages/apps/Messaging]
+Automatic translation import <4 days ago> [d9e932d]
+by: Akhil Narang (akhilnarang.1999@gmail.com)
 
-project vendor/qcom/opensource/interfaces/
-539c17b Regenerate blueprints for LA.UM.8.1.r1-14500-sm8150.0
-eb56f3f display: Remove mapper 4.0 and allocator 4.0
-c539406 interfaces: Regenerate blueprints
-f39fff1 Merge tag 'LA.UM.8.1.r1-14500-sm8150.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/interfaces into ten
-9a993ed Merge tag 'LA.UM.8.1.r1-14300-sm8150.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/interfaces into ten
+[packages/apps/Settings]
+Settings: per-app cellular data, vpn and wifi restrictions (#8) <4 days ago> [c3ac5ba64d]
+by: rahul9999 (36025572+rahul9999xda@users.noreply.github.com)
+
+[packages/apps/DerpQuest]
+DerpQuest: Allow toggling heads up by using a master switch <4 days ago> [6d98cc8]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+DerpQuest: Add HeadsUp blacklists [2/2] <5 days ago> [1fdaee0]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+DerpQuest: Convert HeadsUp snooze and timeout to SeekBar <6 days ago> [1c0272e]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[system/netd]
+system/netd: Squash of app fw restriction commits (#1) <4 days ago> [e267aca3]
+by: rahul9999 (36025572+rahul9999xda@users.noreply.github.com)
+
+
+====================
+     04-17-2020
+====================
+
+[frameworks/base]
+SystemUI: Add HeadsUp blacklists [1/2] <2 years, 7 months ago> [ecadfbce3c6]
+by: Decad3nce (decad3nce@gmail.com)
+
+[vendor/aosip]
+changelog: Improve Changelog generator (#18) <4 days ago> [c5d328d]
+by: Nauval Rizky (enuma.alrizky@gmail.com)
+
+[vendor/overlay]
+overlay: Squash revert RGB picker [4/5] <8 days ago> [7818d9c]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+Overlay: Add OnePlus Dark Primary <3 weeks ago> [d933521]
+by: Aman Singh (amankumarsingh1412@gmail.com)
+overlays: Add Flame primary <6 weeks ago> [17bf599]
+by: Josh Fox (XlxFoXxlX) (joshfox87@gmail.com)
+themes: Cleanup hardcoded colors and use/overlay AOSP values <6 weeks ago> [0e6009f]
+by: Christian Oder (myself5@carbonrom.org)
+overlay: remove background_floating_device_default_dark exposure <6 weeks ago> [0f201e5]
+by: Josh Fox (XlxFoXxlX) (joshfox87@gmail.com)
+themes: don't hardcode Screenrecord dialog color <6 weeks ago> [eac517d]
+by: Christian Oder (myself5@carbonrom.org)
+overlays: Remove more duplicate exposures <6 weeks ago> [4e34fec]
+by: Josh Fox (XlxFoXxlX) (joshfox87@gmail.com)
+overlays: Remove duplicate exposure for notifications <6 weeks ago> [33e4096]
+by: Josh Fox (XlxFoXxlX) (joshfox87@gmail.com)
+overlay: Nuke accent overlays [3/3] <7 weeks ago> [e86c14f]
+by: NurKeinNeid (mralexman3000@gmail.com)
+overlay: Seperate Settings exposures from system for primarys <7 weeks ago> [c5518ea]
+by: Josh Fox (XlxFoXxlX) (joshfox87@gmail.com)
+Notification guts: Adapt to system theme <8 weeks ago> [0d10ffc]
+by: Alex (du.alexcruz@gmail.com)
+overlay: PermissionsManager: Fix navbar color when using dark themes <3 months ago> [d0215b6]
+by: Alex (du.alexcruz@gmail.com)
+overlay: etc: Add Android.mk <8 weeks ago> [d30b1ff]
+by: Anirudh Gupta (anirudhgupta109@aosip.dev)
+Live captions: Have it follow system accent / fix up navbar <10 weeks ago> [e009aa3]
+by: Alex (du.alexcruz@gmail.com)
+overlay: add EmptyOverlay <3 months ago> [948d2a8]
+by: maxwen (max.weninger@gmail.com)
+overlay: remove left over wallpaper after name change <3 months ago> [e71956c]
+by: Josh Fox (XlxFoXxlX) (joshfox87@gmail.com)
+overlay: open sdcard root when launching DocumentsUI <1 year, 4 months ago> [1c845aa]
+by: jrizzoli (joey@lineageos.org)
+overlay: Extend icon previews list <2 months ago> [4ef3a97]
+by: NurKeinNeid (mralexman3000@gmail.com)
+overlay: Allow to theme Settings with primary <3 months ago> [f56f3b6]
+by: Josh Fox (XlxFoXxlX) (joshfox87@gmail.com)
+Overlays: Compress and optimize our default wallpaper <3 months ago> [7a994c7]
+by: NurKeinNeid (mralexman3000@gmail.com)
+Overlay: Add Solarized Dark Primary <3 months ago> [92a323e]
+by: Aman Singh (amankumarsingh1412@gmail.com)
+
+
+====================
+     04-16-2020
+====================
+
+[frameworks/base]
+base: Tune some dimens to make icon spacing on SB equal <6 days ago> [d997b01e6e8]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[packages/apps/DerpQuest]
+DerpQuest: Add HeadsUp timeout function [2/2] <3 years, 6 months ago> [41ec605]
+by: Lars Greiss (kufikugel@googlemail.com)
+DerpQuest: Add HeadsUp snooze function [2/2] <3 years, 6 months ago> [6be31c5]
+by: Lokesh Chamane (lokesh.c703@gmail.com)
+
+
+====================
+     04-15-2020
+====================
+
+[frameworks/base]
+base: Add HeadsUp timeout function [1/2] <4 years, 1 month ago> [28f722cb8ad]
+by: Lars Greiss (kufikugel@googlemail.com)
+base: Add HeadsUp snooze function [1/2] <4 years ago> [14aa5c11563]
+by: Lokesh Chamane (lokesh.c703@gmail.com)
+SystemUI: Fix custom lockscreen wallpaper <13 days ago> [918f23a3152]
+by: LuK1337 (priv.luk@gmail.com)
+
+[packages/apps/Settings]
+Settings: Squash revert RGB picker [2/5] <8 days ago> [90e85aa7c9]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[packages/apps/ThemePicker]
+ThemePicker: Squash revert RGB picker [5/5] <8 days ago> [c971a3d]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[packages/apps/DerpQuest]
+DerpQuest: Introduce HeadsUp settings fragment <6 days ago> [abc4a98]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+NetworkTraffic: Fix/adjust and properly restrict text sizing <5 weeks ago> [bafa47c]
+by: calebcabob (calphonic@gmail.com)
+DerpQuest: Squash revert RGB picker [3/5] <8 days ago> [c8fa9f2]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+
