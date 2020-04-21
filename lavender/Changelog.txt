@@ -1,17 +1,47 @@
-- Thanks to @letsmakecakes for their sources 
-- Upstream Tree
-- Upstream kernel
-- Added Screen Stabilization QS tile with menu
-- Added Custom Text Clock customizations to Lockscreen clock styles
-- Added Anaheim font
-- Fonts are now applied to more elements
-- Added option to block IME space for back gesture
-- Added RGB accenter
-- Added Customizable FOD Icons, scanlight, and Animations
-- Fixed Lawnchair crash on boot
-- Live captions: Have it follow system accent / fix up navbar
-- Don't hide preview on white Accents or primarys
-- Preview Light and Dark mode in Primary screen
-- Removed SafetyHub and Pixeltips prebuilt
-- Fixed screenshot sound switch
-- Some more fixes under the hood
+              ========================
+                   ROM Changelog
+              ========================
+- Android April Sec Patch R33 Merged
+- Added Firmware & Recovery PlaceHolder In DerpQuest About
+- Fixed system crashing after connected to Android Auto or started screen record
+- OPScreenRecorder: Updated to 2.3.0 (From OP6T OB5)
+- Removed restrictions for system audio record
+- Cleaned up pixel live wallpaper port
+- Updated some qs tile icons to MD2
+- Ported pixel navigation bar
+- Ported more Assist things from Pixel SystemUI
+- QS blur improvements
+- Fixed binary clock update
+- Added Eggtimer to Caffeine tile
+- DataSwitchTile: Added drawable for No SIM
+- Added outline style to caffeine qs tile drawable
+- Added advanced location qs tile options
+- Added new long click QS tiles panel for mobile data, bluetooth, data tile, wifi and nfc
+- Partial screenshot block gestures/headsup: code improvements
+- Fixed screenshot shutter sound toggle
+- Screenshot: Removed white flash if dark mode is enabled • Added a toggle for the QS tint 
+- Allowed to backup LS clock & date styles values
+- Added a permission group for signature spoofing
+- Make sure media artwork blur restored radius value is valid
+- Added full accent sammy clock style
+- Brand new colorful and shape adaptable icons under DerpQuest section
+- Disabled junky LS clock & slice transition animations
+- Fixed padding bug when header image is enabled but not selected
+- Cleaned up running services fragment layout
+- Added notification log history
+- Brought back pixel layout in qs panel
+- Added Flame primary color
+- Added OnePlus Dark primary color
+- Removed duplicate exposures
+- Cleaned up hardcoded colors and used/overlay AOSP values
+- Added Matlog prebuilt
+- Some more things maybe I can't remember more :P
+
+               ===========================
+                     Device Changelog
+               ===========================
+- Re-based on new tree
+- Added DMGC
+- Fuck4pda 4.4.129 kernel
+
+-Note: Format data is needed now because of new tree
