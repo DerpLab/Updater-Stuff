@@ -1,7 +1,9 @@
-- Merged April Security Patch
-- Updated OP Screen Recorder to 2.3.0
-- Fixed Pixel Live Wallpaper Issue
-- Added IR Face Unlock (Thanks to PE Team)
-- Added Eggtimer to Caffeine Tile
-- Added Custom Thermals (Thanks to @Dinosnore & @amog787)
-- Updated Paddings
+- Fixed Lag While Changing Orientation
+- Added Heads Up Snooze Function
+- Added Heads Up Timeout Function
+- Added Heads Up Blacklist Function
+- Added toggle for 'R Style' Notification Header
+- Added toggle for QS Panels
+- Added Notch City
+- Nuked Face Unlock
+- Improved OnePlus & Solarized Dark Theme
