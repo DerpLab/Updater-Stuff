@@ -1,49 +1,93 @@
-              ========================
-                   ROM Changelog
-              ========================
-- Android April Sec Patch R33 Merged
-- Added Firmware & Recovery PlaceHolder In DerpQuest About
-- Fixed system crashing after connected to Android Auto or started screen record
-- OPScreenRecorder: Updated to 2.3.0 (From OP6T OB5)
-- Removed restrictions for system audio record
-- Cleaned up pixel live wallpaper port
-- Updated some qs tile icons to MD2
-- Ported pixel navigation bar
-- Ported more Assist things from Pixel SystemUI
-- QS blur improvements
-- Fixed binary clock update
-- Added Eggtimer to Caffeine tile
-- DataSwitchTile: Added drawable for No SIM
-- Added outline style to caffeine qs tile drawable
-- Added advanced location qs tile options
-- Added new long click QS tiles panel for mobile data, bluetooth, data tile, wifi and nfc
-- Partial screenshot block gestures/headsup: code improvements
-- Fixed screenshot shutter sound toggle
-- Screenshot: Removed white flash if dark mode is enabled • Added a toggle for the QS tint 
-- Allowed to backup LS clock & date styles values
-- Added a permission group for signature spoofing
-- Make sure media artwork blur restored radius value is valid
-- Added full accent sammy clock style
-- Brand new colorful and shape adaptable icons under DerpQuest section
-- Disabled junky LS clock & slice transition animations
-- Fixed padding bug when header image is enabled but not selected
-- Cleaned up running services fragment layout
-- Added notification log history
-- Brought back pixel layout in qs panel
-- Added Flame primary color
-- Added OnePlus Dark primary color
-- Removed duplicate exposures
-- Cleaned up hardcoded colors and used/overlay AOSP values
-- Added Matlog prebuilt
-- Some more things maybe I can't remember more :P
+====================
+     04-25-2020
+====================
 
-               ===========================
-                     Device Changelog
-               ===========================
-- Merged April Security Patches.
-- BloodMoon Kernel Upstreamed to 4.9.218.
-- Added Pickup sensor in Advanced settings under Display.
-- Added Realme UI fod icon.
-- fod improvements.
-- Updated Coral April fingerprint for safety Net.
-- Many Improvements.
+
+====================
+     04-24-2020
+====================
+
+[frameworks/base]
+SystemUI: decrease margin between qs and text <11 days ago> [469432bfd0c]
+by: ctwoon (ctwoon@suicide.today)
+FODCircleView: update position of icon before show <9 weeks ago> [c6f6df1dd9f]
+by: Demon000 (demonsingur@gmail.com)
+FODCircleView: Fix position on keyguard if cutout is hidden <2 months ago> [f4336aa165a]
+by: Hikari-no-Tenshi (kyryljan.serhij@gmail.com)
+FODCircleView: Fix position if cutout is hidden <9 months ago> [f90c8c527f5]
+by: jhenrique09 (jhenrique09.mcz@hotmail.com)
+SystemUI: QS: Allow toggling panels [1/2] <6 days ago> [afb6c531426]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+base: notch-city: Add 3 mode display cutout handler <1 year, 5 months ago> [0046f4f55de]
+by: Kshitij Gupta (kshitijgm@gmail.com)
+SystemUI: Cleanup pixel live wallpapers changes <4 weeks ago> [ebe8f59cd6c]
+by: jhenrique09 (jhenrique09.mcz@hotmail.com)
+base: Make 'R style' notification headers toggleable [1/2] <7 days ago> [5420f9c828d]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+Implement R style notification section headers <2 weeks ago> [a54b60ebf6c]
+by: shagbag913 (sh4gbag913@gmail.com)
+Revert "Hide gentle notification header independently of section priorities" <7 days ago> [b7c5345ba9b]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+Revert "base: Make gentle notifications header toggleable [1/2]" <7 days ago> [ea5021760e2]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+aosipUtils: Use the right config resource for notch detection <7 days ago> [662f2a844f7]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+fw/b: Squash of app fw restriction commits (#12) <8 days ago> [d6eb2fbc7ef]
+by: rahul9999 (36025572+rahul9999xda@users.noreply.github.com)
+SystemUI: Add HeadsUp blacklists [1/2] <2 years, 7 months ago> [ba0ded1393d]
+by: Decad3nce (decad3nce@gmail.com)
+base: Tune some dimens to make icon spacing on SB equal <11 days ago> [817d5d85ea9]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[packages/apps/DerpQuest]
+DerpQuest: Don't translate what you shouldn't <5 days ago> [8e390aa]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+
+====================
+     04-23-2020
+====================
+
+[frameworks/native]
+SurfaceFlinger: Exclude CAF extensions from non-QC devices <9 months ago> [9d06654]
+by: jhenrique09 (jhenrique09.mcz@hotmail.com)
+
+
+====================
+     04-22-2020
+====================
+
+
+====================
+     04-21-2020
+====================
+
+
+====================
+     04-20-2020
+====================
+
+[packages/apps/Settings]
+notch-city: Add 3 mode display cutout handler [3/3] (#9) <6 days ago> [f107e52]
+by: Aman Kumar Singh (46120388+amanrajOO7@users.noreply.github.com)
+
+[system/bt]
+Prevent abort in case of command timeout <2 years, 9 months ago> [c8b6706]
+by: Luke Zhang (lukez@codeaurora.org)
+
+[vendor/aosip]
+vendor: notch-city: Add 3 mode display cutout handler [2/3] (#19) <6 days ago> [27536205]
+by: Aman Kumar Singh (46120388+amanrajOO7@users.noreply.github.com)
+
+
+====================
+     04-19-2020
+====================
+
+[manifest]
+Merge remote-tracking branch 'aosp/android-10.0.0_r33' into ten <8 days ago> [9db95ac]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[vendor/pixelstyle]
+vendor: OPScreenRecorder: Update to v2.3.0 <4 weeks ago> [b992140]
+by: AnierinB (anierinb@evolution-x.org)
