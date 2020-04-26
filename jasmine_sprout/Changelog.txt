@@ -1,16 +1,88 @@
+(22/04/20)
 ######################
 ## DEVICE CHANGELOG ##
-######################   
+######################
 
-• fs: expand blocker to cover FDE.AI apps 
-• Merge 4.4.218 into kernel.lnx.4.4.r38-rel 
-• Merge tag 'LA.UM.8.2.r1-06300-sdm660.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/data-ipa-cfg-mgr 
-• Merge tag 'LA.UM.8.2.r1-06300-sdm660.0' of https://source.codeaurora.org/quic/la/platform/hardware/qcom/gps
+ sdm660-common: sepolicy: unbreak sepolicy for carbon
+ sdm660-common: light: Fix double led lighting when notification
+ sdm660-common: Address denials for system_stats
+ sdm660-common: XiaomiParts: integrate Mi Note 3 configpanel
+ sdm660-common: XiaomiParts: use % for notification LED brightness
+ sdm660-common: sepolicy: Allow vendor init write access to dev/blkio
+ sdm660-common: Let Home button work when fingerprint is touched for jason
+ sdm660: Update blobs from  LA.UM.8.2.r1-06200-sdm660.0
+ sdm660-common: XiaomiParts: check if vibrator strength is supported before adding
+ sdm660-common: XiaomiParts: add notification LED brightness slider
+ sdm660-common: sepolicy: Adress few denials
+ sdm660-common: power-libperfmgr: Add back powerstats
+ sdm660-common: powerhint: increase launch hints duration
+ sdm660-common: powerhint: add GPU launch hints
+ sdm660-common: powerhint: disable audio related hints
+ sdm660-common: powerhint: add new GPU nodes
+ sdm660-common: perf.sdm660: configure schedutil
+ sdm660-common: fstab: setup 1GB ZRAM
+ sdm660: light: Support Red LED in Lights hal
+ sdm660-common: light: Set saner ramp values
+ sdm660-common: always do printk logging at KERN_WARNING level
+ sdm660-common: rootdir: cleanup init.qcom
+ sdm660-common: rootdir: migrate Power HAL permission setup to init.perf.sdm660
+ sdm660-common: rootdir: remove obsolete HMP tunables
+ sdm660-common: import blkio tunables from mata
+ sdm660-common: rootdir: migrate tunables from post-boot to init.performance.sdm660
+ sdm660-common: rootdir: overhaul the post-boost script and target it for sdm660/636
+ sdm660-common: cleanup post-boot script
+ sdm660-common: Update sepolicy for power hal Author: rebenok90x <ctwoon@suicide.today>
+ sdm660-common: rootdir: remove CPUBW min freq setting
+ sdm660-common: rootdir: disable mem_latency governor
+ sdm660-common: rootdir: performance: Update power tweaks for EAS
+ sdm660-common: minor sepolicy changes
+ sdm660-common: enable package blacklist for aux lens
+ sdm660-common: fix denials for FPS Overlay in XiaomiParts
+ sdm660-common: Add fps overlay
+ sdm660-common: Remove dirac
+ sdm660-common: Use complete LA.UM.8.2.r1-05700-sdm660.0 SDM graphic stack
+ sdm660-common: sepolicy: Label new TP node
+ sdm660-common: Add whyred support
+ sdm660-common: Move some ril props to SYSTEM_DEFAULT_PROPERTIES
+ sdm660-common: vndk: add vendor packages needed for camera hal
+ sdm660-common: support jason too
+ sdm660-common: sepolicy: Label Video prop
+ sdm660-common: sepolicy: Clean up sepolicy rules
+ sdm660-common: Address SELiunx denials and clean up
+ sdm660-common: sepolicy: Address some denials
+ sdm660-common: sepolicy: Label button backlight nodes
+ sdm660-common: sepolicy: Drop unused sysfs_light
+ sdm660-common: sepolicy: Label IR dev node for jason
+ sdm660-common: sepolicy: Label renamed white led node
+ sdm660: sepolicy: Allow vendor init to set few props
+ sdm660-common: Support button backlight
+ sdm660-common: Don't advertise attention light
+ sdm660-common: Improve lights HAL
+ sdm660-common: light: Set blink as last parameter
+ sdm660-common: Adapt Light Hal for commonized sdm660 tree
+ sdm660-common: biometrics: Restore Fingerprint permissions from Platina
+ sdm660: XiaomiParts: Add PT-BR translation
+ sdm660-common: lights: red -> white
+ sdm660: biometrics: Do not remove user database
+ sdm660: let Instagram use HAL[2,3] camera APIs
+ sdm660-common: Disable AUDIO_FEATURE_ENABLED_KPI_OPTIMIZE
+ sdm660-common: power: Add support for platina tap-to-wake node
+ sdm660: Add back missing msm-irqbalance
+ power-libperfmgr: add support for another dt2w node
+ sdm660-common: unify DRM and Keymaster libs
+ sdm660-common: Update blobs from LA.UM.8.2.r1-06300-sdm660.0
+ defconfig: enable DYNAMIC_STUNE_BOOST 
+ defconfig: enable CPU_boost & RCU_boost
+ Merge 4.4.219 into kernel.lnx.4.4.r38-rel
 
 ######################
 ##  ROM  CHANGELOG  ##
 ######################
-
+• SystemUI: QS: Allow toggling panels 
+• base: Make 'R style' notification headers toggleable
+• Implement R style notification section headers 
+• base: notch-city: Add 3 mode display cutout handler
+• vendor: OPScreenRecorder: Update to v2.3.0 
 • Android Sec Patch R33 Merged
 • Added Firmware & Recovery PlaceHolder In DerpQuest About
 • Fixed system crashing after connected to Android Auto or started screen record
