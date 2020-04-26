@@ -1,47 +1,32 @@
               ========================
                    ROM Changelog
               ========================
-- Android April Sec Patch R33 Merged
-- Added Firmware & Recovery PlaceHolder In DerpQuest About
-- Fixed system crashing after connected to Android Auto or started screen record
-- OPScreenRecorder: Updated to 2.3.0 (From OP6T OB5)
-- Removed restrictions for system audio record
-- Cleaned up pixel live wallpaper port
-- Updated some qs tile icons to MD2
-- Ported pixel navigation bar
-- Ported more Assist things from Pixel SystemUI
-- QS blur improvements
-- Fixed binary clock update
-- Added Eggtimer to Caffeine tile
-- DataSwitchTile: Added drawable for No SIM
-- Added outline style to caffeine qs tile drawable
-- Added advanced location qs tile options
-- Added new long click QS tiles panel for mobile data, bluetooth, data tile, wifi and nfc
-- Partial screenshot block gestures/headsup: code improvements
-- Fixed screenshot shutter sound toggle
-- Screenshot: Removed white flash if dark mode is enabled • Added a toggle for the QS tint 
-- Allowed to backup LS clock & date styles values
-- Added a permission group for signature spoofing
-- Make sure media artwork blur restored radius value is valid
-- Added full accent sammy clock style
-- Brand new colorful and shape adaptable icons under DerpQuest section
-- Disabled junky LS clock & slice transition animations
-- Fixed padding bug when header image is enabled but not selected
-- Cleaned up running services fragment layout
-- Added notification log history
-- Brought back pixel layout in qs panel
-- Added Flame primary color
-- Added OnePlus Dark primary color
-- Removed duplicate exposures
-- Cleaned up hardcoded colors and used/overlay AOSP values
-- Added Matlog prebuilt
-- Some more things maybe I can't remember more :P
+- Removed the junky LockScreen clock date animation
+- Redistribute QS tile on orientation change
+- Moved brightness slider settings out of tuner - Adds the ability to back em up as the rest and fixes some bugs related
+- In-rom changelog got a new look, and is more readable and user friendly now
+- Set a default custom QS header image
+- Make sure the padding changes in QS header only apply if a header is really selected
+- Reverted RGB picker (was causing issues on some 3rd party apps)
+- Switch to use AOSP SettingsIntelligence (No more random settings crashes for some users & search is more reliable)
+- Hide notch options
+- Some bluetooth related fixes
+- Screen recording lags fixed
+- Added "R style" notification titles
+- Added new HeadsUp settings (Blacklist, stoplist, duration, snooze...)
+- Allow toggling between the new QS panels and the old in-qs view
+- Fixed a bug where old QS detail view UI would show instead of panels
+- Fixed some translations related bugs
+- Tuned some dimens to make StatusBar icons equal in size and padding
+- And more bug fixes
+- 100% Forgot stuff - But this is it roughly
 
                ===========================
                      Device Changelog
                ===========================
-- Re-based on new tree
-- Added DMGC
-- Fuck4pda 4.4.129 kernel
+- Add basic USB HAL
+- Removed DMGC
+- Fuck4pda 4.4.220 kernel
+- Fix lights: red -> white
+- And other minor changes...
 
--Note: Format data is needed now because of new tree
