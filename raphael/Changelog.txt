@@ -1,25 +1,23 @@
-2020-04-19 update changelog
+2020-04-26 update changelog
 
 ## ROM and Device-specific sources
-* Add Heads-up options on DerpQuest
-* Add Per-app cellular data, vpn and wifi restrictions
-* Android R-style notification section headers (toggleable in DerpQuest)
-* Auto mount USB storage devices
-* Enforcing SELinux, passed SafetyNet on non-rooted
-* Fix custom lockscreen wallpaper issues
-* Several optimizations on memory and dalvik-vm
-* Translation updates
-* Tune some dimens to make icon spacing on SB equal
-* Test CarrierConfig from OSS 10.0.8
-* Update ANXCamera to V179
-* Update OPScreenRecorder (v2.3.0)
-* Update proprietary-blobs from 11.0.8.0
+* Add switchable QS Tile's Panel
+* Fine-tune notification section header
+* Fix default thermal setup for better compatibility across custom kernels
+* Fix Fingerprint location issues (again)
+* Fix misaligned QS Padding issues
+* Fixup ANXCamera configuration helper
+* Cleanup camera-motor implementation
+* Remove HD/VoLit notification completely
+* Revert back to CAF CarrierConfig
 * Other miscellaneous improvements and cleanups
 
 ## Kernel
-* Compiler: Update Avalon Clang to 11.0.1 20200416
-* Fix CPU and IO stats functionality
-* Fix kernel panic on several cases
+* Merge Latest Google ACK w/ Linux stable v4.14.177
+* Fix graphic renderer support-thread priority
+* Update Wi-Fi config for better reception
+* Improve Thermal handling
+* Other miscellaneous improvements and cleanups
 
 ## Notes
 * Custom vendor variant, clean flash is a MUST if you comes from non-custom vendor.
