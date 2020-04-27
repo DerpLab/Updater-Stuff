@@ -1,36 +1,106 @@
 ====================
-     04-21-2020
+     04-27-2020
+====================
+
+
+====================
+     04-26-2020
 ====================
 
 [frameworks/base]
-SystemUI: FPS Info Overlay & Tile <6 weeks ago> [516f1b8272d]
-by: Marko Man (darkobas@gmail.com)
-FODCircleView: update position of icon before show <9 weeks ago> [93b904b94b5]
+Revert "SystemUI: keep width on qs expand move" <19 hours ago> [10eda5e82d0]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+
+====================
+     04-25-2020
+====================
+
+
+====================
+     04-24-2020
+====================
+
+[frameworks/base]
+SystemUI: decrease margin between qs and text <12 days ago> [469432bfd0c]
+by: ctwoon (ctwoon@suicide.today)
+FODCircleView: update position of icon before show <10 weeks ago> [c6f6df1dd9f]
 by: Demon000 (demonsingur@gmail.com)
-FODCircleView: Fix position on keyguard if cutout is hidden <10 weeks ago> [04e1dc497ba]
+FODCircleView: Fix position on keyguard if cutout is hidden <2 months ago> [f4336aa165a]
 by: Hikari-no-Tenshi (kyryljan.serhij@gmail.com)
-FODCircleView: Fix position if cutout is hidden <9 months ago> [b0f00f5a91a]
+FODCircleView: Fix position if cutout is hidden <9 months ago> [f90c8c527f5]
 by: jhenrique09 (jhenrique09.mcz@hotmail.com)
+SystemUI: QS: Allow toggling panels [1/2] <7 days ago> [afb6c531426]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+base: notch-city: Add 3 mode display cutout handler <1 year, 5 months ago> [0046f4f55de]
+by: Kshitij Gupta (kshitijgm@gmail.com)
+SystemUI: Cleanup pixel live wallpapers changes <4 weeks ago> [ebe8f59cd6c]
+by: jhenrique09 (jhenrique09.mcz@hotmail.com)
+base: Make 'R style' notification headers toggleable [1/2] <8 days ago> [5420f9c828d]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+Implement R style notification section headers <3 weeks ago> [a54b60ebf6c]
+by: shagbag913 (sh4gbag913@gmail.com)
+Revert "Hide gentle notification header independently of section priorities" <8 days ago> [b7c5345ba9b]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+Revert "base: Make gentle notifications header toggleable [1/2]" <8 days ago> [ea5021760e2]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+aosipUtils: Use the right config resource for notch detection <8 days ago> [662f2a844f7]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+fw/b: Squash of app fw restriction commits (#12) <9 days ago> [d6eb2fbc7ef]
+by: rahul9999 (36025572+rahul9999xda@users.noreply.github.com)
+SystemUI: Add HeadsUp blacklists [1/2] <2 years, 7 months ago> [ba0ded1393d]
+by: Decad3nce (decad3nce@gmail.com)
+base: Tune some dimens to make icon spacing on SB equal <12 days ago> [817d5d85ea9]
+by: Ido Ben-Hur (idoybh2@gmail.com)
 
 [packages/apps/DerpQuest]
-DerpQuest: Don't translate what you shouldn't <21 hours ago> [f96c5b5]
+DerpQuest: Don't translate what you shouldn't <6 days ago> [8e390aa]
 by: Ido Ben-Hur (idoybh2@gmail.com)
+DerpQuest: Allow toggling QS panels [2/2] <7 days ago> [ac69004]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+DerpQuest: Make 'R style' notification headers toggleable [2/2] <8 days ago> [1cbd6b2]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+Revert "DerpQuest: Make gentle notifications header toggleable [2/2]" <8 days ago> [cab94c4]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+DerpQuest: Allow toggling heads up by using a master switch <10 days ago> [83c6cab]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+DerpQuest: Add HeadsUp blacklists [2/2] <10 days ago> [18756ba]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+
+====================
+     04-23-2020
+====================
+
+[frameworks/native]
+SurfaceFlinger: Exclude CAF extensions from non-QC devices <9 months ago> [9d0665442]
+by: jhenrique09 (jhenrique09.mcz@hotmail.com)
+input: Adjust priority <3 years, 6 months ago> [31ac950e4]
+by: Steve Kondik (steve@cyngn.com)
+surfaceflinger: Merge caf changes <5 months ago> [23d927fc9]
+by: jhenrique09 (jhenrique09.mcz@hotmail.com)
+
+
+====================
+     04-22-2020
+====================
+
+[frameworks/native]
+Merge "add the OMX_VIDEO_CodingAV1 in the OMX_VIDEO_CODINGTYPE" <6 months ago> [1ede4de92]
+by: Hung-ying Tyan (tyanh@google.com)
+
+
+====================
+     04-21-2020
+====================
 
 
 ====================
      04-20-2020
 ====================
 
-[frameworks/base]
-SystemUI: QS: Allow toggling panels [1/2] <31 hours ago> [13258222a76]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-base: notch-city: Add 3 mode display cutout handler <1 year, 5 months ago> [8fb05eb29a6]
-by: Kshitij Gupta (kshitijgm@gmail.com)
-SystemUI: Cleanup pixel live wallpapers changes <3 weeks ago> [4a4dfda934e]
-by: jhenrique09 (jhenrique09.mcz@hotmail.com)
-
 [packages/apps/Settings]
-notch-city: Add 3 mode display cutout handler [3/3] (#9) <2 days ago> [f107e52fa4]
+notch-city: Add 3 mode display cutout handler [3/3] (#9) <7 days ago> [f107e52fa4]
 by: Aman Kumar Singh (46120388+amanrajOO7@users.noreply.github.com)
 
 [system/bt]
@@ -42,184 +112,7 @@ Add support to force disable enhanced sco commands <2 years, 7 months ago> [ff0f
 by: cb (billchen1977@gmail.com)
 
 [vendor/aosip]
-vendor: notch-city: Add 3 mode display cutout handler [2/3] (#19) <2 days ago> [2753620]
+vendor: notch-city: Add 3 mode display cutout handler [2/3] (#19) <7 days ago> [2753620]
 by: Aman Kumar Singh (46120388+amanrajOO7@users.noreply.github.com)
-
-[packages/apps/DerpQuest]
-DerpQuest: Allow toggling QS panels [2/2] <31 hours ago> [bdfeb87]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-
-====================
-     04-19-2020
-====================
-
-[manifest]
-Merge remote-tracking branch 'aosp/android-10.0.0_r33' into ten <4 days ago> [9db95ac]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-manifest: Track scripts repo <3 weeks ago> [f65a0bb]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[frameworks/base]
-base: Make 'R style' notification headers toggleable [1/2] <3 days ago> [f6710cd9ba8]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-Implement R style notification section headers <13 days ago> [25f7dc3bcf2]
-by: shagbag913 (sh4gbag913@gmail.com)
-Revert "Hide gentle notification header independently of section priorities" <3 days ago> [51303bd9fd9]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-Revert "base: Make gentle notifications header toggleable [1/2]" <3 days ago> [14b8bb6f215]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-aosipUtils: Use the right config resource for notch detection <3 days ago> [8e3771e25f5]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/apps/DerpQuest]
-DerpQuest: Make 'R style' notification headers toggleable [2/2] <3 days ago> [c324d72]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-Revert "DerpQuest: Make gentle notifications header toggleable [2/2]" <3 days ago> [a6fa32f]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[vendor/pixelstyle]
-vendor: OPScreenRecorder: Update to v2.3.0 <3 weeks ago> [b992140]
-by: AnierinB (anierinb@evolution-x.org)
-pixelstyle: Don't build Google's SettingsIntelligence <11 days ago> [de45d86]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-
-====================
-     04-18-2020
-====================
-
-[frameworks/base]
-fw/b: Squash of app fw restriction commits (#12) <4 days ago> [805460e04ac]
-by: rahul9999 (36025572+rahul9999xda@users.noreply.github.com)
-
-[packages/apps/Dialer]
-Automatic translation import <4 days ago> [e68f64ce3]
-by: Akhil Narang (akhilnarang.1999@gmail.com)
-
-[packages/apps/Launcher3]
-Automatic translation import <4 days ago> [d7dc19b68]
-by: Akhil Narang (akhilnarang.1999@gmail.com)
-
-[packages/apps/Messaging]
-Automatic translation import <4 days ago> [d9e932d]
-by: Akhil Narang (akhilnarang.1999@gmail.com)
-
-[packages/apps/Settings]
-Settings: per-app cellular data, vpn and wifi restrictions (#8) <4 days ago> [c3ac5ba64d]
-by: rahul9999 (36025572+rahul9999xda@users.noreply.github.com)
-
-[packages/apps/DerpQuest]
-DerpQuest: Allow toggling heads up by using a master switch <4 days ago> [6d98cc8]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-DerpQuest: Add HeadsUp blacklists [2/2] <5 days ago> [1fdaee0]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-DerpQuest: Convert HeadsUp snooze and timeout to SeekBar <6 days ago> [1c0272e]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[system/netd]
-system/netd: Squash of app fw restriction commits (#1) <4 days ago> [e267aca3]
-by: rahul9999 (36025572+rahul9999xda@users.noreply.github.com)
-
-
-====================
-     04-17-2020
-====================
-
-[frameworks/base]
-SystemUI: Add HeadsUp blacklists [1/2] <2 years, 7 months ago> [ecadfbce3c6]
-by: Decad3nce (decad3nce@gmail.com)
-
-[vendor/aosip]
-changelog: Improve Changelog generator (#18) <4 days ago> [c5d328d]
-by: Nauval Rizky (enuma.alrizky@gmail.com)
-
-[vendor/overlay]
-overlay: Squash revert RGB picker [4/5] <8 days ago> [7818d9c]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-Overlay: Add OnePlus Dark Primary <3 weeks ago> [d933521]
-by: Aman Singh (amankumarsingh1412@gmail.com)
-overlays: Add Flame primary <6 weeks ago> [17bf599]
-by: Josh Fox (XlxFoXxlX) (joshfox87@gmail.com)
-themes: Cleanup hardcoded colors and use/overlay AOSP values <6 weeks ago> [0e6009f]
-by: Christian Oder (myself5@carbonrom.org)
-overlay: remove background_floating_device_default_dark exposure <6 weeks ago> [0f201e5]
-by: Josh Fox (XlxFoXxlX) (joshfox87@gmail.com)
-themes: don't hardcode Screenrecord dialog color <6 weeks ago> [eac517d]
-by: Christian Oder (myself5@carbonrom.org)
-overlays: Remove more duplicate exposures <6 weeks ago> [4e34fec]
-by: Josh Fox (XlxFoXxlX) (joshfox87@gmail.com)
-overlays: Remove duplicate exposure for notifications <6 weeks ago> [33e4096]
-by: Josh Fox (XlxFoXxlX) (joshfox87@gmail.com)
-overlay: Nuke accent overlays [3/3] <7 weeks ago> [e86c14f]
-by: NurKeinNeid (mralexman3000@gmail.com)
-overlay: Seperate Settings exposures from system for primarys <7 weeks ago> [c5518ea]
-by: Josh Fox (XlxFoXxlX) (joshfox87@gmail.com)
-Notification guts: Adapt to system theme <8 weeks ago> [0d10ffc]
-by: Alex (du.alexcruz@gmail.com)
-overlay: PermissionsManager: Fix navbar color when using dark themes <3 months ago> [d0215b6]
-by: Alex (du.alexcruz@gmail.com)
-overlay: etc: Add Android.mk <8 weeks ago> [d30b1ff]
-by: Anirudh Gupta (anirudhgupta109@aosip.dev)
-Live captions: Have it follow system accent / fix up navbar <10 weeks ago> [e009aa3]
-by: Alex (du.alexcruz@gmail.com)
-overlay: add EmptyOverlay <3 months ago> [948d2a8]
-by: maxwen (max.weninger@gmail.com)
-overlay: remove left over wallpaper after name change <3 months ago> [e71956c]
-by: Josh Fox (XlxFoXxlX) (joshfox87@gmail.com)
-overlay: open sdcard root when launching DocumentsUI <1 year, 4 months ago> [1c845aa]
-by: jrizzoli (joey@lineageos.org)
-overlay: Extend icon previews list <2 months ago> [4ef3a97]
-by: NurKeinNeid (mralexman3000@gmail.com)
-overlay: Allow to theme Settings with primary <3 months ago> [f56f3b6]
-by: Josh Fox (XlxFoXxlX) (joshfox87@gmail.com)
-Overlays: Compress and optimize our default wallpaper <3 months ago> [7a994c7]
-by: NurKeinNeid (mralexman3000@gmail.com)
-Overlay: Add Solarized Dark Primary <3 months ago> [92a323e]
-by: Aman Singh (amankumarsingh1412@gmail.com)
-
-
-====================
-     04-16-2020
-====================
-
-[frameworks/base]
-base: Tune some dimens to make icon spacing on SB equal <6 days ago> [d997b01e6e8]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/apps/DerpQuest]
-DerpQuest: Add HeadsUp timeout function [2/2] <3 years, 6 months ago> [41ec605]
-by: Lars Greiss (kufikugel@googlemail.com)
-DerpQuest: Add HeadsUp snooze function [2/2] <3 years, 6 months ago> [6be31c5]
-by: Lokesh Chamane (lokesh.c703@gmail.com)
-
-
-====================
-     04-15-2020
-====================
-
-[frameworks/base]
-base: Add HeadsUp timeout function [1/2] <4 years, 1 month ago> [28f722cb8ad]
-by: Lars Greiss (kufikugel@googlemail.com)
-base: Add HeadsUp snooze function [1/2] <4 years ago> [14aa5c11563]
-by: Lokesh Chamane (lokesh.c703@gmail.com)
-SystemUI: Fix custom lockscreen wallpaper <13 days ago> [918f23a3152]
-by: LuK1337 (priv.luk@gmail.com)
-
-[packages/apps/Settings]
-Settings: Squash revert RGB picker [2/5] <8 days ago> [90e85aa7c9]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/apps/ThemePicker]
-ThemePicker: Squash revert RGB picker [5/5] <8 days ago> [c971a3d]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/apps/DerpQuest]
-DerpQuest: Introduce HeadsUp settings fragment <6 days ago> [abc4a98]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-NetworkTraffic: Fix/adjust and properly restrict text sizing <5 weeks ago> [bafa47c]
-by: calebcabob (calphonic@gmail.com)
-DerpQuest: Squash revert RGB picker [3/5] <8 days ago> [c8fa9f2]
-by: Ido Ben-Hur (idoybh2@gmail.com)
 
 
