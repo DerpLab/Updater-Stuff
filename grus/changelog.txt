@@ -1,12 +1,8 @@
-DerpFest 01-04-2020 MI 9 SE
+DerpFest 27-04-2020 MI 9 SE
 Changelog: 
-* update vendor to 11.0.2.0 MI (please install new FW-BB)
-* remove fod on screen off
-* UI changes
-* fix WFD(miracast)
-* fix idle
-* power changes
-* add adreno idler
-* fix haeadset bug(again)
-* kick netlink from wakeup source
-* fix netflix
+* add noch hide mode
+* 'R' style noti header
+* fixes
+* drop cust vibrator hal
+* update FOD
+* update media/audio
