@@ -1,9 +1,26 @@
 ====================
+     04-28-2020
+====================
+
+[frameworks/base]
+[SQUASH]base: Add Battery Bar [1/2] <6 weeks ago> [39041a01]
+by: bigrushdog (randall.rushing@gmail.com)
+
+[packages/apps/DerpQuest]
+DerpQuest: Update RU translations (#51) <2 hours ago> [9b34eec]
+by: skorpion720 (40567079+skorpion720@users.noreply.github.com)
+
+[kernel/xiaomi/libra]
+net: wireguard: Update to v1.0.20200426 snapshot <6 hours ago> [ac6fee04]
+by: WJXXBSH (zyb_1998@outlook.com)
+
+
+====================
      04-27-2020
 ====================
 
 [device/xiaomi/libra]
-libra: build telephony packages <17 hours ago> [8ec8e29]
+libra: build telephony packages <2 days ago> [8ec8e29]
 by: Dmitry Gomzyakov (nicerok11@gmail.com)
 
 
@@ -16,16 +33,8 @@ by: Dmitry Gomzyakov (nicerok11@gmail.com)
      04-25-2020
 ====================
 
-[frameworks/base]
-SystemUI: decrease margin between qs and text <13 days ago> [469432bf]
-by: ctwoon (ctwoon@suicide.today)
-
-[packages/apps/DerpQuest]
-DerpQuest: Don't translate what you shouldn't <7 days ago> [8e390aa]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
 [vendor/xiaomi/libra]
-libra: Remove unnecessary packages <4 days ago> [4afe2fe]
+libra: Remove unnecessary packages <6 days ago> [4afe2fe]
 by: WJXXBSH (zyb_1998@outlook.com)
 
 
@@ -38,18 +47,9 @@ by: WJXXBSH (zyb_1998@outlook.com)
      04-23-2020
 ====================
 
-[kernel/xiaomi/libra]
-cpufreq: interactive: Remove empty/useless functions <4 days ago> [645410b9]
-by: WJXXBSH (zyb_1998@outlook.com)
-
 
 ====================
      04-22-2020
-====================
-
-
-====================
-     04-21-2020
 ====================
 
 
