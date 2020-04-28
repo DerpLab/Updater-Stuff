@@ -24,9 +24,8 @@
                ===========================
                      Device Changelog
                ===========================
-- Add basic USB HAL
-- Removed DMGC
 - Fuck4pda 4.4.220 kernel
-- Fix lights: red -> white
-- And other minor changes...
+- Fix lights
+- Update Russian translations
+
 
