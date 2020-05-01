@@ -1,289 +1,531 @@
 ====================
-     04-20-2020
-====================
-
-[frameworks/base]
-FODCircleView: update position of icon before show <9 weeks ago> [93b904b94b5]
-by: Demon000 (demonsingur@gmail.com)
-FODCircleView: Fix position on keyguard if cutout is hidden <10 weeks ago> [04e1dc497ba]
-by: Hikari-no-Tenshi (kyryljan.serhij@gmail.com)
-FODCircleView: Fix position if cutout is hidden <9 months ago> [b0f00f5a91a]
-by: jhenrique09 (jhenrique09.mcz@hotmail.com)
-SystemUI: QS: Allow toggling panels [1/2] <21 hours ago> [13258222a76]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/apps/DerpQuest]
-DerpQuest: Don't translate what you shouldn't <11 hours ago> [f96c5b5]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-DerpQuest: Allow toggling QS panels [2/2] <21 hours ago> [bdfeb87]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-
-====================
-     04-19-2020
+     05-01-2020
 ====================
 
 [manifest]
-Merge remote-tracking branch 'aosp/android-10.0.0_r33' into ten <3 days ago> [9db95ac]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-manifest: Track scripts repo <3 weeks ago> [f65a0bb]
+manifest: Update vendor/google-customization path [1/2] <23 hours ago> [bf3db4e]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 
-[frameworks/base]
-base: notch-city: Add 3 mode display cutout handler <1 year, 5 months ago> [8fb05eb29a6]
-by: Kshitij Gupta (kshitijgm@gmail.com)
-SystemUI: Cleanup pixel live wallpapers changes <3 weeks ago> [4a4dfda934e]
+[system/sepolicy]
+Add rules for misc_writer_system and boot_theme <8 months ago> [fcc58d72]
 by: jhenrique09 (jhenrique09.mcz@hotmail.com)
 
-[packages/apps/Settings]
-notch-city: Add 3 mode display cutout handler [3/3] (#9) <28 hours ago> [f107e52fa4]
-by: Aman Kumar Singh (46120388+amanrajOO7@users.noreply.github.com)
-
-[system/bt]
-Prevent abort in case of command timeout <2 years, 9 months ago> [c8b67066d]
-by: Luke Zhang (lukez@codeaurora.org)
-Bluetooth: Read BLE vendor capability to proceed on Secure conn <4 years, 8 months ago> [de1daf340]
-by: Srinu Jella (sjella@codeaurora.org)
-Add support to force disable enhanced sco commands <2 years, 7 months ago> [ff0f0fe98]
-by: cb (billchen1977@gmail.com)
-
 [vendor/aosip]
-vendor: notch-city: Add 3 mode display cutout handler [2/3] (#19) <28 hours ago> [2753620]
-by: Aman Kumar Singh (46120388+amanrajOO7@users.noreply.github.com)
-
-[device/xiaomi/cepheus]
-cepheus: remove displayfeature props <9 weeks ago> [2d6891d2]
-by: Demon000 (demonsingur@gmail.com)
-cepheus: use dual AP feature additions <3 days ago> [19be05a2]
-by: Demon000 (demonsingur@gmail.com)
-cepheus: remove unused bt a2dp offload prop <3 weeks ago> [c877b6bb]
-by: Demon000 (demonsingur@gmail.com)
-cepheus: remove qti prop never used on AOSP <3 weeks ago> [52379d1f]
-by: Demon000 (demonsingur@gmail.com)
-cepheus: remove bluetooth prop never set on stock <3 weeks ago> [ab30a179]
-by: Demon000 (demonsingur@gmail.com)
-cepheus: sepolicy: let MiuiCamera read FOD property <11 days ago> [cfb6151f]
-by: Demon000 (demonsingur@gmail.com)
-cepheus: define media hal ion usage <8 months ago> [fce52c95]
-by: Demon000 (demonsingur@gmail.com)
-cepheus: Disable UBWC <3 months ago> [53e1fcc6]
-by: PIPIPIG233666 (pig.priv@gmail.com)
-cepheus: Set path for MiuiCamera to ANXCamera <2 days ago> [3fc305aa]
-by: DarkDampSquib (andrin.geiger1998@gmail.com)
-
-
-====================
-     04-18-2020
-====================
-
-[frameworks/base]
-base: Make 'R style' notification headers toggleable [1/2] <2 days ago> [f6710cd9ba8]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-Implement R style notification section headers <13 days ago> [25f7dc3bcf2]
-by: shagbag913 (sh4gbag913@gmail.com)
-Revert "Hide gentle notification header independently of section priorities" <2 days ago> [51303bd9fd9]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-Revert "base: Make gentle notifications header toggleable [1/2]" <2 days ago> [14b8bb6f215]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-aosipUtils: Use the right config resource for notch detection <2 days ago> [8e3771e25f5]
+vendor: Update vendor/google-customization path [2/2] <23 hours ago> [dd43d72]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 
 [packages/apps/DerpQuest]
-DerpQuest: Make 'R style' notification headers toggleable [2/2] <2 days ago> [c324d72]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-Revert "DerpQuest: Make gentle notifications header toggleable [2/2]" <2 days ago> [a6fa32f]
-by: Ido Ben-Hur (idoybh2@gmail.com)
+ DerpQuest: Update Greek translations (#53) <23 hours ago> [29994a1]
+by: CrisBalGreece (crisbaladim@yahoo.gr)
 
-[vendor/pixelstyle]
-vendor: OPScreenRecorder: Update to v2.3.0 <3 weeks ago> [b992140]
-by: AnierinB (anierinb@evolution-x.org)
-pixelstyle: Don't build Google's SettingsIntelligence <10 days ago> [de45d86]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[hardware/qcom-caf/sm8150/audio]
-Merge tag 'LA.UM.8.1.r1-14700-sm8150.0' of https://source.codeaurora.org/quic/la/platform/hardware/qcom/audio into ten <2 days ago> [19df4151]
+[kernel/xiaomi/cepheus]
+Merge tag 'LA.UM.8.9.r1-09000-SM6xx.0' of https://source.codeaurora.org/quic/la/kernel/msm-4.14 into ten <7 hours ago> [3ae837d2f4158]
 by: DarkDampSquib (andrin.geiger1998@gmail.com)
-
-[hardware/qcom-caf/sm8150/display]
-Merge tag 'LA.UM.8.1.r1-14700-sm8150.0' of https://source.codeaurora.org/quic/la/platform/hardware/qcom/display into ten <2 days ago> [69f1fc4f]
-by: DarkDampSquib (andrin.geiger1998@gmail.com)
-
-[hardware/qcom-caf/sm8150/media]
-Merge tag 'LA.UM.8.1.r1-14700-sm8150.0' of https://source.codeaurora.org/quic/la/platform/hardware/qcom/media into ten <2 days ago> [36260630]
-by: DarkDampSquib (andrin.geiger1998@gmail.com)
-
-[vendor/ANXCamera]
-include script to generate files on sdcard on boot <4 days ago> [64b551d]
-by: Billaids (jimmy.nelle@live.de)
-Update ANXCamera to V179 <2 days ago> [a1796e8]
-by: DarkDampSquib (andrin.geiger1998@gmail.com)
-Update ANXCamera to V178 <2 days ago> [a57986c]
-by: DarkDampSquib (andrin.geiger1998@gmail.com)
-
-[device/xiaomi/cepheus]
-cepheus: remove mac generator <12 days ago> [9cc2dd8d]
-by: DarkDampSquib (andrin.geiger1998@gmail.com)
-cepheus: sepolicy: label property used by ril <3 weeks ago> [bdc1526e]
-by: Demon000 (demonsingur@gmail.com)
-cepheus: address more denials <13 days ago> [0f1ce77e]
-by: billaids (jimmy.nelle@hsw-stud.de)
-cepheus: sepolicy: label manufacturer prop used by camera hal <3 weeks ago> [edbefc20]
-by: Demon000 (demonsingur@gmail.com)
-cepheus: Use proton clang <10 days ago> [29b147e5]
-by: DarkDampSquib (andrin.geiger1998@gmail.com)
-cepheus: sepolicy: Let ANX-Filecheck script run <2 weeks ago> [e378babb]
-by: billaids (jimmy.nelle@hsw-stud.de)
 
 
 ====================
-     04-17-2020
+     04-30-2020
 ====================
 
 [frameworks/base]
-fw/b: Squash of app fw restriction commits (#12) <3 days ago> [805460e04ac]
-by: rahul9999 (36025572+rahul9999xda@users.noreply.github.com)
+base: Hide power menu on secure lockscreen [1/2] <3 months ago> [9f39ed7825a]
+by: maxwen (max.weninger@gmail.com)
+Revert "[1/2] base: config to disable power menu on secure lock screen" <2 days ago> [1f6fe614aad]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[packages/apps/DerpQuest]
+DerpQuest: Adapt secure power menu toggle <2 days ago> [ba075c2]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+DerpQuest: Move StatusBar brightness control to gesture settings <3 days ago> [3e7bdf7]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+DerpQuest: Update RU translations (#51,#52) <3 days ago> [c291272]
+by: skorpion720 (40567079+skorpion720@users.noreply.github.com)
+
+[prebuilts/clang/host/linux-x86]
+Update prebuilt Clang to r383902. <2 days ago> [1eb04c49]
+by: Yabin Cui (yabinc@google.com)
+
+[vendor/google-customization]
+google-customization: Update paths <28 hours ago> [9d2fa6a]
+by: Henrique Pereira (hlcpereira@pixelexperience.org)
+
+
+====================
+     04-29-2020
+====================
+
+
+====================
+     04-28-2020
+====================
+
+[frameworks/base]
+[SQUASH]base: Add Battery Bar [1/2] <6 weeks ago> [39041a0108c]
+by: bigrushdog (randall.rushing@gmail.com)
+
+[packages/apps/DerpQuest]
+[SQUASH]DerpQuest: Add Battery Bar [2/2] <1 year, 2 months ago> [160ff1b]
+by: bigrushdog (randall.rushing@gmail.com)
+
+[kernel/xiaomi/cepheus]
+wifi testing <4 days ago> [d2ce22ca5c736]
+by: DarkDampSquib (andrin.geiger1998@gmail.com)
+Revert "power: supply: Use power efficient workingqueues" <9 days ago> [d80db56eb1a65]
+by: vantoman (Mustafa.vantom@gmail.com)
+sysctl: Nuke sched_boost feature <1 year, 1 month ago> [845d9818e7aa2]
+by: Sultan Alsawaf (sultan@kerneltoast.com)
+mm: skip swap readahead when process is exiting <2 years, 4 months ago> [8ac21421b9188]
+by: Tim Murray (timmurray@google.com)
+scsi: ufs: Ensure clocks are ON while running power change procedure <6 months ago> [88b95ffcdba25]
+by: Veerabhadrarao Badiganti (vbadigan@codeaurora.org)
+sched: Improve the scheduler <6 weeks ago> [caceef5f3b581]
+by: Pavankumar Kondeti (pkondeti@codeaurora.org)
+sched: Improve the scheduler <3 months ago> [b405da46bce39]
+by: Lingutla Chandrasekhar (clingutla@codeaurora.org)
+sched/walt: Avoid walt irq work in offlined cpu <9 months ago> [b5bd890b7f8a5]
+by: Maria Yu (aiquny@codeaurora.org)
+cpufreq: schedutil: Queue sugov irq work on policy online cpu <9 months ago> [cdc86f53ed49b]
+by: Maria Yu (aiquny@codeaurora.org)
+msm: gsi: Fix GSIDBG formatting error <6 months ago> [17dd2b029a1de]
+by: Manohar Vavilapalli (mvavilap@codeaurora.org)
+usb: gsi: fix a enum conversion warning <3 weeks ago> [418c9c2ef1e22]
+by: Yaroslav Furman (yaro330@gmail.com)
+teckpack: codecs: Use scnprintf() for robustness <3 weeks ago> [4591610df1c88]
+by: Yaroslav Furman (yaro330@gmail.com)
+cpufreq: stats: replace the global lock with atomic <1 year, 1 month ago> [d01ae2269e1b5]
+by: Kyle Lin (kylelin@google.com)
+cgroup: memcg: net: do not associate sock with unrelated cgroup <8 weeks ago> [e72525ff34d4d]
+by: Shakeel Butt (shakeelb@google.com)
+arm64: mm: define NET_IP_ALIGN to 0 <1 year, 6 months ago> [89735311a9575]
+by: Ard Biesheuvel (ard.biesheuvel@linaro.org)
+cgroup: Optimize single thread migration <7 months ago> [b1f4e38c4f27d]
+by: Michal Koutný (mkoutny@suse.com)
+sched/fair: Fix unnecessary increase of balance interval <1 year, 5 months ago> [a80719d3629a8]
+by: Vincent Guittot (vincent.guittot@linaro.org)
+sched/fair: Fix rounding bug for asym packing <1 year, 5 months ago> [a8cf956f34d7d]
+by: Vincent Guittot (vincent.guittot@linaro.org)
+sched/fair: Trigger asym_packing during idle load balance <1 year, 5 months ago> [7b01aa4b56708]
+by: Vincent Guittot (vincent.guittot@linaro.org)
+sched/wait: Deduplicate code with do-while <11 months ago> [6bc468207673b]
+by: Pavel Begunkov (asml.silence@gmail.com)
+cpuidle: menu: Remove get_loadavg() from the performance multiplier <1 year, 7 months ago> [9dbb96d8840ad]
+by: Daniel Lezcano (daniel.lezcano@linaro.org)
+Revert "ANDROID: cpuidle: governor: menu: don't use loadavg" <5 weeks ago> [521950abf1201]
+by: vantoman (Mustafa.vantom@gmail.com)
+sched: Factor out nr_iowait and nr_iowait_cpu <1 year, 7 months ago> [466222f18f965]
+by: Daniel Lezcano (daniel.lezcano@linaro.org)
+treewide: Fix compilation errors <2 weeks ago> [d44f3f3f44f45]
+by: Dyneteve (dyneteve@pixelexperience.org)
+ion: fix a mismatch of dma attr in free. <1 year ago> [7eaa8c00d4982]
+by: Wei Wang (wvw@google.com)
+BACKPORT: fs: dcache: Revert "manually unpoison dname after allocation to shut up kasan's reports" <2 years, 3 months ago> [93ab517955f0c]
+by: Andrey Ryabinin (aryabinin@virtuozzo.com)
+UPSTREAM: fs/dcache: Use read_word_at_a_time() in dentry_string_cmp() <2 years, 3 months ago> [8d7f6d268bd88]
+by: Andrey Ryabinin (aryabinin@virtuozzo.com)
+UPSTREAM: mm, slab: combine kmalloc_caches and kmalloc_dma_caches <1 year, 6 months ago> [243b2ae72f7e1]
+by: Vlastimil Babka (vbabka@suse.cz)
+ANDROID: mm: Throttle rss_stat tracepoint <5 months ago> [2ea9ca0992f0d]
+by: Joel Fernandes (joelaf@google.com)
+FROMLIST: vsprintf: Inline call to ptr_to_hashval <6 months ago> [c9dc877df5405]
+by: Joel Fernandes (Google) (joel@joelfernandes.org)
+BACKPORT: rss_stat: Add support to detect RSS updates of external mm <5 months ago> [af3b66906bd04]
+by: Joel Fernandes (joelaf@google.com)
+BACKPORT: mm: emit tracepoint when RSS changes <5 months ago> [fbe0186d88273]
+by: Joel Fernandes (Google) (joel@joelfernandes.org)
+attribute page lock and waitqueue functions as sched <6 months ago> [e8f467d846c88]
+by: Minchan Kim (minchan@google.com)
+BACKPORT: PM/sleep: Expose suspend stats in sysfs <9 months ago> [e1af522ec06c0]
+by: Kalesh Singh (kaleshsingh@google.com)
+UPSTREAM: PM / wakeup: Unexport wakeup_source_sysfs_{add,remove}() <9 months ago> [4487543ed58c3]
+by: Stephen Boyd (swboyd@chromium.org)
+UPSTREAM: PM / wakeup: Register wakeup class kobj after device is added <9 months ago> [e3ab86334452e]
+by: Stephen Boyd (swboyd@chromium.org)
+BACKPORT: PM / wakeup: Fix sysfs registration error path <9 months ago> [6323ce4ea159a]
+by: Stephen Boyd (swboyd@chromium.org)
+BACKPORT: PM / wakeup: Show wakeup sources stats in sysfs <9 months ago> [ec4db1fc46a4f]
+by: Tri Vo (trong@android.com)
+UPSTREAM: PM / wakeup: Print warn if device gets enabled as wakeup source during sleep <2 years, 4 months ago> [95dad1177f07c]
+by: Ulf Hansson (ulf.hansson@linaro.org)
+UPSTREAM: PM / wakeup: Use wakeup_source_register() in wakelock.c <9 months ago> [f6da8cd85d325]
+by: Tri Vo (trong@android.com)
+UPSTREAM: PM / wakeup: Only update last time for active wakeup sources <2 years ago> [e6d236b538412]
+by: Doug Berger (opendmb@gmail.com)
+UPSTREAM: PM / core: Add support to skip power management in device/driver model <1 year, 3 months ago> [1faca2de1c3c3]
+by: Sudeep Holla (sudeep.holla@arm.com)
+UPSTREAM: netfilter: xt_IDLETIMER: fix sysfs callback function type <1 year, 2 months ago> [5f8fbdbcd2f64]
+by: Sami Tolvanen (samitolvanen@google.com)
+UPSTREAM: mm: untag user pointers in mmap/munmap/mremap/brk <7 months ago> [0823de74cea9e]
+by: Catalin Marinas (catalin.marinas@arm.com)
+UPSTREAM: vfio/type1: untag user pointers in vaddr_get_pfn <7 months ago> [a75baf78b9f64]
+by: Andrey Konovalov (andreyknvl@google.com)
+UPSTREAM: media/v4l2-core: untag user pointers in videobuf_dma_contig_user_get <7 months ago> [1b74b533b03cf]
+by: Andrey Konovalov (andreyknvl@google.com)
+UPSTREAM: drm/radeon: untag user pointers in radeon_gem_userptr_ioctl <7 months ago> [ca1c02decbecd]
+by: Andrey Konovalov (andreyknvl@google.com)
+BACKPORT: drm/amdgpu: untag user pointers <7 months ago> [426eeb2efa113]
+by: Andrey Konovalov (andreyknvl@google.com)
+UPSTREAM: userfaultfd: untag user pointers <7 months ago> [f65794dbd7e88]
+by: Andrey Konovalov (andreyknvl@google.com)
+UPSTREAM: fs/namespace: untag user pointers in copy_mount_options <7 months ago> [740c7e1529eb2]
+by: Andrey Konovalov (andreyknvl@google.com)
+UPSTREAM: mm: untag user pointers in get_vaddr_frames <7 months ago> [db2bf380a14e0]
+by: Andrey Konovalov (andreyknvl@google.com)
+UPSTREAM: mm: untag user pointers in mm/gup.c <7 months ago> [a3b3b04e499c3]
+by: Andrey Konovalov (andreyknvl@google.com)
+BACKPORT: mm: untag user pointers passed to memory syscalls <7 months ago> [735f12745cf1e]
+by: Andrey Konovalov (andreyknvl@google.com)
+BACKPORT: lib: untag user pointers in strn*_user <7 months ago> [82a2e18134de7]
+by: Andrey Konovalov (andreyknvl@google.com)
+UPSTREAM: arm64: Fix reference to docs for ARM64_TAGGED_ADDR_ABI <8 months ago> [bb85ab3652aac]
+by: Jeremy Cline (jcline@redhat.com)
+UPSTREAM: selftests, arm64: add kernel headers path for tags_test <8 months ago> [71d6ce66cd07a]
+by: Andrey Konovalov (andreyknvl@google.com)
+BACKPORT: arm64: Relax Documentation/arm64/tagged-pointers.rst <8 months ago> [8a9d421026b1c]
+by: Vincenzo Frascino (vincenzo.frascino@arm.com)
+UPSTREAM: arm64: Define Documentation/arm64/tagged-address-abi.rst <8 months ago> [e390eeb29ac2a]
+by: Vincenzo Frascino (vincenzo.frascino@arm.com)
+UPSTREAM: arm64: Change the tagged_addr sysctl control semantics to only prevent the opt-in <9 months ago> [542a2a06e3580]
+by: Catalin Marinas (catalin.marinas@arm.com)
+UPSTREAM: arm64: Tighten the PR_{SET, GET}_TAGGED_ADDR_CTRL prctl() unused arguments <9 months ago> [311b45ccea865]
+by: Catalin Marinas (catalin.marinas@arm.com)
+UPSTREAM: selftests, arm64: fix uninitialized symbol in tags_test.c <9 months ago> [06e4ab590aa9f]
+by: Andrey Konovalov (andreyknvl@google.com)
+UPSTREAM: arm64: mm: Really fix sparse warning in untagged_addr() <9 months ago> [743b335e01874]
+by: Will Deacon (will@kernel.org)
+UPSTREAM: selftests, arm64: add a selftest for passing tagged pointers to kernel <9 months ago> [ca3d5f6852235]
+by: Andrey Konovalov (andreyknvl@google.com)
+BACKPORT: arm64: Introduce prctl() options to control the tagged user addresses ABI <9 months ago> [a1ebd1eab141c]
+by: Catalin Marinas (catalin.marinas@arm.com)
+UPSTREAM: thread_info: Add update_thread_flag() helpers <2 years, 1 month ago> [540e2899854f7]
+by: Dave Martin (Dave.Martin@arm.com)
+UPSTREAM: arm64: untag user pointers in access_ok and __uaccess_mask_ptr <9 months ago> [cf65e6849a94d]
+by: Andrey Konovalov (andreyknvl@google.com)
+UPSTREAM: uaccess: add noop untagged_addr definition <11 months ago> [3c6fc97549b55]
+by: Andrey Konovalov (andreyknvl@google.com)
+UPSTREAM: mm/kasan: fix false positive invalid-free reports with CONFIG_KASAN_SW_TAGS=y <8 months ago> [c59ed2e66e92b]
+by: Andrey Ryabinin (aryabinin@virtuozzo.com)
+UPSTREAM: kasan: initialize tag to 0xff in __kasan_kmalloc <11 months ago> [5898d9c018edd]
+by: Nathan Chancellor (natechancellor@gmail.com)
+UPSTREAM: x86/boot: Provide KASAN compatible aliases for string routines <12 months ago> [f531e80518361]
+by: Ard Biesheuvel (ard.biesheuvel@linaro.org)
+UPSTREAM: mm/kasan: Remove the ULONG_MAX stack trace hackery <1 year, 1 month ago> [1dd2430f70ef8]
+by: Thomas Gleixner (tglx@linutronix.de)
+UPSTREAM: x86/uaccess, kasan: Fix KASAN vs SMAP <1 year, 1 month ago> [edcb8835d6cad]
+by: Peter Zijlstra (peterz@infradead.org)
+UPSTREAM: x86/uaccess: Introduce user_access_{save,restore}() <1 year, 1 month ago> [c40c31a89c197]
+by: Peter Zijlstra (peterz@infradead.org)
+UPSTREAM: kasan: fix variable 'tag' set but not used warning <1 year, 1 month ago> [60e9b2ead2700]
+by: Qian Cai (cai@lca.pw)
+UPSTREAM: Revert "x86_64: Increase stack size for KASAN_EXTRA" <1 year, 2 months ago> [87695d76dfdef]
+by: Qian Cai (cai@lca.pw)
+UPSTREAM: kasan: fix coccinelle warnings in kasan_p*_table <1 year, 2 months ago> [a71b837d17779]
+by: Andrey Konovalov (andreyknvl@google.com)
+UPSTREAM: kasan: fix kasan_check_read/write definitions <1 year, 2 months ago> [d62259c133cec]
+by: Arnd Bergmann (arnd@arndb.de)
+BACKPORT: kasan: remove use after scope bugs detection. <1 year, 2 months ago> [2af48b7accc24]
+by: Andrey Ryabinin (aryabinin@virtuozzo.com)
+BACKPORT: kasan: turn off asan-stack for clang-8 and earlier <1 year, 2 months ago> [550c2b5362136]
+by: Arnd Bergmann (arnd@arndb.de)
+UPSTREAM: slub: fix a crash with SLUB_DEBUG + KASAN_SW_TAGS <1 year, 2 months ago> [502bb5082aeac]
+by: Qian Cai (cai@lca.pw)
+UPSTREAM: kasan, slab: remove redundant kasan_slab_alloc hooks <1 year, 2 months ago> [c9949b1398995]
+by: Andrey Konovalov (andreyknvl@google.com)
+UPSTREAM: kasan, slab: make freelist stored without tags <1 year, 2 months ago> [75cccde0086b7]
+by: Andrey Konovalov (andreyknvl@google.com)
+UPSTREAM: kasan, slab: fix conflicts with CONFIG_HARDENED_USERCOPY <1 year, 2 months ago> [3a912ef620676]
+by: Andrey Konovalov (andreyknvl@google.com)
+UPSTREAM: kasan: prevent tracing of tags.c <1 year, 2 months ago> [ec3041f407b0e]
+by: Andrey Konovalov (andreyknvl@google.com)
+UPSTREAM: kasan: fix random seed generation for tag-based mode <1 year, 2 months ago> [8836f8a8d4fac]
+by: Andrey Konovalov (andreyknvl@google.com)
+UPSTREAM: slub: fix SLAB_CONSISTENCY_CHECKS + KASAN_SW_TAGS <1 year, 2 months ago> [7c0c25860bb0d]
+by: Qian Cai (cai@lca.pw)
+UPSTREAM: kasan, slub: fix more conflicts with CONFIG_SLAB_FREELIST_HARDENED <1 year, 2 months ago> [e65dceff9e81e]
+by: Andrey Konovalov (andreyknvl@google.com)
+UPSTREAM: kasan, slub: fix conflicts with CONFIG_SLAB_FREELIST_HARDENED <1 year, 2 months ago> [2031197415936]
+by: Andrey Konovalov (andreyknvl@google.com)
+UPSTREAM: kasan, slub: move kasan_poison_slab hook before page_address <1 year, 2 months ago> [925a891e1e612]
+by: Andrey Konovalov (andreyknvl@google.com)
+UPSTREAM: kasan, kmemleak: pass tagged pointers to kmemleak <1 year, 2 months ago> [c2ac010e5b390]
+by: Andrey Konovalov (andreyknvl@google.com)
+UPSTREAM: kasan: fix assigning tags twice <1 year, 2 months ago> [dc30995b6b007]
+by: Andrey Konovalov (andreyknvl@google.com)
+UPSTREAM: kasan: mark file common so ftrace doesn't trace it <1 year, 3 months ago> [6f5fc8a3af519]
+by: Anders Roxell (anders.roxell@linaro.org)
+UPSTREAM: kasan, arm64: remove redundant ARCH_SLAB_MINALIGN define <1 year, 4 months ago> [6275dd3e79221]
+by: Andrey Konovalov (andreyknvl@google.com)
+UPSTREAM: kasan: fix krealloc handling for tag-based mode <1 year, 4 months ago> [321e2a1f52aee]
+by: Andrey Konovalov (andreyknvl@google.com)
+UPSTREAM: kasan: make tag based mode work with CONFIG_HARDENED_USERCOPY <1 year, 4 months ago> [e331cbf6f76c8]
+by: Andrey Konovalov (andreyknvl@google.com)
+UPSTREAM: kasan, arm64: use ARCH_SLAB_MINALIGN instead of manual aligning <1 year, 4 months ago> [627b4a783e24c]
+by: Andrey Konovalov (andreyknvl@google.com)
+BACKPORT: mm/memblock.c: skip kmemleak for kasan_init() <1 year, 4 months ago> [8054a6c03f3c8]
+by: Qian Cai (cai@gmx.us)
+UPSTREAM: kasan: add SPDX-License-Identifier mark to source files <1 year, 4 months ago> [06be2052db3b0]
+by: Andrey Konovalov (andreyknvl@google.com)
+BACKPORT: kasan: update documentation <1 year, 4 months ago> [e9eff1d41aed0]
+by: Andrey Konovalov (andreyknvl@google.com)
+UPSTREAM: kasan, arm64: select HAVE_ARCH_KASAN_SW_TAGS <1 year, 4 months ago> [8ed37d137cfad]
+by: Andrey Konovalov (andreyknvl@google.com)
+UPSTREAM: kasan: add __must_check annotations to kasan hooks <1 year, 4 months ago> [dbd8f4f46088c]
+by: Andrey Konovalov (andreyknvl@google.com)
+BACKPORT: kasan, mm, arm64: tag non slab memory allocated via pagealloc <1 year, 4 months ago> [a89f5882ef763]
+by: Andrey Konovalov (andreyknvl@google.com)
+UPSTREAM: kasan, arm64: add brk handler for inline instrumentation <1 year, 4 months ago> [abe9cb48ef840]
+by: Andrey Konovalov (andreyknvl@google.com)
+UPSTREAM: kasan: add hooks implementation for tag-based mode <1 year, 4 months ago> [86983a112b45d]
+by: Andrey Konovalov (andreyknvl@google.com)
+UPSTREAM: mm: move obj_to_index to include/linux/slab_def.h <1 year, 4 months ago> [90b72eb87140a]
+by: Andrey Konovalov (andreyknvl@google.com)
+UPSTREAM: kasan: add bug reporting routines for tag-based mode <1 year, 4 months ago> [b5801e0338064]
+by: Andrey Konovalov (andreyknvl@google.com)
+FROMLIST: arm64: kernel: implement fast refcount checking <11 months ago> [933cf98d7a222]
+by: Ard Biesheuvel (ard.biesheuvel@linaro.org)
+arm64: debug: Separate debug hooks based on target exception level <1 year, 2 months ago> [466dddcb84a63]
+by: Will Deacon (will.deacon@arm.com)
+UPSTREAM: kasan: split out generic_report.c from report.c <1 year, 4 months ago> [0e993a2766faa]
+by: Andrey Konovalov (andreyknvl@google.com)
+UPSTREAM: kasan, mm: perform untagged pointers comparison in krealloc <1 year, 4 months ago> [b1b0edd2553dc]
+by: Andrey Konovalov (andreyknvl@google.com)
+BACKPORT: kasan, arm64: enable top byte ignore for the kernel <1 year, 4 months ago> [9b7a8fc46cd5d]
+by: Andrey Konovalov (andreyknvl@google.com)
+BACKPORT: kasan, arm64: fix up fault handling logic <1 year, 4 months ago> [374a20f6a4014]
+by: Andrey Konovalov (andreyknvl@google.com)
+UPSTREAM: kasan: preassign tags to objects with ctors or SLAB_TYPESAFE_BY_RCU <1 year, 4 months ago> [ccd66f2cb5228]
+by: Andrey Konovalov (andreyknvl@google.com)
+UPSTREAM: kasan, arm64: untag address in _virt_addr_is_linear <1 year, 4 months ago> [1706529d036f3]
+by: Andrey Konovalov (andreyknvl@google.com)
+UPSTREAM: kasan: add tag related helper functions <1 year, 4 months ago> [ffa4cb320f8f0]
+by: Andrey Konovalov (andreyknvl@google.com)
+BACKPORT: arm64: move untagged_addr macro from uaccess.h to memory.h <1 year, 4 months ago> [5335064e30f7c]
+by: Andrey Konovalov (andreyknvl@google.com)
+BACKPORT: kasan: initialize shadow to 0xff for tag-based mode <1 year, 4 months ago> [23e57179c47d7]
+by: Andrey Konovalov (andreyknvl@google.com)
+BACKPORT: kasan: rename kasan_zero_page to kasan_early_shadow_page <1 year, 4 months ago> [200f4afba6591]
+by: Andrey Konovalov (andreyknvl@google.com)
+BACKPORT: kasan, arm64: adjust shadow size for tag-based mode <1 year, 4 months ago> [3d3cfbd61741d]
+by: Andrey Konovalov (andreyknvl@google.com)
+BACKPORT: kasan: add CONFIG_KASAN_GENERIC and CONFIG_KASAN_SW_TAGS <1 year, 4 months ago> [d98e90b08cd68]
+by: Andrey Konovalov (andreyknvl@google.com)
+UPSTREAM: kasan: rename source files to reflect the new naming scheme <1 year, 4 months ago> [ec11e66d0d10a]
+by: Andrey Konovalov (andreyknvl@google.com)
+BACKPORT: kasan: move common generic and tag-based code to common.c <1 year, 4 months ago> [f74b0a3d0b792]
+by: Andrey Konovalov (andreyknvl@google.com)
+UPSTREAM: kasan, slub: handle pointer tags in early_kmem_cache_node_alloc <1 year, 4 months ago> [ce6b50e2d22e6]
+by: Andrey Konovalov (andreyknvl@google.com)
+UPSTREAM: kasan, mm: change hooks signatures <1 year, 4 months ago> [9ffa91bcccd21]
+by: Andrey Konovalov (andreyknvl@google.com)
+UPSTREAM: arm64: add EXPORT_SYMBOL_NOKASAN() <1 year, 5 months ago> [20ac1dc8740ea]
+by: Mark Rutland (mark.rutland@arm.com)
+BACKPORT: compiler: remove __no_sanitize_address_or_inline again <1 year, 6 months ago> [62cffcc8894ca]
+by: Martin Schwidefsky (schwidefsky@de.ibm.com)
+UPSTREAM: mm/kasan/quarantine.c: make quarantine_lock a raw_spinlock_t <1 year, 6 months ago> [9b86712bf9db1]
+by: Clark Williams (williams@redhat.com)
+UPSTREAM: lib/test_kasan.c: add tests for several string/memory API functions <1 year, 6 months ago> [98d2a7a80895d]
+by: Andrey Ryabinin (aryabinin@virtuozzo.com)
+UPSTREAM: compiler: introduce __no_sanitize_address_or_inline <2 years, 5 months ago> [0a9d46802c2a9]
+by: Vasily Gorbik (gor@linux.ibm.com)
+UPSTREAM: arm64: Fix typo in a comment in arch/arm64/mm/kasan_init.c <1 year, 7 months ago> [8409ed7d42627]
+by: Kyrylo Tkachov (kyrylo.tkachov@arm.com)
+BACKPORT: kernel/memremap, kasan: make ZONE_DEVICE with work with KASAN <1 year, 8 months ago> [7006bd1133e43]
+by: Andrey Ryabinin (aryabinin@virtuozzo.com)
+BACKPORT: mm/mempool.c: remove unused argument in kasan_unpoison_element() and remove_element() <1 year, 8 months ago> [7782450326131]
+by: Jia-Ju Bai (baijiaju1990@gmail.com)
+UPSTREAM: kasan: only select SLUB_DEBUG with SYSFS=y <1 year, 9 months ago> [345229d63c480]
+by: Arnd Bergmann (arnd@arndb.de)
+UPSTREAM: kasan: depend on CONFIG_SLUB_DEBUG <1 year, 10 months ago> [5ee80de48891c]
+by: Jason A. Donenfeld (Jason@zx2c4.com)
+UPSTREAM: KASAN: prohibit KASAN+STRUCTLEAK combination <2 years ago> [26312a783a903]
+by: Dmitry Vyukov (dvyukov@google.com)
+UPSTREAM: arm64: kasan: avoid pfn_to_nid() before page array is initialized <2 years, 1 month ago> [d86dcb84c8483]
+by: Mark Rutland (mark.rutland@arm.com)
+UPSTREAM: kasan: fix invalid-free test crashing the kernel <2 years, 1 month ago> [7ab18f2366321]
+by: Andrey Konovalov (andreyknvl@google.com)
+UPSTREAM: kasan, slub: fix handling of kasan_slab_free hook <2 years, 1 month ago> [a66ea6636411a]
+by: Andrey Konovalov (andreyknvl@google.com)
+UPSTREAM: slab, slub: skip unnecessary kasan_cache_shutdown() <2 years, 1 month ago> [d8490e9cf1fcf]
+by: Shakeel Butt (shakeelb@google.com)
+BACKPORT: kasan: make kasan_cache_create() work with 32-bit slab cache sizes <2 years, 1 month ago> [850b1cad64c61]
+by: Alexey Dobriyan (adobriyan@gmail.com)
+UPSTREAM: locking/atomics: Instrument cmpxchg_double*() <1 year, 10 months ago> [475dda1bc3c40]
+by: Mark Rutland (mark.rutland@arm.com)
+UPSTREAM: locking/atomics: Instrument xchg() <1 year, 10 months ago> [da14cbd8f8f1f]
+by: Mark Rutland (mark.rutland@arm.com)
+UPSTREAM: locking/atomics: Simplify cmpxchg() instrumentation <1 year, 10 months ago> [56cbcd1cc25a6]
+by: Mark Rutland (mark.rutland@arm.com)
+UPSTREAM: locking/atomics/x86: Reduce arch_cmpxchg64*() instrumentation <1 year, 10 months ago> [eb9fdbe6051cd]
+by: Mark Rutland (mark.rutland@arm.com)
+UPSTREAM: locking/atomic, asm-generic, x86: Add comments for atomic instrumentation <2 years, 3 months ago> [71f513ccff6a5]
+by: Dmitry Vyukov (dvyukov@google.com)
+UPSTREAM: locking/atomic, asm-generic: Add KASAN instrumentation to atomic operations <2 years, 3 months ago> [6b5ced9e7683b]
+by: Dmitry Vyukov (dvyukov@google.com)
+UPSTREAM: locking/atomic/x86: Switch atomic.h to use atomic-instrumented.h <2 years, 3 months ago> [e6a1e4f00d1bb]
+by: Dmitry Vyukov (dvyukov@google.com)
+UPSTREAM: locking/atomic, asm-generic: Add asm-generic/atomic-instrumented.h <2 years, 3 months ago> [fac30ce7dd703]
+by: Dmitry Vyukov (dvyukov@google.com)
+BACKPORT: kasan, arm64: clean up KASAN_SHADOW_SCALE_SHIFT usage <2 years, 2 months ago> [0335ee523ae27]
+by: Andrey Konovalov (andreyknvl@google.com)
+UPSTREAM: kasan: clean up KASAN_SHADOW_SCALE_SHIFT usage <2 years, 3 months ago> [2743e62201dcc]
+by: Andrey Konovalov (andreyknvl@google.com)
+UPSTREAM: kasan: fix prototype author email address <2 years, 3 months ago> [14307fbc2985d]
+by: Andrey Konovalov (andreyknvl@google.com)
+BACKPORT: kasan: add compiler support for clang <2 years, 3 months ago> [082676d64a322]
+by: Paul Lawrence (paullawrence@google.com)
+UPSTREAM: arm64/mm/kasan: don't use vmemmap_populate() to initialize shadow <2 years, 6 months ago> [678584a1e429d]
+by: Will Deacon (will.deacon@arm.com)
+UPSTREAM: Documentation/features/KASAN: mark KASAN as supported only on 64-bit on x86 <2 years, 7 months ago> [237b88e576567]
+by: Adam Borowski (kilobyte@angband.pl)
+Revert "HACK: mm: avoid symbolic lookup in proc/vmallocinfo" <10 months ago> [327e29b4ce4bb]
+by: Minchan Kim (minchan@google.com)
+HACK: mm: avoid symbolic lookup in proc/vmallocinfo <10 months ago> [675cee2c702b7]
+by: Wei Wang (wvw@google.com)
+fs: Align file struct to 8 bytes <10 months ago> [a2274fd1e59db]
+by: Sultan Alsawaf (sultan@kerneltoast.com)
+qcacld-3.0: Add sme_power_save_api.h include <1 year, 5 months ago> [23d203b218f15]
+by: Ethan Chen (intervigil@gmail.com)
+techpack: use power efficient workqueues <11 months ago> [a5efc2e5f6315]
+by: HolyAngel (slverwolf@gmail.com)
+power: supply: Use power efficient workingqueues <6 months ago> [cb0b6ae5a5458]
+by: freak07 (michalechner92@googlemail.com)
+fs: open: do not block /system/etc/ path <3 weeks ago> [6d0213e99f0e5]
+by: Yaroslav Furman (yaro330@gmail.com)
+fs: expand blocker to cover FDE.AI apps <7 weeks ago> [73f24e6421beb]
+by: Yaroslav Furman (yaro330@gmail.com)
+mm: vmpressure: Ignore allocation orders above PAGE_ALLOC_COSTLY_ORDER <4 weeks ago> [a95edb79c1a16]
+by: Sultan Alsawaf (sultan@kerneltoast.com)
+tcp: up initial rmem to 128KB and SYN rwin to around 64KB <1 year, 7 months ago> [e9593789452f5]
+by: Yuchung Cheng (ycheng@google.com)
+mm: zero-seek shrinkers <1 year, 6 months ago> [2889f4b41c917]
+by: Johannes Weiner (hannes@cmpxchg.org)
+mm/dmapool.c: micro-optimisation remove unnecessary branch <4 weeks ago> [5366dff715d2a]
+by: Mateusz Nosek (mateusznosek0@gmail.com)
+mm/page_alloc.c: micro-optimisation Remove unnecessary branch <4 weeks ago> [8bea7fbdea660]
+by: Mateusz Nosek (mateusznosek0@gmail.com)
+fs/binfmt_elf.c: make BAD_ADDR() unlikely <3 months ago> [7b55c6bb175d9]
+by: Alexey Dobriyan (adobriyan@gmail.com)
+tcp: hint compiler about sack flows <1 year, 5 months ago> [38b62b9d3f9a1]
+by: Eric Dumazet (edumazet@google.com)
+asm-generic: add unlikely to default BUG_ON(x) <8 months ago> [8ed7ae26640b1]
+by: Denis Efremov (efremov@linux.com)
+block: optimize bvec iteration in bvec_iter_advance <1 year, 2 months ago> [389ce7a5f6c34]
+by: Christoph Hellwig (hch@lst.de)
+sched/fair: Fix insertion in rq->leaf_cfs_rq_list <1 year, 3 months ago> [a0c2ec12a22f7]
+by: Vincent Guittot (vincent.guittot@linaro.org)
+sched/fair: Add tmp_alone_branch assertion <1 year, 3 months ago> [ae0d126ecdbeb]
+by: Peter Zijlstra (peterz@infradead.org)
+mm: memcg/slab: call flush_memcg_workqueue() only if memcg workqueue is valid <4 months ago> [f276dbdeb0c42]
+by: Adrian Huang (ahuang12@lenovo.com)
+mm: handle no memcg case in memcg_kmem_charge() properly <1 year, 6 months ago> [69fc6c54c1b50]
+by: Roman Gushchin (guro@fb.com)
+mm: fix possible PMD dirty bit lost in set_pmd_migration_entry() <8 weeks ago> [0986f0337bca3]
+by: Huang Ying (ying.huang@intel.com)
+mm: memcontrol: fix network errors from failing __GFP_ATOMIC charges <6 months ago> [297f2ca853421]
+by: Johannes Weiner (hannes@cmpxchg.org)
+msm: ufs: fix build breakage without CONFIG_DEBUG_FS <7 weeks ago> [2fd012adc0ad3]
+by: lucaswei (lucaswei@google.com)
+Revert "scsi: ufs: update VCCQ and VCCQ2 min value" <9 weeks ago> [de39a38f72592]
+by: Randall Huang (huangrandall@google.com)
+ANDROID: increase limit on sched-tune boost groups <9 weeks ago> [b667179d5d0c7]
+by: Todd Kjos (tkjos@google.com)
+BACKPORT: leds: class: ensure workqueue is initialized before setting brightness <10 weeks ago> [a23ccd7e7d15b]
+by: Woody Lin (woodylin@google.com)
+led-class: Fix a led-class de-init bug <9 weeks ago> [e966e311c5b54]
+by: Woody Lin (woodylin@google.com)
+goodix: stop reporting KEY_HOME on presses <5 weeks ago> [193ade1f43a4a]
+by: Park Ju Hyung (qkrwngud825@gmail.com)
+i2c: i2c-qcom-geni: Add SSR support for SSC QUPs <7 months ago> [9638ee93f2112]
+by: Ashish Kori (akori@codeaurora.org)
+i2c: i2c-qcom-geni: Implementing thaw callback <8 weeks ago> [7858b1604f593]
+by: Atul Raut (araut@codeaurora.org)
+xattr: Avoid dynamically allocating memory in getxattr <10 months ago> [16e833e76eae5]
+by: Sultan Alsawaf (sultan@kerneltoast.com)
+kernfs: Avoid dynamic memory allocation for small write buffers <11 months ago> [44f9963aaf6fc]
+by: Sultan Alsawaf (sultan@kerneltoast.com)
+drivers: power: add timeouts to wakelocks <2 months ago> [312a4522b171e]
+by: Yaroslav Furman (yaro330@gmail.com)
+drm/msm/sde: Omit debug logging code <12 months ago> [0f39eecc2b5fe]
+by: Danny Lin (danny@kdrag0n.dev)
+drm/msm: Omit SDE event log and most debugfs code <12 months ago> [b42939af49d04]
+by: Danny Lin (danny@kdrag0n.dev)
+drm/msm/sde: Remove register write debug logging <12 months ago> [fe383fc5b987e]
+by: Danny Lin (danny@kdrag0n.dev)
+Revert "UPSTREAM: sched/topology: Add SD_ASYM_CPUCAPACITY flag detection" <5 days ago> [35e971f4810ea]
+by: vantoman (Mustafa.vantom@gmail.com)
+drm/msm/sde: allocate kmem_fence_pool once <9 weeks ago> [f0df947b488c2]
+by: Park Ju Hyung (qkrwngud825@gmail.com)
+Revert "drm/sde: sde_fence: reserve cache for fence allocations" <8 days ago> [6a2088b64aed8]
+by: vantoman (Mustafa.vantom@gmail.com)
+qos: Remove remaining instances of disabling IRQs for pm_qos_lock <9 days ago> [8ef9b3fa59e8f]
+by: Sultan Alsawaf (sultan@kerneltoast.com)
+cpuidle: Make pm_qos notifier callback more efficient <9 days ago> [5edfdaaa9fb05]
+by: Sultan Alsawaf (sultan@kerneltoast.com)
+cpuidle: Optimize pm_qos notifier callback <11 months ago> [d453bbfd4e6de]
+by: Sultan Alsawaf (sultan@kerneltoast.com)
+
+
+====================
+     04-27-2020
+====================
 
 [packages/apps/Dialer]
-Automatic translation import <4 days ago> [e68f64ce3]
-by: Akhil Narang (akhilnarang.1999@gmail.com)
-
-[packages/apps/Launcher3]
-Automatic translation import <4 days ago> [d7dc19b68]
-by: Akhil Narang (akhilnarang.1999@gmail.com)
-
-[packages/apps/Messaging]
-Automatic translation import <4 days ago> [d9e932d]
-by: Akhil Narang (akhilnarang.1999@gmail.com)
-
-[packages/apps/Settings]
-Settings: per-app cellular data, vpn and wifi restrictions (#8) <3 days ago> [c3ac5ba64d]
-by: rahul9999 (36025572+rahul9999xda@users.noreply.github.com)
-
-[vendor/aosip]
-changelog: Improve Changelog generator (#18) <4 days ago> [c5d328d]
-by: Nauval Rizky (enuma.alrizky@gmail.com)
-
-[vendor/overlay]
-overlay: Squash revert RGB picker [4/5] <8 days ago> [7818d9c]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-Overlay: Add OnePlus Dark Primary <3 weeks ago> [d933521]
-by: Aman Singh (amankumarsingh1412@gmail.com)
-overlays: Add Flame primary <6 weeks ago> [17bf599]
-by: Josh Fox (XlxFoXxlX) (joshfox87@gmail.com)
-themes: Cleanup hardcoded colors and use/overlay AOSP values <6 weeks ago> [0e6009f]
-by: Christian Oder (myself5@carbonrom.org)
-overlay: remove background_floating_device_default_dark exposure <6 weeks ago> [0f201e5]
-by: Josh Fox (XlxFoXxlX) (joshfox87@gmail.com)
-themes: don't hardcode Screenrecord dialog color <6 weeks ago> [eac517d]
-by: Christian Oder (myself5@carbonrom.org)
-overlays: Remove more duplicate exposures <6 weeks ago> [4e34fec]
-by: Josh Fox (XlxFoXxlX) (joshfox87@gmail.com)
-overlays: Remove duplicate exposure for notifications <6 weeks ago> [33e4096]
-by: Josh Fox (XlxFoXxlX) (joshfox87@gmail.com)
-overlay: Nuke accent overlays [3/3] <7 weeks ago> [e86c14f]
-by: NurKeinNeid (mralexman3000@gmail.com)
-overlay: Seperate Settings exposures from system for primarys <7 weeks ago> [c5518ea]
-by: Josh Fox (XlxFoXxlX) (joshfox87@gmail.com)
-Notification guts: Adapt to system theme <8 weeks ago> [0d10ffc]
-by: Alex (du.alexcruz@gmail.com)
-overlay: PermissionsManager: Fix navbar color when using dark themes <3 months ago> [d0215b6]
-by: Alex (du.alexcruz@gmail.com)
-overlay: etc: Add Android.mk <8 weeks ago> [d30b1ff]
-by: Anirudh Gupta (anirudhgupta109@aosip.dev)
-Live captions: Have it follow system accent / fix up navbar <10 weeks ago> [e009aa3]
-by: Alex (du.alexcruz@gmail.com)
-overlay: add EmptyOverlay <3 months ago> [948d2a8]
-by: maxwen (max.weninger@gmail.com)
-overlay: remove left over wallpaper after name change <3 months ago> [e71956c]
-by: Josh Fox (XlxFoXxlX) (joshfox87@gmail.com)
-overlay: open sdcard root when launching DocumentsUI <1 year, 4 months ago> [1c845aa]
-by: jrizzoli (joey@lineageos.org)
-overlay: Extend icon previews list <2 months ago> [4ef3a97]
-by: NurKeinNeid (mralexman3000@gmail.com)
-overlay: Allow to theme Settings with primary <3 months ago> [f56f3b6]
-by: Josh Fox (XlxFoXxlX) (joshfox87@gmail.com)
-Overlays: Compress and optimize our default wallpaper <3 months ago> [7a994c7]
-by: NurKeinNeid (mralexman3000@gmail.com)
-Overlay: Add Solarized Dark Primary <3 months ago> [92a323e]
-by: Aman Singh (amankumarsingh1412@gmail.com)
+Dialer: Fix dark dialogs on light theme <3 months ago> [5a8b82969]
+by: Hikari-no-Tenshi (kyryljan.serhij@gmail.com)
 
 [packages/apps/DerpQuest]
-DerpQuest: Allow toggling heads up by using a master switch <4 days ago> [6d98cc8]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-DerpQuest: Add HeadsUp blacklists [2/2] <4 days ago> [1fdaee0]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-DerpQuest: Convert HeadsUp snooze and timeout to SeekBar <6 days ago> [1c0272e]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[system/netd]
-system/netd: Squash of app fw restriction commits (#1) <3 days ago> [e267aca3]
-by: rahul9999 (36025572+rahul9999xda@users.noreply.github.com)
-
-
-====================
-     04-16-2020
-====================
-
-[frameworks/base]
-SystemUI: Add HeadsUp blacklists [1/2] <2 years, 7 months ago> [ecadfbce3c6]
-by: Decad3nce (decad3nce@gmail.com)
-
-
-====================
-     04-15-2020
-====================
-
-[frameworks/base]
-base: Tune some dimens to make icon spacing on SB equal <6 days ago> [d997b01e6e8]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-base: Add HeadsUp timeout function [1/2] <4 years, 1 month ago> [28f722cb8ad]
-by: Lars Greiss (kufikugel@googlemail.com)
-base: Add HeadsUp snooze function [1/2] <4 years ago> [14aa5c11563]
-by: Lokesh Chamane (lokesh.c703@gmail.com)
-
-[packages/apps/DerpQuest]
-DerpQuest: Add HeadsUp timeout function [2/2] <3 years, 6 months ago> [41ec605]
-by: Lars Greiss (kufikugel@googlemail.com)
-DerpQuest: Add HeadsUp snooze function [2/2] <3 years, 6 months ago> [6be31c5]
-by: Lokesh Chamane (lokesh.c703@gmail.com)
-DerpQuest: Introduce HeadsUp settings fragment <6 days ago> [abc4a98]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-NetworkTraffic: Fix/adjust and properly restrict text sizing <5 weeks ago> [bafa47c]
-by: calebcabob (calphonic@gmail.com)
-
-[kernel/xiaomi/cepheus]
-Merge tag 'LE.UM.3.3.2-07600-SDX55' of https://source.codeaurora.org/quic/la/kernel/msm-4.14 into ten <6 days ago> [00b279cd9640c]
-by: DarkDampSquib (andrin.geiger1998@gmail.com)
-
-
-====================
-     04-14-2020
-====================
-
-[frameworks/base]
-SystemUI: Fix custom lockscreen wallpaper <13 days ago> [918f23a3152]
-by: LuK1337 (priv.luk@gmail.com)
-
-[packages/apps/Settings]
-Settings: Squash revert RGB picker [2/5] <8 days ago> [90e85aa7c9]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/apps/ThemePicker]
-ThemePicker: Squash revert RGB picker [5/5] <8 days ago> [c971a3d]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/apps/DerpQuest]
-DerpQuest: Squash revert RGB picker [3/5] <8 days ago> [c8fa9f2]
-by: Ido Ben-Hur (idoybh2@gmail.com)
+DerpQuest: Update Greek translation (#50) <5 days ago> [dac9005]
+by: CrisBalGreece (crisbaladim@yahoo.gr)
 
 [vendor/ANXCamera]
-Update ANXCamera to V177 <8 days ago> [50bd7d7]
-by: DarkDampSquib (andrin.geiger1998@gmail.com)
-Rename MiuiCamera to ANXCamera <8 days ago> [b7c9a48]
+Update ANXCamera to V180 <5 days ago> [aaf52cf]
 by: DarkDampSquib (andrin.geiger1998@gmail.com)
 
-[kernel/xiaomi/cepheus]
-Merge tag 'LA.UM.8.9.r1-08700-SM6xx.0' of https://source.codeaurora.org/quic/la/kernel/msm-4.14 into HEAD <6 days ago> [bd4c31801de1e]
+[device/xiaomi/cepheus]
+cepheus:  sepolicy: allow appdomain to get persist_camera_prop <5 days ago> [0cbf7b91]
+by: LuK1337 (priv.luk@gmail.com)
+cepheus: address more denials <7 days ago> [555f808f]
+by: billaids (jimmy.nelle@hsw-stud.de)
+cepheus: sepolicy: Setup for libperfmgr <7 days ago> [1cbf85bd]
+by: TheHitMan7 (krtik.vrma@gmail.com)
+cepheus: sepolicy: address denials <7 days ago> [f5ff066e]
+by: billaids (jimmy.nelle@hsw-stud.de)
+cepheus: sepolicy: add camera rules <7 days ago> [db968035]
+by: Demon000 (demonsingur@gmail.com)
+cepheus: sepolicy: label anxfilecheck script <7 days ago> [67655a8a]
+by: billaids (jimmy.nelle@hsw-stud.de)
+
+[vendor/xiaomi/cepheus]
+stock cam provider <5 days ago> [49266db]
 by: DarkDampSquib (andrin.geiger1998@gmail.com)
+
+
+====================
+     04-26-2020
+====================
+
+[frameworks/base]
+Revert "SystemUI: keep width on qs expand move" <6 days ago> [10eda5e82d0]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[prebuilts/clang/host/linux-x86/clang-proton]
+Update to 20200425 build <6 days ago> [ce1cb05]
+by: Danny (danny@kdrag0n.dev)
+
+
+====================
+     04-25-2020
+====================
+
+[kernel/xiaomi/cepheus]
+Merge "net: qrtr: Attempt to linearize skb for forwarding" into kernel.lnx.4.14.r8-rel <7 days ago> [5abec5918ad9b]
+by: Linux Build Service Account (lnxbuild@localhost)
+Merge "ARM: dts: msm: Add GPU 800Mhz fmax support for sdmmagpie GPU" into kernel.lnx.4.14.r8-rel <7 days ago> [9f106ee71f12e]
+by: Linux Build Service Account (lnxbuild@localhost)
+ARM: dts: msm: Add GPU 800Mhz fmax support for sdmmagpie GPU <3 weeks ago> [9db5711e569af]
+by: Indira Biruduraju (ibirudur@codeaurora.org)
+net: qrtr: Attempt to linearize skb for forwarding <7 months ago> [54b1142febbf3]
+by: Chris Lew (clew@codeaurora.org)
+net: qrtr: Handle error from skb_put_padto <7 months ago> [84ada2fd98184]
+by: Chris Lew (clew@codeaurora.org)
 
 
