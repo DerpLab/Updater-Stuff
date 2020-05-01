@@ -1,267 +1,219 @@
 ====================
-     04-20-2020
-====================
-
-[frameworks/base]
-FODCircleView: update position of icon before show <9 weeks ago> [93b904b94b5]
-by: Demon000 (demonsingur@gmail.com)
-FODCircleView: Fix position on keyguard if cutout is hidden <10 weeks ago> [04e1dc497ba]
-by: Hikari-no-Tenshi (kyryljan.serhij@gmail.com)
-FODCircleView: Fix position if cutout is hidden <9 months ago> [b0f00f5a91a]
-by: jhenrique09 (jhenrique09.mcz@hotmail.com)
-SystemUI: QS: Allow toggling panels [1/2] <22 hours ago> [13258222a76]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/apps/DerpQuest]
-DerpQuest: Don't translate what you shouldn't <12 hours ago> [f96c5b5]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-DerpQuest: Allow toggling QS panels [2/2] <22 hours ago> [bdfeb87]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-
-====================
-     04-19-2020
+     05-01-2020
 ====================
 
 [manifest]
-Merge remote-tracking branch 'aosp/android-10.0.0_r33' into ten <3 days ago> [9db95ac]
+manifest: Update vendor/google-customization path [1/2] <18 hours ago> [bf3db4e]
 by: Ido Ben-Hur (idoybh2@gmail.com)
-manifest: Track scripts repo <3 weeks ago> [f65a0bb]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[frameworks/base]
-base: notch-city: Add 3 mode display cutout handler <1 year, 5 months ago> [8fb05eb29a6]
-by: Kshitij Gupta (kshitijgm@gmail.com)
-SystemUI: Cleanup pixel live wallpapers changes <3 weeks ago> [4a4dfda934e]
-by: jhenrique09 (jhenrique09.mcz@hotmail.com)
-
-[packages/apps/Settings]
-notch-city: Add 3 mode display cutout handler [3/3] (#9) <30 hours ago> [f107e52fa4]
-by: Aman Kumar Singh (46120388+amanrajOO7@users.noreply.github.com)
-
-[system/bt]
-Prevent abort in case of command timeout <2 years, 9 months ago> [c8b67066d]
-by: Luke Zhang (lukez@codeaurora.org)
-Bluetooth: Read BLE vendor capability to proceed on Secure conn <4 years, 8 months ago> [de1daf340]
-by: Srinu Jella (sjella@codeaurora.org)
-Add support to force disable enhanced sco commands <2 years, 7 months ago> [ff0f0fe98]
-by: cb (billchen1977@gmail.com)
 
 [vendor/aosip]
-vendor: notch-city: Add 3 mode display cutout handler [2/3] (#19) <30 hours ago> [2753620]
-by: Aman Kumar Singh (46120388+amanrajOO7@users.noreply.github.com)
+vendor: Update vendor/google-customization path [2/2] <18 hours ago> [dd43d72]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[packages/apps/DerpQuest]
+ DerpQuest: Update Greek translations (#53) <18 hours ago> [29994a1]
+by: CrisBalGreece (crisbaladim@yahoo.gr)
+
+[prebuilts/clang/host/linux-x86]
+Update prebuilt Clang to r383902. <2 days ago> [1eb04c49]
+by: Yabin Cui (yabinc@google.com)
+
+[vendor/google-customization]
+google-customization: Update paths <23 hours ago> [9d2fa6a]
+by: Henrique Pereira (hlcpereira@pixelexperience.org)
 
 [kernel/xiaomi/davinci]
-Merge tag 'LA.UM.8.9.r1-08700-SM6xx.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/qca-wifi-host-cmn <24 hours ago> [b7f4fcbc59da]
+Merge tag 'LA.UM.8.9.r1-09000-SM6xx.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/qca-wifi-host-cmn <18 hours ago> [ef7959a82e3b]
 by: vantoman (Mustafa.vantom@gmail.com)
-Merge tag 'LA.UM.8.9.r1-08700-SM6xx.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/fw-api <24 hours ago> [508022399008]
+Merge tag 'LA.UM.8.9.r1-09000-SM6xx.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/fw-api <18 hours ago> [a7d66140c38c]
 by: vantoman (Mustafa.vantom@gmail.com)
-Merge tag 'LA.UM.8.9.r1-08700-SM6xx.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/qcacld-3.0 <24 hours ago> [08babc39e71a]
+Merge tag 'LA.UM.8.9.r1-09000-SM6xx.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/qcacld-3.0 <18 hours ago> [185346b96aa6]
 by: vantoman (Mustafa.vantom@gmail.com)
-Merge tag 'LA.UM.8.9.r1-08700-SM6xx.0' of https://source.codeaurora.org/quic/la/kernel/msm-4.14 <24 hours ago> [f68b04343316]
+Merge tag 'LA.UM.8.9.r1-09000-SM6xx.0' of https://source.codeaurora.org/quic/la/kernel/msm-4.14 <18 hours ago> [6a00c6b7fc18]
 by: vantoman (Mustafa.vantom@gmail.com)
-sched: Improve the scheduler <1 year, 1 month ago> [5d25e032e31e]
-by: Pavankumar Kondeti (pkondeti@codeaurora.org)
-sched/core: Fix use after free issue in is_sched_lib_based_app() <1 year, 7 months ago> [fb5cf8419212]
-by: Pavankumar Kondeti (pkondeti@codeaurora.org)
-sched/core: fix userspace affining threads incorrectly <1 year, 8 months ago> [1d8dc4e2e248]
-by: Abhijeet Dharmapurikar (adharmap@codeaurora.org)
 
 
 ====================
-     04-18-2020
+     04-30-2020
 ====================
 
 [frameworks/base]
-base: Make 'R style' notification headers toggleable [1/2] <2 days ago> [f6710cd9ba8]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-Implement R style notification section headers <13 days ago> [25f7dc3bcf2]
-by: shagbag913 (sh4gbag913@gmail.com)
-Revert "Hide gentle notification header independently of section priorities" <2 days ago> [51303bd9fd9]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-Revert "base: Make gentle notifications header toggleable [1/2]" <2 days ago> [14b8bb6f215]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-aosipUtils: Use the right config resource for notch detection <2 days ago> [8e3771e25f5]
+base: Hide power menu on secure lockscreen [1/2] <3 months ago> [9f39ed7825a]
+by: maxwen (max.weninger@gmail.com)
+Revert "[1/2] base: config to disable power menu on secure lock screen" <2 days ago> [1f6fe614aad]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 
 [packages/apps/DerpQuest]
-DerpQuest: Make 'R style' notification headers toggleable [2/2] <2 days ago> [c324d72]
+DerpQuest: Adapt secure power menu toggle <2 days ago> [ba075c2]
 by: Ido Ben-Hur (idoybh2@gmail.com)
-Revert "DerpQuest: Make gentle notifications header toggleable [2/2]" <2 days ago> [a6fa32f]
+DerpQuest: Move StatusBar brightness control to gesture settings <3 days ago> [3e7bdf7]
 by: Ido Ben-Hur (idoybh2@gmail.com)
+DerpQuest: Update RU translations (#51,#52) <3 days ago> [c291272]
+by: skorpion720 (40567079+skorpion720@users.noreply.github.com)
 
-[vendor/pixelstyle]
-vendor: OPScreenRecorder: Update to v2.3.0 <3 weeks ago> [b992140]
-by: AnierinB (anierinb@evolution-x.org)
-pixelstyle: Don't build Google's SettingsIntelligence <10 days ago> [de45d86]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[hardware/qcom-caf/sm8150/audio]
-Merge tag 'LA.UM.8.1.r1-14700-sm8150.0' of https://source.codeaurora.org/quic/la/platform/hardware/qcom/audio into ten <2 days ago> [19df4151]
-by: DarkDampSquib (andrin.geiger1998@gmail.com)
-
-[hardware/qcom-caf/sm8150/display]
-Merge tag 'LA.UM.8.1.r1-14700-sm8150.0' of https://source.codeaurora.org/quic/la/platform/hardware/qcom/display into ten <2 days ago> [69f1fc4f]
-by: DarkDampSquib (andrin.geiger1998@gmail.com)
-
-[hardware/qcom-caf/sm8150/media]
-Merge tag 'LA.UM.8.1.r1-14700-sm8150.0' of https://source.codeaurora.org/quic/la/platform/hardware/qcom/media into ten <2 days ago> [36260630]
-by: DarkDampSquib (andrin.geiger1998@gmail.com)
-
-[vendor/ANXCamera]
-include script to generate files on sdcard on boot <4 days ago> [64b551d]
-by: Billaids (jimmy.nelle@live.de)
-Update ANXCamera to V179 <2 days ago> [a1796e8]
-by: DarkDampSquib (andrin.geiger1998@gmail.com)
-Update ANXCamera to V178 <2 days ago> [a57986c]
-by: DarkDampSquib (andrin.geiger1998@gmail.com)
+[kernel/xiaomi/davinci]
+input: touchscreen: gt9886: Rip out touchscreen wrapper code <4 months ago> [9812de6e5df0]
+by: Fabian Leutenegger (fabian.leutenegger@bluewin.ch)
+goodix_ta: increase reset delays <4 months ago> [85341a559cd7]
+by: Yaroslav Furman (yaro330@gmail.com)
+goodix_ta: platform: optimize tdelays in hw_reset function <4 months ago> [8f5826c6bc9c]
+by: Yaroslav Furman (yaro330@gmail.com)
+fingerprint: goodix_ta: remove DEBUG prints <4 months ago> [01a593801eca]
+by: UtsavisGreat (utsavbalar1231@gmail.com)
 
 
 ====================
-     04-17-2020
+     04-29-2020
+====================
+
+[system/sepolicy]
+Add rules for misc_writer_system and boot_theme <8 months ago> [bafb79fb]
+by: jhenrique09 (jhenrique09.mcz@hotmail.com)
+
+[kernel/xiaomi/davinci]
+sched: energy: handle memory allocation failure <2 years, 11 months ago> [4f94cfb76453]
+by: Joonwoo Park (joonwoop@codeaurora.org)
+elfnote: mark all .note sections SHF_ALLOC <10 days ago> [76db1b2bf291]
+by: Nick Desaulniers (ndesaulniers@google.com)
+
+
+====================
+     04-28-2020
 ====================
 
 [frameworks/base]
-fw/b: Squash of app fw restriction commits (#12) <3 days ago> [805460e04ac]
-by: rahul9999 (36025572+rahul9999xda@users.noreply.github.com)
+[SQUASH]base: Add Battery Bar [1/2] <6 weeks ago> [39041a0108c]
+by: bigrushdog (randall.rushing@gmail.com)
+
+[packages/apps/DerpQuest]
+[SQUASH]DerpQuest: Add Battery Bar [2/2] <1 year, 2 months ago> [160ff1b]
+by: bigrushdog (randall.rushing@gmail.com)
+
+
+====================
+     04-27-2020
+====================
 
 [packages/apps/Dialer]
-Automatic translation import <4 days ago> [e68f64ce3]
-by: Akhil Narang (akhilnarang.1999@gmail.com)
-
-[packages/apps/Launcher3]
-Automatic translation import <4 days ago> [d7dc19b68]
-by: Akhil Narang (akhilnarang.1999@gmail.com)
-
-[packages/apps/Messaging]
-Automatic translation import <4 days ago> [d9e932d]
-by: Akhil Narang (akhilnarang.1999@gmail.com)
-
-[packages/apps/Settings]
-Settings: per-app cellular data, vpn and wifi restrictions (#8) <3 days ago> [c3ac5ba64d]
-by: rahul9999 (36025572+rahul9999xda@users.noreply.github.com)
-
-[vendor/overlay]
-overlay: Squash revert RGB picker [4/5] <8 days ago> [7818d9c]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-Overlay: Add OnePlus Dark Primary <3 weeks ago> [d933521]
-by: Aman Singh (amankumarsingh1412@gmail.com)
-overlays: Add Flame primary <6 weeks ago> [17bf599]
-by: Josh Fox (XlxFoXxlX) (joshfox87@gmail.com)
-themes: Cleanup hardcoded colors and use/overlay AOSP values <6 weeks ago> [0e6009f]
-by: Christian Oder (myself5@carbonrom.org)
-overlay: remove background_floating_device_default_dark exposure <6 weeks ago> [0f201e5]
-by: Josh Fox (XlxFoXxlX) (joshfox87@gmail.com)
-themes: don't hardcode Screenrecord dialog color <6 weeks ago> [eac517d]
-by: Christian Oder (myself5@carbonrom.org)
-overlays: Remove more duplicate exposures <6 weeks ago> [4e34fec]
-by: Josh Fox (XlxFoXxlX) (joshfox87@gmail.com)
-overlays: Remove duplicate exposure for notifications <6 weeks ago> [33e4096]
-by: Josh Fox (XlxFoXxlX) (joshfox87@gmail.com)
-overlay: Nuke accent overlays [3/3] <7 weeks ago> [e86c14f]
-by: NurKeinNeid (mralexman3000@gmail.com)
-overlay: Seperate Settings exposures from system for primarys <7 weeks ago> [c5518ea]
-by: Josh Fox (XlxFoXxlX) (joshfox87@gmail.com)
-Notification guts: Adapt to system theme <8 weeks ago> [0d10ffc]
-by: Alex (du.alexcruz@gmail.com)
-overlay: PermissionsManager: Fix navbar color when using dark themes <3 months ago> [d0215b6]
-by: Alex (du.alexcruz@gmail.com)
-overlay: etc: Add Android.mk <8 weeks ago> [d30b1ff]
-by: Anirudh Gupta (anirudhgupta109@aosip.dev)
-Live captions: Have it follow system accent / fix up navbar <10 weeks ago> [e009aa3]
-by: Alex (du.alexcruz@gmail.com)
-overlay: add EmptyOverlay <3 months ago> [948d2a8]
-by: maxwen (max.weninger@gmail.com)
-overlay: remove left over wallpaper after name change <3 months ago> [e71956c]
-by: Josh Fox (XlxFoXxlX) (joshfox87@gmail.com)
-overlay: open sdcard root when launching DocumentsUI <1 year, 4 months ago> [1c845aa]
-by: jrizzoli (joey@lineageos.org)
-overlay: Extend icon previews list <2 months ago> [4ef3a97]
-by: NurKeinNeid (mralexman3000@gmail.com)
-overlay: Allow to theme Settings with primary <3 months ago> [f56f3b6]
-by: Josh Fox (XlxFoXxlX) (joshfox87@gmail.com)
-Overlays: Compress and optimize our default wallpaper <3 months ago> [7a994c7]
-by: NurKeinNeid (mralexman3000@gmail.com)
-Overlay: Add Solarized Dark Primary <3 months ago> [92a323e]
-by: Aman Singh (amankumarsingh1412@gmail.com)
+Dialer: Fix dark dialogs on light theme <3 months ago> [5a8b82969]
+by: Hikari-no-Tenshi (kyryljan.serhij@gmail.com)
 
 [packages/apps/DerpQuest]
-DerpQuest: Allow toggling heads up by using a master switch <4 days ago> [6d98cc8]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-DerpQuest: Add HeadsUp blacklists [2/2] <4 days ago> [1fdaee0]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-DerpQuest: Convert HeadsUp snooze and timeout to SeekBar <6 days ago> [1c0272e]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[system/netd]
-system/netd: Squash of app fw restriction commits (#1) <4 days ago> [e267aca3]
-by: rahul9999 (36025572+rahul9999xda@users.noreply.github.com)
-
-
-====================
-     04-16-2020
-====================
-
-[frameworks/base]
-SystemUI: Add HeadsUp blacklists [1/2] <2 years, 7 months ago> [ecadfbce3c6]
-by: Decad3nce (decad3nce@gmail.com)
-
-[vendor/aosip]
-changelog: Improve Changelog generator (#18) <4 days ago> [c5d328d]
-by: Nauval Rizky (enuma.alrizky@gmail.com)
-
-
-====================
-     04-15-2020
-====================
-
-[frameworks/base]
-base: Tune some dimens to make icon spacing on SB equal <6 days ago> [d997b01e6e8]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-base: Add HeadsUp timeout function [1/2] <4 years, 1 month ago> [28f722cb8ad]
-by: Lars Greiss (kufikugel@googlemail.com)
-base: Add HeadsUp snooze function [1/2] <4 years ago> [14aa5c11563]
-by: Lokesh Chamane (lokesh.c703@gmail.com)
-
-[packages/apps/DerpQuest]
-DerpQuest: Add HeadsUp timeout function [2/2] <3 years, 6 months ago> [41ec605]
-by: Lars Greiss (kufikugel@googlemail.com)
-DerpQuest: Add HeadsUp snooze function [2/2] <3 years, 6 months ago> [6be31c5]
-by: Lokesh Chamane (lokesh.c703@gmail.com)
-DerpQuest: Introduce HeadsUp settings fragment <6 days ago> [abc4a98]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-NetworkTraffic: Fix/adjust and properly restrict text sizing <5 weeks ago> [bafa47c]
-by: calebcabob (calphonic@gmail.com)
-
-[device/xiaomi/davinci]
-davinci: Rename MiuiCamera to ANXCamera <6 days ago> [7de72ca]
-by: DarkDampSquib (andrin.geiger1998@gmail.com)
-
-
-====================
-     04-14-2020
-====================
-
-[frameworks/base]
-SystemUI: Fix custom lockscreen wallpaper <13 days ago> [918f23a3152]
-by: LuK1337 (priv.luk@gmail.com)
-
-[packages/apps/Settings]
-Settings: Squash revert RGB picker [2/5] <8 days ago> [90e85aa7c9]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/apps/ThemePicker]
-ThemePicker: Squash revert RGB picker [5/5] <8 days ago> [c971a3d]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/apps/DerpQuest]
-DerpQuest: Squash revert RGB picker [3/5] <8 days ago> [c8fa9f2]
-by: Ido Ben-Hur (idoybh2@gmail.com)
+DerpQuest: Update Greek translation (#50) <4 days ago> [dac9005]
+by: CrisBalGreece (crisbaladim@yahoo.gr)
 
 [vendor/ANXCamera]
-Update ANXCamera to V177 <8 days ago> [50bd7d7]
+Update ANXCamera to V180 <5 days ago> [aaf52cf]
 by: DarkDampSquib (andrin.geiger1998@gmail.com)
-Rename MiuiCamera to ANXCamera <8 days ago> [b7c9a48]
-by: DarkDampSquib (andrin.geiger1998@gmail.com)
+
+[kernel/xiaomi/davinci]
+tcp: up initial rmem to 128KB and SYN rwin to around 64KB <1 year, 7 months ago> [dc9c3d035487]
+by: Yuchung Cheng (ycheng@google.com)
+mm: zero-seek shrinkers <1 year, 6 months ago> [d847ec393254]
+by: Johannes Weiner (hannes@cmpxchg.org)
+mm/dmapool.c: micro-optimisation remove unnecessary branch <3 weeks ago> [1c4d36d30533]
+by: Mateusz Nosek (mateusznosek0@gmail.com)
+mm/page_alloc.c: micro-optimisation Remove unnecessary branch <4 weeks ago> [cbc5a1fb1ea4]
+by: Mateusz Nosek (mateusznosek0@gmail.com)
+fs/binfmt_elf.c: make BAD_ADDR() unlikely <3 months ago> [a62a80171f4e]
+by: Alexey Dobriyan (adobriyan@gmail.com)
+tcp: hint compiler about sack flows <1 year, 5 months ago> [3542010a93cf]
+by: Eric Dumazet (edumazet@google.com)
+asm-generic: add unlikely to default BUG_ON(x) <8 months ago> [afec76d57603]
+by: Denis Efremov (efremov@linux.com)
+block: optimize bvec iteration in bvec_iter_advance <1 year, 2 months ago> [39951d93e95f]
+by: Christoph Hellwig (hch@lst.de)
+sched/fair: Fix insertion in rq->leaf_cfs_rq_list <1 year, 3 months ago> [b799d58a2b69]
+by: Vincent Guittot (vincent.guittot@linaro.org)
+sched/fair: Add tmp_alone_branch assertion <1 year, 3 months ago> [7999d9cdb066]
+by: Peter Zijlstra (peterz@infradead.org)
+cgroup: memcg: net: do not associate sock with unrelated cgroup <7 weeks ago> [e290a8480fd4]
+by: Shakeel Butt (shakeelb@google.com)
+mm: memcg/slab: call flush_memcg_workqueue() only if memcg workqueue is valid <4 months ago> [50df97b94289]
+by: Adrian Huang (ahuang12@lenovo.com)
+mm: handle no memcg case in memcg_kmem_charge() properly <1 year, 6 months ago> [a1c80a71e8c9]
+by: Roman Gushchin (guro@fb.com)
+mm: fix possible PMD dirty bit lost in set_pmd_migration_entry() <8 weeks ago> [f7db65d2cc69]
+by: Huang Ying (ying.huang@intel.com)
+mm: memcontrol: fix network errors from failing __GFP_ATOMIC charges <6 months ago> [22743a8a43c1]
+by: Johannes Weiner (hannes@cmpxchg.org)
+msm: ufs: fix build breakage without CONFIG_DEBUG_FS <7 weeks ago> [f8fa3e556896]
+by: lucaswei (lucaswei@google.com)
+Revert "scsi: ufs: update VCCQ and VCCQ2 min value" <9 weeks ago> [8e23d225b888]
+by: Randall Huang (huangrandall@google.com)
+ANDROID: increase limit on sched-tune boost groups <9 weeks ago> [6d725ba54ec0]
+by: Todd Kjos (tkjos@google.com)
+BACKPORT: leds: class: ensure workqueue is initialized before setting brightness <10 weeks ago> [6fd03b61d17d]
+by: Woody Lin (woodylin@google.com)
+led-class: Fix a led-class de-init bug <9 weeks ago> [8117debf14ca]
+by: Woody Lin (woodylin@google.com)
+goodix: stop reporting KEY_HOME on presses <5 weeks ago> [3750d31fbb3f]
+by: Park Ju Hyung (qkrwngud825@gmail.com)
+i2c: i2c-qcom-geni: Add SSR support for SSC QUPs <7 months ago> [34bc1c5b7c50]
+by: Ashish Kori (akori@codeaurora.org)
+i2c: i2c-qcom-geni: Implementing thaw callback <8 weeks ago> [b595dedceff0]
+by: Atul Raut (araut@codeaurora.org)
+binfmt_elf: Don't allocate memory dynamically in load_elf_binary <10 months ago> [24ac5d1f5bf3]
+by: Sultan Alsawaf (sultan@kerneltoast.com)
+xattr: Avoid dynamically allocating memory in getxattr <10 months ago> [d55f8592e324]
+by: Sultan Alsawaf (sultan@kerneltoast.com)
+kobject_uevent: Allocate environment buffer on the stack <10 months ago> [50512c27db9a]
+by: Sultan Alsawaf (sultan@kerneltoast.com)
+ALSA: control_compat: Don't dynamically allocate single-use structs <10 months ago> [9ed73bccd637]
+by: Sultan Alsawaf (sultan@kerneltoast.com)
+ALSA: control: Don't dynamically allocate a single struct instance <10 months ago> [12a93467b4ff]
+by: Sultan Alsawaf (sultan@kerneltoast.com)
+kernfs: Avoid dynamic memory allocation for small write buffers <11 months ago> [8b743fff6723]
+by: Sultan Alsawaf (sultan@kerneltoast.com)
+media: v4l2-ioctl: Use a larger on-stack video copy buffer <10 months ago> [fd9cd54d3608]
+by: Sultan Alsawaf (sultan@kerneltoast.com)
+drivers: power: add timeouts to wakelocks <2 months ago> [4687500f7ae2]
+by: Yaroslav Furman (yaro330@gmail.com)
+drm/msm/sde: Omit debug logging code <12 months ago> [41644435815f]
+by: Danny Lin (danny@kdrag0n.dev)
+drm/msm: Omit SDE event log and most debugfs code <12 months ago> [9cdc8514752a]
+by: Danny Lin (danny@kdrag0n.dev)
+drm/msm/sde: Remove register write debug logging <12 months ago> [22d31b14959c]
+by: Danny Lin (danny@kdrag0n.dev)
+trace: add CONFIG_DISABLE_TRACE_PRINTK option <3 years, 4 months ago> [5a4796eaf67b]
+by: Park Ju Hyung (qkrwngud825@gmail.com)
+Revert "UPSTREAM: sched/topology: Add SD_ASYM_CPUCAPACITY flag detection" <5 days ago> [9e6b5e275513]
+by: vantoman (Mustafa.vantom@gmail.com)
+
+
+====================
+     04-26-2020
+====================
+
+[frameworks/base]
+Revert "SystemUI: keep width on qs expand move" <6 days ago> [10eda5e82d0]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[prebuilts/clang/host/linux-x86/clang-proton]
+Update to 20200425 build <6 days ago> [ce1cb05]
+by: Danny (danny@kdrag0n.dev)
+
+
+====================
+     04-25-2020
+====================
+
+[vendor/ANXCamera]
+include script to generate files on sdcard on boot <2 weeks ago> [fd35ca3]
+by: Billaids (jimmy.nelle@live.de)
+
+[kernel/xiaomi/davinci]
+Merge "net: qrtr: Attempt to linearize skb for forwarding" into kernel.lnx.4.14.r8-rel <6 days ago> [5abec5918ad9]
+by: Linux Build Service Account (lnxbuild@localhost)
+Merge "ARM: dts: msm: Add GPU 800Mhz fmax support for sdmmagpie GPU" into kernel.lnx.4.14.r8-rel <6 days ago> [9f106ee71f12]
+by: Linux Build Service Account (lnxbuild@localhost)
+ARM: dts: msm: Add GPU 800Mhz fmax support for sdmmagpie GPU <3 weeks ago> [9db5711e569a]
+by: Indira Biruduraju (ibirudur@codeaurora.org)
+net: qrtr: Attempt to linearize skb for forwarding <7 months ago> [54b1142febbf]
+by: Chris Lew (clew@codeaurora.org)
+net: qrtr: Handle error from skb_put_padto <7 months ago> [84ada2fd9818]
+by: Chris Lew (clew@codeaurora.org)
+Merge commit '1e77ce42fa12253a904c5b08591b1b37d58a913b' into HEAD <7 days ago> [878cc5016cc2]
+by: Shreyas Narayan (shrena@codeaurora.org)
 
 
