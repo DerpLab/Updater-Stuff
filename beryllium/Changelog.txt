@@ -1,9 +1,7 @@
-- Fixed Lag While Changing Orientation
-- Added Heads Up Snooze Function
-- Added Heads Up Timeout Function
-- Added Heads Up Blacklist Function
-- Added toggle for 'R Style' Notification Header
-- Added toggle for QS Panels
-- Added Notch City
-- Nuked Face Unlock
-- Improved OnePlus & Solarized Dark Theme
+- Added Adaptive Playback
+- Added FPS Counter QS Tile
+- Added FireFox Lite Prebuilt
+- Replaced Snap Cam with Google Camera Go
+- Replaced Gallery with QP Gallery
+- Fixed Disable Power Menu on Secured Lock Screen Toggle
+- Temporarily Switched to Optimus Drunk Kernel
