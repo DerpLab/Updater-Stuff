@@ -1,0 +1,107 @@
+====================
+     05-02-2020
+====================
+
+[packages/apps/Settings]
+Settings: add USB Diag mode to developer options <4 weeks ago> [536c4d150f]
+by: Marko Man (darkobas@gmail.com)
+Settings: Remove no longer used tarnslation strings <5 days ago> [93bf65399a]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+Settings: disable fingeprint during rename dialog <2 days ago> [7732090064]
+by: maxwen (max.weninger@gmail.com)
+Settings: fix again the pair new icon in BT slice <3 weeks ago> [02abe68631]
+by: maxwen (max.weninger@gmail.com)
+
+[system/sepolicy]
+Add rules for misc_writer_system and boot_theme <8 months ago> [fcc58d72]
+by: jhenrique09 (jhenrique09.mcz@hotmail.com)
+
+[packages/apps/DerpQuest]
+DerpQuest: Convert backlight timeout to be a SeekBar <17 hours ago> [4cd5c34]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+DerpQuest: Update Greek translations (#53) <2 days ago> [7069612]
+by: CrisBalGreece (crisbaladim@yahoo.gr)
+DerpQuest: Adapt secure power menu toggle <3 days ago> [ee9500b]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+DerpQuest: Move StatusBar brightness control to gesture settings <4 days ago> [bac001a]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+DerpQuest: Update RU translations (#51,#52) <4 days ago> [2d2b3a6]
+by: skorpion720 (40567079+skorpion720@users.noreply.github.com)
+[SQUASH]DerpQuest: Add Battery Bar [2/2] <1 year, 2 months ago> [4ac28a2]
+by: bigrushdog (randall.rushing@gmail.com)
+DerpQuest: Update Greek translation (#50) <5 days ago> [e63a450]
+by: CrisBalGreece (crisbaladim@yahoo.gr)
+DerpQuest: Don't translate what you shouldn't <12 days ago> [fc59372]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+DerpQuest: Allow toggling QS panels [2/2] <12 days ago> [fe34557]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+DerpQuest: Make 'R style' notification headers toggleable [2/2] <2 weeks ago> [9358905]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+Revert "DerpQuest: Make gentle notifications header toggleable [2/2]" <2 weeks ago> [4aa170b]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+
+====================
+     05-01-2020
+====================
+
+[manifest]
+manifest: Update vendor/google-customization path [1/2] <2 days ago> [bf3db4e]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[vendor/aosip]
+vendor: Update vendor/google-customization path [2/2] <2 days ago> [dd43d72]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[prebuilts/clang/host/linux-x86]
+Update prebuilt Clang to r383902. <3 days ago> [1eb04c49]
+by: Yabin Cui (yabinc@google.com)
+
+[vendor/google-customization]
+google-customization: Update paths <2 days ago> [9d2fa6a]
+by: Henrique Pereira (hlcpereira@pixelexperience.org)
+
+
+====================
+     04-30-2020
+====================
+
+[frameworks/base]
+base: Hide power menu on secure lockscreen [1/2] <3 months ago> [9f39ed7825a]
+by: maxwen (max.weninger@gmail.com)
+Revert "[1/2] base: config to disable power menu on secure lock screen" <3 days ago> [1f6fe614aad]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+
+====================
+     04-29-2020
+====================
+
+[frameworks/base]
+[SQUASH]base: Add Battery Bar [1/2] <6 weeks ago> [39041a0108c]
+by: bigrushdog (randall.rushing@gmail.com)
+
+
+====================
+     04-28-2020
+====================
+
+
+====================
+     04-27-2020
+====================
+
+[packages/apps/Dialer]
+Dialer: Fix dark dialogs on light theme <3 months ago> [5a8b82969]
+by: Hikari-no-Tenshi (kyryljan.serhij@gmail.com)
+
+
+====================
+     04-26-2020
+====================
+
+[frameworks/base]
+Revert "SystemUI: keep width on qs expand move" <7 days ago> [10eda5e82d0]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+
