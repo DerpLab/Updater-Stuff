@@ -1,52 +1,50 @@
-Changelog for Official DerpFest Build Update 19.04.2020 for Sanders:
+Changelog for Official DerpFest Build Update 05.05.2020 for Sanders:
 
 [SOURCE]
 
-• Added 'R' style notification (has a toggle)
-• Added HeadsUp blacklists (toggle)
-• Added HeadsUp snooze function (toggle)
-• Added HeadsUp timeout function (toggle)
-• Tuned some dimens to make icon spacing on Status bar equal
-• Added proper fix of Android Auto
-• Fixed custom lockscreen wallpaper
-• Removed RGB accent picker
-• Added per-app cellular data, vpn and wifi restrictions
-• Used Aosp settings intelligence
+• Merged May security patch (10.0_r34)
+• Added the expanded volume panel for 10.x
+• Show a bolt ⚡ when charging
+• Allowed toggling charging bolt
+• Added battery bar
+• Fixed Hide power menu on secure lockscreen
+• Decreased margin between qs and text
+• Fixed the Headsup
+• Replaced QS Tile Battery Saver Tile icons to MD2 Design
+• QS header: Update and style edit strings
+• Fixed again the pair new icon in BT slice
 • Maybe more things can't remember ;P
 
 
 [DEVICE]
 
-• Rebased device and vendor trees
-• Used CAF surfaceflinger
-• Fixed the MotoActions summary under Settings (was only showing 'Manage Device Gestures' previously)
-• Enable ui fadingmarquee (makes ui smooth)
-• Prop tweaks for battery saving
-• Prop updates for smoother scrolling and better responsiveness
-• Bulk Props update from stock OPSS28.65-36-11-14
-• Update FM, Bluetooth blobs from deen_sprout 10
-• Update Widevine DRM blobs from deen sprout 10
-• Update Postprocessing blobs from deen sprout 10
-• Update Media blobs from deen sprout 10
-• Added DPM blobs from deen sprout 10
-• Updated FM, graphic (sdm), time services blobs from LA.UM.8.6.r1-02600-89xx.0
-• Updated Thermal blobs from deen_sprout 10
-• Updated fingerprint blobs from stock OPS28.65-36-14
-• Updated sensor blobs from stock OPSS28.65-36-14
-• Added CAF fmradio permission
-• Disabled heatmap on sanders
-• Turn on GPU protected contents
-• Reduced Frame drop rate in animations (can improve app opening)
-• Added CAP_SYS_BOOT for charger
-• Added some missing configs from stock
+• Updated some old MotoAction icons (display calibration, device gesture, dirac)
+• Make the MotoAction icons tint with accent colour
+• Added the missing icons under device gestures with accent tint
+• Exclude PixelLauncher when flashing nano+ opengapps
+• Updated fp prop to coral may patch
+• Fixed the Wifi getting disconnect automatically sometime
+• Removed deprecated display flags
+• Added Log QS tile
+• Disabled RX wakelock feature
+• Given proper permissions for /dev/diag
+• Enabled GL comp backpressure
+• Enabled & updated LMK values
+• Updated Via.apk to v3.9.9
+• Added QuickPick Gallery
+• Battery saving improvements
+• Imported and bind mount loader config for media swcodec
+• Added more KCAL profiles
+• Fixed wifi random reboot issue
+• Update egl and vulkan drivers to v@415.0
+• Updated blobs from deen_sprout 10 (the proper way)
 • More under-the-hood changes ;)
 
 
 [MISC]
 
-• Added the faceunlock (yayy! BUT it's not much secured unlike pattern/pin/fp)
-• Added two new accents
-• Added AEX green accent and AEX dark primary (not so nice, gonna remove it in next build)
+• Added the Adaptive Playback (with toggle)
+• Added customization of length of the navigation handle
 
  
 #StayDerped
