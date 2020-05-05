@@ -2,9 +2,82 @@
      05-04-2020
 ====================
 
+[manifest]
+Merge tag 'android-10.0.0_r34' of https://android.googlesource.com/platform/manifest into ten <2 hours ago> [f9288e2]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+Manifest for Android 10.0.0 Release 34 <4 hours ago> [3900458]
+by: The Android Open Source Project (initial-contribution@android.com)
+
+[build/make]
+Merge tag 'android-10.0.0_r34' of https://android.googlesource.com/platform/build into ten <2 hours ago> [9c45b91f0]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[frameworks/av]
+Merge tag 'android-10.0.0_r34' into staging/ten-android-10.0.0_r34 <3 hours ago> [c7db185c8]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[frameworks/base]
+Merge tag 'android-10.0.0_r34' of https://android.googlesource.com/platform/frameworks/base into ten <3 hours ago> [c38374bd0fd]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[packages/apps/Settings]
+Merge tag 'android-10.0.0_r34' into staging/ten-android-10.0.0_r34 <3 hours ago> [850d70bedd]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[packages/services/Telephony]
+Merge tag 'android-10.0.0_r34' into staging/ten-android-10.0.0_r34 <3 hours ago> [cce9edf72]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[system/bt]
+Merge tag 'android-10.0.0_r34' into staging/ten-android-10.0.0_r34 <3 hours ago> [8667d6a58]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
 
 ====================
      05-03-2020
+====================
+
+[frameworks/base]
+build: Don't check for fingerprint mismatch <6 months ago> [98cf93a34f9]
+by: Dan Cartier (nospamdan1@gmail.com)
+SystemUi: Replace QS Tile  Battery Saver Tile icons to MD2 Design <3 weeks ago> [23fd9a30a2a]
+by: deadmanxxd (deadmanxxd@gmail.com)
+Default Permissions: grant Storage Permission to GBoard <5 weeks ago> [b4ffd6bc13d]
+by: SuperDroidBond (superdroidbond@yahoo.com)
+base: Redo expanded volume panel for 10.x <1 year, 2 months ago> [0e58b1981fe]
+by: HrX03 (dn.bianco03@gmail.com)
+QS header: Update and style edit strings <6 weeks ago> [f0def77b93d]
+by: Alex (du.alexcruz@gmail.com)
+
+[frameworks/native]
+input: Adjust priority <3 years, 7 months ago> [12bd7e1f9]
+by: Steve Kondik (steve@cyngn.com)
+
+[packages/apps/Settings]
+Settings: Update RU translation (#10) <27 hours ago> [70e26d0b46]
+by: skorpion720 (40567079+skorpion720@users.noreply.github.com)
+
+[packages/apps/DerpQuest]
+DerpQuest: Allow toggling charging bolt [2/2] <3 days ago> [3f6ad2c]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+DerpQuest: Update RU translation (#56) <27 hours ago> [9513e6e]
+by: skorpion720 (40567079+skorpion720@users.noreply.github.com)
+
+[packages/apps/OpenDelta]
+OpenDelta: Enable file flashing for A-only aswell <25 hours ago> [95788fc]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[scripts]
+scripts: aosp-merger: Split long echoes <24 hours ago> [e3619af]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+scripts: aosp-merger: Would be nice to know what we're pushing <25 hours ago> [c145641]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+scripts: aosp-merger: Only reset to new tags if there are changes <25 hours ago> [cf6fd98]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+
+====================
+     05-02-2020
 ====================
 
 [build/soong]
@@ -12,29 +85,29 @@ soong: restore installclean to the original behaviour <3 months ago> [f4b72ed9]
 by: Akhil Narang (akhilnarang.1999@gmail.com)
 
 [frameworks/base]
-QS header: Update and style edit strings <6 weeks ago> [f0def77b93d]
-by: Alex (du.alexcruz@gmail.com)
-
-
-====================
-     05-02-2020
-====================
-
-[frameworks/base]
 base: Allow toggling charging bolt [1/2] <3 days ago> [7a2d4dbaa20]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 BatteryMeterView: Show a bolt ⚡ when charging <2 years, 3 months ago> [0b19ee90d9e]
 by: ezio84 (brabus84@gmail.com)
+
+
+====================
+     05-01-2020
+====================
 
 [packages/apps/Settings]
 Settings: add USB Diag mode to developer options <4 weeks ago> [536c4d150f]
 by: Marko Man (darkobas@gmail.com)
 Settings: Remove no longer used tarnslation strings <8 days ago> [93bf65399a]
 by: Ido Ben-Hur (idoybh2@gmail.com)
-Settings: disable fingeprint during rename dialog <4 days ago> [7732090064]
+Settings: disable fingeprint during rename dialog <5 days ago> [7732090064]
 by: maxwen (max.weninger@gmail.com)
 Settings: fix again the pair new icon in BT slice <3 weeks ago> [02abe68631]
 by: maxwen (max.weninger@gmail.com)
+
+[system/sepolicy]
+Add rules for misc_writer_system and boot_theme <8 months ago> [fcc58d72]
+by: jhenrique09 (jhenrique09.mcz@hotmail.com)
 
 [packages/apps/DerpQuest]
 DerpQuest: Convert backlight timeout to be a SeekBar <3 days ago> [4cd5c34]
@@ -45,11 +118,11 @@ DerpQuest: Adapt secure power menu toggle <5 days ago> [ee9500b]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 DerpQuest: Move StatusBar brightness control to gesture settings <6 days ago> [bac001a]
 by: Ido Ben-Hur (idoybh2@gmail.com)
-DerpQuest: Update RU translations (#51,#52) <6 days ago> [2d2b3a6]
+DerpQuest: Update RU translations (#51,#52) <7 days ago> [2d2b3a6]
 by: skorpion720 (40567079+skorpion720@users.noreply.github.com)
 [SQUASH]DerpQuest: Add Battery Bar [2/2] <1 year, 2 months ago> [4ac28a2]
 by: bigrushdog (randall.rushing@gmail.com)
-DerpQuest: Update Greek translation (#50) <7 days ago> [e63a450]
+DerpQuest: Update Greek translation (#50) <8 days ago> [e63a450]
 by: CrisBalGreece (crisbaladim@yahoo.gr)
 DerpQuest: Don't translate what you shouldn't <2 weeks ago> [fc59372]
 by: Ido Ben-Hur (idoybh2@gmail.com)
@@ -62,30 +135,21 @@ by: Ido Ben-Hur (idoybh2@gmail.com)
 
 
 ====================
-     05-01-2020
+     04-30-2020
 ====================
 
 [manifest]
 manifest: Update vendor/google-customization path [1/2] <4 days ago> [bf3db4e]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 
-[system/sepolicy]
-Add rules for misc_writer_system and boot_theme <8 months ago> [fcc58d72]
-by: jhenrique09 (jhenrique09.mcz@hotmail.com)
-
-[vendor/aosip]
-vendor: Update vendor/google-customization path [2/2] <4 days ago> [dd43d72]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-
-====================
-     04-30-2020
-====================
-
 [frameworks/base]
 base: Hide power menu on secure lockscreen [1/2] <4 months ago> [9f39ed7825a]
 by: maxwen (max.weninger@gmail.com)
 Revert "[1/2] base: config to disable power menu on secure lock screen" <5 days ago> [1f6fe614aad]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[vendor/aosip]
+vendor: Update vendor/google-customization path [2/2] <4 days ago> [dd43d72]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 
 [prebuilts/clang/host/linux-x86]
