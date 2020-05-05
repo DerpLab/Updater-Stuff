@@ -1,3 +1,14 @@
+
+=================
+     05-05-2020
+=================
+
+• violet: Merged May security patch
+• violet: Update some audio blobs
+• violet: Update and cleanup some vendor_prop
+• violet: Boost audio props
+• violet: Merged Latest coral fp
+
 =================
      04-16-2020
 ================
