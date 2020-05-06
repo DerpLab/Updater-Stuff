@@ -1,221 +1,174 @@
 ====================
-     04-21-2020
+     05-06-2020
 ====================
-
-[packages/apps/DerpQuest]
-DerpQuest: Don't translate what you shouldn't <24 hours ago> [f96c5b5]
-by: Ido Ben-Hur (idoybh2@gmail.com)
 
 
 ====================
-     04-20-2020
-====================
-
-[frameworks/base]
-FODCircleView: update position of icon before show <9 weeks ago> [93b904b94b5]
-by: Demon000 (demonsingur@gmail.com)
-FODCircleView: Fix position on keyguard if cutout is hidden <10 weeks ago> [04e1dc497ba]
-by: Hikari-no-Tenshi (kyryljan.serhij@gmail.com)
-FODCircleView: Fix position if cutout is hidden <9 months ago> [b0f00f5a91a]
-by: jhenrique09 (jhenrique09.mcz@hotmail.com)
-SystemUI: QS: Allow toggling panels [1/2] <33 hours ago> [13258222a76]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-base: notch-city: Add 3 mode display cutout handler <1 year, 5 months ago> [8fb05eb29a6]
-by: Kshitij Gupta (kshitijgm@gmail.com)
-SystemUI: Cleanup pixel live wallpapers changes <3 weeks ago> [4a4dfda934e]
-by: jhenrique09 (jhenrique09.mcz@hotmail.com)
-
-[packages/apps/Settings]
-notch-city: Add 3 mode display cutout handler [3/3] (#9) <2 days ago> [f107e52fa4]
-by: Aman Kumar Singh (46120388+amanrajOO7@users.noreply.github.com)
-
-[system/bt]
-Prevent abort in case of command timeout <2 years, 9 months ago> [c8b67066d]
-by: Luke Zhang (lukez@codeaurora.org)
-Bluetooth: Read BLE vendor capability to proceed on Secure conn <4 years, 8 months ago> [de1daf340]
-by: Srinu Jella (sjella@codeaurora.org)
-Add support to force disable enhanced sco commands <2 years, 7 months ago> [ff0f0fe98]
-by: cb (billchen1977@gmail.com)
-
-[vendor/aosip]
-vendor: notch-city: Add 3 mode display cutout handler [2/3] (#19) <2 days ago> [2753620]
-by: Aman Kumar Singh (46120388+amanrajOO7@users.noreply.github.com)
-
-[packages/apps/DerpQuest]
-DerpQuest: Allow toggling QS panels [2/2] <33 hours ago> [bdfeb87]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-
-====================
-     04-19-2020
+     05-05-2020
 ====================
 
 [manifest]
-Merge remote-tracking branch 'aosp/android-10.0.0_r33' into ten <4 days ago> [9db95ac]
+Merge tag 'android-10.0.0_r34' of https://android.googlesource.com/platform/manifest into ten <31 hours ago> [f9288e2]
 by: Ido Ben-Hur (idoybh2@gmail.com)
-manifest: Track scripts repo <3 weeks ago> [f65a0bb]
+Manifest for Android 10.0.0 Release 34 <32 hours ago> [3900458]
+by: The Android Open Source Project (initial-contribution@android.com)
+
+[build/make]
+Merge tag 'android-10.0.0_r34' of https://android.googlesource.com/platform/build into ten <31 hours ago> [9c45b91f0]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[frameworks/av]
+Merge tag 'android-10.0.0_r34' into staging/ten-android-10.0.0_r34 <31 hours ago> [c7db185c8]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 
 [frameworks/base]
-base: Make 'R style' notification headers toggleable [1/2] <3 days ago> [f6710cd9ba8]
+Merge tag 'android-10.0.0_r34' of https://android.googlesource.com/platform/frameworks/base into ten <31 hours ago> [c38374bd0fd]
 by: Ido Ben-Hur (idoybh2@gmail.com)
-Implement R style notification section headers <13 days ago> [25f7dc3bcf2]
-by: shagbag913 (sh4gbag913@gmail.com)
-Revert "Hide gentle notification header independently of section priorities" <3 days ago> [51303bd9fd9]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-Revert "base: Make gentle notifications header toggleable [1/2]" <3 days ago> [14b8bb6f215]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-aosipUtils: Use the right config resource for notch detection <3 days ago> [8e3771e25f5]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/apps/DerpQuest]
-DerpQuest: Make 'R style' notification headers toggleable [2/2] <3 days ago> [c324d72]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-Revert "DerpQuest: Make gentle notifications header toggleable [2/2]" <3 days ago> [a6fa32f]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[vendor/pixelstyle]
-vendor: OPScreenRecorder: Update to v2.3.0 <3 weeks ago> [b992140]
-by: AnierinB (anierinb@evolution-x.org)
-pixelstyle: Don't build Google's SettingsIntelligence <11 days ago> [de45d86]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-
-====================
-     04-18-2020
-====================
-
-[frameworks/base]
-fw/b: Squash of app fw restriction commits (#12) <4 days ago> [805460e04ac]
-by: rahul9999 (36025572+rahul9999xda@users.noreply.github.com)
 
 [packages/apps/Settings]
-Settings: per-app cellular data, vpn and wifi restrictions (#8) <4 days ago> [c3ac5ba64d]
-by: rahul9999 (36025572+rahul9999xda@users.noreply.github.com)
-
-[packages/apps/DerpQuest]
-DerpQuest: Allow toggling heads up by using a master switch <5 days ago> [6d98cc8]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-DerpQuest: Add HeadsUp blacklists [2/2] <5 days ago> [1fdaee0]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-DerpQuest: Convert HeadsUp snooze and timeout to SeekBar <6 days ago> [1c0272e]
+Merge tag 'android-10.0.0_r34' into staging/ten-android-10.0.0_r34 <31 hours ago> [850d70bedd]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 
-[system/netd]
-system/netd: Squash of app fw restriction commits (#1) <4 days ago> [e267aca3]
-by: rahul9999 (36025572+rahul9999xda@users.noreply.github.com)
+[packages/services/Telephony]
+Merge tag 'android-10.0.0_r34' into staging/ten-android-10.0.0_r34 <31 hours ago> [cce9edf72]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[system/bt]
+Merge tag 'android-10.0.0_r34' into staging/ten-android-10.0.0_r34 <31 hours ago> [8667d6a58]
+by: Ido Ben-Hur (idoybh2@gmail.com)
 
 
 ====================
-     04-17-2020
+     05-04-2020
+====================
 ====================
 
 [frameworks/base]
-SystemUI: Add HeadsUp blacklists [1/2] <2 years, 7 months ago> [ecadfbce3c6]
-by: Decad3nce (decad3nce@gmail.com)
+build: Don't check for fingerprint mismatch <7 months ago> [98cf93a34f9]
+by: Dan Cartier (nospamdan1@gmail.com)
+SystemUi: Replace QS Tile  Battery Saver Tile icons to MD2 Design <4 weeks ago> [23fd9a30a2a]
+by: deadmanxxd (deadmanxxd@gmail.com)
+Default Permissions: grant Storage Permission to GBoard <5 weeks ago> [b4ffd6bc13d]
+by: SuperDroidBond (superdroidbond@yahoo.com)
+base: Redo expanded volume panel for 10.x <1 year, 2 months ago> [0e58b1981fe]
+by: HrX03 (dn.bianco03@gmail.com)
 
-[packages/apps/Dialer]
-Automatic translation import <4 days ago> [e68f64ce3]
+[frameworks/native]
+input: Adjust priority <3 years, 7 months ago> [12bd7e1f9]
+by: Steve Kondik (steve@cyngn.com)
+
+[packages/apps/Settings]
+Settings: Update RU translation (#10) <2 days ago> [70e26d0b46]
+by: skorpion720 (40567079+skorpion720@users.noreply.github.com)
+
+[packages/apps/DerpQuest]
+DerpQuest: Allow toggling charging bolt [2/2] <4 days ago> [3f6ad2c]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+DerpQuest: Update RU translation (#56) <2 days ago> [9513e6e]
+by: skorpion720 (40567079+skorpion720@users.noreply.github.com)
+
+[packages/apps/OpenDelta]
+OpenDelta: Enable file flashing for A-only aswell <2 days ago> [95788fc]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[scripts]
+scripts: aosp-merger: Split long echoes <2 days ago> [e3619af]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+scripts: aosp-merger: Would be nice to know what we're pushing <2 days ago> [c145641]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+
+====================
+     05-03-2020
+====================
+
+[build/soong]
+soong: restore installclean to the original behaviour <3 months ago> [f4b72ed9]
 by: Akhil Narang (akhilnarang.1999@gmail.com)
 
-[packages/apps/Launcher3]
-Automatic translation import <4 days ago> [d7dc19b68]
-by: Akhil Narang (akhilnarang.1999@gmail.com)
+[frameworks/base]
+QS header: Update and style edit strings <6 weeks ago> [f0def77b93d]
+by: Alex (du.alexcruz@gmail.com)
 
-[packages/apps/Messaging]
-Automatic translation import <4 days ago> [d9e932d]
-by: Akhil Narang (akhilnarang.1999@gmail.com)
+
+====================
+     05-02-2020
+====================
+
+[frameworks/base]
+base: Allow toggling charging bolt [1/2] <4 days ago> [7a2d4dbaa20]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+BatteryMeterView: Show a bolt ⚡ when charging <2 years, 3 months ago> [0b19ee90d9e]
+by: ezio84 (brabus84@gmail.com)
+
+[packages/apps/Settings]
+Settings: add USB Diag mode to developer options <5 weeks ago> [536c4d150f]
+by: Marko Man (darkobas@gmail.com)
+Settings: Remove no longer used tarnslation strings <9 days ago> [93bf65399a]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+Settings: disable fingeprint during rename dialog <6 days ago> [7732090064]
+by: maxwen (max.weninger@gmail.com)
+Settings: fix again the pair new icon in BT slice <3 weeks ago> [02abe68631]
+by: maxwen (max.weninger@gmail.com)
+
+[system/sepolicy]
+Add rules for misc_writer_system and boot_theme <8 months ago> [fcc58d72]
+by: jhenrique09 (jhenrique09.mcz@hotmail.com)
+
+[packages/apps/DerpQuest]
+DerpQuest: Convert backlight timeout to be a SeekBar <4 days ago> [4cd5c34]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+DerpQuest: Update Greek translations (#53) <5 days ago> [7069612]
+by: CrisBalGreece (crisbaladim@yahoo.gr)
+DerpQuest: Adapt secure power menu toggle <6 days ago> [ee9500b]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+DerpQuest: Move StatusBar brightness control to gesture settings <8 days ago> [bac001a]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+DerpQuest: Update RU translations (#51,#52) <8 days ago> [2d2b3a6]
+by: skorpion720 (40567079+skorpion720@users.noreply.github.com)
+[SQUASH]DerpQuest: Add Battery Bar [2/2] <1 year, 2 months ago> [4ac28a2]
+by: bigrushdog (randall.rushing@gmail.com)
+DerpQuest: Update Greek translation (#50) <9 days ago> [e63a450]
+by: CrisBalGreece (crisbaladim@yahoo.gr)
+DerpQuest: Don't translate what you shouldn't <2 weeks ago> [fc59372]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+DerpQuest: Allow toggling QS panels [2/2] <2 weeks ago> [fe34557]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+DerpQuest: Make 'R style' notification headers toggleable [2/2] <2 weeks ago> [9358905]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+Revert "DerpQuest: Make gentle notifications header toggleable [2/2]" <3 weeks ago> [4aa170b]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+
+====================
+     05-01-2020
+====================
+
+[manifest]
+manifest: Update vendor/google-customization path [1/2] <5 days ago> [bf3db4e]
+by: Ido Ben-Hur (idoybh2@gmail.com)
 
 [vendor/aosip]
-changelog: Improve Changelog generator (#18) <5 days ago> [c5d328d]
-by: Nauval Rizky (enuma.alrizky@gmail.com)
-
-[vendor/overlay]
-overlay: Squash revert RGB picker [4/5] <8 days ago> [7818d9c]
+vendor: Update vendor/google-customization path [2/2] <5 days ago> [dd43d72]
 by: Ido Ben-Hur (idoybh2@gmail.com)
-Overlay: Add OnePlus Dark Primary <3 weeks ago> [d933521]
-by: Aman Singh (amankumarsingh1412@gmail.com)
-overlays: Add Flame primary <6 weeks ago> [17bf599]
-by: Josh Fox (XlxFoXxlX) (joshfox87@gmail.com)
-themes: Cleanup hardcoded colors and use/overlay AOSP values <6 weeks ago> [0e6009f]
-by: Christian Oder (myself5@carbonrom.org)
-overlay: remove background_floating_device_default_dark exposure <6 weeks ago> [0f201e5]
-by: Josh Fox (XlxFoXxlX) (joshfox87@gmail.com)
-themes: don't hardcode Screenrecord dialog color <6 weeks ago> [eac517d]
-by: Christian Oder (myself5@carbonrom.org)
-overlays: Remove more duplicate exposures <6 weeks ago> [4e34fec]
-by: Josh Fox (XlxFoXxlX) (joshfox87@gmail.com)
-overlays: Remove duplicate exposure for notifications <6 weeks ago> [33e4096]
-by: Josh Fox (XlxFoXxlX) (joshfox87@gmail.com)
-overlay: Nuke accent overlays [3/3] <7 weeks ago> [e86c14f]
-by: NurKeinNeid (mralexman3000@gmail.com)
-overlay: Seperate Settings exposures from system for primarys <7 weeks ago> [c5518ea]
-by: Josh Fox (XlxFoXxlX) (joshfox87@gmail.com)
-Notification guts: Adapt to system theme <8 weeks ago> [0d10ffc]
-by: Alex (du.alexcruz@gmail.com)
-overlay: PermissionsManager: Fix navbar color when using dark themes <3 months ago> [d0215b6]
-by: Alex (du.alexcruz@gmail.com)
-overlay: etc: Add Android.mk <8 weeks ago> [d30b1ff]
-by: Anirudh Gupta (anirudhgupta109@aosip.dev)
-Live captions: Have it follow system accent / fix up navbar <10 weeks ago> [e009aa3]
-by: Alex (du.alexcruz@gmail.com)
-overlay: add EmptyOverlay <3 months ago> [948d2a8]
+
+[prebuilts/clang/host/linux-x86]
+Update prebuilt Clang to r383902. <6 days ago> [1eb04c49]
+by: Yabin Cui (yabinc@google.com)
+
+[vendor/google-customization]
+google-customization: Update paths <6 days ago> [9d2fa6a]
+by: Henrique Pereira (hlcpereira@pixelexperience.org)
+
+
+====================
+     04-30-2020
+====================
+
+[frameworks/base]
+base: Hide power menu on secure lockscreen [1/2] <4 months ago> [9f39ed7825a]
 by: maxwen (max.weninger@gmail.com)
-overlay: remove left over wallpaper after name change <3 months ago> [e71956c]
-by: Josh Fox (XlxFoXxlX) (joshfox87@gmail.com)
-overlay: open sdcard root when launching DocumentsUI <1 year, 4 months ago> [1c845aa]
-by: jrizzoli (joey@lineageos.org)
-overlay: Extend icon previews list <2 months ago> [4ef3a97]
-by: NurKeinNeid (mralexman3000@gmail.com)
-overlay: Allow to theme Settings with primary <3 months ago> [f56f3b6]
-by: Josh Fox (XlxFoXxlX) (joshfox87@gmail.com)
-Overlays: Compress and optimize our default wallpaper <3 months ago> [7a994c7]
-by: NurKeinNeid (mralexman3000@gmail.com)
-Overlay: Add Solarized Dark Primary <3 months ago> [92a323e]
-by: Aman Singh (amankumarsingh1412@gmail.com)
-
-
-====================
-     04-16-2020
-====================
-
-[frameworks/base]
-base: Tune some dimens to make icon spacing on SB equal <7 days ago> [d997b01e6e8]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/apps/DerpQuest]
-DerpQuest: Add HeadsUp timeout function [2/2] <3 years, 6 months ago> [41ec605]
-by: Lars Greiss (kufikugel@googlemail.com)
-DerpQuest: Add HeadsUp snooze function [2/2] <3 years, 6 months ago> [6be31c5]
-by: Lokesh Chamane (lokesh.c703@gmail.com)
-
-
-====================
-     04-15-2020
-====================
-
-[frameworks/base]
-base: Add HeadsUp timeout function [1/2] <4 years, 1 month ago> [28f722cb8ad]
-by: Lars Greiss (kufikugel@googlemail.com)
-base: Add HeadsUp snooze function [1/2] <4 years ago> [14aa5c11563]
-by: Lokesh Chamane (lokesh.c703@gmail.com)
-SystemUI: Fix custom lockscreen wallpaper <13 days ago> [918f23a3152]
-by: LuK1337 (priv.luk@gmail.com)
-
-[packages/apps/Settings]
-Settings: Squash revert RGB picker [2/5] <8 days ago> [90e85aa7c9]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/apps/ThemePicker]
-ThemePicker: Squash revert RGB picker [5/5] <8 days ago> [c971a3d]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/apps/DerpQuest]
-DerpQuest: Introduce HeadsUp settings fragment <7 days ago> [abc4a98]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-NetworkTraffic: Fix/adjust and properly restrict text sizing <6 weeks ago> [bafa47c]
-by: calebcabob (calphonic@gmail.com)
-DerpQuest: Squash revert RGB picker [3/5] <8 days ago> [c8fa9f2]
+Revert "[1/2] base: config to disable power menu on secure lock screen" <6 days ago> [1f6fe614aad]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 
 
