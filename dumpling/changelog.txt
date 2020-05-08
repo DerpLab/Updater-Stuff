@@ -1,12 +1,26 @@
-Device:
-- Fixed Video recording in OP cam and removed portrait mode
-- Boosted volume
-- Updated Italian translations for DeviceParts
+Device side:
 
-Changelog:
-- Merged March Security Patch (r31)
-- Intoduced Gradient RGB picker
-- Let long press power turn torch off when screen is on
-- Added AGPS setting menu
-- Added Portuguesean translation to TypeClock
-- Updated French and Italian translations
+    All new kernel by @poad42 (source here)
+    Enforcing build (& updates to sepolicy)
+    New blobs from h2os beta v58 (f/w links below)
+    Pixel power HAL is back - with no logspam this time
+    Megred new gps & location caf tags
+    make sure you're on the latest f/w !
+    If fingerprint stops working for you flash this zip via twrp (it erases saved fingerprints)
+
+ROM side:
+
+    May sec patch (r34)
+    Added battery bar (improvements yet to come)
+    Move StatusBar brightness control to gesture settings
+    Updates to translations
+    Fixed hide power menu on LS switch
+    Added flash local file option via OpenDelta
+    Expandable volume panel
+    Added charging bolt on battery text (toggleable)
+    New icon to battery saver QS tile
+    Increased the height of +/- icons in the seekbar
+    Fixed qs security footer text toggle
+    Allow changing the lock pattern grid size
+    Some other minor fixes
+    100% Forgot stuff - But this is it roughly
