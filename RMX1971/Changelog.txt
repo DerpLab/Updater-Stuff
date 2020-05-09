@@ -1,59 +1,128 @@
 ====================
-     04-26-2020
+     05-08-2020
 ====================
 
 [frameworks/base]
-Revert "SystemUI: keep width on qs expand move" <16 hours ago> [10eda5e8]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-
-====================
-     04-25-2020
-====================
-
-[packages/apps/DerpQuest]
-DerpQuest: Don't translate what you shouldn't <6 days ago> [8e390aa]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-
-====================
-     04-24-2020
-====================
-
-
-====================
-     04-23-2020
-====================
-
-[frameworks/native]
-SurfaceFlinger: Exclude CAF extensions from non-QC devices <9 months ago> [9d06654]
-by: jhenrique09 (jhenrique09.mcz@hotmail.com)
-
-
-====================
-     04-22-2020
-====================
-
-
-====================
-     04-21-2020
-====================
-
-
-====================
-     04-20-2020
-====================
+Forward port CM Screen Security settings (1/2) <5 years ago> [f1456e72072]
+by: Michael Bestas (mikeioannina@gmail.com)
 
 [packages/apps/Settings]
-notch-city: Add 3 mode display cutout handler [3/3] (#9) <7 days ago> [f107e52]
-by: Aman Kumar Singh (46120388+amanrajOO7@users.noreply.github.com)
+Settings: Forward port lock pattern grid size (2/2) <6 years ago> [f2f870f]
+by: Michael Bestas (mikeioannina@gmail.com)
+
+====================
+     05-07-2020
+====================
+
+[frameworks/base]
+SystemUI: Make sure notification icons are sticked to the left <26 hours ago> [767388cc33b]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[packages/apps/DerpQuest]
+DerpQuest: Use the right key to set QS security footer <28 hours ago> [2ba1e1d]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+
+====================
+     05-06-2020
+====================
+
+[frameworks/base]
+SystemUI: Make sure volume expand icon points correctly <3 days ago> [a6c23be801e]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+
+====================
+     05-05-2020
+====================
+
+[manifest]
+Merge tag 'android-10.0.0_r34' of https://android.googlesource.com/platform/manifest into ten <4 days ago> [f9288e2]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[build/make]
+Merge tag 'android-10.0.0_r34' of https://android.googlesource.com/platform/build into ten <4 days ago> [9c45b91]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[frameworks/av]
+Merge tag 'android-10.0.0_r34' into staging/ten-android-10.0.0_r34 <4 days ago> [c7db185]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[frameworks/base]
+SystemUI: tint volume panel expand button to follow textColorSecondary <3 days ago> [32464ef7c41]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+Merge tag 'android-10.0.0_r34' of https://android.googlesource.com/platform/frameworks/base into ten <4 days ago> [c38374bd0fd]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[packages/apps/Dialer]
+Automatic translation import <3 days ago> [f58ec8e]
+by: Akhil Narang (akhilnarang.1999@gmail.com)
+
+[packages/apps/Launcher3]
+Automatic translation import <3 days ago> [f7c3480]
+by: Akhil Narang (akhilnarang.1999@gmail.com)
+
+[packages/apps/Messaging]
+Automatic translation import <3 days ago> [19ba077]
+by: Akhil Narang (akhilnarang.1999@gmail.com)
+
+[packages/services/Telephony]
+Merge tag 'android-10.0.0_r34' into staging/ten-android-10.0.0_r34 <4 days ago> [cce9edf]
+by: Ido Ben-Hur (idoybh2@gmail.com)
 
 [system/bt]
-Prevent abort in case of command timeout <2 years, 9 months ago> [c8b6706]
-by: Luke Zhang (lukez@codeaurora.org)
+Merge tag 'android-10.0.0_r34' into staging/ten-android-10.0.0_r34 <4 days ago> [8667d6a]
+by: Ido Ben-Hur (idoybh2@gmail.com)
 
-[vendor/aosip]
-vendor: notch-city: Add 3 mode display cutout handler [2/3] (#19) <7 days ago> [27536205]
-by: Aman Kumar Singh (46120388+amanrajOO7@users.noreply.github.com)
+
+====================
+     05-04-2020
+====================
+
+[frameworks/base]
+build: Don't check for fingerprint mismatch <7 months ago> [98cf93a34f9]
+by: Dan Cartier (nospamdan1@gmail.com)
+SystemUi: Replace QS Tile  Battery Saver Tile icons to MD2 Design <4 weeks ago> [23fd9a30a2a]
+by: deadmanxxd (deadmanxxd@gmail.com)
+Default Permissions: grant Storage Permission to GBoard <5 weeks ago> [b4ffd6bc13d]
+by: SuperDroidBond (superdroidbond@yahoo.com)
+base: Redo expanded volume panel for 10.x <1 year, 2 months ago> [0e58b1981fe]
+by: HrX03 (dn.bianco03@gmail.com)
+
+[frameworks/native]
+input: Adjust priority <3 years, 7 months ago> [12bd7e1]
+by: Steve Kondik (steve@cyngn.com)
+
+[packages/apps/OpenDelta]
+OpenDelta: Enable file flashing for A-only aswell <5 days ago> [95788fc]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[scripts]
+scripts: aosp-merger: Split long echoes <5 days ago> [e3619af]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+
+====================
+     05-03-2020
+====================
+
+[frameworks/base]
+QS header: Update and style edit strings <7 weeks ago> [f0def77b93d]
+by: Alex (du.alexcruz@gmail.com)
+
+
+====================
+     05-02-2020
+====================
+
+[build/soong]
+soong: restore installclean to the original behaviour <3 months ago> [f4b72ed]
+by: Akhil Narang (akhilnarang.1999@gmail.com)
+
+[frameworks/base]
+base: Allow toggling charging bolt [1/2] <7 days ago> [7a2d4dbaa20]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+BatteryMeterView: Show a bolt ⚡ when charging <2 years, 3 months ago> [0b19ee90d9e]
+by: ezio84 (brabus84@gmail.com)
 
 
