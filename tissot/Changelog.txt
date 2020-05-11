@@ -1,118 +1,121 @@
 ====================
-     04-27-2020
-====================
-
-
-====================
-     04-26-2020
-====================
-
-[frameworks/base]
-Revert "SystemUI: keep width on qs expand move" <19 hours ago> [10eda5e82d0]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-
-====================
-     04-25-2020
-====================
-
-
-====================
-     04-24-2020
-====================
-
-[frameworks/base]
-SystemUI: decrease margin between qs and text <12 days ago> [469432bfd0c]
-by: ctwoon (ctwoon@suicide.today)
-FODCircleView: update position of icon before show <10 weeks ago> [c6f6df1dd9f]
-by: Demon000 (demonsingur@gmail.com)
-FODCircleView: Fix position on keyguard if cutout is hidden <2 months ago> [f4336aa165a]
-by: Hikari-no-Tenshi (kyryljan.serhij@gmail.com)
-FODCircleView: Fix position if cutout is hidden <9 months ago> [f90c8c527f5]
-by: jhenrique09 (jhenrique09.mcz@hotmail.com)
-SystemUI: QS: Allow toggling panels [1/2] <7 days ago> [afb6c531426]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-base: notch-city: Add 3 mode display cutout handler <1 year, 5 months ago> [0046f4f55de]
-by: Kshitij Gupta (kshitijgm@gmail.com)
-SystemUI: Cleanup pixel live wallpapers changes <4 weeks ago> [ebe8f59cd6c]
-by: jhenrique09 (jhenrique09.mcz@hotmail.com)
-base: Make 'R style' notification headers toggleable [1/2] <8 days ago> [5420f9c828d]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-Implement R style notification section headers <3 weeks ago> [a54b60ebf6c]
-by: shagbag913 (sh4gbag913@gmail.com)
-Revert "Hide gentle notification header independently of section priorities" <8 days ago> [b7c5345ba9b]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-Revert "base: Make gentle notifications header toggleable [1/2]" <8 days ago> [ea5021760e2]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-aosipUtils: Use the right config resource for notch detection <8 days ago> [662f2a844f7]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-fw/b: Squash of app fw restriction commits (#12) <9 days ago> [d6eb2fbc7ef]
-by: rahul9999 (36025572+rahul9999xda@users.noreply.github.com)
-SystemUI: Add HeadsUp blacklists [1/2] <2 years, 7 months ago> [ba0ded1393d]
-by: Decad3nce (decad3nce@gmail.com)
-base: Tune some dimens to make icon spacing on SB equal <12 days ago> [817d5d85ea9]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/apps/DerpQuest]
-DerpQuest: Don't translate what you shouldn't <6 days ago> [8e390aa]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-DerpQuest: Allow toggling QS panels [2/2] <7 days ago> [ac69004]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-DerpQuest: Make 'R style' notification headers toggleable [2/2] <8 days ago> [1cbd6b2]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-Revert "DerpQuest: Make gentle notifications header toggleable [2/2]" <8 days ago> [cab94c4]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-DerpQuest: Allow toggling heads up by using a master switch <10 days ago> [83c6cab]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-DerpQuest: Add HeadsUp blacklists [2/2] <10 days ago> [18756ba]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-
-====================
-     04-23-2020
-====================
-
-[frameworks/native]
-SurfaceFlinger: Exclude CAF extensions from non-QC devices <9 months ago> [9d0665442]
-by: jhenrique09 (jhenrique09.mcz@hotmail.com)
-input: Adjust priority <3 years, 6 months ago> [31ac950e4]
-by: Steve Kondik (steve@cyngn.com)
-surfaceflinger: Merge caf changes <5 months ago> [23d927fc9]
-by: jhenrique09 (jhenrique09.mcz@hotmail.com)
-
-
-====================
-     04-22-2020
-====================
-
-[frameworks/native]
-Merge "add the OMX_VIDEO_CodingAV1 in the OMX_VIDEO_CODINGTYPE" <6 months ago> [1ede4de92]
-by: Hung-ying Tyan (tyanh@google.com)
-
-
-====================
-     04-21-2020
-====================
-
-
-====================
-     04-20-2020
+     05-11-2020
 ====================
 
 [packages/apps/Settings]
-notch-city: Add 3 mode display cutout handler [3/3] (#9) <7 days ago> [f107e52fa4]
-by: Aman Kumar Singh (46120388+amanrajOO7@users.noreply.github.com)
+Settings: Update RU translation (#11) <7 hours ago> [19bd341ab4]
+by: Northn (57762732+Northn@users.noreply.github.com)
 
-[system/bt]
-Prevent abort in case of command timeout <2 years, 9 months ago> [c8b67066d]
-by: Luke Zhang (lukez@codeaurora.org)
-Bluetooth: Read BLE vendor capability to proceed on Secure conn <4 years, 8 months ago> [de1daf340]
-by: Srinu Jella (sjella@codeaurora.org)
-Add support to force disable enhanced sco commands <2 years, 7 months ago> [ff0f0fe98]
-by: cb (billchen1977@gmail.com)
+
+====================
+     05-10-2020
+====================
+
+[frameworks/base]
+SystemUI: Add RU translation (#17) <30 hours ago> [ecd30d8f212]
+by: Northn (57762732+Northn@users.noreply.github.com)
 
 [vendor/aosip]
-vendor: notch-city: Add 3 mode display cutout handler [2/3] (#19) <7 days ago> [2753620]
+vendor: Don't build PixelLiveWallpaperPrebuilt, PixelSetupWizardOverlay for vanilla (#20) <27 hours ago> [2e23ac1]
 by: Aman Kumar Singh (46120388+amanrajOO7@users.noreply.github.com)
+
+[packages/apps/DerpQuest]
+DerpQuest: Update RU translation (#57) <2 days ago> [48a3e9c]
+by: Northn (57762732+Northn@users.noreply.github.com)
+
+
+====================
+     05-09-2020
+====================
+
+[manifest]
+manifest: track system/bpf from LOS <2 days ago> [b5e276a]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+
+====================
+     05-08-2020
+====================
+
+[frameworks/base]
+Forward port CM Screen Security settings (1/2) <5 years ago> [f1456e72072]
+by: Michael Bestas (mikeioannina@gmail.com)
+SystemUI: Make sure notification icons are sticked to the left <4 days ago> [767388cc33b]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[packages/apps/Settings]
+Settings: Forward port lock pattern grid size (2/2) <6 years ago> [f2f870f410]
+by: Michael Bestas (mikeioannina@gmail.com)
+
+[packages/apps/DerpQuest]
+DerpQuest: Use the right key to set QS security footer <4 days ago> [2ba1e1d]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+
+====================
+     05-07-2020
+====================
+
+[packages/apps/DerpQuest]
+CustomSeekbarPreference: Increase the height of plus & minus buttons <4 days ago> [54979d7]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+
+====================
+     05-06-2020
+====================
+
+[frameworks/base]
+SystemUI: Make sure volume expand icon points correctly <5 days ago> [a6c23be801e]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+SystemUI: tint volume panel expand button to follow textColorSecondary <6 days ago> [32464ef7c41]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+
+====================
+     05-05-2020
+====================
+
+[manifest]
+Merge tag 'android-10.0.0_r34' of https://android.googlesource.com/platform/manifest into ten <6 days ago> [f9288e2]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+Manifest for Android 10.0.0 Release 34 <6 days ago> [3900458]
+by: The Android Open Source Project (initial-contribution@android.com)
+
+[build/make]
+Merge tag 'android-10.0.0_r34' of https://android.googlesource.com/platform/build into ten <6 days ago> [9c45b91f0]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[frameworks/av]
+Merge tag 'android-10.0.0_r34' into staging/ten-android-10.0.0_r34 <6 days ago> [c7db185c8]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[frameworks/base]
+Merge tag 'android-10.0.0_r34' of https://android.googlesource.com/platform/frameworks/base into ten <6 days ago> [c38374bd0fd]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[packages/apps/Dialer]
+Automatic translation import <6 days ago> [f58ec8e11]
+by: Akhil Narang (akhilnarang.1999@gmail.com)
+
+[packages/apps/Launcher3]
+Automatic translation import <6 days ago> [f7c3480c1]
+by: Akhil Narang (akhilnarang.1999@gmail.com)
+
+[packages/apps/Messaging]
+Automatic translation import <6 days ago> [19ba077]
+by: Akhil Narang (akhilnarang.1999@gmail.com)
+
+[packages/apps/Settings]
+Merge tag 'android-10.0.0_r34' into staging/ten-android-10.0.0_r34 <6 days ago> [850d70bedd]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[packages/services/Telephony]
+Merge tag 'android-10.0.0_r34' into staging/ten-android-10.0.0_r34 <6 days ago> [cce9edf72]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[system/bt]
+Merge tag 'android-10.0.0_r34' into staging/ten-android-10.0.0_r34 <6 days ago> [8667d6a58]
+by: Ido Ben-Hur (idoybh2@gmail.com)
 
 
