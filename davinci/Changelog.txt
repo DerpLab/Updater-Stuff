@@ -1,219 +1,831 @@
 ====================
-     05-01-2020
+     05-12-2020
 ====================
 
-[manifest]
-manifest: Update vendor/google-customization path [1/2] <18 hours ago> [bf3db4e]
+[device/xiaomi/davinci]
+davinci: sepolicy address more denials <12 hours ago> [b7af3012]
+by: DarkDampSquib (andrin.geiger1998@gmail.com)
+Revert "davinci: Use stock fingerprint" <2 days ago> [2bff9c63]
+by: DarkDampSquib (andrin.geiger1998@gmail.com)
+davinci: doze display is supported <3 days ago> [54ca119c]
+by: DarkDampSquib (andrin.geiger1998@gmail.com)
+davinci: Add custom doze package <2 days ago> [207a9d55]
+by: DarkDampSquib (andrin.geiger1998@gmail.com)
+davinci: sepolicy: label gfscreenoffd <10 weeks ago> [b9db586f]
+by: Nanda Oktavera (codeharuka.yusa@gmail.com)
+davinci: sepolicy: Add libperfmgr rules <3 days ago> [6d075aea]
+by: DarkDampSquib (andrin.geiger1998@gmail.com)
+davinci: Add displayfeature <3 days ago> [459dc29a]
+by: DarkDampSquib (andrin.geiger1998@gmail.com)
+davinci: bump required fw to 11.0.5.0 <3 days ago> [ae1eaff2]
+by: DarkDampSquib (andrin.geiger1998@gmail.com)
+davinci: Pin libOpenCL in system <3 days ago> [ef447733]
+by: DarkDampSquib (andrin.geiger1998@gmail.com)
+davinci: Set Statusbar padding to 12dp <5 months ago> [e7a38679]
+by: DarkDampSquib (andrin.geiger1998@gmail.com)
+davinci: Adapt fstab for rapid GC <7 weeks ago> [0f17b943]
+by: DarkDampSquib (andrin.geiger1998@gmail.com)
+davinci : Enable support for pocket mode <3 months ago> [0352b6d2]
+by: Dominik Procházka (38187580+ProchyGaming@users.noreply.github.com)
+davinci: Unify back gesture vibratiuon with system wide haptics <9 weeks ago> [a83c0682]
+by: DarkDampSquib (andrin.geiger1998@gmail.com)
+davinci: Enable vibration multiple intensities <1 year, 4 months ago> [ab7914b8]
+by: Murat Kozan (muratkozan350@gmail.com)
+davinci: Set TG Group Link <3 months ago> [9eb99057]
+by: DarkDampSquib (andrin.geiger1998@gmail.com)
+davinci: Set Maintainer Overlay <3 months ago> [9319b937]
+by: DarkDampSquib (andrin.geiger1998@gmail.com)
+davinci: parts: Digital-style icon for FPSInfo QS Tile <8 weeks ago> [bc374ed1]
+by: Nauval Rizky (enuma.alrizky@gmail.com)
+davinci: parts: Add FPS overlay QS tile <3 months ago> [4fc44a70]
 by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[vendor/aosip]
-vendor: Update vendor/google-customization path [2/2] <18 hours ago> [dd43d72]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/apps/DerpQuest]
- DerpQuest: Update Greek translations (#53) <18 hours ago> [29994a1]
-by: CrisBalGreece (crisbaladim@yahoo.gr)
-
-[prebuilts/clang/host/linux-x86]
-Update prebuilt Clang to r383902. <2 days ago> [1eb04c49]
-by: Yabin Cui (yabinc@google.com)
-
-[vendor/google-customization]
-google-customization: Update paths <23 hours ago> [9d2fa6a]
-by: Henrique Pereira (hlcpereira@pixelexperience.org)
-
-[kernel/xiaomi/davinci]
-Merge tag 'LA.UM.8.9.r1-09000-SM6xx.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/qca-wifi-host-cmn <18 hours ago> [ef7959a82e3b]
-by: vantoman (Mustafa.vantom@gmail.com)
-Merge tag 'LA.UM.8.9.r1-09000-SM6xx.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/fw-api <18 hours ago> [a7d66140c38c]
-by: vantoman (Mustafa.vantom@gmail.com)
-Merge tag 'LA.UM.8.9.r1-09000-SM6xx.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/qcacld-3.0 <18 hours ago> [185346b96aa6]
-by: vantoman (Mustafa.vantom@gmail.com)
-Merge tag 'LA.UM.8.9.r1-09000-SM6xx.0' of https://source.codeaurora.org/quic/la/kernel/msm-4.14 <18 hours ago> [6a00c6b7fc18]
-by: vantoman (Mustafa.vantom@gmail.com)
-
-
-====================
-     04-30-2020
-====================
-
-[frameworks/base]
-base: Hide power menu on secure lockscreen [1/2] <3 months ago> [9f39ed7825a]
-by: maxwen (max.weninger@gmail.com)
-Revert "[1/2] base: config to disable power menu on secure lock screen" <2 days ago> [1f6fe614aad]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/apps/DerpQuest]
-DerpQuest: Adapt secure power menu toggle <2 days ago> [ba075c2]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-DerpQuest: Move StatusBar brightness control to gesture settings <3 days ago> [3e7bdf7]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-DerpQuest: Update RU translations (#51,#52) <3 days ago> [c291272]
-by: skorpion720 (40567079+skorpion720@users.noreply.github.com)
-
-[kernel/xiaomi/davinci]
-input: touchscreen: gt9886: Rip out touchscreen wrapper code <4 months ago> [9812de6e5df0]
-by: Fabian Leutenegger (fabian.leutenegger@bluewin.ch)
-goodix_ta: increase reset delays <4 months ago> [85341a559cd7]
-by: Yaroslav Furman (yaro330@gmail.com)
-goodix_ta: platform: optimize tdelays in hw_reset function <4 months ago> [8f5826c6bc9c]
-by: Yaroslav Furman (yaro330@gmail.com)
-fingerprint: goodix_ta: remove DEBUG prints <4 months ago> [01a593801eca]
-by: UtsavisGreat (utsavbalar1231@gmail.com)
-
-
-====================
-     04-29-2020
-====================
-
-[system/sepolicy]
-Add rules for misc_writer_system and boot_theme <8 months ago> [bafb79fb]
+davinci: parts: adapt FPS Info based on exposed data from kernel <8 weeks ago> [f719abeb]
+by: Nauval Rizky (enuma.alrizky@gmail.com)
+davinci: parts: introduce FPS overlay <6 months ago> [5de1edd5]
+by: Marko Man (darkobas@gmail.com)
+davinci: parts: simplify fod screenoff daemon handling <7 weeks ago> [02b2c167]
+by: Nauval Rizky (enuma.alrizky@gmail.com)
+davinci: gfscreenoffd: runtime optimization <7 weeks ago> [fe9e74d3]
+by: Nauval Rizky (enuma.alrizky@gmail.com)
+davinci: gfscreenoffd: fixup cpu regression <8 weeks ago> [b4235232]
+by: Nauval Rizky (enuma.alrizky@gmail.com)
+davinci: gfscreenoffd: runtime and code style improvements <9 weeks ago> [080ddf57]
+by: Nauval Rizky (enuma.alrizky@gmail.com)
+davinci: gfscreenoffd: optimize listener <10 weeks ago> [7d4e5296]
+by: Nanda Oktavera (codeharuka.yusa@gmail.com)
+davinci: gfscreenoffd: skip time checking on first touch <10 weeks ago> [0e24a6f1]
+by: Nauval Rizky (enuma.alrizky@gmail.com)
+davinci: gfscreenoffd: simplify touchscreen searching <10 weeks ago> [01f0696d]
+by: Nauval Rizky (enuma.alrizky@gmail.com)
+davinci: parts: fod: don't enable daemon immediately <2 months ago> [cc080a25]
+by: Nauval Rizky (enuma.alrizky@gmail.com)
+davinci: gfscreenoffd: add missing LOG_TAG <2 months ago> [95159edb]
+by: Nauval Rizky (enuma.alrizky@gmail.com)
+davinci: gfscreenoffd: ignore other ops when screen is already on <2 months ago> [85ef8c25]
+by: Nauval Rizky (enuma.alrizky@gmail.com)
+davinci: gfscreenoffd: rely startup completely on DeviceKeyHandler <3 months ago> [3a8a3d70]
+by: Nanda Oktavera (codeharuka.yusa@gmail.com)
+davinci: gfscreenoffd: only write fod_status if it was disabled <3 months ago> [dfed471e]
+by: Nanda Oktavera (codeharuka.yusa@gmail.com)
+davinci: parts: add settings for fod screen off <3 months ago> [08178199]
+by: Nauval Rizky (enuma.alrizky@gmail.com)
+davinci: parts: add DeviceKeyHandler for FOD Screen Off <3 months ago> [2066a7c9]
+by: Nauval Rizky (enuma.alrizky@gmail.com)
+davinci: introduce gfscreenoffd <3 months ago> [d9a20e22]
+by: Nauval Rizky (enuma.alrizky@gmail.com)
+davinci: parts: Add hifi vector icons <6 months ago> [b7f55b7d]
+by: PainKiller3 (ninadpatil100@gmail.com)
+davinci: dirac: Prevent failures when toggling <1 year, 3 months ago> [553fee19]
+by: Henrique Silva (jhenrique09.mcz@hotmail.com)
+davinci: dirac: Only call setEnabled on boot completed <1 year, 3 months ago> [4fe4d5a6]
+by: Henrique Silva (jhenrique09.mcz@hotmail.com)
+davinci: parts: Refactor Dirac setup <1 year, 3 months ago> [4127e443]
+by: Harsh Shandilya (msfjarvis@gmail.com)
+davinci: parts: Dirac fixes <1 year, 3 months ago> [0b2cffcf]
+by: Henrique Silva (jhenrique09.mcz@hotmail.com)
+davinci: dirac: Fixes for Dirac <6 months ago> [bcb47d56]
+by: Stallix (team.evolutionx.rom@gmail.com)
+davinci: dirac: Refactor dirac strings <1 year, 4 months ago> [ededb1ca]
+by: Henrique Silva (jhenrique09.mcz@hotmail.com)
+davinci: dirac: Add summary for dirac <1 year, 4 months ago> [6ecfbc49]
+by: Henrique Silva (jhenrique09.mcz@hotmail.com)
+davinci: dirac: Update Dirac vector icons to MD2 versions <12 months ago> [24a4a80f]
+by: Stallix (thestallix@gmail.com)
+davinci: parts: Add vector icons <1 year, 5 months ago> [0b6e6e69]
+by: arian (arian.kulmer@web.de)
+Parts: Import translations <6 months ago> [d5f09453]
 by: jhenrique09 (jhenrique09.mcz@hotmail.com)
-
-[kernel/xiaomi/davinci]
-sched: energy: handle memory allocation failure <2 years, 11 months ago> [4f94cfb76453]
-by: Joonwoo Park (joonwoop@codeaurora.org)
-elfnote: mark all .note sections SHF_ALLOC <10 days ago> [76db1b2bf291]
-by: Nick Desaulniers (ndesaulniers@google.com)
+davinci: parts: Organize strings <6 months ago> [3df2ae85]
+by: jhenrique09 (jhenrique09.mcz@hotmail.com)
+davinci: parts: Follow Android 10 changes on switchbar <8 months ago> [a71c6c06]
+by: jhenrique09 (jhenrique09.mcz@hotmail.com)
+davinci: Dont restore values on boot <7 months ago> [c23ea9e3]
+by: TheScarastic (warabhishek@gmail.com)
+davinci: Add support for hifi <9 months ago> [7bf54343]
+by: TheScarastic (warabhishek@gmail.com)
+davinci: parts: Add DiracSound backend <1 year, 4 months ago> [079c8206]
+by: TheScarastic (warabhishek@gmail.com)
+davinci: parts: Introduce Dirac preferences <1 year, 4 months ago> [37fef122]
+by: Joey (joey@lineageos.org)
+davinci: Update ramdisk <8 days ago> [142caed3]
+by: celtare21 (celtare21@gmail.com)
+davinci: Setup powerhal <8 days ago> [c684a45b]
+by: celtare21 (celtare21@gmail.com)
+davinci: power-libperfmgr: InteractionHandler: exit silently if int state is uninitialized <1 year, 1 month ago> [30d699a8]
+by: argraur (argraur@gmail.com)
+davinci: power.stats: Update path to wlan sysfs node <1 year, 4 months ago> [642b7999]
+by: Benjamin Schwartz (bsschwar@google.com)
+davinci: Rewrite display-helper into cpp <1 year, 2 months ago> [5bb9ab58]
+by: Wei Wang (wvw@google.com)
+davinci: PowerHAL: add 60fps streaming hint <10 months ago> [a96d771f]
+by: Kourosh Derakshan (kouroshd@google.com)
+davinci: Power: set PowerHAL hwbinder thread to high CFS priority <11 months ago> [9caff6bc]
+by: Wei Wang (wvw@google.com)
+davinci: PowerHAL: add CAMERA_STREAMING_SECURE mode <12 months ago> [fa0bfae4]
+by: Jia-yi Chen (jychen@google.com)
+davinci: Remove CPU0 governor check <12 months ago> [a7148301]
+by: Wei Wang (wvw@google.com)
+davinci: Remove additional 2.5s boost for camera launch <12 months ago> [dfb8f8dc]
+by: Wei Wang (wvw@google.com)
+davinci: power: fix camera launch hint to use correct time <12 months ago> [ce88e429]
+by: Wei Wang (wvw@google.com)
+davinci: Expose pixel_power_headers to vendor <1 year, 1 month ago> [4f1033c0]
+by: Wei Wang (wvw@google.com)
+davinci: PowerHAL: support more camera streaming modes <1 year, 1 month ago> [6a6a0cec]
+by: Martin Liu (liumartin@google.com)
+davinci: Expose TPU hints through AudioStreaming.h <1 year, 1 month ago> [7d4c24b4]
+by: Wei Wang (wvw@google.com)
+davinci: Use log/log.h instead of utils/Log.h <2 years, 2 months ago> [53cdf832]
+by: Ethan Chen (intervigil@gmail.com)
+davinci: Add TPU powerhint handling <1 year, 2 months ago> [b241dd13]
+by: Wei Wang (wvw@google.com)
+davinci: Add support for event-based tap to wake gesture control <1 year, 3 months ago> [e6bc3378]
+by: AbhiShek Aggarwal (warabhishek@gmail.com)
+davinci: boost performance by skipping EAS <3 months ago> [50e78b2f]
+by: Rick Yiu (rickyiu@google.com)
+cepheus: switch to libperfmgr for powerhint <1 year, 2 months ago> [79d4923e]
+by: weivincewang (wvw@google.com)
+davinci: init: create camera-daemon stune cgroup <10 months ago> [899fae30]
+by: John Dias (joaodias@google.com)
 
 
 ====================
-     04-28-2020
+     05-11-2020
 ====================
 
-[frameworks/base]
-[SQUASH]base: Add Battery Bar [1/2] <6 weeks ago> [39041a0108c]
-by: bigrushdog (randall.rushing@gmail.com)
+[packages/apps/Settings]
+Settings: Update RU translation (#11) <2 days ago> [19bd341ab4]
+by: Northn (57762732+Northn@users.noreply.github.com)
 
-[packages/apps/DerpQuest]
-[SQUASH]DerpQuest: Add Battery Bar [2/2] <1 year, 2 months ago> [160ff1b]
-by: bigrushdog (randall.rushing@gmail.com)
+[packages/apps/SettingsIntelligence]
+SettingsIntelligence: Add RU translation (#1) <31 hours ago> [a217ef8]
+by: Northn (57762732+Northn@users.noreply.github.com)
 
-
-====================
-     04-27-2020
-====================
-
-[packages/apps/Dialer]
-Dialer: Fix dark dialogs on light theme <3 months ago> [5a8b82969]
-by: Hikari-no-Tenshi (kyryljan.serhij@gmail.com)
-
-[packages/apps/DerpQuest]
-DerpQuest: Update Greek translation (#50) <4 days ago> [dac9005]
-by: CrisBalGreece (crisbaladim@yahoo.gr)
+[packages/apps/OpenDelta]
+Merge remote-tracking branch 'omni/android-10' into ten <30 hours ago> [0675dd3]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+Automatic translation import <2 days ago> [d5d967f]
+by: maxwen (max.weninger@gmail.com)
 
 [vendor/ANXCamera]
-Update ANXCamera to V180 <5 days ago> [aaf52cf]
+Revert "include script to generate files on sdcard on boot" <2 days ago> [479dfa6]
+by: DarkDampSquib (andrin.geiger1998@gmail.com)
+
+[device/xiaomi/davinci]
+davinci: Allow network use for build process <4 months ago> [af9b8837]
+by: DarkDampSquib (andrin.geiger1998@gmail.com)
+davinci: Use proton clang <5 weeks ago> [f4ba9f0e]
+by: DarkDampSquib (andrin.geiger1998@gmail.com)
+Revert "davinci: camera: Build camera provider" <2 days ago> [074b3539]
+by: DarkDampSquib (andrin.geiger1998@gmail.com)
+davinci: Include ANXCamera <4 weeks ago> [8a0509e7]
+by: DarkDampSquib (andrin.geiger1998@gmail.com)
+davinci: Is a phone <5 months ago> [41ed3426]
+by: DarkDampSquib (andrin.geiger1998@gmail.com)
+davinci: Include GApps <3 months ago> [1cca810f]
+by: DarkDampSquib (andrin.geiger1998@gmail.com)
+davinci: Derp-ify <2 days ago> [5302f261]
+by: DarkDampSquib (andrin.geiger1998@gmail.com)
+Revert "davinci: Build livedisplay" <2 days ago> [068487f5]
+by: DarkDampSquib (andrin.geiger1998@gmail.com)
+Revert "davinci: Build Trust HAL" <2 days ago> [9de80b9a]
+by: DarkDampSquib (andrin.geiger1998@gmail.com)
+Revert "davinci: overlay: Default to cyan FOD" <2 days ago> [1dc73c1a]
+by: DarkDampSquib (andrin.geiger1998@gmail.com)
+Revert "davinci: overlay: Hide sRGB toggle in developer options" <2 days ago> [ae0e4859]
+by: DarkDampSquib (andrin.geiger1998@gmail.com)
+Revert "davinci: camera: overlay: Import relevant snap overlays" <2 days ago> [74a512cd]
+by: DarkDampSquib (andrin.geiger1998@gmail.com)
+Revert "davinci: camera: overlay: Enable AUX camera for snap" <2 days ago> [61230cb9]
 by: DarkDampSquib (andrin.geiger1998@gmail.com)
 
 [kernel/xiaomi/davinci]
-tcp: up initial rmem to 128KB and SYN rwin to around 64KB <1 year, 7 months ago> [dc9c3d035487]
-by: Yuchung Cheng (ycheng@google.com)
-mm: zero-seek shrinkers <1 year, 6 months ago> [d847ec393254]
-by: Johannes Weiner (hannes@cmpxchg.org)
-mm/dmapool.c: micro-optimisation remove unnecessary branch <3 weeks ago> [1c4d36d30533]
-by: Mateusz Nosek (mateusznosek0@gmail.com)
-mm/page_alloc.c: micro-optimisation Remove unnecessary branch <4 weeks ago> [cbc5a1fb1ea4]
-by: Mateusz Nosek (mateusznosek0@gmail.com)
-fs/binfmt_elf.c: make BAD_ADDR() unlikely <3 months ago> [a62a80171f4e]
-by: Alexey Dobriyan (adobriyan@gmail.com)
-tcp: hint compiler about sack flows <1 year, 5 months ago> [3542010a93cf]
-by: Eric Dumazet (edumazet@google.com)
-asm-generic: add unlikely to default BUG_ON(x) <8 months ago> [afec76d57603]
-by: Denis Efremov (efremov@linux.com)
-block: optimize bvec iteration in bvec_iter_advance <1 year, 2 months ago> [39951d93e95f]
-by: Christoph Hellwig (hch@lst.de)
-sched/fair: Fix insertion in rq->leaf_cfs_rq_list <1 year, 3 months ago> [b799d58a2b69]
-by: Vincent Guittot (vincent.guittot@linaro.org)
-sched/fair: Add tmp_alone_branch assertion <1 year, 3 months ago> [7999d9cdb066]
-by: Peter Zijlstra (peterz@infradead.org)
-cgroup: memcg: net: do not associate sock with unrelated cgroup <7 weeks ago> [e290a8480fd4]
-by: Shakeel Butt (shakeelb@google.com)
-mm: memcg/slab: call flush_memcg_workqueue() only if memcg workqueue is valid <4 months ago> [50df97b94289]
-by: Adrian Huang (ahuang12@lenovo.com)
-mm: handle no memcg case in memcg_kmem_charge() properly <1 year, 6 months ago> [a1c80a71e8c9]
-by: Roman Gushchin (guro@fb.com)
-mm: fix possible PMD dirty bit lost in set_pmd_migration_entry() <8 weeks ago> [f7db65d2cc69]
-by: Huang Ying (ying.huang@intel.com)
-mm: memcontrol: fix network errors from failing __GFP_ATOMIC charges <6 months ago> [22743a8a43c1]
-by: Johannes Weiner (hannes@cmpxchg.org)
-msm: ufs: fix build breakage without CONFIG_DEBUG_FS <7 weeks ago> [f8fa3e556896]
-by: lucaswei (lucaswei@google.com)
-Revert "scsi: ufs: update VCCQ and VCCQ2 min value" <9 weeks ago> [8e23d225b888]
-by: Randall Huang (huangrandall@google.com)
-ANDROID: increase limit on sched-tune boost groups <9 weeks ago> [6d725ba54ec0]
-by: Todd Kjos (tkjos@google.com)
-BACKPORT: leds: class: ensure workqueue is initialized before setting brightness <10 weeks ago> [6fd03b61d17d]
-by: Woody Lin (woodylin@google.com)
-led-class: Fix a led-class de-init bug <9 weeks ago> [8117debf14ca]
-by: Woody Lin (woodylin@google.com)
-goodix: stop reporting KEY_HOME on presses <5 weeks ago> [3750d31fbb3f]
-by: Park Ju Hyung (qkrwngud825@gmail.com)
-i2c: i2c-qcom-geni: Add SSR support for SSC QUPs <7 months ago> [34bc1c5b7c50]
-by: Ashish Kori (akori@codeaurora.org)
-i2c: i2c-qcom-geni: Implementing thaw callback <8 weeks ago> [b595dedceff0]
-by: Atul Raut (araut@codeaurora.org)
-binfmt_elf: Don't allocate memory dynamically in load_elf_binary <10 months ago> [24ac5d1f5bf3]
-by: Sultan Alsawaf (sultan@kerneltoast.com)
-xattr: Avoid dynamically allocating memory in getxattr <10 months ago> [d55f8592e324]
-by: Sultan Alsawaf (sultan@kerneltoast.com)
-kobject_uevent: Allocate environment buffer on the stack <10 months ago> [50512c27db9a]
-by: Sultan Alsawaf (sultan@kerneltoast.com)
-ALSA: control_compat: Don't dynamically allocate single-use structs <10 months ago> [9ed73bccd637]
-by: Sultan Alsawaf (sultan@kerneltoast.com)
-ALSA: control: Don't dynamically allocate a single struct instance <10 months ago> [12a93467b4ff]
-by: Sultan Alsawaf (sultan@kerneltoast.com)
-kernfs: Avoid dynamic memory allocation for small write buffers <11 months ago> [8b743fff6723]
-by: Sultan Alsawaf (sultan@kerneltoast.com)
-media: v4l2-ioctl: Use a larger on-stack video copy buffer <10 months ago> [fd9cd54d3608]
-by: Sultan Alsawaf (sultan@kerneltoast.com)
-drivers: power: add timeouts to wakelocks <2 months ago> [4687500f7ae2]
-by: Yaroslav Furman (yaro330@gmail.com)
-drm/msm/sde: Omit debug logging code <12 months ago> [41644435815f]
-by: Danny Lin (danny@kdrag0n.dev)
-drm/msm: Omit SDE event log and most debugfs code <12 months ago> [9cdc8514752a]
-by: Danny Lin (danny@kdrag0n.dev)
-drm/msm/sde: Remove register write debug logging <12 months ago> [22d31b14959c]
-by: Danny Lin (danny@kdrag0n.dev)
-trace: add CONFIG_DISABLE_TRACE_PRINTK option <3 years, 4 months ago> [5a4796eaf67b]
-by: Park Ju Hyung (qkrwngud825@gmail.com)
-Revert "UPSTREAM: sched/topology: Add SD_ASYM_CPUCAPACITY flag detection" <5 days ago> [9e6b5e275513]
+Merge branch 'kernel.lnx.4.14.r4-rel' of https://github.com/android-linux-stable/msm-4.14 into VantomKernel <35 hours ago> [1586ae436f98]
 by: vantoman (Mustafa.vantom@gmail.com)
+Revert "msm: kgsl: use kmem_cache pool for draw objects" <4 days ago> [26537814ae50]
+by: vantoman (Mustafa.vantom@gmail.com)
+mm: compaction: avoid 100% CPU usage during compaction when a task is killed <9 months ago> [251bcbc2716c]
+by: Mel Gorman (mgorman@techsingularity.net)
+usb: f_accessory: send uevent for 51,52 requests <9 weeks ago> [a51403b1fb01]
+by: Puma Hsu (pumahsu@google.com)
+Merge 4.14.180 into kernel.lnx.4.14.r4-rel <2 days ago> [a837aa6ddeb4]
+by: Nathan Chancellor (natechancellor@gmail.com)
+
+[vendor/xiaomi/davinci]
+sync with device tree <2 weeks ago> [6abb28b]
+by: DarkDampSquib (andrin.geiger1998@gmail.com)
+davinci: Use patched stock qti-telephony-common.jar <3 days ago> [6c14eec]
+by: Arian (arian.kulmer@web.de)
 
 
 ====================
-     04-26-2020
+     05-10-2020
 ====================
 
 [frameworks/base]
-Revert "SystemUI: keep width on qs expand move" <6 days ago> [10eda5e82d0]
-by: Ido Ben-Hur (idoybh2@gmail.com)
+SystemUI: Add RU translation (#17) <3 days ago> [ecd30d8f212]
+by: Northn (57762732+Northn@users.noreply.github.com)
+
+[vendor/aosip]
+vendor: Don't build PixelLiveWallpaperPrebuilt, PixelSetupWizardOverlay for vanilla (#20) <3 days ago> [2e23ac1]
+by: Aman Kumar Singh (46120388+amanrajOO7@users.noreply.github.com)
+
+[packages/apps/OpenDelta]
+Automatic translation import <2 days ago> [a965ae8]
+by: maxwen (max.weninger@gmail.com)
+
+[device/xiaomi/davinci]
+davinci: parts: Restore the LED's previous state after popup <3 days ago> [474e1442]
+by: Arian (arian.kulmer@web.de)
+davinci: parts: Disable raise to wake toggle when AOD is on <3 days ago> [b095f185]
+by: Arian (arian.kulmer@web.de)
+davinci: parts: Allow to wake the screen instead of pulsing <3 months ago> [8432c395]
+by: Nauval Rizky (enuma.alrizky@gmail.com)
+davinci: parts: Implement dc dimming <6 weeks ago> [50b0dfdc]
+by: Nauval Rizky (enuma.alrizky@gmail.com)
+davinci: Use patched stock qti-telephony-common.jar <3 days ago> [6f8b1dc2]
+by: Arian (arian.kulmer@web.de)
+davinci: overlay: Default to cyan FOD <3 days ago> [a2641043]
+by: Arian (arian.kulmer@web.de)
+davinci: Move librice to soundtrigger <2 days ago> [8ae0bab7]
+by: Arian (arian.kulmer@web.de)
+
+[kernel/xiaomi/davinci]
+Linux 4.14.180 <3 days ago> [ab9dfda23248]
+by: Greg Kroah-Hartman (gregkh@linuxfoundation.org)
+cgroup, netclassid: remove double cond_resched <3 weeks ago> [dbc839a90fb5]
+by: Jiri Slaby (jslaby@suse.cz)
+mac80211: add ieee80211_is_any_nullfunc() <4 months ago> [1bfd4bed884d]
+by: Thomas Pedersen (thomas@adapt-ip.com)
+ALSA: hda: Match both PCI ID and SSID for driver blacklist <3 weeks ago> [092d8c20f03e]
+by: Takashi Iwai (tiwai@suse.de)
+tracing: Reverse the order of trace_types_lock and event_mutex <2 years, 8 months ago> [dc13f456ff64]
+by: Steven Rostedt (VMware) (rostedt@goodmis.org)
+sctp: Fix SHUTDOWN CTSN Ack in the peer restart case <3 weeks ago> [3aa030ab4a2d]
+by: Jere Leppänen (jere.leppanen@nokia.com)
+net: systemport: suppress warnings on failed Rx SKB allocations <3 weeks ago> [b39a1578fbca]
+by: Doug Berger (opendmb@gmail.com)
+net: bcmgenet: suppress warnings on failed Rx SKB allocations <3 weeks ago> [27bdb2bdf2d5]
+by: Doug Berger (opendmb@gmail.com)
+lib/mpi: Fix building for powerpc with clang <4 weeks ago> [f7cfbf422d39]
+by: Nathan Chancellor (natechancellor@gmail.com)
+net: dsa: b53: Rework ARL bin logic <3 weeks ago> [20d782f80db4]
+by: Florian Fainelli (f.fainelli@gmail.com)
+scripts/config: allow colons in option strings for sed <5 weeks ago> [e6b43bda86ca]
+by: Jeremie Francois (on alpha) (jeremie.francois@gmail.com)
+s390/ftrace: fix potential crashes when switching tracers <5 weeks ago> [3ca221d120ab]
+by: Philipp Rudo (prudo@linux.ibm.com)
+cifs: protect updating server->dstaddr with a spinlock <3 weeks ago> [4c49cf3581b9]
+by: Ronnie Sahlberg (lsahlber@redhat.com)
+net: stmmac: Fix sub-second increment <4 weeks ago> [88d82debb1f0]
+by: Julien Beraud (julien.beraud@orolia.com)
+net: stmmac: fix enabling socfpga's ptp_ref_clock <4 weeks ago> [2eb4ce777854]
+by: Julien Beraud (julien.beraud@orolia.com)
+wimax/i2400m: Fix potential urb refcnt leak <4 weeks ago> [67fd6fa9f1dd]
+by: Xiyu Yang (xiyuyang19@fudan.edu.cn)
+ASoC: codecs: hdac_hdmi: Fix incorrect use of list_for_each_entry <4 weeks ago> [95b62395de41]
+by: Amadeusz Sławiński (amadeuszx.slawinski@linux.intel.com)
+ASoC: rsnd: Fix HDMI channel mapping for multi-SSI mode <4 weeks ago> [2e8f2acaf32d]
+by: Matthias Blankertz (matthias.blankertz@cetitec.com)
+ASoC: sgtl5000: Fix VAG power-on handling <4 weeks ago> [a500f557e4db]
+by: Sebastian Reichel (sebastian.reichel@collabora.com)
+selftests/ipc: Fix test failure seen after initial test run <4 weeks ago> [a88e01df10fe]
+by: Tyler Hicks (tyhicks@linux.microsoft.com)
+ASoC: topology: Check return value of pcm_new_ver <7 weeks ago> [f111c1d80638]
+by: Amadeusz Sławiński (amadeuszx.slawinski@linux.intel.com)
+powerpc/pci/of: Parse unassigned resources <11 months ago> [929599defc7a]
+by: Alexey Kardashevskiy (aik@ozlabs.ru)
+vhost: vsock: kick send_pkt worker once device is started <12 days ago> [ad70bc0e0128]
+by: Jia He (justin.he@arm.com)
 
 [prebuilts/clang/host/linux-x86/clang-proton]
-Update to 20200425 build <6 days ago> [ce1cb05]
+Update to 20200510 build <3 days ago> [3165424]
 by: Danny (danny@kdrag0n.dev)
 
 
 ====================
-     04-25-2020
+     05-09-2020
 ====================
 
-[vendor/ANXCamera]
-include script to generate files on sdcard on boot <2 weeks ago> [fd35ca3]
-by: Billaids (jimmy.nelle@live.de)
+[manifest]
+manifest: track system/bpf from LOS <4 days ago> [b5e276a]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[packages/apps/DerpQuest]
+DerpQuest: Update RU translation (#57) <3 days ago> [48a3e9c]
+by: Northn (57762732+Northn@users.noreply.github.com)
+
+[device/xiaomi/davinci]
+davinci: Use stock fingerprint <4 days ago> [6236b2c1]
+by: Arian (arian.kulmer@web.de)
+davinci: init: Workaround safetynet <3 weeks ago> [c45a0856]
+by: Arian (arian.kulmer@web.de)
+davinci: Define vendor security patch level <12 days ago> [c76e52e8]
+by: Arian (arian.kulmer@web.de)
+davinci: Build Trust HAL <1 year, 4 months ago> [6c9f6f60]
+by: Joey (joey@lineageos.org)
+davinci: Build livedisplay <13 days ago> [9fdcbd2c]
+by: Arian (arian.kulmer@web.de)
+davinci: Add assert for davinci & davinciin <7 months ago> [92ce2a26]
+by: Fabian Leutenegger (fabian.leutenegger@bluewin.ch)
+davinci: init: Use variables for the region specific properties <3 weeks ago> [848a426d]
+by: Arian (arian.kulmer@web.de)
+davinci: init: Always set the ro.build props <2 weeks ago> [317a0a50]
+by: Arian (arian.kulmer@web.de)
+davinci: init: Override everything ^.^ <7 months ago> [018a915c]
+by: LuK1337 (priv.luk@gmail.com)
+davinci: Add custom init to set proper variants <9 months ago> [2dd7e037]
+by: AbhiShek Aggarwal (warabhishek@gmail.com)
+davinci: Switch to enforcing <3 weeks ago> [a998d665]
+by: Arian (arian.kulmer@web.de)
+davinci: sepolicy: Label properties to avoid denials <3 weeks ago> [5949832a]
+by: Arian (arian.kulmer@web.de)
+davinci: sepolicy: Silence harmless QCOM denials <5 months ago> [27ce7c58]
+by: Michael Bestas (mkbestas@lineageos.org)
+davinci: sepolicy: Label hwc and hwversion properties <3 weeks ago> [2a7ac9e4]
+by: Arian (arian.kulmer@web.de)
+davinci: sepolicy: Label property used by ril <6 weeks ago> [a256b592]
+by: Demon000 (demonsingur@gmail.com)
+davinci: sepolicy: Label manufacturer prop used by camera hal <6 weeks ago> [5200513d]
+by: Demon000 (demonsingur@gmail.com)
+davinci: sepolicy: Fix OTA auto-flashing with encrypted f2fs. <1 year, 2 months ago> [d1240b8b]
+by: Nvertigo (nvertigo67@gmail.com)
+davinci: sepolicy: Add motor rules <3 weeks ago> [9c6e430a]
+by: Arian (arian.kulmer@web.de)
+davinci: sepolicy: Allow adsprpcd to read sysfs_graphics <3 weeks ago> [b6b8a7a9]
+by: Arian (arian.kulmer@web.de)
+davinci: sepolicy: Allow power hal to write to input event <3 weeks ago> [b7677c16]
+by: Arian (arian.kulmer@web.de)
+davinci: sepolicy: Allow bluetooth HAL to read the mac address <3 weeks ago> [d00e50cf]
+by: Arian (arian.kulmer@web.de)
+davinci: sepolicy: Allow sensors HAL to set persist sensors properties <3 weeks ago> [b1b12db1]
+by: Arian (arian.kulmer@web.de)
+davinci: sepolicy: Add sensors rules <10 weeks ago> [79989c5a]
+by: Demon000 (demonsingur@gmail.com)
+davinci: sepolicy: Create mi_thermald sepolicy <5 months ago> [8cc106e4]
+by: Demon000 (demonsingur@gmail.com)
+davinci: sepolicy: Give NFC full access to NFC data files <4 weeks ago> [2472df95]
+by: Demon000 (demonsingur@gmail.com)
+davinci: sepolicy: Allow radio to read vendor audio prop <2 months ago> [873bed5d]
+by: Demon000 (demonsingur@gmail.com)
+davinci: sepolicy: Add fingerprint rules <2 months ago> [87bd1716]
+by: Demon000 (demonsingur@gmail.com)
+davinci: sepolicy: Label used camera props <2 months ago> [a81ac6c3]
+by: Demon000 (demonsingur@gmail.com)
+davinci: sepolicy: Add camera rules <2 months ago> [310c3228]
+by: Demon000 (demonsingur@gmail.com)
+davinci: sepolicy: Add audio rules <2 months ago> [16441acc]
+by: Demon000 (demonsingur@gmail.com)
+davinci: sepolicy: Allow nv_mac to create mac files <10 weeks ago> [a03c8ea0]
+by: Demon000 (demonsingur@gmail.com)
+davinci: sepolicy: Label nv_mac <2 months ago> [7d2a5c4f]
+by: Demon000 (demonsingur@gmail.com)
+davinci: sepolicy: Label lights HAL <3 weeks ago> [37c4e5c6]
+by: Arian (arian.kulmer@web.de)
+davinci: Include local sepolicy <3 weeks ago> [0e00ea3c]
+by: Arian (arian.kulmer@web.de)
+davinci: Add init.recovery.qcom.rc <11 days ago> [8df3201a]
+by: Arian (arian.kulmer@web.de)
+davinci: rootdir: Remove unsupported stuff from qcom post boot script <3 weeks ago> [376f162c]
+by: Arian (arian.kulmer@web.de)
+davinci: rootdir: Remove sleep_disabled switch during boot <9 months ago> [bfe3713d]
+by: Demon000 (demonsingur@gmail.com)
+davinci: rootdir: Cleanup qcom post boot script <9 months ago> [d03f42b6]
+by: Demon000 (demonsingur@gmail.com)
+davinci: rootdir: Cleanup init.qcom.sh <4 weeks ago> [d1c9c859]
+by: Arian (arian.kulmer@web.de)
+davinci: rootdir: Cleanup init.qcom.usb.rc <9 months ago> [923fa2e3]
+by: Demon000 (demonsingur@gmail.com)
+davinci: rootdir: Add supplicant 1.2 to init.qcom.rc <1 year, 2 months ago> [d3f12aeb]
+by: Hai Shalom (haishalom@google.com)
+davinci: rootdir: Set subsystem restart level to related <7 months ago> [522a8fbc]
+by: Demon000 (demonsingur@gmail.com)
+davinci: rootdir: Cleanup init.qcom.rc <9 months ago> [19b973a2]
+by: Demon000 (demonsingur@gmail.com)
+davinci: rootdir: Import camera motor to init.target.rc <4 weeks ago> [1f93cc83]
+by: Arian (arian.kulmer@web.de)
+davinci: rootdir: Remove unused panel info script <7 weeks ago> [3c497ff3]
+by: Demon000 (demonsingur@gmail.com)
+davinci: rootdir: Cleanup on charger <4 weeks ago> [1cae3cb5]
+by: Arian (arian.kulmer@web.de)
+davinci: rootdir: Import coral fs tuning <6 weeks ago> [1d2d77d0]
+by: Demon000 (demonsingur@gmail.com)
+davinci: rootdir: Increase background blkio cgroup weight to 200 <2 months ago> [5db42caf]
+by: Jake Weinstein (jake@aospa.co)
+davinci: rootdir: Apply runtime blkio settings <1 year, 1 month ago> [4c5f923f]
+by: Rick Yiu (rickyiu@google.com)
+davinci: rootdir: Move configurations to their proper group <5 months ago> [c4c874d9]
+by: Demon000 (demonsingur@gmail.com)
+davinci: rootdir: Start nv_mac on main class <9 months ago> [89cd1e59]
+by: Demon000 (demonsingur@gmail.com)
+davinci: rootdir: Cleanup init.target.rc <4 weeks ago> [728dd1c6]
+by: Arian (arian.kulmer@web.de)
+davinci: rootdir: Enable hvdcp_opti <4 weeks ago> [4f4c6c4f]
+by: Arian (arian.kulmer@web.de)
+davinci: rootdir: Move nv_mac service declaration to init.target.rc <4 weeks ago> [9e074720]
+by: Arian (arian.kulmer@web.de)
+davinci: rootdir: Add required fstab entries <4 weeks ago> [16efe2e6]
+by: Arian (arian.kulmer@web.de)
+davinci: rootdir: Import uevent <3 weeks ago> [de358213]
+by: Arian (arian.kulmer@web.de)
+davinci: rootdir: Import scripts <4 weeks ago> [4a4dd9db]
+by: Arian (arian.kulmer@web.de)
+davinci: keylayout: Add button mapping for headphone control <1 year ago> [6c4688e4]
+by: GuaiYiHu (guaiyihu@foxmail.com)
+davinci: fm: Import blobs <3 weeks ago> [2e2bea52]
+by: Arian (arian.kulmer@web.de)
+davinci: fm: Disable loading of firmware <3 weeks ago> [695b8c6f]
+by: Arian (arian.kulmer@web.de)
+davinci: fm: Build FM2 <3 weeks ago> [cf518041]
+by: Arian (arian.kulmer@web.de)
+davinci: soter: Import blobs <3 weeks ago> [31fa4f69]
+by: Arian (arian.kulmer@web.de)
+davinci: ant: Build ANT+ HAL <3 weeks ago> [146274fa]
+by: Fabian Leutenegger (fabian.leutenegger@bluewin.ch)
+davinci: charger: Import blobs <3 weeks ago> [4dde39e3]
+by: Arian (arian.kulmer@web.de)
+davinci: charger: Enable offline charger suspend <2 years, 7 months ago> [a8b30016]
+by: Michael Bestas (mkbestas@lineageos.org)
+davinci: network: Copy hardware permissions from frameworks/native <3 weeks ago> [d24c5779]
+by: Arian (arian.kulmer@web.de)
+davinci: vndk: Build framework detect modules <1 year, 4 months ago> [d4a6b0d2]
+by: shoudil (stephenli@codeaurora.org)
+davinci: vibrator: Build HAL <4 weeks ago> [1db8a31d]
+by: Arian (arian.kulmer@web.de)
+davinci: usb: Copy hardware permissions from frameworks/native <3 weeks ago> [dee7cc81]
+by: Arian (arian.kulmer@web.de)
+davinci: usb: Build service <4 weeks ago> [6d2a1ef4]
+by: Arian (arian.kulmer@web.de)
+davinci: wfd: Add QCOM's implementation <1 year, 5 months ago> [638e2ecc]
+by: Artem Borisov (dedsa2002@gmail.com)
+davinci: wfd: Add QTI privapp permissions <3 weeks ago> [60320c4a]
+by: Arian (arian.kulmer@web.de)
+davinci: sensors: Import blobs <3 weeks ago> [dd63b468]
+by: Arian (arian.kulmer@web.de)
+davinci: sensors: Copy hardware permissions from frameworks/native <3 weeks ago> [fd511f9a]
+by: Arian (arian.kulmer@web.de)
+davinci: sensors: Build HAL <4 weeks ago> [ad1f4a21]
+by: Arian (arian.kulmer@web.de)
+davinci: health: Build HAL <5 weeks ago> [4e875331]
+by: Arian (arian.kulmer@web.de)
+davinci: textclassifier: Build smart selection models <1 year, 7 months ago> [8b146125]
+by: Bruno Martins (bgcngm@gmail.com)
+davinci: thermal: Add mi_thermald <2 weeks ago> [1c963e85]
+by: Arian (arian.kulmer@web.de)
+davinci: thermal: Import blobs <3 weeks ago> [19a278a7]
+by: Arian (arian.kulmer@web.de)
+davinci: thermal: Build HAL <4 weeks ago> [cc7a0abe]
+by: Arian (arian.kulmer@web.de)
+davinci: handheld: Copy hardware permissions from frameworks/native <3 weeks ago> [d5580879]
+by: Arian (arian.kulmer@web.de)
+davinci: gps: Copy hardware permissions from frameworks/native <3 weeks ago> [c36b4567]
+by: Arian (arian.kulmer@web.de)
+davinci: gps: Import blobs <3 weeks ago> [c05b3397]
+by: Arian (arian.kulmer@web.de)
+davinci: timeservices: Import blobs <3 weeks ago> [20ff81c3]
+by: Arian (arian.kulmer@web.de)
+davinci: wifi: Enable 2.4GHz channel bonding <8 weeks ago> [b13d3633]
+by: Demon000 (demonsingur@gmail.com)
+davinci: wifi: Import blobs <3 weeks ago> [5ac105d6]
+by: Arian (arian.kulmer@web.de)
+davinci: wifi: Copy hardware permissions from frameworks/native <3 weeks ago> [c4e24b70]
+by: Arian (arian.kulmer@web.de)
+davinci: wifi: Import configs <4 weeks ago> [97159d4b]
+by: Arian (arian.kulmer@web.de)
+davinci: wifi: Build IPACM from source <4 weeks ago> [bc95b41b]
+by: Arian (arian.kulmer@web.de)
+davinci: wifi: Build HAL <6 months ago> [311eeb4f]
+by: Demon000 (demonsingur@gmail.com)
+davinci: configstore: Import blobs <3 weeks ago> [7d1181f1]
+by: Arian (arian.kulmer@web.de)
+davinci: gatekeeper: Import blobs <3 weeks ago> [391c613f]
+by: Arian (arian.kulmer@web.de)
+davinci: keymaster: Import blobs <3 weeks ago> [3f8373b2]
+by: Arian (arian.kulmer@web.de)
+davinci: drm: Use widevine blobs from raphael <4 weeks ago> [f901a425]
+by: Arian (arian.kulmer@web.de)
+davinci: drm: Build HAL <3 weeks ago> [3058a00a]
+by: Arian (arian.kulmer@web.de)
+davinci: nfc: Correct autonomous mode property name <6 weeks ago> [ed4640d9]
+by: Demon000 (demonsingur@gmail.com)
+davinci: nfc: Remove duplicate props <9 months ago> [424fab4a]
+by: Demon000 (demonsingur@gmail.com)
+davinci: nfc: Import firmware <3 weeks ago> [81b81421]
+by: Arian (arian.kulmer@web.de)
+davinci: nfc: Copy hardware permissions from frameworks/native <3 weeks ago> [3b7e8a58]
+by: Arian (arian.kulmer@web.de)
+davinci: nfc: Import configs <4 weeks ago> [f2cbae83]
+by: Arian (arian.kulmer@web.de)
+davinci: nfc: Compile NQ stack <6 weeks ago> [a256d55a]
+by: Demon000 (demonsingur@gmail.com)
+davinci: media: Remove unsupported profiles <2 years, 9 months ago> [a0f007d9]
+by: LuK1337 (priv.luk@gmail.com)
+davinci: Copy common media configs from the media HAL <5 days ago> [2ffd8b6f]
+by: Arian (arian.kulmer@web.de)
+davinci: media: Import configs <4 weeks ago> [e7f4d4d7]
+by: Arian (arian.kulmer@web.de)
+davinci: media: Import blobs <3 weeks ago> [e4c2c146]
+by: Arian (arian.kulmer@web.de)
+davinci: media: Disable UBWC <3 months ago> [09288665]
+by: PIPIPIG233666 (pig.priv@gmail.com)
+davinci: media: Build OSS stack <9 months ago> [2d25975b]
+by: Demon000 (demonsingur@gmail.com)
+davinci: perf: Import blobs <3 weeks ago> [6c37c29d]
+by: Arian (arian.kulmer@web.de)
+davinci: touchscreen: Copy hardware permissions from frameworks/native <3 weeks ago> [96ac7cdb]
+by: Arian (arian.kulmer@web.de)
+davinci: touchscreen: Import blobs <3 weeks ago> [9f18fcd2]
+by: Arian (arian.kulmer@web.de)
+davinci: graphics: Build libtinyxml from source <4 weeks ago> [b282ff7d]
+by: Arian (arian.kulmer@web.de)
+davinci: graphics: Copy hardware permissions from frameworks/native <3 weeks ago> [4b81454a]
+by: Arian (arian.kulmer@web.de)
+davinci: graphics: Build libvulkan <4 weeks ago> [ed24ce36]
+by: Arian (arian.kulmer@web.de)
+davinci: graphics: Build renderscript stack <9 months ago> [5eb40527]
+by: Demon000 (demonsingur@gmail.com)
+davinci: graphics: Import blobs <3 weeks ago> [ebd71e6a]
+by: Arian (arian.kulmer@web.de)
+davinci: display: Copy hardware permissions from frameworks/native <3 weeks ago> [7f3931dd]
+by: Arian (arian.kulmer@web.de)
+davinci: display: Import calibration blobs <3 weeks ago> [e76e5335]
+by: Arian (arian.kulmer@web.de)
+davinci: graphics: Import display blobs from def_reteu <3 months ago> [002a56ca]
+by: Demon000 (demonsingur@gmail.com)
+davinci: Convert configstore settings to props <8 months ago> [19a60b02]
+by: LuK1337 (priv.luk@gmail.com)
+davinci: display: Build stack from source <9 months ago> [1cdd46fb]
+by: Demon000 (demonsingur@gmail.com)
+davinci: audio: Use default ACDB ID for HEADSET_MIC usecases <8 months ago> [8d25f670]
+by: TheScarastic (warabhishek@gmail.com)
+davinci: audio: Use USB audio policy configuration from AOSP <1 year, 5 months ago> [a439b19c]
+by: notsyncing (song.fc@gmail.com)
+davinci: audio: Enable AOSP bluetooth audio HAL v2 <7 months ago> [af0268d7]
+by: dianlujitao (dianlujitao@lineageos.org)
+davinci: audio: Add libmisound <3 weeks ago> [59e900ee]
+by: Arian (arian.kulmer@web.de)
+davinci: audio: Import configs <4 weeks ago> [733d505e]
+by: Arian (arian.kulmer@web.de)
+davinci: audio: Import blobs <3 weeks ago> [7e2b0627]
+by: Arian (arian.kulmer@web.de)
+davinci: audio: Build HAL <9 months ago> [25144e7e]
+by: Demon000 (demonsingur@gmail.com)
+davinci: Enable GL comp backpressure <10 months ago> [0c2359ec]
+by: Ady Abraham (adyabr@google.com)
+davinci: Enable EGL Image Tracking on SF <10 months ago> [48ffb654]
+by: Ady Abraham (adyabr@google.com)
+davinci: Latch unsignaled buffers <3 months ago> [43d22420]
+by: Luca Stefani (luca.stefani.ge1@gmail.com)
+davinci: Import coral offsets for GPU composition <1 year, 2 months ago> [fd4b88a6]
+by: Lucas Dupin (dupin@google.com)
+davinci: Add debug IMS props to workaround CarrierConfig restrictions <1 year, 3 months ago> [ae3336bd]
+by: LuK1337 (priv.luk@gmail.com)
+davinci: Force enable mobile network settings v2 <7 months ago> [e27a5dc8]
+by: dianlujitao (dianlujitao@lineageos.org)
+davinci: Import and sort vendor and odm properties <3 weeks ago> [2e3f6eb3]
+by: Arian (arian.kulmer@web.de)
+davinci: Import stock system properties <4 weeks ago> [f265180d]
+by: Arian (arian.kulmer@web.de)
+davinci: telephony: Define vendor ril service usage <10 months ago> [622cc391]
+by: Demon000 (demonsingur@gmail.com)
+davinci: telephony: Set TARGET_PROVIDES_QTI_TELEPHONY_JAR <1 year, 10 months ago> [c1e8d73f]
+by: Michael Bestas (mkbestas@lineageos.org)
+davinci: telephony: Add inject support for MultiSimSettingController <11 months ago> [c5f3ba9a]
+by: Sandeep Gutta (sangutta@codeaurora.org)
+davinci: telephony: Move qti-telephony-common to product <1 year, 1 month ago> [2867e689]
+by: Sandeep Gutta (sangutta@codeaurora.org)
+davinci: telephony: Add telephony_injection file <1 year, 2 months ago> [ee5a536b]
+by: Sandeep Gutta (sangutta@codeaurora.org)
+davinci: telephony: Add stock CarrierConfig <7 weeks ago> [1d9e7015]
+by: Arian (arian.kulmer@web.de)
+davinci: telephony: Copy hardware permissions from frameworks/native <3 weeks ago> [ca8ea0f1]
+by: Arian (arian.kulmer@web.de)
+davinci: telephony: Import privapp-permissions <3 weeks ago> [835f322a]
+by: Arian (arian.kulmer@web.de)
+davinci: telephony: Import blobs <3 weeks ago> [369cf3fb]
+by: Arian (arian.kulmer@web.de)
+davinci: telephony: Build required packages <5 weeks ago> [2194a64b]
+by: Arian (arian.kulmer@web.de)
+davinci: power: Import sub system restart blob <3 weeks ago> [5a59452f]
+by: Arian (arian.kulmer@web.de)
+davinci: power: Import poweroff alarm blobs <3 weeks ago> [a2ab2810]
+by: Arian (arian.kulmer@web.de)
+davinci: power: Scan input devices for eligible DT2W node <3 months ago> [d9e49925]
+by: Bruno Martins (bgcngm@gmail.com)
+davinci: power: Support event-based dt2w node <1 year, 3 months ago> [5a3e454d]
+by: TheScarastic (warabhishek@gmail.com)
+davinci: power: Prepare HAL extension <5 weeks ago> [07d7f7d3]
+by: Arian (arian.kulmer@web.de)
+davinci: power: Build HAL <5 weeks ago> [5632709a]
+by: Arian (arian.kulmer@web.de)
+davinci: light: Detect maximum brightness dynamically <1 year, 11 months ago> [510e7343]
+by: vasishath (vasishath@gmail.com)
+davinci: light: Simplify alpha scaling logic <3 months ago> [371b3d03]
+by: Demon000 (demonsingur@gmail.com)
+davinci: light: Do not turn on breathing for unlit hardware states <3 months ago> [6a9b2662]
+by: Demon000 (demonsingur@gmail.com)
+davinci: light: Avoid resetting state <3 months ago> [c060d6af]
+by: Demon000 (demonsingur@gmail.com)
+davinci: light: Avoid uint32_t underflow <8 months ago> [0ab23596]
+by: Demon000 (demonsingur@gmail.com)
+davinci: light: Properly scale brightness range <8 months ago> [186bd27d]
+by: Demon000 (demonsingur@gmail.com)
+davinci: lights: Adjust for davincis LEDs <4 days ago> [9f755b58]
+by: Arian (arian.kulmer@web.de)
+davinci: light: Import HAL from Xiaomi msm8998-common <12 months ago> [dc7b8cdc]
+by: Demon000 (demonsingur@gmail.com)
+davinci: fod: Use 630nit fod value <3 months ago> [57d53171]
+by: Demon000 (demonsingur@gmail.com)
+davinci: fod: Improve semantics <4 months ago> [7a91432b]
+by: Demon000 (demonsingur@gmail.com)
+davinci: fod: Remove onRelase calls duplication <4 months ago> [da3d71df]
+by: Demon000 (demonsingur@gmail.com)
+davinci: fod: Calculate dim amount based on real brightness <6 months ago> [adb7f6cd]
+by: Demon000 (demonsingur@gmail.com)
+davinci: fod: Copy hardware permissions from frameworks/native <3 weeks ago> [eef71c9e]
+by: Arian (arian.kulmer@web.de)
+davinci: fod: Implement in-screen fingerprint HAL <11 months ago> [fa0f470e]
+by: Demon000 (demonsingur@gmail.com)
+davinci: fod: Import blobs <3 weeks ago> [bf8292f3]
+by: Arian (arian.kulmer@web.de)
+davinci: parts: Add icons for popup settings <6 days ago> [527fb2d6]
+by: Arian (arian.kulmer@web.de)
+davinci: parts: Add throne room popup sound <3 weeks ago> [f5e55615]
+by: Arian (arian.kulmer@web.de)
+davinci: parts: Add lightsaber popup sound <3 weeks ago> [63221f62]
+by: Arian (arian.kulmer@web.de)
+davinci: parts: Add imperial march popup sound <3 weeks ago> [5fe32d39]
+by: Arian (arian.kulmer@web.de)
+davinci: parts: Try to take the motor back on boot when opened <5 weeks ago> [f837bb0a]
+by: jhenrique09 (jhenrique09.mcz@hotmail.com)
+davinci: parts: Check if motor is busy before doing any operation <6 months ago> [0c9e93e1]
+by: jhenrique09 (jhenrique09.mcz@hotmail.com)
+davinci: parts: Add popup camera sound effects and LED toggle <6 months ago> [1b203beb]
+by: jhenrique09 (jhenrique09.mcz@hotmail.com)
+davinci: parts: Add support for camera popup light <8 months ago> [e23a1330]
+by: TheScarastic (warabhishek@gmail.com)
+raphael: Initial popup camera impl <11 months ago> [0508ba86]
+by: TheScarastic (warabhishek@gmail.com)
+davinci: parts: Add icons for doze <1 year, 5 months ago> [38d1cb5a]
+by: arian (arian.kulmer@web.de)
+davinci: parts: Import from xiaomi_sdm845-common <8 weeks ago> [a5a792dc]
+by: Arian (arian.kulmer@web.de)
+davinci: bluetooth: Switch to a map based BT name <2 years ago> [cd5b31e6]
+by: LuK1337 (priv.luk@gmail.com)
+davinci: bluetooth: Add builcfg <7 weeks ago> [a9b4a73f]
+by: Arian (arian.kulmer@web.de)
+davinci: bluetooth: Copy hardware permissions from frameworks/native <3 weeks ago> [c8a533e1]
+by: Arian (arian.kulmer@web.de)
+davinci: bluetooth: Import blobs <3 weeks ago> [9c603463]
+by: Arian (arian.kulmer@web.de)
+davinci: camera: overlay: Enable AUX camera for snap <1 year ago> [e6bdf4c0]
+by: LuK1337 (priv.luk@gmail.com)
+davinci: camera: overlay: Import relevant snap overlays <1 year, 1 month ago> [ba47273e]
+by: GuaiYiHu (guaiyihu@foxmail.com)
+davinci: camera: Build Snap <6 weeks ago> [2c79f8a9]
+by: Arian (arian.kulmer@web.de)
+davinci: camera: Copy hardware permissions from frameworks/native <3 weeks ago> [e7eee581]
+by: Arian (arian.kulmer@web.de)
+davinci: camera: Build libdng_sdk.vendor <4 weeks ago> [278cbc42]
+by: Arian (arian.kulmer@web.de)
+davinci: camera: Build camera provider <4 weeks ago> [5e5c37ee]
+by: Arian (arian.kulmer@web.de)
+davinci: camera: Import motor blobs <3 weeks ago> [e7ee573a]
+by: Arian (arian.kulmer@web.de)
+davinci: camera: Import blobs <3 weeks ago> [e9ecf8ca]
+by: Arian (arian.kulmer@web.de)
+davinci: overlay: Configure proper rounded corners <3 weeks ago> [5332ae60]
+by: yankarinRG (yankarinrg@gmail.com)
+davinci: overlay: Add 2 more notification icons <1 year, 1 month ago> [e987da7c]
+by: eray orçunus (erayorcunus@gmail.com)
+davinci: overlay: Leave space for FOD while bouncer is requesting Pattern on PIN <3 weeks ago> [3a07c2e9]
+by: Demon000 (demonsingur@gmail.com)
+davinci: overlay: Adjust Biometric dialog for fod <4 months ago> [edbaf38b]
+by: TheScarastic (warabhishek@gmail.com)
+davinci: overlay: Configure light capabilities <3 weeks ago> [85b65715]
+by: Arian (arian.kulmer@web.de)
+davinci: overlay: Enable option for full screen aspect ratio <2 years ago> [bc8ff642]
+by: Jesse Chan (jc@lineageos.org)
+davinci: overlay: Define fingerprint position <6 weeks ago> [0fd7f2d5]
+by: Arian (arian.kulmer@web.de)
+davinci: overlay: Hide sRGB toggle in developer options <2 years, 7 months ago> [ba937520]
+by: maxwen (max.weninger@gmail.com)
+davinci: overlay: Adjust vibration strength <2 weeks ago> [39d364bb]
+by: Arian (arian.kulmer@web.de)
 
 [kernel/xiaomi/davinci]
-Merge "net: qrtr: Attempt to linearize skb for forwarding" into kernel.lnx.4.14.r8-rel <6 days ago> [5abec5918ad9]
-by: Linux Build Service Account (lnxbuild@localhost)
-Merge "ARM: dts: msm: Add GPU 800Mhz fmax support for sdmmagpie GPU" into kernel.lnx.4.14.r8-rel <6 days ago> [9f106ee71f12]
-by: Linux Build Service Account (lnxbuild@localhost)
-ARM: dts: msm: Add GPU 800Mhz fmax support for sdmmagpie GPU <3 weeks ago> [9db5711e569a]
-by: Indira Biruduraju (ibirudur@codeaurora.org)
-net: qrtr: Attempt to linearize skb for forwarding <7 months ago> [54b1142febbf]
-by: Chris Lew (clew@codeaurora.org)
-net: qrtr: Handle error from skb_put_padto <7 months ago> [84ada2fd9818]
-by: Chris Lew (clew@codeaurora.org)
-Merge commit '1e77ce42fa12253a904c5b08591b1b37d58a913b' into HEAD <7 days ago> [878cc5016cc2]
-by: Shreyas Narayan (shrena@codeaurora.org)
+Merge tag 'LA.UM.8.1.r1-14900-sm8150.0' into kernel.lnx.4.14.r4-rel <4 days ago> [f7c222f9090d]
+by: Nathan Chancellor (natechancellor@gmail.com)
+Merge tag 'LA.UM.8.1.r1-14700-sm8150.0' into kernel.lnx.4.14.r4-rel <4 days ago> [73672f8d2c8b]
+by: Nathan Chancellor (natechancellor@gmail.com)
+Merge tag 'LA.UM.8.1.r1-14500-sm8150.0' into kernel.lnx.4.14.r4-rel <4 days ago> [9b44c4c8dbcb]
+by: Nathan Chancellor (natechancellor@gmail.com)
+
+[vendor/xiaomi/davinci]
+davinci: Add star wars popup sounds <9 days ago> [e26bb78]
+by: Arian (arian.kulmer@web.de)
+davinci: Import proprietary files <3 weeks ago> [4d6a3c2]
+by: Arian (arian.kulmer@web.de)
+
+
+====================
+     05-08-2020
+====================
+
+[frameworks/base]
+Forward port CM Screen Security settings (1/2) <5 years ago> [f1456e72072]
+by: Michael Bestas (mikeioannina@gmail.com)
+
+[packages/apps/Settings]
+Settings: Forward port lock pattern grid size (2/2) <6 years ago> [f2f870f410]
+by: Michael Bestas (mikeioannina@gmail.com)
+
+[device/xiaomi/davinci]
+davinci: overlay: Enable suspend when screen off due to proximity <12 days ago> [6f4e0642]
+by: Arian (arian.kulmer@web.de)
+davinci: overlay: Increase minimal brightness to 2 <12 days ago> [045f77e2]
+by: Arian (arian.kulmer@web.de)
+davinci: overlay: Import brightness overlays from MIUI <2 months ago> [70a33f78]
+by: TheScarastic (warabhishek@gmail.com)
+davinci: overlay: Enable burn in protection <12 days ago> [07ad30b7]
+by: Arian (arian.kulmer@web.de)
+davinci: Add frameworks-res overlay <8 weeks ago> [ed9551f7]
+by: Arian (arian.kulmer@web.de)
+davinci: Build separate system and vendor HIDL libs <1 year, 11 months ago> [5571d83f]
+by: Demon Singur (demonsingur@gmail.com)
+davinci: Build dummy android.hidl.[base,manager]@1.0 <2 years, 5 months ago> [8b778de2]
+by: dianlujitao (dianlujitao@lineageos.org)
+davinci: Add assertions on baseband version <3 weeks ago> [ee2e211a]
+by: TheScarastic (warabhishek@gmail.com)
+davinci: Ship and update dtbo image <5 months ago> [455d3cd6]
+by: raysenlau (raysen@live.cn)
+davinci: Ship and update vbmeta image <1 year ago> [39c32135]
+by: XiNGRZ (chenxingyu92@gmail.com)
+davinci: Build disabled vbmeta image <1 year, 11 months ago> [36f3e06a]
+by: Christian Oder (myself5@carbonrom.org)
+davinci: Import qti_whitelist <3 weeks ago> [ec881cc2]
+by: Arian (arian.kulmer@web.de)
+davinci: Include qcom sepolicy <3 weeks ago> [b7bf60e8]
+by: Arian (arian.kulmer@web.de)
+davinci: Import manifest and compatibility matrix <3 weeks ago> [bd3efd90]
+by: Arian (arian.kulmer@web.de)
+davinci: Import config.fs from LA.UM.8.9.r1-08500-SM6xx.0 <5 weeks ago> [5c43c5af]
+by: Arian (arian.kulmer@web.de)
+davinci: Set recovery pixel format <4 weeks ago> [8c83e365]
+by: Arian (arian.kulmer@web.de)
+davinci: Import sec_config and mediacodec policy <4 weeks ago> [dd6327af]
+by: Arian (arian.kulmer@web.de)
+davinci: Configure partitions <7 weeks ago> [1e2f7afe]
+by: Arian (arian.kulmer@web.de)
+davinci: Use permissive selinux <7 weeks ago> [a88118da]
+by: Arian (arian.kulmer@web.de)
+davinci: Remove unused kernel cmdline arguments <9 months ago> [07219098]
+by: Demon000 (demonsingur@gmail.com)
+davinci: Configure Kernel <7 weeks ago> [e5b7d6e6]
+by: Arian (arian.kulmer@web.de)
+davinci: Configure architecture and platform <7 weeks ago> [97d0194b]
+by: Arian (arian.kulmer@web.de)
+davinci: Configure display density <7 weeks ago> [858abbcd]
+by: Arian (arian.kulmer@web.de)
+davinci: Builds have overriding commands <1 year, 11 months ago> [f7442584]
+by: Dan Willemsen (dwillemsen@google.com)
+davinci: Use 6GB dalvik-heap config <5 months ago> [454e90dd]
+by: Lokesh Gidra (lokeshgidra@google.com)
+davinci: Inherit product_launched_with_p.mk <3 months ago> [2ee2e9e4]
+by: LuK1337 (priv.luk@gmail.com)
+davinci: Call the proprietary setup <7 weeks ago> [533868a4]
+by: Arian (arian.kulmer@web.de)
+davinci: Add extract scripts <8 weeks ago> [b48dfc8c]
+by: Arian (arian.kulmer@web.de)
+
+
+====================
+     05-07-2020
+====================
+
+[frameworks/base]
+SystemUI: Make sure notification icons are sticked to the left <5 days ago> [767388cc33b]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[packages/apps/DerpQuest]
+DerpQuest: Use the right key to set QS security footer <5 days ago> [2ba1e1d]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+CustomSeekbarPreference: Increase the height of plus & minus buttons <6 days ago> [54979d7]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+
+====================
+     05-06-2020
+====================
+
+[frameworks/base]
+SystemUI: Make sure volume expand icon points correctly <7 days ago> [a6c23be801e]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[kernel/xiaomi/davinci]
+Merge branch 'kernel.lnx.4.14.r4-rel' of https://github.com/android-linux-stable/msm-4.14 into VantomKernel <6 days ago> [28e7089b4872]
+by: vantoman (Mustafa.vantom@gmail.com)
+Merge 4.14.179 into kernel.lnx.4.14.r4-rel <7 days ago> [3f378d5eb42e]
+by: Nathan Chancellor (natechancellor@gmail.com)
 
 
