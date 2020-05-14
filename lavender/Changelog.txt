@@ -1,9 +1,11 @@
               ========================
                    ROM Changelog
               ========================
+- May sec patch (r34)
 - Removed the junky LockScreen clock date animation
 - Redistribute QS tile on orientation change
-- Moved brightness slider settings out of tuner - Adds the ability to back em up as the rest and fixes some bugs related
+- Moved brightness slider settings out of tuner 
+- Adds the ability to back em up as the rest and fixes some bugs related
 - In-rom changelog got a new look, and is more readable and user friendly now
 - Set a default custom QS header image
 - Make sure the padding changes in QS header only apply if a header is really selected
@@ -18,14 +20,26 @@
 - Fixed a bug where old QS detail view UI would show instead of panels
 - Fixed some translations related bugs
 - Tuned some dimens to make StatusBar icons equal in size and padding
-- And more bug fixes
-- 100% Forgot stuff - But this is it roughly
+- Added battery bar (improvements yet to come)
+- Move StatusBar brightness control to gesture settings
+- Updates to translations
+- Fixed hide power menu on LS switch
+- Added flash local file option via OpenDelta
+- Expandable volume panel
+- Added charging bolt on battery text (toggleable)
+- New icon to battery saver QS tile
+
+Device Side:
 
                ===========================
                      Device Changelog
                ===========================
-- Fuck4pda 4.4.220 kernel
-- Fix lights
-- Update Russian translations
+ - Fixed notifications LED
+ - Updated Russian translation
+ - Fixed screen-recording lags
+ - Upstreamed kernel
+ - Fixed apex
+ - Updated thermal from miui
+ - Updated blobs
 
 
