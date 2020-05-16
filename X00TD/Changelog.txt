@@ -1,15 +1,3 @@
-Changelog for Official DerpFest Build Update 20.04.2020 for X00TD:
+Changelog for Official DerpFest Build Update 16.05.2020 for X00TD:
 
-[SOURCE]
-
-• Added 'R' style notification (has a toggle)
-• Added HeadsUp blacklists (toggle)
-• Added HeadsUp snooze function (toggle)
-• Added HeadsUp timeout function (toggle)
-• Tuned some dimens to make icon spacing on Status bar equal
-• Added proper fix of Android Auto
-• Fixed custom lockscreen wallpaper
-• Removed RGB accent picker
-• Added per-app cellular data, vpn and wifi restrictions
-• Used Aosp settings intelligence
-• Maybe more things can't remember ;)
+https://telegra.ph/Changelog-05-16-3
