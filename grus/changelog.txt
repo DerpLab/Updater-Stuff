@@ -1,8 +1,7 @@
-DerpFest 27-04-2020 MI 9 SE
+DerpFest 17-05-2020 MI 9 SE
 Changelog: 
-* add noch hide mode
-* 'R' style noti header
-* fixes
-* drop cust vibrator hal
-* update FOD
-* update media/audio
+* updated the brightness table
+* 1080p + 4k for ultrawide cam(@vodik7)
+* custom vibra is back
+* vendor 11.0.5.0 EEA update(install new FW from https://t.me/mi9sederp)
+* kernel upstream
