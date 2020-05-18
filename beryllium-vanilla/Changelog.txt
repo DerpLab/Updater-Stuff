@@ -1,7 +1,5 @@
-- Added Adaptive Playback
-- Added FPS Counter QS Tile
-- Added FireFox Lite Prebuilt
-- Replaced Snap Cam with Google Camera Go
-- Replaced Gallery with QP Gallery
-- Fixed Disable Power Menu on Secured Lock Screen Toggle
-- Temporarily Switched to Optimus Drunk Kernel
+- Switched to MiPa Kernel
+- Fixed Hide Pill in Landscape Mode
+- Improved Two Target Preference Divider Visibility
+- Switched to 24 bit for Audio Playback
+- Updated QP Gallery
