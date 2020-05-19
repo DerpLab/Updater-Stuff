@@ -34,12 +34,8 @@ Device Side:
                ===========================
                      Device Changelog
                ===========================
- - Fixed notifications LED
+ - Fixed lag animation
  - Updated Russian translation
- - Fixed screen-recording lags
- - Upstreamed kernel
- - Fixed apex
- - Updated thermal from miui
  - Updated blobs
 
 
