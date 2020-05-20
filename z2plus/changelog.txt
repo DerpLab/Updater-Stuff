@@ -1,5 +1,16 @@
 Device:
 
+Build Date 20/05/2020
+Derpfest Pie non Treble
+ * Initial Build
+ * 5 May 2020 Security patch r56
+ * Fixed Press Home To Wake
+ * Reverted Utouch Functionality
+ * Nuked Longtap Home for Google Assistant as it interfears while Finger print register
+ * Enable Call Recording
+ * Kernel 3.18.140 Statix based on Caf Tag LA.UM.7.5.r1-05300-8x96.0' thanks to @prometheusXderpgang for kernel
+ * Se Linux Permissive
+
 Build Date 20/04/2020
  * Blobs update
  * Added back ANT+
