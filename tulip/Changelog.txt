@@ -1,157 +1,99 @@
-Device Changelog
-
-• Merge tag R34 (May security patch)
-• Kernel upstreamed 4.4.222
-• Fixed Offline Charge
-• Disable HD Logo
-• Changed default Camera for CameraGo
-• Use MIUI poweroff charging animation
-• Changed to Coral FP May Update
-• Rebased in the new DT with a lot of improvements and optimizations
-• Source updated
-
-
-
-Source Changelog
-
 ====================
-     05-10-2020
-====================
-
-[manifest]
-manifest: track system/bpf from LOS <23 hours ago> [b5e276a]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-
-====================
-     05-09-2020
+     05-20-2020
 ====================
 
 
 ====================
-     05-08-2020
+     05-19-2020
 ====================
 
 [frameworks/base]
-Forward port CM Screen Security settings (1/2) <5 years ago> [f1456e72072]
-by: Michael Bestas (mikeioannina@gmail.com)
-SystemUI: Make sure notification icons are sticked to the left <3 days ago> [767388cc33b]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/apps/Settings]
-Settings: Forward port lock pattern grid size (2/2) <6 years ago> [f2f870f410]
-by: Michael Bestas (mikeioannina@gmail.com)
-
-[packages/apps/DerpQuest]
-DerpQuest: Use the right key to set QS security footer <3 days ago> [2ba1e1d]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-
-====================
-     05-07-2020
-====================
-
-[packages/apps/DerpQuest]
-CustomSeekbarPreference: Increase the height of plus & minus buttons <3 days ago> [54979d7]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-
-====================
-     05-06-2020
-====================
-
-[frameworks/base]
-SystemUI: Make sure volume expand icon points correctly <4 days ago> [a6c23be801e]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-SystemUI: tint volume panel expand button to follow textColorSecondary <5 days ago> [32464ef7c41]
+base: Allow choosing a custom color for pressed FOD [1/2] <2 days ago> [bee6a79c40e]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 
 [packages/apps/Dialer]
-Automatic translation import <5 days ago> [f58ec8e11]
+Automatic translation import <26 hours ago> [0c2ebe97a]
 by: Akhil Narang (akhilnarang.1999@gmail.com)
 
 [packages/apps/Launcher3]
-Automatic translation import <5 days ago> [f7c3480c1]
-by: Akhil Narang (akhilnarang.1999@gmail.com)
-
-[packages/apps/Messaging]
-Automatic translation import <5 days ago> [19ba077]
+Automatic translation import <26 hours ago> [fa17e33a5]
 by: Akhil Narang (akhilnarang.1999@gmail.com)
 
 
 ====================
-     05-05-2020
-====================
-
-[manifest]
-Merge tag 'android-10.0.0_r34' of https://android.googlesource.com/platform/manifest into ten <5 days ago> [f9288e2]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-Manifest for Android 10.0.0 Release 34 <5 days ago> [3900458]
-by: The Android Open Source Project (initial-contribution@android.com)
-
-[build/make]
-Merge tag 'android-10.0.0_r34' of https://android.googlesource.com/platform/build into ten <5 days ago> [9c45b91f0]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[frameworks/av]
-Merge tag 'android-10.0.0_r34' into staging/ten-android-10.0.0_r34 <5 days ago> [c7db185c8]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[frameworks/base]
-Merge tag 'android-10.0.0_r34' of https://android.googlesource.com/platform/frameworks/base into ten <5 days ago> [c38374bd0fd]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/apps/Settings]
-Merge tag 'android-10.0.0_r34' into staging/ten-android-10.0.0_r34 <5 days ago> [850d70bedd]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/services/Telephony]
-Merge tag 'android-10.0.0_r34' into staging/ten-android-10.0.0_r34 <5 days ago> [cce9edf72]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[system/bt]
-Merge tag 'android-10.0.0_r34' into staging/ten-android-10.0.0_r34 <5 days ago> [8667d6a58]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-
-====================
-     05-04-2020
+     05-18-2020
 ====================
 
 [frameworks/base]
-build: Don't check for fingerprint mismatch <7 months ago> [98cf93a34f9]
-by: Dan Cartier (nospamdan1@gmail.com)
-SystemUi: Replace QS Tile  Battery Saver Tile icons to MD2 Design <4 weeks ago> [23fd9a30a2a]
-by: deadmanxxd (deadmanxxd@gmail.com)
-Default Permissions: grant Storage Permission to GBoard <5 weeks ago> [b4ffd6bc13d]
-by: SuperDroidBond (superdroidbond@yahoo.com)
-base: Redo expanded volume panel for 10.x <1 year, 2 months ago> [0e58b1981fe]
-by: HrX03 (dn.bianco03@gmail.com)
-
-[frameworks/native]
-input: Adjust priority <3 years, 7 months ago> [12bd7e1f9]
-by: Steve Kondik (steve@cyngn.com)
+DefaultPermissionGrantPolicy: Remove uneeded permissions <3 days ago> [4969c1d517f]
+by: Ido Ben-Hur (idoybh2@gmail.com)
 
 [packages/apps/Settings]
-Settings: Update RU translation (#10) <6 days ago> [70e26d0b46]
-by: skorpion720 (40567079+skorpion720@users.noreply.github.com)
-
-[packages/apps/DerpQuest]
-DerpQuest: Allow toggling charging bolt [2/2] <8 days ago> [3f6ad2c]
+Settings: Add boot receiver for SELinux switch <3 days ago> [163bb69b14]
 by: Ido Ben-Hur (idoybh2@gmail.com)
-DerpQuest: Update RU translation (#56) <6 days ago> [9513e6e]
-by: skorpion720 (40567079+skorpion720@users.noreply.github.com)
 
-[packages/apps/OpenDelta]
-OpenDelta: Enable file flashing for A-only aswell <6 days ago> [95788fc]
+[vendor/aosip]
+privapp-permissions-elgoog: Remove google's settings intelligence <3 days ago> [514d741]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 
 [scripts]
-scripts: aosp-merger: Split long echoes <6 days ago> [e3619af]
+updater: fix typos in comments (#1) <3 days ago> [433134a]
+by: Omkar Chandorkar (forumomkar@gmail.com)
+scripts: updater: Rewrite <4 days ago> [d63c99f]
 by: Ido Ben-Hur (idoybh2@gmail.com)
-scripts: aosp-merger: Would be nice to know what we're pushing <6 days ago> [c145641]
+
+
+====================
+     05-17-2020
+====================
+
+[manifest]
+manifest: track sm8150 HALs from LOS <4 days ago> [7d900be]
 by: Ido Ben-Hur (idoybh2@gmail.com)
-scripts: aosp-merger: Only reset to new tags if there are changes <6 days ago> [cf6fd98]
+
+[frameworks/base]
+SystemUI: Update RU translation (#18) <3 days ago> [b81905697c8]
+by: RunningMango (36758157+RunningMango@users.noreply.github.com)
+
+[scripts]
+scripts: Introduce updater <4 days ago> [703527a]
+by: RunningMango (nik.volosatyh@gmail.com)
+
+
+====================
+     05-16-2020
+====================
+
+
+====================
+     05-15-2020
+====================
+
+[vendor/overlay]
+overlays: Add hide pill in full gestural nav mode overlays (#8) <5 days ago> [8105c65]
+by: Aman Kumar Singh (46120388+amanrajOO7@users.noreply.github.com)
+
+[packages/apps/DerpQuest]
+DerpQuest: Improve two target preference divider visability <5 days ago> [bfff581]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+
+====================
+     05-14-2020
+====================
+
+[manifest]
+manifest: track system/bpf from LOS <11 days ago> [2e5630c]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[frameworks/opt/telephony]
+When SPN is empty, use PNN in mobile network settings <7 months ago> [4d0a6df31]
+by: Jack Yu (jackyu@google.com)
+
+[vendor/aosip]
+kernel: Allow specifying a custom linker binary <7 weeks ago> [08a72d6]
+by: Luca Stefani (luca.stefani.ge1@gmail.com)
+Revert "kernel: Add option for using LLD as linker" <7 days ago> [1abbf8b]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 
 
