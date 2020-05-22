@@ -1,85 +1,105 @@
 ====================
-     05-16-2020
+     05-22-2020
 ====================
 
 
 ====================
-     05-15-2020
+     05-21-2020
 ====================
 
-
-====================
-     05-14-2020
-====================
-
-[manifest]
-manifest: track system/bpf from LOS <7 days ago> [2e5630c]
+[scripts]
+updater: fix typos in comments (#1) <5 days ago> [1dcf123]
+by: Omkar Chandorkar (forumomkar@gmail.com)
+scripts: updater: Rewrite <5 days ago> [a26e2f5]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 
 
 ====================
-     05-13-2020
+     05-20-2020
 ====================
-
-[manifest]
-Track our own google-customization <4 days ago> [be05c92]
-by: Ido Ben-Hur (idoybh2@gmail.com)
 
 [packages/apps/Dialer]
-Automatic translation import <4 days ago> [2f5cd72a0]
+Automatic translation import <3 days ago> [0c2ebe97a]
 by: Akhil Narang (akhilnarang.1999@gmail.com)
 
 [packages/apps/Launcher3]
-Automatic translation import <4 days ago> [aacb1204c]
+Automatic translation import <3 days ago> [fa17e33a5]
 by: Akhil Narang (akhilnarang.1999@gmail.com)
 
-[packages/apps/Messaging]
-Automatic translation import <4 days ago> [fc09fdc]
-by: Akhil Narang (akhilnarang.1999@gmail.com)
-
-
-====================
-     05-12-2020
-====================
-
-[packages/apps/SettingsIntelligence]
-SettingsIntelligence: Add RU translation (#1) <5 days ago> [a217ef8]
+[packages/apps/DerpQuest]
+DerpQuest: Update RU translation (#59) <3 days ago> [f8a8ab4]
 by: Northn (57762732+Northn@users.noreply.github.com)
-
-[packages/apps/OpenDelta]
-Merge remote-tracking branch 'omni/android-10' into ten <5 days ago> [0675dd3]
+ColorPicker: Enable the reset button when setting a default at runtime <3 days ago> [20c139f]
 by: Ido Ben-Hur (idoybh2@gmail.com)
-Automatic translation import <6 days ago> [d5d967f]
-by: maxwen (max.weninger@gmail.com)
+DerpQuest: Allow choosing a custom color for pressed FOD [2/2] <3 days ago> [0b646ec]
+by: Ido Ben-Hur (idoybh2@gmail.com)
 
 
 ====================
-     05-11-2020
-====================
-
-[packages/apps/Settings]
-Settings: Update RU translation (#11) <6 days ago> [19bd341ab4]
-by: Northn (57762732+Northn@users.noreply.github.com)
-
-
-====================
-     05-10-2020
+     05-19-2020
 ====================
 
 [frameworks/base]
-SystemUI: Add RU translation (#17) <7 days ago> [ecd30d8f212]
-by: Northn (57762732+Northn@users.noreply.github.com)
+base: Allow choosing a custom color for pressed FOD [1/2] <3 days ago> [bee6a79c40e]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[packages/apps/Settings]
+Settings: Add boot receiver for SELinux switch <4 days ago> [163bb69b14]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[packages/apps/DerpQuest]
+DerpQuest: Disable SELinux switch if unrooted <4 days ago> [336062d]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+Utils: Add root check function <4 days ago> [a817422]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+DerpQuest: Add SELinux switch <2 years, 11 months ago> [65f48a6]
+by: Alex Cruz (mazdarider23@gmail.com)
+
+
+====================
+     05-18-2020
+====================
+
+[frameworks/base]
+DefaultPermissionGrantPolicy: Remove uneeded permissions <4 days ago> [4969c1d517f]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+SystemUI: Update RU translation (#18) <5 days ago> [b81905697c8]
+by: RunningMango (36758157+RunningMango@users.noreply.github.com)
 
 [vendor/aosip]
-vendor: Don't build PixelLiveWallpaperPrebuilt, PixelSetupWizardOverlay for vanilla (#20) <6 days ago> [2e23ac1]
+privapp-permissions-elgoog: Remove google's settings intelligence <4 days ago> [514d741]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[vendor/overlay]
+overlay: Grant default DND access to AOSP settings intelligence <4 days ago> [77a94bf]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+
+====================
+     05-17-2020
+====================
+
+[manifest]
+manifest: track sm8150 HALs from LOS <6 days ago> [7d900be]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[scripts]
+scripts: Introduce updater <5 days ago> [703527a]
+by: RunningMango (nik.volosatyh@gmail.com)
+
+
+====================
+     05-16-2020
+====================
+
+[vendor/overlay]
+overlays: Add hide pill in full gestural nav mode overlays (#8) <7 days ago> [8105c65]
 by: Aman Kumar Singh (46120388+amanrajOO7@users.noreply.github.com)
 
 [packages/apps/DerpQuest]
-DerpQuest: Update RU translation (#57) <7 days ago> [48a3e9c]
-by: Northn (57762732+Northn@users.noreply.github.com)
-
-[packages/apps/OpenDelta]
-Automatic translation import <6 days ago> [a965ae8]
-by: maxwen (max.weninger@gmail.com)
+DerpQuest: Update Chinese translations (#58) <6 days ago> [7312da7]
+by: ALKALiKong (54100342+ALKALiKong233@users.noreply.github.com)
+DerpQuest: Improve two target preference divider visability <7 days ago> [bfff581]
+by: Ido Ben-Hur (idoybh2@gmail.com)
 
 
