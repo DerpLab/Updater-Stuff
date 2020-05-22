@@ -1,68 +1,36 @@
-(08/05/20)
+(22/05/20)
 ######################
 ## DEVICE CHANGELOG ##
 ######################
 
-sdm660-common: Introduce choosable APEX
-sdm660-common: Downgrade GPS HAL to LA.UM.8.2.r1-05100-sdm660.0
-sdm660-common: move A/B stuff to common
-sdm660-common: remove double defined overlay
-sdm660-common: init: remove double definied services
-sdm660-common: Fix A2DP when offload is disabled
-sdm660-common: Remove Speed-Profiled vendor jars contents.
-sdm660-common: rework manifest based on caf
-sdm660-common: dont build a 32 bit version of displayservice
-sdm660-common: 60 seconds as default screen timeout
-sdm660-common: use CLANG 11 for kernel
-sdm660-common: rootdir: remove unused init.mdm.sh
-sdm660-common: add hostapd configuration files from caf
-sdm660-common: import irqbalance from caf
-sdm660-common: build radio config 1.1
-sdm660-common: import compatibility matrix from caf
-sdm660-common: switch to blueprints where it's possible
-sdm660-common: rootdir: update init.class_main
-sdm660-common: rootdir: separate xiaomiparts related initialization
-sdm660-common: remove redundant overlays
-sdm660-common: format fstabs
-sdm660-common: Disable NearbyMessagingService
-sdm660-common: overlay: Remove unneeded network radio and iwlan overlays
-sdm660-common: prop: cleanup radio props
-sdm660-common: change default network
-sdm660-common: config NTP with the secondary server
-sdm660-common: audio: update audio policy configuration
-sdm660-common: Enabling 24 bit profile for audio capture
-jasmine_sprout: audio: offload 24 bits playback supports mp3/aac format
-sdm660-common: adjust audio props
-sdm660-common: enable speaker protection only for jason
-sdm660-common: don't show navbar by default
-sdm660-common: set button brightness default to 64
-sdm660-common: jason: fix fp home button
-sdm660-common: Decommonize FM radio
-sdm660: overlay: Disable fingerprint swipe gesture in common
-sdm660: Telephony: Add volteReplacementRat and enable SMS shift tables
-sdm660: overlay: Inject IccPhoneBookInterfaceManager in Telephony
-sdm660-common: overlay: Switch to old Auto Selection Network UI
-sdm660-common: use cortex-a73 for arm64
-sdm660: Added spanish strings on xiaomi doze and updated strings on xiaomi parts
-sdm660-common: Update blobs from LA.UM.8.2.r1-06500-sdm660.0
-sdm660-common: prop: fix property override for lmkd
-sdm660: audio: remove unneeded a2dp offload xml
-sdm660: Nuke some DRM blobs
-sdm660-common: fstab: increase ZRAM to 2GB
-common: remove KPI marker at ADSP start
-IMS: Disable VT for specific operator
-IMS: Add carrier config.
-defconfig: enable DYNAMIC_STUNE_BOOST 
-defconfig: enable CPU_boost & RCU_boost
-Merge 4.4.222 into kernel.lnx.4.4.r38-rel
-defconfig: enable POWERSUSPEND
-cpuidle improvements
-power efficient work queues
-mm: Increase ratelimit pages value 
-mm: Increase vmstat interval 
-mm: Always overcommit memory by default 
-cpumask: Add cpumasks for big and LITTLE CPU clusters 
-
+fs: block TikTok from launching
+Revert "defconfig: add BIG & LITTLE CPU mask"
+ARM: dts: xiaomi: Optimise notification LED fluency
+net: wireguard: update wireguard to version 1.0.20200506
+defconfig: enable CONFIG_MSM_PERFORMANCE & CONFIG_MSM_PERFORMANCE_CPUFREQ_LIMITS_VOTING_ONLY
+defconfig: turn off app blocker as it's unnessary (xda labs fcs fixed)
+diag: Set socket CDSP enum value same as CDSP diag macro
+Revert "msm: camera: isp: Fix frame drop pattern"
+Revert "msm: camera_v2: isp: handle frame drop due to scheduling latency"
+Revert "msm: camera_v2: Fix page fault issue in camera ISP"
+Revert "msm: camera_v2: isp: update the frame drop during error case"
+Revert "msm: camera_v2: Add frame drop notify"
+Revert "msm: camera_v2: isp: handle frame drop in error case"
+Revert "msm: camera_v2: reject the late request"
+sdm660-common: Add sigma miracast blobs from LA.UM.8.2.r1-06500-sdm660.0
+sdm660-common: update adsp blobs from LA.UM.8.2.r1-06500-sdm660.0
+sdm660-common: add missing sdsp/mdsp blobs
+sdm660: whyred: libinit: Set product model dynamically
+sdm660-common: light: Drop unnecessary handled variable in setLight()
+sdm660-common: lights: fix an uninitialized local variable dereference
+sdm660-common: Rework Light HAL based on xiaomi-msm8998 source
+sdm660-common: Add headphone & mic gain to XiaomiPart
+sdm660: sepolicy: Adjust sepolicy for new tap to wake nodes
+sdm660-common: add missing cDSP libs from LA.UM.8.2.r1-06500-sdm660.0
+sdm660-common: rootdir: add vendor.cdsprpcd
+sdm660-common: remove low power whitelist
+sdm660-common: use perfconfigstore instead of properties
+sdm660: XiaomiParts: PT-rBR translation update
 
 ######################
 ##  ROM  CHANGELOG  ##
@@ -75,7 +43,7 @@ cpumask: Add cpumasks for big and LITTLE CPU clusters
 - Adds the ability to back em up as the rest and fixes some bugs related
 - In-rom changelog got a new look, and is more readable and user friendly now
 - Set a default custom QS header image
-Make sure the padding changes in QS header only apply if a header is really selected
+- Make sure the padding changes in QS header only apply if a header is really selected
 - Reverted RGB picker (was causing issues on some 3rd party apps)
 - Switch to use AOSP SettingsIntelligence (No more random settings crashes for some users & search is more reliable)
 - Hide notch options
