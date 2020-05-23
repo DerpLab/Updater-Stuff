@@ -1,41 +1,118 @@
-              ========================
-                   ROM Changelog
-              ========================
-- May sec patch (r34)
-- Removed the junky LockScreen clock date animation
-- Redistribute QS tile on orientation change
-- Moved brightness slider settings out of tuner 
-- Adds the ability to back em up as the rest and fixes some bugs related
-- In-rom changelog got a new look, and is more readable and user friendly now
-- Set a default custom QS header image
-- Make sure the padding changes in QS header only apply if a header is really selected
-- Reverted RGB picker (was causing issues on some 3rd party apps)
-- Switch to use AOSP SettingsIntelligence (No more random settings crashes for some users & search is more reliable)
-- Hide notch options
-- Some bluetooth related fixes
-- Screen recording lags fixed
-- Added "R style" notification titles
-- Added new HeadsUp settings (Blacklist, stoplist, duration, snooze...)
-- Allow toggling between the new QS panels and the old in-qs view
-- Fixed a bug where old QS detail view UI would show instead of panels
-- Fixed some translations related bugs
-- Tuned some dimens to make StatusBar icons equal in size and padding
-- Added battery bar (improvements yet to come)
-- Move StatusBar brightness control to gesture settings
-- Updates to translations
-- Fixed hide power menu on LS switch
-- Added flash local file option via OpenDelta
-- Expandable volume panel
-- Added charging bolt on battery text (toggleable)
-- New icon to battery saver QS tile
+====================
+     05-22-2020
+====================
 
-Device Side:
+
+====================
+     05-21-2020
+====================
+
+[scripts]
+updater: fix typos in comments (#1) <5 days ago> [1dcf123]
+by: Omkar Chandorkar (forumomkar@gmail.com)
+scripts: updater: Rewrite <5 days ago> [a26e2f5]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+
+====================
+     05-20-2020
+====================
+
+[packages/apps/Dialer]
+Automatic translation import <3 days ago> [0c2ebe97a]
+by: Akhil Narang (akhilnarang.1999@gmail.com)
+
+[packages/apps/Launcher3]
+Automatic translation import <3 days ago> [fa17e33a5]
+by: Akhil Narang (akhilnarang.1999@gmail.com)
+
+[packages/apps/DerpQuest]
+DerpQuest: Update RU translation (#59) <3 days ago> [f8a8ab4]
+by: Northn (57762732+Northn@users.noreply.github.com)
+ColorPicker: Enable the reset button when setting a default at runtime <3 days ago> [20c139f]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+DerpQuest: Allow choosing a custom color for pressed FOD [2/2] <3 days ago> [0b646ec]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+
+====================
+     05-19-2020
+====================
+
+[frameworks/base]
+base: Allow choosing a custom color for pressed FOD [1/2] <3 days ago> [bee6a79c40e]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[packages/apps/Settings]
+Settings: Add boot receiver for SELinux switch <4 days ago> [163bb69b14]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[packages/apps/DerpQuest]
+DerpQuest: Disable SELinux switch if unrooted <4 days ago> [336062d]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+Utils: Add root check function <4 days ago> [a817422]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+DerpQuest: Add SELinux switch <2 years, 11 months ago> [65f48a6]
+by: Alex Cruz (mazdarider23@gmail.com)
+
+
+====================
+     05-18-2020
+====================
+
+[frameworks/base]
+DefaultPermissionGrantPolicy: Remove uneeded permissions <4 days ago> [4969c1d517f]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+SystemUI: Update RU translation (#18) <5 days ago> [b81905697c8]
+by: RunningMango (36758157+RunningMango@users.noreply.github.com)
+
+[vendor/aosip]
+privapp-permissions-elgoog: Remove google's settings intelligence <4 days ago> [514d741]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[vendor/overlay]
+overlay: Grant default DND access to AOSP settings intelligence <4 days ago> [77a94bf]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+
+====================
+     05-17-2020
+====================
+
+[manifest]
+manifest: track sm8150 HALs from LOS <6 days ago> [7d900be]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[scripts]
+scripts: Introduce updater <5 days ago> [703527a]
+by: RunningMango (nik.volosatyh@gmail.com)
+
+
+====================
+     05-16-2020
+====================
+
+[vendor/overlay]
+overlays: Add hide pill in full gestural nav mode overlays (#8) <7 days ago> [8105c65]
+by: Aman Kumar Singh (46120388+amanrajOO7@users.noreply.github.com)
+
+[packages/apps/DerpQuest]
+DerpQuest: Update Chinese translations (#58) <6 days ago> [7312da7]
+by: ALKALiKong (54100342+ALKALiKong233@users.noreply.github.com)
+DerpQuest: Improve two target preference divider visability <7 days ago> [bfff581]
+by: Ido Ben-Hur (idoybh2@gmail.com)
 
                ===========================
                      Device Changelog
                ===========================
- - Fixed lag animation
- - Updated Russian translation
- - Updated blobs
+- Fixed all lags
+- Updated blobs from LA.UM.8.2.r1-06500-sdm660.0
+- Passed SafetyNet
+- Added basic USB HAL
+- Updated GPS hal
+- Enable qcom time services
+- 430 dpi by default
+- Added XiaomiParts
+- Added XiaomiDoze
 
 
