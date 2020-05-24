@@ -1,26 +1,22 @@
-Device side:
+Device:
 
-    All new kernel by @poad42 (source here)
-    Enforcing build (& updates to sepolicy)
-    New blobs from h2os beta v58 (f/w links below)
-    Pixel power HAL is back - with no logspam this time
-    Megred new gps & location caf tags
-    make sure you're on the latest f/w !
-    If fingerprint stops working for you flash this zip via twrp (it erases saved fingerprints)
+    OOS OB3 blobs (firmware links below)
+    Add doze pulse (show AoD) as an off-screen gesture action
+    Enable some missing off-screen gestures for cheeseburger
+    Fixes to the gesture selection menu
+    Fixed notification slider toast location
+    Changes in kernel as usual by poad (source), fixed cores stuck on max
 
-ROM side:
+ROM:
 
-    May sec patch (r34)
-    Added battery bar (improvements yet to come)
-    Move StatusBar brightness control to gesture settings
+    Fixed hide navigation pill on landscape
+    Added SELinux switch
+    Bug fixes for perm manager (log spam at boot gone)
+    Allow choosing a custom pressed icon color for FOD (irrelevant to our device)
+    Improved master switch divider visability, and make it resistant to themes
+    Enabled aux camera for 3rd party apps (added sepolicy rules)
+    Added old circle battery style back
+    Fixed detail view not showing for a few QS tiles
+    Fixed wrong activity for longpress on LTE QS tile
+    Allow showing StatusBar ticker for media
     Updates to translations
-    Fixed hide power menu on LS switch
-    Added flash local file option via OpenDelta
-    Expandable volume panel
-    Added charging bolt on battery text (toggleable)
-    New icon to battery saver QS tile
-    Increased the height of +/- icons in the seekbar
-    Fixed qs security footer text toggle
-    Allow changing the lock pattern grid size
-    Some other minor fixes
-    100% Forgot stuff - But this is it roughly
