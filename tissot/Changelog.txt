@@ -1,4 +1,236 @@
 ====================
+     05-25-2020
+====================
+
+[art]
+art: extend the supported cpu_variant list for arm64 <2 years, 7 months ago> [fd20d13e5a]
+by: Wei Wang (wangw@codeaurora.org)
+
+[packages/apps/DerpQuest]
+DerpQuest: Make TwoTargetPreference divider slimmer <7 hours ago> [18f8bd9]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+DerpQuest: Update RU translations (#60,#61) <12 hours ago> [db13530]
+by: RunningMango (36758157+RunningMango@users.noreply.github.com)
+
+
+====================
+     05-24-2020
+====================
+
+[device/aosip/sepolicy]
+common: Move aux camera whitelist prop to vendor <9 days ago> [cfb4ba0]
+by: dianlujitao (dianlujitao@lineageos.org)
+common: Expose aux camera {black,white}list props <3 weeks ago> [d650e9e]
+by: dianlujitao (dianlujitao@lineageos.org)
+
+[device/qcom/sepolicy]
+sepolicy: Unlabel aux camera whitelist prop (#2) <2 days ago> [bfcbd6ec]
+by: Adrian (adrianszymanski242@gmail.com)
+
+[device/qcom/sepolicy-legacy-um]
+sepolicy: Unlabel aux camera whitelist prop <3 weeks ago> [61163938]
+by: dianlujitao (dianlujitao@lineageos.org)
+
+[frameworks/base]
+base: Settings: Allow showing SB ticker for media [1/2] <2 days ago> [168b93787b3]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+SystemUI: Bring back good ol' circle battery style [1/2] <4 months ago> [1246962c116]
+by: Luca Stefani (luca.stefani.ge1@gmail.com)
+base: Add more RU translations (#20,#21) <2 days ago> [43467349366]
+by: RunningMango (36758157+RunningMango@users.noreply.github.com)
+
+[packages/apps/DerpQuest]
+DerpQuest: Allow showing SB ticker for media [2/2] <2 days ago> [19b577c]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+DerpQuest: Bring back good ol' circle battery style [2/2] <4 months ago> [ed78735]
+by: Luca Stefani (luca.stefani.ge1@gmail.com)
+
+
+====================
+     05-23-2020
+====================
+
+[frameworks/base]
+SystemUI: QS: LteTile: Launch network settings when long pressing <2 days ago> [c3d8400138a]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+SystemUI: QS: Don't launch details view when pressing on labels <2 days ago> [6986f7b5259]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+SystemUI: QS: Allow overriding panels switch in specific tiles <3 days ago> [bc1b65081cb]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+Revert "Revert "SystemUI: Enable and fix QS detail view, adapt layout to Pie"" <3 days ago> [522fff6f4f2]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[scripts]
+updater: fix typos in comments (#1) <8 days ago> [6c48758]
+by: Omkar Chandorkar (forumomkar@gmail.com)
+scripts: updater: Rewrite <8 days ago> [979784c]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+
+====================
+     05-22-2020
+====================
+
+
+====================
+     05-21-2020
+====================
+
+
+====================
+     05-20-2020
+====================
+
+[packages/apps/Dialer]
+Automatic translation import <6 days ago> [0c2ebe97a]
+by: Akhil Narang (akhilnarang.1999@gmail.com)
+
+[packages/apps/Launcher3]
+Automatic translation import <6 days ago> [fa17e33a5]
+by: Akhil Narang (akhilnarang.1999@gmail.com)
+
+[packages/apps/DerpQuest]
+DerpQuest: Update RU translation (#59) <6 days ago> [f8a8ab4]
+by: Northn (57762732+Northn@users.noreply.github.com)
+ColorPicker: Enable the reset button when setting a default at runtime <6 days ago> [20c139f]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+DerpQuest: Allow choosing a custom color for pressed FOD [2/2] <6 days ago> [0b646ec]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+
+====================
+     05-19-2020
+====================
+
+[frameworks/base]
+base: Allow choosing a custom color for pressed FOD [1/2] <6 days ago> [bee6a79c40e]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[packages/apps/Settings]
+Settings: Add boot receiver for SELinux switch <7 days ago> [163bb69b14]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[packages/apps/DerpQuest]
+DerpQuest: Disable SELinux switch if unrooted <7 days ago> [336062d]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+Utils: Add root check function <7 days ago> [a817422]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+DerpQuest: Add SELinux switch <2 years, 11 months ago> [65f48a6]
+by: Alex Cruz (mazdarider23@gmail.com)
+
+
+====================
+     05-18-2020
+====================
+
+[frameworks/base]
+DefaultPermissionGrantPolicy: Remove uneeded permissions <7 days ago> [4969c1d517f]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+SystemUI: Update RU translation (#18) <8 days ago> [b81905697c8]
+by: RunningMango (36758157+RunningMango@users.noreply.github.com)
+
+[vendor/aosip]
+privapp-permissions-elgoog: Remove google's settings intelligence <7 days ago> [514d741]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[vendor/overlay]
+overlay: Grant default DND access to AOSP settings intelligence <7 days ago> [77a94bf]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[vendor/gapps]
+gapps: Remove no longer needed perms <7 days ago> [9df2056]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+
+====================
+     05-17-2020
+====================
+
+[manifest]
+manifest: track sm8150 HALs from LOS <9 days ago> [7d900be]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[scripts]
+scripts: Introduce updater <8 days ago> [703527a]
+by: RunningMango (nik.volosatyh@gmail.com)
+
+
+====================
+     05-16-2020
+====================
+
+[vendor/overlay]
+overlays: Add hide pill in full gestural nav mode overlays (#8) <10 days ago> [8105c65]
+by: Aman Kumar Singh (46120388+amanrajOO7@users.noreply.github.com)
+
+[packages/apps/DerpQuest]
+DerpQuest: Update Chinese translations (#58) <9 days ago> [7312da7]
+by: ALKALiKong (54100342+ALKALiKong233@users.noreply.github.com)
+DerpQuest: Improve two target preference divider visability <10 days ago> [bfff581]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+
+====================
+     05-15-2020
+====================
+
+[frameworks/opt/telephony]
+When SPN is empty, use PNN in mobile network settings <7 months ago> [4d0a6df31]
+by: Jack Yu (jackyu@google.com)
+
+[vendor/aosip]
+kernel: Allow specifying a custom linker binary <7 weeks ago> [08a72d6]
+by: Luca Stefani (luca.stefani.ge1@gmail.com)
+Revert "kernel: Add option for using LLD as linker" <12 days ago> [1abbf8b]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+
+====================
+     05-14-2020
+====================
+
+[manifest]
+manifest: track system/bpf from LOS <2 weeks ago> [2e5630c]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+
+====================
+     05-13-2020
+====================
+
+[manifest]
+Track our own google-customization <12 days ago> [be05c92]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[packages/apps/Dialer]
+Automatic translation import <13 days ago> [2f5cd72a0]
+by: Akhil Narang (akhilnarang.1999@gmail.com)
+
+[packages/apps/Launcher3]
+Automatic translation import <13 days ago> [aacb1204c]
+by: Akhil Narang (akhilnarang.1999@gmail.com)
+
+[packages/apps/Messaging]
+Automatic translation import <13 days ago> [fc09fdc]
+by: Akhil Narang (akhilnarang.1999@gmail.com)
+
+
+====================
+     05-12-2020
+====================
+
+[packages/apps/SettingsIntelligence]
+SettingsIntelligence: Add RU translation (#1) <2 weeks ago> [a217ef8]
+by: Northn (57762732+Northn@users.noreply.github.com)
+
+[packages/apps/OpenDelta]
+Merge remote-tracking branch 'omni/android-10' into ten <2 weeks ago> [0675dd3]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+Automatic translation import <2 weeks ago> [d5d967f]
+by: maxwen (max.weninger@gmail.com)
+
+
+====================
      05-11-2020
 ====================
 
