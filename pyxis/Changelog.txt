@@ -1,0 +1,91 @@
+====================
+     05-28-2020
+====================
+
+[device/qcom/sepolicy-legacy]
+sepolicy: Add access policy for charger <4 months ago> [03d80cb]
+by: YumeMichi (do4suki@gmail.com)
+
+[hardware/aosip/interfaces]
+inscreen: Bump hal and add switchHbm method <3 months ago> [70bcabf]
+by: TheScarastic (warabhishek@gmail.com)
+
+
+====================
+     05-27-2020
+====================
+
+[packages/apps/Messaging]
+Automatic translation import <2 days ago> [ce6996b]
+by: Akhil Narang (akhilnarang.1999@gmail.com)
+
+
+====================
+     05-26-2020
+====================
+
+[packages/apps/Dialer]
+Dialer: Add extra privapp permissions xml <3 weeks ago> [f95c42a]
+by: Michael Bestas (mkbestas@lineageos.org)
+
+[packages/apps/Launcher3]
+Launcher3: Add FORCE_STOP_PACKAGES permission <3 weeks ago> [d66e87f]
+by: Josh Fox (XlxFoXxlX) (joshfox87@gmail.com)
+
+[vendor/aosip]
+extract_utils: Fix vendor Android.bp creation with subdirectory <5 days ago> [f45f384]
+by: Andreas Schneider (asn@cryptomilk.org)
+
+[vendor/overlay]
+overlays: Fix fc when trying to apply kronicgreen theme <3 weeks ago> [91ba24c]
+by: Josh Fox (XlxFoXxlX) (joshfox87@gmail.com)
+
+[scripts]
+fscripts: updater: Print diff with no pager <3 days ago> [4a931b2]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+
+====================
+     05-25-2020
+====================
+
+[art]
+art: extend the supported cpu_variant list for arm64 <2 years, 7 months ago> [fd20d13]
+by: Wei Wang (wangw@codeaurora.org)
+
+[packages/apps/DerpQuest]
+DerpQuest: Make TwoTargetPreference divider slimmer <3 days ago> [18f8bd9]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+
+====================
+     05-24-2020
+====================
+
+[device/aosip/sepolicy]
+common: Move aux camera whitelist prop to vendor <12 days ago> [cfb4ba0]
+by: dianlujitao (dianlujitao@lineageos.org)
+
+[device/qcom/sepolicy]
+sepolicy: Unlabel aux camera whitelist prop (#2) <5 days ago> [bfcbd6e]
+by: Adrian (adrianszymanski242@gmail.com)
+
+[device/qcom/sepolicy-legacy-um]
+sepolicy: Unlabel aux camera whitelist prop <3 weeks ago> [6116393]
+by: dianlujitao (dianlujitao@lineageos.org)
+
+[frameworks/base]
+base: Settings: Allow showing SB ticker for media [1/2] <5 days ago> [168b93787b3]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+
+====================
+     05-23-2020
+====================
+
+
+====================
+     05-22-2020
+====================
+
+
