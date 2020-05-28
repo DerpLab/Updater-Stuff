@@ -1,51 +1,20 @@
-Changelog:-
-Source Side:
-- May sec patch (r34)
-- Removed the junky LockScreen clock date animation
-- Redistribute QS tile on orientation change
-- Moved brightness slider settings out of tuner 
-- Adds the ability to back em up as the rest and fixes some bugs related
-- In-rom changelog got a new look, and is more readable and user friendly now
-- Set a default custom QS header image
-Make sure the padding changes in QS header only apply if a header is really selected
-- Reverted RGB picker (was causing issues on some 3rd party apps)
-- Switch to use AOSP SettingsIntelligence (No more random settings crashes for some users & search is more reliable)
-- Hide notch options
-- Some bluetooth related fixes
-- Screen recording lags fixed
-- Added "R style" notification titles
-- Added new HeadsUp settings (Blacklist, stoplist, duration, snooze...)
-- Allow toggling between the new QS panels and the old in-qs view
-- Fixed a bug where old QS detail view UI would show instead of panels
-- Fixed some translations related bugs
-- Tuned some dimens to make StatusBar icons equal in size and padding
-- Added battery bar (improvements yet to come)
-- Move StatusBar brightness control to gesture settings
-- Updates to translations
-- Fixed hide power menu on LS switch
-- Added flash local file option via OpenDelta
-- Expandable volume panel
-- Added charging bolt on battery text (toggleable)
-- New icon to battery saver QS tile
+Changelogs :
 
-Device Side:
-- Upstreamed kernel to 4.9.222
-- Updated FM, Sensors, QMI,/Radio/IMS, Wi-FI from  tissot-10.0.20.0.PDHMIXM
-- Import Perf IOP blobs from from LA.UM.8.6.r1-04000-89xx.0
-- Cleanup unused 32-bit blobs
-- Updated post boot scripts, ueventd and config.fs from LA.UM.8.6.2.r1-07100-89xx.0
-- Updated privapp-permissions
-- SELinux Enforcing!
-- Fix rendering lags for screen recoarder
-- setprop alarm service for qcom early boot script 
-- Set permissions for IR
-- overlay: Use 8 icons in statusbar
-- sepolicy: Address more denials
-- Disable DiscoveryService
-- add device specific thermal also downgrade thermal
-- add some dalvik props
-- move wcnss_service to main
-- Drop AUDIO_FEATURE_ENABLED_AUDIOSPHERE 
-- Enable IWLAN assisted mode 
-- CarrierConfig overlay from LA.UM.8.6.r1-04300-89xx.0 
-- Updated DCIM from LA.UM.8.6.r1-04300-89xx.0
+* Source
+- Fixed hide navigation pill on landscape
+- Added SELinux switch
+- Bug fixes for perm manager (log spam at boot gone)
+- Allow choosing a custom pressed icon color for FOD (irrelevant to our device)
+- Improved master switch divider visibility, and make it resistant to themes
+- Enabled aux camera for 3rd party apps (added sepolicy rules)
+- Added old circle battery style back
+- Fixed detail view not showing for a few QS tiles
+- Fixed wrong activity for longpress on LTE QS tile
+- Allow showing StatusBar ticker for media
+- Updates to translations
+
+* Device
+- Update data-ipa-cfg-mgr from LA.UM.8.6.r1-04400-89xx.0
+- Update CarrierConfig from LA.UM.8.6.r1-04400-89xx.0
+- Default Kernel: SolarisKernel v3.18.140
+- Update wireguard: v1.0.20200520
