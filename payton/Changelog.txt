@@ -1,160 +1,161 @@
 ====================
-     05-20-2020
+     05-30-2020
 ====================
-
-[packages/apps/Dialer]
-Automatic translation import <24 hours ago> [0c2ebe97a]
-by: Akhil Narang (akhilnarang.1999@gmail.com)
-
-[packages/apps/Launcher3]
-Automatic translation import <24 hours ago> [fa17e33a5]
-by: Akhil Narang (akhilnarang.1999@gmail.com)
-
-[packages/apps/DerpQuest]
-DerpQuest: Update RU translation (#59) <21 hours ago> [f8a8ab4]
-by: Northn (57762732+Northn@users.noreply.github.com)
 
 [device/motorola/payton]
-payton: Pin Dolby blobs <8 weeks ago> [bfd3743]
-by: trpsl (trpsl755@gmail.com)
-payton: Add Dolby audio effects <8 weeks ago> [d5327a1]
-by: trpsl (trpsl755@gmail.com)
+Revert "payton: overlay: Add support for runtime toggle of navbar" <3 hours ago> [7deaa84]
+by: mhdaslam790 (mhdaslam790@gmail.com)
+add tweaks for battery saving <22 hours ago> [9db7370]
+by: mhdaslam790 (mhdaslam790@gmail.com)
 
 [device/motorola/sdm660-common]
-sdm660-common: Address Dolby denials <8 weeks ago> [f6e8c42a]
-by: trpsl (trpsl755@gmail.com)
-sdm660-common: Add Moto Dolby <8 weeks ago> [2e998237]
-by: trpsl (trpsl755@gmail.com)
-remove dirac <2 days ago> [ac5e1940]
-by: cool585 (dhineshcool585@gmail.com)
-
-[vendor/motorola]
-payton: Add MotoSignatureApp <4 months ago> [934a08e7]
-by: Nolen Johnson (johnsonnolen@gmail.com)
-Revert "sdm660: Add Dirac blobs" <34 hours ago> [bec89611]
-by: cool585 (dhineshcool585@gmail.com)
-Decommonize payton stuff <8 weeks ago> [893b42ba]
-by: trpsl (trpsl755@gmail.com)
-sdm660-common: Update Moto Dolby blobs from lake <8 weeks ago> [56a81926]
-by: trpsl (trpsl755@gmail.com)
-sdm660-common: Add Moto Dolby blobs <10 weeks ago> [808ef050]
-by: trpsl (trpsl755@gmail.com)
-
-
-====================
-     05-19-2020
-====================
-
-[frameworks/base]
-base: Allow choosing a custom color for pressed FOD [1/2] <2 days ago> [bee6a79c40e]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/apps/DerpQuest]
-ColorPicker: Enable the reset button when setting a default at runtime <28 hours ago> [20c139f]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-DerpQuest: Allow choosing a custom color for pressed FOD [2/2] <2 days ago> [0b646ec]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-DerpQuest: Disable SELinux switch if unrooted <2 days ago> [336062d]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-Utils: Add root check function <2 days ago> [a817422]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-
-====================
-     05-18-2020
-====================
-
-[frameworks/base]
-DefaultPermissionGrantPolicy: Remove uneeded permissions <3 days ago> [4969c1d517f]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/apps/Settings]
-Settings: Add boot receiver for SELinux switch <3 days ago> [163bb69b14]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[vendor/aosip]
-privapp-permissions-elgoog: Remove google's settings intelligence <3 days ago> [514d741]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[vendor/overlay]
-overlay: Grant default DND access to AOSP settings intelligence <3 days ago> [77a94bf]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/apps/DerpQuest]
-DerpQuest: Add SELinux switch <2 years, 11 months ago> [65f48a6]
-by: Alex Cruz (mazdarider23@gmail.com)
-
-[scripts]
-updater: fix typos in comments (#1) <3 days ago> [433134a]
-by: Omkar Chandorkar (forumomkar@gmail.com)
-scripts: updater: Rewrite <4 days ago> [d63c99f]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-
-====================
-     05-17-2020
-====================
-
-[manifest]
-manifest: track sm8150 HALs from LOS <4 days ago> [7d900be]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[frameworks/base]
-SystemUI: Update RU translation (#18) <3 days ago> [b81905697c8]
-by: RunningMango (36758157+RunningMango@users.noreply.github.com)
-
-[scripts]
-scripts: Introduce updater <4 days ago> [703527a]
-by: RunningMango (nik.volosatyh@gmail.com)
-
-
-====================
-     05-16-2020
-====================
-
-[vendor/overlay]
-overlays: Add hide pill in full gestural nav mode overlays (#8) <5 days ago> [8105c65]
-by: Aman Kumar Singh (46120388+amanrajOO7@users.noreply.github.com)
-
-[packages/apps/DerpQuest]
-DerpQuest: Update Chinese translations (#58) <4 days ago> [7312da7]
-by: ALKALiKong (54100342+ALKALiKong233@users.noreply.github.com)
+Revert "Revert "adapt keyhandler"" <22 hours ago> [b9bd9416]
+by: mhdaslam790 (mhdaslam790@gmail.com)
 
 [kernel/motorola/msm8998]
-Merge remote-tracking branch 'xt/ten' into HEAD <5 days ago> [bd584549cd58]
+Revert "homebutton: Use fingerprint sensor as homebutton" <2 hours ago> [00b9198a032d]
+by: mhdaslam790 (mhdaslam790@gmail.com)
+Revert "homebutton: make key configurable" <2 hours ago> [c673b17c4e29]
+by: mhdaslam790 (mhdaslam790@gmail.com)
+Revert "homebutton: Remove Vibration" <2 hours ago> [6dd741f8b7f2]
+by: mhdaslam790 (mhdaslam790@gmail.com)
+Revert "input: homebutton: handle egis gestures" <2 hours ago> [2bce53405eda]
+by: mhdaslam790 (mhdaslam790@gmail.com)
+Revert "homebutton: handle VOICE_ASSIST and expose haptic" <2 hours ago> [64e113efca3c]
+by: mhdaslam790 (mhdaslam790@gmail.com)
+Revert "drivers: homebutton: expose screen off gesture entry" <2 hours ago> [7e96370e0515]
+by: mhdaslam790 (mhdaslam790@gmail.com)
+Revert "homebutton/wakegestures: Changes for keyhandler implementation" <2 hours ago> [5d9a9fb6ce17]
+by: mhdaslam790 (mhdaslam790@gmail.com)
+Revert "homebutton: Cleanup and create nodes for screen off state" <2 hours ago> [35480dd27380]
+by: mhdaslam790 (mhdaslam790@gmail.com)
+Revert "homebutton: Don't report keys if disabled" <2 hours ago> [e44176bbdbc4]
+by: mhdaslam790 (mhdaslam790@gmail.com)
+Revert "homebutton: Add back FP haptic nodes" <2 hours ago> [9982e5d8e615]
+by: mhdaslam790 (mhdaslam790@gmail.com)
+Revert "homebutton: Add support for optional proximity check" <2 hours ago> [f2e8b3b0eee8]
+by: mhdaslam790 (mhdaslam790@gmail.com)
+Revert "evert,payton defconfig: Enable CONFIG_HOMEBUTTON" <2 hours ago> [19b7920901e5]
 by: mhdaslam790 (mhdaslam790@gmail.com)
 
 
 ====================
-     05-15-2020
+     05-29-2020
 ====================
 
-[frameworks/opt/telephony]
-When SPN is empty, use PNN in mobile network settings <7 months ago> [4d0a6df31]
-by: Jack Yu (jackyu@google.com)
+
+====================
+     05-28-2020
+====================
+
+[device/motorola/payton]
+payton: overlay: Add support for runtime toggle of navbar <1 year, 1 month ago> [f5405c1]
+by: Nick van Bokhorst (nickvanbokhorst@hotmail.com)
+
+[device/motorola/sdm660-common]
+rework MotoAction <4 days ago> [13af3e1b]
+by: Seba3567 (sebastian26481@gmail.com)
+Revert "adapt keyhandler" <2 days ago> [cc880196]
+by: mhdaslam790 (mhdaslam790@gmail.com)
+
+
+====================
+     05-27-2020
+====================
+
+[packages/apps/Messaging]
+Automatic translation import <4 days ago> [ce6996b]
+by: Akhil Narang (akhilnarang.1999@gmail.com)
+
+
+====================
+     05-26-2020
+====================
+
+[packages/apps/Dialer]
+Dialer: Add extra privapp permissions xml <3 weeks ago> [f95c42a7f]
+by: Michael Bestas (mkbestas@lineageos.org)
+
+[packages/apps/Launcher3]
+Launcher3: Add FORCE_STOP_PACKAGES permission <3 weeks ago> [d66e87f39]
+by: Josh Fox (XlxFoXxlX) (joshfox87@gmail.com)
+Launcher3: Add extra privapp permissions xml <3 weeks ago> [806347201]
+by: Michael Bestas (mkbestas@lineageos.org)
+
+[packages/apps/Messaging]
+Messaging: Add sysconfig whitelist xml <3 weeks ago> [f200ff2]
+by: Michael Bestas (mkbestas@lineageos.org)
 
 [vendor/aosip]
-kernel: Allow specifying a custom linker binary <7 weeks ago> [08a72d6]
-by: Luca Stefani (luca.stefani.ge1@gmail.com)
-Revert "kernel: Add option for using LLD as linker" <7 days ago> [1abbf8b]
+extract_utils: Fix vendor Android.bp creation with subdirectory <7 days ago> [f45f384]
+by: Andreas Schneider (asn@cryptomilk.org)
+extract_utils: Handle Brotli compressed block image <6 weeks ago> [f935c42]
+by: dianlujitao (dianlujitao@lineageos.org)
+extract_utils: Support odm/product/vendor partition for zip extract <6 weeks ago> [c82dfe2]
+by: dianlujitao (dianlujitao@lineageos.org)
+extract_utils: Generate deodexed apk/jar with consistent checksum <8 weeks ago> [98cd330]
+by: dianlujitao (dianlujitao@lineageos.org)
+extract_utils: Fix doubled path separator <8 weeks ago> [142e6b3]
+by: dianlujitao (dianlujitao@lineageos.org)
+
+[vendor/overlay]
+overlays: Fix fc when trying to apply kronicgreen theme <3 weeks ago> [91ba24c]
+by: Josh Fox (XlxFoXxlX) (joshfox87@gmail.com)
+
+[scripts]
+fscripts: updater: Print diff with no pager <5 days ago> [4a931b2]
 by: Ido Ben-Hur (idoybh2@gmail.com)
+updater: fix typos in comments (#1) <13 days ago> [d40d39c]
+by: Omkar Chandorkar (forumomkar@gmail.com)
+scripts: updater: Rewrite <13 days ago> [a1494de]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+
+====================
+     05-25-2020
+====================
+
+[art]
+art: extend the supported cpu_variant list for arm64 <2 years, 7 months ago> [fd20d13e5a]
+by: Wei Wang (wangw@codeaurora.org)
 
 [packages/apps/DerpQuest]
-DerpQuest: Improve two target preference divider visability <5 days ago> [bfff581]
+DerpQuest: Make TwoTargetPreference divider slimmer <5 days ago> [18f8bd9]
 by: Ido Ben-Hur (idoybh2@gmail.com)
+DerpQuest: Update RU translations (#60,#61) <6 days ago> [db13530]
+by: RunningMango (36758157+RunningMango@users.noreply.github.com)
 
 
 ====================
-     05-14-2020
+     05-24-2020
 ====================
 
-[manifest]
-manifest: track system/bpf from LOS <11 days ago> [2e5630c]
+[device/aosip/sepolicy]
+common: Move aux camera whitelist prop to vendor <2 weeks ago> [cfb4ba0]
+by: dianlujitao (dianlujitao@lineageos.org)
+common: Expose aux camera {black,white}list props <3 weeks ago> [d650e9e]
+by: dianlujitao (dianlujitao@lineageos.org)
+
+[device/qcom/sepolicy]
+sepolicy: Unlabel aux camera whitelist prop (#2) <7 days ago> [bfcbd6ec]
+by: Adrian (adrianszymanski242@gmail.com)
+
+[device/qcom/sepolicy-legacy-um]
+sepolicy: Unlabel aux camera whitelist prop <3 weeks ago> [61163938]
+by: dianlujitao (dianlujitao@lineageos.org)
+
+[frameworks/base]
+base: Settings: Allow showing SB ticker for media [1/2] <7 days ago> [168b93787b3]
 by: Ido Ben-Hur (idoybh2@gmail.com)
+SystemUI: Bring back good ol' circle battery style [1/2] <4 months ago> [1246962c116]
+by: Luca Stefani (luca.stefani.ge1@gmail.com)
+base: Add more RU translations (#20,#21) <7 days ago> [43467349366]
+by: RunningMango (36758157+RunningMango@users.noreply.github.com)
+
+[packages/apps/DerpQuest]
+DerpQuest: Allow showing SB ticker for media [2/2] <7 days ago> [19b577c]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+DerpQuest: Bring back good ol' circle battery style [2/2] <4 months ago> [ed78735]
+by: Luca Stefani (luca.stefani.ge1@gmail.com)
 
 
-// device changelog
-
--removed dirac
--added moto dolby (thanks to @cool585 for fix)
--added MotoSignatureApp
