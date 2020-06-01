@@ -1,3 +1,15 @@
+=================
+     31-05-2020
+=================
+
+• violet: Merged kernel tag into 4.14.182
+• violet: Dropped ANXCamera
+• violet: Update some thermal values
+• violet: Force triple frame buffers
+• violet: Update fingerprint blobs from violet-user 10 QKQ1.190915.002 20.4.27 release-keys
+• violet: import voice_processing from coral
+• violet: Update audio config from violet-user 10 QKQ1.190915.002 20.4.27 release-keys
+• violet: Update media configs from violet-user 10 QKQ1.190915.002 20.4.27 release-keys
 
 =================
      05-05-2020
