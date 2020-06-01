@@ -1,5 +1,8 @@
-- Switched to MiPa Kernel
-- Fixed Hide Pill in Landscape Mode
-- Improved Two Target Preference Divider Visibility
-- Switched to 24 bit for Audio Playback
-- Updated QP Gallery
+- Added Etar Calendar & DeskClock
+- Fixed AnxCam
+- Fixed IR Cam
+- Fixed FPS Tile
+- Updated Kernel to MiPa 9.0
+- Fixed UI glitch with battery styles
+- Updated GCam Go & FireFox Lite
+- Set Default QS row Value
