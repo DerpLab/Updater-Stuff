@@ -1,118 +1,249 @@
 ====================
-     05-22-2020
+     06-02-2020
 ====================
 
-
-====================
-     05-21-2020
-====================
-
-[scripts]
-updater: fix typos in comments (#1) <5 days ago> [1dcf123]
-by: Omkar Chandorkar (forumomkar@gmail.com)
-scripts: updater: Rewrite <5 days ago> [a26e2f5]
+[art]
+Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <17 hours ago> [362a3be56c]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 
-
-====================
-     05-20-2020
-====================
-
-[packages/apps/Dialer]
-Automatic translation import <3 days ago> [0c2ebe97a]
-by: Akhil Narang (akhilnarang.1999@gmail.com)
-
-[packages/apps/Launcher3]
-Automatic translation import <3 days ago> [fa17e33a5]
-by: Akhil Narang (akhilnarang.1999@gmail.com)
-
-[packages/apps/DerpQuest]
-DerpQuest: Update RU translation (#59) <3 days ago> [f8a8ab4]
-by: Northn (57762732+Northn@users.noreply.github.com)
-ColorPicker: Enable the reset button when setting a default at runtime <3 days ago> [20c139f]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-DerpQuest: Allow choosing a custom color for pressed FOD [2/2] <3 days ago> [0b646ec]
+[bootable/recovery]
+Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <17 hours ago> [b035f2fb]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 
+[development]
+Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <17 hours ago> [f8b9246c3]
+by: Ido Ben-Hur (idoybh2@gmail.com)
 
-====================
-     05-19-2020
-====================
+[manifest]
+Merge remote-tracking branch 'aosp/android-10.0.0_r38' into ten <15 hours ago> [747b171]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+Manifest for Android 10.0.0 Release 38 (QQ3A.200605.002) <17 hours ago> [887567f]
+by: The Android Open Source Project (initial-contribution@android.com)
+Manifest for Android 10.0.0 Release 37 (QQ3A.200605.001) <17 hours ago> [fea4547]
+by: The Android Open Source Project (initial-contribution@android.com)
+Manifest for android10-qpr3-release. <17 hours ago> [a3b2879]
+by: The Android Open Source Project (initial-contribution@android.com)
+
+[build/make]
+Merge tag 'android-10.0.0_r38' of https://android.googlesource.com/platform/build into HEAD <15 hours ago> [cf1c34589]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[build/soong]
+Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <17 hours ago> [21162672]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[frameworks/av]
+Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <17 hours ago> [dac19d309]
+by: Ido Ben-Hur (idoybh2@gmail.com)
 
 [frameworks/base]
-base: Allow choosing a custom color for pressed FOD [1/2] <3 days ago> [bee6a79c40e]
+Merge tag 'android-10.0.0_r38' into HEAD <9 hours ago> [66a9ed27e25]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+Revert "base: notch-city: Add 3 mode display cutout handler" <9 hours ago> [6c4cb1d942d]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[frameworks/native]
+Merge tag 'android-10.0.0_r38' into ten <14 hours ago> [e1aaff457]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+Revert "surfaceflinger: Merge caf changes" <14 hours ago> [7ed1e5ba4]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+Revert "SurfaceFlinger: Exclude CAF extensions from non-QC devices" <14 hours ago> [7adc5f802]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+Revert "surfaceflinger: Exclude qcom code on unsupported platforms" <14 hours ago> [dd5464458]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+Revert "surfaceflinger: Exclude qcom RefreshRateType changes" <14 hours ago> [6c18ac595]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[frameworks/opt/net/wifi]
+Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <16 hours ago> [0bfcebdcb]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[frameworks/opt/telephony]
+Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <16 hours ago> [0c53a4c7b]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[hardware/interfaces]
+Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <16 hours ago> [585f12910]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[packages/apps/Bluetooth]
+Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <16 hours ago> [22c78260]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[packages/apps/CellBroadcastReceiver]
+Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <16 hours ago> [b882329e]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[packages/apps/CertInstaller]
+Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <16 hours ago> [13eeae9]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[packages/apps/Nfc]
+Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <16 hours ago> [268bc298]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[packages/apps/PhoneCommon]
+Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <16 hours ago> [0da2d9a]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 
 [packages/apps/Settings]
-Settings: Add boot receiver for SELinux switch <4 days ago> [163bb69b14]
+Revert "notch-city: Add 3 mode display cutout handler [3/3] (#9)" <9 hours ago> [631771468b]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <16 hours ago> [3bb80e999f]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 
-[packages/apps/DerpQuest]
-DerpQuest: Disable SELinux switch if unrooted <4 days ago> [336062d]
+[packages/providers/DownloadProvider]
+Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <16 hours ago> [28ead7dd]
 by: Ido Ben-Hur (idoybh2@gmail.com)
-Utils: Add root check function <4 days ago> [a817422]
+
+[packages/services/Telecomm]
+Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <16 hours ago> [f0029027]
 by: Ido Ben-Hur (idoybh2@gmail.com)
-DerpQuest: Add SELinux switch <2 years, 11 months ago> [65f48a6]
-by: Alex Cruz (mazdarider23@gmail.com)
 
-
-====================
-     05-18-2020
-====================
-
-[frameworks/base]
-DefaultPermissionGrantPolicy: Remove uneeded permissions <4 days ago> [4969c1d517f]
+[packages/services/Telephony]
+Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <16 hours ago> [c74f2b075]
 by: Ido Ben-Hur (idoybh2@gmail.com)
-SystemUI: Update RU translation (#18) <5 days ago> [b81905697c8]
-by: RunningMango (36758157+RunningMango@users.noreply.github.com)
+
+[system/bt]
+Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <16 hours ago> [98af46a57]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[system/core]
+Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <16 hours ago> [ad679fb54]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[system/sepolicy]
+Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <16 hours ago> [680109d0]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[system/vold]
+Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <16 hours ago> [425481d]
+by: Ido Ben-Hur (idoybh2@gmail.com)
 
 [vendor/aosip]
-privapp-permissions-elgoog: Remove google's settings intelligence <4 days ago> [514d741]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[vendor/overlay]
-overlay: Grant default DND access to AOSP settings intelligence <4 days ago> [77a94bf]
+Revert "vendor: notch-city: Add 3 mode display cutout handler [2/3] (#19)" <9 hours ago> [61c1337]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 
 
 ====================
-     05-17-2020
+     06-01-2020
+====================
+
+[packages/apps/DerpQuest]
+DerpQuest: Update Greek translation (#62,#64) <5 days ago> [27bce52]
+by: CrisBalGreece (crisbaladim@yahoo.gr)
+DerpQuest: Make TwoTargetPreference divider slimmer <9 days ago> [57f2660]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+DerpQuest: Allow showing SB ticker for media [2/2] <10 days ago> [bedcab2]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+DerpQuest: Bring back good ol' circle battery style [2/2] <4 months ago> [6c831d1]
+by: Luca Stefani (luca.stefani.ge1@gmail.com)
+
+
+====================
+     05-31-2020
 ====================
 
 [manifest]
-manifest: track sm8150 HALs from LOS <6 days ago> [7d900be]
+manifest: Track Clock, Calendar APPs for VANILLA (#3) <3 days ago> [53c8050]
+by: ALKALiKong (alikongalk@gmail.com)
+
+[build/make]
+build: Add Etar and DeskClock for VANILLA builds (#6) <3 days ago> [456539bee]
+by: ALKALiKong (alikongalk@gmail.com)
+
+[frameworks/base]
+DozeSensors: only use proximity sensor if supported (#22) <3 days ago> [ee58fd53b4c]
+by: DarkDampSquib (38047708+DarkDampSquib@users.noreply.github.com)
+
+[vendor/prebuilts]
+prebuilts: Add firefox-lite and remove outdated things (#2) <3 days ago> [c86f3ac]
+by: ALKALiKong (alikongalk@gmail.com)
+
+
+====================
+     05-30-2020
+====================
+
+[external/e2fsprogs]
+Mark libext2{-headers,_blkid,_uuid} as vendor available <3 months ago> [6bc30a7b]
+by: LuK1337 (priv.luk@gmail.com)
+Ignore -Wno-pointer-sign warnings <7 months ago> [b3b9d81e]
+by: Michael Bestas (mkbestas@lineageos.org)
+resize: Make a target for standalone resize2fs_static binary <2 years, 2 months ago> [4381cd58]
+by: Bruno Martins (bgcngm@gmail.com)
+
+[frameworks/base]
+base: QS: Have a consistent default row value <4 days ago> [d26cba303ca]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 
-[scripts]
-scripts: Introduce updater <5 days ago> [703527a]
-by: RunningMango (nik.volosatyh@gmail.com)
+[packages/apps/Messaging]
+Import translations. DO NOT MERGE <4 months ago> [1974ee7]
+by: Bill Yi (byi@google.com)
+Rescheduling pending messages after outside window failure <3 weeks ago> [b99b6a1]
+by: Taesu Lee (taesu82.lee@samsung.com)
+Fix NPE on MultiConversationNotificationState <4 weeks ago> [3b32b23]
+by: Taesu Lee (taesu82.lee@samsung.com)
+Hide APN prefs if platform APIs are used <4 weeks ago> [73e0897]
+by: Taesu Lee (taesu82.lee@samsung.com)
+Use ic_add_white for consistency instead <4 weeks ago> [518f57c]
+by: Taesu Lee (taesu82.lee@samsung.com)
+Fix to show APN prefs correctly <4 weeks ago> [efada60]
+by: Taesu Lee (taesu82.lee@samsung.com)
+Fix NPE <5 weeks ago> [800e0ee]
+by: Taesu Lee (taesu82.lee@samsung.com)
+Handle delivered messages as completed messages <6 weeks ago> [8e58132]
+by: Taesu Lee (taesu82.lee@samsung.com)
 
 
 ====================
-     05-16-2020
+     05-29-2020
 ====================
 
-[vendor/overlay]
-overlays: Add hide pill in full gestural nav mode overlays (#8) <7 days ago> [8105c65]
-by: Aman Kumar Singh (46120388+amanrajOO7@users.noreply.github.com)
+[packages/apps/Matlog]
+MatLog: cleanup unused resources and prepare for translate <5 days ago> [550dfb2]
+by: maxwen (max.weninger@gmail.com)
 
 [packages/apps/DerpQuest]
-DerpQuest: Update Chinese translations (#58) <6 days ago> [7312da7]
-by: ALKALiKong (54100342+ALKALiKong233@users.noreply.github.com)
-DerpQuest: Improve two target preference divider visability <7 days ago> [bfff581]
+DerpQuest: Update RU translation (#59,#60,#61,#63) <2 weeks ago> [429a9d2]
+by: Northn (57762732+Northn@users.noreply.github.com)
+ColorPicker: Enable the reset button when setting a default at runtime <2 weeks ago> [d827614]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+DerpQuest: Allow choosing a custom color for pressed FOD [2/2] <2 weeks ago> [6733790]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+DerpQuest: Disable SELinux switch if unrooted <2 weeks ago> [9e42f8e]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+Utils: Add root check function <2 weeks ago> [9c66038]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 
-               ===========================
-                     Device Changelog
-               ===========================
-- Fixed all lags
-- Updated blobs from LA.UM.8.2.r1-06500-sdm660.0
-- Passed SafetyNet
-- Added basic USB HAL
-- Updated GPS hal
-- Enable qcom time services
-- 430 dpi by default
-- Added XiaomiParts
-- Added XiaomiDoze
+
+====================
+     05-28-2020
+====================
+
+[device/qcom/sepolicy-legacy]
+sepolicy: Add access policy for charger <4 months ago> [03d80cbb]
+by: YumeMichi (do4suki@gmail.com)
+sepolicy-legacy: Allow Snap to read camera props <3 months ago> [d41b6cd6]
+by: Bruno Martins (bgcngm@gmail.com)
+sepolicy : Add rule to set property for wlan driver/fw ver info <1 year ago> [1c3c9cad]
+by: Vinay Gannevaram (vganneva@codeaurora.org)
+sepolicy: Policy fix for emmc based rpmb partition <1 year, 2 months ago> [9aaea358]
+by: Anmolpreet Kaur (anmolpre@codeaurora.org)
+sepolicy: provide rules for cryptfs_hw hal <11 months ago> [f5060c18]
+by: Shailendra Gupta (shaigu@codeaurora.org)
+
+[packages/apps/Matlog]
+MatLog: fix widget <5 days ago> [ade9b6a]
+by: maxwen (max.weninger@gmail.com)
+MatLog: add DayNight support <6 days ago> [75446e7]
+by: maxwen (max.weninger@gmail.com)
 
 
+====================
+     05-27-2020
+====================
+
+[packages/apps/Matlog]
+MatLog: switch to androidx <7 days ago> [ea0c5d6]
+by: maxwen (max.weninger@gmail.com)
