@@ -1,0 +1,59 @@
+Changelog for Official DerpFest Build Update 02.06.2020 for Sanders:
+
+[SOURCE]
+
+• Merged June security patch (10.0_r38)
+• Bring back good ol' circle battery style
+• Tint volume panel expand button to follow textColorSecondary
+• Added Firefox-lite as default browser
+• Fixed the trending wallpaper crash issue
+• Have a consistent default row value
+• Allow showing SB ticker for media
+• LteTile: Launch network settings when long pressing
+• Added Calendar and Clock app
+• Make TwoTargetPreference divider slimmer
+• Make sure notification icons are sticked to the left
+• Forward port CM Screen Security settings
+• CustomSeekbarPreference: Increase the height of plus & minus buttons
+• DerpQuest: Use the right key to set QS security footer
+• DerpQuest: Improve two target preference divider visibility
+• DerpQuest: Add SELinux switch (do not touch it)
+• ColorPicker: Enable the reset button when setting a default at runtime
+• Added hide pill in full gestural nav mode overlays
+• Grant default DND access to AOSP settings intelligence
+• Maybe more things can't remember ;P
+
+
+[DEVICE]
+
+• New MotoActions UI
+   - Match with stock
+   - Detailed info
+• New MotoActions icon style
+   - Respect android 10 settings style
+   - Respect android 10 icon shape shifting style
+   - Icons in subsection of MotoActions will follow the tint of it's parent icon
+• Removed Via.apk (source now has firefox-lite)
+• Updated the device gestures sub icons to match with stock
+• Shifted to Qcom binderized powerhal
+• Switched to qcom sepolicy-legacy-um
+• Kernel compiled with clang 10.0.6
+• Updated sepolicy
+• Fixed the time lag issue
+• Fixed the FM Radio
+• Build missing dummy android.hidl.manager@1.0
+• Dropped deprecated WLAN SDK flag
+• Cleanup and update tree to remove the haywire
+• Improved Kcal settings ui under MotoActions
+• Gave system permissions to kgsl-3d0 nodes
+• Disable DiscoveryService
+• Disable NearbyMessagingService
+• Build separate system and vendor HIDL libs
+• Fixed NFC (maybe. try and lemme know)
+• More under-the-hood changes ;)
+
+
+#StayDerped
+
+Note1: Kindly read all information provided on Derped website. Still you have any doubts ask @marshmello_61 on t.me/DerpfestSanders
+
