@@ -1,5 +1,6 @@
 #####################
-#     12/04/2020    #
+#     04/06/2020    #
 #####################
 
-1. Fixed Safetynet without magisk.
+1. June Security patch merged.
+2. Added 60/120 Hz refresh rate switch in Developer Options.
