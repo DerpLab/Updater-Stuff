@@ -1,121 +1,1055 @@
 ====================
+     06-05-2020
+====================
+
+[frameworks/base]
+base: Add refresh rate setting [1/2] (#23) <20 hours ago> [d444b005df7]
+by: Cryllic Buster (49910222+CryllicBuster273@users.noreply.github.com)
+
+[packages/apps/Settings]
+Settings: Use device specific max refresh rate for the switch (#14) <19 hours ago> [c387439fce]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+Settings: Add refresh rate setting [2/2] (#13) <20 hours ago> [da465e1d5f]
+by: Cryllic Buster (49910222+CryllicBuster273@users.noreply.github.com)
+
+[packages/apps/OpenDelta]
+OpenDelta: Allow hiding info text <20 hours ago> [f1bb24e]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+OpenDelta: Add some bottom padding to the action buttons <23 hours ago> [63da3dc]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+
+====================
+     06-04-2020
+====================
+
+[device/aosip/sepolicy]
+add missing rule for update_engine (#3) <28 hours ago> [79856b4]
+by: Murtaza@Piplod (murtaza1926@gmail.com)
+
+[frameworks/base]
+SystemUI: Use AOSP bluetooth icon when showing battery level <13 days ago> [8a9985cb50b]
+by: Kshitij Gupta (kshitijgm@gmail.com)
+SystemUI: update Bluetooth battery level assets. <8 months ago> [5b0bf9c2b61]
+by: Hernán Castañón Álvarez (herna@paranoidandroid.co)
+[SQUASH]Bring back notch-city after r38 <2 days ago> [c491bf95375]
+by: AgentFabulous (kshitijgm@gmail.com)
+
+[packages/apps/Contacts]
+AOSP/Contacts - Updated to sdkVersion 29. <8 months ago> [b5a085341]
+by: Raman Tenneti (rtenneti@google.com)
+Contacts: manually configure dark theme for list <3 weeks ago> [bdd121805]
+by: Jesse Chan (jc@lineageos.org)
+Contacts: allow framework to do dark theming automatically <3 weeks ago> [c103b8c50]
+by: Jesse Chan (jc@lineageos.org)
+Contacts: use white nav bar <1 year, 5 months ago> [22871659f]
+by: Joey (joey@lineageos.org)
+Contacts: Remove current dark theme <10 days ago> [2ae1a4850]
+by: Josh Fox (XlxFoXxlX) (joshfox87@gmail.com)
+
+[packages/apps/Matlog]
+MatLog: update gradle version <2 days ago> [a4b8b6f]
+by: maxwen (max.weninger@gmail.com)
+
+[packages/apps/Messaging]
+Automatic translation import <2 days ago> [b3d54db]
+by: Akhil Narang (akhilnarang.1999@gmail.com)
+Remove current dark mode <10 days ago> [e29445f]
+by: Josh Fox (XlxFoXxlX) (joshfox87@gmail.com)
+Messaging: disable auto dark theming on message bubble <3 weeks ago> [9dc9a0f]
+by: Jesse Chan (jc@lineageos.org)
+Messaging: allow framework to do dark theming automatically <3 weeks ago> [20c18da]
+by: Jesse Chan (jc@lineageos.org)
+
+[packages/apps/Settings]
+Settings: Update RU translation (#12) <3 days ago> [1700e6a14e]
+by: Northn (57762732+Northn@users.noreply.github.com)
+Fix NPE if default supervisor is not defined <3 weeks ago> [13718adba7]
+by: Wang Han (wanghan1995315@gmail.com)
+
+[vendor/xiaomi/dipper]
+vendor: dipper: update blobs to v11.0.8.0 <25 hours ago> [2060a4d]
+by: ALKALiKong (alikongalk@gmail.com)
+
+[vendor/xiaomi/sdm845-common]
+vendor: sdm845-common: update blobs to v11.0.8.0 <25 hours ago> [cb74915]
+by: ALKALiKong (alikongalk@gmail.com)
+
+
+====================
+     06-03-2020
+====================
+
+[frameworks/base]
+SystemUI: Don't forcefully convert wallpaper to SRGB <4 days ago> [24782cc10f7]
+by: Luca Stefani (luca.stefani.ge1@gmail.com)
+Merge tag 'android-10.0.0_r38' into ten <3 days ago> [44dc5a4919d]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+Revert "base: notch-city: Add 3 mode display cutout handler" <3 days ago> [472d9e294c5]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[packages/apps/Matlog]
+MatLog: dont run unecessary checks on startup <3 days ago> [3580064]
+by: maxwen (max.weninger@gmail.com)
+
+[packages/apps/OpenDelta]
+Merge remote-tracking branch 'omni/android-10' into HEAD <3 days ago> [55f33c5]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[packages/apps/PixelLiveWallpaper]
+Update from QQ3A.200605.001 <3 days ago> [838cd34]
+by: jhenrique09 (jhenrique09.mcz@hotmail.com)
+
+[vendor/gapps]
+gapps: Remove SoundPickerPrebuilt <2 days ago> [40d22a5]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[vendor/pixelstyle]
+pixelstyle: Add SoundPickerPrebuilt (#5) <2 days ago> [02af792]
+by: Aman Kumar Singh (46120388+amanrajOO7@users.noreply.github.com)
+
+[kernel/xiaomi/sdm845]
+configs: Use BBR <3 days ago> [3b3aa9585c20]
+by: TwistedPrime (36546624+TwistedPrime@users.noreply.github.com)
+Makefile: Remove extra endif <3 days ago> [f77eee797ef0]
+by: TwistedPrime (36546624+TwistedPrime@users.noreply.github.com)
+Linux 4.9.225 <9 days ago> [283d6212c941]
+by: Greg Kroah-Hartman (gregkh@linuxfoundation.org)
+iio: sca3000: Remove an erroneous 'get_device()' <4 weeks ago> [ef62f00832a7]
+by: Christophe JAILLET (christophe.jaillet@wanadoo.fr)
+rapidio: fix an error in get_user_pages_fast() error handling <13 days ago> [d968f6395f1e]
+by: John Hubbard (jhubbard@nvidia.com)
+mei: release me_cl object reference <3 weeks ago> [f7f56d9972bf]
+by: Alexander Usyskin (alexander.usyskin@intel.com)
+iio: dac: vf610: Fix an error handling path in 'vf610_dac_probe()' <6 weeks ago> [21cf8a661dd4]
+by: Christophe JAILLET (christophe.jaillet@wanadoo.fr)
+staging: greybus: Fix uninitialized scalar variable <4 weeks ago> [8ee50af5d107]
+by: Oscar Carter (oscar.carter@gmx.com)
+staging: iio: ad2s1210: Fix SPI reading <5 weeks ago> [439d43cc0141]
+by: Dragos Bogdan (dragos.bogdan@analog.com)
+Revert "gfs2: Don't demote a glock until its revokes are written" <4 weeks ago> [87e27e28d47b]
+by: Bob Peterson (rpeterso@redhat.com)
+cxgb4/cxgb4vf: Fix mac_hlist initialization and free <1 year, 7 months ago> [a993d2430ba1]
+by: Arjun Vynipadath (arjun@chelsio.com)
+cxgb4: free mac_hlist properly <1 year, 7 months ago> [4904ec053b12]
+by: Arjun Vynipadath (arjun@chelsio.com)
+libnvdimm/btt: Remove unnecessary code in btt_freelist_init <1 year, 3 months ago> [578b52cb7e0c]
+by: Vishal Verma (vishal.l.verma@intel.com)
+platform/x86: alienware-wmi: fix kfree on potentially uninitialized pointer <1 year, 2 months ago> [d68c6f1ebeb2]
+by: Colin Ian King (colin.king@canonical.com)
+ubsan: build ubsan.c more conservatively <10 months ago> [6c54320bf5ca]
+by: Arnd Bergmann (arnd@arndb.de)
+x86/uaccess, ubsan: Fix UBSAN vs. SMAP <1 year, 2 months ago> [8d56054c3cba]
+by: Peter Zijlstra (peterz@infradead.org)
+l2tp: device MTU setup, tunnel socket needs a lock <3 years, 2 months ago> [1b40e42cde5e]
+by: R. Parameswaran (parameswaran.r7@gmail.com)
+dmaengine: tegra210-adma: Fix an error handling path in 'tegra_adma_probe()' <3 weeks ago> [f7246cfb32a0]
+by: Christophe JAILLET (christophe.jaillet@wanadoo.fr)
+ALSA: pcm: fix incorrect hw_base increase <3 weeks ago> [3a514eb8f4bb]
+by: Brent Lu (brent.lu@intel.com)
+l2tp: initialise PPP sessions before registering them <2 weeks ago> [88f48b08c6e0]
+by: Guillaume Nault (g.nault@alphalink.fr)
+l2tp: protect sock pointer of struct pppol2tp_session with RCU <2 weeks ago> [dff9951bcf7d]
+by: Guillaume Nault (g.nault@alphalink.fr)
+l2tp: initialise l2tp_eth sessions before registering them <2 weeks ago> [aa55f9d16433]
+by: Guillaume Nault (g.nault@alphalink.fr)
+l2tp: don't register sessions in l2tp_session_create() <2 weeks ago> [43a426f6b142]
+by: Guillaume Nault (g.nault@alphalink.fr)
+l2tp: fix l2tp_eth module loading <2 weeks ago> [006b30252713]
+by: Guillaume Nault (g.nault@alphalink.fr)
+l2tp: pass tunnel pointer to ->session_create() <2 weeks ago> [9ccb153b267f]
+by: Guillaume Nault (g.nault@alphalink.fr)
+l2tp: prevent creation of sessions on terminated tunnels <2 weeks ago> [5d376e50b246]
+by: Guillaume Nault (g.nault@alphalink.fr)
+l2tp: hold tunnel used while creating sessions with netlink <2 weeks ago> [7797a072d8d5]
+by: Guillaume Nault (g.nault@alphalink.fr)
+l2tp: hold tunnel while handling genl TUNNEL_GET commands <2 weeks ago> [3f214c0c8712]
+by: Guillaume Nault (g.nault@alphalink.fr)
+l2tp: hold tunnel while handling genl tunnel updates <2 weeks ago> [683e7f80fc6b]
+by: Guillaume Nault (g.nault@alphalink.fr)
+l2tp: hold tunnel while processing genl delete command <2 weeks ago> [925810299a53]
+by: Guillaume Nault (g.nault@alphalink.fr)
+l2tp: hold tunnel while looking up sessions in l2tp_netlink <2 weeks ago> [30dec09ed1c0]
+by: Guillaume Nault (g.nault@alphalink.fr)
+l2tp: initialise session's refcount before making it reachable <2 weeks ago> [64c8f61c161e]
+by: Guillaume Nault (g.nault@alphalink.fr)
+l2tp: define parameters of l2tp_tunnel_find*() as "const" <2 weeks ago> [b7103b2ddd0d]
+by: Guillaume Nault (g.nault@alphalink.fr)
+l2tp: define parameters of l2tp_session_get*() as "const" <2 weeks ago> [a2d3f2281e5c]
+by: Guillaume Nault (g.nault@alphalink.fr)
+l2tp: remove l2tp_session_find() <2 weeks ago> [cfa5349bf0d3]
+by: Guillaume Nault (g.nault@alphalink.fr)
+l2tp: remove useless duplicate session detection in l2tp_netlink <2 weeks ago> [c3428fb4c27a]
+by: Guillaume Nault (g.nault@alphalink.fr)
+New kernel function to get IP overhead on a socket. <2 weeks ago> [d35a6269f993]
+by: R. Parameswaran (parameswaran.r7@gmail.com)
+L2TP:Adjust intf MTU, add underlay L3, L2 hdrs. <2 weeks ago> [bdf35a081488]
+by: R. Parameswaran (parameswaran.r7@gmail.com)
+net: l2tp: ppp: change PPPOL2TP_MSG_* => L2TP_MSG_* <2 weeks ago> [02f7d3736470]
+by: Asbjørn Sloth Tønnesen (asbjorn@asbjorn.st)
+net: l2tp: deprecate PPPOL2TP_MSG_* in favour of L2TP_MSG_* <2 weeks ago> [9a6048127b05]
+by: Asbjørn Sloth Tønnesen (asbjorn@asbjorn.st)
+net: l2tp: export debug flags to UAPI <2 weeks ago> [0852c96e0d3d]
+by: Asbjørn Sloth Tønnesen (asbjorn@asbjorn.st)
+watchdog: Fix the race between the release of watchdog_core_data and cdev <8 months ago> [58d1fa8ee64e]
+by: Kevin Hao (haokexin@gmail.com)
+arm64: fix the flush_icache_range arguments in machine_kexec <2 weeks ago> [7fcedea4ba83]
+by: Christoph Hellwig (hch@lst.de)
+padata: purge get_cpu and reorder_via_wq from padata_do_serial <2 weeks ago> [34d16e51427e]
+by: Daniel Jordan (daniel.m.jordan@oracle.com)
+padata: initialize pd->cpu with effective cpumask <2 weeks ago> [0977f7ff6bdb]
+by: Daniel Jordan (daniel.m.jordan@oracle.com)
+padata: Replace delayed timer with immediate workqueue in padata_reorder <2 weeks ago> [d1ef050a8258]
+by: Herbert Xu (herbert@gondor.apana.org.au)
+padata: set cpu_index of unused CPUs to -1 <2 weeks ago> [d57f16638177]
+by: Mathias Krause (minipli@googlemail.com)
+i2c: dev: Fix the race between the release of i2c_dev and cdev <8 months ago> [56b38d3707fd]
+by: Kevin Hao (haokexin@gmail.com)
+ARM: futex: Address build warning <7 weeks ago> [aba6a2d3e87a]
+by: Thomas Gleixner (tglx@linutronix.de)
+platform/x86: asus-nb-wmi: Do not load on Asus T100TA and T200TA <6 weeks ago> [074073d40bbc]
+by: Hans de Goede (hdegoede@redhat.com)
+USB: core: Fix misleading driver bug report <5 weeks ago> [c9ea04b557ea]
+by: Alan Stern (stern@rowland.harvard.edu)
+ceph: fix double unlock in handle_cap_export() <5 weeks ago> [d45f672a6c87]
+by: Wu Bo (wubo40@huawei.com)
+gtp: set NLM_F_MULTI flag in gtp_genl_dump_pdp() <5 weeks ago> [55b56a0f528a]
+by: Yoshiyuki Kurauchi (ahochauwaaaaa@gmail.com)
+component: Silence bind error on -EPROBE_DEFER <8 weeks ago> [575c2d471dc2]
+by: James Hilliard (james.hilliard1@gmail.com)
+configfs: fix config_item refcnt leak in configfs_rmdir() <6 weeks ago> [1876e4e17c33]
+by: Xiyu Yang (xiyuyang19@fudan.edu.cn)
+HID: multitouch: add eGalaxTouch P80H84 support <8 weeks ago> [9db2a32efd0c]
+by: Sebastian Reichel (sebastian.reichel@collabora.com)
+gcc-common.h: Update for GCC 10 <8 weeks ago> [8e9ae6a274c8]
+by: Frédéric Pierret (fepitre) (frederic.pierret@qubes-os.org)
+i2c: mux: demux-pinctrl: Fix an error handling path in 'i2c_demux_pinctrl_probe()' <4 weeks ago> [3fe14a8b648f]
+by: Christophe JAILLET (christophe.jaillet@wanadoo.fr)
+iommu/amd: Fix over-read of ACPI UID from IVRS table <4 weeks ago> [3110893acc03]
+by: Alexander Monakov (amonakov@ispras.ru)
+fix multiplication overflow in copy_fdtable() <2 weeks ago> [6a406259e3f6]
+by: Al Viro (viro@zeniv.linux.org.uk)
+ima: Fix return value of ima_write_policy() <6 weeks ago> [769f9fb525d4]
+by: Roberto Sassu (roberto.sassu@huawei.com)
+evm: Check also if *tfm is an error pointer in init_desc() <6 weeks ago> [5b6af6bf27be]
+by: Roberto Sassu (roberto.sassu@huawei.com)
+padata: ensure padata_do_serial() runs on the correct CPU <2 years, 9 months ago> [6cf242550ebe]
+by: Mathias Krause (minipli@googlemail.com)
+padata: ensure the reorder timer callback runs on the correct CPU <2 years, 9 months ago> [b8bdfea433ad]
+by: Mathias Krause (minipli@googlemail.com)
+padata: get_next is never NULL <3 years, 2 months ago> [03a790960ad8]
+by: Jason A. Donenfeld (Jason@zx2c4.com)
+igb: use igb_adapter->io_addr instead of e1000_hw->hw_addr <3 years, 7 months ago> [090d2fcbbbf0]
+by: Cao jin (caoj.fnst@cn.fujitsu.com)
+Linux 4.9.224 <2 weeks ago> [dc831ac0e941]
+by: Greg Kroah-Hartman (gregkh@linuxfoundation.org)
+Makefile: disallow data races on gcc-10 as well <3 months ago> [22fc0b10b622]
+by: Sergei Trofimovich (slyfox@gentoo.org)
+KVM: x86: Fix off-by-one error in kvm_vcpu_ioctl_x86_setup_mce <4 weeks ago> [7c54ad2634fa]
+by: Jim Mattson (jmattson@google.com)
+ARM: dts: r8a7740: Add missing extal2 to CPG node <4 weeks ago> [fdc54df94412]
+by: Geert Uytterhoeven (geert+renesas@glider.be)
+ARM: dts: r8a73a4: Add missing CMT1 interrupts <8 weeks ago> [2173028b388e]
+by: Geert Uytterhoeven (geert+renesas@glider.be)
+Revert "ALSA: hda/realtek: Fix pop noise on ALC225" <5 weeks ago> [27fb3d4ef94e]
+by: Kai-Heng Feng (kai.heng.feng@canonical.com)
+usb: gadget: legacy: fix error return code in cdc_bind() <4 weeks ago> [e815391742ae]
+by: Wei Yongjun (weiyongjun1@huawei.com)
+usb: gadget: legacy: fix error return code in gncm_bind() <4 weeks ago> [5298daea278c]
+by: Wei Yongjun (weiyongjun1@huawei.com)
+usb: gadget: audio: Fix a missing error return value in audio_bind() <5 weeks ago> [5efdcc4576bc]
+by: Christophe JAILLET (christophe.jaillet@wanadoo.fr)
+usb: gadget: net2272: Fix a memory leak in an error handling path in 'net2272_plat_probe()' <6 weeks ago> [c24f8da765a3]
+by: Christophe JAILLET (christophe.jaillet@wanadoo.fr)
+exec: Move would_dump into flush_old_exec <3 weeks ago> [b6007dbdaadf]
+by: Eric W. Biederman (ebiederm@xmission.com)
+x86: Fix early boot crash on gcc-10, third try <6 weeks ago> [6c54e27e8c7e]
+by: Borislav Petkov (bp@suse.de)
+ARM: dts: imx27-phytec-phycard-s-rdk: Fix the I2C1 pinctrl entries <2 months ago> [2290368dc397]
+by: Fabio Estevam (festevam@gmail.com)
+usb: xhci: Fix NULL pointer dereference when enqueuing trbs from urb sg list <3 weeks ago> [1c02a0f3056c]
+by: Sriharsha Allenki (sallenki@codeaurora.org)
+USB: gadget: fix illegal array access in binding with UDC <4 weeks ago> [c6f917217c3d]
+by: Kyungtae Kim (kt0755@gmail.com)
+ALSA: usb-audio: Add control message quirk delay for Kingston HyperX headset <6 weeks ago> [41462258920a]
+by: Jesus Ramos (jesus-ramos@live.com)
+ALSA: rawmidi: Fix racy buffer resize under concurrent accesses <4 weeks ago> [224f904c3122]
+by: Takashi Iwai (tiwai@suse.de)
+ALSA: rawmidi: Initialize allocated buffers <1 year, 9 months ago> [5ec070dc5c1f]
+by: Takashi Iwai (tiwai@suse.de)
+ALSA: hda/realtek - Limit int mic boost for Thinkpad T530 <3 weeks ago> [8f3103492fb6]
+by: Takashi Iwai (tiwai@suse.de)
+netprio_cgroup: Fix unlimited memory leak of v2 cgroups <4 weeks ago> [9d3889d90b83]
+by: Zefan Li (lizefan@huawei.com)
+net: ipv4: really enforce backoff for redirects <4 weeks ago> [b5578e241c8e]
+by: Paolo Abeni (pabeni@redhat.com)
+Revert "ipv6: add mtu lock check in __ip6_rt_update_pmtu" <4 weeks ago> [5da3e9a34b58]
+by: Maciej Żenczykowski (maze@google.com)
+netlabel: cope with NULL catmap <3 weeks ago> [b8223573ffcc]
+by: Paolo Abeni (pabeni@redhat.com)
+net: fix a potential recursive NETDEV_FEAT_CHANGE <4 weeks ago> [babde485df02]
+by: Cong Wang (xiyou.wangcong@gmail.com)
+gcc-10: disable 'restrict' warning for now <4 weeks ago> [cc09d67d11f7]
+by: Linus Torvalds (torvalds@linux-foundation.org)
+gcc-10: disable 'stringop-overflow' warning for now <4 weeks ago> [cac64892836f]
+by: Linus Torvalds (torvalds@linux-foundation.org)
+gcc-10: disable 'array-bounds' warning for now <4 weeks ago> [53569bc3780f]
+by: Linus Torvalds (torvalds@linux-foundation.org)
+gcc-10: disable 'zero-length-bounds' warning for now <4 weeks ago> [bf0915f6b28d]
+by: Linus Torvalds (torvalds@linux-foundation.org)
+gcc-10: avoid shadowing standard library 'free()' in crypto <4 weeks ago> [30f7c8e989d4]
+by: Linus Torvalds (torvalds@linux-foundation.org)
+net: phy: micrel: Use strlcpy() for ethtool::get_strings <2 years, 3 months ago> [979a69ec590f]
+by: Florian Fainelli (f.fainelli@gmail.com)
+Stop the ad-hoc games with -Wno-maybe-initialized <4 weeks ago> [aa6265f3c789]
+by: Linus Torvalds (torvalds@linux-foundation.org)
+kbuild: compute false-positive -Wmaybe-uninitialized cases in Kconfig <1 year, 3 months ago> [1031e9852275]
+by: Masahiro Yamada (yamada.masahiro@socionext.com)
+gcc-10 warnings: fix low-hanging fruit <5 weeks ago> [01733c985a6e]
+by: Linus Torvalds (torvalds@linux-foundation.org)
+pnp: Use list_for_each_entry() instead of open coding <7 weeks ago> [30a69cae2c1d]
+by: Jason Gunthorpe (jgg@mellanox.com)
+IB/mlx4: Test return value of calls to ib_get_cached_pkey <6 weeks ago> [26aad58ae08a]
+by: Jack Morgenstein (jackm@dev.mellanox.co.il)
+netfilter: conntrack: avoid gcc-10 zero-length-bounds warning <5 weeks ago> [0892bff9d47e]
+by: Arnd Bergmann (arnd@arndb.de)
+i40iw: Fix error handling in i40iw_manage_arp_cache() <6 weeks ago> [ef8b0a90dfd7]
+by: Dan Carpenter (dan.carpenter@oracle.com)
+pinctrl: cherryview: Add missing spinlock usage in chv_gpio_irq_handler <7 weeks ago> [2e98e136991b]
+by: Grace Kao (grace.kao@intel.com)
+ipc/util.c: sysvipc_find_ipc() incorrectly updates position index <3 weeks ago> [9d0fbe74df0d]
+by: Vasily Averin (vvs@virtuozzo.com)
+drm/qxl: lost qxl_bo_kunmap_atomic_page in qxl_image_init_helper() <5 weeks ago> [8b237c9f8629]
+by: Vasily Averin (vvs@virtuozzo.com)
+ALSA: hda/hdmi: fix race in monitor detection during probe <5 weeks ago> [e6fdde48ac99]
+by: Kai Vehmanen (kai.vehmanen@linux.intel.com)
+dmaengine: mmp_tdma: Reset channel error on release <7 weeks ago> [b739fe720c37]
+by: Lubomir Rintel (lkundrak@v3.sk)
+dmaengine: pch_dma.c: Avoid data race between probe and irq handler <7 weeks ago> [028be5374648]
+by: Madhuparna Bhowmik (madhuparnabhowmik10@gmail.com)
+cifs: Fix a race condition with cifs_echo_request <11 months ago> [c9b27070ced5]
+by: Ronnie Sahlberg (lsahlber@redhat.com)
+cifs: Check for timeout on Negotiate stage <2 years, 11 months ago> [7833f76117bb]
+by: Samuel Cabrero (scabrero@suse.de)
+spi: spi-dw: Add lock protect dw_spi rx/tx to prevent concurrent calls <5 months ago> [3256d5642cac]
+by: wuxu.wu (wuxu.wu@huawei.com)
+scsi: sg: add sg_remove_request in sg_write <8 weeks ago> [58600f3e5d81]
+by: Wu Bo (wubo40@huawei.com)
+drop_monitor: work around gcc-10 stringop-overflow warning <5 weeks ago> [e36a2eca3488]
+by: Arnd Bergmann (arnd@arndb.de)
+net: moxa: Fix a potential double 'free_irq()' <6 weeks ago> [783688bf888c]
+by: Christophe JAILLET (christophe.jaillet@wanadoo.fr)
+net/sonic: Fix a resource leak in an error handling path in 'jazz_sonic_probe()' <6 weeks ago> [e6f3f0e8b760]
+by: Christophe JAILLET (christophe.jaillet@wanadoo.fr)
+shmem: fix possible deadlocks on shmlock_user_lock <7 weeks ago> [7ee13bfa8f80]
+by: Hugh Dickins (hughd@google.com)
+ptp: free ptp device pin descriptors properly <5 months ago> [bb50233bf791]
+by: Vladis Dronov (vdronov@redhat.com)
+ptp: fix the race between the release of ptp_clock and cdev <5 months ago> [e4d85e316b31]
+by: Vladis Dronov (vdronov@redhat.com)
+ptp: Fix pass zero to ERR_PTR() in ptp_clock_register <1 year, 6 months ago> [857701e15404]
+by: YueHaibing (yuehaibing@huawei.com)
+chardev: add helper function to register char devs with a struct device <3 years, 3 months ago> [aded68bb21a0]
+by: Logan Gunthorpe (logang@deltatee.com)
+ptp: create "pins" together with the rest of attributes <3 years, 4 months ago> [3ae27b2194fa]
+by: Dmitry Torokhov (dmitry.torokhov@gmail.com)
+ptp: use is_visible method to hide unused attributes <3 years, 4 months ago> [bb9022855aeb]
+by: Dmitry Torokhov (dmitry.torokhov@gmail.com)
+ptp: do not explicitly set drvdata in ptp_clock_register() <3 years, 4 months ago> [36819037f987]
+by: Dmitry Torokhov (dmitry.torokhov@gmail.com)
+blktrace: fix dereference after null check <3 months ago> [ab9b1fe44eff]
+by: Cengiz Can (cengiz@kernel.wtf)
+blktrace: Protect q->blk_trace with RCU <4 months ago> [dd86b5389786]
+by: Jan Kara (jack@suse.cz)
+blktrace: fix trace mutex deadlock <2 years, 7 months ago> [283b6d16abd4]
+by: Jens Axboe (axboe@kernel.dk)
+blktrace: fix unlocked access to init/start-stop/teardown <2 years, 7 months ago> [a3fb3a5b2497]
+by: Jens Axboe (axboe@kernel.dk)
+blktrace: Fix potential deadlock between delete & sysfs ops <2 years, 9 months ago> [aee049fa1793]
+by: Waiman Long (longman@redhat.com)
+net: ipv6_stub: use ip6_dst_lookup_flow instead of ip6_dst_lookup <6 months ago> [dc58e95d7bb3]
+by: Sabrina Dubroca (sd@queasysnail.net)
+net: ipv6: add net argument to ip6_dst_lookup_flow <6 months ago> [12dbdca8e6da]
+by: Sabrina Dubroca (sd@queasysnail.net)
+ext4: add cond_resched() to ext4_protect_reserved_inode <4 months ago> [89e52ffad0e1]
+by: Shijie Luo (luoshijie1@huawei.com)
+binfmt_elf: Do not move brk for INTERP-less ET_EXEC <8 months ago> [7dc125e24add]
+by: Kees Cook (keescook@chromium.org)
+scripts/decodecode: fix trapping instruction formatting <4 weeks ago> [68fef93b0cc7]
+by: Ivan Delalande (colona@arista.com)
+objtool: Fix stack offset tracking for indirect CFAs <6 weeks ago> [865e605d3938]
+by: Josh Poimboeuf (jpoimboe@redhat.com)
+batman-adv: Fix refcnt leak in batadv_v_ogm_process <7 weeks ago> [bc03c8b8841d]
+by: Xiyu Yang (xiyuyang19@fudan.edu.cn)
+batman-adv: Fix refcnt leak in batadv_store_throughput_override <7 weeks ago> [b26d237ce508]
+by: Xiyu Yang (xiyuyang19@fudan.edu.cn)
+batman-adv: Fix refcnt leak in batadv_show_throughput_override <7 weeks ago> [63341729f075]
+by: Xiyu Yang (xiyuyang19@fudan.edu.cn)
+batman-adv: fix batadv_nc_random_weight_tq <3 months ago> [ac9881751fbe]
+by: George Spelvin (lkml@sdf.org)
+mm/page_alloc: fix watchdog soft lockups during set_zone_contiguous() <4 weeks ago> [d10cd73f6809]
+by: David Hildenbrand (david@redhat.com)
+tracing: Add a vmalloc_sync_mappings() for safe measure <4 weeks ago> [7ca118e8674a]
+by: Steven Rostedt (VMware) (rostedt@goodmis.org)
+USB: serial: garmin_gps: add sanity checking for data length <7 weeks ago> [f3dbeaf42ee5]
+by: Oliver Neukum (oneukum@suse.com)
+USB: uas: add quirk for LaCie 2Big Quadra <5 weeks ago> [6d59d74cf120]
+by: Oliver Neukum (oneukum@suse.com)
+binfmt_elf: move brk out of mmap when doing direct loader exec <1 year, 1 month ago> [8558763241ca]
+by: Kees Cook (keescook@chromium.org)
+Revert "ACPI / video: Add force_native quirk for HP Pavilion dv6" <3 years, 4 months ago> [4f498607e22b]
+by: Hans de Goede (hdegoede@redhat.com)
+bnxt_en: Improve AER slot reset. <6 weeks ago> [212b14d7d5e3]
+by: Michael Chan (michael.chan@broadcom.com)
+net/mlx5: Fix command entry leak in Internal Error State <3 months ago> [fbae1e052e23]
+by: Moshe Shemesh (moshe@mellanox.com)
+net/mlx5: Fix forced completion access non initialized command entry <11 months ago> [22220871c1c0]
+by: Moshe Shemesh (moshe@mellanox.com)
+bnxt_en: Fix VLAN acceleration handling in bnxt_fix_features(). <6 weeks ago> [9281df29fb32]
+by: Michael Chan (michael.chan@broadcom.com)
+sch_sfq: validate silly quantum values <6 weeks ago> [34734f773570]
+by: Eric Dumazet (edumazet@google.com)
+sch_choke: avoid potential panic in choke_reset() <6 weeks ago> [f38e59ded718]
+by: Eric Dumazet (edumazet@google.com)
+net: usb: qmi_wwan: add support for DW5816e <5 weeks ago> [2e19984cc9ed]
+by: Matt Jolly (Kangie@footclan.ninja)
+net/mlx4_core: Fix use of ENOSPC around mlx4_counter_alloc() <5 weeks ago> [5ad26fd11bb6]
+by: Tariq Toukan (tariqt@mellanox.com)
+net: macsec: preserve ingress frame ordering <6 weeks ago> [3ce3f03c62ab]
+by: Scott Dial (scott@scottdial.com)
+fq_codel: fix TCA_FQ_CODEL_DROP_BATCH_SIZE sanity checks <6 weeks ago> [3d7a35a7ea26]
+by: Eric Dumazet (edumazet@google.com)
+dp83640: reverse arguments to list_add_tail <5 weeks ago> [082a218b1228]
+by: Julia Lawall (Julia.Lawall@inria.fr)
+USB: serial: qcserial: Add DW5816e support <5 weeks ago> [cf6d8bc3914a]
+by: Matt Jolly (Kangie@footclan.ninja)
+printk: silence healthd messages from userspace <1 year, 10 months ago> [c5dc6dba4164]
+by: kdrag0n (dragon@khronodragon.com)
+Revert "qpnp-fg-gen3.c: Add charge boost" <10 days ago> [7a8f56de39f8]
+by: TwistedPrime (36546624+TwistedPrime@users.noreply.github.com)
+Revert "qpnp-fg-gen3.c: Disable charge boost by default" <10 days ago> [f11457a41962]
+by: TwistedPrime (36546624+TwistedPrime@users.noreply.github.com)
+Revert "qpnp-fg-gen3: charge boost: Only boost when battery is charged over a certain percentage" <10 days ago> [ee62a695a1ea]
+by: TwistedPrime (36546624+TwistedPrime@users.noreply.github.com)
+Revert "qpnp-fg-gen3.c: Increase charge boost trigger to 90%" <10 days ago> [6e94f66cd5d1]
+by: TwistedPrime (36546624+TwistedPrime@users.noreply.github.com)
+Revert "sched/core: Optimize SCHED_SMT" <7 days ago> [f6833efe1b53]
+by: TwistedPrime (36546624+TwistedPrime@users.noreply.github.com)
+compat: ip6_dst_lookup_flow was backported to 4.14, 4.9, and 4.4 <13 days ago> [4aadc3ce74c7]
+by: zx2c4 (Jason@zx2c4.com)
+beryllium: Fix compilation warnings <1 year, 1 month ago> [e41c6bb49423]
+by: YousefAlgadri (yusufgadrie@gmail.com)
+drivers: input: fingerprint: Update FPC driver <2 weeks ago> [91e81d8a5ba7]
+by: TwistedPrime (36546624+TwistedPrime@users.noreply.github.com)
+drivers: input: fingerprint: Update Goodix driver <2 weeks ago> [04d540bfa683]
+by: TwistedPrime (36546624+TwistedPrime@users.noreply.github.com)
+drivers: input: fingerprint: Update Synaptics driver <2 weeks ago> [6bc7e807b266]
+by: TwistedPrime (36546624+TwistedPrime@users.noreply.github.com)
+
+
+====================
+     06-02-2020
+====================
+
+[art]
+Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <4 days ago> [362a3be56c]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[bootable/recovery]
+Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <4 days ago> [b035f2fb]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[development]
+Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <4 days ago> [f8b9246c3]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[manifest]
+Merge remote-tracking branch 'aosp/android-10.0.0_r38' into ten <4 days ago> [747b171]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+Manifest for Android 10.0.0 Release 38 (QQ3A.200605.002) <4 days ago> [887567f]
+by: The Android Open Source Project (initial-contribution@android.com)
+Manifest for Android 10.0.0 Release 37 (QQ3A.200605.001) <4 days ago> [fea4547]
+by: The Android Open Source Project (initial-contribution@android.com)
+Manifest for android10-qpr3-release. <4 days ago> [a3b2879]
+by: The Android Open Source Project (initial-contribution@android.com)
+
+[build/make]
+Merge tag 'android-10.0.0_r38' of https://android.googlesource.com/platform/build into HEAD <4 days ago> [cf1c34589]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[build/soong]
+Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <4 days ago> [21162672]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[frameworks/av]
+Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <4 days ago> [dac19d309]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[frameworks/native]
+Merge tag 'android-10.0.0_r38' into ten <4 days ago> [e1aaff457]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+Revert "surfaceflinger: Merge caf changes" <4 days ago> [7ed1e5ba4]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+Revert "SurfaceFlinger: Exclude CAF extensions from non-QC devices" <4 days ago> [7adc5f802]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+Revert "surfaceflinger: Exclude qcom code on unsupported platforms" <4 days ago> [dd5464458]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+Revert "surfaceflinger: Exclude qcom RefreshRateType changes" <4 days ago> [6c18ac595]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[frameworks/opt/net/wifi]
+Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <4 days ago> [0bfcebdcb]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[frameworks/opt/telephony]
+Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <4 days ago> [0c53a4c7b]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[hardware/interfaces]
+Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <4 days ago> [585f12910]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[hardware/nxp/nfc]
+Merge tag 'android-10.0.0_r37' into ten <3 days ago> [8319cb5]
+by: Akhil Narang (me@akhilnarang.dev)
+
+[packages/apps/Bluetooth]
+Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <4 days ago> [22c78260]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[packages/apps/CellBroadcastReceiver]
+Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <4 days ago> [b882329e]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[packages/apps/CertInstaller]
+Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <4 days ago> [13eeae9]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[packages/apps/Contacts]
+Merge tag 'android-10.0.0_r37' into ten <3 days ago> [9150c53c4]
+by: Akhil Narang (me@akhilnarang.dev)
+
+[packages/apps/DocumentsUI]
+Merge tag 'android-10.0.0_r37' into ten <3 days ago> [46cbbb18e]
+by: Akhil Narang (me@akhilnarang.dev)
+
+[packages/apps/Nfc]
+Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <4 days ago> [268bc298]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[packages/apps/PhoneCommon]
+Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <4 days ago> [0da2d9a]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[packages/apps/Settings]
+Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <4 days ago> [3bb80e999f]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[packages/providers/DownloadProvider]
+Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <4 days ago> [28ead7dd]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[packages/services/Telecomm]
+Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <4 days ago> [f0029027]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[packages/services/Telephony]
+Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <4 days ago> [c74f2b075]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[platform_testing]
+Merge tag 'android-10.0.0_r37' into ten <3 days ago> [fa717d1c]
+by: Akhil Narang (me@akhilnarang.dev)
+
+[system/bt]
+Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <4 days ago> [98af46a57]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[system/core]
+Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <4 days ago> [ad679fb54]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[system/sepolicy]
+Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <4 days ago> [680109d0]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[system/vold]
+Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <4 days ago> [425481d]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+
+====================
+     06-01-2020
+====================
+
+[packages/apps/DerpQuest]
+DerpQuest: Update Greek translation (#62,#64) <8 days ago> [27bce52]
+by: CrisBalGreece (crisbaladim@yahoo.gr)
+DerpQuest: Make TwoTargetPreference divider slimmer <11 days ago> [57f2660]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+DerpQuest: Allow showing SB ticker for media [2/2] <13 days ago> [bedcab2]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+DerpQuest: Bring back good ol' circle battery style [2/2] <4 months ago> [6c831d1]
+by: Luca Stefani (luca.stefani.ge1@gmail.com)
+
+[device/xiaomi/sdm845-common]
+sdm845-common: Fix FPS Tile Denial <6 weeks ago> [7e19e72]
+by: Lup Gabriel (gwolf2u.website@gmail.com)
+sdm845-common: parts: Digital-style icon for FPSInfo QS Tile <3 months ago> [cd14199]
+by: Nauval Rizky (enuma.alrizky@gmail.com)
+sdm845-common: parts: Add FPS overlay QS tile <4 months ago> [b6e0535]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+sdm845-common: parts: adapt FPS Info based on exposed data from kernel <6 weeks ago> [faa7215]
+by: Nauval Rizky (enuma.alrizky@gmail.com)
+sdm845-common: parts: introduce FPS overlay <7 months ago> [e09cace]
+by: Marko Man (darkobas@gmail.com)
+
+
+====================
+     05-31-2020
+====================
+
+[manifest]
+manifest: Track Clock, Calendar APPs for VANILLA (#3) <6 days ago> [53c8050]
+by: ALKALiKong (alikongalk@gmail.com)
+
+[build/make]
+build: Add Etar and DeskClock for VANILLA builds (#6) <6 days ago> [456539bee]
+by: ALKALiKong (alikongalk@gmail.com)
+
+[vendor/prebuilts]
+prebuilts: Add firefox-lite and remove outdated things (#2) <6 days ago> [c86f3ac]
+by: ALKALiKong (alikongalk@gmail.com)
+
+[prebuilts/clang/host/linux-x86/clang-twisted]
+May 30, 2020 <6 days ago> [3e2d065]
+by: TwistedPrime (36546624+TwistedPrime@users.noreply.github.com)
+
+
+====================
+     05-30-2020
+====================
+
+[external/e2fsprogs]
+Mark libext2{-headers,_blkid,_uuid} as vendor available <3 months ago> [6bc30a7b]
+by: LuK1337 (priv.luk@gmail.com)
+Ignore -Wno-pointer-sign warnings <7 months ago> [b3b9d81e]
+by: Michael Bestas (mkbestas@lineageos.org)
+resize: Make a target for standalone resize2fs_static binary <2 years, 3 months ago> [4381cd58]
+by: Bruno Martins (bgcngm@gmail.com)
+
+[frameworks/base]
+base: QS: Have a consistent default row value <7 days ago> [d26cba303ca]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[packages/apps/Messaging]
+Import translations. DO NOT MERGE <4 months ago> [1974ee7]
+by: Bill Yi (byi@google.com)
+Rescheduling pending messages after outside window failure <3 weeks ago> [b99b6a1]
+by: Taesu Lee (taesu82.lee@samsung.com)
+Fix NPE on MultiConversationNotificationState <4 weeks ago> [3b32b23]
+by: Taesu Lee (taesu82.lee@samsung.com)
+Hide APN prefs if platform APIs are used <5 weeks ago> [73e0897]
+by: Taesu Lee (taesu82.lee@samsung.com)
+Use ic_add_white for consistency instead <5 weeks ago> [518f57c]
+by: Taesu Lee (taesu82.lee@samsung.com)
+Fix to show APN prefs correctly <5 weeks ago> [efada60]
+by: Taesu Lee (taesu82.lee@samsung.com)
+Fix NPE <5 weeks ago> [800e0ee]
+by: Taesu Lee (taesu82.lee@samsung.com)
+Handle delivered messages as completed messages <6 weeks ago> [8e58132]
+by: Taesu Lee (taesu82.lee@samsung.com)
+
+[device/xiaomi/dipper]
+Revert dipper: Add pixelsounds in non-gapps build <7 days ago> [b376a42]
+by: ALKALiKong (alikongalk@gmail.com)
+
+
+====================
+     05-29-2020
+====================
+
+[packages/apps/Matlog]
+MatLog: cleanup unused resources and prepare for translate <8 days ago> [550dfb2]
+by: maxwen (max.weninger@gmail.com)
+MatLog: fix widget <8 days ago> [ade9b6a]
+by: maxwen (max.weninger@gmail.com)
+
+[packages/apps/DerpQuest]
+DerpQuest: Update RU translation (#59,#60,#61,#63) <2 weeks ago> [429a9d2]
+by: Northn (57762732+Northn@users.noreply.github.com)
+ColorPicker: Enable the reset button when setting a default at runtime <2 weeks ago> [d827614]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+DerpQuest: Allow choosing a custom color for pressed FOD [2/2] <3 weeks ago> [6733790]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+DerpQuest: Disable SELinux switch if unrooted <3 weeks ago> [9e42f8e]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+Utils: Add root check function <3 weeks ago> [9c66038]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[packages/apps/OpenDelta]
+OpenDelta: cleanup mk file <7 days ago> [5abe485]
+by: maxwen (max.weninger@gmail.com)
+
+
+====================
+     05-28-2020
+====================
+
+[device/qcom/sepolicy-legacy]
+sepolicy: Add access policy for charger <4 months ago> [03d80cbb]
+by: YumeMichi (do4suki@gmail.com)
+sepolicy-legacy: Allow Snap to read camera props <3 months ago> [d41b6cd6]
+by: Bruno Martins (bgcngm@gmail.com)
+sepolicy : Add rule to set property for wlan driver/fw ver info <1 year ago> [1c3c9cad]
+by: Vinay Gannevaram (vganneva@codeaurora.org)
+sepolicy: Policy fix for emmc based rpmb partition <1 year, 2 months ago> [9aaea358]
+by: Anmolpreet Kaur (anmolpre@codeaurora.org)
+sepolicy: provide rules for cryptfs_hw hal <12 months ago> [f5060c18]
+by: Shailendra Gupta (shaigu@codeaurora.org)
+
+[packages/apps/Matlog]
+MatLog: add DayNight support <9 days ago> [75446e7]
+by: maxwen (max.weninger@gmail.com)
+
+[device/xiaomi/sdm845-common]
+sdm845-common: do not BUILD_WITHOUT_VENDOR <2 weeks ago> [7d7aa0f]
+by: Chenyang Zhong (zhongcy95@gmail.com)
+sdm845-common: sepolicy: Label Xiaomi specific global props <1 year, 5 months ago> [aac2b28]
+by: dianlujitao (dianlujitao@lineageos.org)
+sdm845-common: sepolicy: Ignore thermal-engine dac_override and read <5 months ago> [dc73998]
+by: Michael Bestas (mkbestas@lineageos.org)
+sdm845-common: sepolicy: Label sensors prop and allow reading it <3 weeks ago> [fe571c3]
+by: Bruno Martins (bgcngm@gmail.com)
+sdm845-common: sepolicy: Address thermal-engine denials <4 weeks ago> [736a5ec]
+by: Bruno Martins (bgcngm@gmail.com)
+sdm845-common: sepolicy: Silent rild denials <1 year, 7 months ago> [9d719bf]
+by: Bruno Martins (bgcngm@gmail.com)
+sdm845-common: sepolicy: Stop with endless debug props logspam <4 months ago> [234bd84]
+by: palaych (palaychm@yandex.ru)
+sdm845-common: sepolicy: Allow sensors HAL to read ASDP RPC props <3 weeks ago> [af763d5]
+by: Bruno Martins (bgcngm@gmail.com)
+sdm845-common: sepolicy: Specify which ro.camera props are labelled camera_ro_prop <12 months ago> [d4f8e86]
+by: Jayant Chowdhary (jchowdhary@google.com)
+sdm845-common: sepolicy: camera: allow read camera ro props <1 year, 1 month ago> [dfd8a76]
+by: Zhijun He (zhijunhe@google.com)
+sdm845-common: sepolicy: Allow every app to read camera props <9 weeks ago> [b8ed54f]
+by: palaych (palaychm@yandex.ru)
+sdm845-common: sepolicy: Remove undesired camera prop label <3 weeks ago> [4bda252]
+by: Bruno Martins (bgcngm@gmail.com)
+sdm845-common: bump vendor.display.config version <3 weeks ago> [70681bc]
+by: Chenyang Zhong (zhongcy95@gmail.com)
+sdm845-common: set max_frame_buffer_acquired_buffers to 3 <3 weeks ago> [547d3f2]
+by: Chenyang Zhong (zhongcy95@gmail.com)
+Revert "sdm845-common: nuke CarrierConfig overlay" <8 days ago> [7a5e0b2]
+by: ALKALiKong (alikongalk@gmail.com)
+
+
+====================
+     05-27-2020
+====================
+
+[packages/apps/Matlog]
+MatLog: switch to androidx <10 days ago> [ea0c5d6]
+by: maxwen (max.weninger@gmail.com)
+
+
+====================
+     05-26-2020
+====================
+
+[packages/apps/Dialer]
+ Failed to show hold call when user click swap and merge simultaneously <3 months ago> [4065b50d0]
+by: rongmei.li (rongmei.li@unisoc.com)
+Fix FATAL Exception in PostCallActivity <9 months ago> [6ff56814c]
+by: Taesu Lee (taesu82.lee@samsung.com)
+AOSP/Dialer - Fix improperly formatted resource string in Dialer across many languages. <11 months ago> [8bb28215e]
+by: Raman Tenneti (rtenneti@google.com)
+Fix the issue that automatic mute state remains ON after adding VT call <2 years ago> [35abe852c]
+by: Sekine Yasuaki (yasuaki.sekine@sony.com)
+Fix error case which session change request failed when pausing video <2 years, 11 months ago> [d3fdbebb8]
+by: Sekine Yasuaki (yasuaki.sekine@sony.com)
+Fix for button flickering issue when video call screen rotates <2 years, 10 months ago> [9e6aac2f4]
+by: Hideki Ishii (hideki.ishii@sony.com)
+Fix to update peer dimensions when video screen resumes foreground <2 years, 11 months ago> [b5bb5a27e]
+by: Sekine Yasuaki (yasuaki.sekine@sony.com)
+Fix issue that the hold label is not shown during remote video holding <2 years ago> [487c35652]
+by: Oya Masafumi (masafumi.x.oya@sony.com)
+Fix preview image overlaps a call button during video call <2 years, 1 month ago> [bbbd45a43]
+by: Shalika Pathirathna (shalika.x.pathirathna@sony.com)
+Dialer: allow framework to do dark theming automatically <3 weeks ago> [4dfa411d5]
+by: Jesse Chan (jc@lineageos.org)
+Updated target SDK from 28 to 29. <3 weeks ago> [87fe9dc2b]
+by: Raman Tenneti (rtenneti@google.com)
+Dialer: Remove old dark theme <10 days ago> [bbc1590a6]
+by: Josh Fox (XlxFoXxlX) (joshfox87@gmail.com)
+Dialer: Add extra privapp permissions xml <4 weeks ago> [f95c42a7f]
+by: Michael Bestas (mkbestas@lineageos.org)
+
+[packages/apps/DocumentsUI]
+Update message layout <5 months ago> [03b37d77c]
+by: Tony Huang (tonyychuang@google.com)
+Set sdk_version 'system_current' <7 months ago> [8f651d76a]
+by: Jeongik Cha (jeongik@google.com)
+
+[packages/apps/Launcher3]
+Launcher3: Add FORCE_STOP_PACKAGES permission <4 weeks ago> [d66e87f39]
+by: Josh Fox (XlxFoXxlX) (joshfox87@gmail.com)
+Launcher3: Add extra privapp permissions xml <4 weeks ago> [806347201]
+by: Michael Bestas (mkbestas@lineageos.org)
+
+[packages/apps/Messaging]
+Messaging: bump target SDK version to 29 <3 weeks ago> [1b4a733]
+by: Jesse Chan (jc@lineageos.org)
+Messaging: Fix sysconfig whitelist filename <3 weeks ago> [a47e357]
+by: Michael Bestas (mkbestas@lineageos.org)
+Dismiss SnackBar when detached <9 weeks ago> [ce36a3d]
+by: Taesu Lee (taesu82.lee@samsung.com)
+Fix assert fail during onSaveInstanceState() <9 weeks ago> [eb2904d]
+by: Taesu Lee (taesu82.lee@samsung.com)
+Messaging: Show quick reply choices only on wearable devices <3 months ago> [ee8eccf]
+by: Han Wang (416810799@qq.com)
+Fix WindowLeaked issue on AttachmentPreview <3 months ago> [aaa7e62]
+by: Taesu Lee (taesu82.lee@samsung.com)
+Fix undesirable ripple effect on GalleryGridView <3 months ago> [e8f7bb5]
+by: Taesu Lee (taesu82.lee@samsung.com)
+New interface to pick a contact as attachment <3 months ago> [9741ca8]
+by: Taesu Lee (taesu82.lee@samsung.com)
+ProcessPendingMessagesAction works based on subscriptions <4 months ago> [b0fb9a8]
+by: Taesu Lee (taesu82.lee@samsung.com)
+Allow intent shared subject or title to be mms subject <1 year, 7 months ago> [642a5c1]
+by: Marco Sirabella (marco@sirabella.org)
+Update runner to AndroidJUnittest <4 months ago> [8d25fab]
+by: Julien Desprez (jdesprez@google.com)
+Support audio attachments through GalleryMediaChooser <4 months ago> [449e744]
+by: Taesu Lee (taesu82.lee@samsung.com)
+Support video attachments through GalleryMediaChooser <5 months ago> [63886a8]
+by: Taesu Lee (taesu82.lee@samsung.com)
+Show attachments size during composing MMS <4 months ago> [0930adf]
+by: Taesu Lee (taesu82.lee@samsung.com)
+Do not show the fail icon for a group conversation <4 months ago> [c3e6fbd]
+by: Taesu Lee (taesu82.lee@samsung.com)
+Actual attachments size is the minimum size except images <4 months ago> [9a79a32]
+by: Taesu Lee (taesu82.lee@samsung.com)
+Allow acceptable media types only for sharing <4 months ago> [f5acaf1]
+by: Taesu Lee (taesu82.lee@samsung.com)
+Support sharing with image/video/audio/vcard and text fully <4 months ago> [52b132e]
+by: Taesu Lee (taesu82.lee@samsung.com)
+Revert "Messaging: Implement saved video attachments in MMS" <3 months ago> [9aa194e]
+by: Luca Stefani (luca.stefani.ge1@gmail.com)
+Revert "Added support for video and audio mms attachments" <3 months ago> [0666071]
+by: Luca Stefani (luca.stefani.ge1@gmail.com)
+Revert "Fixed storage permission issue for attachments" <3 months ago> [462cfe6]
+by: Luca Stefani (luca.stefani.ge1@gmail.com)
+Revert "Messaging: Don't crash on unsupported shared content type" <3 months ago> [8c4a9aa]
+by: Luca Stefani (luca.stefani.ge1@gmail.com)
+Revert "Allow intent shared subject or title to be mms subject" <3 months ago> [167a732]
+by: Luca Stefani (luca.stefani.ge1@gmail.com)
+Messaging: Handle multiple participants in custom notifications <12 months ago> [d909fe5]
+by: Lyubo (lyubodzhamov@gmail.com)
+Fix android.os.strictmode.LeakedClosableViolation <4 months ago> [b2fb52e]
+by: Taesu Lee (taesu82.lee@samsung.com)
+Register implicit broadcasts at runtime for updating widgets <4 months ago> [269858c]
+by: Taesu Lee (taesu82.lee@samsung.com)
+Fix to show PersonItemView for TYPE_CHOOSER_GRID correctly <4 months ago> [d558d6e]
+by: Taesu Lee (taesu82.lee@samsung.com)
+Fix covering issue for video thumbnails on widget view <4 months ago> [2d8e43b]
+by: Taesu Lee (taesu82.lee@samsung.com)
+Fix wrong margin on widget conversation view <4 months ago> [c63ff7e]
+by: Taesu Lee (taesu82.lee@samsung.com)
+Use file extension based on MIME type <4 months ago> [b3eacbb]
+by: Taesu Lee (taesu82.lee@samsung.com)
+Fix showing wrong image on document picker item <4 months ago> [fbb4dfe]
+by: Taesu Lee (taesu82.lee@samsung.com)
+Fix NPE caused by invalid IFD0 offset <3 years, 1 month ago> [90fcd6d]
+by: Taesu Lee (taesu82.lee@samsung.com)
+Messaging: Add sysconfig whitelist xml <4 weeks ago> [f200ff2]
+by: Michael Bestas (mkbestas@lineageos.org)
+
+[vendor/aosip]
+extract_utils: Fix vendor Android.bp creation with subdirectory <13 days ago> [f45f384]
+by: Andreas Schneider (asn@cryptomilk.org)
+extract_utils: Handle Brotli compressed block image <6 weeks ago> [f935c42]
+by: dianlujitao (dianlujitao@lineageos.org)
+extract_utils: Support odm/product/vendor partition for zip extract <6 weeks ago> [c82dfe2]
+by: dianlujitao (dianlujitao@lineageos.org)
+extract_utils: Generate deodexed apk/jar with consistent checksum <9 weeks ago> [98cd330]
+by: dianlujitao (dianlujitao@lineageos.org)
+extract_utils: Fix doubled path separator <9 weeks ago> [142e6b3]
+by: dianlujitao (dianlujitao@lineageos.org)
+
+[vendor/overlay]
+overlays: Fix fc when trying to apply kronicgreen theme <4 weeks ago> [91ba24c]
+by: Josh Fox (XlxFoXxlX) (joshfox87@gmail.com)
+
+[scripts]
+fscripts: updater: Print diff with no pager <11 days ago> [4a931b2]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+updater: fix typos in comments (#1) <3 weeks ago> [d40d39c]
+by: Omkar Chandorkar (forumomkar@gmail.com)
+scripts: updater: Rewrite <3 weeks ago> [a1494de]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+
+====================
+     05-25-2020
+====================
+
+[art]
+art: extend the supported cpu_variant list for arm64 <2 years, 7 months ago> [fd20d13e5a]
+by: Wei Wang (wangw@codeaurora.org)
+
+
+====================
+     05-24-2020
+====================
+
+[frameworks/base]
+base: Settings: Allow showing SB ticker for media [1/2] <13 days ago> [168b93787b3]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+SystemUI: Bring back good ol' circle battery style [1/2] <4 months ago> [1246962c116]
+by: Luca Stefani (luca.stefani.ge1@gmail.com)
+
+[prebuilts/clang/host/linux-x86/clang-twisted]
+May 23, 2020 <13 days ago> [a25e4bc]
+by: TwistedPrime (36546624+TwistedPrime@users.noreply.github.com)
+
+
+====================
+     05-23-2020
+====================
+
+[device/aosip/sepolicy]
+common: Move aux camera whitelist prop to vendor <3 weeks ago> [cfb4ba0]
+by: dianlujitao (dianlujitao@lineageos.org)
+common: Expose aux camera {black,white}list props <4 weeks ago> [d650e9e]
+by: dianlujitao (dianlujitao@lineageos.org)
+
+[device/qcom/sepolicy]
+sepolicy: Unlabel aux camera whitelist prop (#2) <13 days ago> [bfcbd6ec]
+by: Adrian (adrianszymanski242@gmail.com)
+
+[device/qcom/sepolicy-legacy-um]
+sepolicy: Unlabel aux camera whitelist prop <4 weeks ago> [61163938]
+by: dianlujitao (dianlujitao@lineageos.org)
+
+[frameworks/base]
+base: Add more RU translations (#20,#21) <13 days ago> [43467349366]
+by: RunningMango (36758157+RunningMango@users.noreply.github.com)
+SystemUI: QS: LteTile: Launch network settings when long pressing <2 weeks ago> [c3d8400138a]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+SystemUI: QS: Don't launch details view when pressing on labels <2 weeks ago> [6986f7b5259]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+SystemUI: QS: Allow overriding panels switch in specific tiles <2 weeks ago> [bc1b65081cb]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+Revert "Revert "SystemUI: Enable and fix QS detail view, adapt layout to Pie"" <2 weeks ago> [522fff6f4f2]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+
+====================
+     05-22-2020
+====================
+
+
+====================
+     05-21-2020
+====================
+
+[packages/apps/OpenDelta]
+OpenDelta: shiny new UI <3 weeks ago> [a4f727c]
+by: maxwen (max.weninger@gmail.com)
+
+
+====================
+     05-20-2020
+====================
+
+
+====================
+     05-19-2020
+====================
+
+[frameworks/base]
+base: Allow choosing a custom color for pressed FOD [1/2] <3 weeks ago> [bee6a79c40e]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[packages/apps/Dialer]
+Automatic translation import <2 weeks ago> [0c2ebe97a]
+by: Akhil Narang (akhilnarang.1999@gmail.com)
+
+[packages/apps/Launcher3]
+Automatic translation import <2 weeks ago> [fa17e33a5]
+by: Akhil Narang (akhilnarang.1999@gmail.com)
+
+[prebuilts/clang/host/linux-x86/clang-twisted]
+May 18, 2020 <3 weeks ago> [360d883]
+by: TwistedPrime (36546624+TwistedPrime@users.noreply.github.com)
+
+
+====================
+     05-18-2020
+====================
+
+[frameworks/base]
+DefaultPermissionGrantPolicy: Remove uneeded permissions <3 weeks ago> [4969c1d517f]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[packages/apps/Settings]
+Settings: Add boot receiver for SELinux switch <3 weeks ago> [163bb69b14]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[vendor/aosip]
+privapp-permissions-elgoog: Remove google's settings intelligence <3 weeks ago> [514d741]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[vendor/overlay]
+overlay: Grant default DND access to AOSP settings intelligence <3 weeks ago> [77a94bf]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[packages/apps/DerpQuest]
+DerpQuest: Add SELinux switch <2 years, 11 months ago> [65f48a6]
+by: Alex Cruz (mazdarider23@gmail.com)
+
+
+====================
+     05-17-2020
+====================
+
+[manifest]
+manifest: track sm8150 HALs from LOS <3 weeks ago> [7d900be]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[frameworks/base]
+SystemUI: Update RU translation (#18) <3 weeks ago> [b81905697c8]
+by: RunningMango (36758157+RunningMango@users.noreply.github.com)
+
+[scripts]
+scripts: Introduce updater <3 weeks ago> [703527a]
+by: RunningMango (nik.volosatyh@gmail.com)
+
+
+====================
      05-16-2020
 ====================
 
 [vendor/overlay]
-overlays: Add hide pill in full gestural nav mode overlays (#8) <16 hours ago> [8105c65]
+overlays: Add hide pill in full gestural nav mode overlays (#8) <3 weeks ago> [8105c65]
 by: Aman Kumar Singh (46120388+amanrajOO7@users.noreply.github.com)
 
 [packages/apps/DerpQuest]
-DerpQuest: Update Chinese translations (#58) <4 hours ago> [7312da7]
+DerpQuest: Update Chinese translations (#58) <3 weeks ago> [7312da7]
 by: ALKALiKong (54100342+ALKALiKong233@users.noreply.github.com)
-DerpQuest: Improve two target preference divider visability <17 hours ago> [bfff581]
-by: Ido Ben-Hur (idoybh2@gmail.com)
 
 [device/xiaomi/sdm845-common]
-sdm845-common: nuke CarrierConfig overlay <4 days ago> [9f4ad3e]
+sdm845-common: nuke CarrierConfig overlay <3 weeks ago> [9f4ad3e]
 by: Chenyang Zhong (zhongcy95@gmail.com)
-Revert "sdm845-common: Use Vulkan for UI rendering" <27 hours ago> [7aa7f7a]
+Revert "sdm845-common: Use Vulkan for UI rendering" <3 weeks ago> [7aa7f7a]
 by: ALKALiKong (alikongalk@gmail.com)
-sdm845-common: audio: Add HIFI mixer controls [2/2] <4 months ago> [45fae80]
+sdm845-common: audio: Add HIFI mixer controls [2/2] <5 months ago> [45fae80]
 by: Dyneteve (dyneteve@pixelexperience.org)
-sdm845-common: audio: Add 2 instance support for record_24 <4 months ago> [ed425fb]
+sdm845-common: audio: Add 2 instance support for record_24 <5 months ago> [ed425fb]
 by: Dyneteve (dyneteve@pixelexperience.org)
-sdm845-common: audio: Switch to 24 bit for playback <4 months ago> [3701e79]
+sdm845-common: audio: Switch to 24 bit for playback <5 months ago> [3701e79]
 by: Dyneteve (dyneteve@pixelexperience.org)
-
-
-====================
-     05-15-2020
-====================
-
-[frameworks/opt/telephony]
-When SPN is empty, use PNN in mobile network settings <7 months ago> [4d0a6df31]
-by: Jack Yu (jackyu@google.com)
-
-[vendor/aosip]
-kernel: Allow specifying a custom linker binary <6 weeks ago> [08a72d6]
-by: Luca Stefani (luca.stefani.ge1@gmail.com)
-Revert "kernel: Add option for using LLD as linker" <2 days ago> [1abbf8b]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-
-====================
-     05-14-2020
-====================
-
-[manifest]
-manifest: track system/bpf from LOS <7 days ago> [2e5630c]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-
-====================
-     05-13-2020
-====================
-
-[manifest]
-Track our own google-customization <3 days ago> [be05c92]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/apps/Dialer]
-Automatic translation import <4 days ago> [2f5cd72a0]
-by: Akhil Narang (akhilnarang.1999@gmail.com)
-
-[packages/apps/Launcher3]
-Automatic translation import <4 days ago> [aacb1204c]
-by: Akhil Narang (akhilnarang.1999@gmail.com)
-
-[packages/apps/Messaging]
-Automatic translation import <4 days ago> [fc09fdc]
-by: Akhil Narang (akhilnarang.1999@gmail.com)
-
-[device/xiaomi/dipper]
-dipper: Remove build type flags <3 days ago> [5b1d0c5]
-by: ALKALiKong (54100342+ALKALiKong233@users.noreply.github.com)
-
-
-====================
-     05-12-2020
-====================
-
-[packages/apps/SettingsIntelligence]
-SettingsIntelligence: Add RU translation (#1) <5 days ago> [a217ef8]
-by: Northn (57762732+Northn@users.noreply.github.com)
-
-[packages/apps/OpenDelta]
-Merge remote-tracking branch 'omni/android-10' into ten <5 days ago> [0675dd3]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-Automatic translation import <6 days ago> [d5d967f]
-by: maxwen (max.weninger@gmail.com)
-
-
-====================
-     05-11-2020
-====================
-
-[packages/apps/Settings]
-Settings: Update RU translation (#11) <5 days ago> [19bd341ab4]
-by: Northn (57762732+Northn@users.noreply.github.com)
-
-[packages/apps/OpenDelta]
-Automatic translation import <6 days ago> [a965ae8]
-by: maxwen (max.weninger@gmail.com)
-
-
-====================
-     05-10-2020
-====================
-
-[frameworks/base]
-SystemUI: Add RU translation (#17) <6 days ago> [ecd30d8f212]
-by: Northn (57762732+Northn@users.noreply.github.com)
-
-[vendor/aosip]
-vendor: Don't build PixelLiveWallpaperPrebuilt, PixelSetupWizardOverlay for vanilla (#20) <6 days ago> [2e23ac1]
-by: Aman Kumar Singh (46120388+amanrajOO7@users.noreply.github.com)
-
-[packages/apps/DerpQuest]
-DerpQuest: Update RU translation (#57) <7 days ago> [48a3e9c]
-by: Northn (57762732+Northn@users.noreply.github.com)
 
 
