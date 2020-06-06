@@ -1,475 +1,343 @@
 ====================
-     05-20-2020
-====================
-
-[device/xiaomi/ginkgo]
-Revert "ginkgo: added prebuilt pixel-charger" <2 hours ago> [c1a5730]
-by: Rodrigo Martinez (rear097@gmail.com)
-ginkgo: Dont use ANX Camera as default camera app <5 hours ago> [aebccb5]
-by: Rodrigo Martínez (rear097@gmail.com)
-
-
-====================
-     05-19-2020
+     06-06-2020
 ====================
 
 [frameworks/base]
-base: Allow choosing a custom color for pressed FOD [1/2] <2 days ago> [bee6a79c40e]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/apps/Dialer]
-Automatic translation import <30 hours ago> [0c2ebe97a]
-by: Akhil Narang (akhilnarang.1999@gmail.com)
-
-[packages/apps/Launcher3]
-Automatic translation import <30 hours ago> [fa17e33a5]
-by: Akhil Narang (akhilnarang.1999@gmail.com)
-
-[packages/apps/DerpQuest]
-DerpQuest: Update RU translation (#59) <27 hours ago> [f8a8ab4]
-by: Northn (57762732+Northn@users.noreply.github.com)
-ColorPicker: Enable the reset button when setting a default at runtime <34 hours ago> [20c139f]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-DerpQuest: Allow choosing a custom color for pressed FOD [2/2] <2 days ago> [0b646ec]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-DerpQuest: Disable SELinux switch if unrooted <2 days ago> [336062d]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[device/xiaomi/ginkgo]
-DerpFest: update maintainer string <28 hours ago> [626f713]
-by: Rodrigo Martínez (rear097@gmail.com)
-ginkgo: Remove dirac support <12 days ago> [d96bca8]
-by: Mrinal Ghosh (mg712702@gmail.com)
-Revert "ginkgo: overlay: Use stock brightness configuration" <2 days ago> [d8e9a0d]
-by: Rodrigo Martinez (rear097@gmail.com)
-Revert "ginkgo: Build JamesDSP" <2 days ago> [7500325]
-by: Rodrigo Martinez (rear097@gmail.com)
-Revert "ginkgo: audio: add effect for JamesDSP" <2 days ago> [24db87a]
-by: Rodrigo Martinez (rear097@gmail.com)
-
-[vendor/xiaomi/ginkgo]
-ginkgo: Remove dirac blobs <12 days ago> [c64fb5c]
-by: Mrinal Ghosh (mg712702@gmail.com)
-
-
-====================
-     05-18-2020
-====================
-
-[frameworks/base]
-DefaultPermissionGrantPolicy: Remove uneeded permissions <3 days ago> [4969c1d517f]
-by: Ido Ben-Hur (idoybh2@gmail.com)
+base: Add vibration patterns from OOS [1/3] <4 months ago> [8f3546070f2]
+by: rituj (ritujbeniwal@gmail.com)
+base: Fix NPE on some devices by checking for null client (#24) <13 hours ago> [4b1c9ff291b]
+by: Pierre-Hugues Husson (phh@phh.me)
+base: Add refresh rate setting [1/2] (#23) <31 hours ago> [884d0eb7824]
+by: Anushek Prasal (anushekprasal@gmail.com)
 
 [packages/apps/Settings]
-Settings: Add boot receiver for SELinux switch <3 days ago> [163bb69b14]
+Settings: Add vibration patterns from OOS [3/3] <11 hours ago> [b0562297dd]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 
-[vendor/aosip]
-privapp-permissions-elgoog: Remove google's settings intelligence <3 days ago> [514d741]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[vendor/overlay]
-overlay: Grant default DND access to AOSP settings intelligence <3 days ago> [77a94bf]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/apps/DerpQuest]
-Utils: Add root check function <2 days ago> [a817422]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-DerpQuest: Add SELinux switch <2 years, 11 months ago> [65f48a6]
-by: Alex Cruz (mazdarider23@gmail.com)
-
-[scripts]
-updater: fix typos in comments (#1) <4 days ago> [433134a]
-by: Omkar Chandorkar (forumomkar@gmail.com)
-scripts: updater: Rewrite <4 days ago> [d63c99f]
-by: Ido Ben-Hur (idoybh2@gmail.com)
+[packages/services/Telecomm]
+Telecomm: Add vibration patterns from OOS [2/3] <4 months ago> [98fcc12e]
+by: rituj (ritujbeniwal@gmail.com)
 
 [device/xiaomi/ginkgo]
-derp-fest: overlay: Welcome nongapps version <2 days ago> [05176f1]
+ginkgo: Update to Coral's June fingerprint <4 hours ago> [bac1631]
+by: Rodrigo Martínez (rear097@gmail.com)
+BoardConfig: Back to Genom (again) <4 hours ago> [45d11ca]
 by: Rodrigo Martínez (rear097@gmail.com)
 
 
 ====================
-     05-17-2020
+     06-05-2020
+====================
+
+[device/aosip/sepolicy]
+add missing rule for update_engine (#3) <2 days ago> [79856b4]
+by: Murtaza@Piplod (murtaza1926@gmail.com)
+
+[packages/apps/Settings]
+Settings: Use device specific max refresh rate for the switch (#14) <30 hours ago> [c387439fce]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+Settings: Add refresh rate setting [2/2] (#13) <31 hours ago> [da465e1d5f]
+by: Cryllic Buster (49910222+CryllicBuster273@users.noreply.github.com)
+
+[packages/apps/OpenDelta]
+OpenDelta: Allow hiding info text <31 hours ago> [f1bb24e]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+OpenDelta: Add some bottom padding to the action buttons <34 hours ago> [63da3dc]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[device/xiaomi/ginkgo]
+revert: BoardConfig: Move to Genom kernel <26 hours ago> [2075afe]
+by: Rodrigo Martínez (rear097@gmail.com)
+
+
+====================
+     06-04-2020
 ====================
 
 [frameworks/base]
-SystemUI: Update RU translation (#18) <3 days ago> [b81905697c8]
-by: RunningMango (36758157+RunningMango@users.noreply.github.com)
+SystemUI: Use AOSP bluetooth icon when showing battery level <2 weeks ago> [8a9985cb50b]
+by: Kshitij Gupta (kshitijgm@gmail.com)
+SystemUI: update Bluetooth battery level assets. <8 months ago> [5b0bf9c2b61]
+by: Hernán Castañón Álvarez (herna@paranoidandroid.co)
+[SQUASH]Bring back notch-city after r38 <2 days ago> [c491bf95375]
+by: AgentFabulous (kshitijgm@gmail.com)
 
-[scripts]
-scripts: Introduce updater <4 days ago> [703527a]
-by: RunningMango (nik.volosatyh@gmail.com)
+[packages/apps/Contacts]
+AOSP/Contacts - Updated to sdkVersion 29. <8 months ago> [b5a085341]
+by: Raman Tenneti (rtenneti@google.com)
+Contacts: manually configure dark theme for list <3 weeks ago> [bdd121805]
+by: Jesse Chan (jc@lineageos.org)
+Contacts: allow framework to do dark theming automatically <3 weeks ago> [c103b8c50]
+by: Jesse Chan (jc@lineageos.org)
+Contacts: use white nav bar <1 year, 5 months ago> [22871659f]
+by: Joey (joey@lineageos.org)
+Contacts: Remove current dark theme <11 days ago> [2ae1a4850]
+by: Josh Fox (XlxFoXxlX) (joshfox87@gmail.com)
 
-[device/xiaomi/ginkgo]
-ginkgo: boardconfig: Use Proton clang <3 days ago> [34abdcc]
-by: Rodrigo Martínez (rear097@gmail.com)
-ginkgo: boardconfig: Don't use Artemis kernel for now <3 days ago> [d839afe]
-by: Rodrigo Martínez (rear097@gmail.com)
-ginkgo: added prebuilt pixel-charger <6 weeks ago> [59a542f]
-by: Aoihara (veronicadisa6@gmail.com)
-Revert "ginkgo: Update thermal engine from laurel_sprout" <4 days ago> [536e89f]
-by: celtare21 (celtare21@gmail.com)
-ginkgo: Update ramdisk <4 days ago> [61da7c9]
-by: celtare21 (celtare21@gmail.com)
-ginkgo: Only track ANX camera from trinket-devs repo <3 days ago> [dee1726]
-by: Rodrigo Martínez (rear097@gmail.com)
-ginkgo: anx: Track correct repo <3 days ago> [aa35b1a]
-by: Rodrigo Martínez (rear097@gmail.com)
-ginkgo: Go Enforcing again <4 days ago> [8c6a9bc]
-by: Rodrigo Martínez (rear097@gmail.com)
-ginkgo: overlay: Define status_bar_extra_padding <4 days ago> [b303b3e]
-by: Rodrigo Martínez (rear097@gmail.com)
-DerpFest: Fix more typo <4 days ago> [ece85d9]
-by: Rodrigo Martínez (rear097@gmail.com)
-DerpFest: Fix typo <4 days ago> [e8cdd86]
-by: Rodrigo Martínez (rear097@gmail.com)
-DerpFest: Add maintainer string <4 days ago> [ec8d445]
-by: Rodrigo Martínez (rear097@gmail.com)
-ginkgo: Use prebuilt ANX camera <4 days ago> [1bcd4ed]
-by: Rodrigo Martínez (rear097@gmail.com)
-ginkgo: We are DerpFest official <4 days ago> [05c4b0f]
-by: Rodrigo Martínez (rear097@gmail.com)
+[packages/apps/Matlog]
+MatLog: update gradle version <2 days ago> [a4b8b6f]
+by: maxwen (max.weninger@gmail.com)
 
-[vendor/xiaomi/ginkgo]
-Revert "ginkgo: Update thermal engine from laurel_sprout" <4 days ago> [b9472f2]
-by: celtare21 (celtare21@gmail.com)
+[packages/apps/Messaging]
+Automatic translation import <3 days ago> [b3d54db]
+by: Akhil Narang (akhilnarang.1999@gmail.com)
+Remove current dark mode <11 days ago> [e29445f]
+by: Josh Fox (XlxFoXxlX) (joshfox87@gmail.com)
+Messaging: disable auto dark theming on message bubble <3 weeks ago> [9dc9a0f]
+by: Jesse Chan (jc@lineageos.org)
+Messaging: allow framework to do dark theming automatically <3 weeks ago> [20c18da]
+by: Jesse Chan (jc@lineageos.org)
 
+[packages/apps/Settings]
+Settings: Update RU translation (#12) <3 days ago> [1700e6a14e]
+by: Northn (57762732+Northn@users.noreply.github.com)
+Fix NPE if default supervisor is not defined <3 weeks ago> [13718adba7]
+by: Wang Han (wanghan1995315@gmail.com)
 
-====================
-     05-16-2020
-====================
-
-[manifest]
-manifest: track sm8150 HALs from LOS <4 days ago> [7d900be]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/apps/DerpQuest]
-DerpQuest: Update Chinese translations (#58) <5 days ago> [7312da7]
-by: ALKALiKong (54100342+ALKALiKong233@users.noreply.github.com)
-
-
-====================
-     05-15-2020
-====================
-
-[vendor/overlay]
-overlays: Add hide pill in full gestural nav mode overlays (#8) <5 days ago> [8105c65]
+[vendor/pixelstyle]
+pixelstyle: Add SoundPickerPrebuilt (#5) <3 days ago> [02af792]
 by: Aman Kumar Singh (46120388+amanrajOO7@users.noreply.github.com)
 
-[packages/apps/DerpQuest]
-DerpQuest: Improve two target preference divider visability <5 days ago> [bfff581]
+
+====================
+     06-03-2020
+====================
+
+[frameworks/base]
+SystemUI: Don't forcefully convert wallpaper to SRGB <5 days ago> [24782cc10f7]
+by: Luca Stefani (luca.stefani.ge1@gmail.com)
+Merge tag 'android-10.0.0_r38' into ten <3 days ago> [44dc5a4919d]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+Revert "base: notch-city: Add 3 mode display cutout handler" <4 days ago> [472d9e294c5]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 
-[device/xiaomi/ginkgo]
-ginkgo: Update build fingerprint from Coral's May update <5 days ago> [2903488]
-by: Rodrigo Martínez (rear097@gmail.com)
-BoardConfig: Fix build errors <6 days ago> [5e0e315]
-by: Rodrigo Martínez (rear097@gmail.com)
-ginkgo: DerpFest-ify <6 days ago> [16bfa56]
-by: Rodrigo Martinez (rear097@gmail.com)
+[frameworks/native]
+Merge tag 'android-10.0.0_r38' into ten <4 days ago> [e1aaff457]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+Revert "surfaceflinger: Merge caf changes" <4 days ago> [7ed1e5ba4]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+Revert "SurfaceFlinger: Exclude CAF extensions from non-QC devices" <4 days ago> [7adc5f802]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+Revert "surfaceflinger: Exclude qcom code on unsupported platforms" <4 days ago> [dd5464458]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+Revert "surfaceflinger: Exclude qcom RefreshRateType changes" <4 days ago> [6c18ac595]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[hardware/nxp/nfc]
+Merge tag 'android-10.0.0_r37' into ten <4 days ago> [8319cb5]
+by: Akhil Narang (me@akhilnarang.dev)
+
+[packages/apps/Contacts]
+Merge tag 'android-10.0.0_r37' into ten <4 days ago> [9150c53c4]
+by: Akhil Narang (me@akhilnarang.dev)
+
+[packages/apps/DocumentsUI]
+Merge tag 'android-10.0.0_r37' into ten <4 days ago> [46cbbb18e]
+by: Akhil Narang (me@akhilnarang.dev)
+
+[packages/apps/Matlog]
+MatLog: dont run unecessary checks on startup <3 days ago> [3580064]
+by: maxwen (max.weninger@gmail.com)
+
+[platform_testing]
+Merge tag 'android-10.0.0_r37' into ten <4 days ago> [fa717d1c]
+by: Akhil Narang (me@akhilnarang.dev)
+
+[packages/apps/OpenDelta]
+Merge remote-tracking branch 'omni/android-10' into HEAD <3 days ago> [55f33c5]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[packages/apps/PixelLiveWallpaper]
+Update from QQ3A.200605.001 <3 days ago> [838cd34]
+by: jhenrique09 (jhenrique09.mcz@hotmail.com)
 
 [kernel/xiaomi/ginkgo]
-Merge branch 'kernel.lnx.4.14.r4-rel' android-linux-stable/msm-4.14 into 10.0 <5 days ago> [d0cd3899ae93]
-by: Mrinal Ghosh (mg712702@gmail.com)
-simple_lmk: Consider all positive adjs when finding victims <6 days ago> [76c585c578ce]
-by: Sultan Alsawaf (sultan@kerneltoast.com)
-fs: drop_caches: expose mm_drop_caches() <1 year, 2 months ago> [ab62cf032f8d]
-by: Park Ju Hyung (qkrwngud825@gmail.com)
-cpuidle: Do not select menu and ladder governors <3 years, 5 months ago> [a6497c44ece4]
-by: Maulik Shah (mkshah@codeaurora.org)
-mm: compaction: avoid 100% CPU usage during compaction when a task is killed <10 months ago> [00a7ba9091ea]
-by: Mel Gorman (mgorman@techsingularity.net)
-drm/msm: minimize qos remap updates <7 months ago> [13f2ea787ac9]
-by: Adrian Salido (salidoa@google.com)
-fs: f2fs: switch to pr_info loggers <3 weeks ago> [251684f02051]
-by: Yaroslav Furman (yaro330@gmail.com)
-f2fs: use a seperate mutex for setting wakelock <9 months ago> [a1fa13f8cea4]
-by: Park Ju Hyung (qkrwngud825@gmail.com)
-f2fs: trigger rapid GC only when screen state actually changes <9 months ago> [f252d802c1e8]
-by: Park Ju Hyung (qkrwngud825@gmail.com)
-f2fs: unlock wakelock properly when f2fs_stop_rapid_gc() is called <9 months ago> [e57b1fe8fb82]
-by: Park Ju Hyung (qkrwngud825@gmail.com)
-f2fs: catch a global wakelock instead of per gc_kthread <10 months ago> [8796cdccb20b]
-by: Park Ju Hyung (qkrwngud825@gmail.com)
-f2fs: improve naming schemes for rapid GC <10 months ago> [6f67feb513d2]
-by: Park Ju Hyung (qkrwngud825@gmail.com)
-f2fs: mark gc_threads() functions as static <10 months ago> [72df4a46d2be]
-by: Park Ju Hyung (qkrwngud825@gmail.com)
-f2fs: don't wait with each discards under gc_urgent <1 year ago> [b04ff6260df1]
-by: Park Ju Hyung (qkrwngud825@gmail.com)
-f2fs: use a more reasonable discard policy for high utilization <1 year ago> [430410954d05]
-by: Park Ju Hyung (qkrwngud825@gmail.com)
-f2fs: reduce timeout for uncongestion on f2fs_write_cache_pages() <1 year ago> [61ef58031faa]
-by: Park Ju Hyung (qkrwngud825@gmail.com)
-f2fs: rename /sys/fs/f2fs <1 year, 2 months ago> [59b2ca26a37c]
-by: Park Ju Hyung (qkrwngud825@gmail.com)
-f2fs: do not expose tunables that doesn't work with rapid GC <1 year, 2 months ago> [7ffe5cada57d]
-by: Park Ju Hyung (qkrwngud825@gmail.com)
-f2fs: drop caches upon rapid GC exit <1 year, 2 months ago> [751bbffb0670]
-by: Park Ju Hyung (qkrwngud825@gmail.com)
-f2fs: explicitly flush device upon foreground GC <1 year, 2 months ago> [a192a8d6b193]
-by: Park Ju Hyung (qkrwngud825@gmail.com)
-f2fs/rapid_gc: Clean up return codes <1 year, 2 months ago> [5e781e4e51d6]
-by: Artem Labazov (123321artyom@gmail.com)
-f2fs/rapid_gc: do not wait until all invalid blocks are discarded <1 year, 3 months ago> [652faf61f114]
-by: Park Ju Hyung (qkrwngud825@gmail.com)
-f2fs: switch FB notifier API to MSM DRM notifier <1 year, 4 months ago> [b530103380a7]
-by: Park Ju Hyung (qkrwngud825@gmail.com)
-f2fs: convert wakelock APIs to wakeup_source <1 year, 4 months ago> [32f47b89be7d]
-by: Park Ju Hyung (qkrwngud825@gmail.com)
-f2fs: implement rapid GC for Android <1 year, 4 months ago> [cadc03ca4ef5]
-by: Park Ju Hyung (qkrwngud825@gmail.com)
-ginkgo: Use the new CPU Idle Gov <6 months ago> [b854015aa664]
-by: PrimoDev23 (lexx.ps2711@gmail.com)
-cpuidle: Drop unnecessary type cast in cpuidle_poll_time() <5 months ago> [6679e63d44f8]
-by: Rafael J. Wysocki (rafael.j.wysocki@intel.com)
-cpuidle: use first valid target residency as poll time <6 months ago> [724815fecce5]
-by: Marcelo Tosatti (mtosatti@redhat.com)
-cpuidle: teo: Avoid code duplication in conditionals <6 months ago> [c6744317b8a5]
-by: Rafael J. Wysocki (rafael.j.wysocki@intel.com)
-cpuidle: teo: Avoid using "early hits" incorrectly <6 months ago> [2d14f2f0c0c7]
-by: Rafael J. Wysocki (rafael.j.wysocki@intel.com)
-cpuidle: teo: Exclude cpuidle overhead from computations <6 months ago> [db357a2e42ae]
-by: Rafael J. Wysocki (rafael.j.wysocki@intel.com)
-cpuidle: Use nanoseconds as the unit of time <7 months ago> [7278b4a8611b]
-by: Rafael J. Wysocki (rafael.j.wysocki@intel.com)
-cpuidle: menu: Allow tick to be stopped if PM QoS is used <10 months ago> [0317d3b961fe]
-by: Rafael J. Wysocki (rafael.j.wysocki@intel.com)
-cpuidle: menu: Avoid overflows when computing variance <1 year, 3 months ago> [a95b6a7ea10d]
-by: Rafael J. Wysocki (rafael.j.wysocki@intel.com)
-cpuidle: menu: Remove get_loadavg() from the performance multiplier <1 year, 8 months ago> [69d8d632e053]
-by: Daniel Lezcano (daniel.lezcano@linaro.org)
-cpuidle: menu: Avoid computations when result will be discarded <1 year, 7 months ago> [60eefca50c6c]
-by: Rafael J. Wysocki (rafael.j.wysocki@intel.com)
-cpuidle: menu: Drop redundant comparison <1 year, 7 months ago> [c706d2e73ca9]
-by: Rafael J. Wysocki (rafael.j.wysocki@intel.com)
-cpuidle: menu: Do not update last_state_idx in menu_select() <1 year, 8 months ago> [3ba616c57fb9]
-by: Rafael J. Wysocki (rafael.j.wysocki@intel.com)
-cpuidle: menu: Compute first_idx when latency_req is known <1 year, 8 months ago> [f49d166fda3e]
-by: Rafael J. Wysocki (rafael.j.wysocki@intel.com)
-cpuidle: menu: Update stale polling override comment <1 year, 9 months ago> [14c919429e1f]
-by: Rafael J. Wysocki (rafael.j.wysocki@intel.com)
-cpuidle: Consolidate disabled state checks <7 months ago> [d641d31fc338]
-by: Rafael J. Wysocki (rafael.j.wysocki@intel.com)
-cpuidle: menu: Fix white space <1 year, 9 months ago> [bdb273e3dfc6]
-by: Rafael J. Wysocki (rafael.j.wysocki@intel.com)
-cpuidle: menu: Simplify checks related to the polling state <1 year, 7 months ago> [5d9396c367dd]
-by: Rafael J. Wysocki (rafael.j.wysocki@intel.com)
-cpuidle: menu: Get rid of first_idx from menu_select() <1 year, 8 months ago> [ea08ae9fe16f]
-by: Rafael J. Wysocki (rafael.j.wysocki@intel.com)
-cpuidle: menu: Replace data->predicted_us with local variable <1 year, 8 months ago> [be89a487f94f]
-by: Rafael J. Wysocki (rafael.j.wysocki@intel.com)
-cpuidle: menu: Retain tick when shallow state is selected <1 year, 9 months ago> [69b1f68b60fc]
-by: Rafael J. Wysocki (rafael.j.wysocki@intel.com)
-cpuidle: menu: Handle stopped tick more aggressively <1 year, 9 months ago> [944aab8a839a]
-by: Rafael J. Wysocki (rafael.j.wysocki@intel.com)
-cpuidle: menu: Move the latency_req == 0 special case check <1 year, 8 months ago> [dd662eafdddd]
-by: Rafael J. Wysocki (rafael.j.wysocki@intel.com)
-cpuidle: menu: Avoid computations for very close timers <1 year, 8 months ago> [d0cdde01d746]
-by: Rafael J. Wysocki (rafael.j.wysocki@intel.com)
-cpuidle: teo: Fix "early hits" handling for disabled idle states <7 months ago> [361060eac237]
-by: Rafael J. Wysocki (rafael.j.wysocki@intel.com)
-cpuidle: teo: Consider hits and misses metrics of disabled states <7 months ago> [ab222d3b77db]
-by: Rafael J. Wysocki (rafael.j.wysocki@intel.com)
-cpuidle: teo: Rename local variable in teo_select() <7 months ago> [36911f23c210]
-by: Rafael J. Wysocki (rafael.j.wysocki@intel.com)
-cpuidle: teo: Ignore disabled idle states that are too deep <7 months ago> [ab0ff2edb52c]
-by: Rafael J. Wysocki (rafael.j.wysocki@intel.com)
-cpuidle: teo: Get rid of redundant check in teo_update() <10 months ago> [7fc6d26b1196]
-by: Rafael J. Wysocki (rafael.j.wysocki@intel.com)
-cpuidle: teo: Allow tick to be stopped if PM QoS is used <10 months ago> [6171a03fe66d]
-by: Rafael J. Wysocki (rafael.j.wysocki@intel.com)
-governors: unify last_state_idx <11 months ago> [1dd708b7a8af]
-by: Marcelo Tosatti (mtosatti@redhat.com)
-cpuidle: New timer events oriented governor for tickless systems <1 year, 5 months ago> [27f29f79e296]
-by: Rafael J. Wysocki (rafael.j.wysocki@intel.com)
-cpuidle: Avoid NULL argument in cpuidle_switch_governor() <2 years, 4 months ago> [a9cf2872a71b]
-by: gaurav jindal (gauravjindal1104@gmail.com)
-cpuidle: Remove unnecessary wrapper cpuidle_get_last_residency() <1 year, 8 months ago> [ec648b7c0857]
-by: Fieah Lim (kw@fieahl.im)
-cpuidle: Export the next timer expiration for CPUs <1 year, 2 months ago> [ab83a779af1c]
-by: Ulf Hansson (ulf.hansson@linaro.org)
-cpuidle: Avoid assignment in if () argument <2 years, 9 months ago> [eb478551c894]
-by: Gaurav Jindal (gauravjindal1104@gmail.com)
-cpuidle: Clean up cpuidle_enable_device() error handling a bit <2 years, 9 months ago> [efe8982e6bd2]
-by: Gaurav Jindal (gauravjindal1104@gmail.com)
-cpuidle: add poll_limit_ns to cpuidle_device structure <11 months ago> [f227583aab77]
-by: Marcelo Tosatti (mtosatti@redhat.com)
-cpuidle: poll_state: Fix default time limit <1 year, 4 months ago> [b53c9c2f6cf7]
-by: Doug Smythies (doug.smythies@gmail.com)
-cpuidle: poll_state: Disregard disable idle states <1 year, 6 months ago> [e456229bb384]
-by: Rafael J. Wysocki (rafael.j.wysocki@intel.com)
-cpuidle: poll_state: Revise loop termination condition <1 year, 8 months ago> [b76426e78d5d]
-by: Rafael J. Wysocki (rafael.j.wysocki@intel.com)
-cpuidle: menu: Fix wakeup statistics updates for polling state <1 year, 8 months ago> [245b57b9f6d5]
-by: Rafael J. Wysocki (rafael.j.wysocki@intel.com)
-cpuidle: poll_state: Avoid invoking local_clock() too often <2 years, 2 months ago> [1d74e7fc155a]
-by: Rafael J. Wysocki (rafael.j.wysocki@intel.com)
-cpuidle: poll_state: Add time limit to poll_idle() <2 years, 2 months ago> [cac0193a4034]
-by: Rafael J. Wysocki (rafael.j.wysocki@intel.com)
-cpuidle: governors: Consolidate PM QoS handling <2 years ago> [003db8649084]
-by: Rafael J. Wysocki (rafael.j.wysocki@intel.com)
-cpuidle: Add 'above' and 'below' idle state metrics <1 year, 5 months ago> [9454db706af1]
-by: Rafael J. Wysocki (rafael.j.wysocki@intel.com)
-PM: cpuidle/suspend: Add s2idle usage and time state attributes <2 years, 2 months ago> [d0dcb76659d0]
-by: Rafael J. Wysocki (rafael.j.wysocki@intel.com)
-Documentation/ABI: update cpuidle sysfs documentation <2 years, 3 months ago> [766fb728db2a]
-by: Aishwarya Pant (aishpant@gmail.com)
-cpuidle: governor: Add new governors to cpuidle_governors again <1 year, 2 months ago> [0e0ad213c58a]
-by: Rafael J. Wysocki (rafael.j.wysocki@intel.com)
-cpuidle: Add cpuidle.governor= command line parameter <1 year, 5 months ago> [44ab1001f163]
-by: Rafael J. Wysocki (rafael.j.wysocki@intel.com)
-Documentation: admin-guide: PM: Add cpuidle document <1 year, 6 months ago> [963ea83f8753]
-by: Rafael J. Wysocki (rafael.j.wysocki@intel.com)
-cpuidle: Add definition of residency to sysfs documentation <2 years, 2 months ago> [060d9850403b]
-by: Prakash, Prashanth (pprakash@codeaurora.org)
-cpuidle: Optimize pm_qos notifier callback <12 months ago> [19be78a0daac]
-by: Sultan Alsawaf (sultan@kerneltoast.com)
-cpuidle: enter_state: Don't needlessly calculate diff time <1 year, 8 months ago> [28803044e196]
-by: Fieah Lim (kw@fieahl.im)
-adsprpc: force QoS to silver cores <3 months ago> [0110aa17895b]
-by: Yaroslav Furman (yaro330@gmail.com)
-mm: Boost when memory pressure becomes high <1 year, 2 months ago> [75dc1ff1ab9c]
-by: Sultan Alsawaf (sultan@kerneltoast.com)
-kernel: Boost to the max for when zygote forks <1 year, 3 months ago> [6d4baf44bc0f]
-by: Sultan Alsawaf (sultan@kerneltoast.com)
-ginkgo: Enable devfreq boost <10 days ago> [423b0899cc5f]
-by: Adithya R (radithya2002@gmail.com)
-devfreq_boost: Don't boost on input events <10 days ago> [a45fad585fea]
-by: idkwhoiam322 (idkwhoiam322@raphielgang.org)
-devfreq: Fix DDR node name for trinket <10 days ago> [6e077d886008]
-by: Adithya R (radithya2002@gmail.com)
-devbw: Correctly set DDR node <10 months ago> [bd5fb0de5e55]
-by: Panchajanya1999 (rsk52959@gmail.com)
-devfreq_boost: Mark boost kthreads as performance critical <6 months ago> [587f17aae92f]
-by: Sultan Alsawaf (sultan@kerneltoast.com)
-devfreq_boost: convert to drm screen state notifier <10 months ago> [e03db5ba8e98]
-by: Yaroslav Furman (yaro330@gmail.com)
-devfreq_boost: Introduce devfreq boost driver <1 year, 1 month ago> [5f4077010694]
-by: Sultan Alsawaf (sultan@kerneltoast.com)
-ginkgo: Enable cpu input boost <10 days ago> [61af47f18775]
-by: Adithya R (radithya2002@gmail.com)
-cpu_input_boost: Don't boost on input event <9 days ago> [1b9f1fc641e9]
-by: Adithya R (radithya2002@gmail.com)
-cpu_input_boost: Mark boost kthread as performance critical <1 year, 2 months ago> [9ee96f2d0466]
-by: Sultan Alsawaf (sultan@kerneltoast.com)
-cpu_input_boost: add support for boost freqs lower than min freq <11 months ago> [0425b1e541ff]
-by: Yaroslav Furman (yaro330@gmail.com)
-cpu_input_boost: Introduce driver for event-based CPU boosting <1 year, 1 month ago> [042e2b6ce651]
-by: Sultan Alsawaf (sultan@kerneltoast.com)
-cpufreq: Drop current cpu_input_boost implementation <10 days ago> [9b96eea84d88]
-by: Adithya R (radithya2002@gmail.com)
-vdso32: Invoke clang with correct path to GCC toolchain <1 year, 3 months ago> [677881eb2ff6]
-by: Daniel Mentz (danielmentz@google.com)
-ginkgo: Set big/little CPU masks <3 weeks ago> [5db13550d7b7]
-by: celtare21 (celtare21@gmail.com)
-cpumask: Add cpumasks for big and LITTLE CPU clusters <1 year, 1 month ago> [213e5fafb63d]
-by: Sultan Alsawaf (sultan@kerneltoast.com)
-ginkgo: Enable {CPUSETS/STUNE}_ASSIST <2 weeks ago> [bcb169a635d4]
-by: celtare21 (celtare21@gmail.com)
-exec: Add node tampering blacklist function <10 months ago> [e121001f07f5]
-by: Danny Lin (danny@kdrag0n.dev)
-sched: tune: Tune stune values <2 weeks ago> [fd630b8d608a]
-by: celtare21 (celtare21@gmail.com)
-kernel: Set cpusets for sd665 <2 weeks ago> [33ebb9e3989f]
-by: celtare21 (celtare21@gmail.com)
-kernel: introduce CPUSets Assist <11 months ago> [97730ad2a742]
-by: Yaroslav Furman (yaro330@gmail.com)
-sched/tune: Refactor SchedTune Assist code <10 months ago> [b55635266594]
-by: Danny Lin (danny@kdrag0n.dev)
-sched/tune: Introduce SchedTune Assist[v3] <1 year ago> [7afb37d814b0]
-by: Yaroslav Furman (yaro330@gmail.com)
-drivers: Set performance critical threads and IRQs <2 weeks ago> [ac86c9b14299]
-by: celtare21 (celtare21@gmail.com)
-kernel: irq: add more backup pathways for perf critical IRQs <6 weeks ago> [0c13fffff931]
-by: Yaroslav Furman (yaro330@gmail.com)
-kernel: irq: properly disallow userspace from changing IRQs affinity <6 weeks ago> [c1b97c2620cf]
-by: Yaroslav Furman (yaro330@gmail.com)
-kernel: irq: manage: use a different way of affining perf IRQs <6 weeks ago> [822410588299]
-by: Yaroslav Furman (yaro330@gmail.com)
-kernel: Add API to mark IRQs and kthreads as performance critical <12 months ago> [04a36cf53d16]
-by: Sultan Alsawaf (sultan@kerneltoast.com)
-ginkgo: Enable COMPAT_VDSO <2 weeks ago> [71a4266d76ec]
-by: celtare21 (celtare21@gmail.com)
-FROMLIST: arm64: Build vDSO with -ffixed-x18 <1 year, 6 months ago> [cdeb7c6200cb]
-by: Peter Collingbourne (pcc@google.com)
-ANDROID: arm64: vdso32: fix CC=clang build <2 years, 4 months ago> [3c916c70fa45]
-by: Mark Salyzyn (salyzyn@google.com)
-FROMLIST: arm64: vdso32: Use full path to Clang instead of relying on PATH <2 years ago> [9e4e04f95b6e]
-by: Nathan Chancellor (natechancellor@gmail.com)
-ANDROID: turn on VCT access from 32-bit applications <2 years, 4 months ago> [553a720696d8]
-by: Mark Salyzyn (salyzyn@google.com)
-ANDROID: clock_gettime(CLOCK_BOOTTIME,) slows down >20x <2 years, 4 months ago> [090a5d3fa4c0]
-by: Mark Salyzyn (salyzyn@google.com)
-ANDROID: CROSS_COMPILE_ARM32 must work if CONFIG_COMPAT_VDSO <3 years, 2 months ago> [ed4860455141]
-by: Mark Salyzyn (salyzyn@google.com)
-FROMLIST: BACKPORT: [PATCH 6/6] arm64: Wire up and expose the new compat vDSO <4 years ago> [bf1edcfff7c9]
-by: Kevin Brodsky (kevin.brodsky@arm.com)
-FROMLIST: [PATCH 5/6] arm64: compat: 32-bit vDSO setup <3 years, 8 months ago> [3fd1483f0f8c]
-by: Kevin Brodsky (kevin.brodsky@arm.com)
-FROMLIST: [PATCH 4/6] arm64: compat: Add a 32-bit vDSO <4 years ago> [b244460484ed]
-by: Kevin Brodsky (kevin.brodsky@arm.com)
-FROMLIST: BACKPORT: [PATCH 3/6] arm64: Refactor vDSO init/setup <4 years ago> [57aa07a208a5]
-by: Kevin Brodsky (kevin.brodsky@arm.com)
-FROMLIST: [PATCH 2/6] arm64: elf: Set AT_SYSINFO_EHDR in compat processes <4 years ago> [43b9f2581b47]
-by: Kevin Brodsky (kevin.brodsky@arm.com)
-FROMLIST: [PATCH 1/6] arm64: compat: Use vDSO sigreturn trampolines if available <4 years ago> [f8ea928929cd]
-by: Kevin Brodsky (kevin.brodsky@arm.com)
-FROMLIST: lib: vdso: add support for time <2 years, 7 months ago> [efd7b4cd133e]
-by: Mark Salyzyn (salyzyn@google.com)
-FROMLIST: [PATCH] arm64: compat: Expose offset to registers in sigframes <4 years ago> [6d79aab43dd3]
-by: Kevin Brodsky (kevin.brodsky@arm.com)
-FROMLIST: [PATCH v5 12/12] lib: vdso: do not expose gettimeofday, if no arch supported timer <2 years, 7 months ago> [e1e1f1b86aad]
-by: Mark Salyzyn (salyzyn@google.com)
-FROMLIST: [PATCH v5 11/12] lib: vdso: Add support for CLOCK_BOOTTIME <2 years, 9 months ago> [2edca60205f8]
-by: Mark Salyzyn (salyzyn@google.com)
-FROMLIST: [PATCH v5 10/12] arm64: vdso: replace gettimeofday.S with global vgettimeofday.C <2 years, 10 months ago> [ef86ba005ad1]
-by: Mark Salyzyn (salyzyn@google.com)
-FROMLIST: [PATCH v5 09/12] arm: vdso: move vgettimeofday.c to lib/vdso/ <2 years, 7 months ago> [44a5df49fb32]
-by: Mark Salyzyn (salyzyn@google.com)
-FROMLIST: [PATCH v5 08/12] arm: vdso: Add ARCH_CLOCK_FIXED_MASK <2 years, 9 months ago> [f0a2314fdfeb]
-by: Mark Salyzyn (salyzyn@google.com)
-FROMLIST: [PATCH v5 07/12] arm: vdso: disable profiling <2 years, 7 months ago> [692bb861400b]
-by: Mark Salyzyn (salyzyn@google.com)
-FROMLIST: [PATCH v5 06/12] arm: vdso: add support for clock_getres <2 years, 9 months ago> [77cedea1cde0]
-by: Mark Salyzyn (salyzyn@google.com)
-FROMLIST: [PATCH v6 05/12] arm: vdso: Add support for CLOCK_MONOTONIC_RAW <2 years, 9 months ago> [0ceb6d30c66c]
-by: Mark Salyzyn (salyzyn@google.com)
-FROMLIST: [PATCH v5 04/12] arm: vdso: do calculations outside reader loops <2 years, 9 months ago> [6083999db5de]
-by: Mark Salyzyn (salyzyn@google.com)
-FROMLIST: [PATCH v5 03/12] arm: vdso: inline assembler operations to compiler.h <2 years, 9 months ago> [d32f2216a927]
-by: Mark Salyzyn (salyzyn@google.com)
-FROMLIST: [PATCH v5 02/12] arm: vdso: add include file defining __get_datapage() <2 years, 9 months ago> [3b531c7aae95]
-by: Mark Salyzyn (salyzyn@google.com)
-FROMLIST: [PATCH v5 01/12] arm: vdso: rename vdso_datapage variables <2 years, 9 months ago> [c815708f6938]
-by: Mark Salyzyn (salyzyn@google.com)
-FROMLIST: [PATCH v3 3/3] arm64: compat: Add CONFIG_KUSER_HELPERS <3 years, 6 months ago> [84e597a33e12]
-by: Kevin Brodsky (kevin.brodsky@arm.com)
-FROMLIST: [PATCH v3 2/3] arm64: compat: Split the sigreturn trampolines and kuser helpers (assembler sources) <3 years, 6 months ago> [f31f8b4748dc]
-by: Kevin Brodsky (kevin.brodsky@arm.com)
-FROMLIST: [PATCH v3 1/3] arm64: compat: Split the sigreturn trampolines and kuser helpers (C sources) <3 years, 6 months ago> [b6f5f9d0eaac]
-by: Kevin Brodsky (kevin.brodsky@arm.com)
-Revert "ANDROID: HACK: arm64, LLVMLinux: use -mno-implicit-float" <9 months ago> [2bcf774a3715]
-by: Danny Lin (danny@kdrag0n.dev)
+Merge branch 'sdm-10' of https://github.com/Genom-Project/android_kernel_xiaomi_ginkgo into lineage-17.1 <4 days ago> [4bbced623520]
+by: TARKZiM (tom8476oo@gmail.com)
 
 
 ====================
-     05-14-2020
+     06-02-2020
 ====================
+
+[art]
+Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <4 days ago> [362a3be56c]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[bootable/recovery]
+Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <4 days ago> [b035f2fb]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[development]
+Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <4 days ago> [f8b9246c3]
+by: Ido Ben-Hur (idoybh2@gmail.com)
 
 [manifest]
-manifest: track system/bpf from LOS <12 days ago> [2e5630c]
+Merge remote-tracking branch 'aosp/android-10.0.0_r38' into ten <4 days ago> [747b171]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+Manifest for Android 10.0.0 Release 38 (QQ3A.200605.002) <4 days ago> [887567f]
+by: The Android Open Source Project (initial-contribution@android.com)
+Manifest for Android 10.0.0 Release 37 (QQ3A.200605.001) <4 days ago> [fea4547]
+by: The Android Open Source Project (initial-contribution@android.com)
+Manifest for android10-qpr3-release. <4 days ago> [a3b2879]
+by: The Android Open Source Project (initial-contribution@android.com)
+
+[build/make]
+Merge tag 'android-10.0.0_r38' of https://android.googlesource.com/platform/build into HEAD <4 days ago> [cf1c34589]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[build/soong]
+Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <4 days ago> [21162672]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[frameworks/av]
+Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <4 days ago> [dac19d309]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[frameworks/opt/net/wifi]
+Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <4 days ago> [0bfcebdcb]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 
 [frameworks/opt/telephony]
-When SPN is empty, use PNN in mobile network settings <7 months ago> [4d0a6df31]
-by: Jack Yu (jackyu@google.com)
-
-[vendor/aosip]
-kernel: Allow specifying a custom linker binary <7 weeks ago> [08a72d6]
-by: Luca Stefani (luca.stefani.ge1@gmail.com)
-Revert "kernel: Add option for using LLD as linker" <7 days ago> [1abbf8b]
+Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <4 days ago> [0c53a4c7b]
 by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[hardware/interfaces]
+Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <4 days ago> [585f12910]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[packages/apps/Bluetooth]
+Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <4 days ago> [22c78260]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[packages/apps/CellBroadcastReceiver]
+Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <4 days ago> [b882329e]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[packages/apps/CertInstaller]
+Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <4 days ago> [13eeae9]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[packages/apps/Nfc]
+Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <4 days ago> [268bc298]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[packages/apps/PhoneCommon]
+Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <4 days ago> [0da2d9a]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[packages/apps/Settings]
+Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <4 days ago> [3bb80e999f]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[packages/providers/DownloadProvider]
+Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <4 days ago> [28ead7dd]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[packages/services/Telecomm]
+Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <4 days ago> [f0029027]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[packages/services/Telephony]
+Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <4 days ago> [c74f2b075]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[system/bt]
+Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <4 days ago> [98af46a57]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[system/core]
+Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <4 days ago> [ad679fb54]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[system/sepolicy]
+Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <4 days ago> [680109d0]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[system/vold]
+Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <4 days ago> [425481d]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[kernel/xiaomi/ginkgo]
+ Revert "msm: camera: isp: Fix IRQ delay handling logic" <5 days ago> [24ff41eb4585]
+by: Rama Bondan Prakoso (ramanarubp@gmail.com)
+
+
+====================
+     06-01-2020
+====================
+
+[packages/apps/DerpQuest]
+DerpQuest: Update Greek translation (#62,#64) <8 days ago> [27bce52]
+by: CrisBalGreece (crisbaladim@yahoo.gr)
+DerpQuest: Make TwoTargetPreference divider slimmer <12 days ago> [57f2660]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+DerpQuest: Allow showing SB ticker for media [2/2] <13 days ago> [bedcab2]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+DerpQuest: Bring back good ol' circle battery style [2/2] <4 months ago> [6c831d1]
+by: Luca Stefani (luca.stefani.ge1@gmail.com)
+
+[prebuilts/clang/host/linux-x86/clang-11.0]
+Update to 20200531 build <6 days ago> [704288a]
+by: Danny (danny@kdrag0n.dev)
+
+
+====================
+     05-31-2020
+====================
+
+[manifest]
+manifest: Track Clock, Calendar APPs for VANILLA (#3) <6 days ago> [53c8050]
+by: ALKALiKong (alikongalk@gmail.com)
+
+[build/make]
+build: Add Etar and DeskClock for VANILLA builds (#6) <6 days ago> [456539bee]
+by: ALKALiKong (alikongalk@gmail.com)
+
+[external/e2fsprogs]
+Mark libext2{-headers,_blkid,_uuid} as vendor available <3 months ago> [6bc30a7b]
+by: LuK1337 (priv.luk@gmail.com)
+Ignore -Wno-pointer-sign warnings <7 months ago> [b3b9d81e]
+by: Michael Bestas (mkbestas@lineageos.org)
+resize: Make a target for standalone resize2fs_static binary <2 years, 3 months ago> [4381cd58]
+by: Bruno Martins (bgcngm@gmail.com)
+
+[packages/apps/Messaging]
+Import translations. DO NOT MERGE <4 months ago> [1974ee7]
+by: Bill Yi (byi@google.com)
+Rescheduling pending messages after outside window failure <3 weeks ago> [b99b6a1]
+by: Taesu Lee (taesu82.lee@samsung.com)
+Fix NPE on MultiConversationNotificationState <4 weeks ago> [3b32b23]
+by: Taesu Lee (taesu82.lee@samsung.com)
+Hide APN prefs if platform APIs are used <5 weeks ago> [73e0897]
+by: Taesu Lee (taesu82.lee@samsung.com)
+Use ic_add_white for consistency instead <5 weeks ago> [518f57c]
+by: Taesu Lee (taesu82.lee@samsung.com)
+Fix to show APN prefs correctly <5 weeks ago> [efada60]
+by: Taesu Lee (taesu82.lee@samsung.com)
+Fix NPE <6 weeks ago> [800e0ee]
+by: Taesu Lee (taesu82.lee@samsung.com)
+Handle delivered messages as completed messages <6 weeks ago> [8e58132]
+by: Taesu Lee (taesu82.lee@samsung.com)
+
+[vendor/prebuilts]
+prebuilts: Add firefox-lite and remove outdated things (#2) <6 days ago> [c86f3ac]
+by: ALKALiKong (alikongalk@gmail.com)
+
+[device/xiaomi/ginkgo]
+BoardConfig: Move to Genom kernel <7 days ago> [1475c91]
+by: Rodrigo Martínez (rear097@gmail.com)
+
+[kernel/xiaomi/ginkgo]
+techpack: audio-kernel: Merge tag 'LA.UM.8.9.r1-09300-SM6xx.0' into sdm-10 <6 days ago> [0eb64b34e145]
+by: Rama Bondan Prakoso (ramanarubp@gmail.com)
+staging: qca-wifi-host-cmn: Merge tag 'LA.UM.8.9.r1-09300-SM6xx.0' into sdm-10 <6 days ago> [aea2276d2278]
+by: Rama Bondan Prakoso (ramanarubp@gmail.com)
+staging: qcacld-3.0: Merge tag 'LA.UM.8.9.r1-09300-SM6xx.0' into sdm-10 <6 days ago> [2655ee261a9e]
+by: Rama Bondan Prakoso (ramanarubp@gmail.com)
+staging: fw-api: Merge tag 'LA.UM.8.9.r1-09300-SM6xx.0' into sdm-10 <6 days ago> [e131b40dfaa6]
+by: Rama Bondan Prakoso (ramanarubp@gmail.com)
+Merge tag 'LA.UM.8.9.r1-09300-SM6xx.0' of caf/kernel/msm-4.14 into sdm-10 <6 days ago> [ae5bde7a24d7]
+by: Rama Bondan Prakoso (ramanarubp@gmail.com)
 
 
