@@ -1,8 +1,9 @@
-- Added Etar Calendar & DeskClock
-- Fixed AnxCam
-- Fixed IR Cam
-- Fixed FPS Tile
-- Updated Kernel to MiPa 9.0
-- Fixed UI glitch with battery styles
-- Updated GCam Go & FireFox Lite
-- Set Default QS row Value
+- Updated QP Gallery
+- Updated Kernel to MiPa Kernel 9.1
+- Enabled Option for Full Screen Aspect Ratio
+- Switched to Custom Thermal Engine & Custom Configs (Thanks to @amog787 & @shivatejapeddi)
+- Removed Dialer & Browser Thermal Profiles
+- Added PUBG & Extreme Thermal Profile
+- Merged June Security Patch
+- Added Vibration Pattern from OOS
+- Updated Bluetooth Battery Level Assets
