@@ -1,35 +1,7 @@
 Device Side:-
-- Update Listen blobs from LA.UM.8.6.r1-04000-89xx.0
-- Update early init from LA.UM.8.6.r1-04400-89xx.0
-- Switch to prebuilt thermal hal from tissot - 9 PKQ1.180917.001 V10.0.21.0.PDHMIXM
-- Fix WLAN tethering offload denials
-- Update ueventd permissions from LA.UM.8.6.r1-04300-89xx.0
-- Drop unused camera firmware
-- Import tunables from coral
-- performance: Add IOP and Workload Classifier props
-- Import powerhint from LA.UM.8.6.r1-04200-89xx.0
-- Update init.qcom.post_boot.sh from LA.UM.8.6.r1-04400-89xx.0
-- Address cnd & dpmd denials
-- Update wcnss_service from LA.UM.8.6.r1-04000-89xx.0
-- Update init.usb.rc and import usb injection scripts from LA.UM.8.6.r1-04300-89xx.0
-- Switch to prebuilt hwc blobs from LA.UM.8.6.r1-04000-89xx.0
-- Update data-ipa-cfg-mgr from LA.UM.8.6.r1-04400-89xx.0
-- Update CarrierConfig from LA.UM.8.6.r1-04400-89xx.0
-- FM, Sensors, QMI/Radio/IMS, Wi-fi from tissot-user-9-PKQ1.180917.001-V10.0.20.0.PDHMIXM
-- Import Perf IOP blobs from LA.UM.8.6.r1.04000.89xx.0
-
-Source Side:-
-- Merged Latest R38 Security patch
-- Add hide pill in full gestural nav mode (Works in Landscape mode too now)
-- Fixed Expanded Q/S in Landscape Mode
-- Switched To AOSP Settings intelligence
-- Cleaned Up Useless Permissions
-- Added Se-Linux Switch(Works If You are Rooted)
-- Bug fixes for perm manager (log spam at boot gone)
-- Improved master switch divider visibility, and make it resistant to themes
-- Q/S Tiles Panel Optimisations
-- Added Statusbar Ticker for Media
-- Bring Back Old Battery Circle Styles
-- Enabled aux camera for 3rd party apps (added sepolicy rules)
-- Fixed wrong activity for longpress on LTE QS tile
-- Updated Various Translations
+- Updated Audio, ADSP, ANT, Alarm, DRM, GPS, Gatekeeper, Keystone, Latency, Voice, Peripheral, TUI, Time, Thermal, Sensors, DPM, WiFi Display, Graphics, Media, Perf stack, Bluetooth stack from LA.UM.8.6.r1-04400-89xx.0
+- make the UI smoother
+- Use more cores for faster app installation
+- Upstreamed kernel to 4.9.227
+- Xiaomi Add-on : Added Advanced Vibration control and Spectrum QS Tile
+- Tuned Spectrum profiles for 4.9
