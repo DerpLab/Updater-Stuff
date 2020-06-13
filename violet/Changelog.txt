@@ -1,3 +1,15 @@
+
+=================
+     13-06-2020
+=================
+
+• violet: Merged Kernel into 4.14.184
+• violet: Switched to Power-libperfmgr
+• violet: Dropped ESE power manager, I/O prefetcher, Perf stack
+• violet: Dropped caf power hals
+• violet: CTS passing without root && banking apps working fine AF
+• violet: Many miscellaneous fixes.
+
 =================
      31-05-2020
 =================
