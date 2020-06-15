@@ -1,9 +1,9 @@
 - Updated QP Gallery
-- Updated Kernel to MiPa Kernel 9.1
-- Enabled Option for Full Screen Aspect Ratio
-- Switched to Custom Thermal Engine & Custom Configs (Thanks to @amog787 & @shivatejapeddi)
-- Removed Dialer & Browser Thermal Profiles
-- Added PUBG & Extreme Thermal Profile
-- Merged June Security Patch
-- Added Vibration Pattern from OOS
-- Updated Bluetooth Battery Level Assets
+- Updated Kernel to MiPa Kernel 9.2
+- Added K-Lapse Support
+- Improved Thermals
+- Added QS Header Data Usage
+- Randomized DerpQuest Summary
+- Added Custom Vibration Pattern Support
+- Fixed inactive state Wifi Icon in Circular & Filled Icon Pack
+- Tinted all power menu icons with the system accent
