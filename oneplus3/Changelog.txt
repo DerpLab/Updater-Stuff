@@ -1,271 +1,215 @@
 ====================
-     05-25-2020
+     06-18-2020
 ====================
-
-[art]
-art: extend the supported cpu_variant list for arm64 <2 years, 7 months ago> [fd20d13e5a]
-by: Wei Wang (wangw@codeaurora.org)
-
-[packages/apps/DerpQuest]
-DerpQuest: Make TwoTargetPreference divider slimmer <12 hours ago> [18f8bd9]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-DerpQuest: Update RU translations (#60,#61) <16 hours ago> [db13530]
-by: RunningMango (36758157+RunningMango@users.noreply.github.com)
-
-[device/oneplus/oneplus3]
-op3: Add dirac blobs <54 minutes ago> [ecadfdf]
-by: Gaurav241 (gaurav.govinda2420@gmail.com)
-Increase the In-Call & Speaker Volume <7 months ago> [c66cac8]
-by: SuperDroidBond (superdroidbond@yahoo.com)
-op3: Remove adb at boot <5 hours ago> [37e6639]
-by: Gaurav241 (gaurav.govinda2420@gmail.com)
-
-[vendor/oneplus/oneplus3]
-op3: Add dirac blobs <56 minutes ago> [c271c0d]
-by: Gaurav241 (gaurav.govinda2420@gmail.com)
-
-
-====================
-     05-24-2020
-====================
-
-[frameworks/base]
-base: Settings: Allow showing SB ticker for media [1/2] <2 days ago> [168b93787b3]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-SystemUI: Bring back good ol' circle battery style [1/2] <4 months ago> [1246962c116]
-by: Luca Stefani (luca.stefani.ge1@gmail.com)
-
-[packages/apps/DerpQuest]
-DerpQuest: Allow showing SB ticker for media [2/2] <2 days ago> [19b577c]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-DerpQuest: Bring back good ol' circle battery style [2/2] <4 months ago> [ed78735]
-by: Luca Stefani (luca.stefani.ge1@gmail.com)
-
-[device/oneplus/oneplus3]
-op3: Camera Configs Removed <24 hours ago> [45630b1]
-by: Gaurav241 (gaurav.govinda2420@gmail.com)
-Revert "op3: audio: Add "Built-In (Back) Mic" to "primary input" sink" <5 days ago> [fc39274]
-by: Gaurav241 (gaurav.govinda2420@gmail.com)
-Revert "op3: audio: Add 2 instance support for record_24" <5 days ago> [fdad154]
-by: Gaurav241 (gaurav.govinda2420@gmail.com)
-op3: Track vendor <6 days ago> [e1d98ec]
-by: Gaurav241 (gaurav.govinda2420@gmail.com)
-
-[kernel/oneplus/msm8996]
-qcom-cpufreq: Never allow underclock to be disabled <2 years, 2 months ago> [44f8fcf84565]
-by: Sultanxda (sultanxda@gmail.com)
-qcom-cpufreq: Clean up underclock code <2 years, 4 months ago> [e879941f3187]
-by: Sultanxda (sultanxda@gmail.com)
-qcom-cpufreq: Update underclock for MSM8996 and MSM8996pro <3 years, 5 months ago> [04c42c81bdb5]
-by: Sultanxda (sultanxda@gmail.com)
-qcom-cpufreq: Add underclocked frequencies for OnePlus 3T (MSM8996pro) <3 years, 5 months ago> [427ea5b6e9c3]
-by: Sultanxda (sultanxda@gmail.com)
-qcom-cpufreq: Raise freq limit for both clusters <3 years, 9 months ago> [adff8909889e]
-by: Sultanxda (sultanxda@gmail.com)
-qcom-cpufreq: Reduce freq limits (again) <3 years, 9 months ago> [844f630dd5b7]
-by: Sultanxda (sultanxda@gmail.com)
-qcom-cpufreq: Raise underclocked freqs and fix no-underclock switch <3 years, 10 months ago> [87175dfd6707]
-by: Sultanxda (sultanxda@gmail.com)
-qcom-cpufreq: Increase power cluster max freq to 1401 MHz <3 years, 10 months ago> [67cc967ca74d]
-by: Sultanxda (sultanxda@gmail.com)
-qcom-cpufreq: Add underclock for perf and power clusters. <3 years, 10 months ago> [640c788654f4]
-by: Sultanxda (sultanxda@gmail.com)
-msm: thermal: simple: Fix incorrect notifier priority <2 years, 3 months ago> [59fa6ab4109f]
-by: Sultanxda (sultanxda@gmail.com)
-msm: thermal: simple: Clean up preprocessor defines <2 years, 4 months ago> [1a4376677152]
-by: Sultanxda (sultanxda@gmail.com)
-msm: thermal: simple: Clean up ugly for loop <2 years, 4 months ago> [04896321fd0f]
-by: Sultanxda (sultanxda@gmail.com)
-msm: thermal: simple: Ensure validate_cpu_freq() only uses valid freqs <3 years, 4 months ago> [0a1efc228c0d]
-by: Sultanxda (sultanxda@gmail.com)
-msm: thermal: simple: Dynamically generate thermal zone sysfs nodes <3 years, 4 months ago> [e824477d4ed6]
-by: Sultanxda (sultanxda@gmail.com)
-msm: thermal: simple: Restore the user's maxfreq after throttling <3 years, 4 months ago> [9143705508ea]
-by: Sultanxda (sultanxda@gmail.com)
-msm: thermal: simple: Make get_valid_cpufreq() usage hotplug-safe <3 years, 4 months ago> [70a77eae31b9]
-by: Sultanxda (sultanxda@gmail.com)
-msm: thermal: simple: Make worker and notifier logic more robust <3 years, 4 months ago> [6b1d27a440c5]
-by: Sultanxda (sultanxda@gmail.com)
-msm: thermal: simple: Remove user_maxfreq feature <3 years, 4 months ago> [a026d6f76798]
-by: Sultanxda (sultanxda@gmail.com)
-msm: thermal: simple: Fix checkpatch.pl warnings and errors <3 years, 4 months ago> [67cdcc0be6f6]
-by: Sultanxda (sultanxda@gmail.com)
-msm: thermal: simple: Validate throttle frequencies <3 years, 5 months ago> [bdc0a01bb500]
-by: Sultanxda (sultanxda@gmail.com)
-msm: thermal: simple: Increase max. number of thermal zones to 12 <3 years, 11 months ago> [2b196086063d]
-by: Sultanxda (sultanxda@gmail.com)
-msm: thermal: simple: Add support for individual freqs per cluster <3 years, 11 months ago> [0c8d41ff79e5]
-by: Sultanxda (sultanxda@gmail.com)
-msm: thermal: simple: Remove WQ_NON_REENTRANT <3 years, 11 months ago> [97aeaccc0e58]
-by: Sultanxda (sultanxda@gmail.com)
-msm: thermal: simple: Fix lack of throttling when temp suddenly jumps <4 years ago> [d2093b469290]
-by: Sultanxda (sultanxda@gmail.com)
-msm: thermal: simple: Remove unnecessary continue <4 years, 1 month ago> [2a7440735773]
-by: Sultanxda (sultanxda@gmail.com)
-msm: thermal: simple: Use fixed-width integer types for local variables <4 years, 1 month ago> [9f3d84788036]
-by: Sultanxda (sultanxda@gmail.com)
-msm: thermal: simple: Add support for 8 thermal throttle zones <4 years, 1 month ago> [90f8d14751e1]
-by: Sultanxda (sultanxda@gmail.com)
-msm: thermal: simple: Refactor code style <4 years, 1 month ago> [b54e91a565b7]
-by: Sultanxda (sultanxda@gmail.com)
-msm: thermal: simple: Set minfreq to maxfreq if minfreq > maxfreq <4 years, 9 months ago> [4a4724ddea5c]
-by: Sultanxda (sultanxda@gmail.com)
-msm: thermal: simple: Remove inefficient code <4 years, 9 months ago> [0732af7c6b85]
-by: Sultanxda (sultanxda@gmail.com)
-msm: thermal: simple: Use VADC device for temperature polling <4 years, 9 months ago> [3cdf1e7162dd]
-by: Sultanxda (sultanxda@gmail.com)
-msm: thermal: simple: Clean up some variable naming <4 years, 9 months ago> [b90bedd659c9]
-by: Sultanxda (sultanxda@gmail.com)
-msm: thermal: simple: Add sysfs node to manually control maxfreq <4 years, 10 months ago> [a5f62733416b]
-by: Sultanxda (sultanxda@gmail.com)
-msm: thermal: simple: Remove unnecessary check <4 years, 10 months ago> [d73274b7d297]
-by: Sultanxda (sultanxda@gmail.com)
-msm: thermal: simple: Clean up 'enabled' sysfs node. <4 years, 10 months ago> [c541a2eb3095]
-by: Sultanxda (sultanxda@gmail.com)
-msm: thermal: simple: Fix on/off switch <4 years, 10 months ago> [2e308528f270]
-by: Sultanxda (sultanxda@gmail.com)
-msm: thermal: simple: Add simple standalone MSM thermal solution. <4 years, 10 months ago> [70b2908f34cc]
-by: Sultanxda (sultanxda@gmail.com)
-op3:tri_state_key: allow more key codes for extra modes <4 years, 3 months ago> [89358969085a]
-by: Dan Elkouby (streetwalrus@codewalr.us)
-input: tri-state-key: Get it ready for CM <4 months ago> [a1902033506e]
-by: Willi Ye (williye97@gmail.com)
-defconfig: Panther-Kernel <6 weeks ago> [8b5665810e86]
-by: Gaurav241 (gaurav.govinda2420@gmail.com)
-
-[vendor/oneplus/oneplus3]
-op3: Import performance stack from LA.UM.8.6.2.r1-06600-89xx.0 <2 days ago> [284b5da]
-by: Gaurav241 (gaurav.govinda2420@gmail.com)
-
-
-====================
-     05-23-2020
-====================
-
-[device/aosip/sepolicy]
-common: Move aux camera whitelist prop to vendor <9 days ago> [cfb4ba0]
-by: dianlujitao (dianlujitao@lineageos.org)
-common: Expose aux camera {black,white}list props <3 weeks ago> [d650e9e]
-by: dianlujitao (dianlujitao@lineageos.org)
-
-[device/qcom/sepolicy]
-sepolicy: Unlabel aux camera whitelist prop (#2) <2 days ago> [bfcbd6ec]
-by: Adrian (adrianszymanski242@gmail.com)
-
-[device/qcom/sepolicy-legacy-um]
-sepolicy: Unlabel aux camera whitelist prop <3 weeks ago> [61163938]
-by: dianlujitao (dianlujitao@lineageos.org)
-
-[frameworks/base]
-base: Add more RU translations (#20,#21) <2 days ago> [43467349366]
-by: RunningMango (36758157+RunningMango@users.noreply.github.com)
-SystemUI: QS: LteTile: Launch network settings when long pressing <3 days ago> [c3d8400138a]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-SystemUI: QS: Don't launch details view when pressing on labels <3 days ago> [6986f7b5259]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-SystemUI: QS: Allow overriding panels switch in specific tiles <4 days ago> [bc1b65081cb]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-Revert "Revert "SystemUI: Enable and fix QS detail view, adapt layout to Pie"" <3 days ago> [522fff6f4f2]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[scripts]
-updater: fix typos in comments (#1) <8 days ago> [6c48758]
-by: Omkar Chandorkar (forumomkar@gmail.com)
-scripts: updater: Rewrite <9 days ago> [979784c]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-
-====================
-     05-22-2020
-====================
-
-
-====================
-     05-21-2020
-====================
-
-
-====================
-     05-20-2020
-====================
-
-[packages/apps/DerpQuest]
-DerpQuest: Update RU translation (#59) <6 days ago> [f8a8ab4]
-by: Northn (57762732+Northn@users.noreply.github.com)
-
-
-====================
-     05-19-2020
-====================
-
-[frameworks/base]
-base: Allow choosing a custom color for pressed FOD [1/2] <7 days ago> [bee6a79c40e]
-by: Ido Ben-Hur (idoybh2@gmail.com)
 
 [packages/apps/Dialer]
-Automatic translation import <6 days ago> [0c2ebe97a]
+Automatic translation import <22 hours ago> [f12f25c29]
 by: Akhil Narang (akhilnarang.1999@gmail.com)
 
 [packages/apps/Launcher3]
-Automatic translation import <6 days ago> [fa17e33a5]
+Automatic translation import <22 hours ago> [9aa833129]
 by: Akhil Narang (akhilnarang.1999@gmail.com)
 
+[packages/apps/OpenDelta]
+OpenDelta: force white text on colored buttons <9 days ago> [9e22ef7]
+by: maxwen (max.weninger@gmail.com)
+
+[device/oneplus/oneplus3]
+op3: Updater moved to GDrive <7 hours ago> [a4b8a86]
+by: Gaurav241 (gaurav.govinda2420@gmail.com)
+op3: sepolicy: Fix SEPolicy denials for DeviceParts <9 hours ago> [de2206e]
+by: Gaurav241 (gaurav.govinda2420@gmail.com)
+op3: DeviceParts: Vibrator Permission <9 hours ago> [01e0ee7]
+by: Gaurav241 (gaurav.govinda2420@gmail.com)
+op3: Re-Introduce DeviceParts <8 days ago> [161534e]
+by: idoybh (idoybh2@gmail.com)
+
+
+====================
+     06-17-2020
+====================
+
+[scripts]
+scripts: updater: Support new info.sh <4 days ago> [8b01ddf]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+
+====================
+     06-16-2020
+====================
+
+[frameworks/base]
+SystemUI: Update custom carrier label position correctly <2 days ago> [3a3da3faaa2]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+overlays: Fix inactive state Wifi Icon in Circular & Filled Icon Pack <2 days ago> [eb79aa4401d]
+by: Aman Singh (amankumarsingh1412@gmail.com)
+FODCircleView: Add support for pressed fod layer <4 weeks ago> [03e0b117626]
+by: TheScarastic (warabhishek@gmail.com)
+
 [packages/apps/DerpQuest]
-ColorPicker: Enable the reset button when setting a default at runtime <6 days ago> [20c139f]
+DerpQuest: Update RU translation (#67) <2 days ago> [fd0d485]
+by: RunningMango (36758157+RunningMango@users.noreply.github.com)
+DerpQuest: Actually save carrier label placement setting <2 days ago> [002ac9f]
 by: Ido Ben-Hur (idoybh2@gmail.com)
-DerpQuest: Allow choosing a custom color for pressed FOD [2/2] <7 days ago> [0b646ec]
+
+[packages/apps/OpenDelta]
+OpenDelta: Fix RU translation (#3) <2 days ago> [d899ff5]
+by: RunningMango (36758157+RunningMango@users.noreply.github.com)
+
+
+====================
+     06-15-2020
+====================
+
+[frameworks/base]
+Revert "FODCircleView: dispatch onPress to HAL only after dimming is applied" <4 days ago> [85cf4e78443]
 by: Ido Ben-Hur (idoybh2@gmail.com)
-DerpQuest: Disable SELinux switch if unrooted <7 days ago> [336062d]
+SystemUI: Long press Caffeine for infinite duration <4 weeks ago> [073c1cba27f]
+by: chillger (alexander.loskutov@gmail.com)
+
+[frameworks/native]
+surfaceflinger: change usageBits type to uint64_t <3 weeks ago> [845990e28]
+by: Pierre-Hugues Husson (phhusson@gmail.com)
+surfaceflinger: Add support for extension lib <3 weeks ago> [20c395d89]
+by: Pierre-Hugues Husson (phh@phh.me)
+
+[hardware/qcom-caf/sm8150/display]
+sdm: mark FOD pressed layer by setting a bit on ZPOS <4 weeks ago> [f5e564cf]
+by: Demon000 (demonsingur@gmail.com)
+
+[packages/services/Telecomm]
+Telecomm: Add a null check to custom ring vibration <3 days ago> [42ac0212]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[vendor/aosip]
+soong: Add flag for fod extension <3 weeks ago> [85562ad]
+by: TheScarastic (warabhishek@gmail.com)
+
+
+====================
+     06-14-2020
+====================
+
+[frameworks/base]
+overlays: Tint all power menu icons with the system accent <9 weeks ago> [45303e3a0c5]
+by: spezi77 (spezi7713@gmx.net)
+base: Use a proper settings validator for qs_datausage <4 days ago> [2a212396dd2]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+SystemUI: QSHeaderDataUsage: hide usage if device is disconnected <3 weeks ago> [5b79ba6f114]
+by: AnkitGourav (Ankitgourav035@gmail.com)
+SystemUI: QSHeaderDataUsage: show Wi-Fi usage when connected to Wi-Fi <3 weeks ago> [0cbc906e90b]
+by: AnkitGourav (Ankitgourav035@gmail.com)
+SystemUI: QSHeaderDataUsage: add icon and improve view <3 weeks ago> [0dc75ce8621]
+by: AnkitGourav (Ankitgourav035@gmail.com)
+SystemUI: QSHeaderDataUsage: update view immediately after change <4 weeks ago> [d7bab8995cf]
+by: AnkitGourav (Ankitgourav035@gmail.com)
+SystemUI: QSHeaderDataUsage: add ability to show daily/monthly [1/2] <4 weeks ago> [0ed2ea03d56]
+by: AnkitGourav (Ankitgourav035@gmail.com)
+SystemUI: QS Header data usage info: improve layout and view <4 weeks ago> [1c961970dfb]
+by: AnkitGourav (Ankitgourav035@gmail.com)
+aosipUtils: add method to check if device is connected to Wi-Fi <3 weeks ago> [c208bd8b423]
+by: AnkitGourav (Ankitgourav035@gmail.com)
+aosipUtils: add method to get today's passed time <4 weeks ago> [a5b6d27c50f]
+by: AnkitGourav (Ankitgourav035@gmail.com)
+aosipUtils: Add method to check for both wifi and mobile connections <6 months ago> [61e2a229a54]
+by: Alex Cruz (du.alexcruz@gmail.com)
+SystemUI: QS Header data usage info: don't show used <4 weeks ago> [688a5f5dcde]
+by: AnkitGourav (Ankitgourav035@gmail.com)
+SystemUI: QS Header data usage info [1/2] <5 months ago> [cd19526a3a9]
+by: 00day0 (therandomuser11@gmail.com)
+base: Fix notification LED blink for missed calls <7 weeks ago> [ee974f8dccf]
+by: Vaisakh Murali (vaisakhmurali@gmail.com)
+
+[vendor/overlay]
+overlay: Add Derp Blue theme <5 days ago> [c1fce60]
+by: Aman Singh (amankumarsingh1412@gmail.com)
+
+[packages/apps/DerpQuest]
+DerpQuest: QSHeaderDataUsage: add ability to show daily/monthly [2/2] <4 weeks ago> [153545a]
+by: AnkitGourav (Ankitgourav035@gmail.com)
+DerpQuest: QS Header data usage info [2/2] <5 months ago> [b25cc40]
+by: 00day0 (therandomuser11@gmail.com)
+
+[packages/apps/OpenDelta]
+OpenDelta: Adapt to the new file host <5 days ago> [00e1ad0]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[prebuilts/clang/host/linux-x86]
+Update prebuilt Clang to r383902b. <8 days ago> [39c5f60d]
+by: Stephen Hines (srhines@google.com)
+
+[scripts]
+scripts: updater: Adapt to new file host <5 days ago> [90f5d07]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+scripts: updater: Print diff with no pager <3 weeks ago> [82e6c11]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 
 [device/oneplus/oneplus3]
-op3: Remove thermal HAL & engine. <4 weeks ago> [2c03190]
-by: Alexander Koskovich (zvnexus@outlook.com)
-op3: Dont use device specific thermal <6 days ago> [5538487]
+op3: rootdir: DeviceParts Permission <6 days ago> [b78f2d9]
 by: Gaurav241 (gaurav.govinda2420@gmail.com)
-op3: Enable memory hotplug. <8 weeks ago> [f7d7b9d]
-by: Jiacheng Zheng (jiaczhen@codeaurora.org)
-op3: Add input boost for Bengal. <3 months ago> [4271b9f]
-by: Libo Jin (liboj@codeaurora.org)
-op3: Add new revision ID 2.0.2 for lito. <8 weeks ago> [51fcc76]
-by: richagar (richagar@codeaurora.org)
-op3: Update the vendor property with SKU name. <9 weeks ago> [fe1935f]
-by: Anuj Garg (anujgarg@codeaurora.org)
-op3: Update memlat for LLCC and DDR scaling. <9 weeks ago> [79ecd8c]
-by: Santosh Mardi (gsantosh@codeaurora.org)
-op3: Add SOC ID for Lagoon target in post boot. <9 weeks ago> [05e1f10]
-by: richagar (richagar@codeaurora.org)
-op3: Amend new SOC ID for Lagoon. <9 weeks ago> [da1abd1]
-by: Priyanka Gujjula (pgujjula@codeaurora.org)
-op3: Set min_level_change HDCP node permission. <9 weeks ago> [e1ad6f2]
-by: Ray Zhang (rayz@codeaurora.org)
-op3: Set proper settings for NPU BW nodes for lagoon. <3 months ago> [512dd1b]
-by: Da Hoon Pyun (dpyun@codeaurora.org)
-op3: Add Lagoon specific BAM configuration. <3 months ago> [86253d7]
-by: Udipto Goswami (ugoswami@codeaurora.org)
-op3:: Enable APSS LPMs for lagoon. <2 months ago> [fb5a94b]
-by: Raghavendra Kakarla (rkakarla@codeaurora.org)
-op3: Give system permissions to kgsl-3d0 nodes. <3 months ago> [d8b7ec7]
-by: anirudhr (anirudhr@codeaurora.org)
-op3: Update L3 nodes for lagoon target. <2 months ago> [0c998c0]
-by: Santosh Mardi (gsantosh@codeaurora.org)
-op3: Update HBTP for Chitwan CDP. <3 months ago> [6bd9297]
-by: Matthew Leung (mleung@codeaurora.org)
-op3: Update memlat polling to 8ms on Saipan. <4 months ago> [259fb6f]
-by: Varun Garg (gargv@codeaurora.org)
-op3: Remove KPI marker at ADSP start. <3 months ago> [5eff869]
-by: Viraja Kommaraju (virajak@codeaurora.org)
-op3: Update post_boot for SDM660 K4.14 upgrade. <4 months ago> [1d3529e]
-by: Shashi Shekar Shankar (ssbang@codeaurora.org)
-op3: Remove unused crypto.driver.load property. <3 months ago> [efa7968]
-by: Prerna Kalla (prernak@codeaurora.org)
-op3: Update HBTP platform for SM8150 + sdxprairie V3. <3 months ago> [3a96175]
-by: Ravikanth Tuniki (rtunik@codeaurora.org)
-op3: Initialize the tuning settings for lagoon. <3 months ago> [a93a327]
-by: Sanjeev Jakkilinki (sanjeevj@codeaurora.org)
 
-[vendor/oneplus/oneplus3]
-op3: Remove thermal stack from OOS. <6 days ago> [a4a04d9]
-by: ZVNexus (ZVNexus@outlook.com)
+[packages/apps/GoogleCamera]
+op3: Update GCamera APK <4 days ago> [416fa0e]
+by: ajithzres (ajithzres@gmail.com)
+
+
+====================
+     06-13-2020
+====================
+
+[frameworks/base]
+base: Add DND & Rate settings to flash on call [1/3] <6 days ago> [341c3374b5c]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+base: Allow to flash on call only when entirely silent [1/3] <8 days ago> [6372450f2ca]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[packages/apps/Settings]
+Settings: Randomize DerpQuest's summary <6 days ago> [4003d4ca89]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[packages/services/Telecomm]
+Telecomm: Add DND & Rate settings to flash on call [2/3] <6 days ago> [a78325f4]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+Telecomm: Allow to flash on call only when entirely silent [2/3] <8 days ago> [570b0673]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[system/core]
+Ignore class_{reset|start}_post_data on non-updatable APEX. <11 months ago> [455966eea]
+by: Martijn Coenen (maco@google.com)
+
+[packages/apps/DerpQuest]
+DerpQuest: Add DND & Rate settings to flash on call [3/3] <6 days ago> [d51ce45]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+DerpQuest: Allow to flash on call only when entirely silent [3/3] <8 days ago> [84a1cb0]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+
+====================
+     06-12-2020
+====================
+
+[manifest]
+manifest: Track msm8998 audio HAL from poad <7 days ago> [089cfdc]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[packages/apps/Matlog]
+MatLog: create better widget images <7 days ago> [a2d513f]
+by: maxwen (max.weninger@gmail.com)
+
+[packages/apps/Settings]
+Settings: Randomize DerpQuest's summary <6 days ago> [4003d4ca89]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+Settings: Add RU translation for vibration patterns (#15) <7 days ago> [fa5da95520]
+by: RunningMango (36758157+RunningMango@users.noreply.github.com)
+
+[packages/apps/OpenDelta]
+OpenDelta: Update RU translation (#2) <7 days ago> [ec93023]
+by: RunningMango (36758157+RunningMango@users.noreply.github.com)
+
+[device/oneplus/oneplus3]
+op3: Swap Keylayout <6 days ago> [6294bc4]
+by: Gaurav241 (gaurav.govinda2420@gmail.com)
+op3: Track Vendor <8 days ago> [f34c2f4]
+by: Gaurav241 (gaurav.govinda2420@gmail.com)
 
 
