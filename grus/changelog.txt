@@ -1,7 +1,3 @@
-DerpFest 17-05-2020 MI 9 SE
+DerpFest 19-06-2020 MI 9 SE
 Changelog: 
-* updated the brightness table
-* 1080p + 4k for ultrawide cam(@vodik7)
-* custom vibra is back
-* vendor 11.0.5.0 EEA update(install new FW from https://t.me/mi9sederp)
-* kernel upstream
+* a very large list, just use it
