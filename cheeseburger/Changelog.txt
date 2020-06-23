@@ -1,0 +1,413 @@
+====================
+     06-23-2020
+====================
+
+[frameworks/base]
+Update .gitignore <7 weeks ago> [7c09fa8fb0c7]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+SystemUI: Don't show VoLTE icon when VoWiFi is showing <8 hours ago> [4cbacae42d15]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+base: Allow hiding VoWiFi StatusBar icon <18 hours ago> [e8ed92f7ba2a]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+SystemUI: support VoWIFI icons <5 weeks ago> [b6cd7bff0078]
+by: Weijie Wang (weijiew@codeaurora.org)
+base: PowerManagerService: Wake on charge regardless of AoD settings <4 hours ago> [061c87d268f4]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[kernel/oneplus/poad]
+usb: deoneplusify usb stack <1 year, 6 months ago> [be9d4e633a8f5]
+by: codeworkx (daniel.hillenbrand@codeworkx.de)
+Revert "Makefile: Disable undefined-optimized and tautological features" <13 hours ago> [a714e17e4ba9b]
+by: Adhitya Mohan (me@adhityamohan.in)
+Revert "msm: camera: reset atomic variable" <22 hours ago> [3f6007dd8bcaf]
+by: Adhitya Mohan (me@adhityamohan.in)
+Merge tag 'LA.UM.8.4.r1-05700-8x98.0' of https://source.codeaurora.org/quic/la/kernel/msm-4.4 into HEAD <22 hours ago> [5f4b17cff4879]
+by: Adhitya Mohan (me@adhityamohan.in)
+Synchronize codes for Oneplus 5/5T OxygenOS 10.0.0 <3 days ago> [278e243d27487]
+by: Harshit Agarwal (harshit.agarwal@oneplus.com)
+
+[device/oneplus/msm8998-common]
+Build poad's kernel <7 weeks ago> [6856d8c88]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+msm8998-common: sepolicy: Address CameraHIDL denial <18 hours ago> [9f1f45053]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+
+====================
+     06-22-2020
+====================
+
+
+====================
+     06-21-2020
+====================
+
+[frameworks/base]
+base: Hide 'R style' notification headers by default [1/2] <2 days ago> [6870439ea163]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[packages/apps/DerpQuest]
+DerpQuest: Hide 'R style' notification headers by default [2/2] <2 days ago> [715adb5fc]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[kernel/oneplus/poad]
+Merge branch 'android-4.4-p' of https://android.googlesource.com/kernel/common into HEAD <2 days ago> [98ac95a1ec4a1]
+by: Adhitya Mohan (me@adhityamohan.in)
+
+[device/oneplus/cheeseburger]
+cheeseburger: Import mixer_paths_tasha from OOS QKQ1.191014.012-2006012143 <3 days ago> [eee241e]
+by: Adhitya Mohan (me@adhityamohan.in)
+
+[device/oneplus/msm8998-common]
+msm8998-common: Drop telephony injection deemed useless after https://github.com/op5-q/vendor_oneplus/commit/70ce7ba54d962916e27395e3210f118fb991bed6 <3 days ago> [1301d74c0]
+by: Adhitya Mohan (me@adhityamohan.in)
+
+[vendor/oneplus]
+msm8998-common: Update qti-telephony-common and ims from LA.UM.8.2.r1-06600-sdm660.0 - this enables us to drop telephony injection stuff <3 days ago> [9411eba64]
+by: Adhitya Mohan (me@adhityamohan.in)
+
+[vendor/oneplus]
+msm8998-common: Update qti-telephony-common and ims from LA.UM.8.2.r1-06600-sdm660.0 - this enables us to drop telephony injection stuff <3 days ago> [9411eba64]
+by: Adhitya Mohan (me@adhityamohan.in)
+
+[prebuilts/clang/host/linux-x86/clang-proton]
+Update to 20200620 build <3 days ago> [9b695de]
+by: Danny (danny@kdrag0n.dev)
+
+
+====================
+     06-20-2020
+====================
+
+[packages/apps/Matlog]
+Merge "MatLog: cleanup unneded strings" into android-10 <3 days ago> [7f32560]
+by: Max Weninger (max.weninger@gmail.com)
+MatLog: cleanup unneded strings <3 days ago> [0db5768]
+by: maxwen (max.weninger@gmail.com)
+
+[prebuilts/clang/host/linux-x86]
+Update prebuilt Clang to r383902c. <4 days ago> [a7ae3f97]
+by: Stephen Hines (srhines@google.com)
+
+[kernel/oneplus/poad]
+Merge 4.4.228 into android-4.4-p <3 days ago> [3cca95bd3790d]
+by: Greg Kroah-Hartman (gregkh@google.com)
+Linux 4.4.228 <3 days ago> [ddb4a7b3a08a9]
+by: Greg Kroah-Hartman (gregkh@linuxfoundation.org)
+perf symbols: Fix debuginfo search for Ubuntu <4 weeks ago> [b48900c6fdf30]
+by: Adrian Hunter (adrian.hunter@intel.com)
+perf probe: Do not show the skipped events <9 weeks ago> [85bf6cca87356]
+by: Masami Hiramatsu (mhiramat@kernel.org)
+w1: omap-hdq: cleanup to add missing newline for some dev_dbg <4 weeks ago> [61f284baf6e8a]
+by: H. Nikolaus Schaller (hns@goldelico.com)
+sunrpc: clean up properly in gss_mech_unregister() <5 weeks ago> [621ad7bb8b0b7]
+by: NeilBrown (neilb@suse.de)
+sunrpc: svcauth_gss_register_pseudoflavor must reject duplicate registrations. <5 weeks ago> [a90eab8228384]
+by: NeilBrown (neilb@suse.de)
+kbuild: force to build vmlinux if CONFIG_MODVERSION=y <3 weeks ago> [bb5872839e5f2]
+by: Masahiro Yamada (masahiroy@kernel.org)
+drivers/macintosh: Fix memleak in windfarm_pm112 driver <9 weeks ago> [1f3a685f31e66]
+by: Michael Ellerman (mpe@ellerman.id.au)
+ARM: tegra: Correct PL310 Auxiliary Control Register initialization <3 months ago> [25c2d1f1a5b41]
+by: Dmitry Osipenko (digetx@gmail.com)
+kernel/cpu_pm: Fix uninitted local in cpu_pm <7 weeks ago> [2c6933ae665b8]
+by: Douglas Anderson (dianders@chromium.org)
+sparc32: fix register window handling in genregs32_[gs]et() <5 weeks ago> [fd0a1b3a44706]
+by: Al Viro (viro@zeniv.linux.org.uk)
+pinctrl: samsung: Save/restore eint_mask over suspend for EINT_TYPE GPIOs <8 weeks ago> [f7f6d977f00db]
+by: Jonathan Bakker (xc-racer2@live.ca)
+power: vexpress: add suppress_bind_attrs to true <4 weeks ago> [ac62bc83bfd73]
+by: Anders Roxell (anders.roxell@linaro.org)
+igb: Report speed and duplex as unknown when device is runtime suspended <7 weeks ago> [f4b499923b9f7]
+by: Kai-Heng Feng (kai.heng.feng@canonical.com)
+b43_legacy: Fix connection problem with WPA3 <4 weeks ago> [95d30daefbbff]
+by: Larry Finger (Larry.Finger@lwfinger.net)
+b43: Fix connection problem with WPA3 <4 weeks ago> [5ac0251d966a1]
+by: Larry Finger (Larry.Finger@lwfinger.net)
+b43legacy: Fix case where channel status is corrupted <3 months ago> [28f56fab07a21]
+by: Larry Finger (Larry.Finger@lwfinger.net)
+media: go7007: fix a miss of snd_card_free <7 months ago> [ce7fcdd544fbc]
+by: Chuhong Yuan (hslester96@gmail.com)
+carl9170: remove P2P_GO support <7 weeks ago> [ca9cc955d7e74]
+by: Christian Lamparter (chunkeey@gmail.com)
+e1000e: Relax condition to trigger reset for ME workaround <6 weeks ago> [1a3e0133f41d8]
+by: Punit Agrawal (punit1.agrawal@toshiba.co.jp)
+PCI: Program MPS for RCiEP devices <3 months ago> [d6dd03a408084]
+by: Ashok Raj (ashok.raj@intel.com)
+ima: Directly assign the ima_default_policy pointer to ima_rules <3 weeks ago> [0cd287657a1f9]
+by: Roberto Sassu (roberto.sassu@huawei.com)
+btrfs: fix error handling when submitting direct I/O bio <10 weeks ago> [9cd3c1b207847]
+by: Omar Sandoval (osandov@fb.com)
+btrfs: send: emit file capabilities after chown <6 weeks ago> [dacdd5c651b88]
+by: Marcos Paulo de Souza (mpdesouza@suse.com)
+Btrfs: fix unreplayable log after snapshot delete + parent dir fsync <4 years, 4 months ago> [10fddba7b1a4c]
+by: Filipe Manana (fdmanana@suse.com)
+ext4: fix EXT_MAX_EXTENT/INDEX to check for zeroed eh_max <9 weeks ago> [cdeb51b8fbcc2]
+by: Harshad Shirwadkar (harshadshirwadkar@gmail.com)
+ima: Fix ima digest hash table key calculation <8 weeks ago> [856d5ec8daa76]
+by: Krzysztof Struczynski (krzysztof.struczynski@huawei.com)
+cpuidle: Fix three reference count leaks <4 weeks ago> [f79e5b53115c1]
+by: Qiushi Wu (wu000273@umn.edu)
+spi: dw: Return any value retrieved from the dma_transfer callback <4 weeks ago> [3bbb13a5b8927]
+by: Serge Semin (Sergey.Semin@baikalelectronics.ru)
+ixgbe: fix signed-integer-overflow warning <7 weeks ago> [87624503629e6]
+by: Xie XiuQi (xiexiuqi@huawei.com)
+MIPS: Fix IRQ tracing when call handle_fpe() and handle_msa_fpe() <4 weeks ago> [38af7cd18c1d8]
+by: YuanJunQing (yuanjunqing66@163.com)
+PCI: Don't disable decoding when mmio_always_on is set <4 weeks ago> [5b34a3e1357a9]
+by: Jiaxun Yang (jiaxun.yang@flygoat.com)
+macvlan: Skip loopback packets in RX handler <4 weeks ago> [99cd082ae13f5]
+by: Alexander Sverdlin (alexander.sverdlin@nokia.com)
+m68k: mac: Don't call via_flush_cache() on Mac IIfx <5 weeks ago> [a9c525c298bbc]
+by: Finn Thain (fthain@telegraphics.com.au)
+x86/mm: Stop printing BRK addresses <4 months ago> [a948cd79dcbfb]
+by: Arvind Sankar (nivedita@alum.mit.edu)
+mips: Add udelay lpj numbers adjustment <5 weeks ago> [6180d09d73d79]
+by: Serge Semin (Sergey.Semin@baikalelectronics.ru)
+mwifiex: Fix memory corruption in dump_station <6 weeks ago> [ea4031568c75c]
+by: Pali Rohár (pali@kernel.org)
+md: don't flush workqueue unconditionally in md_open <3 months ago> [247f6fe15a2a5]
+by: Guoqing Jiang (guoqing.jiang@cloud.ionos.com)
+kgdb: Fix spurious true from in_dbg_master() <7 weeks ago> [3a9f69eb8b027]
+by: Daniel Thompson (daniel.thompson@linaro.org)
+mips: cm: Fix an invalid error code of INTVN_*_ERR <7 weeks ago> [00642c392eee1]
+by: Serge Semin (Sergey.Semin@baikalelectronics.ru)
+powerpc/spufs: fix copy_to_user while atomic <7 weeks ago> [cbd4cbc1e6840]
+by: Jeremy Kerr (jk@ozlabs.org)
+net: allwinner: Fix use correct return type for ndo_start_xmit() <7 weeks ago> [7bd9c798d971d]
+by: Yunjian Wang (wangyunjian@huawei.com)
+net: lpc-enet: fix error return code in lpc_mii_init() <8 weeks ago> [873e93cd1af08]
+by: Wei Yongjun (weiyongjun1@huawei.com)
+lib/mpi: Fix 64-bit MIPS build with Clang <9 weeks ago> [59bf892ef8d8f]
+by: Nathan Chancellor (natechancellor@gmail.com)
+netfilter: nft_nat: return EOPNOTSUPP if type or flags are not supported <9 weeks ago> [37b2118bf59c3]
+by: Pablo Neira Ayuso (pablo@netfilter.org)
+MIPS: Make sparse_init() using top-down allocation <9 weeks ago> [d027e9f64801c]
+by: Tiezhu Yang (yangtiezhu@loongson.cn)
+media: dvb: return -EREMOTEIO on i2c transfer failure. <4 months ago> [cbe91b9394924]
+by: Colin Ian King (colin.king@canonical.com)
+e1000: Distribute switch variables for initialization <4 months ago> [2819246ff6a08]
+by: Kees Cook (keescook@chromium.org)
+staging: android: ion: use vmap instead of vm_map_ram <3 weeks ago> [5b053e49167b7]
+by: Christoph Hellwig (hch@lst.de)
+net: vmxnet3: fix possible buffer overflow caused by bad DMA value in vmxnet3_get_rss() <4 weeks ago> [8ae94d0423f24]
+by: Jia-Ju Bai (baijiaju1990@gmail.com)
+ARM: 8978/1: mm: make act_mm() respect THREAD_SIZE <5 weeks ago> [7f19f9025fb35]
+by: Linus Walleij (linus.walleij@linaro.org)
+btrfs: do not ignore error from btrfs_next_leaf() when inserting checksums <5 weeks ago> [20fdc3da105de]
+by: Filipe Manana (fdmanana@suse.com)
+clocksource: dw_apb_timer_of: Fix missing clockevent timers <5 weeks ago> [ea4f019105a00]
+by: Serge Semin (Sergey.Semin@baikalelectronics.ru)
+spi: dw: Enable interrupts in accordance with DMA xfer mode <5 weeks ago> [c35bfa6db32bf]
+by: Serge Semin (Sergey.Semin@baikalelectronics.ru)
+kgdb: Prevent infinite recursive entries to the debugger <7 weeks ago> [8f08be46336e8]
+by: Douglas Anderson (dianders@chromium.org)
+Bluetooth: Add SCO fallback for invalid LMP parameters error <6 weeks ago> [37710a8346306]
+by: Hsin-Yu Chao (hychao@chromium.org)
+spi: dw: Zero DMA Tx and Rx configurations on stack <7 weeks ago> [5922fade375a0]
+by: Andy Shevchenko (andriy.shevchenko@linux.intel.com)
+can: kvaser_usb: kvaser_usb_leaf: Fix some info-leaks to USB devices <7 months ago> [b1c64aa943521]
+by: Xiaolong Huang (butterflyhuangxx@gmail.com)
+fat: don't allow to mount if the FAT length == 0 <3 weeks ago> [3a5e7e46bdada]
+by: OGAWA Hirofumi (hirofumi@mail.parknet.co.jp)
+mm/slub: fix a memory leak in sysfs_slab_add() <3 weeks ago> [bc1ca055244a0]
+by: Wang Hai (wanghai38@huawei.com)
+Smack: slab-out-of-bounds in vsscanf <3 months ago> [c32e8ef4e3eb9]
+by: Casey Schaufler (casey@schaufler-ca.com)
+ath9k: Fix general protection fault in ath9k_hif_usb_rx_cb <3 months ago> [90ecba9f1041f]
+by: Qiujun Huang (hqjagain@gmail.com)
+ath9x: Fix stack-out-of-bounds Write in ath9k_hif_usb_rx_cb <3 months ago> [22ed03b78b271]
+by: Qiujun Huang (hqjagain@gmail.com)
+ath9k: Fix use-after-free Write in ath9k_htc_rx_msg <3 months ago> [a727c0bf3a0b6]
+by: Qiujun Huang (hqjagain@gmail.com)
+ath9k: Fix use-after-free Read in ath9k_wmi_ctrl_rx <3 months ago> [5c42f9bfb4c22]
+by: Qiujun Huang (hqjagain@gmail.com)
+KVM: arm64: Make vcpu_cp1x() work on Big Endian hosts <2 weeks ago> [9c71c33553e97]
+by: Marc Zyngier (maz@kernel.org)
+KVM: nVMX: Consult only the "basic" exit reason when routing nested exit <4 months ago> [124a010f5e4f8]
+by: Sean Christopherson (sean.j.christopherson@intel.com)
+KVM: nSVM: leave ASID aside in copy_vmcb_control_area <5 weeks ago> [6c9165f18e49b]
+by: Paolo Bonzini (pbonzini@redhat.com)
+video: fbdev: w100fb: Fix a potential double free. <7 weeks ago> [447ba257c1119]
+by: Christophe JAILLET (christophe.jaillet@wanadoo.fr)
+proc: Use new_inode not new_inode_pseudo <11 days ago> [9170cf8bc75f4]
+by: Eric W. Biederman (ebiederm@xmission.com)
+ovl: initialize error in ovl_copy_xattr <4 weeks ago> [339b105933be6]
+by: Yuxuan Shui (yshuiv7@gmail.com)
+spi: bcm2835: Fix controller unregister order <6 weeks ago> [1c6221b430a09]
+by: Lukas Wunner (lukas@wunner.de)
+spi: pxa2xx: Fix controller unregister order <4 weeks ago> [f40913d2dca1b]
+by: Lukas Wunner (lukas@wunner.de)
+spi: Fix controller unregister order <6 weeks ago> [b4c6230bb0bab]
+by: Lukas Wunner (lukas@wunner.de)
+spi: No need to assign dummy value in spi_unregister_controller() <1 year ago> [fccbb6523d875]
+by: Andy Shevchenko (andriy.shevchenko@linux.intel.com)
+spi: dw: Fix controller unregister order <4 weeks ago> [54000d2e15e92]
+by: Lukas Wunner (lukas@wunner.de)
+spi: dw: fix possible race condition <8 days ago> [efc093e63fa85]
+by: Sasha Levin (sashal@kernel.org)
+x86/speculation: PR_SPEC_FORCE_DISABLE enforcement for indirect branches. <2 weeks ago> [7a5764e899009]
+by: Anthony Steinhauser (asteinhauser@google.com)
+x86/speculation: Avoid force-disabling IBPB based on STIBP and enhanced IBRS. <5 weeks ago> [317b9c418ea38]
+by: Anthony Steinhauser (asteinhauser@google.com)
+x86/speculation: Add support for STIBP always-on preferred mode <1 year, 6 months ago> [b257f99e20561]
+by: Thomas Lendacky (Thomas.Lendacky@amd.com)
+x86/speculation: Change misspelled STIPB to STIBP <1 year, 7 months ago> [f228999a34cd7]
+by: Waiman Long (longman@redhat.com)
+ALSA: pcm: disallow linking stream to itself <2 weeks ago> [ffb37aaa7acb0]
+by: Michał Mirosław (mirq-linux@rere.qmqm.pl)
+spi: bcm2835aux: Fix controller unregister order <6 weeks ago> [c8f309db490e4]
+by: Lukas Wunner (lukas@wunner.de)
+nilfs2: fix null pointer dereference at nilfs_segctor_do_construct() <13 days ago> [38e41476bbca5]
+by: Ryusuke Konishi (konishi.ryusuke@gmail.com)
+cgroup, blkcg: Prepare some symbols for module and !CONFIG_CGROUP usages <12 months ago> [f510fa515d694]
+by: Tejun Heo (tj@kernel.org)
+ACPI: PM: Avoid using power resources if there are none for D0 <3 weeks ago> [55753eb667644]
+by: Rafael J. Wysocki (rafael.j.wysocki@intel.com)
+ACPI: sysfs: Fix reference count leak in acpi_sysfs_add_hotplug_profile() <4 weeks ago> [83df491ec01b2]
+by: Qiushi Wu (wu000273@umn.edu)
+ALSA: usb-audio: Fix inconsistent card PM state after resume <3 weeks ago> [872d14355253b]
+by: Takashi Iwai (tiwai@suse.de)
+ALSA: es1688: Add the missed snd_card_free() <3 weeks ago> [4dc5751870ee6]
+by: Chuhong Yuan (hslester96@gmail.com)
+efi/efivars: Add missing kobject_put() in sysfs entry creation error path <5 weeks ago> [0071e8e4fb6c7]
+by: Ard Biesheuvel (ardb@kernel.org)
+x86/reboot/quirks: Add MacBook6,1 reboot quirk <8 weeks ago> [79a99be2f47ba]
+by: Hill Ma (maahiuzeon@gmail.com)
+x86/speculation: Prevent rogue cross-process SSBD shutdown <6 months ago> [37368554eaf78]
+by: Anthony Steinhauser (asteinhauser@google.com)
+x86_64: Fix jiffies ODR violation <3 weeks ago> [1094cfda2cdcc]
+by: Bob Haarman (inglorion@google.com)
+ath9k_htc: Silence undersized packet warnings <7 weeks ago> [45634faad691e]
+by: Masashi Honma (masashi.honma@gmail.com)
+sched/fair: Don't NUMA balance for kthreads <4 weeks ago> [6322036b0ca78]
+by: Jens Axboe (axboe@kernel.dk)
+ARM: 8977/1: ptrace: Fix mask for thumb breakpoint hook <5 weeks ago> [01271435ee023]
+by: Fredrik Strupe (fredrik@strupe.net)
+igb: improve handling of disconnected adapters <4 years, 8 months ago> [8dee1f5fb915c]
+by: Jarod Wilson (jarod@redhat.com)
+pwm: fsl-ftm: Use flat regmap cache <4 years, 5 months ago> [2b2ba6c37a6cb]
+by: Stefan Agner (stefan@agner.ch)
+net: phy: marvell: Limit 88m1101 autoneg errata to 88E1145 as well. <2 years, 6 months ago> [e350049898dca]
+by: Zhao Qiang (qiang.zhao@nxp.com)
+scsi: return correct blkprep status code in case scsi_init_io() fails. <3 years, 2 months ago> [9b37e23a447f1]
+by: Johannes Thumshirn (jthumshirn@suse.de)
+vxlan: Avoid infinite loop when suppressing NS messages with invalid options <3 weeks ago> [cfb3c4f7f7d05]
+by: Ido Schimmel (idosch@mellanox.com)
+ipv6: fix IPV6_ADDRFORM operation logic <3 weeks ago> [9383680aa225d]
+by: Hangbin Liu (liuhangbin@gmail.com)
+
+[device/oneplus/dumpling]
+dumpling: Import mixer_paths_tasha from OOS QKQ1.191014.012-2006012146 <3 days ago> [f565c09]
+by: Adhitya Mohan (me@adhityamohan.in)
+
+[device/oneplus/msm8998-common]
+Revert "msm8998-common: Disable compress voip" <3 days ago> [6fcaa8594]
+by: Adhitya Mohan (me@adhityamohan.in)
+BoardConfigCommon: Use clang 11.0.2 <3 days ago> [71bd5020b]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+msm8998-common: Enable AOSP bluetooth audio HAL v2 <9 months ago> [70f731e0b]
+by: dianlujitao (dianlujitao@lineageos.org)
+msm8998-common: Update manifest according to our blobs <3 months ago> [52f3b2d12]
+by: Pranav Vashi (neobuddy89@gmail.com)
+msm8998-common: Update compile time flags for audio <3 months ago> [eb0c6e53c]
+by: Pranav Vashi (neobuddy89@gmail.com)
+msm8998-common: Update various attributes from 10 <3 months ago> [d6a62e005]
+by: Pranav Vashi (neobuddy89@gmail.com)
+msm8998-common: Update mobile tcp buffers <3 months ago> [f1f66ce5f]
+by: Pranav Vashi (neobuddy89@gmail.com)
+msm8998-common: Drop redundant BOARD_QTI_CAMERA_32BIT_ONLY <3 months ago> [00ef68447]
+by: Pranav Vashi (neobuddy89@gmail.com)
+
+
+====================
+     06-19-2020
+====================
+
+[build/make]
+build: remove $(PRODUCT_OUT)/recovery/root on build <6 months ago> [c2b76f801]
+by: kessaras (theodoroupaulos@gmail.com)
+
+[packages/apps/Matlog]
+Automatic translation import <5 days ago> [49007ec]
+by: maxwen (max.weninger@gmail.com)
+
+[packages/apps/DerpQuest]
+DerpQuest: One navbar switch to rule them all <5 days ago> [2ca1dcac2]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[kernel/oneplus/poad]
+oneplus5_defconfig: Enable CONFIG_SHADOW_CALL_STACK and regen <4 days ago> [91468f6d1f0c4]
+by: Adhitya Mohan (me@adhityamohan.in)
+Merge tag 'LA.UM.7.2.r3-01100-sdm660.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/qcacld-3.0 into HEAD <5 days ago> [bf6cd5a5fa4c4]
+by: Adhitya Mohan (me@adhityamohan.in)
+ANDROID: kbuild: merge more sections with LTO <13 days ago> [38a3197a9a507]
+by: Sami Tolvanen (samitolvanen@google.com)
+ANDROID: kbuild: ensure __cfi_check is correctly aligned <3 months ago> [320cfd6b7ce52]
+by: Sami Tolvanen (samitolvanen@google.com)
+ANDROID: modpost: add an exception for CFI stubs <1 year, 9 months ago> [94b4205701bcc]
+by: Sami Tolvanen (samitolvanen@google.com)
+kallsyms: add support for relative offsets in kallsyms address table <4 years, 3 months ago> [3b9bcece5f38a]
+by: Ard Biesheuvel (ard.biesheuvel@linaro.org)
+ANDROID: kbuild: do not merge .section..* into .section in modules <3 months ago> [618cbed0e432a]
+by: Sami Tolvanen (samitolvanen@google.com)
+ANDROID: kbuild: merge module sections with LTO <7 months ago> [453dd6709cb1e]
+by: Sami Tolvanen (samitolvanen@google.com)
+ANDROID: scs: fix recursive spinlock in scs_check_usage <3 weeks ago> [f5a5742fea0b7]
+by: Sami Tolvanen (samitolvanen@google.com)
+ANDROID: add Shadow Call Stack debugging <1 year, 10 months ago> [04f9685b33316]
+by: Sami Tolvanen (samitolvanen@google.com)
+ANDROID: add Shadow Call Stack accounting <2 years, 1 month ago> [a8c3ebb1b7ec8]
+by: Sami Tolvanen (samitolvanen@google.com)
+ANDROID: add support for clang Shadow Call Stack (SCS) <2 years, 2 months ago> [7b3fdfcbd8f23]
+by: Sami Tolvanen (samitolvanen@google.com)
+
+
+====================
+     06-18-2020
+====================
+
+[frameworks/base]
+SystemUI: arrow keys while typing resurrection [1/2] <6 months ago> [b034c56e56b3]
+by: maxwen (max.weninger@gmail.com)
+
+[packages/apps/DerpQuest]
+DerpQuest: Arrow keys while typing resurrection [2/2] <5 days ago> [7d61217de]
+by: maxwen (max.weninger@gmail.com)
+
+[packages/apps/OpenDelta]
+OpenDelta: force white text on colored buttons <2 weeks ago> [9e22ef7]
+by: maxwen (max.weninger@gmail.com)
+
+
+====================
+     06-17-2020
+====================
+
+[packages/apps/Dialer]
+Automatic translation import <6 days ago> [f12f25c29]
+by: Akhil Narang (akhilnarang.1999@gmail.com)
+
+[packages/apps/Launcher3]
+Automatic translation import <6 days ago> [9aa833129]
+by: Akhil Narang (akhilnarang.1999@gmail.com)
+
+[scripts]
+scripts: updater: Support new info.sh <9 days ago> [8b01ddf]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[device/oneplus/sm8150-common]
+dfix <6 days ago> [2bcc78a67]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+sm8150-common: Telephony: remove qti-telephony-common & qti-telephony-utils system path to inject xml <7 months ago> [e10b23a47]
+by: sbwml (984419930@qq.com)
+sm8150-common: Telephony: Add inject support for MultiSimSettingController <7 months ago> [d63e09853]
+by: Sandeep Gutta (sangutta@codeaurora.org)
+sm8150-common: Telephony: Move qti-telephony-common to product <7 months ago> [5ff4ea4c9]
+by: Sandeep Gutta (sangutta@codeaurora.org)
+sm8150-common: Telephony: Add telephony_injection file <7 months ago> [8e0f3b9af]
+by: Sandeep Gutta (sangutta@codeaurora.org)
+sm8150-common: Derpify <11 days ago> [af4009fbf]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+
