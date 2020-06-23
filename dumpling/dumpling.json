@@ -1,8 +1,10 @@
 {
   "response": [
     {
-     "datetime": 1591899964,
-     "filename": "DerpFest-10-Official-dumpling-20200611.zip"
+     "datetime": 1592933656,
+     "filename": "DerpFest-10-Official-dumpling-20200623.zip",
+     "url": "https://get.derpfest.org/dumpling/builds/DerpFest-10-Official-dumpling-20200623.zip",
+     "md5url": "https://get.derpfest.org/dumpling/md5/DerpFest-10-Official-dumpling-20200623.zip.md5sum"
     }
   ]
 }
