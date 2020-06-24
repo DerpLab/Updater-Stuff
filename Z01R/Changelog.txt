@@ -1,137 +1,133 @@
 ====================
-     05-23-2020
+     06-24-2020
 ====================
 
-[art]
-art: extend the supported cpu_variant list for arm64 <2 years, 7 months ago> [7914c6d]
-by: Wei Wang (wangw@codeaurora.org)
-
 [build/make]
-Move changelog generation to the system image generation stage <29 hours ago> [dd4ded7ee]
+Move changelog generation to the system image generation stage <5 weeks ago> [426e65f2f]
 by: Kailash (kailash.sudhakar@gmail.com)
 
 [build/soong]
-soong: java: Specify larger heap size for metalava <7 months ago> [a209df80]
+soong: java: Specify larger heap size for metalava <8 months ago> [1354882f]
 by: Michael W (baddaemon87@gmail.com)
-soong: java: Tune java compiler flags for low ram systems <7 months ago> [2a56943c]
+soong: java: Tune java compiler flags for low ram systems <8 months ago> [dc99f1c2]
 by: Nicholas Lim (nicknitewolf@lineageos.org)
 
 [frameworks/base]
-SystemUI: QS: LteTile: Launch network settings when long pressing <10 hours ago> [c3d84001]
+SystemUI: Don't show VoLTE icon when VoWiFi is showing <13 hours ago> [4cbacae4]
 by: Ido Ben-Hur (idoybh2@gmail.com)
-SystemUI: QS: Don't launch details view when pressing on labels <11 hours ago> [6986f7b5]
+base: Allow hiding VoWiFi StatusBar icon <23 hours ago> [e8ed92f7]
 by: Ido Ben-Hur (idoybh2@gmail.com)
-SystemUI: QS: Allow overriding panels switch in specific tiles <2 days ago> [bc1b6508]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-Revert "Revert "SystemUI: Enable and fix QS detail view, adapt layout to Pie"" <19 hours ago> [522fff6f]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[scripts]
-updater: fix typos in comments (#1) <6 days ago> [6c48758]
-by: Omkar Chandorkar (forumomkar@gmail.com)
-scripts: updater: Rewrite <6 days ago> [979784c]
+SystemUI: support VoWIFI icons <5 weeks ago> [b6cd7bff]
+by: Weijie Wang (weijiew@codeaurora.org)
+base: PowerManagerService: Wake on charge regardless of AoD settings <9 hours ago> [061c87d2]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 
 [device/asus/Z01R]
-DeviceParts: Kang vibration controls code from AOSiP-Devices/device_oneplus_sdm845-common <3 hours ago> [18189bf]
+DeviceParts: KeyHandler: Fix proximity sensor logic <8 hours ago> [3872100]
 by: Kailash (kailash.sudhakar@gmail.com)
-DeviceParts: Disable the gesture settings category for now <7 days ago> [ca3027b]
-by: Kailash (kailash.sudhakar@gmail.com)
-Remove CPUset config from post_boot script <4 hours ago> [306bbb3]
-by: Kailash (kailash.sudhakar@gmail.com)
-Add cleaned up init.target.rc to vendor_overlay <4 hours ago> [50505a2]
-by: Kailash (kailash.sudhakar@gmail.com)
-product: disable a few debugging <4 weeks ago> [e697ce2]
-by: pengus77 (ivan@cerrato.biz)
-
-
-====================
-     05-22-2020
-====================
 
 [kernel/asus/sdm845]
-Revert "qcacld-3.0: Enable SAE and GCMP by default" <3 months ago> [490eec7bf]
-by: Sultan Alsawaf (sultan@kerneltoast.com)
-Revert "qcacld-3.0: Fix OOB in wma_stats_event_handler" <12 months ago> [7bf419a9e]
-by: LuK1337 (priv.luk@gmail.com)
+sched: walt: Correct WALT window size initialization <2 years, 10 months ago> [20d2bc56c]
+by: Vikram Mulukutla (markivx@codeaurora.org)
+sched: Call init_sched_energy_costs() before sched_energy_probe() <2 years, 3 months ago> [aca4012f3]
+by: Puja Gupta (pujag@codeaurora.org)
+sched: set min & max capacity CPUs in sched_energy_probe <2 years ago> [997845a05]
+by: Connor O'Brien (connoro@google.com)
 
 
 ====================
-     05-21-2020
-====================
-
-[kernel/asus/sdm845]
-Update Wireguard to ae44e8cd <3 days ago> [885999408]
-by: Kailash (kailash.sudhakar@gmail.com)
-Regenerate defconfig <3 days ago> [5cbd8830d]
-by: Kailash (kailash.sudhakar@gmail.com)
-Merge branch 'android-4.9-q' of https://android.googlesource.com/kernel/common into ten <3 days ago> [895ecced8]
-by: Kailash (kailash.sudhakar@gmail.com)
-
-
-====================
-     05-20-2020
-====================
-
-[packages/apps/Dialer]
-Automatic translation import <4 days ago> [0c2ebe9]
-by: Akhil Narang (akhilnarang.1999@gmail.com)
-
-[packages/apps/Launcher3]
-Automatic translation import <4 days ago> [fa17e33]
-by: Akhil Narang (akhilnarang.1999@gmail.com)
-
-[packages/apps/DerpQuest]
-DerpQuest: Update RU translation (#59) <4 days ago> [f8a8ab4]
-by: Northn (57762732+Northn@users.noreply.github.com)
-
-
-====================
-     05-19-2020
-====================
-
-[frameworks/base]
-base: Allow choosing a custom color for pressed FOD [1/2] <4 days ago> [bee6a79c]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/apps/Settings]
-Settings: Add boot receiver for SELinux switch <6 days ago> [163bb69]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/apps/DerpQuest]
-ColorPicker: Enable the reset button when setting a default at runtime <4 days ago> [20c139f]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-DerpQuest: Allow choosing a custom color for pressed FOD [2/2] <4 days ago> [0b646ec]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-DerpQuest: Disable SELinux switch if unrooted <5 days ago> [336062d]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-Utils: Add root check function <5 days ago> [a817422]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-
-====================
-     05-18-2020
+     06-23-2020
 ====================
 
 [vendor/aosip]
-privapp-permissions-elgoog: Remove google's settings intelligence <6 days ago> [514d741]
-by: Ido Ben-Hur (idoybh2@gmail.com)
+vendor: Fix Logic for Building PixelLiveWallpaperPrebuilt <33 hours ago> [7651431]
+by: Aman Singh (amankumarsingh1412@gmail.com)
 
-[vendor/overlay]
-overlay: Grant default DND access to AOSP settings intelligence <6 days ago> [77a94bf]
+[device/asus/Z01R]
+DeviceParts: Add doze pulse as a gesture action <7 weeks ago> [aa8ebe4]
 by: Ido Ben-Hur (idoybh2@gmail.com)
+DeviceParts: Drop KCAL for now <34 hours ago> [ea4681f]
+by: Kailash (kailash.sudhakar@gmail.com)
+Z01R: init: Shrink AUX packagelist <2 days ago> [0f0ee27]
+by: Kailash (kailash.sudhakar@gmail.com)
+DeviceParts: Nuke tilt check <2 days ago> [bea50ba]
+by: Kailash (kailash.sudhakar@gmail.com)
 
 
 ====================
-     05-17-2020
+     06-22-2020
 ====================
 
-[manifest]
-manifest: track sm8150 HALs from LOS <7 days ago> [7d900be]
+[frameworks/base]
+base: Hide 'R style' notification headers by default [1/2] <2 days ago> [6870439e]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 
-[scripts]
-scripts: Introduce updater <6 days ago> [703527a]
-by: RunningMango (nik.volosatyh@gmail.com)
+[packages/apps/DerpQuest]
+DerpQuest: Hide 'R style' notification headers by default [2/2] <2 days ago> [715adb5]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[kernel/asus/sdm845]
+[1/2] focaltech_touch: Assign unique keycodes to a few gestures <3 days ago> [bb052c525]
+by: Kailash (kailash.sudhakar@gmail.com)
+
+
+====================
+     06-21-2020
+====================
+
+[packages/apps/Matlog]
+Merge "MatLog: cleanup unneded strings" into android-10 <3 days ago> [7f32560]
+by: Max Weninger (max.weninger@gmail.com)
+MatLog: cleanup unneded strings <3 days ago> [0db5768]
+by: maxwen (max.weninger@gmail.com)
+
+[prebuilts/clang/host/linux-x86]
+Update prebuilt Clang to r383902c. <5 days ago> [a7ae3f97]
+by: Stephen Hines (srhines@google.com)
+
+[kernel/asus/sdm845]
+Regenerate defconfig <3 days ago> [ee2e22397]
+by: Kailash (kailash.sudhakar@gmail.com)
+
+
+====================
+     06-20-2020
+====================
+
+[build/make]
+build: remove $(PRODUCT_OUT)/recovery/root on build <6 months ago> [c2b76f801]
+by: kessaras (theodoroupaulos@gmail.com)
+
+
+====================
+     06-19-2020
+====================
+
+[packages/apps/Matlog]
+Automatic translation import <5 days ago> [49007ec]
+by: maxwen (max.weninger@gmail.com)
+
+[packages/apps/DerpQuest]
+DerpQuest: One navbar switch to rule them all <5 days ago> [2ca1dca]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+DerpQuest: Arrow keys while typing resurrection [2/2] <5 days ago> [7d61217]
+by: maxwen (max.weninger@gmail.com)
+
+[packages/apps/OpenDelta]
+OpenDelta: force white text on colored buttons <2 weeks ago> [9e22ef7]
+by: maxwen (max.weninger@gmail.com)
+
+
+====================
+     06-18-2020
+====================
+
+[packages/apps/Dialer]
+Automatic translation import <6 days ago> [f12f25c]
+by: Akhil Narang (akhilnarang.1999@gmail.com)
+
+[packages/apps/Launcher3]
+Automatic translation import <6 days ago> [9aa8331]
+by: Akhil Narang (akhilnarang.1999@gmail.com)
 
 
