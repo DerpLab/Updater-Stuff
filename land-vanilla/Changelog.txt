@@ -1,0 +1,93 @@
+====================
+     06-23-2020
+====================
+
+[vendor/aosip]
+vendor: Fix Logic for Building PixelLiveWallpaperPrebuilt <27 hours ago> [7651431]
+by: Aman Singh (amankumarsingh1412@gmail.com)
+
+
+====================
+     06-22-2020
+====================
+
+
+====================
+     06-21-2020
+====================
+
+[frameworks/base]
+base: Hide 'R style' notification headers by default [1/2] <2 days ago> [6870439ea16]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[packages/apps/DerpQuest]
+DerpQuest: Hide 'R style' notification headers by default [2/2] <2 days ago> [715adb5]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+
+====================
+     06-20-2020
+====================
+
+[packages/apps/Matlog]
+Merge "MatLog: cleanup unneded strings" into android-10 <3 days ago> [7f32560]
+by: Max Weninger (max.weninger@gmail.com)
+MatLog: cleanup unneded strings <3 days ago> [0db5768]
+by: maxwen (max.weninger@gmail.com)
+
+[prebuilts/clang/host/linux-x86]
+Update prebuilt Clang to r383902c. <4 days ago> [a7ae3f97]
+by: Stephen Hines (srhines@google.com)
+
+
+====================
+     06-19-2020
+====================
+
+[build/make]
+build: remove $(PRODUCT_OUT)/recovery/root on build <6 months ago> [c2b76f801]
+by: kessaras (theodoroupaulos@gmail.com)
+
+[packages/apps/Matlog]
+Automatic translation import <5 days ago> [49007ec]
+by: maxwen (max.weninger@gmail.com)
+
+[packages/apps/DerpQuest]
+DerpQuest: One navbar switch to rule them all <5 days ago> [2ca1dca]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+
+====================
+     06-18-2020
+====================
+
+[frameworks/base]
+SystemUI: arrow keys while typing resurrection [1/2] <6 months ago> [b034c56e56b]
+by: maxwen (max.weninger@gmail.com)
+
+[packages/apps/DerpQuest]
+DerpQuest: Arrow keys while typing resurrection [2/2] <5 days ago> [7d61217]
+by: maxwen (max.weninger@gmail.com)
+
+[packages/apps/OpenDelta]
+OpenDelta: force white text on colored buttons <2 weeks ago> [9e22ef7]
+by: maxwen (max.weninger@gmail.com)
+
+
+====================
+     06-17-2020
+====================
+
+[packages/apps/Dialer]
+Automatic translation import <6 days ago> [f12f25c29]
+by: Akhil Narang (akhilnarang.1999@gmail.com)
+
+[packages/apps/Launcher3]
+Automatic translation import <6 days ago> [9aa833129]
+by: Akhil Narang (akhilnarang.1999@gmail.com)
+
+[scripts]
+scripts: updater: Support new info.sh <9 days ago> [8b01ddf]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+
