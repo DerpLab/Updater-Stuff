@@ -1,0 +1,35 @@
+Build Date 24/06/2020
+Derpfest Pie non Treble
+ * Kernel Updated to latest CAF tag LA.UM.7.6.r1-05500-89xx.0
+ * 5 June 2020 Security patch r57
+ * Switch to Power HAL 1.1
+ * Switch to Audio HAL 4
+ * Audio improvements special thanks to @SweetMyth
+ * Nuke Zuk Doze package and switch to Derpfest Custom Doze
+ * Fix Always on Display
+
+Build Date 20/05/2020
+Derpfest Pie non Treble
+ * Initial Build
+ * 5 May 2020 Security patch r56
+ * Fixed Press Home To Wake
+ * Reverted Utouch Functionality
+ * Nuked Longtap Home for Google Assistant as it interfears while Finger print register
+ * Enable Call Recording
+ * Kernel 3.18.140 Statix based on Caf Tag LA.UM.7.5.r1-05300-8x96.0' thanks to @prometheusXderpgang for kernel
+ * Se Linux Permissive
+
+Build Date 20/04/2020
+Derpfest Q Treble
+ * Blobs update
+ * Added back ANT+
+ * Opt-in for QCOM surfaceflinger
+ * Under the hood bug fixes and improvements
+
+Build Date 09/03/2020
+Derpfest Q Treble
+ * Compiled with clang 10.0.4
+ * Enforcing
+ * Kernel Rebased over sdm660 caf tag by @Dd3Boh
+ * Misc bug fixes and improvements 
+ * Initial Official Build 
