@@ -1,9 +1,6 @@
-- Updated QP Gallery
-- Updated Kernel to MiPa Kernel 9.2
-- Added K-Lapse Support
-- Improved Thermals
-- Added QS Header Data Usage
-- Randomized DerpQuest Summary
-- Added Custom Vibration Pattern Support
+- Updated FireFox Lite
+- Updated Kernel to 4.9.228
+- Tweaked Charging Mitigation Value
+- Reverted to Stock Thermal Engine & Thermal Configs
+- Fixed Custom Carrier Label Position
 - Fixed inactive state Wifi Icon in Circular & Filled Icon Pack
-- Tinted all power menu icons with the system accent
