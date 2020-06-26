@@ -1,131 +1,102 @@
-Device Side Changelog
--Upstreamed Kernel To 4.9.224
--Fixed Heating Issue From Upper Side Of Phone
--Fixed Mic Issue For 3rd Party Apps
--Fixed Headphone gain issue
--Added Support For Selfie Stick Detection
--Added More CPU Frequencies For Better EAS
--Tune Zram For More Performance
--Added Spectrum Profiles Support In XiaomiParts
--Improved Charging LED Intensity
--Improved Deepsleep
--Enable sched_boost in early_init
--Update audio stack from LA.UM.8.6.2.r1-07100-89xx.0
--Update Thermal From LA.UM.8.6.2.r1-07100-89xx.0 
--Update qti_whitelist from LA.UM.8.6.2.r1-07100-89xx.0
--Import ESE-Powermanager from LA.UM.8.6.2.r1-07100-89xx.0
--Update ADSP from LA.UM.8.6.2.r1-07100-89xx.0
--Update GPS stack from LA.UM.8.6.2.r1-07100-89xx.0
--Update DPM from LA.UM.8.6.2.r1-07100-89xx.0
--Update CNE from LA.UM.8.6.2.r1-07100-89xx.0
--Update graphics and media from from LA.UM.8.6.2.r1-07100-89xx.0
-
-
-
-Rom Side Changelog
 ====================
-     05-24-2020
+     06-26-2020
 ====================
+[Device Side Changelog]
 
-[device/aosip/sepolicy]
-common: Move aux camera whitelist prop to vendor <9 days ago> [cfb4ba0]
-by: dianlujitao (dianlujitao@lineageos.org)
-common: Expose aux camera {black,white}list props <3 weeks ago> [d650e9e]
-by: dianlujitao (dianlujitao@lineageos.org)
-
-[device/qcom/sepolicy]
-sepolicy: Unlabel aux camera whitelist prop (#2) <2 days ago> [bfcbd6ec]
-by: Adrian (adrianszymanski242@gmail.com)
-
-[device/qcom/sepolicy-legacy-um]
-sepolicy: Unlabel aux camera whitelist prop <3 weeks ago> [61163938]
-by: dianlujitao (dianlujitao@lineageos.org)
+-Kernel Changed To Cannon
+-Kernel Upstreamed To v4.9.228
+-Fixed Flashlight Issue
+-Updated Thermal-Engine Config
+-Updated Dexpropt Flags
+-Added hal Service for soter and scve services
+-Updated Latency,SCVE,Soter,Radio,QCRIL,CNE Blobs
+-Fixed Cast/Wireless Display
+-Address Some Denials
 
 [frameworks/base]
-base: Settings: Allow showing SB ticker for media [1/2] <2 days ago> [168b93787b3]
+FODCircleView: Make sure we don't add animation view twice <20 hours ago> [fba782a29ab]
 by: Ido Ben-Hur (idoybh2@gmail.com)
-SystemUI: Bring back good ol' circle battery style [1/2] <4 months ago> [1246962c116]
-by: Luca Stefani (luca.stefani.ge1@gmail.com)
-base: Add more RU translations (#20,#21) <2 days ago> [43467349366]
-by: RunningMango (36758157+RunningMango@users.noreply.github.com)
-
-[packages/apps/DerpQuest]
-DerpQuest: Allow showing SB ticker for media [2/2] <2 days ago> [19b577c]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-DerpQuest: Bring back good ol' circle battery style [2/2] <4 months ago> [ed78735]
-by: Luca Stefani (luca.stefani.ge1@gmail.com)
-
-
-====================
-     05-23-2020
-====================
-
-[frameworks/base]
-SystemUI: QS: LteTile: Launch network settings when long pressing <2 days ago> [c3d8400138a]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-SystemUI: QS: Don't launch details view when pressing on labels <2 days ago> [6986f7b5259]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-SystemUI: QS: Allow overriding panels switch in specific tiles <3 days ago> [bc1b65081cb]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-Revert "Revert "SystemUI: Enable and fix QS detail view, adapt layout to Pie"" <3 days ago> [522fff6f4f2]
-by: Ido Ben-Hur (idoybh2@gmail.com)
+base: Remove duplicate WRITE_APN_SETTINGS permission (#28) <20 hours ago> [7b9aa24e121]
+by: Aryan Gupta (guptaaryan189@gmail.com)
+VolumeDialog: Fix muting streams with a minimal volume of 1 <4 weeks ago> [c37ba3c876f]
+by: Arian (arian.kulmer@web.de)
+VolumeDialog: Hide the music row if there is an ally stream <1 year, 3 months ago> [063abd622f4]
+by: Giuseppe Maggio (jertlok@protonmail.com)
+VolumeDialog: Show the notification stream when unlinked <4 weeks ago> [5a0ad658951]
+by: Arian (arian.kulmer@web.de)
+VolumeDialog: Redo expanded volume panel <1 year, 4 months ago> [97c0e51d4fa]
+by: HrX03 (dn.bianco03@gmail.com)
 
 [scripts]
-updater: fix typos in comments (#1) <8 days ago> [6c48758]
-by: Omkar Chandorkar (forumomkar@gmail.com)
-scripts: updater: Rewrite <8 days ago> [979784c]
+scripts: updater: Push info.sh in a separate commit <17 hours ago> [e252001]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+scripts: updater: Generate info.sh before upload <20 hours ago> [333a390]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 
 
 ====================
-     05-22-2020
-====================
-
-
-====================
-     05-21-2020
-====================
-
-
-====================
-     05-20-2020
-====================
-
-[packages/apps/Dialer]
-Automatic translation import <6 days ago> [0c2ebe97a]
-by: Akhil Narang (akhilnarang.1999@gmail.com)
-
-[packages/apps/Launcher3]
-Automatic translation import <6 days ago> [fa17e33a5]
-by: Akhil Narang (akhilnarang.1999@gmail.com)
-
-[packages/apps/DerpQuest]
-DerpQuest: Update RU translation (#59) <6 days ago> [f8a8ab4]
-by: Northn (57762732+Northn@users.noreply.github.com)
-ColorPicker: Enable the reset button when setting a default at runtime <6 days ago> [20c139f]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-DerpQuest: Allow choosing a custom color for pressed FOD [2/2] <6 days ago> [0b646ec]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-
-====================
-     05-19-2020
+     06-25-2020
 ====================
 
 [frameworks/base]
-base: Allow choosing a custom color for pressed FOD [1/2] <6 days ago> [bee6a79c40e]
+Revert "base: Redo expanded volume panel for 10.x" <26 hours ago> [566eb5ea6d4]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 
-[packages/apps/Settings]
-Settings: Add boot receiver for SELinux switch <7 days ago> [163bb69b14]
+
+====================
+     06-24-2020
+====================
+
+[frameworks/base]
+SystemUI: Don't show VoLTE icon when VoWiFi is showing <3 days ago> [4cbacae42d1]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+base: Allow hiding VoWiFi StatusBar icon <4 days ago> [e8ed92f7ba2]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+SystemUI: support VoWIFI icons <6 weeks ago> [b6cd7bff007]
+by: Weijie Wang (weijiew@codeaurora.org)
+base: PowerManagerService: Wake on charge regardless of AoD settings <3 days ago> [061c87d268f]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+
+====================
+     06-23-2020
+====================
+
+[vendor/aosip]
+vendor: Fix Logic for Building PixelLiveWallpaperPrebuilt <4 days ago> [7651431]
+by: Aman Singh (amankumarsingh1412@gmail.com)
+
+
+====================
+     06-22-2020
+====================
+
+[frameworks/base]
+base: Hide 'R style' notification headers by default [1/2] <5 days ago> [6870439ea16]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 
 [packages/apps/DerpQuest]
-DerpQuest: Disable SELinux switch if unrooted <7 days ago> [336062d]
+DerpQuest: Hide 'R style' notification headers by default [2/2] <5 days ago> [715adb5]
 by: Ido Ben-Hur (idoybh2@gmail.com)
-Utils: Add root check function <7 days ago> [a817422]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-DerpQuest: Add SELinux switch <2 years, 11 months ago> [65f48a6]
-by: Alex Cruz (mazdarider23@gmail.com)
+
+
+====================
+     06-21-2020
+====================
+
+[packages/apps/Matlog]
+Merge "MatLog: cleanup unneded strings" into android-10 <6 days ago> [7f32560]
+by: Max Weninger (max.weninger@gmail.com)
+MatLog: cleanup unneded strings <6 days ago> [0db5768]
+by: maxwen (max.weninger@gmail.com)
+
+[prebuilts/clang/host/linux-x86]
+Update prebuilt Clang to r383902c. <7 days ago> [a7ae3f97]
+by: Stephen Hines (srhines@google.com)
+
+
+====================
+     06-20-2020
+====================
 
 
