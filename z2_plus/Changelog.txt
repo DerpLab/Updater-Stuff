@@ -1,3 +1,22 @@
+Build Date 01/07/2020
+Derpfest Ten Vanilla Treble
+ * Nuked lot of things in source like
+  - Pixelstyle/MatchmakerPrebuiltPixel4
+  - Pixelstyle/NexusWallpapersStub
+  - Ton of Header images thanks to @amanrajOO7
+  - Google Chrome (replaced with Firefox lite)
+  - Now zip size 803mb compared to previous 969mb
+ * Fixed Press Home to Wake
+ * Fixed Wifi Display (Mira-cast)
+ * Blobs Updates added aptx blobs, Dirac blobs
+ * Switch to Pop the Corns 4.4.228 v2.4+ by @aswin_a_s
+ * Compiled using clang 11.0.3
+ * Fixed front cam green tint in gcam thanks to @nullby
+ * Update build fingerprint from coral june fp to hack pass safety net
+ * Update ims-vt blobs
+ * Added Wireguard 1.0.2
+ * Nuked Snap cam and added Google camer go 1.0.289 by Parrot043
+
 Build Date 24/06/2020
 Derpfest Pie non Treble
  * Kernel Updated to latest CAF tag LA.UM.7.6.r1-05500-89xx.0
