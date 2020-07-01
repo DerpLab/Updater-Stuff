@@ -1,107 +1,121 @@
 ====================
-     06-22-2020
+     07-01-2020
 ====================
 
 
 ====================
-     06-21-2020
+     06-30-2020
 ====================
-
-[frameworks/base]
-base: Hide 'R style' notification headers by default [1/2] <29 hours ago> [6870439ea16]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/apps/DerpQuest]
-DerpQuest: Hide 'R style' notification headers by default [2/2] <29 hours ago> [715adb5]
-by: Ido Ben-Hur (idoybh2@gmail.com)
 
 
 ====================
-     06-20-2020
-====================
-
-[packages/apps/Matlog]
-Merge "MatLog: cleanup unneded strings" into android-10 <2 days ago> [7f32560]
-by: Max Weninger (max.weninger@gmail.com)
-MatLog: cleanup unneded strings <2 days ago> [0db5768]
-by: maxwen (max.weninger@gmail.com)
-
-[prebuilts/clang/host/linux-x86]
-Update prebuilt Clang to r383902c. <3 days ago> [a7ae3f97]
-by: Stephen Hines (srhines@google.com)
-
-
-====================
-     06-19-2020
-====================
-
-[build/make]
-build: remove $(PRODUCT_OUT)/recovery/root on build <5 months ago> [c2b76f801]
-by: kessaras (theodoroupaulos@gmail.com)
-
-[packages/apps/Matlog]
-Automatic translation import <4 days ago> [49007ec]
-by: maxwen (max.weninger@gmail.com)
-
-[packages/apps/DerpQuest]
-DerpQuest: One navbar switch to rule them all <4 days ago> [2ca1dca]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-
-====================
-     06-18-2020
+     06-29-2020
 ====================
 
 [frameworks/base]
-SystemUI: arrow keys while typing resurrection [1/2] <6 months ago> [b034c56e56b]
-by: maxwen (max.weninger@gmail.com)
+SystemUI: Add more VoWiFi icon styles <8 days ago> [4a87d855665]
+by: DennySPb (dennyspb@gmail.com)
+
+[frameworks/native]
+surfaceflinger: Fix screen stabilization after r38 merge <2 days ago> [8a4a267b7]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+
+====================
+     06-28-2020
+====================
+
+[frameworks/base]
+Calm down attention service logspam <4 days ago> [407361469ee]
+by: Adhitya Mohan (me@adhityamohan.in)
 
 [packages/apps/DerpQuest]
-DerpQuest: Arrow keys while typing resurrection [2/2] <4 days ago> [7d61217]
-by: maxwen (max.weninger@gmail.com)
+DerpQuest: Update RU translation (#68) <4 days ago> [0e14215]
+by: Northn (57762732+Northn@users.noreply.github.com)
 
-[packages/apps/OpenDelta]
-OpenDelta: force white text on colored buttons <13 days ago> [9e22ef7]
-by: maxwen (max.weninger@gmail.com)
+[vendor/gapps]
+Revert "Don't ship GoogleRecorder by default" <4 days ago> [240668b]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[vendor/pixelstyle]
+pixelstyle: Import PixelConfigOverlay* GoogleConfigOverlay GoogleWebViewOverlay for full GMS support <5 months ago> [dcb744f]
+by: Arseniy Graur (argraur@aosip.dev)
 
 
 ====================
-     06-17-2020
+     06-27-2020
 ====================
 
-[packages/apps/Dialer]
-Automatic translation import <5 days ago> [f12f25c29]
-by: Akhil Narang (akhilnarang.1999@gmail.com)
+[external/skia]
+Allow to rebind GL texture if AHB content has changed <11 months ago> [57775a86b0]
+by: Stan Iliev (stani@google.com)
 
-[packages/apps/Launcher3]
-Automatic translation import <5 days ago> [9aa833129]
-by: Akhil Narang (akhilnarang.1999@gmail.com)
+[frameworks/base]
+base: Remove useless / non working fonts [1/2] <5 days ago> [1225fc59659]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+TextureView rebind GL texture, if AHB content has changed <11 months ago> [9bf6d264c57]
+by: Stan Iliev (stani@google.com)
+WifiManager: Add StaState API <3 weeks ago> [ab385d4994e]
+by: Kshitij Gupta (kshitijgm@gmail.com)
+
+[vendor/aosip]
+soong_config: Add TARGET_IGNORES_FTP_PPTP_CONNTRACK_FAILURE <3 months ago> [26ecafc]
+by: theimpulson (aayushgupta219@gmail.com)
+
+[system/netd]
+netd: Don't fail on FTP or PPTP conntrack failure <11 months ago> [256ab99b]
+by: Pierre-Hugues Husson (phh@phh.me)
+
+[vendor/pixelstyle]
+pixelstyle: Remove useless / non working fonts [2/2] <5 days ago> [32becb1]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+
+====================
+     06-26-2020
+====================
+
+[frameworks/base]
+FODCircleView: Make sure we don't add animation view twice <6 days ago> [fba782a29ab]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+base: Remove duplicate WRITE_APN_SETTINGS permission (#28) <6 days ago> [7b9aa24e121]
+by: Aryan Gupta (guptaaryan189@gmail.com)
+VolumeDialog: Fix muting streams with a minimal volume of 1 <4 weeks ago> [c37ba3c876f]
+by: Arian (arian.kulmer@web.de)
+VolumeDialog: Hide the music row if there is an ally stream <1 year, 4 months ago> [063abd622f4]
+by: Giuseppe Maggio (jertlok@protonmail.com)
+VolumeDialog: Show the notification stream when unlinked <5 weeks ago> [5a0ad658951]
+by: Arian (arian.kulmer@web.de)
+VolumeDialog: Redo expanded volume panel <1 year, 4 months ago> [97c0e51d4fa]
+by: HrX03 (dn.bianco03@gmail.com)
 
 [scripts]
-scripts: updater: Support new info.sh <8 days ago> [8b01ddf]
+scripts: updater: Push info.sh in a separate commit <6 days ago> [e252001]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 
 
 ====================
-     06-16-2020
+     06-25-2020
 ====================
 
 [frameworks/base]
-SystemUI: Update custom carrier label position correctly <6 days ago> [3a3da3faaa2]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-overlays: Fix inactive state Wifi Icon in Circular & Filled Icon Pack <6 days ago> [eb79aa4401d]
-by: Aman Singh (amankumarsingh1412@gmail.com)
-FODCircleView: Add support for pressed fod layer <4 weeks ago> [03e0b117626]
-by: TheScarastic (warabhishek@gmail.com)
-
-[packages/apps/DerpQuest]
-DerpQuest: Update RU translation (#67) <6 days ago> [fd0d485]
-by: RunningMango (36758157+RunningMango@users.noreply.github.com)
-DerpQuest: Actually save carrier label placement setting <7 days ago> [002ac9f]
+Revert "base: Redo expanded volume panel for 10.x" <6 days ago> [566eb5ea6d4]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 
-[packages/apps/OpenDelta]
-OpenDelta: Fix RU translation (#3) <6 days ago> [d899ff5]
-by: RunningMango (36758157+RunningMango@users.noreply.github.com)
+[packages/apps/Dialer]
+Iterate old recordings properly when migrating call recording data. <4 weeks ago> [0c4736d5f]
+by: Danny Baumann (dannybaumann@web.de)
+Refactor call recording to use MediaProvider. <4 months ago> [71b56bec1]
+by: Danny Baumann (dannybaumann@web.de)
+Automatic translation import <6 days ago> [d58ed265e]
+by: Akhil Narang (akhilnarang.1999@gmail.com)
+
+[vendor/overlay]
+overlay: NavBarGesturalOverlayNoPill: Lower gesture trigger area to 18dp <6 weeks ago> [7c8a3fc]
+by: DanGLES3 (switchtegra@gmail.com)
+
+[scripts]
+scripts: updater: Generate info.sh before upload <6 days ago> [333a390]
+by: Ido Ben-Hur (idoybh2@gmail.com)
 
 
