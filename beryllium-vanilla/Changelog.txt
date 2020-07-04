@@ -1,7 +1,17 @@
 - Updated FireFox Lite
-- Updated Android System Webview
-- Updated Kernel to 4.9.228
-- Tweaked Charging Mitigation Value
-- Reverted to Stock Thermal Engine & Thermal Configs
-- Fixed Custom Carrier Label Position
-- Fixed inactive state Wifi Icon in Circular & Filled Icon Pack
+- Updated Kernel to MiPa 9.3
+- Nuked ZRAM Parameters
+- Added USB Tethering Tile
+- Removed Non Working System Fonts
+- Updated GApps
+- Updated Translations
+- Reworked Expanded Volume Dialogue
+- Lowered Full Screen Gesture Trigger Area
+- Fixed Full Screen Gesture Pill Showing on Landscape Mode
+- Fixed Screen Stabilization QS Tile
+- Nuked OnePlus Screen Recorder
+- Nuked OmniRecord
+- Added Bootleggers Screen Recorder
+- Improved UI of Screen Recorder
+- Added StatusBar Notification Counters
+- Some Minor Derp & Big Fixes
