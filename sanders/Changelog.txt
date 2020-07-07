@@ -1,59 +1,66 @@
-Changelog for Official DerpFest Build Update 02.06.2020 for Sanders:
+Changelog for Official DerpFest Build Update 07.07.2020 for Sanders:
 
 [SOURCE]
 
-• Merged June security patch (10.0_r38)
-• Bring back good ol' circle battery style
-• Tint volume panel expand button to follow textColorSecondary
-• Added Firefox-lite as default browser
-• Fixed the trending wallpaper crash issue
-• Have a consistent default row value
-• Allow showing SB ticker for media
-• LteTile: Launch network settings when long pressing
-• Added Calendar and Clock app
-• Make TwoTargetPreference divider slimmer
-• Make sure notification icons are sticked to the left
-• Forward port CM Screen Security settings
-• CustomSeekbarPreference: Increase the height of plus & minus buttons
-• DerpQuest: Use the right key to set QS security footer
-• DerpQuest: Improve two target preference divider visibility
-• DerpQuest: Add SELinux switch (do not touch it)
-• ColorPicker: Enable the reset button when setting a default at runtime
-• Added hide pill in full gestural nav mode overlays
-• Grant default DND access to AOSP settings intelligence
+• Merged July security patch (10.0_r40)
+• Fixed the disable navbar toggle (now no need of any module)
+• Updated WebView
+• Randomized the DerpQuest summary (so cool)
+• Added DerpBlue and removed KronicGreen
+• Updated Bluetooth battery level assets
+• Use AOSP bluetooth icon when showing battery level
+• DerpQuest: Add drill
+• Increase ringer vibrate icon width/height in expanded volume panel to match the other icons
+• VolumeDialog: Show the notification stream when unlinked
+• VolumeDialog: Fix muting streams with a minimal volume of 1 (eg; alarm)
+• Added vibration patterns from OOS
+• Allow choosing a custom vibration pattern
+• Added Flashlight blink on incoming calls
+• Allow to flash on call only when entirely silent
+• Added DND & Rate settings to flash on call
+• Fixed notification LED blink for missed calls
+• Added QS Header data usage info
+• Tint all power menu icons with the system accent
+• SystemUI: Long press Caffeine for infinite duration
+• Fixed screen stabilization after r38 merge
+• Added Log tile associated with MatLog
+• Added arrow keys while typing to move cursor left/right
+• Removed useless / non working fonts
+• Removed OOS and omni screen recorder
+• Added AOSP screen recorder
+• ScreenRecord: Redesign it to look like from Android R
+• Forward-port notification counters
+• Show infinity for large notification counts
+• Added USB Tether tile
+• Added EvolveSans font
+• Added Linotte font
+• Removed internal recording restrictions for 3rd party apps
+• Fixed fullscreen gesture trigger area
+• Lowered fullscreen pill showing on landscape for some back heights
 • Maybe more things can't remember ;P
 
 
 [DEVICE]
 
-• New MotoActions UI
-   - Match with stock
-   - Detailed info
-• New MotoActions icon style
-   - Respect android 10 settings style
-   - Respect android 10 icon shape shifting style
-   - Icons in subsection of MotoActions will follow the tint of it's parent icon
-• Removed Via.apk (source now has firefox-lite)
-• Updated the device gestures sub icons to match with stock
-• Shifted to Qcom binderized powerhal
-• Switched to qcom sepolicy-legacy-um
-• Kernel compiled with clang 10.0.6
-• Updated sepolicy
-• Fixed the time lag issue
-• Fixed the FM Radio
-• Build missing dummy android.hidl.manager@1.0
-• Dropped deprecated WLAN SDK flag
-• Cleanup and update tree to remove the haywire
-• Improved Kcal settings ui under MotoActions
-• Gave system permissions to kgsl-3d0 nodes
-• Disable DiscoveryService
-• Disable NearbyMessagingService
-• Build separate system and vendor HIDL libs
-• Fixed NFC (maybe. try and lemme know)
+• Switched to CAF surfaceflinger
+• Updated egl drivers to V@454.0
+• Updated vulkan drivers to v@1.1.128
+• Updated WFD from daisy Q
+• Updated SmsOrganizer.apk to v1.1.171
+• Default browser is Via (again)
+• Default I/O scheduler now cfq
 • More under-the-hood changes ;)
+
+
+[MISC]
+
+• Added OOS style dismiss all button (toggle)
+• Added shishu clocks (derpquest- lockscreen- clockstyle)
+• Added divided lines, sfuny, oroño, mnml box and mnml minimal clocks (styles & wallpapers)
+• Implemented the custom fonts to new clocks
 
 
 #StayDerped
 
-Note1: Kindly read all information provided on Derped website. Still you have any doubts ask @marshmello_61 on t.me/DerpfestSanders
-
+Note1: Kindly read all information provided on Derped website. Still you have any doubts ask @marshmello_61 on 
+       https://t.me/DerpfestSanders
