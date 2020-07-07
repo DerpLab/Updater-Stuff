@@ -1,280 +1,257 @@
 ====================
-     06-03-2020
+     07-07-2020
 ====================
-
-[frameworks/base]
-SystemUI: Don't forcefully convert wallpaper to SRGB <2 days ago> [24782cc10f7]
-by: Luca Stefani (luca.stefani.ge1@gmail.com)
-Merge tag 'android-10.0.0_r38' into ten <13 hours ago> [44dc5a4919d]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-Revert "base: notch-city: Add 3 mode display cutout handler" <23 hours ago> [472d9e294c5]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/apps/Settings]
-Settings: Update RU translation (#12) <10 hours ago> [f4ef9a6bf6]
-by: Northn (57762732+Northn@users.noreply.github.com)
-Fix NPE if default supervisor is not defined <3 weeks ago> [80e4a54192]
-by: Wang Han (wanghan1995315@gmail.com)
-Revert "notch-city: Add 3 mode display cutout handler [3/3] (#9)" <23 hours ago> [631771468b]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[vendor/aosip]
-Revert "vendor: notch-city: Add 3 mode display cutout handler [2/3] (#19)" <23 hours ago> [61c1337]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/apps/PixelLiveWallpaper]
-Update from QQ3A.200605.001 <5 hours ago> [838cd34]
-by: jhenrique09 (jhenrique09.mcz@hotmail.com)
-
-
-====================
-     06-02-2020
-====================
-
-[art]
-Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <16 hours ago> [362a3be56c]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[bootable/recovery]
-Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <16 hours ago> [b035f2fb]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[development]
-Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <16 hours ago> [f8b9246c3]
-by: Ido Ben-Hur (idoybh2@gmail.com)
 
 [manifest]
-Merge remote-tracking branch 'aosp/android-10.0.0_r38' into ten <14 hours ago> [747b171]
+Merge tag 'android-10.0.0_r40' into ten <2 hours ago> [675dc06]
 by: Ido Ben-Hur (idoybh2@gmail.com)
-Manifest for Android 10.0.0 Release 38 (QQ3A.200605.002) <16 hours ago> [887567f]
-by: The Android Open Source Project (initial-contribution@android.com)
-Manifest for Android 10.0.0 Release 37 (QQ3A.200605.001) <16 hours ago> [fea4547]
-by: The Android Open Source Project (initial-contribution@android.com)
-Manifest for android10-qpr3-release. <16 hours ago> [a3b2879]
+Manifest for Android 10.0.0 Release 40 <8 hours ago> [5383244]
 by: The Android Open Source Project (initial-contribution@android.com)
 
 [build/make]
-Merge tag 'android-10.0.0_r38' of https://android.googlesource.com/platform/build into HEAD <14 hours ago> [cf1c34589]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[build/soong]
-Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <16 hours ago> [211626723]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[frameworks/av]
-Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <16 hours ago> [dac19d309]
+Merge tag 'android-10.0.0_r40' into HEAD <2 hours ago> [bf43f35c6]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 
 [frameworks/base]
-Merge tag 'android-10.0.0_r38' into HEAD <8 hours ago> [66a9ed27e25]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-Revert "base: notch-city: Add 3 mode display cutout handler" <8 hours ago> [6c4cb1d942d]
-by: Ido Ben-Hur (idoybh2@gmail.com)
+VolumeDialog: Launch Q expanded volume panel on arrow longpress <12 days ago> [06203df745c]
+by: Adhitya Mohan (me@adhityamohan.in)
 
 [frameworks/native]
-Merge tag 'android-10.0.0_r38' into ten <12 hours ago> [e1aaff457]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-Revert "surfaceflinger: Merge caf changes" <12 hours ago> [7ed1e5ba4]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-Revert "SurfaceFlinger: Exclude CAF extensions from non-QC devices" <13 hours ago> [7adc5f802]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-Revert "surfaceflinger: Exclude qcom code on unsupported platforms" <13 hours ago> [dd5464458]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-Revert "surfaceflinger: Exclude qcom RefreshRateType changes" <13 hours ago> [6c18ac595]
+Merge tag 'android-10.0.0_r40' into staging/ten-android-10.0.0_r40 <2 hours ago> [1f2c99574]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 
-[frameworks/opt/net/wifi]
-Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <15 hours ago> [0bfcebdcb]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[frameworks/opt/telephony]
-Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <15 hours ago> [0c53a4c7b]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[hardware/interfaces]
-Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <15 hours ago> [585f12910]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/apps/Bluetooth]
-Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <15 hours ago> [22c78260]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/apps/CellBroadcastReceiver]
-Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <15 hours ago> [b882329e]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/apps/CertInstaller]
-Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <15 hours ago> [13eeae9]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/apps/Nfc]
-Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <15 hours ago> [268bc298]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/apps/PhoneCommon]
-Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <15 hours ago> [0da2d9a]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/apps/Settings]
-Revert "notch-city: Add 3 mode display cutout handler [3/3] (#9)" <8 hours ago> [631771468b]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <15 hours ago> [3bb80e999f]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/providers/DownloadProvider]
-Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <15 hours ago> [28ead7dd]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/services/Telecomm]
-Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <15 hours ago> [f0029027]
+[packages/apps/Matlog]
+Matlog: Add a simple QS tile <5 days ago> [7b01e8a]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 
 [packages/services/Telephony]
-Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <15 hours ago> [c74f2b075]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[system/bt]
-Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <15 hours ago> [98af46a57]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[system/core]
-Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <15 hours ago> [ad679fb54]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[system/sepolicy]
-Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <14 hours ago> [680109d0]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[system/vold]
-Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <14 hours ago> [425481d]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[vendor/aosip]
-Revert "vendor: notch-city: Add 3 mode display cutout handler [2/3] (#19)" <8 hours ago> [61c1337]
+Merge tag 'android-10.0.0_r40' into staging/ten-android-10.0.0_r40 <2 hours ago> [62ecdb1ed]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 
 
 ====================
-     06-01-2020
+     07-06-2020
 ====================
+
+[frameworks/base]
+screenrecord: UI Improvements <5 days ago> [1fcad7eecee]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+base: Do not condition VoWiFi icon change on calls <3 days ago> [f970e6da9d9]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+SystemUI: Update RU translation (#31) <2 days ago> [1dfb00e0f39]
+by: Northn (57762732+Northn@users.noreply.github.com)
+base: Add Linotte font [1/2] <3 days ago> [4f92d3fb898]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+base: Use only 18px size icon for notification count <3 days ago> [bcc6de52d67]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+base: overlays: Add EvolveSans font [1/2] <3 days ago> [cff5a183da4]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+Show infinity for large notification counts <3 years, 5 months ago> [d29155827be]
+by: d34d (clark@cyngn.com)
+SystemUI: Forward-port notification counters [1/2] <6 years ago> [07ea6f180e4]
+by: Steve Kondik (steve@cyngn.com)
+SystemUI: Add USB Tether tile <5 years ago> [a3fcc8c8d98]
+by: BestPig (bestpig82@gmail.com)
+Revert "base: SystemUI: add OmniRecord based qs tile" <5 days ago> [6fa6c4bf209]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+SystemUI: PowerMenu: Use AOSP recorder for screen record button <5 days ago> [1cb7e9a8f76]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[packages/apps/DeskClock]
+DeskClock: Remove notification sound from firing and snoozing channels <3 weeks ago> [22ec01749]
+by: Michael W (baddaemon87@gmail.com)
+DeskClock: Replace ViewPager with manual fragment handling <3 weeks ago> [f71fd84d6]
+by: Michael W (baddaemon87@gmail.com)
+
+[packages/apps/Settings]
+Settings: Randomize DerpQuest's summary <3 weeks ago> [0cc092a58b]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+Settings: Update RU translation (#15,#16) <4 weeks ago> [39f3f0affa]
+by: RunningMango (36758157+RunningMango@users.noreply.github.com)
+
+[packages/apps/OpenDelta]
+Merge remote-tracking branch 'omni/android-10' into ten <27 hours ago> [b0d6c48]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[vendor/pixelstyle]
+pixelstyle: Add Linotte font [2/2] <3 days ago> [dbbb1e1]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+pixelstyle: Add EvolveSans font [2/2] <3 days ago> [f5ca987]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+pixelstyle: Don't build google specific overlays for VANILLA <4 days ago> [48d8dc8]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+[SQUASH] Remove OPScreenRecorder <5 days ago> [12e5633]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+pixelstyle: Import PixelConfigOverlay* GoogleConfigOverlay GoogleWebViewOverlay for full GMS support <5 months ago> [65853b1]
+by: Arseniy Graur (argraur@aosip.dev)
+
+
+====================
+     07-05-2020
+====================
+
+[frameworks/base]
+SystemUI: Update RU translation (#31) <15 hours ago> [7cc8278959b]
+by: Northn (57762732+Northn@users.noreply.github.com)
+base: Add Linotte font [1/2] <18 hours ago> [330d6ebcdf1]
+by: Ido Ben-Hur (idoybh2@gmail.com)
 
 [packages/apps/DerpQuest]
-DerpQuest: Update Greek translation (#62,#64) <5 days ago> [27bce52]
-by: CrisBalGreece (crisbaladim@yahoo.gr)
-DerpQuest: Make TwoTargetPreference divider slimmer <8 days ago> [57f2660]
+DerpQuest: Add a switch for notification counters [2/2] <30 hours ago> [92630bf]
 by: Ido Ben-Hur (idoybh2@gmail.com)
-DerpQuest: Allow showing SB ticker for media [2/2] <10 days ago> [bedcab2]
+DerpQuest: Fixed typos in strings (#69) <3 days ago> [2f514b2]
+by: Northn (57762732+Northn@users.noreply.github.com)
+DerpQuest: Update RU translation (#68,#70,#71) <7 days ago> [7bed9b1]
+by: Northn (57762732+Northn@users.noreply.github.com)
+
+[vendor/pixelstyle]
+pixelstyle: Add Linotte font [2/2] <29 hours ago> [7661a43]
 by: Ido Ben-Hur (idoybh2@gmail.com)
-DerpQuest: Bring back good ol' circle battery style [2/2] <4 months ago> [6c831d1]
-by: Luca Stefani (luca.stefani.ge1@gmail.com)
 
 
 ====================
-     05-31-2020
+     07-04-2020
+====================
+
+[frameworks/base]
+base: Use only 18px size icon for notification count <28 hours ago> [bb17f24cd91]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+base: overlays: Add EvolveSans font [1/2] <29 hours ago> [d30cf00a00e]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+Show infinity for large notification counts <3 years, 5 months ago> [152f5d936b7]
+by: d34d (clark@cyngn.com)
+SystemUI: Forward-port notification counters [1/2] <6 years ago> [fadc80d4e5f]
+by: Steve Kondik (steve@cyngn.com)
+
+[packages/apps/Launcher3]
+Trebuchet: Replace LockClock widget with DeskClock <6 months ago> [141b2d934]
+by: Arne Coucheron (arco68@gmail.com)
+Trebuchet: Add 5x6, 5x7 and 6x6 default workspaces <3 months ago> [401a82b87]
+by: dwardo (benjamin.reveille@gmail.com)
+Update default workspace <8 months ago> [c6800ad0c]
+by: Joey (joey@lineageos.org)
+Revert "Add developer options for grid change for Styles" <8 months ago> [eaff55378]
+by: Luca Stefani (luca.stefani.ge1@gmail.com)
+Revert "Launcher3: we never want to disable grid control provider" <2 days ago> [323aa1ec9]
+by: Josh Fox (XlxFoXxlX) (joshfox87@gmail.com)
+Disable QSB on first screen by default <3 years ago> [ecc0203e4]
+by: Arne Coucheron (arco68@gmail.com)
+QSB: request round search bar <1 year, 6 months ago> [9741faa77]
+by: Edward Cross (edward.k.cross@gmail.com)
+Trebuchet: Update default workspace <9 months ago> [bb5f061eb]
+by: Bruno Martins (bgcngm@gmail.com)
+proguard: Also keep FixedScaleDrawable <1 year, 10 months ago> [4db701b72]
+by: Diogo Ferreira (diogo@underdev.org)
+
+[vendor/pixelstyle]
+pixelstyle: Add EvolveSans font [2/2] <29 hours ago> [5cf313a]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+pixelstyle: Don't build google specific overlays for VANILLA <2 days ago> [f2d1cb3]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+
+====================
+     07-03-2020
 ====================
 
 [manifest]
-manifest: Track Clock, Calendar APPs for VANILLA (#3) <3 days ago> [53c8050]
-by: ALKALiKong (alikongalk@gmail.com)
-
-[build/make]
-build: Add Etar and DeskClock for VANILLA builds (#6) <3 days ago> [456539bee]
-by: ALKALiKong (alikongalk@gmail.com)
+manifest: Track our own fork of Matlog <3 days ago> [93bb6fa]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+manifest: Stop tracking OmniRecord <3 days ago> [820d441]
+by: Ido Ben-Hur (idoybh2@gmail.com)
 
 [frameworks/base]
-DozeSensors: only use proximity sensor if supported (#22) <3 days ago> [ee58fd53b4c]
-by: DarkDampSquib (38047708+DarkDampSquib@users.noreply.github.com)
+SystemUI: Add USB Tether tile <5 years ago> [4ab75fd2965]
+by: BestPig (bestpig82@gmail.com)
+Revert "base: SystemUI: add OmniRecord based qs tile" <3 days ago> [758c7ebd870]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+SystemUI: PowerMenu: Use AOSP recorder for screen record button <3 days ago> [8d622ab0389]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+screenrecord: UI Improvements <3 days ago> [6e90a442430]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+[1/2] base: Remove restrictions for system audio record <3 months ago> [595d2ded4c1]
+by: jhenrique09 (jhenrique09.mcz@hotmail.com)
+Unlink screenrecord toggle from featureflags and enable it <8 months ago> [c55bf5008f4]
+by: ezio84 (brabus84@gmail.com)
+SystemUI: Add ScreenRecord Tile <8 months ago> [68abf87dd71]
+by: ZeNiXxX (zenixxx.havoc@gmail.com)
 
-[vendor/prebuilts]
-prebuilts: Add firefox-lite and remove outdated things (#2) <3 days ago> [c86f3ac]
-by: ALKALiKong (alikongalk@gmail.com)
+[packages/apps/Matlog]
+Matlog: Add a simple QS tile <3 days ago> [c67be6b]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[vendor/aosip]
+Revert "vendor: add OmniRecord to build" <3 days ago> [cf22b49]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[vendor/pixelstyle]
+[SQUASH] Remove OPScreenRecorder <3 days ago> [d9316ca]
+by: Ido Ben-Hur (idoybh2@gmail.com)
 
 
 ====================
-     05-30-2020
+     07-02-2020
 ====================
 
-[external/e2fsprogs]
-Mark libext2{-headers,_blkid,_uuid} as vendor available <3 months ago> [6bc30a7b]
-by: LuK1337 (priv.luk@gmail.com)
-Ignore -Wno-pointer-sign warnings <7 months ago> [b3b9d81e]
-by: Michael Bestas (mkbestas@lineageos.org)
-resize: Make a target for standalone resize2fs_static binary <2 years, 2 months ago> [4381cd58]
-by: Bruno Martins (bgcngm@gmail.com)
+[frameworks/av]
+[2/2] av: Remove restrictions for system audio record <3 months ago> [eec025405]
+by: jhenrique09 (jhenrique09.mcz@hotmail.com)
 
 [frameworks/base]
-base: QS: Have a consistent default row value <4 days ago> [d26cba303ca]
+base: Add support to disable h265 on screenrecorder <9 weeks ago> [a850bc6b9ee]
+by: El Dainosor (eldainosor@gmail.com)
+base: Set a better screenrec notification icon <3 months ago> [1c19ddb8912]
+by: El Dainosor (eldainosor@gmail.com)
+Screen rec: Add support for AudioPlaybackCapture <3 months ago> [d27e5f0e6ba]
+by: El Dainosor (eldainosor@gmail.com)
+Screenrec: Switch to low quality switch to a bitrate selector <3 months ago> [af1e43824c6]
+by: El Dainosor (eldainosor@gmail.com)
+Screenrecord: Android R dev preview style dialog <4 months ago> [9eed032afb3]
+by: Alex (du.alexcruz@gmail.com)
+Screenrecord dialog: Make it less ugly <5 months ago> [ab5e7a4936b]
+by: Alex (du.alexcruz@gmail.com)
+Screenrecorder: don't show heads up notification <6 months ago> [d26acee72c2]
+by: ezio84 (brabus84@gmail.com)
+Screenrecord: remember last recording options <7 months ago> [36a68f76e33]
+by: ezio84 (brabus84@gmail.com)
+Screenrecord: fix possible SystemUI FC when stopping <8 months ago> [e44872369d6]
+by: ezio84 (brabus84@gmail.com)
+SystemUI: ScreenRec: Redesign the dialog <8 months ago> [24b6ec85390]
+by: Anushek Prasal (anushekprasal@gmail.com)
+Screenrec: use HEVC H.265 codec, add low quality option, fixes <8 months ago> [bdd2f6c6ca6]
+by: ezio84 (brabus84@gmail.com)
+Screenrec: allow to show a blinking red stop dot <8 months ago> [df4d83c0a18]
+by: ezio84 (brabus84@gmail.com)
+Screenrecord: Change save location and make sure dirs exist <9 months ago> [393139f6ce7]
+by: Surge Raval (Surge1223@gmail.com)
+Screenrecord: Start delayed <7 months ago> [15e83b3b610]
+by: ezio84 (brabus84@gmail.com)
+Set Assistant UID of the current user. <9 months ago> [539a2e3d5a0]
+by: Wang ArvinX (arvinx.wang@intel.com)
+
+
+====================
+     07-01-2020
+====================
+
+
+====================
+     06-30-2020
+====================
+
+[frameworks/native]
+surfaceflinger: Fix screen stabilization after r38 merge <6 days ago> [8a4a267b7]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 
-[packages/apps/Messaging]
-Import translations. DO NOT MERGE <4 months ago> [1974ee7]
-by: Bill Yi (byi@google.com)
-Rescheduling pending messages after outside window failure <3 weeks ago> [b99b6a1]
-by: Taesu Lee (taesu82.lee@samsung.com)
-Fix NPE on MultiConversationNotificationState <4 weeks ago> [3b32b23]
-by: Taesu Lee (taesu82.lee@samsung.com)
-Hide APN prefs if platform APIs are used <4 weeks ago> [73e0897]
-by: Taesu Lee (taesu82.lee@samsung.com)
-Use ic_add_white for consistency instead <4 weeks ago> [518f57c]
-by: Taesu Lee (taesu82.lee@samsung.com)
-Fix to show APN prefs correctly <4 weeks ago> [efada60]
-by: Taesu Lee (taesu82.lee@samsung.com)
-Fix NPE <5 weeks ago> [800e0ee]
-by: Taesu Lee (taesu82.lee@samsung.com)
-Handle delivered messages as completed messages <6 weeks ago> [8e58132]
-by: Taesu Lee (taesu82.lee@samsung.com)
-
 
 ====================
-     05-29-2020
+     06-29-2020
 ====================
 
-[packages/apps/Matlog]
-MatLog: cleanup unused resources and prepare for translate <5 days ago> [550dfb2]
-by: maxwen (max.weninger@gmail.com)
-MatLog: fix widget <5 days ago> [ade9b6a]
-by: maxwen (max.weninger@gmail.com)
+[frameworks/base]
+SystemUI: Add more VoWiFi icon styles <12 days ago> [4a87d855665]
+by: DennySPb (dennyspb@gmail.com)
 
-[packages/apps/DerpQuest]
-DerpQuest: Update RU translation (#59,#60,#61,#63) <2 weeks ago> [429a9d2]
-by: Northn (57762732+Northn@users.noreply.github.com)
-ColorPicker: Enable the reset button when setting a default at runtime <2 weeks ago> [d827614]
+[vendor/gapps]
+Revert "Don't ship GoogleRecorder by default" <7 days ago> [240668b]
 by: Ido Ben-Hur (idoybh2@gmail.com)
-DerpQuest: Allow choosing a custom color for pressed FOD [2/2] <2 weeks ago> [6733790]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-DerpQuest: Disable SELinux switch if unrooted <2 weeks ago> [9e42f8e]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-Utils: Add root check function <2 weeks ago> [9c66038]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-
-====================
-     05-28-2020
-====================
-
-[device/qcom/sepolicy-legacy]
-sepolicy: Add access policy for charger <4 months ago> [03d80cbb]
-by: YumeMichi (do4suki@gmail.com)
-sepolicy-legacy: Allow Snap to read camera props <3 months ago> [d41b6cd6]
-by: Bruno Martins (bgcngm@gmail.com)
-sepolicy : Add rule to set property for wlan driver/fw ver info <1 year ago> [1c3c9cad]
-by: Vinay Gannevaram (vganneva@codeaurora.org)
-sepolicy: Policy fix for emmc based rpmb partition <1 year, 2 months ago> [9aaea358]
-by: Anmolpreet Kaur (anmolpre@codeaurora.org)
-sepolicy: provide rules for cryptfs_hw hal <11 months ago> [f5060c18]
-by: Shailendra Gupta (shaigu@codeaurora.org)
-
-[packages/apps/Matlog]
-MatLog: add DayNight support <6 days ago> [75446e7]
-by: maxwen (max.weninger@gmail.com)
-
-
-====================
-     05-27-2020
-====================
-
-[packages/apps/Matlog]
-MatLog: switch to androidx <7 days ago> [ea0c5d6]
-by: maxwen (max.weninger@gmail.com)
-
-
