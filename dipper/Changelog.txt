@@ -5,7 +5,7 @@
 [manifest]
 Merge tag 'android-10.0.0_r40' into ten <12 hours ago> [675dc06]
 by: Ido Ben-Hur (idoybh2@gmail.com)
-Manifest for Android 10.0.0 Release 40 <17 hours ago> [5383244]
+Manifest for Android 10.0.0 Release 40 <18 hours ago> [5383244]
 by: The Android Open Source Project (initial-contribution@android.com)
 
 [build/make]
@@ -17,7 +17,7 @@ VolumeDialog: Launch Q expanded volume panel on arrow longpress <12 days ago> [0
 by: Adhitya Mohan (me@adhityamohan.in)
 
 [frameworks/native]
-Merge tag 'android-10.0.0_r40' into staging/ten-android-10.0.0_r40 <12 hours ago> [1f2c99574]
+Merge tag 'android-10.0.0_r40' into staging/ten-android-10.0.0_r40 <13 hours ago> [1f2c99574]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 
 [packages/apps/Matlog]
@@ -29,13 +29,13 @@ Merge tag 'android-10.0.0_r40' into staging/ten-android-10.0.0_r40 <12 hours ago
 by: Ido Ben-Hur (idoybh2@gmail.com)
 
 [scripts]
-scripts: updater: Use git remote to fetch changes <7 hours ago> [c9ccbdf]
+scripts: updater: Use git remote to fetch changes <8 hours ago> [c9ccbdf]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 scripts: updater: Push info.sh in a separate commit <12 days ago> [b861437]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 
 [device/xiaomi/dipper]
-Revert "dipper:enable USB debug" <30 minutes ago> [b59f801]
+Revert "dipper:enable USB debug" <59 minutes ago> [b59f801]
 by: ALKALiKong (alikongalk@gmail.com)
 
 
@@ -54,7 +54,7 @@ base: Add Linotte font [1/2] <3 days ago> [4f92d3fb898]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 base: Use only 18px size icon for notification count <3 days ago> [bcc6de52d67]
 by: Ido Ben-Hur (idoybh2@gmail.com)
-base: overlays: Add EvolveSans font [1/2] <3 days ago> [cff5a183da4]
+base: overlays: Add EvolveSans font [1/2] <4 days ago> [cff5a183da4]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 Show infinity for large notification counts <3 years, 5 months ago> [d29155827be]
 by: d34d (clark@cyngn.com)
@@ -73,20 +73,14 @@ by: Michael W (baddaemon87@gmail.com)
 DeskClock: Replace ViewPager with manual fragment handling <3 weeks ago> [f71fd84d6]
 by: Michael W (baddaemon87@gmail.com)
 
-[packages/apps/Settings]
-Settings: Randomize DerpQuest's summary <4 weeks ago> [0cc092a58b]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-Settings: Update RU translation (#15,#16) <4 weeks ago> [39f3f0affa]
-by: RunningMango (36758157+RunningMango@users.noreply.github.com)
-
 [packages/apps/OpenDelta]
 Merge remote-tracking branch 'omni/android-10' into ten <2 days ago> [b0d6c48]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 
 [vendor/pixelstyle]
-pixelstyle: Add Linotte font [2/2] <3 days ago> [dbbb1e1]
+pixelstyle: Add Linotte font [2/2] <4 days ago> [dbbb1e1]
 by: Ido Ben-Hur (idoybh2@gmail.com)
-pixelstyle: Add EvolveSans font [2/2] <3 days ago> [f5ca987]
+pixelstyle: Add EvolveSans font [2/2] <4 days ago> [f5ca987]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 pixelstyle: Don't build google specific overlays for VANILLA <4 days ago> [48d8dc8]
 by: Ido Ben-Hur (idoybh2@gmail.com)
@@ -99,6 +93,12 @@ by: Arseniy Graur (argraur@aosip.dev)
 ====================
      07-05-2020
 ====================
+
+[packages/apps/Settings]
+Settings: Randomize DerpQuest's summary <4 weeks ago> [0cc092a58b]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+Settings: Update RU translation (#15,#16) <4 weeks ago> [39f3f0affa]
+by: RunningMango (36758157+RunningMango@users.noreply.github.com)
 
 [packages/apps/DerpQuest]
 DerpQuest: Add a switch for notification counters [2/2] <4 days ago> [92630bf]
