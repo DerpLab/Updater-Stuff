@@ -3,13 +3,13 @@
 ====================
 
 [manifest]
-Merge tag 'android-10.0.0_r40' into ten <14 hours ago> [675dc06]
+Merge tag 'android-10.0.0_r40' into ten <16 hours ago> [675dc06]
 by: Ido Ben-Hur (idoybh2@gmail.com)
-Manifest for Android 10.0.0 Release 40 <20 hours ago> [5383244]
+Manifest for Android 10.0.0 Release 40 <21 hours ago> [5383244]
 by: The Android Open Source Project (initial-contribution@android.com)
 
 [build/make]
-Merge tag 'android-10.0.0_r40' into HEAD <15 hours ago> [bf43f35c6]
+Merge tag 'android-10.0.0_r40' into HEAD <16 hours ago> [bf43f35c6]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 
 [frameworks/base]
@@ -23,7 +23,7 @@ VolumeDialog: Launch Q expanded volume panel on arrow longpress <12 days ago> [0
 by: Adhitya Mohan (me@adhityamohan.in)
 
 [frameworks/native]
-Merge tag 'android-10.0.0_r40' into staging/ten-android-10.0.0_r40 <15 hours ago> [4259de24e]
+Merge tag 'android-10.0.0_r40' into staging/ten-android-10.0.0_r40 <16 hours ago> [4259de24e]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 surfaceflinger: change usageBits type to uint64_t <5 weeks ago> [fae727a7e]
 by: Pierre-Hugues Husson (phhusson@gmail.com)
@@ -35,11 +35,11 @@ Matlog: Add a simple QS tile <5 days ago> [7b01e8a]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 
 [packages/services/Telephony]
-Merge tag 'android-10.0.0_r40' into staging/ten-android-10.0.0_r40 <15 hours ago> [62ecdb1ed]
+Merge tag 'android-10.0.0_r40' into staging/ten-android-10.0.0_r40 <16 hours ago> [62ecdb1ed]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 
 [scripts]
-scripts: updater: Use git remote to fetch changes <10 hours ago> [c9ccbdf]
+scripts: updater: Use git remote to fetch changes <11 hours ago> [c9ccbdf]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 scripts: updater: Push info.sh in a separate commit <12 days ago> [b861437]
 by: Ido Ben-Hur (idoybh2@gmail.com)
@@ -48,12 +48,6 @@ by: Ido Ben-Hur (idoybh2@gmail.com)
 ====================
      07-06-2020
 ====================
-
-[packages/apps/DeskClock]
-DeskClock: Remove notification sound from firing and snoozing channels <3 weeks ago> [22ec01749]
-by: Michael W (baddaemon87@gmail.com)
-DeskClock: Replace ViewPager with manual fragment handling <3 weeks ago> [f71fd84d6]
-by: Michael W (baddaemon87@gmail.com)
 
 [packages/apps/OpenDelta]
 Merge remote-tracking branch 'omni/android-10' into ten <2 days ago> [b0d6c48]
@@ -66,7 +60,7 @@ pixelstyle: Add EvolveSans font [2/2] <4 days ago> [f5ca987]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 pixelstyle: Don't build google specific overlays for VANILLA <4 days ago> [48d8dc8]
 by: Ido Ben-Hur (idoybh2@gmail.com)
-[SQUASH] Remove OPScreenRecorder <5 days ago> [12e5633]
+[SQUASH] Remove OPScreenRecorder <6 days ago> [12e5633]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 pixelstyle: Import PixelConfigOverlay* GoogleConfigOverlay GoogleWebViewOverlay for full GMS support <5 months ago> [65853b1]
 by: Arseniy Graur (argraur@aosip.dev)
@@ -100,19 +94,17 @@ by: Ido Ben-Hur (idoybh2@gmail.com)
 SystemUI: PowerMenu: Use AOSP recorder for screen record button <5 days ago> [1cb7e9a8f76]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 
+[packages/apps/DeskClock]
+DeskClock: Remove notification sound from firing and snoozing channels <3 weeks ago> [22ec01749]
+by: Michael W (baddaemon87@gmail.com)
+DeskClock: Replace ViewPager with manual fragment handling <3 weeks ago> [f71fd84d6]
+by: Michael W (baddaemon87@gmail.com)
+
 [packages/apps/Settings]
 Settings: Randomize DerpQuest's summary <4 weeks ago> [0cc092a58b]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 Settings: Update RU translation (#15,#16) <4 weeks ago> [39f3f0affa]
 by: RunningMango (36758157+RunningMango@users.noreply.github.com)
-
-[packages/apps/DerpQuest]
-DerpQuest: Add a switch for notification counters [2/2] <4 days ago> [92630bf]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-DerpQuest: Fixed typos in strings (#69) <5 days ago> [2f514b2]
-by: Northn (57762732+Northn@users.noreply.github.com)
-DerpQuest: Update RU translation (#68,#70,#71) <10 days ago> [7bed9b1]
-by: Northn (57762732+Northn@users.noreply.github.com)
 
 
 ====================
@@ -128,6 +120,14 @@ Update default workspace <8 months ago> [c6800ad0c]
 by: Joey (joey@lineageos.org)
 Revert "Add developer options for grid change for Styles" <8 months ago> [eaff55378]
 by: Luca Stefani (luca.stefani.ge1@gmail.com)
+
+[packages/apps/DerpQuest]
+DerpQuest: Add a switch for notification counters [2/2] <4 days ago> [92630bf]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+DerpQuest: Fixed typos in strings (#69) <5 days ago> [2f514b2]
+by: Northn (57762732+Northn@users.noreply.github.com)
+DerpQuest: Update RU translation (#68,#70,#71) <10 days ago> [7bed9b1]
+by: Northn (57762732+Northn@users.noreply.github.com)
 
 
 ====================
