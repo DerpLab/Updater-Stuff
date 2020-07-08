@@ -1,7 +1,60 @@
-Changelog:
-- Updated Audio, ADSP, ANT, Alarm, DRM, GPS, Gatekeeper, Keystone, Latency, Voice, Peripheral, TUI, Time, Thermal, Sensors, DPM, WiFi Display, Graphics, Media, Perf stack, Bluetooth stack from LA.UM.8.6.r1-04400-89xx.0
-- make the UI smoother
-- Use more cores for faster app installation
-- Upstreamed kernel to 4.9.227
-- Xiaomi Add-on : Added Advanced Vibration control and Spectrum QS Tile
-- Tuned Spectrum profiles for 4.9
+Source Side:
+- Merged July security patch (r40)
+- Reworked expanded volume dialog (fixes many bugs with it)
+- Lowered fullscreen gesture trigger area
+- Fixed fullscreen pill showing on landscape for some back heights
+- Fixed a FC for new FOD implementation (irrelevant for this device)
+- Fixed screen stabilization QS tile
+- Added StatusBar notification counters
+- Added USB tethering QS tile
+- Added log QS tile
+- Added EvolveSans & Linotte system fonts
+- Added MatLog QS tile
+- Added Bootlegger's AOSP screen recorder (& improved UI)
+- Removed Omni & OOS Screen recorders
+- Removed internal recording restrictions for 3rd party apps
+- Removed useless / non working system fonts
+- Updated GApps
+- Randomize DerpQuest summary with funny strings
+- Reworked blink flashlight on call, again. This time I'm done, Promise
+- Fixed reboot for APEX update
+- Added derp blue theme
+- Added FOD extensions support (irrelevent for this device)
+- Added arrow keys on navbar while typing
+- Added StatusBar VoWiFi icon (& a switch)
+- Update & Apply custom carrier label position correctly
+- Fixed inactive WiFi icon in some icon packs
+- Fixed the double navbar switch issues (for hw buttons devices)
+- Minor fix for the new OpenDelta UI
+- Disable "R style" notification headers by default
+- Wake on charge regardless of AoD settings
+- Updates to translations
+- Some more minor derps/bugs fixes
+
+Device Side:
+- New GPS configs for better stability & accuracy
+- Update thermal-conf  For 4.9 kernel
+- Fixed VoLTE SIM Slot switching issue
+- Import SchedTune tuning from b4s4
+- Update blobs from LA.UM.8.6.r1-04400-89xx.0
+- Added Gcam Go (better than camera2)
+- Add Audiosphere blobs from LA.UM.8.6.r1-04400-89xx.0
+- Remove Telecomm overlays
+- enable Zygote Preforking  for Faster App Launching
+- Update static iuicc names in device
+- Update post boot from LA.UM.8.6.r1-04600-89xx.0
+- Update data-ipa-cfg-mgr from LA.UM.8.6.r1-04600-89xx.0
+- Import Xiaomi Add-on V2
+- Import Vibration Control
+- Fix dual sim devices
+- add support for 32/48KHz voip
+- Increase in-call earpiece volume
+- Drop qti-telephony-common aosp_usr_pref_sel
+- Update GPS from LA.UM.8.6.r1-04400-89xx.0
+- Enable AOSP low_latency in audio output config
+
+Kernel Side:
+- Upstream SolarisKernel v4.9.229
+- Compile kernel with Clang 11.0.3
+- Update exFAT driver version 5.8-2arter97
+- Enable stune and cpu assist with tweaks
