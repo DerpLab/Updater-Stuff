@@ -3,598 +3,73 @@
 ## DEVICE CHANGELOG ##
 ######################
 
-246d894a sdm660: update bdroid_buildcfg values from caf
-f40d6130 sdm660-common: remove double defined blobs
-494125d4 sdm660: Add wayne-common inherit support for extractor
-6ca1e40d sdm660: add IWLAN assist to manifest
-842c043b sdm660-common: Drop Power-off charging daemon
-6ce16d4d sdm660-common: Downgrade IMS libs to LA.UM.8.2.r1-06200-sdm660.0
-88e34cd5 sdm660-common: overlay: Set screen off delay to 0
-7e55d60b sdm660-common: gps: add changes from clover for wifi only gps
-4ecfb61c sdm660-common: Import GPS HAL from LA.UM.8.2.r1-06500-sdm660.0
-48ec9be2 sdm660-common: Update blobs from LA.UM.8.2.r1-06500-sdm660.0
-cded4621 sdm660-common: update-sha1sums: Handle line with opts
-74b11d5b sdm660-common: update-sha1sums: Better handle line breaks
-089c7a08 sdm660-common: Format update-sha1sums.py with yapf
-7b37585a sdm660-common: Update audio blobs from LA.UM.8.2.r1-06500-sdm660.0
-4d3f8e2f sdm660-common: Update data-ipa-cfg-mgr from LA.UM.8.2.r1-06600-sdm660.0
-8f9e51c0 sdm660-common: Import GPS HAL from LA.UM.8.2.r1-06200-sdm660.0
-8f372fdb sdm660: Update GPS from LA.UM.8.2.r1-06200-sdm660.0
-7f92b6fb sdm660: Re-enable:vendor.audio.safx.pbe.enabled
-e569f5bc sdm660: audio: Use QCOM implementation for audio effects
-794fddb8 sdm660: Improve padding on keyguard
-9ad9c67e sdm660: Drop double defined flashlight support
-7e758dc5 sepolicy: remove deprecated code for avc denial error cleanup
-1c729392 init.qcom.rc: Removing unused setprop persist.camera.gyro.disable
-b4e419cb Prevent RTT VT call on networks that don't support it
-ddb98d8e sdm660-common: Import Audio Blobs from LA.UM.8.2.r1-06200-sdm660.0
-11134563 sdm660: audio: Add Prop override from clover for acdb cals
-9d9cf788 sdm660: Parts: Fix RU translation
-fdf38df7 sdm660-common: overlay: Enable IWlan
-ade014a4 sdm660-common: fix manual network selection
-f7def590 sdm660-common: fix sepolicy duplicate prefix for 'vendor.camera.aux.packageblacklist'
-bb8bee3 jasmine: Switch to new common vendor repo
-b7bb20f jasmine: Add wayne-common inherit support for extractor
-fee0185 configs: Add echo reference for voip/voice call in bt-sco path
-19a49b7 configs: Add backend config for handset TMU operator device
-05e136e jasmine: Remove Audio Blobs
-87546cd jasmine: move cdsp remandants to common
-5cbf3c3 jasmine: keylayout: remap headset keys to right functions
-456eb75 jasmine: audio: add bt acdb for voip apps
-bffa7752d444 net: wireguard: Update to 1.0.20200520
-39df333cac4b Revert "USB: set hub's default autosuspend delay as 0"
-899d3840af3c defconfig: xiaomi: stop preserve memory on restart
-e19e77235c32 Merge branch 'kernel.lnx.4.4.r38-rel' of https://github.com/android-linux-stable/msm-4.4
-a8aaf4c4a3d9 LocalVersion: LA.UM.8.2.r1-06700
-73c8f0386eee Merge tag 'LA.UM.8.2.r1-06700-sdm660.0' of https://source.codeaurora.org/quic/la/kernel/msm-4.4 into HEAD
-602aa3de8401 Makefile: Remove unsupported cflags
-ed192c9b2a3c ARM: dts: Disable verity for vendor
-764c30676c88 LocalVersion: LA.UM.8.2.r1-06600
-ce17abfc6fe0 Merge tag 'LA.UM.8.2.r1-06600-sdm660.0' of https://source.codeaurora.org/quic/la/kernel/msm-4.4 into HEAD
-51494687f722 camera_v2: Restore old behaviour for frame drops
-8b9a50c2c7a1 slimbus: increase frequency to avoid stutters on HiFi playback
-272669c952d2 msm_ispif: Increase timeout to 10 seconds from 1 second.
-97e49ed0f9ac defconfig: Migrate to new Camera
-703b715f9b63 power: supply: change battery temp calculation for MI jason
-8b89a85b4af4 power: supply: hook battery readings to quiet_therm for MI jason
-5729901df43a block, scheduler: convert xxx_var_store to void
-7dcfacd7aa4d block/cfq: cache rightmost rb_node
-7d075329201e block/cfq: replace cfq_rb_root leftmost caching
-7f683c843e24 cfq-iosched: fix the delay of cfq_group's vdisktime under iops mode
-38b1566c734f cfq-iosched: Charge at least 1 jiffie instead of 1 ns
-9b52a3fb5732 cfq-iosched: Fix regression in bonnie++ rewrite performance
-8e124a8274b0 cfq-iosched: Convert slice_resid from u64 to s64
-1e49c98447c8 cfq-iosched: Convert to use highres timers
-4acec5e3b750 cfq-iosched: Expose microsecond interfaces
-77ee15f15bc4 cfq-iosched: Convert from jiffies to nanoseconds
-03cf0bd77957 ipv6: add option to drop unsolicited neighbor advertisements
-50b589126f1e ipv4: add option to drop gratuitous ARP packets
-023f900b9b89 ipv6: add option to drop unicast encapsulated in L2 multicast
-f69624361a0a ipv4: add option to drop unicast encapsulated in L2 multicast
-41c33d6f2e74 Revert "mmc: Fixing few warning messages."
-6d522216e3b7 Revert "mmc: sdio: Update the argument for data copy"
-410e2fe0ae47 Revert "mmc: sdio: Update the buffer copy to include the last char"
-74df6b186777 UPSTREAM: scripts/mkcompile_h: Remove trailing spaces from compiler version
-568eb6ca85bb Merge 4.4.226 into kernel.lnx.4.4.r38-rel
-95a3867e897a Linux 4.4.226
-1fcc5c579204 scsi: zfcp: fix request object use-after-free in send path causing wrong traces
-b60b53d4980f printk: help pr_debug and pr_devel to optimize out arguments
-82a2eec4470e drm/msm: Fix possible null dereference on failure of get_pages()
-81ff1b1c3252 sc16is7xx: move label 'err_spi' to correct section
-c7f701f9c43a asm-prototypes: Clear any CPP defines before declaring the functions
-ce63bbf57dec mm/vmalloc.c: don't dereference possible NULL pointer in __vunmap()
-9c37f759a9e4 net: rtnl_configure_link: fix dev flags changes arg to __dev_notify_flags
-baf1ece29a36 mac80211: fix memory leak
-f64b2e49912a usb: renesas_usbhs: gadget: fix spin_lock_init() for &uep->lock
-962857706730 genirq/generic_pending: Do not lose pending affinity update
-58d0dde2fd65 drm/fb-helper: Use proper plane mask for fb cleanup
-f2ab61be68ef mm: remove VM_BUG_ON(PageSlab()) from page_mapcount()
-2feb61519561 netfilter: nf_conntrack_pptp: fix compilation warning with W=1 build
-5d4310e40f74 bonding: Fix reference count leak in bond_sysfs_slave_add.
-1063d4e066a3 qlcnic: fix missing release in qlcnic_83xx_interrupt_test.
-b1d1ebe9721f netfilter: nf_conntrack_pptp: prevent buffer overflows in debug code
-1b445533d0fa netfilter: ipset: Fix subcounter update skip
-03bfc7313247 netfilter: nft_reject_bridge: enable reject with bridge vlan
-5fae1a3da03e ip_vti: receive ipip packet by calling ip_tunnel_rcv
-093fd7585f19 vti4: eliminated some duplicate code.
-84cff8831707 xfrm: fix a NULL-ptr deref in xfrm_local_error
-0a2442b0efc6 xfrm: fix a warning in xfrm_policy_insert_list
-9e9c5c06b18b xfrm: allow to accept packets with ipv6 NEXTHDR_HOP in xfrm_input
-8c8a3c5bdd27 x86/dma: Fix max PFN arithmetic overflow on 32 bit systems
-85cb412a93b2 parisc: Fix kernel panic in mem_init()
-2996897d8b9b iommu: Fix reference count leak in iommu_group_alloc.
-e8457f2a32a4 include/asm-generic/topology.h: guard cpumask_of_node() macro argument
-2673a0cb646a fs/binfmt_elf.c: allocate initialized memory in fill_thread_core_info()
-63d6d52ec88b exec: Always set cap_ambient in cap_bprm_set_creds
-ea30c3f00c87 ALSA: usb-audio: mixer: volume quirk for ESS Technology Asus USB DAC
-0c25f3b5b9c1 ALSA: hwdep: fix a left shifting 1 by 31 UB bug
-7499f1cad7ed IB/qib: Call kobject_put() when kobject_init_and_add() fails
-be5e161fdcc7 Input: i8042 - add ThinkPad S230u to i8042 reset list
-6246017d4bd4 Input: xpad - add custom init packet for Xbox One S controllers
-c2ebe039575f Input: evdev - call input_flush_device() on release(), not flush()
-80cccc9e2dba Input: usbtouchscreen - add support for BonXeon TP
-9c53298a3e04 cifs: Fix null pointer check in cifs_read
-9eb66304c94d usb: gadget: legacy: fix redundant initialization warnings
-b5d75c220484 cachefiles: Fix race between read_waiter and read_copier involving op->to_do
-6ca9a3f3d7b6 IB/cma: Fix reference count leak when no ipv4 addresses are set
-e15a251e1079 uapi: fix linux/if_pppol2tp.h userspace compilation errors
-94926fb0d2fc net/mlx4_core: fix a memory leak bug.
-98770df2087a net: sun: fix missing release regions in cas_init_one().
-702c510f89d7 net/mlx5: Add command entry handling completion
-0b2353c48a3c sctp: Start shutdown on association restart if in SHUTDOWN-SENT state and socket is closed
-6a14e9d23744 net: revert "net: get rid of an signed integer overflow in ip_idents_reserve()"
-450eda6db3cf ax25: fix setsockopt(SO_BINDTODEVICE)
-2e61af29e97a arm64: Disable -fwhole-program for vDSO
-a83b1dd2ef95 FROMLIST: arm64: Build vDSO with -ffixed-x18
-c0f2fcf75a62 ANDROID: clock_gettime(CLOCK_BOOTTIME,) slows down >20x
-639e08b6e63f FROMLIST: arm64: vdso32: Use full path to Clang instead of relying on PATH
-608febfe34f7 ANDROID: arm64: vdso32: fix CC=clang build
-ba0646b8f52f ANDROID: CROSS_COMPILE_ARM32 must work if CONFIG_COMPAT_VDSO
-3039317f5563 FROMLIST: BACKPORT: [PATCH 6/6] arm64: Wire up and expose the new compat vDSO
-33364f7fee4e FROMLIST: BACKPORT: [PATCH 5/6] arm64: compat: 32-bit vDSO setup
-e3b730c5c989 FROMLIST: [PATCH 4/6] arm64: compat: Add a 32-bit vDSO
-7fa58d6bbd91 FROMLIST: [PATCH 3/6] arm64: Refactor vDSO init/setup
-33d498278cb2 FROMLIST: [PATCH 1/6] arm64: compat: Use vDSO sigreturn trampolines if available
-927830bbb9ef FROMLIST: lib: vdso: add support for time
-b4e82ecd566f FROMLIST: [PATCH] arm64: compat: Expose offset to registers in sigframes
-68792bccb49a FROMLIST: [PATCH v5 12/12] lib: vdso: do not expose gettimeofday, if no arch supported timer
-790c44e164c6 FROMLIST: [PATCH v5 11/12] lib: vdso: Add support for CLOCK_BOOTTIME
-a32400c26ce6 FROMLIST: [PATCH v5 10/12] arm64: vdso: replace gettimeofday.S with global vgettimeofday.C
-9b68fa75a4a0 FROMLIST: [PATCH v5 09/12] arm: vdso: move vgettimeofday.c to lib/vdso/
-748025f9bfe3 FROMLIST: [PATCH v5 08/12] arm: vdso: Add ARCH_CLOCK_FIXED_MASK
-8986f4cdd347 FROMLIST: [PATCH v5 06/12] arm: vdso: add support for clock_getres
-181342b08e44 FROMLIST: [PATCH v6 05/12] arm: vdso: Add support for CLOCK_MONOTONIC_RAW
-2dcec554bf9e FROMLIST: [PATCH v5 04/12] arm: vdso: do calculations outside reader loops
-923c70eb12ba FROMLIST: [PATCH v5 03/12] arm: vdso: inline assembler operations to compiler.h
-d85f61773673 FROMLIST: [PATCH v5 02/12] arm: vdso: add include file defining __get_datapage()
-0ce437719b95 FROMLIST: [PATCH v5 01/12] arm: vdso: rename vdso_datapage variables
-7ceb0fffd077 FROMLIST: [PATCH v2 3/3] arm64: compat: Add CONFIG_KUSER_HELPERS
-4e5362c5326d FROMLIST: [PATCH v2 2/3] arm64: compat: Split the sigreturn trampolines and kuser helpers (assembler sources)
-511de3a200e2 FROMLIST: [PATCH v2 1/3] arm64: compat: Split the sigreturn trampolines and kuser helpers (C sources)
-017e4832ccd3 f2fs: fix inode rwsem regression
-81aad8e46ece f2fs: enhance f2fs_is_checkpoint_ready()'s readability
-bca9540ccfdb f2fs: Fix indefinite loop in f2fs_gc()
-73b7f7cda26c f2fs: allocate memory in batch in build_sit_info()
-54099a5db3b9 f2fs: remove duplicate code in f2fs_file_write_iter
-57a7e0ace46b f2fs: fix to detect cp error in f2fs_setxattr()
-3a9d73f17929 f2fs: fix to spread f2fs_is_checkpoint_ready()
-8aaf6b59d50f f2fs: fix panic of IO alignment feature
-dd69849c1e77 f2fs: introduce {page,io}_is_mergeable() for readability
-ae70cd44a003 f2fs: convert f2fs_msg to new f2fs_info macros
-512899bbd508 f2fs: drop caches upon rapid GC exit
-a724fcdfdc41 f2fs: fix rapid GC breakage from merge 4e87f7d2befb8
-9589ff0a0430 f2fs/rapid_gc: do not wait until all invalid blocks are discarded
-f2ef30e63e01 f2fs: implement rapid GC for Android
-41bbf11a1012 configs: Enable sdfat
-da98c63dc21a Revert "defconfig: xiaomi: Disable msm8998 drivers"
-d65910bffc0b configs: Disable a few *_DEBUG drivers
-2c4ea286aacf configs: Disable NETWORK_FILESYSTEMS
-a718cd563dba configs: Disable POWER_RESET_XGENE
-ab85acbfbb71 configs: remove unused kernel funtions
-c1e0f3c74a8d defconfig: xiaomi: preserve memory on restart
-d402a7e83645 defconfig: xiaomi: enable CONFIG_DETECT_HUNG_TASK
-6a45c32e065b defconfig: xiaomi: Disable msm8998 drivers
-ce06513a5c5b defconfig: xiaomi: Remove MSM_TIMER_LEAP
-c36cb1828c21 configs: disable CONFIG_CC_OPTIMIZE_FOR_SIZE
-c256617bacd6 configs: disable mdss xlog debug
-5dc9686f2ad7 configs: add various HID drivers
-15013b87e2b0 defconfig: configs: disable SCHED_AUTOGROUP
-b5b7a80475f5 configs: add CONFIG_HID_APPLE
-7b9b29faf79d configs: clean up configs and make savedefconfig
-bc50155cf889 configs: align with security requirements
-4a71fe93a222 arm64/configs: configs: disable MSM_11AD
-70ec969af6f7 ARM: dts: sdm660: Disable unhandled or broken IRQ monitoring
-0f2bf4b3943d ARM: dts: sdm660: Suppress verbose output during boot
-2847c38e2426 drivers: fpc: Make keyevent filter optional
-d5e17a7aa381 synaptics_dsx_force: remove TYPE_B_PROTOCOL checks
-c8ef8c224d89 synaptics_dsx_core: remove KERNEL_ABOVE checks
-c86f97f751b9 touchscreen: synaptics_dsx_force: Adjust priorities
-897fbb999045 touchscreen: synaptics_dsx_force: Use FIFO kthread for work
-4479574a9ddb synaptics_dsx_e7s: cleanup code
-989cfd872d6d touchscreen: synaptics_dsx_e7s: Adjust priorities
-d0ef5442134c touchscreen: synaptics_dsx_e7s: Use FIFO kthread for work
-9f736a5a884b gt9xx: fixup gtp_wakeup_sleep
-62eda7d8e328 gt9xx: optimize code
-a5ad5cefb649 gt9xx: remove unnecessary tp_flag wrappers
-134f2d95ad1f drivers: input: gt9xx: symlink /proc/touchscreen to input device
-884703b597dd drivers: input: touchscreen: gt9xx_zql6019: Create dt2w nodes
-a52a898ab6b4 drivers: input: focaltech_d9_d9p: Rename dt2w node
-9c787b2ba66f drivers: input: focaltech_d9_d9p: symlink /proc/touchscreen to input device
-ac998297c4c8 focaltech: enable gestures by default
-1207abd696b1 focaltech: disable gesture handlings other than KEY_WAKEUP
-e3d41ec41cc3 focaltech: more optimizations
-ba69114d5b18 focaltech: optimize gesture handling
-aba0b94c7d95 focaltech: import focaltech_gesture.c from dipper-o-oss
-709753edbe57 focaltech: optimize code
-7653fbfc21fe padata: set cpu_index of unused CPUs to -1
-1c1b4327970c i2c: dev: Fix the race between the release of i2c_dev and cdev
-8086b081e716 i2c-dev: don't get i2c adapter via i2c_dev
-466b5897239e i2c: dev: use after free in detach
-49661be5ab43 i2c: dev: don't start function name with 'return'
-082041c05f30 i2c: dev: switch from register_chrdev to cdev API
-b882fcc49cb6 media: fix media devnode ioctl/syscall and unregister race
-bbb3ce60dd69 media: fix use-after-free in cdev_put() when app exits after driver unbind
-bcce79f625b4 media-device: dynamically allocate struct media_devnode
-328ff670b09b media-devnode: fix namespace mess
-46522c641eb5 media-devnode: add missing mutex lock in error handler
-c4cbdb763ae3 drivers/media/media-devnode: clear private_data before put_device()
-7451beed434b media: Fix media_open() to clear filp->private_data in error leg
-69767f70a23c ARM: futex: Address build warning
-f062065bff88 platform/x86: asus-nb-wmi: Do not load on Asus T100TA and T200TA
-b011419b3223 USB: core: Fix misleading driver bug report
-f12bf0d048c2 ceph: fix double unlock in handle_cap_export()
-2614ff6557d5 HID: multitouch: add eGalaxTouch P80H84 support
-1f8f6293768e fix multiplication overflow in copy_fdtable()
-b30282c3bcc7 evm: Check also if *tfm is an error pointer in init_desc()
-3c74e59f30cc padata: ensure padata_do_serial() runs on the correct CPU
-f4fb6f1523d4 padata: ensure the reorder timer callback runs on the correct CPU
-a46bec632371 padata: get_next is never NULL
-a8f580cb5664 padata: Remove unused but set variables
-33cbfacb4c81 igb: use igb_adapter->io_addr instead of e1000_hw->hw_addr
-0f0ea056cd25 diag: Set socket CDSP enum value same as CDSP diag macro
+533320b7 sdm660-common: Exclude Snap overlays from RRO
+53f8af3c sdm660-common: Exclude lineage-sdk overlays from RRO
+9536da3d sdm660-common: Enforce RRO for all resource overlays
+ffc87e69 sdm660-common: allow auto-brightness while in doze
+36da9008 sdm660-common: Change USB autosuspend delay to 7s by commandline.
+4a64812e sdm660-common: wifi: remove duplicated configs
+16bcf357 sdm660-common: whyred: init: Add custom init to set proper variants (#55)
+ceef839c qcom : device : Update static iuicc names in device
+c8b772b1 Adding com.skyhook.blp into the whitelist
+24d2bf06 init.qcom.usb.sh: Set USB default composition to 9091
+059ed20a sdm660-common: overlay: Limit alpha compositing functionality
+f26cf285 sdm660-common: Parts: Calculate expotenial LED Brightness slider values
+d26a3634 sdm660-common: Switch lmkd to use minfree levels for kill decisions
+b7e48fd5 sdm660-common: Increase ro.lmk.medium to prevent kills at medium vmpressure
+5c24af19 sdm660-common: Update lmkd configuration properties
+47090aec sdm660: props: enable zygote preforking
+2c1e82f7 sdm660-common: Make FM radio opt-in
+dfed0c84 sdm660-common: Use Qcrild from  LA.UM.8.2.r1-06500-sdm660.0
+2619310f sdm660-common: Update DATA IPA Hal to LA.UM.8.2.r1-06700-sdm660.0
+4e9b883b sdm660-common: Update Gps Hal to LA.UM.8.2.r1-06700-sdm660.0
+d9c83af8 sdm660-common: Update blobs from LA.UM.8.2.r1-06700-sdm660.0
+1c5a84ba sdm660-common: Remove unused lower-end codecs
+42f44a4d sdm660-common: Increase audio HAL buffer size to 240
+00532cc8 sdm660-common: init: Remove unexistent sensor service
+8aa64ac6 sdm660-common: Update blobs from LA.UM.8.2.r1-06600-sdm660.0
+eb18e31f sdm660-common: prop: Add persist.vendor.dpm.nsrm.bkg.evt prop
+6677ea8a sdm660-common: sepolicy: Allow dpmd set ctl_stop_prop
+6105fa74 sdm660-common: Is dpmservice the product permission?
+ecb40f10 sdm660-common: Update Sensor Blobs to CAF
+a0b70bb9 sdm660-common: Update Display utils Blobs
+1a056d6d2eb3 net: wireguard: Update to 1.0.20200623
+ca72c629aaf1 Merge tag 'LA.UM.8.2.r1-06900-sdm660.0' of https://source.codeaurora.org/quic/la/kernel/msm-4.4 into HEAD
+a808f7c18861 drivers: gpu: Increase adreno bus data limit
+3552e4b67364 Merge 4.4.229 into kernel.lnx.4.4.r38-rel
 
 ######################
 ##  ROM  CHANGELOG  ##
 ######################
 
-====================
-     06-08-2020
-====================
-
-[frameworks/base]
-VolumeDialog: Fix live caption button when on left side <4 days ago> [0dfd8ef3787]
-by: jhenrique09 (jhenrique09.mcz@hotmail.com)
-
-[packages/apps/Settings]
-Settings: Preview the custom ringtone vibration pattern <2 hours ago> [ae68a6065f]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-Settings: Hide settings version from carrier settings if unsupported <22 hours ago> [c9b9bef325]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/services/Telecomm]
-Telecomm: Allow choosing a custom vibration pattern [2/3] <2 days ago> [f51a0847]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/apps/DerpQuest]
-DerpQuest: Add drill <3 years, 4 months ago> [950164a]
-by: Pranav Vashi (neobuddy89@gmail.com)
-
-
-====================
-     06-07-2020
-====================
-
-[frameworks/base]
-base: Allow choosing a custom vibration pattern [1/3] <2 days ago> [87269d53901]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/apps/Settings]
-Settings: Allow choosing a custom vibration pattern [3/3] <2 days ago> [51c47c991e]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-Settings: Add vibration patterns from OOS [3/3] <2 days ago> [3a70a4b4d8]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-
-====================
-     06-06-2020
-====================
-
-[frameworks/base]
-base: Add vibration patterns from OOS [1/3] <4 months ago> [8f3546070f2]
-by: rituj (ritujbeniwal@gmail.com)
-base: Fix NPE on some devices by checking for null client (#24) <2 days ago> [4b1c9ff291b]
-by: Pierre-Hugues Husson (phh@phh.me)
-base: Add refresh rate setting [1/2] (#23) <3 days ago> [884d0eb7824]
-by: Anushek Prasal (anushekprasal@gmail.com)
-
-[packages/apps/Settings]
-Settings: Use device specific max refresh rate for the switch (#14) <3 days ago> [c387439fce]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/services/Telecomm]
-Telecomm: Add vibration patterns from OOS [2/3] <4 months ago> [98fcc12e]
-by: rituj (ritujbeniwal@gmail.com)
-
-
-====================
-     06-05-2020
-====================
-
-
-====================
-     06-04-2020
-====================
-
-[device/aosip/sepolicy]
-add missing rule for update_engine (#3) <6 hours ago> [79856b4]
-by: Murtaza@Piplod (murtaza1926@gmail.com)
-
-[frameworks/base]
-SystemUI: Use AOSP bluetooth icon when showing battery level <12 days ago> [8a9985cb50b]
-by: Kshitij Gupta (kshitijgm@gmail.com)
-SystemUI: update Bluetooth battery level assets. <8 months ago> [5b0bf9c2b61]
-by: Hernán Castañón Álvarez (herna@paranoidandroid.co)
-[SQUASH]Bring back notch-city after r38 <17 hours ago> [c491bf95375]
-by: AgentFabulous (kshitijgm@gmail.com)
-
-[packages/apps/Settings]
-Settings: Update RU translation (#12) <2 days ago> [1700e6a14e]
-by: Northn (57762732+Northn@users.noreply.github.com)
-Fix NPE if default supervisor is not defined <3 weeks ago> [13718adba7]
-by: Wang Han (wanghan1995315@gmail.com)
-
-
-====================
-     06-03-2020
-====================
-
-[packages/apps/Contacts]
-AOSP/Contacts - Updated to sdkVersion 29. <8 months ago> [b5a085341]
-by: Raman Tenneti (rtenneti@google.com)
-Contacts: manually configure dark theme for list <2 weeks ago> [bdd121805]
-by: Jesse Chan (jc@lineageos.org)
-Contacts: allow framework to do dark theming automatically <2 weeks ago> [c103b8c50]
-by: Jesse Chan (jc@lineageos.org)
-Contacts: use white nav bar <1 year, 5 months ago> [22871659f]
-by: Joey (joey@lineageos.org)
-Contacts: Remove current dark theme <10 days ago> [2ae1a4850]
-by: Josh Fox (XlxFoXxlX) (joshfox87@gmail.com)
-
-[packages/apps/Messaging]
-Automatic translation import <35 hours ago> [b3d54db]
-by: Akhil Narang (akhilnarang.1999@gmail.com)
-Remove current dark mode <10 days ago> [e29445f]
-by: Josh Fox (XlxFoXxlX) (joshfox87@gmail.com)
-Messaging: disable auto dark theming on message bubble <2 weeks ago> [9dc9a0f]
-by: Jesse Chan (jc@lineageos.org)
-Messaging: allow framework to do dark theming automatically <2 weeks ago> [20c18da]
-by: Jesse Chan (jc@lineageos.org)
-
-[packages/apps/PixelLiveWallpaper]
-Update from QQ3A.200605.001 <2 days ago> [838cd34]
-by: jhenrique09 (jhenrique09.mcz@hotmail.com)
-
-[vendor/gapps]
-gapps: Remove SoundPickerPrebuilt <29 hours ago> [40d22a5]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[vendor/pixelstyle]
-pixelstyle: Add SoundPickerPrebuilt (#5) <29 hours ago> [02af792]
-by: Aman Kumar Singh (46120388+amanrajOO7@users.noreply.github.com)
-
-
-====================
-     06-02-2020
-====================
-
-[art]
-Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <3 days ago> [362a3be56c]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[bootable/recovery]
-Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <3 days ago> [b035f2fb]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[development]
-Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <3 days ago> [f8b9246c3]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[manifest]
-Merge remote-tracking branch 'aosp/android-10.0.0_r38' into ten <3 days ago> [747b171]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-Manifest for Android 10.0.0 Release 38 (QQ3A.200605.002) <3 days ago> [887567f]
-by: The Android Open Source Project (initial-contribution@android.com)
-Manifest for Android 10.0.0 Release 37 (QQ3A.200605.001) <3 days ago> [fea4547]
-by: The Android Open Source Project (initial-contribution@android.com)
-Manifest for android10-qpr3-release. <3 days ago> [a3b2879]
-by: The Android Open Source Project (initial-contribution@android.com)
-
-[build/make]
-Merge tag 'android-10.0.0_r38' of https://android.googlesource.com/platform/build into HEAD <3 days ago> [cf1c34589]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[build/soong]
-Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <3 days ago> [21162672]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[frameworks/av]
-Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <3 days ago> [dac19d309]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[frameworks/base]
-SystemUI: Don't forcefully convert wallpaper to SRGB <3 days ago> [24782cc10f7]
-by: Luca Stefani (luca.stefani.ge1@gmail.com)
-Merge tag 'android-10.0.0_r38' into ten <2 days ago> [44dc5a4919d]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-Revert "base: notch-city: Add 3 mode display cutout handler" <2 days ago> [472d9e294c5]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[frameworks/native]
-Merge tag 'android-10.0.0_r38' into ten <3 days ago> [e1aaff457]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-Revert "surfaceflinger: Merge caf changes" <3 days ago> [7ed1e5ba4]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-Revert "SurfaceFlinger: Exclude CAF extensions from non-QC devices" <3 days ago> [7adc5f802]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-Revert "surfaceflinger: Exclude qcom code on unsupported platforms" <3 days ago> [dd5464458]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-Revert "surfaceflinger: Exclude qcom RefreshRateType changes" <3 days ago> [6c18ac595]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[frameworks/opt/net/wifi]
-Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <3 days ago> [0bfcebdcb]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[frameworks/opt/telephony]
-Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <3 days ago> [0c53a4c7b]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[hardware/interfaces]
-Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <3 days ago> [585f12910]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[hardware/nxp/nfc]
-Merge tag 'android-10.0.0_r37' into ten <2 days ago> [8319cb5]
-by: Akhil Narang (me@akhilnarang.dev)
-
-[packages/apps/Bluetooth]
-Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <3 days ago> [22c78260]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/apps/CellBroadcastReceiver]
-Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <3 days ago> [b882329e]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/apps/CertInstaller]
-Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <3 days ago> [13eeae9]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/apps/Contacts]
-Merge tag 'android-10.0.0_r37' into ten <2 days ago> [9150c53c4]
-by: Akhil Narang (me@akhilnarang.dev)
-
-[packages/apps/DocumentsUI]
-Merge tag 'android-10.0.0_r37' into ten <2 days ago> [46cbbb18e]
-by: Akhil Narang (me@akhilnarang.dev)
-
-[packages/apps/Nfc]
-Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <3 days ago> [268bc298]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/apps/PhoneCommon]
-Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <3 days ago> [0da2d9a]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/apps/Settings]
-Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <3 days ago> [3bb80e999f]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/providers/DownloadProvider]
-Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <3 days ago> [28ead7dd]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/services/Telecomm]
-Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <3 days ago> [f0029027]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/services/Telephony]
-Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <3 days ago> [c74f2b075]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[platform_testing]
-Merge tag 'android-10.0.0_r37' into ten <2 days ago> [fa717d1c]
-by: Akhil Narang (me@akhilnarang.dev)
-
-[system/bt]
-Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <3 days ago> [98af46a57]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[system/core]
-Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <3 days ago> [ad679fb54]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[system/sepolicy]
-Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <3 days ago> [680109d0]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[system/vold]
-Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <3 days ago> [425481d]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/apps/OpenDelta]
-Merge remote-tracking branch 'omni/android-10' into HEAD <2 days ago> [55f33c5]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-
-====================
-     06-01-2020
-====================
-
-[packages/apps/DerpQuest]
-DerpQuest: Update Greek translation (#62,#64) <7 days ago> [27bce52]
-by: CrisBalGreece (crisbaladim@yahoo.gr)
-DerpQuest: Make TwoTargetPreference divider slimmer <11 days ago> [57f2660]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-DerpQuest: Allow showing SB ticker for media [2/2] <12 days ago> [bedcab2]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-DerpQuest: Bring back good ol' circle battery style [2/2] <4 months ago> [6c831d1]
-by: Luca Stefani (luca.stefani.ge1@gmail.com)
-
-
-====================
-     05-31-2020
-====================
-
-
-====================
-     05-30-2020
-====================
-
-[manifest]
-manifest: Track Clock, Calendar APPs for VANILLA (#3) <5 days ago> [53c8050]
-by: ALKALiKong (alikongalk@gmail.com)
-
-[build/make]
-build: Add Etar and DeskClock for VANILLA builds (#6) <5 days ago> [456539bee]
-by: ALKALiKong (alikongalk@gmail.com)
-
-[external/e2fsprogs]
-Mark libext2{-headers,_blkid,_uuid} as vendor available <3 months ago> [6bc30a7b]
-by: LuK1337 (priv.luk@gmail.com)
-Ignore -Wno-pointer-sign warnings <7 months ago> [b3b9d81e]
-by: Michael Bestas (mkbestas@lineageos.org)
-resize: Make a target for standalone resize2fs_static binary <2 years, 3 months ago> [4381cd58]
-by: Bruno Martins (bgcngm@gmail.com)
-
-[frameworks/base]
-base: QS: Have a consistent default row value <6 days ago> [d26cba303ca]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/apps/Messaging]
-Import translations. DO NOT MERGE <4 months ago> [1974ee7]
-by: Bill Yi (byi@google.com)
-Rescheduling pending messages after outside window failure <3 weeks ago> [b99b6a1]
-by: Taesu Lee (taesu82.lee@samsung.com)
-Fix NPE on MultiConversationNotificationState <4 weeks ago> [3b32b23]
-by: Taesu Lee (taesu82.lee@samsung.com)
-Hide APN prefs if platform APIs are used <4 weeks ago> [73e0897]
-by: Taesu Lee (taesu82.lee@samsung.com)
-Use ic_add_white for consistency instead <4 weeks ago> [518f57c]
-by: Taesu Lee (taesu82.lee@samsung.com)
-Fix to show APN prefs correctly <4 weeks ago> [efada60]
-by: Taesu Lee (taesu82.lee@samsung.com)
-Fix NPE <5 weeks ago> [800e0ee]
-by: Taesu Lee (taesu82.lee@samsung.com)
-Handle delivered messages as completed messages <6 weeks ago> [8e58132]
-by: Taesu Lee (taesu82.lee@samsung.com)
-
-[vendor/prebuilts]
-prebuilts: Add firefox-lite and remove outdated things (#2) <5 days ago> [c86f3ac]
-by: ALKALiKong (alikongalk@gmail.com)
-
-
-====================
-     05-29-2020
-====================
-
-[packages/apps/Matlog]
-MatLog: cleanup unused resources and prepare for translate <7 days ago> [550dfb2]
-by: maxwen (max.weninger@gmail.com)
-
-[packages/apps/DerpQuest]
-DerpQuest: Update RU translation (#59,#60,#61,#63) <2 weeks ago> [429a9d2]
-by: Northn (57762732+Northn@users.noreply.github.com)
-ColorPicker: Enable the reset button when setting a default at runtime <2 weeks ago> [d827614]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-DerpQuest: Allow choosing a custom color for pressed FOD [2/2] <2 weeks ago> [6733790]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-DerpQuest: Disable SELinux switch if unrooted <2 weeks ago> [9e42f8e]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-Utils: Add root check function <2 weeks ago> [9c66038]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/apps/OpenDelta]
-OpenDelta: cleanup mk file <6 days ago> [5abe485]
-by: maxwen (max.weninger@gmail.com)
-
-
+- Merged July security patch (r40)
+- Reworked expanded volume dialog (fixes many bugs with it)
+- Lowered fullscreen gesture trigger area
+- Fixed fullscreen pill showing on landscape for some back heights
+- Fixed a FC for new FOD implementation (irrelevant for this device)
+- Fixed screen stabilization QS tile
+- Added StatusBar notification counters
+- Added USB tethering QS tile
+- Added log QS tile
+- Added EvolveSans & Linotte system fonts
+- Added MatLog QS tile
+- Added Bootlegger's AOSP screen recorder (& improved UI)
+- Removed Omni & OOS Screen recorders
+- Removed internal recording restrictions for 3rd party apps
+- Removed useless / non working system fonts
+- Updated GApps
+- Randomize DerpQuest summary with funny strings
+- Reworked blink flashlight on call, again. This time I'm done, Promise 
+- Fixed reboot for APEX update
+- Added derp blue theme
+- Added FOD extensions support (irrelevent for this device)
+- Added arrow keys on navbar while typing
+- Added StatusBar VoWiFi icon (& a switch)
+- Update & Apply custom carrier label position correctly
+- Fixed inactive WiFi icon in some icon packs
+- Fixed the double navbar switch issues (for hw buttons devices)
+- Minor fix for the new OpenDelta UI
+- Disable "R style" notification headers by default
+- Wake on charge regardless of AoD settings
+- Updates to translations
+- Some more minor derps/bugs fixes
