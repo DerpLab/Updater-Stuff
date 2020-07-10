@@ -1,0 +1,51 @@
+######################
+## DEVICE CHANGELOG ##
+######################
+
+- Enable libpermgr
+- Switch to EAS kernel
+- Merge 'LA.UM.8.2.r2-02100-sdm660.0' caf tag into to the kernel
+- Kernel upstream to linux verison 4.4.230
+- Enable PELT_UTIL_HALFLIFE_16
+- Fix mobile data activation delay
+- Added Mi cam
+- Wireguard upstreams
+- Update FCM level to 3
+- Fixed ViLTE issues for some carriers
+- Many forgotten changes
+
+######################
+##  ROM  CHANGELOG  ##
+######################
+
+- Merged July security patch (r40)
+- Reworked expanded volume dialog (fixes many bugs with it)
+- Lowered fullscreen gesture trigger area
+- Fixed fullscreen pill showing on landscape for some back heights
+- Fixed a FC for new FOD implementation (irrelevant for this device)
+- Fixed screen stabilization QS tile
+- Added StatusBar notification counters
+- Added USB tethering QS tile
+- Added log QS tile
+- Added EvolveSans & Linotte system fonts
+- Added MatLog QS tile
+- Added Bootlegger's AOSP screen recorder (& improved UI)
+- Removed Omni & OOS Screen recorders
+- Removed internal recording restrictions for 3rd party apps
+- Removed useless / non working system fonts
+- Updated GApps
+- Randomize DerpQuest summary with funny strings
+- Reworked blink flashlight on call, again. This time I'm done, Promise
+- Fixed reboot for APEX update
+- Added derp blue theme
+- Added FOD extensions support (irrelevent for this device)
+- Added arrow keys on navbar while typing
+- Added StatusBar VoWiFi icon (& a switch)
+- Update & Apply custom carrier label position correctly
+- Fixed inactive WiFi icon in some icon packs
+- Fixed the double navbar switch issues (for hw buttons devices)
+- Minor fix for the new OpenDelta UI
+- Disable "R style" notification headers by default
+- Wake on charge regardless of AoD settings
+- Updates to translations
+- Some more minor derps/bugs fixes
