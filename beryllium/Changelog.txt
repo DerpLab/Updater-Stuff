@@ -1,17 +1,8 @@
-- Updated FireFox Lite
-- Updated Kernel to MiPa 9.3
-- Nuked ZRAM Parameters
-- Added USB Tethering Tile
-- Removed Non Working System Fonts
-- Updated GApps
-- Updated Translations
-- Reworked Expanded Volume Dialogue
-- Lowered Full Screen Gesture Trigger Area
-- Fixed Full Screen Gesture Pill Showing on Landscape Mode
-- Fixed Screen Stabilization QS Tile
-- Nuked OnePlus Screen Recorder
-- Nuked OmniRecord
-- Added Bootleggers Screen Recorder
+- Updated QP Gallery
+- Merged July Security Patch
+- Added Evolve Sans Font
+- Added Linotte Font
 - Improved UI of Screen Recorder
-- Added StatusBar Notification Counters
-- Some Minor Derp & Big Fixes
+- Disabled ZRAM - Enabled ZSWAP/VNSWAP
+- Merged Linux Tag 4.9.230 in Kernel
+- Merged CAF tag 'LA.UM.8.3.r1-08100-sdm845.0' in Kernel
