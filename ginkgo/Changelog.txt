@@ -1,469 +1,175 @@
 ====================
-     05-17-2020
+     07-11-2020
 ====================
-
-[manifest]
-manifest: track sm8150 HALs from LOS <22 hours ago> [7d900be]
-by: Ido Ben-Hur (idoybh2@gmail.com)
 
 [frameworks/base]
-SystemUI: Update RU translation (#18) <7 hours ago> [b81905697c8]
-by: RunningMango (36758157+RunningMango@users.noreply.github.com)
+Revert "base: SystemUI: add separate config for pulse brightness [1/2]" <24 hours ago> [903ce8e905d]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[packages/apps/DerpQuest]
+DerpQuest: Remove custom doze brightness settings <24 hours ago> [40020a5]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+
+====================
+     07-10-2020
+====================
+
+[frameworks/base]
+FODCircleView: Update FOD icon position on DreamingStateChanged <6 weeks ago> [7b62b4f26a8]
+by: Ashwin R C (ashwin2001achu@gmail.com)
+
+[packages/apps/Contacts]
+Contacts: Make the launch screen follow the system theme <4 weeks ago> [9c66735e0]
+by: Scott Warner (Tortel1210@gmail.com)
 
 [scripts]
-Merge pull request #1 from gotenksIN/patch-2 <9 hours ago> [90d5c7a]
-by: Alexander Brunswig (mralexman3000@gmail.com)
-updater: fix typos in comments <13 hours ago> [04a6513]
-by: Omkar Chandorkar (forumomkar@gmail.com)
-scripts: updater: Rewrite <16 hours ago> [07ec58a]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-scripts: Introduce updater <18 hours ago> [703527a]
-by: RunningMango (nik.volosatyh@gmail.com)
-
-[device/xiaomi/ginkgo]
-ginkgo: boardconfig: Use Proton clang <2 hours ago> [34abdcc]
-by: Rodrigo Martínez (rear097@gmail.com)
-ginkgo: boardconfig: Don't use Artemis kernel for now <2 hours ago> [d839afe]
-by: Rodrigo Martínez (rear097@gmail.com)
-ginkgo: added prebuilt pixel-charger <5 weeks ago> [59a542f]
-by: Aoihara (veronicadisa6@gmail.com)
-Revert "ginkgo: Update thermal engine from laurel_sprout" <31 hours ago> [536e89f]
-by: celtare21 (celtare21@gmail.com)
-ginkgo: Update ramdisk <28 hours ago> [61da7c9]
-by: celtare21 (celtare21@gmail.com)
-ginkgo: Only track ANX camera from trinket-devs repo <4 hours ago> [dee1726]
-by: Rodrigo Martínez (rear097@gmail.com)
-ginkgo: anx: Track correct repo <5 hours ago> [aa35b1a]
-by: Rodrigo Martínez (rear097@gmail.com)
-ginkgo: Go Enforcing again <12 hours ago> [8c6a9bc]
-by: Rodrigo Martínez (rear097@gmail.com)
-ginkgo: overlay: Define status_bar_extra_padding <13 hours ago> [b303b3e]
-by: Rodrigo Martínez (rear097@gmail.com)
-DerpFest: Fix more typo <13 hours ago> [ece85d9]
-by: Rodrigo Martínez (rear097@gmail.com)
-DerpFest: Fix typo <14 hours ago> [e8cdd86]
-by: Rodrigo Martínez (rear097@gmail.com)
-DerpFest: Add maintainer string <15 hours ago> [ec8d445]
-by: Rodrigo Martínez (rear097@gmail.com)
-ginkgo: Use prebuilt ANX camera <18 hours ago> [1bcd4ed]
-by: Rodrigo Martínez (rear097@gmail.com)
-ginkgo: We are DerpFest official <22 hours ago> [05c4b0f]
-by: Rodrigo Martínez (rear097@gmail.com)
-
-[vendor/xiaomi/ginkgo]
-Revert "ginkgo: Update thermal engine from laurel_sprout" <31 hours ago> [b9472f2]
-by: celtare21 (celtare21@gmail.com)
-
-
-====================
-     05-16-2020
-====================
-
-[packages/apps/DerpQuest]
-DerpQuest: Update Chinese translations (#58) <2 days ago> [7312da7]
-by: ALKALiKong (54100342+ALKALiKong233@users.noreply.github.com)
-
-
-====================
-     05-15-2020
-====================
-
-[vendor/overlay]
-overlays: Add hide pill in full gestural nav mode overlays (#8) <2 days ago> [8105c65]
-by: Aman Kumar Singh (46120388+amanrajOO7@users.noreply.github.com)
-
-[packages/apps/DerpQuest]
-DerpQuest: Improve two target preference divider visability <2 days ago> [bfff581]
+scripts: updater: Offer to direct link for OpenDelta <26 hours ago> [5cca7d4]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 
-[device/xiaomi/ginkgo]
-ginkgo: Update build fingerprint from Coral's May update <2 days ago> [2903488]
-by: Rodrigo Martínez (rear097@gmail.com)
-BoardConfig: Fix build errors <3 days ago> [5e0e315]
-by: Rodrigo Martínez (rear097@gmail.com)
-ginkgo: DerpFest-ify <3 days ago> [16bfa56]
-by: Rodrigo Martinez (rear097@gmail.com)
-
-[kernel/xiaomi/ginkgo]
-Merge branch 'kernel.lnx.4.14.r4-rel' android-linux-stable/msm-4.14 into 10.0 <2 days ago> [d0cd3899ae93]
-by: Mrinal Ghosh (mg712702@gmail.com)
-simple_lmk: Consider all positive adjs when finding victims <3 days ago> [76c585c578ce]
-by: Sultan Alsawaf (sultan@kerneltoast.com)
-fs: drop_caches: expose mm_drop_caches() <1 year, 2 months ago> [ab62cf032f8d]
-by: Park Ju Hyung (qkrwngud825@gmail.com)
-cpuidle: Do not select menu and ladder governors <3 years, 4 months ago> [a6497c44ece4]
-by: Maulik Shah (mkshah@codeaurora.org)
-mm: compaction: avoid 100% CPU usage during compaction when a task is killed <10 months ago> [00a7ba9091ea]
-by: Mel Gorman (mgorman@techsingularity.net)
-drm/msm: minimize qos remap updates <7 months ago> [13f2ea787ac9]
-by: Adrian Salido (salidoa@google.com)
-fs: f2fs: switch to pr_info loggers <2 weeks ago> [251684f02051]
-by: Yaroslav Furman (yaro330@gmail.com)
-f2fs: use a seperate mutex for setting wakelock <9 months ago> [a1fa13f8cea4]
-by: Park Ju Hyung (qkrwngud825@gmail.com)
-f2fs: trigger rapid GC only when screen state actually changes <9 months ago> [f252d802c1e8]
-by: Park Ju Hyung (qkrwngud825@gmail.com)
-f2fs: unlock wakelock properly when f2fs_stop_rapid_gc() is called <9 months ago> [e57b1fe8fb82]
-by: Park Ju Hyung (qkrwngud825@gmail.com)
-f2fs: catch a global wakelock instead of per gc_kthread <9 months ago> [8796cdccb20b]
-by: Park Ju Hyung (qkrwngud825@gmail.com)
-f2fs: improve naming schemes for rapid GC <9 months ago> [6f67feb513d2]
-by: Park Ju Hyung (qkrwngud825@gmail.com)
-f2fs: mark gc_threads() functions as static <9 months ago> [72df4a46d2be]
-by: Park Ju Hyung (qkrwngud825@gmail.com)
-f2fs: don't wait with each discards under gc_urgent <1 year ago> [b04ff6260df1]
-by: Park Ju Hyung (qkrwngud825@gmail.com)
-f2fs: use a more reasonable discard policy for high utilization <1 year ago> [430410954d05]
-by: Park Ju Hyung (qkrwngud825@gmail.com)
-f2fs: reduce timeout for uncongestion on f2fs_write_cache_pages() <1 year ago> [61ef58031faa]
-by: Park Ju Hyung (qkrwngud825@gmail.com)
-f2fs: rename /sys/fs/f2fs <1 year, 2 months ago> [59b2ca26a37c]
-by: Park Ju Hyung (qkrwngud825@gmail.com)
-f2fs: do not expose tunables that doesn't work with rapid GC <1 year, 2 months ago> [7ffe5cada57d]
-by: Park Ju Hyung (qkrwngud825@gmail.com)
-f2fs: drop caches upon rapid GC exit <1 year, 2 months ago> [751bbffb0670]
-by: Park Ju Hyung (qkrwngud825@gmail.com)
-f2fs: explicitly flush device upon foreground GC <1 year, 2 months ago> [a192a8d6b193]
-by: Park Ju Hyung (qkrwngud825@gmail.com)
-f2fs/rapid_gc: Clean up return codes <1 year, 2 months ago> [5e781e4e51d6]
-by: Artem Labazov (123321artyom@gmail.com)
-f2fs/rapid_gc: do not wait until all invalid blocks are discarded <1 year, 3 months ago> [652faf61f114]
-by: Park Ju Hyung (qkrwngud825@gmail.com)
-f2fs: switch FB notifier API to MSM DRM notifier <1 year, 4 months ago> [b530103380a7]
-by: Park Ju Hyung (qkrwngud825@gmail.com)
-f2fs: convert wakelock APIs to wakeup_source <1 year, 4 months ago> [32f47b89be7d]
-by: Park Ju Hyung (qkrwngud825@gmail.com)
-f2fs: implement rapid GC for Android <1 year, 4 months ago> [cadc03ca4ef5]
-by: Park Ju Hyung (qkrwngud825@gmail.com)
-ginkgo: Use the new CPU Idle Gov <6 months ago> [b854015aa664]
-by: PrimoDev23 (lexx.ps2711@gmail.com)
-cpuidle: Drop unnecessary type cast in cpuidle_poll_time() <5 months ago> [6679e63d44f8]
-by: Rafael J. Wysocki (rafael.j.wysocki@intel.com)
-cpuidle: use first valid target residency as poll time <5 months ago> [724815fecce5]
-by: Marcelo Tosatti (mtosatti@redhat.com)
-cpuidle: teo: Avoid code duplication in conditionals <6 months ago> [c6744317b8a5]
-by: Rafael J. Wysocki (rafael.j.wysocki@intel.com)
-cpuidle: teo: Avoid using "early hits" incorrectly <6 months ago> [2d14f2f0c0c7]
-by: Rafael J. Wysocki (rafael.j.wysocki@intel.com)
-cpuidle: teo: Exclude cpuidle overhead from computations <6 months ago> [db357a2e42ae]
-by: Rafael J. Wysocki (rafael.j.wysocki@intel.com)
-cpuidle: Use nanoseconds as the unit of time <6 months ago> [7278b4a8611b]
-by: Rafael J. Wysocki (rafael.j.wysocki@intel.com)
-cpuidle: menu: Allow tick to be stopped if PM QoS is used <10 months ago> [0317d3b961fe]
-by: Rafael J. Wysocki (rafael.j.wysocki@intel.com)
-cpuidle: menu: Avoid overflows when computing variance <1 year, 3 months ago> [a95b6a7ea10d]
-by: Rafael J. Wysocki (rafael.j.wysocki@intel.com)
-cpuidle: menu: Remove get_loadavg() from the performance multiplier <1 year, 7 months ago> [69d8d632e053]
-by: Daniel Lezcano (daniel.lezcano@linaro.org)
-cpuidle: menu: Avoid computations when result will be discarded <1 year, 7 months ago> [60eefca50c6c]
-by: Rafael J. Wysocki (rafael.j.wysocki@intel.com)
-cpuidle: menu: Drop redundant comparison <1 year, 7 months ago> [c706d2e73ca9]
-by: Rafael J. Wysocki (rafael.j.wysocki@intel.com)
-cpuidle: menu: Do not update last_state_idx in menu_select() <1 year, 7 months ago> [3ba616c57fb9]
-by: Rafael J. Wysocki (rafael.j.wysocki@intel.com)
-cpuidle: menu: Compute first_idx when latency_req is known <1 year, 7 months ago> [f49d166fda3e]
-by: Rafael J. Wysocki (rafael.j.wysocki@intel.com)
-cpuidle: menu: Update stale polling override comment <1 year, 9 months ago> [14c919429e1f]
-by: Rafael J. Wysocki (rafael.j.wysocki@intel.com)
-cpuidle: Consolidate disabled state checks <7 months ago> [d641d31fc338]
-by: Rafael J. Wysocki (rafael.j.wysocki@intel.com)
-cpuidle: menu: Fix white space <1 year, 9 months ago> [bdb273e3dfc6]
-by: Rafael J. Wysocki (rafael.j.wysocki@intel.com)
-cpuidle: menu: Simplify checks related to the polling state <1 year, 7 months ago> [5d9396c367dd]
-by: Rafael J. Wysocki (rafael.j.wysocki@intel.com)
-cpuidle: menu: Get rid of first_idx from menu_select() <1 year, 7 months ago> [ea08ae9fe16f]
-by: Rafael J. Wysocki (rafael.j.wysocki@intel.com)
-cpuidle: menu: Replace data->predicted_us with local variable <1 year, 8 months ago> [be89a487f94f]
-by: Rafael J. Wysocki (rafael.j.wysocki@intel.com)
-cpuidle: menu: Retain tick when shallow state is selected <1 year, 9 months ago> [69b1f68b60fc]
-by: Rafael J. Wysocki (rafael.j.wysocki@intel.com)
-cpuidle: menu: Handle stopped tick more aggressively <1 year, 9 months ago> [944aab8a839a]
-by: Rafael J. Wysocki (rafael.j.wysocki@intel.com)
-cpuidle: menu: Move the latency_req == 0 special case check <1 year, 7 months ago> [dd662eafdddd]
-by: Rafael J. Wysocki (rafael.j.wysocki@intel.com)
-cpuidle: menu: Avoid computations for very close timers <1 year, 7 months ago> [d0cdde01d746]
-by: Rafael J. Wysocki (rafael.j.wysocki@intel.com)
-cpuidle: teo: Fix "early hits" handling for disabled idle states <7 months ago> [361060eac237]
-by: Rafael J. Wysocki (rafael.j.wysocki@intel.com)
-cpuidle: teo: Consider hits and misses metrics of disabled states <7 months ago> [ab222d3b77db]
-by: Rafael J. Wysocki (rafael.j.wysocki@intel.com)
-cpuidle: teo: Rename local variable in teo_select() <7 months ago> [36911f23c210]
-by: Rafael J. Wysocki (rafael.j.wysocki@intel.com)
-cpuidle: teo: Ignore disabled idle states that are too deep <7 months ago> [ab0ff2edb52c]
-by: Rafael J. Wysocki (rafael.j.wysocki@intel.com)
-cpuidle: teo: Get rid of redundant check in teo_update() <10 months ago> [7fc6d26b1196]
-by: Rafael J. Wysocki (rafael.j.wysocki@intel.com)
-cpuidle: teo: Allow tick to be stopped if PM QoS is used <10 months ago> [6171a03fe66d]
-by: Rafael J. Wysocki (rafael.j.wysocki@intel.com)
-governors: unify last_state_idx <11 months ago> [1dd708b7a8af]
-by: Marcelo Tosatti (mtosatti@redhat.com)
-cpuidle: New timer events oriented governor for tickless systems <1 year, 4 months ago> [27f29f79e296]
-by: Rafael J. Wysocki (rafael.j.wysocki@intel.com)
-cpuidle: Avoid NULL argument in cpuidle_switch_governor() <2 years, 4 months ago> [a9cf2872a71b]
-by: gaurav jindal (gauravjindal1104@gmail.com)
-cpuidle: Remove unnecessary wrapper cpuidle_get_last_residency() <1 year, 8 months ago> [ec648b7c0857]
-by: Fieah Lim (kw@fieahl.im)
-cpuidle: Export the next timer expiration for CPUs <1 year, 2 months ago> [ab83a779af1c]
-by: Ulf Hansson (ulf.hansson@linaro.org)
-cpuidle: Avoid assignment in if () argument <2 years, 9 months ago> [eb478551c894]
-by: Gaurav Jindal (gauravjindal1104@gmail.com)
-cpuidle: Clean up cpuidle_enable_device() error handling a bit <2 years, 9 months ago> [efe8982e6bd2]
-by: Gaurav Jindal (gauravjindal1104@gmail.com)
-cpuidle: add poll_limit_ns to cpuidle_device structure <11 months ago> [f227583aab77]
-by: Marcelo Tosatti (mtosatti@redhat.com)
-cpuidle: poll_state: Fix default time limit <1 year, 4 months ago> [b53c9c2f6cf7]
-by: Doug Smythies (doug.smythies@gmail.com)
-cpuidle: poll_state: Disregard disable idle states <1 year, 5 months ago> [e456229bb384]
-by: Rafael J. Wysocki (rafael.j.wysocki@intel.com)
-cpuidle: poll_state: Revise loop termination condition <1 year, 7 months ago> [b76426e78d5d]
-by: Rafael J. Wysocki (rafael.j.wysocki@intel.com)
-cpuidle: menu: Fix wakeup statistics updates for polling state <1 year, 7 months ago> [245b57b9f6d5]
-by: Rafael J. Wysocki (rafael.j.wysocki@intel.com)
-cpuidle: poll_state: Avoid invoking local_clock() too often <2 years, 2 months ago> [1d74e7fc155a]
-by: Rafael J. Wysocki (rafael.j.wysocki@intel.com)
-cpuidle: poll_state: Add time limit to poll_idle() <2 years, 2 months ago> [cac0193a4034]
-by: Rafael J. Wysocki (rafael.j.wysocki@intel.com)
-cpuidle: governors: Consolidate PM QoS handling <2 years ago> [003db8649084]
-by: Rafael J. Wysocki (rafael.j.wysocki@intel.com)
-cpuidle: Add 'above' and 'below' idle state metrics <1 year, 5 months ago> [9454db706af1]
-by: Rafael J. Wysocki (rafael.j.wysocki@intel.com)
-PM: cpuidle/suspend: Add s2idle usage and time state attributes <2 years, 2 months ago> [d0dcb76659d0]
-by: Rafael J. Wysocki (rafael.j.wysocki@intel.com)
-Documentation/ABI: update cpuidle sysfs documentation <2 years, 3 months ago> [766fb728db2a]
-by: Aishwarya Pant (aishpant@gmail.com)
-cpuidle: governor: Add new governors to cpuidle_governors again <1 year, 2 months ago> [0e0ad213c58a]
-by: Rafael J. Wysocki (rafael.j.wysocki@intel.com)
-cpuidle: Add cpuidle.governor= command line parameter <1 year, 5 months ago> [44ab1001f163]
-by: Rafael J. Wysocki (rafael.j.wysocki@intel.com)
-Documentation: admin-guide: PM: Add cpuidle document <1 year, 6 months ago> [963ea83f8753]
-by: Rafael J. Wysocki (rafael.j.wysocki@intel.com)
-cpuidle: Add definition of residency to sysfs documentation <2 years, 1 month ago> [060d9850403b]
-by: Prakash, Prashanth (pprakash@codeaurora.org)
-cpuidle: Optimize pm_qos notifier callback <12 months ago> [19be78a0daac]
-by: Sultan Alsawaf (sultan@kerneltoast.com)
-cpuidle: enter_state: Don't needlessly calculate diff time <1 year, 8 months ago> [28803044e196]
-by: Fieah Lim (kw@fieahl.im)
-adsprpc: force QoS to silver cores <3 months ago> [0110aa17895b]
-by: Yaroslav Furman (yaro330@gmail.com)
-mm: Boost when memory pressure becomes high <1 year, 2 months ago> [75dc1ff1ab9c]
-by: Sultan Alsawaf (sultan@kerneltoast.com)
-kernel: Boost to the max for when zygote forks <1 year, 2 months ago> [6d4baf44bc0f]
-by: Sultan Alsawaf (sultan@kerneltoast.com)
-ginkgo: Enable devfreq boost <7 days ago> [423b0899cc5f]
-by: Adithya R (radithya2002@gmail.com)
-devfreq_boost: Don't boost on input events <7 days ago> [a45fad585fea]
-by: idkwhoiam322 (idkwhoiam322@raphielgang.org)
-devfreq: Fix DDR node name for trinket <7 days ago> [6e077d886008]
-by: Adithya R (radithya2002@gmail.com)
-devbw: Correctly set DDR node <10 months ago> [bd5fb0de5e55]
-by: Panchajanya1999 (rsk52959@gmail.com)
-devfreq_boost: Mark boost kthreads as performance critical <6 months ago> [587f17aae92f]
-by: Sultan Alsawaf (sultan@kerneltoast.com)
-devfreq_boost: convert to drm screen state notifier <10 months ago> [e03db5ba8e98]
-by: Yaroslav Furman (yaro330@gmail.com)
-devfreq_boost: Introduce devfreq boost driver <1 year, 1 month ago> [5f4077010694]
-by: Sultan Alsawaf (sultan@kerneltoast.com)
-ginkgo: Enable cpu input boost <7 days ago> [61af47f18775]
-by: Adithya R (radithya2002@gmail.com)
-cpu_input_boost: Don't boost on input event <6 days ago> [1b9f1fc641e9]
-by: Adithya R (radithya2002@gmail.com)
-cpu_input_boost: Mark boost kthread as performance critical <1 year, 2 months ago> [9ee96f2d0466]
-by: Sultan Alsawaf (sultan@kerneltoast.com)
-cpu_input_boost: add support for boost freqs lower than min freq <11 months ago> [0425b1e541ff]
-by: Yaroslav Furman (yaro330@gmail.com)
-cpu_input_boost: Introduce driver for event-based CPU boosting <1 year, 1 month ago> [042e2b6ce651]
-by: Sultan Alsawaf (sultan@kerneltoast.com)
-cpufreq: Drop current cpu_input_boost implementation <7 days ago> [9b96eea84d88]
-by: Adithya R (radithya2002@gmail.com)
-vdso32: Invoke clang with correct path to GCC toolchain <1 year, 3 months ago> [677881eb2ff6]
-by: Daniel Mentz (danielmentz@google.com)
-ginkgo: Set big/little CPU masks <2 weeks ago> [5db13550d7b7]
-by: celtare21 (celtare21@gmail.com)
-cpumask: Add cpumasks for big and LITTLE CPU clusters <1 year, 1 month ago> [213e5fafb63d]
-by: Sultan Alsawaf (sultan@kerneltoast.com)
-ginkgo: Enable {CPUSETS/STUNE}_ASSIST <2 weeks ago> [bcb169a635d4]
-by: celtare21 (celtare21@gmail.com)
-exec: Add node tampering blacklist function <10 months ago> [e121001f07f5]
-by: Danny Lin (danny@kdrag0n.dev)
-sched: tune: Tune stune values <2 weeks ago> [fd630b8d608a]
-by: celtare21 (celtare21@gmail.com)
-kernel: Set cpusets for sd665 <2 weeks ago> [33ebb9e3989f]
-by: celtare21 (celtare21@gmail.com)
-kernel: introduce CPUSets Assist <11 months ago> [97730ad2a742]
-by: Yaroslav Furman (yaro330@gmail.com)
-sched/tune: Refactor SchedTune Assist code <10 months ago> [b55635266594]
-by: Danny Lin (danny@kdrag0n.dev)
-sched/tune: Introduce SchedTune Assist[v3] <1 year ago> [7afb37d814b0]
-by: Yaroslav Furman (yaro330@gmail.com)
-drivers: Set performance critical threads and IRQs <2 weeks ago> [ac86c9b14299]
-by: celtare21 (celtare21@gmail.com)
-kernel: irq: add more backup pathways for perf critical IRQs <6 weeks ago> [0c13fffff931]
-by: Yaroslav Furman (yaro330@gmail.com)
-kernel: irq: properly disallow userspace from changing IRQs affinity <6 weeks ago> [c1b97c2620cf]
-by: Yaroslav Furman (yaro330@gmail.com)
-kernel: irq: manage: use a different way of affining perf IRQs <6 weeks ago> [822410588299]
-by: Yaroslav Furman (yaro330@gmail.com)
-kernel: Add API to mark IRQs and kthreads as performance critical <12 months ago> [04a36cf53d16]
-by: Sultan Alsawaf (sultan@kerneltoast.com)
-ginkgo: Enable COMPAT_VDSO <2 weeks ago> [71a4266d76ec]
-by: celtare21 (celtare21@gmail.com)
-FROMLIST: arm64: Build vDSO with -ffixed-x18 <1 year, 6 months ago> [cdeb7c6200cb]
-by: Peter Collingbourne (pcc@google.com)
-ANDROID: arm64: vdso32: fix CC=clang build <2 years, 4 months ago> [3c916c70fa45]
-by: Mark Salyzyn (salyzyn@google.com)
-FROMLIST: arm64: vdso32: Use full path to Clang instead of relying on PATH <2 years ago> [9e4e04f95b6e]
-by: Nathan Chancellor (natechancellor@gmail.com)
-ANDROID: turn on VCT access from 32-bit applications <2 years, 4 months ago> [553a720696d8]
-by: Mark Salyzyn (salyzyn@google.com)
-ANDROID: clock_gettime(CLOCK_BOOTTIME,) slows down >20x <2 years, 4 months ago> [090a5d3fa4c0]
-by: Mark Salyzyn (salyzyn@google.com)
-ANDROID: CROSS_COMPILE_ARM32 must work if CONFIG_COMPAT_VDSO <3 years, 2 months ago> [ed4860455141]
-by: Mark Salyzyn (salyzyn@google.com)
-FROMLIST: BACKPORT: [PATCH 6/6] arm64: Wire up and expose the new compat vDSO <4 years ago> [bf1edcfff7c9]
-by: Kevin Brodsky (kevin.brodsky@arm.com)
-FROMLIST: [PATCH 5/6] arm64: compat: 32-bit vDSO setup <3 years, 8 months ago> [3fd1483f0f8c]
-by: Kevin Brodsky (kevin.brodsky@arm.com)
-FROMLIST: [PATCH 4/6] arm64: compat: Add a 32-bit vDSO <4 years ago> [b244460484ed]
-by: Kevin Brodsky (kevin.brodsky@arm.com)
-FROMLIST: BACKPORT: [PATCH 3/6] arm64: Refactor vDSO init/setup <4 years ago> [57aa07a208a5]
-by: Kevin Brodsky (kevin.brodsky@arm.com)
-FROMLIST: [PATCH 2/6] arm64: elf: Set AT_SYSINFO_EHDR in compat processes <4 years ago> [43b9f2581b47]
-by: Kevin Brodsky (kevin.brodsky@arm.com)
-FROMLIST: [PATCH 1/6] arm64: compat: Use vDSO sigreturn trampolines if available <4 years ago> [f8ea928929cd]
-by: Kevin Brodsky (kevin.brodsky@arm.com)
-FROMLIST: lib: vdso: add support for time <2 years, 7 months ago> [efd7b4cd133e]
-by: Mark Salyzyn (salyzyn@google.com)
-FROMLIST: [PATCH] arm64: compat: Expose offset to registers in sigframes <4 years ago> [6d79aab43dd3]
-by: Kevin Brodsky (kevin.brodsky@arm.com)
-FROMLIST: [PATCH v5 12/12] lib: vdso: do not expose gettimeofday, if no arch supported timer <2 years, 7 months ago> [e1e1f1b86aad]
-by: Mark Salyzyn (salyzyn@google.com)
-FROMLIST: [PATCH v5 11/12] lib: vdso: Add support for CLOCK_BOOTTIME <2 years, 9 months ago> [2edca60205f8]
-by: Mark Salyzyn (salyzyn@google.com)
-FROMLIST: [PATCH v5 10/12] arm64: vdso: replace gettimeofday.S with global vgettimeofday.C <2 years, 9 months ago> [ef86ba005ad1]
-by: Mark Salyzyn (salyzyn@google.com)
-FROMLIST: [PATCH v5 09/12] arm: vdso: move vgettimeofday.c to lib/vdso/ <2 years, 7 months ago> [44a5df49fb32]
-by: Mark Salyzyn (salyzyn@google.com)
-FROMLIST: [PATCH v5 08/12] arm: vdso: Add ARCH_CLOCK_FIXED_MASK <2 years, 9 months ago> [f0a2314fdfeb]
-by: Mark Salyzyn (salyzyn@google.com)
-FROMLIST: [PATCH v5 07/12] arm: vdso: disable profiling <2 years, 7 months ago> [692bb861400b]
-by: Mark Salyzyn (salyzyn@google.com)
-FROMLIST: [PATCH v5 06/12] arm: vdso: add support for clock_getres <2 years, 9 months ago> [77cedea1cde0]
-by: Mark Salyzyn (salyzyn@google.com)
-FROMLIST: [PATCH v6 05/12] arm: vdso: Add support for CLOCK_MONOTONIC_RAW <2 years, 9 months ago> [0ceb6d30c66c]
-by: Mark Salyzyn (salyzyn@google.com)
-FROMLIST: [PATCH v5 04/12] arm: vdso: do calculations outside reader loops <2 years, 9 months ago> [6083999db5de]
-by: Mark Salyzyn (salyzyn@google.com)
-FROMLIST: [PATCH v5 03/12] arm: vdso: inline assembler operations to compiler.h <2 years, 9 months ago> [d32f2216a927]
-by: Mark Salyzyn (salyzyn@google.com)
-FROMLIST: [PATCH v5 02/12] arm: vdso: add include file defining __get_datapage() <2 years, 9 months ago> [3b531c7aae95]
-by: Mark Salyzyn (salyzyn@google.com)
-FROMLIST: [PATCH v5 01/12] arm: vdso: rename vdso_datapage variables <2 years, 9 months ago> [c815708f6938]
-by: Mark Salyzyn (salyzyn@google.com)
-FROMLIST: [PATCH v3 3/3] arm64: compat: Add CONFIG_KUSER_HELPERS <3 years, 6 months ago> [84e597a33e12]
-by: Kevin Brodsky (kevin.brodsky@arm.com)
-FROMLIST: [PATCH v3 2/3] arm64: compat: Split the sigreturn trampolines and kuser helpers (assembler sources) <3 years, 6 months ago> [f31f8b4748dc]
-by: Kevin Brodsky (kevin.brodsky@arm.com)
-FROMLIST: [PATCH v3 1/3] arm64: compat: Split the sigreturn trampolines and kuser helpers (C sources) <3 years, 6 months ago> [b6f5f9d0eaac]
-by: Kevin Brodsky (kevin.brodsky@arm.com)
-Revert "ANDROID: HACK: arm64, LLVMLinux: use -mno-implicit-float" <9 months ago> [2bcf774a3715]
-by: Danny Lin (danny@kdrag0n.dev)
-
-
-====================
-     05-14-2020
-====================
-
-[manifest]
-manifest: track system/bpf from LOS <9 days ago> [2e5630c]
+[vendor/gapps]
+Revert "gapps: Drop overlays" <2 days ago> [62208b8]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 
-[frameworks/opt/telephony]
-When SPN is empty, use PNN in mobile network settings <7 months ago> [4d0a6df31]
-by: Jack Yu (jackyu@google.com)
-
-[vendor/aosip]
-kernel: Allow specifying a custom linker binary <6 weeks ago> [08a72d6]
-by: Luca Stefani (luca.stefani.ge1@gmail.com)
-Revert "kernel: Add option for using LLD as linker" <4 days ago> [1abbf8b]
+[vendor/pixelstyle]
+pixelstyle: Add Linotte font [2/2] <8 days ago> [1501a8f]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+pixelstyle: Add EvolveSans font [2/2] <8 days ago> [460c820]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+pixelstyle: Don't build google specific overlays for VANILLA <8 days ago> [dd02c41]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+[SQUASH] Remove OPScreenRecorder <10 days ago> [eac5390]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 
 
 ====================
-     05-13-2020
-====================
-
-[manifest]
-Track our own google-customization <5 days ago> [be05c92]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/apps/Launcher3]
-Automatic translation import <5 days ago> [aacb1204c]
-by: Akhil Narang (akhilnarang.1999@gmail.com)
-
-[device/xiaomi/ginkgo]
-ginkgo: rootdir: Import task cpu affinity script from RenderBroken <4 days ago> [fc18ac9]
-by: celtare21 (celtare21@gmail.com)
-ginkgo: Update patches <6 days ago> [581ba2c]
-by: celtare21 (celtare21@gmail.com)
-
-
-====================
-     05-12-2020
+     07-09-2020
 ====================
 
 [packages/apps/Dialer]
-Automatic translation import <5 days ago> [2f5cd72a0]
+Automatic translation import <2 days ago> [ddd6a529f]
 by: Akhil Narang (akhilnarang.1999@gmail.com)
+Dialer: Use a DayNight launch theme <2 weeks ago> [f4b2a5430]
+by: Scott Warner (Tortel1210@gmail.com)
 
 [packages/apps/Messaging]
-Automatic translation import <5 days ago> [fc09fdc]
+Automatic translation import <2 days ago> [42b2e5e]
 by: Akhil Narang (akhilnarang.1999@gmail.com)
+Messaging: Use a DayNight launch theme <2 weeks ago> [f6685e8]
+by: Scott Warner (Tortel1210@gmail.com)
 
 
 ====================
-     05-11-2020
+     07-08-2020
 ====================
 
-[packages/apps/Settings]
-Settings: Update RU translation (#11) <7 days ago> [19bd341ab4]
-by: Northn (57762732+Northn@users.noreply.github.com)
+[frameworks/av]
+Add persist.sys.phh.disable_a2dp_offload property to force a2dp offload <7 weeks ago> [c7fd34fd9]
+by: Pierre-Hugues Husson (phh@phh.me)
 
-[packages/apps/SettingsIntelligence]
-SettingsIntelligence: Add RU translation (#1) <6 days ago> [a217ef8]
-by: Northn (57762732+Northn@users.noreply.github.com)
+[frameworks/base]
+base: QS: Make sure we don't show an empty row <3 days ago> [9fa8f78a0a0]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[system/bt]
+Add persist.sys.phh.disable_a2dp_offload property to force a2dp offload <7 weeks ago> [cd0a289c3]
+by: Pierre-Hugues Husson (phh@phh.me)
+
+[system/core]
+adb: Look for shell executable in alternate places <2 years, 11 months ago> [7bd5bdb2b]
+by: Tom Marshall (tdm.code@gmail.com)
 
 [packages/apps/OpenDelta]
-Merge remote-tracking branch 'omni/android-10' into ten <6 days ago> [0675dd3]
+OpenDelta: Add a null check for info image visibility <3 days ago> [fd77b58]
 by: Ido Ben-Hur (idoybh2@gmail.com)
-Automatic translation import <7 days ago> [d5d967f]
-by: maxwen (max.weninger@gmail.com)
 
-[device/xiaomi/ginkgo]
-ginkgo: Update dependencies <6 days ago> [945aa1b]
-by: celtare21 (celtare21@gmail.com)
-ginkgo: Build JamesDSP <7 days ago> [694287e]
-by: celtare21 (celtare21@gmail.com)
-ginkgo: audio: add effect for JamesDSP <1 year, 6 months ago> [ab5fcac]
-by: Julian Veit (claymore1298@gmail.com)
-ginkgo: overlay: Adjust rounded corners and notch cutout <11 days ago> [5be35d6]
-by: cyberwalkman (firefox883@gmail.com)
-ginkgo: overlay: Use stock brightness configuration <2 weeks ago> [05671dc]
-by: cyberwalkman (firefox883@gmail.com)
-ginkgo: light: Update init <2 weeks ago> [a0b97b3]
-by: cyberwalkman (firefox883@gmail.com)
-ginkgo: light: simplify alpha scaling logic <3 months ago> [3dcdc78]
-by: Demon000 (demonsingur@gmail.com)
-ginkgo: light: avoid resetting state <3 months ago> [22d0e66]
-by: Demon000 (demonsingur@gmail.com)
-ginkgo: light: adjust max lcd brightness <4 months ago> [5560b55]
-by: Demon000 (demonsingur@gmail.com)
-Revert "ginkgo: lights: [HAX] Never use 1 as minimum brightness" <2 weeks ago> [d463057]
-by: cyberwalkman (firefox883@gmail.com)
-ginkgo: Update overlays <7 days ago> [c8216f9]
-by: celtare21 (celtare21@gmail.com)
 
-[kernel/xiaomi/ginkgo]
-Merge 4.14.180 into kernel.lnx.4.14.r4-rel <7 days ago> [a837aa6ddeb4]
-by: Nathan Chancellor (natechancellor@gmail.com)
+====================
+     07-07-2020
+====================
+
+[manifest]
+Merge tag 'android-10.0.0_r40' into ten <5 days ago> [675dc06]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+Manifest for Android 10.0.0 Release 40 <5 days ago> [5383244]
+by: The Android Open Source Project (initial-contribution@android.com)
+
+[build/make]
+Merge tag 'android-10.0.0_r40' into HEAD <5 days ago> [bf43f35c6]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[frameworks/base]
+base: Fix freeform window moving/resizing doesn't work <9 weeks ago> [607c5b2efc6]
+by: utzcoz (utzcoz@gmail.com)
+VolumeDialog: Launch Q expanded volume panel on arrow longpress <2 weeks ago> [06203df745c]
+by: Adhitya Mohan (me@adhityamohan.in)
+
+[frameworks/native]
+Merge tag 'android-10.0.0_r40' into staging/ten-android-10.0.0_r40 <5 days ago> [1f2c99574]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[packages/apps/Matlog]
+Matlog: Add a simple QS tile <9 days ago> [7b01e8a]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[packages/services/Telephony]
+Merge tag 'android-10.0.0_r40' into staging/ten-android-10.0.0_r40 <5 days ago> [62ecdb1ed]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[scripts]
+scripts: updater: Use git remote to fetch changes <4 days ago> [c9ccbdf]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+scripts: updater: Push info.sh in a separate commit <2 weeks ago> [b861437]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+
+====================
+     07-06-2020
+====================
+
+[packages/apps/OpenDelta]
+Merge remote-tracking branch 'omni/android-10' into ten <6 days ago> [b0d6c48]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+
+====================
+     07-05-2020
+====================
+
+[frameworks/base]
+screenrecord: UI Improvements <9 days ago> [1fcad7eecee]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+base: Do not condition VoWiFi icon change on calls <7 days ago> [f970e6da9d9]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+SystemUI: Update RU translation (#31) <7 days ago> [1dfb00e0f39]
+by: Northn (57762732+Northn@users.noreply.github.com)
+base: Add Linotte font [1/2] <7 days ago> [4f92d3fb898]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+base: Use only 18px size icon for notification count <8 days ago> [bcc6de52d67]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+base: overlays: Add EvolveSans font [1/2] <8 days ago> [cff5a183da4]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+Show infinity for large notification counts <3 years, 5 months ago> [d29155827be]
+by: d34d (clark@cyngn.com)
+SystemUI: Forward-port notification counters [1/2] <6 years ago> [07ea6f180e4]
+by: Steve Kondik (steve@cyngn.com)
+SystemUI: Add USB Tether tile <5 years ago> [a3fcc8c8d98]
+by: BestPig (bestpig82@gmail.com)
+Revert "base: SystemUI: add OmniRecord based qs tile" <9 days ago> [6fa6c4bf209]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+SystemUI: PowerMenu: Use AOSP recorder for screen record button <9 days ago> [1cb7e9a8f76]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[packages/apps/DeskClock]
+DeskClock: Remove notification sound from firing and snoozing channels <4 weeks ago> [22ec01749]
+by: Michael W (baddaemon87@gmail.com)
+DeskClock: Replace ViewPager with manual fragment handling <4 weeks ago> [f71fd84d6]
+by: Michael W (baddaemon87@gmail.com)
+
+[packages/apps/Settings]
+Settings: Randomize DerpQuest's summary <4 weeks ago> [0cc092a58b]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+Settings: Update RU translation (#15,#16) <4 weeks ago> [39f3f0affa]
+by: RunningMango (36758157+RunningMango@users.noreply.github.com)
 
 
