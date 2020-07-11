@@ -1,4 +1,4 @@
-Changelog for Official DerpFest Build Update 07.07.2020 for Sanders:
+Changelog for Official DerpFest Build Update 07.07.2020
 
 [SOURCE]
 
@@ -41,8 +41,9 @@ Changelog for Official DerpFest Build Update 07.07.2020 for Sanders:
 
 
 [DEVICE]
-
-• Updater vendor blobs (OpenBet15)
+• Fixed minimum brightness.
+• Fixed FOD icon on AOD was too bright before.
+• Updater vendor blobs (OpenBet16)
 • Updated prebuilt camera service and app.
 • Reworked offscreen gestures 
 • Added some offscreen new gestures and actions.
