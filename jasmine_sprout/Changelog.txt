@@ -1,8 +1,10 @@
-(08/06/20)
 ######################
 ## DEVICE CHANGELOG ##
 ######################
 
+e4f9c729a4da msm: mdss: add idle state node
+df0ecd07 dm660-common: data-ipa-cfg-mgr: Merge tag 'LA.UM.8.2.r1-06900-sdm660.0'
+082d070b IMS: Enable IMS feature flags for supported carriers
 533320b7 sdm660-common: Exclude Snap overlays from RRO
 53f8af3c sdm660-common: Exclude lineage-sdk overlays from RRO
 9536da3d sdm660-common: Enforce RRO for all resource overlays
