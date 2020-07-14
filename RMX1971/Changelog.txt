@@ -1,292 +1,259 @@
 ====================
-     06-07-2020
+     07-13-2020
 ====================
 
-FODCircleView: Always enable hbm <23 hours ago> [b2859a19ee4]
-by: TheScarastic (warabhishek@gmail.com)
-VolumeDialog: Fix live caption button when on left side <4 days ago> [0dfd8ef3787]
-by: jhenrique09 (jhenrique09.mcz@hotmail.com)
+[device/realme/RMX1971]
+RMX1971: sepolicy: Address more denials <41 minutes ago> [4d6ca3a]
+by: kaderbava (ksbava7325@gmail.com)
+RMX1921: overlay: Enable Proximity check on wake <2 days ago> [26b6056]
+by: SKULSHADY (anushekprasal@gmail.com)
+RMX1971: Notch-city: We have a display cutout <3 months ago> [7eea964]
+by: AgentFabulous (kshitijgm@gmail.com)
+RMX1971: Add RealmeParts back! <7 hours ago> [fcfa9ca]
+by: kaderbava (ksbava7325@gmail.com)
+Add Official Maintainer string <4 months ago> [bca95dd]
+by: Kader Bava (ksbava7325@gmail.com)
+RMX1971: Derp-ify <7 hours ago> [a85345a]
+by: kaderbava (ksbava7325@gmail.com)
 
-[hardware/aosip/interfaces]
-inscreen: Bump hal and add switchHbm methods <3 months ago> [6309df5]
-by: TheScarastic (warabhishek@gmail.com)
-
-
-====================
-     06-06-2020
-====================
-
-[frameworks/base]
-base: Allow choosing a custom vibration pattern [1/3] <2 days ago> [87269d53901]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-base: Add vibration patterns from OOS [1/3] <4 months ago> [8f3546070f2]
-by: rituj (ritujbeniwal@gmail.com)
-base: Fix NPE on some devices by checking for null client (#24) <2 days ago> [4b1c9ff291b]
-by: Pierre-Hugues Husson (phh@phh.me)
-base: Add refresh rate setting [1/2] (#23) <3 days ago> [884d0eb7824]
-by: Anushek Prasal (anushekprasal@gmail.com)
-
-[packages/apps/Settings]
-Settings: Allow choosing a custom vibration pattern [3/3] <34 hours ago> [51c47c991e]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-Settings: Add vibration patterns from OOS [3/3] <2 days ago> [3a70a4b4d8]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/services/Telecomm]
-Telecomm: Allow choosing a custom vibration pattern [2/3] <2 days ago> [3e3fac42]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[vendor/aosip]
-vendor: Add vendor.lineage.biometrics.fingerprint.inscreen permission <11 months ago> [f12814d3]
-by: LuK1337 (priv.luk@gmail.com)
+[kernel/realme/RMX1971]
+input: touchpanel_common_driver: Expose every possible gesture <2 weeks ago> [84915faf4da4]
+by: dianlujitao (dianlujitao@gmail.com)
 
 
 ====================
-     06-05-2020
-====================
-
-[packages/apps/Settings]
-Settings: Use device specific max refresh rate for the switch (#14) <3 days ago> [c387439fce]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-Settings: Add refresh rate setting [2/2] (#13) <3 days ago> [da465e1d5f]
-by: Cryllic Buster (49910222+CryllicBuster273@users.noreply.github.com)
-
-[packages/services/Telecomm]
-Telecomm: Add vibration patterns from OOS [2/3] <4 months ago> [98fcc12e]
-by: rituj (ritujbeniwal@gmail.com)
-
-[packages/apps/OpenDelta]
-OpenDelta: Allow hiding info text <3 days ago> [f1bb24e]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-OpenDelta: Add some bottom padding to the action buttons <3 days ago> [63da3dc]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-
-====================
-     06-04-2020
+     07-12-2020
 ====================
 
 [device/aosip/sepolicy]
-add missing rule for update_engine (#3) <3 days ago> [79856b4]
-by: Murtaza@Piplod (murtaza1926@gmail.com)
-
-[frameworks/base]
-SystemUI: Use AOSP bluetooth icon when showing battery level <2 weeks ago> [8a9985cb50b]
-by: Kshitij Gupta (kshitijgm@gmail.com)
-SystemUI: update Bluetooth battery level assets. <8 months ago> [5b0bf9c2b61]
-by: Hernán Castañón Álvarez (herna@paranoidandroid.co)
-[SQUASH]Bring back notch-city after r38 <4 days ago> [c491bf95375]
-by: AgentFabulous (kshitijgm@gmail.com)
-
-[packages/apps/Contacts]
-AOSP/Contacts - Updated to sdkVersion 29. <8 months ago> [b5a085341]
-by: Raman Tenneti (rtenneti@google.com)
-Contacts: manually configure dark theme for list <3 weeks ago> [bdd121805]
-by: Jesse Chan (jc@lineageos.org)
-Contacts: allow framework to do dark theming automatically <3 weeks ago> [c103b8c50]
-by: Jesse Chan (jc@lineageos.org)
-Contacts: use white nav bar <1 year, 5 months ago> [22871659f]
-by: Joey (joey@lineageos.org)
-Contacts: Remove current dark theme <12 days ago> [2ae1a4850]
-by: Josh Fox (XlxFoXxlX) (joshfox87@gmail.com)
-
-[packages/apps/Matlog]
-MatLog: update gradle version <4 days ago> [a4b8b6f]
-by: maxwen (max.weninger@gmail.com)
-
-[packages/apps/Messaging]
-Automatic translation import <4 days ago> [b3d54db]
-by: Akhil Narang (akhilnarang.1999@gmail.com)
-Remove current dark mode <12 days ago> [e29445f]
-by: Josh Fox (XlxFoXxlX) (joshfox87@gmail.com)
-Messaging: disable auto dark theming on message bubble <3 weeks ago> [9dc9a0f]
-by: Jesse Chan (jc@lineageos.org)
-Messaging: allow framework to do dark theming automatically <3 weeks ago> [20c18da]
-by: Jesse Chan (jc@lineageos.org)
+sepolicy: treat vnswap as zram <3 months ago> [4e00cde]
+by: Park Ju Hyung (qkrwngud825@gmail.com)
 
 [packages/apps/Settings]
-Settings: Update RU translation (#12) <5 days ago> [1700e6a14e]
-by: Northn (57762732+Northn@users.noreply.github.com)
-Fix NPE if default supervisor is not defined <3 weeks ago> [13718adba7]
-by: Wang Han (wanghan1995315@gmail.com)
+Settings: Update Chinese translations <35 hours ago> [ee8fbf266d]
+by: ALKALiKong (alikongalk@gmail.com)
+
+[packages/apps/DerpQuest]
+DerpQuest: Update Chinese translations (#72) <27 hours ago> [db0d858]
+by: ALKALiKong (54100342+ALKALiKong233@users.noreply.github.com)
+
+[packages/apps/OpenDelta]
+OpenDelta: Update Chinese translations (#4) <27 hours ago> [0f743ca]
+by: ALKALiKong (54100342+ALKALiKong233@users.noreply.github.com)
 
 
 ====================
-     06-03-2020
+     07-11-2020
+====================
+
+[scripts]
+scripts: updater: Add color coding <2 days ago> [6afb596]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+scripts: updater: Do not offer to upload to SourceForge <2 days ago> [1df8693]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[device/realme/RMX1971]
+RMX1971: Lets go Enforcing <12 days ago> [f697b7c]
+by: bablusss (baaswanthmadhav@gmail.com)
+RMX1971: update vendor dep <3 days ago> [0b10572]
+by: bablusss (baaswanthmadhav@gmail.com)
+Update system.prop <3 days ago> [baadc7b]
+by: bablusss (baaswanthmadhav@gmail.com)
+sdm710-common: Add CAP_SYS_BOOT for charger <3 weeks ago> [b67a16e]
+by: Subbaraman Narayanamurthy (subbaram@codeaurora.org)
+RMX1971: zygote preforking for faster app launch <2 weeks ago> [976f72c]
+by: ctwoon (ctwoon@pixelexperience.org)
+RMX1971: Update build fingerprint from coral July <3 days ago> [1fcca81]
+by: bablusss (baaswanthmadhav@gmail.com)
+RMX1971: build libvndfwk_detect_jni.qti.vendor <3 weeks ago> [066b9bd]
+by: bablusss (baaswanthmadhav@gmail.com)
+RMX1971: Add vendor variant of framework detect modules <1 year, 6 months ago> [4db0d69]
+by: shoudil (stephenli@codeaurora.org)
+RMX1971: Fix rank of QC OMX components <12 months ago> [56860c6]
+by: Sujin Panicker (spanic@codeaurora.org)
+RMX1971: disable edge limit <4 months ago> [2324f5c]
+by: bablusss (baaswanthmadhav@gmail.com)
+RMX1971: update rootdir from realmeui <3 weeks ago> [0978e69]
+by: bablusss (baaswanthmadhav@gmail.com)
+RMX1971: Update blobs to RealmeUI <3 days ago> [713360a]
+by: bablusss (baaswanthmadhav@gmail.com)
+RMX1971: update Radio blobs to Q <4 days ago> [f57ab01]
+by: bablusss (baaswanthmadhav@gmail.com)
+RMX1971: downrev audio to 4.0 <2 months ago> [c530fa1]
+by: SGCMarkus (markusornik@gmail.com)
+RMX1971: Update aptX blobs from crosshatch <3 weeks ago> [ace8653]
+by: luk1337 (priv.luk@gmail.com)
+RMX1921: Override imsdatadaemon <9 months ago> [00390cd]
+by: TheScarastic (warabhishek@gmail.com)
+RMX1971: FR53248: Android Q: Remove hidden API references in ims.apk <1 year, 8 months ago> [40c1e78]
+by: Sumit Das (sumidas@codeaurora.org)
+RMX1971: IMS: decouple ims-ext-common from boot jars <1 year, 7 months ago> [618c738]
+by: Suresh Koleti (skoleti@codeaurora.org)
+Revert "RMX1971: Create system copy of ims-ext-common and add to classpath" <3 weeks ago> [f0ab3c9]
+by: bablusss (baaswanthmadhav@gmail.com)
+RMX1971: Drop no longer needed compat rootfs folders <9 months ago> [68ac35a]
+by: Bruno Martins (bgcngm@gmail.com)
+RMX1971: update gps configs <5 weeks ago> [a0f40ac]
+by: bgcngm (bgcngm@gmail.com)
+RMX1971: Add whitelist to support exposing vendor libs <5 weeks ago> [e097172]
+by: bgcngm (bgcngm@gmail.com)
+RMX1971: Disable ini param nan_separate_iface_support <2 months ago> [1b88a18]
+by: Srinivas Dasari (dasaris@codeaurora.org)
+RMX1971: ini: Remove TxPower2g and 5g from config file <2 months ago> [1bc8137]
+by: Ashish Kumar Dhanotiya (adhanoti@codeaurora.org)
+RMX1971: ini: Disable gEnableConcurrentSTA for Android Q targets <2 months ago> [50cf04e]
+by: Sourav Mohapatra (mohapatr@codeaurora.org)
+RMX1971: Add ini ignore_fw_reg_offload_ind <10 months ago> [c3f3fb3]
+by: Ashish Kumar Dhanotiya (adhanoti@codeaurora.org)
+RMX1971: cleanup wifi config files <2 weeks ago> [3345250]
+by: bablusss (baaswanthmadhav@gmail.com)
+Revert "RMX1971: Enable clang" <2 weeks ago> [cb2acee]
+by: bablusss (baaswanthmadhav@gmail.com)
+RMX1971: config.fs: init: Add AID_VENDOR_THERMAL for thermal-engine <11 months ago> [ce0b1f6]
+by: Ram Chandrasekar (rkumbako@codeaurora.org)
+RMX1971: Add AID_VENDOR_QRTR for qrtr-ns <1 year, 10 months ago> [82484c0]
+by: Chris Lew (clew@codeaurora.org)
+RMX1971: sensors: also import multihal <9 months ago> [f494cfc]
+by: Jan Altensen (info@stricted.net)
+Update CarrierSettings from Google Coral RPB1.200504.018 6520161 <3 weeks ago> [dca830b]
+by: baalajimaestro (me@baalajimaestro.me)
+RMX1971: Restart cameraserver after boot completed <7 weeks ago> [739b8a5]
+by: aviraxp (wanghan1995315@gmail.com)
+Revert "RMX1971: Fix blobs that referenced set_sched_policy" <3 weeks ago> [acb1c2f]
+by: bablusss (baaswanthmadhav@gmail.com)
+update deps <7 days ago> [6e666d2]
+by: bablusss (baaswanthmadhav@gmail.com)
+RMX1971: change audio poanel position to left <3 weeks ago> [c6ace17]
+by: bablusss (baaswanthmadhav@gmail.com)
+
+[kernel/realme/RMX1971]
+Revert "input: touchscreen: Expose every possible gesture" <3 days ago> [4f9423141ceb]
+by: bablusss (baaswanthmadhav@gmail.com)
+Revert "Make sure to use same scancode values as KharaMeParts" <3 days ago> [4feeecb8f5d0]
+by: bablusss (baaswanthmadhav@gmail.com)
+
+
+====================
+     07-10-2020
 ====================
 
 [frameworks/base]
-SystemUI: Don't forcefully convert wallpaper to SRGB <6 days ago> [24782cc10f7]
-by: Luca Stefani (luca.stefani.ge1@gmail.com)
-Merge tag 'android-10.0.0_r38' into ten <5 days ago> [44dc5a4919d]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-Revert "base: notch-city: Add 3 mode display cutout handler" <5 days ago> [472d9e294c5]
+Revert "base: SystemUI: add separate config for pulse brightness [1/2]" <3 days ago> [903ce8e905d]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 
-[packages/apps/Matlog]
-MatLog: dont run unecessary checks on startup <5 days ago> [3580064]
-by: maxwen (max.weninger@gmail.com)
+[packages/apps/Contacts]
+Contacts: Make the launch screen follow the system theme <4 weeks ago> [9c66735e0]
+by: Scott Warner (Tortel1210@gmail.com)
 
-[packages/apps/OpenDelta]
-Merge remote-tracking branch 'omni/android-10' into HEAD <5 days ago> [55f33c5]
+[packages/apps/DerpQuest]
+DerpQuest: Remove custom doze brightness settings <3 days ago> [40020a5]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 
-[packages/apps/PixelLiveWallpaper]
-Update from QQ3A.200605.001 <5 days ago> [838cd34]
-by: jhenrique09 (jhenrique09.mcz@hotmail.com)
+[scripts]
+scripts: updater: Offer to direct link for OpenDelta <3 days ago> [5cca7d4]
+by: Ido Ben-Hur (idoybh2@gmail.com)
 
 [vendor/gapps]
-gapps: Remove SoundPickerPrebuilt <4 days ago> [40d22a5]
+Revert "gapps: Drop overlays" <4 days ago> [62208b8]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 
 [vendor/pixelstyle]
-pixelstyle: Add SoundPickerPrebuilt (#5) <4 days ago> [02af792]
-by: Aman Kumar Singh (46120388+amanrajOO7@users.noreply.github.com)
+pixelstyle: Add Linotte font [2/2] <10 days ago> [1501a8f]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+pixelstyle: Add EvolveSans font [2/2] <10 days ago> [460c820]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+pixelstyle: Don't build google specific overlays for VANILLA <10 days ago> [dd02c41]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+[SQUASH] Remove OPScreenRecorder <12 days ago> [eac5390]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[vendor/realme/RMX1971]
+RMX1971: Update blobs to RealmeUI <7 days ago> [e74e77f]
+by: bablusss (baaswanthmadhav@gmail.com)
 
 
 ====================
-     06-02-2020
+     07-09-2020
 ====================
 
-[art]
-Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <6 days ago> [362a3be56c]
+[frameworks/base]
+FODCircleView: Update FOD icon position on DreamingStateChanged <7 weeks ago> [7b62b4f26a8]
+by: Ashwin R C (ashwin2001achu@gmail.com)
+
+[packages/apps/Dialer]
+Automatic translation import <4 days ago> [ddd6a529f]
+by: Akhil Narang (akhilnarang.1999@gmail.com)
+Dialer: Use a DayNight launch theme <3 weeks ago> [f4b2a5430]
+by: Scott Warner (Tortel1210@gmail.com)
+
+[packages/apps/Messaging]
+Automatic translation import <4 days ago> [42b2e5e]
+by: Akhil Narang (akhilnarang.1999@gmail.com)
+Messaging: Use a DayNight launch theme <3 weeks ago> [f6685e8]
+by: Scott Warner (Tortel1210@gmail.com)
+
+
+====================
+     07-08-2020
+====================
+
+[frameworks/av]
+Add persist.sys.phh.disable_a2dp_offload property to force a2dp offload <7 weeks ago> [c7fd34fd9]
+by: Pierre-Hugues Husson (phh@phh.me)
+
+[frameworks/base]
+base: QS: Make sure we don't show an empty row <5 days ago> [9fa8f78a0a0]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 
-[bootable/recovery]
-Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <6 days ago> [b035f2fb]
+[system/bt]
+Add persist.sys.phh.disable_a2dp_offload property to force a2dp offload <7 weeks ago> [cd0a289c3]
+by: Pierre-Hugues Husson (phh@phh.me)
+
+[system/core]
+adb: Look for shell executable in alternate places <2 years, 11 months ago> [7bd5bdb2b]
+by: Tom Marshall (tdm.code@gmail.com)
+
+[packages/apps/OpenDelta]
+OpenDelta: Add a null check for info image visibility <5 days ago> [fd77b58]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 
-[development]
-Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <6 days ago> [f8b9246c3]
-by: Ido Ben-Hur (idoybh2@gmail.com)
+
+====================
+     07-07-2020
+====================
 
 [manifest]
-Merge remote-tracking branch 'aosp/android-10.0.0_r38' into ten <6 days ago> [747b171]
+Merge tag 'android-10.0.0_r40' into ten <7 days ago> [675dc06]
 by: Ido Ben-Hur (idoybh2@gmail.com)
-Manifest for Android 10.0.0 Release 38 (QQ3A.200605.002) <6 days ago> [887567f]
-by: The Android Open Source Project (initial-contribution@android.com)
-Manifest for Android 10.0.0 Release 37 (QQ3A.200605.001) <6 days ago> [fea4547]
-by: The Android Open Source Project (initial-contribution@android.com)
-Manifest for android10-qpr3-release. <6 days ago> [a3b2879]
+Manifest for Android 10.0.0 Release 40 <7 days ago> [5383244]
 by: The Android Open Source Project (initial-contribution@android.com)
 
 [build/make]
-Merge tag 'android-10.0.0_r38' of https://android.googlesource.com/platform/build into HEAD <6 days ago> [cf1c34589]
+Merge tag 'android-10.0.0_r40' into HEAD <7 days ago> [bf43f35c6]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 
-[build/soong]
-Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <6 days ago> [21162672]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[frameworks/av]
-Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <6 days ago> [dac19d309]
-by: Ido Ben-Hur (idoybh2@gmail.com)
+[frameworks/base]
+base: Fix freeform window moving/resizing doesn't work <10 weeks ago> [607c5b2efc6]
+by: utzcoz (utzcoz@gmail.com)
+VolumeDialog: Launch Q expanded volume panel on arrow longpress <3 weeks ago> [06203df745c]
+by: Adhitya Mohan (me@adhityamohan.in)
 
 [frameworks/native]
-Merge tag 'android-10.0.0_r38' into ten <6 days ago> [e1aaff457]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-Revert "surfaceflinger: Merge caf changes" <6 days ago> [7ed1e5ba4]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-Revert "SurfaceFlinger: Exclude CAF extensions from non-QC devices" <6 days ago> [7adc5f802]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-Revert "surfaceflinger: Exclude qcom code on unsupported platforms" <6 days ago> [dd5464458]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-Revert "surfaceflinger: Exclude qcom RefreshRateType changes" <6 days ago> [6c18ac595]
+Merge tag 'android-10.0.0_r40' into staging/ten-android-10.0.0_r40 <7 days ago> [1f2c99574]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 
-[frameworks/opt/net/wifi]
-Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <6 days ago> [0bfcebdcb]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[frameworks/opt/telephony]
-Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <6 days ago> [0c53a4c7b]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[hardware/interfaces]
-Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <6 days ago> [585f12910]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[hardware/nxp/nfc]
-Merge tag 'android-10.0.0_r37' into ten <5 days ago> [8319cb5]
-by: Akhil Narang (me@akhilnarang.dev)
-
-[packages/apps/Bluetooth]
-Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <6 days ago> [22c78260]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/apps/CellBroadcastReceiver]
-Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <6 days ago> [b882329e]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/apps/CertInstaller]
-Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <6 days ago> [13eeae9]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/apps/Contacts]
-Merge tag 'android-10.0.0_r37' into ten <5 days ago> [9150c53c4]
-by: Akhil Narang (me@akhilnarang.dev)
-
-[packages/apps/DocumentsUI]
-Merge tag 'android-10.0.0_r37' into ten <5 days ago> [46cbbb18e]
-by: Akhil Narang (me@akhilnarang.dev)
-
-[packages/apps/Nfc]
-Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <6 days ago> [268bc298]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/apps/PhoneCommon]
-Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <6 days ago> [0da2d9a]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/apps/Settings]
-Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <6 days ago> [3bb80e999f]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/providers/DownloadProvider]
-Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <6 days ago> [28ead7dd]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/services/Telecomm]
-Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <6 days ago> [f0029027]
+[packages/apps/Matlog]
+Matlog: Add a simple QS tile <11 days ago> [7b01e8a]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 
 [packages/services/Telephony]
-Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <6 days ago> [c74f2b075]
+Merge tag 'android-10.0.0_r40' into staging/ten-android-10.0.0_r40 <7 days ago> [62ecdb1ed]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 
-[platform_testing]
-Merge tag 'android-10.0.0_r37' into ten <5 days ago> [fa717d1c]
-by: Akhil Narang (me@akhilnarang.dev)
-
-[system/bt]
-Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <6 days ago> [98af46a57]
+[scripts]
+scripts: updater: Use git remote to fetch changes <7 days ago> [c9ccbdf]
 by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[system/core]
-Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <6 days ago> [ad679fb54]
+scripts: updater: Push info.sh in a separate commit <3 weeks ago> [b861437]
 by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[system/sepolicy]
-Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <6 days ago> [680109d0]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[system/vold]
-Merge tag 'android-10.0.0_r38' into staging/ten-android-10.0.0_r38 <6 days ago> [425481d]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-
-====================
-     06-01-2020
-====================
-
-[packages/apps/DerpQuest]
-DerpQuest: Update Greek translation (#62,#64) <10 days ago> [27bce52]
-by: CrisBalGreece (crisbaladim@yahoo.gr)
-DerpQuest: Make TwoTargetPreference divider slimmer <13 days ago> [57f2660]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-DerpQuest: Allow showing SB ticker for media [2/2] <2 weeks ago> [bedcab2]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-DerpQuest: Bring back good ol' circle battery style [2/2] <4 months ago> [6c831d1]
-by: Luca Stefani (luca.stefani.ge1@gmail.com)
 
 
