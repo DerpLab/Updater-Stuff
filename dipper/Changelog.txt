@@ -1,233 +1,169 @@
 ====================
-     07-07-2020
+     07-14-2020
 ====================
 
-[manifest]
-Merge tag 'android-10.0.0_r40' into ten <12 hours ago> [675dc06]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-Manifest for Android 10.0.0 Release 40 <18 hours ago> [5383244]
-by: The Android Open Source Project (initial-contribution@android.com)
-
-[build/make]
-Merge tag 'android-10.0.0_r40' into HEAD <12 hours ago> [bf43f35c6]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
 [frameworks/base]
-VolumeDialog: Launch Q expanded volume panel on arrow longpress <12 days ago> [06203df745c]
-by: Adhitya Mohan (me@adhityamohan.in)
-
-[frameworks/native]
-Merge tag 'android-10.0.0_r40' into staging/ten-android-10.0.0_r40 <13 hours ago> [1f2c99574]
+base: Settings: Backup album art filter <18 hours ago> [a682a230809]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 
-[packages/apps/Matlog]
-Matlog: Add a simple QS tile <5 days ago> [7b01e8a]
+[packages/apps/Settings]
+Setings: Ensure SeekBars with inteval have a default value <14 hours ago> [053dd52c36]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 
-[packages/services/Telephony]
-Merge tag 'android-10.0.0_r40' into staging/ten-android-10.0.0_r40 <12 hours ago> [62ecdb1ed]
+[packages/apps/DerpQuest]
+DerpQuest: Guard new dynamic summaries against bad translations <13 minutes ago> [23a4c22]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+DerpQuest: Ensure SeekBars with interval have a default value <15 hours ago> [8ccde9f]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+DerpQuest: Fix ticker timeout SeekBar stuck <19 hours ago> [d219835]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+DerpQuest: Make notifications master switches summaries dynamic <19 hours ago> [650b63a]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+DerpQuest: Make LockScreen master switches summaries dynamic <22 hours ago> [490fb35]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+DerpQuest: Make QuickSettings master switches summaries dynamic <26 hours ago> [ba0f395]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+DerpQuest: Make StatusBar master switches summaries dynamic <26 hours ago> [27cefd4]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 
 [scripts]
-scripts: updater: Use git remote to fetch changes <8 hours ago> [c9ccbdf]
+scripts: updater: make sure no local changes exist in repo <2 hours ago> [2411d58]
 by: Ido Ben-Hur (idoybh2@gmail.com)
-scripts: updater: Push info.sh in a separate commit <12 days ago> [b861437]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[device/xiaomi/dipper]
-Revert "dipper:enable USB debug" <59 minutes ago> [b59f801]
-by: ALKALiKong (alikongalk@gmail.com)
 
 
 ====================
-     07-06-2020
+     07-13-2020
+====================
+
+[device/aosip/sepolicy]
+sepolicy: treat vnswap as zram <4 months ago> [4e00cde]
+by: Park Ju Hyung (qkrwngud825@gmail.com)
+
+[packages/apps/Settings]
+Settings: Update Chinese translations <2 days ago> [ee8fbf266d]
+by: ALKALiKong (alikongalk@gmail.com)
+
+[packages/apps/DerpQuest]
+DerpQuest: Code cleanup of 1a7fbe7 <2 days ago> [0a13920]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+DerpQuest: Update Chinese translations (#72) <2 days ago> [db0d858]
+by: ALKALiKong (54100342+ALKALiKong233@users.noreply.github.com)
+
+[packages/apps/OpenDelta]
+OpenDelta: Update Chinese translations (#4) <2 days ago> [0f743ca]
+by: ALKALiKong (54100342+ALKALiKong233@users.noreply.github.com)
+
+
+====================
+     07-12-2020
+====================
+
+[scripts]
+scripts: updater: Add color coding <3 days ago> [6afb596]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+scripts: updater: Do not offer to upload to SourceForge <3 days ago> [1df8693]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+
+====================
+     07-11-2020
 ====================
 
 [frameworks/base]
-screenrecord: UI Improvements <5 days ago> [1fcad7eecee]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-base: Do not condition VoWiFi icon change on calls <3 days ago> [f970e6da9d9]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-SystemUI: Update RU translation (#31) <3 days ago> [1dfb00e0f39]
-by: Northn (57762732+Northn@users.noreply.github.com)
-base: Add Linotte font [1/2] <3 days ago> [4f92d3fb898]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-base: Use only 18px size icon for notification count <3 days ago> [bcc6de52d67]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-base: overlays: Add EvolveSans font [1/2] <4 days ago> [cff5a183da4]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-Show infinity for large notification counts <3 years, 5 months ago> [d29155827be]
-by: d34d (clark@cyngn.com)
-SystemUI: Forward-port notification counters [1/2] <6 years ago> [07ea6f180e4]
-by: Steve Kondik (steve@cyngn.com)
-SystemUI: Add USB Tether tile <5 years ago> [a3fcc8c8d98]
-by: BestPig (bestpig82@gmail.com)
-Revert "base: SystemUI: add OmniRecord based qs tile" <5 days ago> [6fa6c4bf209]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-SystemUI: PowerMenu: Use AOSP recorder for screen record button <5 days ago> [1cb7e9a8f76]
+ScreenDecorations: Don't draw cutouts in immerse <5 days ago> [042a9cb0a7c]
+by: Kshitij Gupta (kshitijgm@gmail.com)
+FODCircleView: Fix up notch-city for fod devices <6 days ago> [e5111da57d9]
+by: Ashwin R C (ashwin2001achu@gmail.com)
+ScreenDecorations: Check setting if newValue is null, respect defaults <7 days ago> [5cd29f27a83]
+by: Kshitij Gupta (kshitijgm@gmail.com)
+ScreenDecorations: Remove the red debug color <7 days ago> [dca6936080a]
+by: Kshitij Gupta (kshitijgm@gmail.com)
+base: Rework corner handling in notch-city immerse mode <7 days ago> [e2aff2908a1]
+by: Kshitij Gupta (kshitijgm@gmail.com)
+base: Remove current immserse corner impl <8 days ago> [6c4f41bbde9]
+by: Kshitij Gupta (kshitijgm@gmail.com)
+Revert "base: SystemUI: add separate config for pulse brightness [1/2]" <4 days ago> [903ce8e905d]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 
-[packages/apps/DeskClock]
-DeskClock: Remove notification sound from firing and snoozing channels <3 weeks ago> [22ec01749]
-by: Michael W (baddaemon87@gmail.com)
-DeskClock: Replace ViewPager with manual fragment handling <3 weeks ago> [f71fd84d6]
-by: Michael W (baddaemon87@gmail.com)
+[packages/apps/DerpQuest]
+DerpQuest: Remove custom doze brightness settings <4 days ago> [40020a5]
+by: Ido Ben-Hur (idoybh2@gmail.com)
 
-[packages/apps/OpenDelta]
-Merge remote-tracking branch 'omni/android-10' into ten <2 days ago> [b0d6c48]
+[scripts]
+scripts: updater: Offer to direct link for OpenDelta <4 days ago> [5cca7d4]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+
+====================
+     07-10-2020
+====================
+
+[frameworks/base]
+FODCircleView: Update FOD icon position on DreamingStateChanged <7 weeks ago> [7b62b4f26a8]
+by: Ashwin R C (ashwin2001achu@gmail.com)
+
+[packages/apps/Contacts]
+Contacts: Make the launch screen follow the system theme <4 weeks ago> [9c66735e0]
+by: Scott Warner (Tortel1210@gmail.com)
+
+[vendor/gapps]
+Revert "gapps: Drop overlays" <5 days ago> [62208b8]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 
 [vendor/pixelstyle]
-pixelstyle: Add Linotte font [2/2] <4 days ago> [dbbb1e1]
+pixelstyle: Add Linotte font [2/2] <11 days ago> [1501a8f]
 by: Ido Ben-Hur (idoybh2@gmail.com)
-pixelstyle: Add EvolveSans font [2/2] <4 days ago> [f5ca987]
+pixelstyle: Add EvolveSans font [2/2] <11 days ago> [460c820]
 by: Ido Ben-Hur (idoybh2@gmail.com)
-pixelstyle: Don't build google specific overlays for VANILLA <4 days ago> [48d8dc8]
+pixelstyle: Don't build google specific overlays for VANILLA <11 days ago> [dd02c41]
 by: Ido Ben-Hur (idoybh2@gmail.com)
-[SQUASH] Remove OPScreenRecorder <5 days ago> [12e5633]
+[SQUASH] Remove OPScreenRecorder <12 days ago> [eac5390]
 by: Ido Ben-Hur (idoybh2@gmail.com)
-pixelstyle: Import PixelConfigOverlay* GoogleConfigOverlay GoogleWebViewOverlay for full GMS support <5 months ago> [65853b1]
-by: Arseniy Graur (argraur@aosip.dev)
 
 
 ====================
-     07-05-2020
+     07-09-2020
 ====================
 
-[packages/apps/Settings]
-Settings: Randomize DerpQuest's summary <4 weeks ago> [0cc092a58b]
+[frameworks/base]
+base: QS: Make sure we don't show an empty row <6 days ago> [9fa8f78a0a0]
 by: Ido Ben-Hur (idoybh2@gmail.com)
-Settings: Update RU translation (#15,#16) <4 weeks ago> [39f3f0affa]
-by: RunningMango (36758157+RunningMango@users.noreply.github.com)
 
-[packages/apps/DerpQuest]
-DerpQuest: Add a switch for notification counters [2/2] <4 days ago> [92630bf]
+[packages/apps/Dialer]
+Automatic translation import <5 days ago> [ddd6a529f]
+by: Akhil Narang (akhilnarang.1999@gmail.com)
+Dialer: Use a DayNight launch theme <3 weeks ago> [f4b2a5430]
+by: Scott Warner (Tortel1210@gmail.com)
+
+[packages/apps/Messaging]
+Automatic translation import <5 days ago> [42b2e5e]
+by: Akhil Narang (akhilnarang.1999@gmail.com)
+Messaging: Use a DayNight launch theme <3 weeks ago> [f6685e8]
+by: Scott Warner (Tortel1210@gmail.com)
+
+[system/core]
+adb: Look for shell executable in alternate places <2 years, 11 months ago> [7bd5bdb2b]
+by: Tom Marshall (tdm.code@gmail.com)
+
+[packages/apps/OpenDelta]
+OpenDelta: Add a null check for info image visibility <6 days ago> [fd77b58]
 by: Ido Ben-Hur (idoybh2@gmail.com)
-DerpQuest: Fixed typos in strings (#69) <5 days ago> [2f514b2]
-by: Northn (57762732+Northn@users.noreply.github.com)
-DerpQuest: Update RU translation (#68,#70,#71) <9 days ago> [7bed9b1]
-by: Northn (57762732+Northn@users.noreply.github.com)
-
-[device/xiaomi/dipper]
-dipper: Unset VINTF target level <7 days ago> [d52cb56]
-by: Bruno Martins (bgcngm@gmail.com)
-Revert "dipper: Mark HDR profile as SDR" <2 days ago> [bf8695b]
-by: ALKALiKong (alikongalk@gmail.com)
-dipper: Set Opendelta to new link for VANILLA <2 days ago> [a33ebd9]
-by: ALKALiKong (alikongalk@gmail.com)
-
-[device/xiaomi/sdm845-common]
-sdm845-common: Commonize VINTF target level and set it to Android Q <7 days ago> [c668a2d]
-by: Bruno Martins (bgcngm@gmail.com)
 
 
 ====================
-     07-04-2020
+     07-08-2020
 ====================
-
-[packages/apps/Launcher3]
-Trebuchet: Replace LockClock widget with DeskClock <6 months ago> [141b2d934]
-by: Arne Coucheron (arco68@gmail.com)
-Trebuchet: Add 5x6, 5x7 and 6x6 default workspaces <3 months ago> [401a82b87]
-by: dwardo (benjamin.reveille@gmail.com)
-Update default workspace <8 months ago> [c6800ad0c]
-by: Joey (joey@lineageos.org)
-Revert "Add developer options for grid change for Styles" <8 months ago> [eaff55378]
-by: Luca Stefani (luca.stefani.ge1@gmail.com)
-Revert "Launcher3: we never want to disable grid control provider" <4 days ago> [323aa1ec9]
-by: Josh Fox (XlxFoXxlX) (joshfox87@gmail.com)
-Disable QSB on first screen by default <3 years ago> [ecc0203e4]
-by: Arne Coucheron (arco68@gmail.com)
-QSB: request round search bar <1 year, 6 months ago> [9741faa77]
-by: Edward Cross (edward.k.cross@gmail.com)
-Trebuchet: Update default workspace <9 months ago> [bb5f061eb]
-by: Bruno Martins (bgcngm@gmail.com)
-proguard: Also keep FixedScaleDrawable <1 year, 10 months ago> [4db701b72]
-by: Diogo Ferreira (diogo@underdev.org)
-
-[device/xiaomi/sdm845-common]
-sdm845-common: enable Seamless Transfer <2 weeks ago> [789bde1]
-by: Chenyang Zhong (zhongcy95@gmail.com)
-sdm845-common: actually enable backpressure propagation <2 weeks ago> [e1cf7ff]
-by: Chenyang Zhong (zhongcy95@gmail.com)
-
-
-====================
-     07-03-2020
-====================
-
-
-====================
-     07-02-2020
-====================
-
-[manifest]
-manifest: Track our own fork of Matlog <5 days ago> [93bb6fa]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-manifest: Stop tracking OmniRecord <5 days ago> [820d441]
-by: Ido Ben-Hur (idoybh2@gmail.com)
 
 [frameworks/av]
-[2/2] av: Remove restrictions for system audio record <4 months ago> [eec025405]
-by: jhenrique09 (jhenrique09.mcz@hotmail.com)
+Add persist.sys.phh.disable_a2dp_offload property to force a2dp offload <7 weeks ago> [c7fd34fd9]
+by: Pierre-Hugues Husson (phh@phh.me)
 
 [frameworks/base]
-[1/2] base: Remove restrictions for system audio record <4 months ago> [595d2ded4c1]
-by: jhenrique09 (jhenrique09.mcz@hotmail.com)
-Unlink screenrecord toggle from featureflags and enable it <8 months ago> [c55bf5008f4]
-by: ezio84 (brabus84@gmail.com)
-SystemUI: Add ScreenRecord Tile <8 months ago> [68abf87dd71]
-by: ZeNiXxX (zenixxx.havoc@gmail.com)
+base: Fix freeform window moving/resizing doesn't work <10 weeks ago> [607c5b2efc6]
+by: utzcoz (utzcoz@gmail.com)
 
-[vendor/aosip]
-Revert "vendor: add OmniRecord to build" <5 days ago> [cf22b49]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-
-====================
-     07-01-2020
-====================
-
-[frameworks/base]
-base: Add support to disable h265 on screenrecorder <10 weeks ago> [a850bc6b9ee]
-by: El Dainosor (eldainosor@gmail.com)
-base: Set a better screenrec notification icon <3 months ago> [1c19ddb8912]
-by: El Dainosor (eldainosor@gmail.com)
-Screen rec: Add support for AudioPlaybackCapture <3 months ago> [d27e5f0e6ba]
-by: El Dainosor (eldainosor@gmail.com)
-Screenrec: Switch to low quality switch to a bitrate selector <3 months ago> [af1e43824c6]
-by: El Dainosor (eldainosor@gmail.com)
-Screenrecord: Android R dev preview style dialog <4 months ago> [9eed032afb3]
-by: Alex (du.alexcruz@gmail.com)
-Screenrecord dialog: Make it less ugly <5 months ago> [ab5e7a4936b]
-by: Alex (du.alexcruz@gmail.com)
-Screenrecorder: don't show heads up notification <6 months ago> [d26acee72c2]
-by: ezio84 (brabus84@gmail.com)
-Screenrecord: remember last recording options <7 months ago> [36a68f76e33]
-by: ezio84 (brabus84@gmail.com)
-Screenrecord: fix possible SystemUI FC when stopping <8 months ago> [e44872369d6]
-by: ezio84 (brabus84@gmail.com)
-SystemUI: ScreenRec: Redesign the dialog <8 months ago> [24b6ec85390]
-by: Anushek Prasal (anushekprasal@gmail.com)
-Screenrec: use HEVC H.265 codec, add low quality option, fixes <8 months ago> [bdd2f6c6ca6]
-by: ezio84 (brabus84@gmail.com)
-Screenrec: allow to show a blinking red stop dot <8 months ago> [df4d83c0a18]
-by: ezio84 (brabus84@gmail.com)
-Screenrecord: Change save location and make sure dirs exist <9 months ago> [393139f6ce7]
-by: Surge Raval (Surge1223@gmail.com)
-Screenrecord: Start delayed <7 months ago> [15e83b3b610]
-by: ezio84 (brabus84@gmail.com)
-Set Assistant UID of the current user. <9 months ago> [539a2e3d5a0]
-by: Wang ArvinX (arvinx.wang@intel.com)
-
-[packages/apps/DeskClock]
-DeskClock: Move navigation bar to bottom <4 weeks ago> [da10fa833]
-by: Michael W (baddaemon87@gmail.com)
-DeskClock: also apply disabled color to annotations <4 weeks ago> [090055ccb]
-by: Jesse Chan (jc@lineageos.org)
-DeskClock: Come to the dark side... <4 weeks ago> [16f2d6baf]
-by: Michael W (baddaemon87@gmail.com)
-DeskClock: Rework notification channel implementation <5 weeks ago> [d8bfcd4a1]
-by: Michael W (baddaemon87@gmail.com)
+[system/bt]
+Add persist.sys.phh.disable_a2dp_offload property to force a2dp offload <7 weeks ago> [cd0a289c3]
+by: Pierre-Hugues Husson (phh@phh.me)
 
 
