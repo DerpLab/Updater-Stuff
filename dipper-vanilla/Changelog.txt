@@ -1,275 +1,169 @@
 ====================
-     06-14-2020
+     07-14-2020
 ====================
 
 [frameworks/base]
-base: Use a proper settings validator for qs_datausage <4 hours ago> [2a212396dd2]
+base: Settings: Backup album art filter <19 hours ago> [a682a230809]
 by: Ido Ben-Hur (idoybh2@gmail.com)
-SystemUI: QSHeaderDataUsage: hide usage if device is disconnected <2 weeks ago> [5b79ba6f114]
-by: AnkitGourav (Ankitgourav035@gmail.com)
-SystemUI: QSHeaderDataUsage: show Wi-Fi usage when connected to Wi-Fi <2 weeks ago> [0cbc906e90b]
-by: AnkitGourav (Ankitgourav035@gmail.com)
-SystemUI: QSHeaderDataUsage: add icon and improve view <3 weeks ago> [0dc75ce8621]
-by: AnkitGourav (Ankitgourav035@gmail.com)
-SystemUI: QSHeaderDataUsage: update view immediately after change <3 weeks ago> [d7bab8995cf]
-by: AnkitGourav (Ankitgourav035@gmail.com)
-SystemUI: QSHeaderDataUsage: add ability to show daily/monthly [1/2] <3 weeks ago> [0ed2ea03d56]
-by: AnkitGourav (Ankitgourav035@gmail.com)
-SystemUI: QS Header data usage info: improve layout and view <3 weeks ago> [1c961970dfb]
-by: AnkitGourav (Ankitgourav035@gmail.com)
-aosipUtils: add method to check if device is connected to Wi-Fi <2 weeks ago> [c208bd8b423]
-by: AnkitGourav (Ankitgourav035@gmail.com)
-aosipUtils: add method to get today's passed time <3 weeks ago> [a5b6d27c50f]
-by: AnkitGourav (Ankitgourav035@gmail.com)
-aosipUtils: Add method to check for both wifi and mobile connections <6 months ago> [61e2a229a54]
-by: Alex Cruz (du.alexcruz@gmail.com)
-SystemUI: QS Header data usage info: don't show used <3 weeks ago> [688a5f5dcde]
-by: AnkitGourav (Ankitgourav035@gmail.com)
-SystemUI: QS Header data usage info [1/2] <5 months ago> [cd19526a3a9]
-by: 00day0 (therandomuser11@gmail.com)
-base: Fix notification LED blink for missed calls <6 weeks ago> [ee974f8dccf]
-by: Vaisakh Murali (vaisakhmurali@gmail.com)
 
-[system/core]
-Ignore class_{reset|start}_post_data on non-updatable APEX. <11 months ago> [455966eea]
-by: Martijn Coenen (maco@google.com)
-
-[vendor/overlay]
-overlay: Add Derp Blue theme <21 hours ago> [c1fce60]
-by: Aman Singh (amankumarsingh1412@gmail.com)
+[packages/apps/Settings]
+Setings: Ensure SeekBars with inteval have a default value <15 hours ago> [053dd52c36]
+by: Ido Ben-Hur (idoybh2@gmail.com)
 
 [packages/apps/DerpQuest]
-DerpQuest: QSHeaderDataUsage: add ability to show daily/monthly [2/2] <3 weeks ago> [153545a]
-by: AnkitGourav (Ankitgourav035@gmail.com)
-DerpQuest: QS Header data usage info [2/2] <5 months ago> [b25cc40]
-by: 00day0 (therandomuser11@gmail.com)
-DerpQuest: Add DND & Rate settings to flash on call [3/3] <31 hours ago> [d51ce45]
+DerpQuest: Guard new dynamic summaries against bad translations <31 minutes ago> [23a4c22]
 by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/apps/OpenDelta]
-OpenDelta: Adapt to the new file host <14 hours ago> [00e1ad0]
+DerpQuest: Ensure SeekBars with interval have a default value <15 hours ago> [8ccde9f]
 by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[prebuilts/clang/host/linux-x86]
-Update prebuilt Clang to r383902b. <4 days ago> [39c5f60d]
-by: Stephen Hines (srhines@google.com)
+DerpQuest: Fix ticker timeout SeekBar stuck <19 hours ago> [d219835]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+DerpQuest: Make notifications master switches summaries dynamic <19 hours ago> [650b63a]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+DerpQuest: Make LockScreen master switches summaries dynamic <23 hours ago> [490fb35]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+DerpQuest: Make QuickSettings master switches summaries dynamic <26 hours ago> [ba0f395]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+DerpQuest: Make StatusBar master switches summaries dynamic <26 hours ago> [27cefd4]
+by: Ido Ben-Hur (idoybh2@gmail.com)
 
 [scripts]
-scripts: updater: Adapt to new file host <16 hours ago> [acd6401]
+scripts: updater: make sure no local changes exist in repo <2 hours ago> [2411d58]
 by: Ido Ben-Hur (idoybh2@gmail.com)
-scripts: updater: Print diff with no pager <3 weeks ago> [82e6c11]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[device/xiaomi/dipper]
-dipper: Set Opendelta to new link for VANILLA <7 hours ago> [4e0e563]
-by: ALKALiKong (alikongalk@gmail.com)
-dipper: Switch to OSS fingerprint HIDL <4 weeks ago> [2d98624]
-by: Bruno Martins (bgcngm@gmail.com)
-dipper: Build with Google recorder <7 days ago> [6053637]
-by: Henrique Pereira (hlcpereira@pixelexperience.org)
-
-[device/xiaomi/sdm845-common]
-sdm845-common: sepolicy: Label additional fingerprint sensor props <3 weeks ago> [370c5c8]
-by: Bruno Martins (bgcngm@gmail.com)
-sdm845-common: fod: Always use HBM <5 months ago> [7dbb9bc]
-by: TheScarastic (warabhishek@gmail.com)
-sdm845-common: sepolicy: Label additional fingerprint sensor props <50 minutes ago> [43df1ce]
-by: Bruno Martins (bgcngm@gmail.com)
-sdm845-common: fingerprint: Add Xiaomi fingerprintextension support <4 weeks ago> [4d28d4f]
-by: Pig (pig.priv@gmail.com)
-sdm845-common: fingerprint: Allow loading FOD modules <4 weeks ago> [de3958f]
-by: Bruno Martins (bgcngm@gmail.com)
-sdm845-common: Also allow extracting target device blobs only <3 weeks ago> [a9d8d71]
-by: Bruno Martins (bgcngm@gmail.com)
-sdm845-common: sepolicy: Label fpc_kpi property <3 months ago> [627ed61]
-by: Michael Bestas (mkbestas@lineageos.org)
-sdm845-common: fingerprint: Don't set ro.boot.fpsensor <11 months ago> [a120ba5]
-by: LuK1337 (priv.luk@gmail.com)
-sdm845-common: Drop no longer needed fingerprint blobs <4 weeks ago> [92f38de]
-by: Bruno Martins (bgcngm@gmail.com)
-sdm845-common: Make fingerprint HIDL fully treble compliant <4 weeks ago> [470e7bb]
-by: LuK1337 (priv.luk@gmail.com)
-sdm845-common: Import fingerprint HIDL <1 year, 2 months ago> [7d314ee]
-by: Demon Singur (demonsingur@gmail.com)
-
-[vendor/xiaomi/dipper]
-vendor: dipper: update blobs to v11.0.8.0 <8 hours ago> [bb4ef3c]
-by: ALKALiKong (alikongalk@gmail.com)
-
-[vendor/xiaomi/sdm845-common]
-Sync blobs <8 hours ago> [80f088e]
-by: ALKALiKong (alikongalk@gmail.com)
 
 
 ====================
-     06-13-2020
+     07-13-2020
 ====================
 
-[frameworks/base]
-base: Add DND & Rate settings to flash on call [1/3] <31 hours ago> [341c3374b5c]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-base: Allow to flash on call only when entirely silent [1/3] <4 days ago> [6372450f2ca]
-by: Ido Ben-Hur (idoybh2@gmail.com)
+[device/aosip/sepolicy]
+sepolicy: treat vnswap as zram <4 months ago> [4e00cde]
+by: Park Ju Hyung (qkrwngud825@gmail.com)
 
 [packages/apps/Settings]
-Settings: Randomize DerpQuest's summary <2 days ago> [4003d4ca89]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/services/Telecomm]
-Telecomm: Add DND & Rate settings to flash on call [2/3] <31 hours ago> [a78325f4]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-Telecomm: Allow to flash on call only when entirely silent [2/3] <4 days ago> [570b0673]
-by: Ido Ben-Hur (idoybh2@gmail.com)
+Settings: Update Chinese translations <2 days ago> [ee8fbf266d]
+by: ALKALiKong (alikongalk@gmail.com)
 
 [packages/apps/DerpQuest]
-DerpQuest: Allow to flash on call only when entirely silent [3/3] <4 days ago> [84a1cb0]
+DerpQuest: Code cleanup of 1a7fbe7 <2 days ago> [0a13920]
 by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[device/xiaomi/sdm845-common]
-sdm845-common: Update to MIUI V11.0.5.0.QDGMIXM global stable blobs <11 days ago> [fa52c30]
-by: Bruno Martins (bgcngm@gmail.com)
-sdm845-common: parts: Make thermal profiles naming completely generic <4 weeks ago> [791f5d3]
-by: Bruno Martins (bgcngm@gmail.com)
-sdm845-common: parts: Implement dynamic thermal profiles <5 weeks ago> [247d668]
-by: TheScarastic (warabhishek@gmail.com)
-
-
-====================
-     06-12-2020
-====================
-
-[manifest]
-manifest: Track msm8998 audio HAL from poad <3 days ago> [089cfdc]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/apps/Matlog]
-MatLog: create better widget images <3 days ago> [a2d513f]
-by: maxwen (max.weninger@gmail.com)
-
-[packages/apps/Settings]
-Settings: Add RU translation for vibration patterns (#15) <2 days ago> [fa5da95520]
-by: RunningMango (36758157+RunningMango@users.noreply.github.com)
+DerpQuest: Update Chinese translations (#72) <2 days ago> [db0d858]
+by: ALKALiKong (54100342+ALKALiKong233@users.noreply.github.com)
 
 [packages/apps/OpenDelta]
-OpenDelta: Update RU translation (#2) <2 days ago> [ec93023]
-by: RunningMango (36758157+RunningMango@users.noreply.github.com)
+OpenDelta: Update Chinese translations (#4) <2 days ago> [0f743ca]
+by: ALKALiKong (54100342+ALKALiKong233@users.noreply.github.com)
 
 
 ====================
-     06-11-2020
+     07-12-2020
+====================
+
+[scripts]
+scripts: updater: Add color coding <3 days ago> [6afb596]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+scripts: updater: Do not offer to upload to SourceForge <3 days ago> [1df8693]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+
+====================
+     07-11-2020
 ====================
 
 [frameworks/base]
-Add Flashlight blink on incoming calls [1/3] <6 months ago> [0a48c080557]
-by: PMS22 (pratham220399@gmail.com)
-Revert "Added features flash-call-on-waiting [1/3]" <4 days ago> [ff28d930daf]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/services/Telecomm]
-Telecomm: Add Flashlight blink on incoming calls [2/3] <2 years ago> [74510c73]
-by: Shripal17 (shripal17@gmail.com)
-Revert "Added features flash-call-on-waiting [2/3]" <4 days ago> [d0c0832a]
+ScreenDecorations: Don't draw cutouts in immerse <5 days ago> [042a9cb0a7c]
+by: Kshitij Gupta (kshitijgm@gmail.com)
+FODCircleView: Fix up notch-city for fod devices <6 days ago> [e5111da57d9]
+by: Ashwin R C (ashwin2001achu@gmail.com)
+ScreenDecorations: Check setting if newValue is null, respect defaults <7 days ago> [5cd29f27a83]
+by: Kshitij Gupta (kshitijgm@gmail.com)
+ScreenDecorations: Remove the red debug color <7 days ago> [dca6936080a]
+by: Kshitij Gupta (kshitijgm@gmail.com)
+base: Rework corner handling in notch-city immerse mode <7 days ago> [e2aff2908a1]
+by: Kshitij Gupta (kshitijgm@gmail.com)
+base: Remove current immserse corner impl <8 days ago> [6c4f41bbde9]
+by: Kshitij Gupta (kshitijgm@gmail.com)
+Revert "base: SystemUI: add separate config for pulse brightness [1/2]" <4 days ago> [903ce8e905d]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 
 [packages/apps/DerpQuest]
-DerpQuest: Add Flashlight blink on incoming calls [3/3] <2 years ago> [8cd4cff]
-by: PMS22 (prathams99@rediff.com)
-DerpQuest: Remove flash-on-call settings in favor of new one <4 days ago> [64e366f]
+DerpQuest: Remove custom doze brightness settings <4 days ago> [40020a5]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[scripts]
+scripts: updater: Offer to direct link for OpenDelta <4 days ago> [5cca7d4]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 
 
 ====================
-     06-10-2020
-====================
-
-[manifest]
-manifest: Track our own sm8150 display HAL <5 days ago> [beacdbe]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[external/selinux]
-Don't require seinfo for privapps <7 months ago> [902ed15c]
-by: Ashwini Oruganti (ashfall@google.com)
-
-[hardware/qcom-caf/sm8150/display]
-commonsys-intf: display: Update SmoMo interface <9 months ago> [a5ec2689]
-by: Ray Zhang (rayz@codeaurora.org)
-
-[packages/apps/DeskClock]
-DeskClock: Modernize timer_setup_time look <12 days ago> [9cf6ae6ea]
-by: LuK1337 (priv.luk@gmail.com)
-DeskClock: Update drawables <13 days ago> [5a6665306]
-by: LuK1337 (priv.luk@gmail.com)
-Revert "Remove max aspect ratio." <9 days ago> [9492a4f8a]
-by: Wang Han (416810799@qq.com)
-Import translations. DO NOT MERGE <5 months ago> [a5cb3320e]
-by: Bill Yi (byi@google.com)
-Import translations. DO NOT MERGE <9 months ago> [4af9d0eaf]
-by: Bill Yi (byi@google.com)
-AOSP/DeskClock - Added SET_ALARM permission check <5 weeks ago> [7aca2eb38]
-by: Colin Marsch (colinmarsch@google.com)
-AOSP/DeskClock - Updated to sdkVersion 29. <7 weeks ago> [42973c47e]
-by: Raman Tenneti (rtenneti@google.com)
-AOSP/DeskClock - Updated to sdkVersion 29. <7 months ago> [960dd5cf6]
-by: Raman Tenneti (rtenneti@google.com)
-
-[packages/apps/Dialer]
-Automatic translation import <4 days ago> [eb38e13b8]
-by: Akhil Narang (akhilnarang.1999@gmail.com)
-
-[packages/apps/Launcher3]
-Automatic translation import <4 days ago> [5261213b0]
-by: Akhil Narang (akhilnarang.1999@gmail.com)
-
-
-====================
-     06-09-2020
-====================
-
-[frameworks/native]
-commonsys-intf: display: Add frame extn interface. <12 months ago> [e557b932c]
-by: Rajavenu Kyatham (rkyatham@codeaurora.org)
-commonsys-intf: display: Add extension interfaces <4 months ago> [c0d7e010a]
-by: Karthi Kandasmay (kartka@codeaurora.org)
-sf: avoid assumption remote binder is local <3 months ago> [0fb28f97c]
-by: Steven Moreland (smoreland@google.com)
-DO NOT MERGE: SF: fix SurfaceFlinger freeze <4 months ago> [2ccc31d88]
-by: Marissa Wall (marissaw@google.com)
-sf: Fix issue with dequeueBuffer when multiple display present <1 year, 9 months ago> [43182d5a4]
-by: Baldev Sahu (bsahu@codeaurora.org)
-SurfaceFlinger: Exclude CAF extensions from non-QC devices <11 months ago> [ca153e26c]
-by: jhenrique09 (jhenrique09.mcz@hotmail.com)
-surfaceflinger: Merge caf changes <9 days ago> [eb46e553c]
-by: Adhitya Mohan (me@adhityamohan.in)
-
-[packages/apps/Settings]
-Settings: Fix IndexOutOfBound error on bt codec selection <2 weeks ago> [4c9ac68d02]
-by: rituj (ritujbeniwal@gmail.com)
-
-
-====================
-     06-08-2020
+     07-10-2020
 ====================
 
 [frameworks/base]
-SystemUI: Adapt screenshot sound to ringer modes <3 weeks ago> [a111fb4d2c0]
+FODCircleView: Update FOD icon position on DreamingStateChanged <7 weeks ago> [7b62b4f26a8]
 by: Ashwin R C (ashwin2001achu@gmail.com)
 
-[packages/apps/Settings]
-Settings: Preview the custom ringtone vibration pattern <7 days ago> [ae68a6065f]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-Settings: Hide settings version from carrier settings if unsupported <7 days ago> [c9b9bef325]
-by: Ido Ben-Hur (idoybh2@gmail.com)
+[packages/apps/Contacts]
+Contacts: Make the launch screen follow the system theme <4 weeks ago> [9c66735e0]
+by: Scott Warner (Tortel1210@gmail.com)
 
-[packages/services/Telecomm]
-Telecomm: Allow choosing a custom vibration pattern [2/3] <9 days ago> [f51a0847]
+[vendor/gapps]
+Revert "gapps: Drop overlays" <5 days ago> [62208b8]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 
-[packages/apps/DerpQuest]
-DerpQuest: Add drill <3 years, 4 months ago> [950164a]
-by: Pranav Vashi (neobuddy89@gmail.com)
+[vendor/pixelstyle]
+pixelstyle: Add Linotte font [2/2] <11 days ago> [1501a8f]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+pixelstyle: Add EvolveSans font [2/2] <11 days ago> [460c820]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+pixelstyle: Don't build google specific overlays for VANILLA <11 days ago> [dd02c41]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+[SQUASH] Remove OPScreenRecorder <12 days ago> [eac5390]
+by: Ido Ben-Hur (idoybh2@gmail.com)
 
-[prebuilts/clang/host/linux-x86/clang-twisted]
-Jun 6, 2020 <7 days ago> [4b000e7]
-by: TwistedPrime (36546624+TwistedPrime@users.noreply.github.com)
+
+====================
+     07-09-2020
+====================
+
+[frameworks/base]
+base: QS: Make sure we don't show an empty row <6 days ago> [9fa8f78a0a0]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[packages/apps/Dialer]
+Automatic translation import <5 days ago> [ddd6a529f]
+by: Akhil Narang (akhilnarang.1999@gmail.com)
+Dialer: Use a DayNight launch theme <3 weeks ago> [f4b2a5430]
+by: Scott Warner (Tortel1210@gmail.com)
+
+[packages/apps/Messaging]
+Automatic translation import <5 days ago> [42b2e5e]
+by: Akhil Narang (akhilnarang.1999@gmail.com)
+Messaging: Use a DayNight launch theme <3 weeks ago> [f6685e8]
+by: Scott Warner (Tortel1210@gmail.com)
+
+[system/core]
+adb: Look for shell executable in alternate places <2 years, 11 months ago> [7bd5bdb2b]
+by: Tom Marshall (tdm.code@gmail.com)
+
+[packages/apps/OpenDelta]
+OpenDelta: Add a null check for info image visibility <6 days ago> [fd77b58]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+
+====================
+     07-08-2020
+====================
+
+[frameworks/av]
+Add persist.sys.phh.disable_a2dp_offload property to force a2dp offload <7 weeks ago> [c7fd34fd9]
+by: Pierre-Hugues Husson (phh@phh.me)
+
+[frameworks/base]
+base: Fix freeform window moving/resizing doesn't work <10 weeks ago> [607c5b2efc6]
+by: utzcoz (utzcoz@gmail.com)
+
+[system/bt]
+Add persist.sys.phh.disable_a2dp_offload property to force a2dp offload <7 weeks ago> [cd0a289c3]
+by: Pierre-Hugues Husson (phh@phh.me)
 
 
