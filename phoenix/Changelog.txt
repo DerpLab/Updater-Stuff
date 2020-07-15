@@ -1,403 +1,427 @@
 ====================
-     06-19-2020
+     07-14-2020
 ====================
 
 [frameworks/base]
-SystemUI: arrow keys while typing resurrection [1/2] <6 months ago> [b034c56e56b]
-by: maxwen (max.weninger@gmail.com)
-
-[frameworks/native]
-Revert "surfaceflinger: Merge caf changes" <10 minutes ago> [9b6ec6e19]
-by: CryllicBuster273 (cryllicbuster273@pixelexperience.org)
-Revert "SurfaceFlinger: Exclude CAF extensions from non-QC devices" <10 minutes ago> [1bb3ee9d6]
-by: CryllicBuster273 (cryllicbuster273@pixelexperience.org)
-
-[packages/apps/Matlog]
-Automatic translation import <13 hours ago> [49007ec]
-by: maxwen (max.weninger@gmail.com)
-
-[packages/apps/DerpQuest]
-DerpQuest: One navbar switch to rule them all <12 hours ago> [2ca1dca]
+base: Make sound tile toggle to silent instead of DnD <2 hours ago> [c54080c61b0]
 by: Ido Ben-Hur (idoybh2@gmail.com)
-DerpQuest: Arrow keys while typing resurrection [2/2] <19 hours ago> [7d61217]
-by: maxwen (max.weninger@gmail.com)
-
-[device/xiaomi/phoenix]
-sm6150-common: Remove lineage stuff <4 weeks ago> [fc6e5b79]
-by: Cryllicbuster273 (cryllicbuster273@gmail.com)
-phoenix: DerpFest Bringup <4 weeks ago> [4a4a50cd]
-by: Cryllicbuster273 (cryllicbuster273@gmail.com)
-phoenix: Update Prebuilt Kernel <19 hours ago> [b82d109b]
-by: CryllicBuster273 (cryllicbuster273@pixelexperience.org)
-phoenix: Set default DPI to 420 <10 days ago> [b9c66a54]
-by: GtrCraft (nickvanbokhorst@hotmail.com)
-phoenix: Update prebuilt kernel <2 days ago> [c89ec795]
-by: cryllicbuster273 (cryllicbuster273@gmail.com)
-sm6150-common: Add power off alarm service <2 years, 10 months ago> [c0e2a402]
-by: Mao Jinlong (jinlmao@codeaurora.org)
-sm6150-common: audio: Switch to CAF audio policy configuration <5 days ago> [12c94b66]
-by: LuK1337 (priv.luk@gmail.com)
-sm6150-common: Use ODM_MANIFEST_FILES for QVA manifest <4 days ago> [5458520e]
-by: Pig (pig.priv@gmail.com)
-sm6150-common: power-libperfmgr: remove Google-specific display LPM control <6 days ago> [7405bdc0]
-by: Jesse Chan (jc@lineageos.org)
-sm6150-common: power-libperfmgr: simply wait if idle state node is not present <6 days ago> [7c2af728]
-by: Jesse Chan (jc@lineageos.org)
-sm6150-common: Increase ro.lmk.medium to prevent kills at  medium vmpressure <2 years, 3 months ago> [1428e25f]
-by: Suren Baghdasaryan (surenb@google.com)
-sm6150-common: disable proximity usage during doze <2 months ago> [26436a69]
-by: Demon000 (demonsingur@gmail.com)
-phoenix: include ANXCamera <4 weeks ago> [411c3f5f]
-by: sarveshrulz (sarveshkardekar@gmail.com)
-phoenix: Fill notch cutout <4 days ago> [3463ccec]
-by: CryllicBuster273 (cryllicbuster273@gmail.com)
-phoenix: Add refresh rate props <4 days ago> [9d0809b0]
-by: CryllicBuster273 (cryllicbuster273@gmail.com)
-phoenix: Add graphic props for high display rate <7 weeks ago> [32789322]
-by: Pranav Vashi (neobuddy89@gmail.com)
-phoenix: Add displayfeature props <4 days ago> [13d9f53b]
-by: CryllicBuster273 (cryllicbuster273@gmail.com)
-phoenix: Add initial device specific props <3 months ago> [08287db8]
-by: Pranav Vashi (neobuddy89@gmail.com)
-phoenix: Add missing Configs in BoardConfig.mk <4 days ago> [9d13628d]
-by: CryllicBuster273 (cryllicbuster273@gmail.com)
-phoenix: Set FCM level for manifest <5 weeks ago> [58cc5015]
-by: Pranav Vashi (neobuddy89@gmail.com)
-phoenix: Update README.md <4 days ago> [4075eb84]
-by: CryllicBuster273 (cryllicbuster273@gmail.com)
-phoenix: Support more variants <4 months ago> [93054303]
-by: Bruno Martins (bgcngm@gmail.com)
-phoenix: Prevent NPE before DiracSound is initialized <5 weeks ago> [5aae7034]
-by: Bruno Martins (bgcngm@gmail.com)
-phoenix: Fix battery light not lit after notification light off <3 weeks ago> [dd61bde1]
-by: dianlujitao (dianlujitao@lineageos.org)
-phoenix: Fix up broken power profile for framework <2 weeks ago> [09337efe]
-by: Pranav Vashi (neobuddy89@gmail.com)
-phoenix: Update power profile from V11.0.10.0 <2 weeks ago> [b6e638fd]
-by: Pranav Vashi (neobuddy89@gmail.com)
-phoenix: Adjust powerhint for phoenix <2 weeks ago> [5f8b9f0a]
-by: GtrCraft (nickvanbokhorst@hotmail.com)
-phoenix: Tune zram for size and performance <4 weeks ago> [69124871]
-by: Pranav Vashi (neobuddy89@gmail.com)
-phoenix: Add switchbar to disable dynamic thermal <4 weeks ago> [1cb5a429]
-by: Pranav Vashi (neobuddy89@gmail.com)
-phoenix: Show back button on top for thermal profiles <4 weeks ago> [b2b09e22]
-by: Pranav Vashi (neobuddy89@gmail.com)
-phoenix: Set dynamic thermal interval to 1 sec <4 weeks ago> [9221fbec]
-by: Pranav Vashi (neobuddy89@gmail.com)
-phoenix: Switch back to default thermal profile when screen off <4 weeks ago> [65f09887]
-by: Pranav Vashi (neobuddy89@gmail.com)
-phoenix: Stop FPC Fingerprint Touch input <5 weeks ago> [f19eb85e]
-by: Cryllic Buster (49910222+CryllicBuster273@users.noreply.github.com)
-phoenix: Fix up and improve lights HAL <5 weeks ago> [7d6e0b6c]
-by: Pranav Vashi (neobuddy89@gmail.com)
-phoenix: correctly define TARGET_SCREEN_HEIGHT and Set boot animation res <4 days ago> [febfacaa]
-by: CryllicBuster273 (cryllicbuster273@gmail.com)
-phoenix: Use stock Consumer IR <5 weeks ago> [3998c709]
-by: Pranav Vashi (neobuddy89@gmail.com)
-phoenix: Add supported display modes <5 weeks ago> [995ce345]
-by: Pranav Vashi (neobuddy89@gmail.com)
-phoenix: Copy vendor version of media profiles <5 weeks ago> [4b089dc1]
-by: Pranav Vashi (neobuddy89@gmail.com)
-phoenix: Add battery daemons from stock <5 weeks ago> [9fbe36ed]
-by: Pranav Vashi (neobuddy89@gmail.com)
-phoenix: Add sensor service <5 weeks ago> [78986e20]
-by: Pranav Vashi (neobuddy89@gmail.com)
-phoenix: Add dynamic thermal profile implementation <6 weeks ago> [119ad130]
-by: TheScarastic (warabhishek@gmail.com)
-phoenix: Add back powerhint <6 weeks ago> [3d463864]
-by: Pig (pig.priv@gmail.com)
-phoenix: Add misys support <7 weeks ago> [1152bc80]
-by: Pranav Vashi (neobuddy89@gmail.com)
-phoenix: Add display feature <7 weeks ago> [45cf6304]
-by: Pranav Vashi (neobuddy89@gmail.com)
-phoenix: Add support for livedisplay modes and picture adjustment <7 weeks ago> [c4e73124]
-by: Pranav Vashi (neobuddy89@gmail.com)
-phoenix: Add fingerprint extension HAL <7 weeks ago> [f87767e0]
-by: Pranav Vashi (neobuddy89@gmail.com)
-phoenix: Opt out call proximity sensor check via overlay <7 weeks ago> [fb727aae]
-by: Pranav Vashi (neobuddy89@gmail.com)
-phoenix: Add goodix and fpc keylayouts <7 weeks ago> [6d250847]
-by: Pranav Vashi (neobuddy89@gmail.com)
-phoenix: Enable settings for lights <7 weeks ago> [70543f9f]
-by: Pranav Vashi (neobuddy89@gmail.com)
-phoenix: overlay: Define that device has notch <4 days ago> [4d12b760]
-by: CryllicBuster273 (cryllicbuster273@gmail.com)
-phoenix: Enable settings for lights <7 weeks ago> [55db0700]
-by: Pranav Vashi (neobuddy89@gmail.com)
-phoenix: build our own Light HAL <4 months ago> [7fbac82b]
-by: Peter Cai (peter@typeblog.net)
-phoenix: audio: Remove audio effects not present <2 months ago> [473537b6]
-by: Pranav Vashi (neobuddy89@gmail.com)
-phoenix: Allow building custom upstreamed kernels <2 months ago> [e0203aa0]
-by: Pranav Vashi (neobuddy89@gmail.com)
-phoenix: parts: Add DiracSound backend <1 year, 6 months ago> [8124167b]
-by: TheScarastic (warabhishek@gmail.com)
-phoenix: Update audio configs <2 months ago> [ca8e7d15]
-by: Pranav Vashi (neobuddy89@gmail.com)
-phoenix: Add initial device specific overlays <4 days ago> [84b7afd4]
-by: Pranav Vashi (neobuddy89@gmail.com)
-phoenix: Add device specific fstab <3 months ago> [1d58dd88]
-by: Pranav Vashi (neobuddy89@gmail.com)
-phoenix: Add fingerprint HAL and service <4 days ago> [fefb2b39]
-by: Pranav Vashi (neobuddy89@gmail.com)
-phoenix: Use Dynamic Partitions <4 days ago> [9af55c1b]
-by: Pranav Vashi (neobuddy89@gmail.com)
-phoenix: Set shipping api level <3 months ago> [d694deaf]
-by: Darshan Manjrekar (darshanmanjrekar1205@gmail.com)
-phoenix: Import Device specific audio configs <4 months ago> [4e5a9cb3]
-by: Bruno Martins (bgcngm@gmail.com)
-phoenix: Add initial Device blobs <4 months ago> [5bb3f09e]
-by: Bruno Martins (bgcngm@gmail.com)
-phoenix: Enable remaining device-specific features <4 months ago> [7b8c8808]
-by: Bruno Martins (bgcngm@gmail.com)
-phoenix: Import stock NFC configs <4 months ago> [28af09c1]
-by: Bruno Martins (bgcngm@gmail.com)
-phoenix: Bring up NFC <4 months ago> [2a783cf2]
-by: Bruno Martins (bgcngm@gmail.com)
-phoenix: Enable IRDA support <4 months ago> [b5cecf4d]
-by: Bruno Martins (bgcngm@gmail.com)
-TREEWIDE: sm6150-common -> phoenix <4 days ago> [259f12b6]
-by: CryllicBuster273 (cryllicbuster273@gmail.com)
-sm6150-common: Remove davinci and violet from supported devices <4 days ago> [f84fd6c5]
-by: CryllicBuster273 (cryllicbuster273@gmail.com)
-
-
-====================
-     06-18-2020
-====================
-
-[packages/apps/Dialer]
-Automatic translation import <2 days ago> [f12f25c29]
-by: Akhil Narang (akhilnarang.1999@gmail.com)
-
-[packages/apps/Launcher3]
-Automatic translation import <2 days ago> [9aa833129]
-by: Akhil Narang (akhilnarang.1999@gmail.com)
-
-[packages/apps/OpenDelta]
-OpenDelta: force white text on colored buttons <10 days ago> [9e22ef7]
-by: maxwen (max.weninger@gmail.com)
-
-[kernel/xiaomi/sm6150]
-arm64: dts: qcom: include missing dsi-panel-g7b-37-02-0b-dsc-video.dtsi <33 hours ago> [ac275c6ef147]
-by: merothh (merothh@gmail.com)
-arm64: dts: qcom: update g7b-37-02-0a dsi-on cmds <2 days ago> [0bc7fad2f9c6]
-by: merothh (merothh@gmail.com)
-thermal: fix lockdep splat from qcom driver <1 year, 4 months ago> [6182196a6fe3]
-by: Miguel de Dios (migueldedios@google.com)
-drivers: thermal: lmh_dcvs: Correct limits initial value <1 year, 2 months ago> [e5eab5f90f3d]
-by: YiHo Cheng (yihocheng@google.com)
-thermal: core: Use high value to init low temp tracking thermal_zone <1 year, 2 months ago> [73c0f948474e]
-by: davidchao (davidchao@google.com)
-thermal: adc_tm: Remove HIGHPRI flag on workqueue <4 months ago> [40caec091777]
-by: Tyler Nijmeh (tylernij@gmail.com)
-drivers: thermal: Don't qualify thermal polling as high priority <5 months ago> [6459ce10fec1]
-by: Tyler Nijmeh (tylernij@gmail.com)
-drivers: thermal: Avoid trip evaluation for disabled thermal zone <5 months ago> [b7b8a884c199]
-by: Ram Chandrasekar (rkumbako@codeaurora.org)
-net: import WireGuard version 1.0.20200611 <3 days ago> [0274033dd41c]
-by: GtrCraft (nickvanbokhorst@hotmail.com)
-power_supply: Fix unbalanced the power supplies <2 years, 11 months ago> [fcbbbe0ecc5e]
-by: jonghyun26.kim (jonghyun26.kim@lge.com)
-power: Stabilize fluctuation in charging speed <3 days ago> [c090e02982ef]
-by: Pranav Vashi (neobuddy89@gmail.com)
-phoenix: Enable TTL fixation suport <5 days ago> [6912967d8300]
-by: Pranav Vashi (neobuddy89@gmail.com)
-Revert "boeffla_wl_blocker: add generic wakelock blocker driver v1.0.0" <25 hours ago> [c924cc272da7]
-by: CryllicBuster273 (cryllicbuster273@pixelexperience.org)
-Revert "boeffla_wl_blocker: update to wakelock blocker driver v1.0.1" <25 hours ago> [f910a315a307]
-by: CryllicBuster273 (cryllicbuster273@pixelexperience.org)
-Revert "boeffla_wl_blocker: update to wakelock blocker driver v1.1.0" <25 hours ago> [3d866f027481]
-by: CryllicBuster273 (cryllicbuster273@pixelexperience.org)
-Revert "boeffla_wl_blocker: don't block wakelocks by default" <25 hours ago> [d27cb8e71df9]
-by: CryllicBuster273 (cryllicbuster273@pixelexperience.org)
-
-
-====================
-     06-17-2020
-====================
-
-[frameworks/base]
-SystemUI: Update custom carrier label position correctly <3 days ago> [3a3da3faaa2]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-overlays: Fix inactive state Wifi Icon in Circular & Filled Icon Pack <3 days ago> [eb79aa4401d]
-by: Aman Singh (amankumarsingh1412@gmail.com)
-
-[packages/apps/DerpQuest]
-DerpQuest: Update RU translation (#67) <3 days ago> [fd0d485]
-by: RunningMango (36758157+RunningMango@users.noreply.github.com)
-
-[packages/apps/OpenDelta]
-OpenDelta: Fix RU translation (#3) <3 days ago> [d899ff5]
-by: RunningMango (36758157+RunningMango@users.noreply.github.com)
-
-[scripts]
-scripts: updater: Support new info.sh <5 days ago> [8b01ddf]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[vendor/xiaomi/phoenix]
-phoenix: Initial blobs from phoenixin-user-10-QKQ1.190825.002-V11.0.10.0.QGHINXM-release-keys <2 days ago> [300bc44]
-by: CryllicBuster273 (cryllicbuster273@gmail.com)
-
-
-====================
-     06-16-2020
-====================
-
-[frameworks/base]
-FODCircleView: Add support for pressed fod layer <4 weeks ago> [03e0b117626]
-by: TheScarastic (warabhishek@gmail.com)
-Revert "FODCircleView: dispatch onPress to HAL only after dimming is applied" <5 days ago> [85cf4e78443]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-SystemUI: Long press Caffeine for infinite duration <4 weeks ago> [073c1cba27f]
-by: chillger (alexander.loskutov@gmail.com)
-
-[hardware/qcom-caf/sm8150/display]
-sdm: mark FOD pressed layer by setting a bit on ZPOS <4 weeks ago> [f5e564cf]
-by: Demon000 (demonsingur@gmail.com)
-
-[packages/services/Telecomm]
-Telecomm: Add a null check to custom ring vibration <4 days ago> [42ac0212]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/apps/DerpQuest]
-DerpQuest: Actually save carrier label placement setting <3 days ago> [002ac9f]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[device/xiaomi/phoenix]
-sm6150-common: Improve thermal config <5 days ago> [43fb32e5]
-by: CryllicBuster273 (cryllicbuster273@gmail.com)
-sm6150-common: configs: wifi: Enable 2.4GHz channel bonding and add TDLS <11 days ago> [58f393a6]
-by: Planet-X (planetx.dev@gmail.com)
-sm6150-common: overlay: show battery icon & estimate in QS header <11 days ago> [132d0bac]
-by: Genkzsz11 (Genkzsz11@gmail.com)
-sm6150-common: Enable AOSP SurfaceFlinger <11 days ago> [332b14da]
-by: Dyneteve (sound0020@gmail.com)
-sm6150-common: Adjust window corners <11 months ago> [1f4a9757]
-by: Beverly (beverlyt@google.com)
-sm6150-common: Prevent RTT VT call on networks that don't support it <2 months ago> [5ff1763a]
-by: Vala Zadeh (vzadeh@codeaurora.org)
-
-[hardware/xiaomi]
-interfaces: Fix blueprint generation <5 weeks ago> [4defef0]
-by: Pig (pig.priv@gmail.com)
-Remove path from hidl_package_root. <1 year, 11 months ago> [6ba9d66]
-by: Steven Moreland (smoreland@google.com)
-interfaces: Import Xiaomi citsensor HAL definitions <5 weeks ago> [bb41448]
-by: PIPIPIG233666 (pig.priv@gmail.com)
-
-
-====================
-     06-15-2020
-====================
-
-[frameworks/base]
-overlays: Tint all power menu icons with the system accent <9 weeks ago> [45303e3a0c5]
-by: spezi77 (spezi7713@gmx.net)
-
-[frameworks/native]
-surfaceflinger: change usageBits type to uint64_t <3 weeks ago> [845990e28]
-by: Pierre-Hugues Husson (phhusson@gmail.com)
-surfaceflinger: Add support for extension lib <4 weeks ago> [20c395d89]
-by: Pierre-Hugues Husson (phh@phh.me)
-
-[vendor/aosip]
-soong: Add flag for fod extension <4 weeks ago> [85562ad]
-by: TheScarastic (warabhishek@gmail.com)
-
-[scripts]
-scripts: updater: Adapt to new file host <6 days ago> [90f5d07]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-
-====================
-     06-14-2020
-====================
-
-[frameworks/base]
-base: Use a proper settings validator for qs_datausage <5 days ago> [2a212396dd2]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-SystemUI: QSHeaderDataUsage: hide usage if device is disconnected <3 weeks ago> [5b79ba6f114]
-by: AnkitGourav (Ankitgourav035@gmail.com)
-SystemUI: QSHeaderDataUsage: show Wi-Fi usage when connected to Wi-Fi <3 weeks ago> [0cbc906e90b]
-by: AnkitGourav (Ankitgourav035@gmail.com)
-SystemUI: QSHeaderDataUsage: add icon and improve view <3 weeks ago> [0dc75ce8621]
-by: AnkitGourav (Ankitgourav035@gmail.com)
-SystemUI: QSHeaderDataUsage: update view immediately after change <4 weeks ago> [d7bab8995cf]
-by: AnkitGourav (Ankitgourav035@gmail.com)
-SystemUI: QSHeaderDataUsage: add ability to show daily/monthly [1/2] <4 weeks ago> [0ed2ea03d56]
-by: AnkitGourav (Ankitgourav035@gmail.com)
-SystemUI: QS Header data usage info: improve layout and view <4 weeks ago> [1c961970dfb]
-by: AnkitGourav (Ankitgourav035@gmail.com)
-aosipUtils: add method to check if device is connected to Wi-Fi <3 weeks ago> [c208bd8b423]
-by: AnkitGourav (Ankitgourav035@gmail.com)
-aosipUtils: add method to get today's passed time <4 weeks ago> [a5b6d27c50f]
-by: AnkitGourav (Ankitgourav035@gmail.com)
-aosipUtils: Add method to check for both wifi and mobile connections <6 months ago> [61e2a229a54]
+base: Make lockscreen timeout configurable [1/2] <5 weeks ago> [2554aebcad2]
 by: Alex Cruz (du.alexcruz@gmail.com)
-SystemUI: QS Header data usage info: don't show used <4 weeks ago> [688a5f5dcde]
-by: AnkitGourav (Ankitgourav035@gmail.com)
-SystemUI: QS Header data usage info [1/2] <5 months ago> [cd19526a3a9]
-by: 00day0 (therandomuser11@gmail.com)
-base: Fix notification LED blink for missed calls <7 weeks ago> [ee974f8dccf]
-by: Vaisakh Murali (vaisakhmurali@gmail.com)
+base: Settings: Backup album art filter <22 hours ago> [a682a230809]
+by: Ido Ben-Hur (idoybh2@gmail.com)
 
-[system/core]
-Ignore class_{reset|start}_post_data on non-updatable APEX. <11 months ago> [455966eea]
-by: Martijn Coenen (maco@google.com)
+[frameworks/native]
+Revert "surfaceflinger: Merge caf changes" <2 days ago> [3745f1d78]
+by: CryllicBuster273 (cryllicbuster273@pixelexperience.org)
+Revert "SurfaceFlinger: Exclude CAF extensions from non-QC devices" <2 days ago> [bb0335931]
+by: CryllicBuster273 (cryllicbuster273@pixelexperience.org)
 
-[vendor/overlay]
-overlay: Add Derp Blue theme <6 days ago> [c1fce60]
-by: Aman Singh (amankumarsingh1412@gmail.com)
+[packages/apps/Settings]
+Settings: Move refresh rate settings to display <6 weeks ago> [1381b5aa34]
+by: sarveshrulz (sarveshkardekar@gmail.com)
+Settings: Make lockscreen timeout configurable [2/2] <3 weeks ago> [7637153b5c]
+by: Alex Cruz (du.alexcruz@gmail.com)
+Settings: Ensure SeekBars with interval have a default value <18 hours ago> [6ec3a98752]
+by: Ido Ben-Hur (idoybh2@gmail.com)
 
 [packages/apps/DerpQuest]
-DerpQuest: QSHeaderDataUsage: add ability to show daily/monthly [2/2] <4 weeks ago> [153545a]
-by: AnkitGourav (Ankitgourav035@gmail.com)
-DerpQuest: QS Header data usage info [2/2] <5 months ago> [b25cc40]
-by: 00day0 (therandomuser11@gmail.com)
-DerpQuest: Add DND & Rate settings to flash on call [3/3] <6 days ago> [d51ce45]
+DerpQuest: Guard new dynamic summaries against bad translations <3 hours ago> [23a4c22]
 by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/apps/OpenDelta]
-OpenDelta: Adapt to the new file host <6 days ago> [00e1ad0]
+DerpQuest: Ensure SeekBars with interval have a default value <18 hours ago> [8ccde9f]
 by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[prebuilts/clang/host/linux-x86]
-Update prebuilt Clang to r383902b. <9 days ago> [39c5f60d]
-by: Stephen Hines (srhines@google.com)
+DerpQuest: Fix ticker timeout SeekBar stuck <22 hours ago> [d219835]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+DerpQuest: Make notifications master switches summaries dynamic <22 hours ago> [650b63a]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+DerpQuest: Make LockScreen master switches summaries dynamic <26 hours ago> [490fb35]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+DerpQuest: Make QuickSettings master switches summaries dynamic <29 hours ago> [ba0f395]
+by: Ido Ben-Hur (idoybh2@gmail.com)
 
 [scripts]
-scripts: updater: Print diff with no pager <4 weeks ago> [82e6c11]
+scripts: updater: make sure no local changes exist in repo <5 hours ago> [2411d58]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 
 [vendor/aeonax/ANXCamera]
-ANXCamera: enable 4k for lavender <5 days ago> [b1a802c]
+ANXCamera: update to v185 SaltyIntelligentPlainsqueaker <12 hours ago> [7fe8f4d]
 by: sarveshrulz (sarveshkardekar@gmail.com)
 
 
 ====================
-     06-13-2020
+     07-13-2020
+====================
+
+[packages/apps/DerpQuest]
+DerpQuest: Make StatusBar master switches summaries dynamic <29 hours ago> [27cefd4]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+DerpQuest: Code cleanup of 1a7fbe7 <2 days ago> [0a13920]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+
+====================
+     07-12-2020
+====================
+
+[frameworks/native]
+Revert "surfaceflinger: Merge caf changes" <32 minutes ago> [829af02f3]
+by: CryllicBuster273 (cryllicbuster273@pixelexperience.org)
+Revert "SurfaceFlinger: Exclude CAF extensions from non-QC devices" <32 minutes ago> [f1109ca9e]
+by: CryllicBuster273 (cryllicbuster273@pixelexperience.org)
+
+[packages/apps/Settings]
+Settings: Move refresh rate settings to display <5 weeks ago> [1ac1090ef2]
+by: sarveshrulz (sarveshkardekar@gmail.com)
+
+[scripts]
+scripts: updater: Add color coding <21 hours ago> [6afb596]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+scripts: updater: Do not offer to upload to SourceForge <22 hours ago> [1df8693]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[device/xiaomi/phoenix]
+phoenix: Fix derp in dependencies <30 minutes ago> [0aa32c84]
+by: Cryllic Buster (49910222+CryllicBuster273@users.noreply.github.com)
+phoenix: set OVERRIDE_TARGET_FLATTEN_APEX to false <3 days ago> [8f94b867]
+by: CryllicBuster273 (cryllicbuster273@pixelexperience.org)
+phoenix: Start Bootanim at late-init <3 days ago> [6ab84bd0]
+by: CryllicBuster273 (cryllicbuster273@pixelexperience.org)
+phoenix: Update Prebuilt Kernel <3 days ago> [0e6ef9fa]
+by: CryllicBuster273 (cryllicbuster273@pixelexperience.org)
+phoenix: Use Coral July FP <5 days ago> [fc7bee26]
+by: CryllicBuster273 (cryllicbuster273@pixelexperience.org)
+phoenix: Cleanup <7 weeks ago> [8b4233e9]
+by: Cryllicbuster273 (cryllicbuster273@gmail.com)
+phoenix: DerpFest Bringup <7 weeks ago> [b9315533]
+by: Cryllicbuster273 (cryllicbuster273@gmail.com)
+Revert "sm6150-common: Enable qti-telephony-common aosp_usr_pref_sel" <2 days ago> [1e8e3662]
+by: CryllicBuster273 (cryllicbuster273@pixelexperience.org)
+phoenix: Update ACDB loader and FM from LA.UM.8.9.r1-07100-SM6xx.0 <2 weeks ago> [2eb367a6]
+by: Pranav Vashi (neobuddy89@gmail.com)
+
+
+====================
+     07-11-2020
 ====================
 
 [frameworks/base]
-base: Add DND & Rate settings to flash on call [1/3] <6 days ago> [341c3374b5c]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-base: Allow to flash on call only when entirely silent [1/3] <9 days ago> [6372450f2ca]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/apps/Settings]
-Settings: Randomize DerpQuest's summary <7 days ago> [4003d4ca89]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/services/Telecomm]
-Telecomm: Add DND & Rate settings to flash on call [2/3] <6 days ago> [a78325f4]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-Telecomm: Allow to flash on call only when entirely silent [2/3] <9 days ago> [570b0673]
+Revert "base: SystemUI: add separate config for pulse brightness [1/2]" <2 days ago> [903ce8e905d]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 
 [packages/apps/DerpQuest]
-DerpQuest: Allow to flash on call only when entirely silent [3/3] <9 days ago> [84a1cb0]
+DerpQuest: Remove custom doze brightness settings <2 days ago> [40020a5]
 by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[scripts]
+scripts: updater: Offer to direct link for OpenDelta <2 days ago> [5cca7d4]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+
+====================
+     07-10-2020
+====================
+
+[frameworks/base]
+FODCircleView: Update FOD icon position on DreamingStateChanged <6 weeks ago> [7b62b4f26a8]
+by: Ashwin R C (ashwin2001achu@gmail.com)
+
+[packages/apps/Contacts]
+Contacts: Make the launch screen follow the system theme <4 weeks ago> [9c66735e0]
+by: Scott Warner (Tortel1210@gmail.com)
+
+[vendor/gapps]
+Revert "gapps: Drop overlays" <3 days ago> [62208b8]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[vendor/pixelstyle]
+pixelstyle: Add Linotte font [2/2] <9 days ago> [1501a8f]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+pixelstyle: Add EvolveSans font [2/2] <9 days ago> [460c820]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+pixelstyle: Don't build google specific overlays for VANILLA <9 days ago> [dd02c41]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+[SQUASH] Remove OPScreenRecorder <10 days ago> [eac5390]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[kernel/xiaomi/sm6150]
+Merge 4.14.188 into ten <3 days ago> [89dba45e7823]
+by: CryllicBuster273 (cryllicbuster273@pixelexperience.org)
+phoenix: Build DTBO <5 days ago> [e868cc4c2231]
+by: CryllicBuster273 (cryllicbuster273@pixelexperience.org)
+
+
+====================
+     07-09-2020
+====================
+
+[packages/apps/Dialer]
+Automatic translation import <3 days ago> [ddd6a529f]
+by: Akhil Narang (akhilnarang.1999@gmail.com)
+Dialer: Use a DayNight launch theme <3 weeks ago> [f4b2a5430]
+by: Scott Warner (Tortel1210@gmail.com)
+
+[packages/apps/Messaging]
+Automatic translation import <3 days ago> [42b2e5e]
+by: Akhil Narang (akhilnarang.1999@gmail.com)
+Messaging: Use a DayNight launch theme <3 weeks ago> [f6685e8]
+by: Scott Warner (Tortel1210@gmail.com)
+
+[system/core]
+adb: Look for shell executable in alternate places <2 years, 11 months ago> [7bd5bdb2b]
+by: Tom Marshall (tdm.code@gmail.com)
+
+[packages/apps/OpenDelta]
+OpenDelta: Add a null check for info image visibility <4 days ago> [fd77b58]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[kernel/xiaomi/sm6150]
+Linux 4.14.188 <3 days ago> [56dfe6252c68]
+by: Greg Kroah-Hartman (gregkh@linuxfoundation.org)
+efi: Make it possible to disable efivar_ssdt entirely <4 weeks ago> [d08e8347b707]
+by: Peter Jones (pjones@redhat.com)
+dm zoned: assign max_io_len correctly <4 weeks ago> [89306f5ea312]
+by: Hou Tao (houtao1@huawei.com)
+irqchip/gic: Atomically update affinity <3 weeks ago> [fa1c518dfe21]
+by: Marc Zyngier (maz@kernel.org)
+MIPS: Add missing EHB in mtc0 -> mfc0 sequence for DSPen <10 days ago> [ef2c83786b0b]
+by: Hauke Mehrtens (hauke@hauke-m.de)
+cifs: Fix the target file was deleted when rename failed. <2 weeks ago> [fb28917db916]
+by: Zhang Xiaoxu (zhangxiaoxu5@huawei.com)
+SMB3: Honor persistent/resilient handle flags for multiuser mounts <2 weeks ago> [9db66da3575f]
+by: Paul Aurich (paul@darkrain42.org)
+SMB3: Honor 'seal' flag for multiuser mounts <2 weeks ago> [0e1839bb7a5b]
+by: Paul Aurich (paul@darkrain42.org)
+Revert "ALSA: usb-audio: Improve frames size computation" <5 days ago> [282aba56713b]
+by: Greg Kroah-Hartman (gregkh@linuxfoundation.org)
+nfsd: apply umask on fs without ACL support <4 weeks ago> [15fefb108c7a]
+by: J. Bruce Fields (bfields@redhat.com)
+i2c: algo-pca: Add 0x78 as SCL stuck low status for PCA9665 <11 days ago> [97071dcd17c1]
+by: Chris Packham (chris.packham@alliedtelesis.co.nz)
+virtio-blk: free vblk-vqs in error path of virtblk_probe() <4 weeks ago> [8040aa48727e]
+by: Hou Tao (houtao1@huawei.com)
+drm: sun4i: hdmi: Remove extra HPD polling <13 days ago> [7e3bde4e063c]
+by: Chen-Yu Tsai (wens@csie.org)
+hwmon: (acpi_power_meter) Fix potential memory leak in acpi_power_meter_add() <2 weeks ago> [91437c8300cf]
+by: Misono Tomohiro (misono.tomohiro@jp.fujitsu.com)
+hwmon: (max6697) Make sure the OVERT mask is set correctly <3 weeks ago> [a5275f24da11]
+by: Chu Lin (linchuyuan@google.com)
+cxgb4: parse TC-U32 key values and masks natively <3 weeks ago> [b728e1f0bfdc]
+by: Rahul Lakkireddy (rahul.lakkireddy@chelsio.com)
+cxgb4: use unaligned conversion for fetching timestamp <3 weeks ago> [f9e9f6c7331f]
+by: Rahul Lakkireddy (rahul.lakkireddy@chelsio.com)
+crypto: af_alg - fix use-after-free in af_alg_accept() due to bh_lock_sock() <5 weeks ago> [687ca6afdae1]
+by: Herbert Xu (herbert@gondor.apana.org.au)
+kgdb: Avoid suspicious RCU usage warning <6 weeks ago> [ac31ef00ad96]
+by: Douglas Anderson (dianders@chromium.org)
+usb: usbtest: fix missing kfree(dev->buf) in usbtest_disconnect <4 weeks ago> [4336374bc222]
+by: Zqiang (qiang.zhang@windriver.com)
+mm/slub: fix stack overruns with SLUB_STATS <6 weeks ago> [88451e4b5479]
+by: Qian Cai (cai@lca.pw)
+mm/slub.c: fix corrupted freechain in deactivate_slab() <6 weeks ago> [00d2b1efa0bb]
+by: Dongli Zhang (dongli.zhang@oracle.com)
+usbnet: smsc95xx: Fix use-after-free after removal <3 weeks ago> [01a425d081be]
+by: Tuomas Tynkkynen (tuomas.tynkkynen@iki.fi)
+EDAC/amd64: Read back the scrub rate PCI register on F15h <3 weeks ago> [3ecfc0fdaea1]
+by: Borislav Petkov (bp@suse.de)
+mm: fix swap cache node allocation mask <2 weeks ago> [eba151dc93e6]
+by: Hugh Dickins (hughd@google.com)
+btrfs: fix data block group relocation failure due to concurrent scrub <5 weeks ago> [6d87c029bbf0]
+by: Filipe Manana (fdmanana@suse.com)
+btrfs: cow_file_range() num_bytes and disk_num_bytes are same <2 years, 5 months ago> [e3c693315709]
+by: Anand Jain (Anand.Jain@oracle.com)
+btrfs: fix a block group ref counter leak after failure to remove block group <6 weeks ago> [b74639caf403]
+by: Filipe Manana (fdmanana@suse.com)
+
+
+====================
+     07-08-2020
+====================
+
+[frameworks/av]
+Add persist.sys.phh.disable_a2dp_offload property to force a2dp offload <7 weeks ago> [c7fd34fd9]
+by: Pierre-Hugues Husson (phh@phh.me)
+
+[frameworks/base]
+base: QS: Make sure we don't show an empty row <4 days ago> [9fa8f78a0a0]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+base: Fix freeform window moving/resizing doesn't work <9 weeks ago> [607c5b2efc6]
+by: utzcoz (utzcoz@gmail.com)
+
+[system/bt]
+Add persist.sys.phh.disable_a2dp_offload property to force a2dp offload <7 weeks ago> [cd0a289c3]
+by: Pierre-Hugues Husson (phh@phh.me)
+
+[kernel/xiaomi/sm6150]
+phoenix-perf_defconfig: Enable for Clang's SCS <6 days ago> [60b97eb784f4]
+by: Panchajanya1999 (panchajanya@azure-dev.live)
+ANDROID: scs: fix recursive spinlock in scs_check_usage <6 weeks ago> [7e54f5a6e3fb]
+by: Sami Tolvanen (samitolvanen@google.com)
+ANDROID: kbuild: disable SCS by default in allmodconfig <7 months ago> [531aba149414]
+by: Sami Tolvanen (samitolvanen@google.com)
+BACKPORT: FROMLIST: arm64: implement Shadow Call Stack <2 years, 2 months ago> [b5f71886918a]
+by: Sami Tolvanen (samitolvanen@google.com)
+FROMLIST: arm64: disable SCS for hypervisor code <11 months ago> [4272e2bd38ed]
+by: Sami Tolvanen (samitolvanen@google.com)
+BACKPORT: FROMLIST: arm64: vdso: disable Shadow Call Stack <2 years, 2 months ago> [0c5bf8e2f98c]
+by: Sami Tolvanen (samitolvanen@google.com)
+FROMLIST: arm64: preserve x18 when CPU is suspended <2 years, 2 months ago> [b9324a4557d1]
+by: Sami Tolvanen (samitolvanen@google.com)
+FROMLIST: arm64: reserve x18 from general allocation with SCS <2 years, 2 months ago> [2d04c4ae712d]
+by: Sami Tolvanen (samitolvanen@google.com)
+FROMLIST: arm64: disable function graph tracing with SCS <1 year, 10 months ago> [9491e99e8a46]
+by: Sami Tolvanen (samitolvanen@google.com)
+FROMLIST: scs: add support for stack usage debugging <1 year, 10 months ago> [ac3c4eaa4f00]
+by: Sami Tolvanen (samitolvanen@google.com)
+FROMLIST: scs: add accounting <2 years, 2 months ago> [50bbd22d7315]
+by: Sami Tolvanen (samitolvanen@google.com)
+FROMLIST: add support for Clang's Shadow Call Stack (SCS) <2 years, 2 months ago> [dcdd5fbff60b]
+by: Sami Tolvanen (samitolvanen@google.com)
+
+
+====================
+     07-07-2020
+====================
+
+[manifest]
+Merge tag 'android-10.0.0_r40' into ten <6 days ago> [675dc06]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+Manifest for Android 10.0.0 Release 40 <6 days ago> [5383244]
+by: The Android Open Source Project (initial-contribution@android.com)
+
+[build/make]
+Merge tag 'android-10.0.0_r40' into HEAD <6 days ago> [bf43f35c6]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[frameworks/base]
+VolumeDialog: Launch Q expanded volume panel on arrow longpress <2 weeks ago> [06203df745c]
+by: Adhitya Mohan (me@adhityamohan.in)
+
+[frameworks/native]
+Merge tag 'android-10.0.0_r40' into staging/ten-android-10.0.0_r40 <6 days ago> [1f2c99574]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[packages/apps/Matlog]
+Matlog: Add a simple QS tile <10 days ago> [7b01e8a]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[packages/services/Telephony]
+Merge tag 'android-10.0.0_r40' into staging/ten-android-10.0.0_r40 <6 days ago> [62ecdb1ed]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[scripts]
+scripts: updater: Use git remote to fetch changes <5 days ago> [c9ccbdf]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+scripts: updater: Push info.sh in a separate commit <2 weeks ago> [b861437]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[kernel/xiaomi/sm6150]
+zcomp: Use ARRAY_SIZE() for backends list <5 weeks ago> [80bd72bc55bc]
+by: Andy Shevchenko (andriy.shevchenko@linux.intel.com)
+zram: Allocate struct zcomp_strm as per-CPU memory <7 weeks ago> [d06f4fdfadcc]
+by: Sebastian Andrzej Siewior (bigeasy@linutronix.de)
+drivers/block/zram/zram_drv.c: fix error return codes not being returned in writeback_store <5 months ago> [d673caf0d615]
+by: Colin Ian King (colin.king@canonical.com)
+zram: try to avoid worst-case scenario on same element pages <5 months ago> [e41d7d36768a]
+by: Taejoon Song (taejoon.song@lge.com)
+drivers/block/zram/zram_drv.c: fix idle/writeback string compare <1 year, 3 months ago> [f146e834eb90]
+by: Minchan Kim (minchan@kernel.org)
+zram: default to lzo-rle instead of lzo <1 year, 4 months ago> [679bac73e0c4]
+by: Dave Rodgman (dave.rodgman@arm.com)
+lib/lzo: fix ambiguous encoding bug in lzo-rle <4 weeks ago> [b8a902db1e4f]
+by: Dave Rodgman (dave.rodgman@arm.com)
+lib/lzo/lzo1x_compress.c: fix alignment bug in lzo-rle <10 months ago> [a76301640263]
+by: Dave Rodgman (dave.rodgman@arm.com)
+lib/lzo: fix bugs for very short or empty input <1 year, 3 months ago> [90ae44d21744]
+by: Dave Rodgman (dave.rodgman@arm.com)
+lib/lzo: separate lzo-rle from lzo <1 year, 4 months ago> [e7a29f1ad9bb]
+by: Dave Rodgman (dave.rodgman@arm.com)
+lib/lzo: implement run-length encoding <1 year, 4 months ago> [6f8599ad469f]
+by: Dave Rodgman (dave.rodgman@arm.com)
+lib/lzo: fast 8-byte copy on arm64 <1 year, 4 months ago> [7c48a418dd72]
+by: Matt Sealey (matt.sealey@arm.com)
+lib/lzo: 64-bit CTZ on arm64 <1 year, 4 months ago> [979fcd3931f0]
+by: Matt Sealey (matt.sealey@arm.com)
+lib/lzo: tidy-up ifdefs <1 year, 4 months ago> [6062b121b4e3]
+by: Dave Rodgman (dave.rodgman@arm.com)
+
+
+====================
+     07-06-2020
+====================
+
+[packages/apps/DeskClock]
+DeskClock: Remove notification sound from firing and snoozing channels <4 weeks ago> [22ec01749]
+by: Michael W (baddaemon87@gmail.com)
+DeskClock: Replace ViewPager with manual fragment handling <4 weeks ago> [f71fd84d6]
+by: Michael W (baddaemon87@gmail.com)
+
+[packages/apps/OpenDelta]
+Merge remote-tracking branch 'omni/android-10' into ten <7 days ago> [b0d6c48]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[kernel/xiaomi/sm6150]
+phoenix-perf_defconfig: Add blu_schedutil <9 days ago> [3c020707a2d2]
+by: GtrCraft (nickvanbokhorst@hotmail.com)
+cpufreq: blu_schedutil: merge latest CAF kernel/msm-4.14 for sm8150 <11 months ago> [7d21c3d6486f]
+by: engstk (eng.stk@sapo.pt)
+cpufreq: blu_schedutil: fix iowait_boost_enable on gov change <11 months ago> [099dc3f4d942]
+by: engstk (eng.stk@sapo.pt)
+cpufreq: blu_schedutil: merge latest CAF kernel/msm-4.14 for sm8150 <12 months ago> [27df4e675995]
+by: engstk (eng.stk@sapo.pt)
+cpufreq: blu_schedutil: fix build for linux 4.14 <1 year ago> [daf3bde7ca80]
+by: engstk (eng.stk@sapo.pt)
+cpufreq: blu_schedutil: add some bits from Pixel 3 <1 year, 9 months ago> [0306e7a2146a]
+by: engstk (eng.stk@sapo.pt)
+cpufreq: blu_schedutil: add a couple fixes <1 year, 10 months ago> [829762c985ce]
+by: engstk (eng.stk@sapo.pt)
+cpufreq: blu_schedutil: make iowait boost optional <2 years ago> [1e485552a0f1]
+by: engstk (eng.stk@sapo.pt)
+cpufreq: blu_schedutil: Introduce initial bringup <2 years, 1 month ago> [0c1fd18658e4]
+by: engstk (eng.stk@sapo.pt)
+phoenix: Sign Builds <8 days ago> [9249c8d98d3c]
+by: CryllicBuster273 (cryllicbuster273@pixelexperience.org)
+Update Telegram Chat ID <9 days ago> [2e7518518cdd]
+by: CryllicBuster273 (cryllicbuster273@pixelexperience.org)
+phoenix-perf_defconfig: Regenerate after latest LTS Merge <11 days ago> [61f86f3ce881]
+by: CryllicBuster273 (cryllicbuster273@pixelexperience.org)
+StormBreaker v2.5 <11 days ago> [b1ed49e21c59]
+by: CryllicBuster273 (cryllicbuster273@pixelexperience.org)
+Merge tag 'v4.14.187' of https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux into ten <6 days ago> [01251212a401]
+by: CryllicBuster273 (cryllicbuster273@pixelexperience.org)
+arch: arm64: configs: phoenix: Regenerate <2 weeks ago> [0c8cbcde56b8]
+by: CryllicBuster273 (cryllicbuster273@pixelexperience.org)
+StormBreaker v2.4 <2 weeks ago> [3d5331df3a75]
+by: CryllicBuster273 (cryllicbuster273@pixelexperience.org)
+Merge tag 'v4.14.186' of https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux into ten <6 days ago> [615a30328295]
+by: CryllicBuster273 (cryllicbuster273@pixelexperience.org)
+arch: arm64: configs: phoenix: regenerate <3 weeks ago> [c5685c2c192b]
+by: CryllicBuster273 (cryllicbuster273@pixelexperience.org)
+StormBreaker v2.3 <3 weeks ago> [67f361e02281]
+by: CryllicBuster273 (cryllicbuster273@pixelexperience.org)
+Merge tag 'v4.14.185' of https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux into ten <6 days ago> [83be7a081b7a]
+by: CryllicBuster273 (cryllicbuster273@pixelexperience.org)
+Revert "boeffla_wl_blocker: add generic wakelock blocker driver v1.0.0" <6 days ago> [a5a1cf1b9ee1]
+by: CryllicBuster273 (cryllicbuster273@pixelexperience.org)
+Revert "boeffla_wl_blocker: update to wakelock blocker driver v1.0.1" <6 days ago> [8fcd1e3849ea]
+by: CryllicBuster273 (cryllicbuster273@pixelexperience.org)
+Revert "boeffla_wl_blocker: update to wakelock blocker driver v1.1.0" <6 days ago> [7719af641f09]
+by: CryllicBuster273 (cryllicbuster273@pixelexperience.org)
+Revert "boeffla_wl_blocker: don't block wakelocks by default" <6 days ago> [5b58be49c85e]
+by: CryllicBuster273 (cryllicbuster273@pixelexperience.org)
+msm: kgsl: run kgsl-workqueue as a high prio wq <2 years, 1 month ago> [0d4d62ec89f8]
+by: Francisco Franco (franciscofranco.1990@gmail.com)
+msm: kgsl: Offload mementry destroy work to separate thread <8 months ago> [2f9abaf1a92c]
+by: Deepak Kumar (dkumar@codeaurora.org)
+FROMLIST: arm64: untag user addresses in access_ok and __uaccess_mask_ptr <1 year, 9 months ago> [d813d0eee67d]
+by: Andrey Konovalov (andreyknvl@google.com)
+FROMLIST: arm64: add type casts to untagged_addr macro <1 year, 9 months ago> [83df605e3ac4]
+by: Andrey Konovalov (andreyknvl@google.com)
+UPSTREAM: arm64: uaccess: Formalise types for access_ok() <2 years, 5 months ago> [97d64c92f86e]
+by: Robin Murphy (robin.murphy@arm.com)
+FROMLIST: arm64: Avoid aligning normal memory pointers in __memcpy_{to,from}io <2 years, 9 months ago> [1b0d866be6ea]
+by: Mark Salyzyn (salyzyn@android.com)
+ANDROID: modules: manually merge module .bss sections <1 year, 2 months ago> [411db6090863]
+by: Nick Desaulniers (ndesaulniers@google.com)
+UPSTREAM: sched/psi: Fix OOB write when writing 0 bytes to PSI files <5 months ago> [a1808ccd8995]
+by: Suren Baghdasaryan (surenb@google.com)
 
 
