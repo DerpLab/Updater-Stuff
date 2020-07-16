@@ -1,3 +1,14 @@
+=================
+     16-07-2020
+=================
+
+• violet: Merged Kernel into 4.14.184
+• violet: Updated FP to flame July patch
+• violet: Switched back to gralloc 2.0.
+• violet: Updated graphics blobs
+• violet: Switched to common sm8150 hals.
+• violet: Enabled VoLTE for bd
+• violet: Addressed some denials
 
 =================
      13-06-2020
