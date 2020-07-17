@@ -1,60 +1,16 @@
-Source Side:
-- Merged July security patch (r40)
-- Reworked expanded volume dialog (fixes many bugs with it)
-- Lowered fullscreen gesture trigger area
-- Fixed fullscreen pill showing on landscape for some back heights
-- Fixed a FC for new FOD implementation (irrelevant for this device)
-- Fixed screen stabilization QS tile
-- Added StatusBar notification counters
-- Added USB tethering QS tile
-- Added log QS tile
-- Added EvolveSans & Linotte system fonts
-- Added MatLog QS tile
-- Added Bootlegger's AOSP screen recorder (& improved UI)
-- Removed Omni & OOS Screen recorders
-- Removed internal recording restrictions for 3rd party apps
-- Removed useless / non working system fonts
-- Updated GApps
-- Randomize DerpQuest summary with funny strings
-- Reworked blink flashlight on call, again. This time I'm done, Promise
-- Fixed reboot for APEX update
-- Added derp blue theme
-- Added FOD extensions support (irrelevent for this device)
-- Added arrow keys on navbar while typing
-- Added StatusBar VoWiFi icon (& a switch)
-- Update & Apply custom carrier label position correctly
-- Fixed inactive WiFi icon in some icon packs
-- Fixed the double navbar switch issues (for hw buttons devices)
-- Minor fix for the new OpenDelta UI
-- Disable "R style" notification headers by default
-- Wake on charge regardless of AoD settings
-- Updates to translations
-- Some more minor derps/bugs fixes
-
 Device Side:
-- New GPS configs for better stability & accuracy
-- Update thermal-conf  For 4.9 kernel
-- Fixed VoLTE SIM Slot switching issue
-- Import SchedTune tuning from b4s4
-- Update blobs from LA.UM.8.6.r1-04400-89xx.0
-- Added Gcam Go (better than camera2)
-- Add Audiosphere blobs from LA.UM.8.6.r1-04400-89xx.0
-- Remove Telecomm overlays
-- enable Zygote Preforking  for Faster App Launching
-- Update static iuicc names in device
-- Update post boot from LA.UM.8.6.r1-04600-89xx.0
-- Update data-ipa-cfg-mgr from LA.UM.8.6.r1-04600-89xx.0
-- Import Xiaomi Add-on V2
-- Import Vibration Control
-- Fix dual sim devices
-- add support for 32/48KHz voip
-- Increase in-call earpiece volume
-- Drop qti-telephony-common aosp_usr_pref_sel
-- Update GPS from LA.UM.8.6.r1-04400-89xx.0
-- Enable AOSP low_latency in audio output config
+- Rebase Derpfest Tree And Removed Some Unused Commit
+- Fixed screenrecord FC
+- Fixed default system haptics strength thanks @beingstargazer
+- Switch to power HAL v1.2
+- Fixed IR Blaster issue
+- Under the hood improvements
+- Fix Lagging issue
 
 Kernel Side:
-- Upstream SolarisKernel v4.9.229
+- Upstream SolarisKernel v4.9.230
 - Compile kernel with Clang 11.0.3
-- Update exFAT driver version 5.8-2arter97
-- Enable stune and cpu assist with tweaks
+- Merge Tag LA.UM.7.6.2.r1-11900-89xx.0
+- Merge Wlan/Prima to LA.UM.7.6.2.r1-11900-89xx.0
+- Update wireguard to version 1.0.20200712
+- Enable 32-bit vDSO
