@@ -1,223 +1,189 @@
 ====================
-     07-07-2020
+     07-19-2020
 ====================
 
-[manifest]
-Merge tag 'android-10.0.0_r40' into ten <16 hours ago> [675dc06]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-Manifest for Android 10.0.0 Release 40 <21 hours ago> [5383244]
-by: The Android Open Source Project (initial-contribution@android.com)
-
-[build/make]
-Merge tag 'android-10.0.0_r40' into HEAD <16 hours ago> [bf43f35c6]
+[external/pulse]
+Pulse: Do not show when navbar is hidden <3 days ago> [e4e8384]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 
 [frameworks/base]
-Update KeyguardIndicationController.java <9 weeks ago> [4b720ebaa47]
+Update KeyguardIndicationController.java <2 months ago> [f90d2c2307d]
 by: sarfraz15 (62404255+sarfraz15@users.noreply.github.com)
-Update SystemSensorManager.java <3 months ago> [66ccae3d3d1]
+Update SystemSensorManager.java <3 months ago> [40b8a81c71a]
 by: sarfraz15 (62404255+sarfraz15@users.noreply.github.com)
-Update dimens.xml <3 months ago> [0de70dd7a32]
+Update dimens.xml <3 months ago> [4744bc68f5b]
 by: sarfraz15 (62404255+sarfraz15@users.noreply.github.com)
-VolumeDialog: Launch Q expanded volume panel on arrow longpress <12 days ago> [06203df745c]
-by: Adhitya Mohan (me@adhityamohan.in)
+base: Refactor LockScreen elements font type & size implementation <12 hours ago> [7eab381d62e]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+[SQUASH]base: Revert VoWiFi icon <21 hours ago> [8157877c569]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+base: Utils: Add a function to check for gestural NavBar <24 hours ago> [0a577f44505]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+Revert "Allow to choose lockscreen or Ambient on wake gestures [1/2]" <34 hours ago> [db0eb56c210]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[packages/apps/Settings]
+Settings: Ensure hide pill is off when not using gestures <24 hours ago> [addc8635b4]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[packages/apps/DerpQuest]
+DerpQuest: Add a name fitting easter egg ;) <7 hours ago> [b5b82b8]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+DerpQuest: Add Stockish Switch Style [2/3] <1 year, 4 months ago> [098323a]
+by: AnkitGourav (Ankitgourav035@gmail.com)
+DerpQuest: Switch styles [2/3] <2 weeks ago> [67f84a2]
+by: SKULSHADY (anushekprasal@gmail.com)
+DerpQuest: Warn the user when pulse is not showing <3 days ago> [93b5e36]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+
+====================
+     07-18-2020
+====================
+
+[packages/apps/Settings]
+Revert "Allow to choose lockscreen or Ambient on wake gestures [2/2]" <34 hours ago> [bf5e859d54]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+
+====================
+     07-17-2020
+====================
+
+[frameworks/base]
+base: Add Stockish Switch Style [1/3] <1 year, 4 months ago> [026540a1e7f]
+by: AnkitGourav (Ankitgourav035@gmail.com)
+base: Switch Styles [1/3] <2 weeks ago> [8e4d1b639fd]
+by: SKULSHADY (anushekprasal@gmail.com)
+
+[vendor/overlay]
+overlay: Add Stockish Switch Style [3/3] <1 year, 4 months ago> [e3ccf99]
+by: =AnkitGourav (Ankitgourav035@gmail.com)
+overlay: Switch Styles [3/3] <2 weeks ago> [2e72e81]
+by: SKULSHADY (anushekprasal@gmail.com)
+
+[packages/apps/DerpQuest]
+DerpQuest: Update RU translation (#73) <4 days ago> [a9b3a68]
+by: RunningMango (36758157+RunningMango@users.noreply.github.com)
+DerpQuest: Convert NavBar pulse to a master switch <5 days ago> [94454d2]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+
+====================
+     07-16-2020
+====================
+
+[manifest]
+manifest: Track our own fork of external/pulse <3 days ago> [22c0b2f]
+by: Ido Ben-Hur (idoybh2@gmail.com)
 
 [frameworks/native]
-Merge tag 'android-10.0.0_r40' into staging/ten-android-10.0.0_r40 <16 hours ago> [4259de24e]
+Merge tag 'android-10.0.0_r40' into staging/ten-android-10.0.0_r40 <13 days ago> [2fcd255c7]
 by: Ido Ben-Hur (idoybh2@gmail.com)
-surfaceflinger: change usageBits type to uint64_t <5 weeks ago> [fae727a7e]
-by: Pierre-Hugues Husson (phhusson@gmail.com)
-surfaceflinger: Add support for extension lib <6 weeks ago> [86eae1761]
-by: Pierre-Hugues Husson (phh@phh.me)
+sf: Fix issue with dequeueBuffer when multiple display present <1 year, 10 months ago> [8ff2214f5]
+by: Baldev Sahu (bsahu@codeaurora.org)
 
-[packages/apps/Matlog]
-Matlog: Add a simple QS tile <5 days ago> [7b01e8a]
+[packages/apps/Launcher3]
+Automatic translation import <3 days ago> [4028bcf3e]
+by: Akhil Narang (akhilnarang.1999@gmail.com)
+
+
+====================
+     07-15-2020
+====================
+
+[build/soong]
+Re-allow relative paths for modules <6 months ago> [c804e397]
+by: Surge1223 (Surge1223@gmail.com)
+
+[frameworks/base]
+base: Backup navbar pulse settings <5 days ago> [ac3428ceea1]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+base: Add automatic album art color mode for navbar pulse [1/2] <5 weeks ago> [18b9601fdb8]
+by: Ezio Lacandia Bijelkic (brabus84@gmail.com)
+base: Pulse navbar audio gfx visualizer for Android 10 [1/2] <9 weeks ago> [4bddee8e91d]
+by: bigrushdog (randall.rushing@gmail.com)
+AudioService: fix audio mode not reset to MODE_NORMAL <3 months ago> [6754113be38]
+by: wumin3 (wumin3@xiaomi.com)
+LockSettingsService : Restrict access to getpassword API <8 months ago> [5f265f20f30]
+by: Prerna Kalla (prernak@codeaurora.org)
+Fix WebView vulnerability by disallowing file access <3 months ago> [bb092995492]
+by: Chen Xu (fionaxu@google.com)
+base: Make sound tile toggle to silent instead of DnD <5 days ago> [c54080c61b0]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 
-[packages/services/Telephony]
-Merge tag 'android-10.0.0_r40' into staging/ten-android-10.0.0_r40 <16 hours ago> [62ecdb1ed]
+[packages/apps/Settings]
+Settings: add RU translation (#18) <4 days ago> [bd7a3d598b]
+by: RunningMango (36758157+RunningMango@users.noreply.github.com)
+Settings: Make lockscreen timeout configurable [2/2] <3 weeks ago> [7637153b5c]
+by: Alex Cruz (du.alexcruz@gmail.com)
+Settings: Ensure SeekBars with interval have a default value <6 days ago> [6ec3a98752]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[system/core]
+init.rc: disable kernel module autoloading <4 months ago> [617a28418]
+by: Eric Biggers (ebiggers@google.com)
+
+[packages/apps/DerpQuest]
+DerpQuest: Add automatic album art color mode for navbar pulse [2/2] <5 weeks ago> [65fa418]
+by: Ezio Lacandia Bijelkic (brabus84@gmail.com)
+DerpQuest: Pulse navbar audio gfx visualizer for Android 10 [2/2] <6 weeks ago> [1073aaf]
+by: bigrushdog (randall.rushing@gmail.com)
+DerpQuest: ButtonSettings: Use the assigned resolver var <5 days ago> [96dff33]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+DerpQuest: Guard new dynamic summaries against bad translations <5 days ago> [23a4c22]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+DerpQuest: Ensure SeekBars with interval have a default value <6 days ago> [8ccde9f]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+
+====================
+     07-14-2020
+====================
+
+[frameworks/base]
+base: Make lockscreen timeout configurable [1/2] <6 weeks ago> [2554aebcad2]
+by: Alex Cruz (du.alexcruz@gmail.com)
+base: Settings: Backup album art filter <6 days ago> [a682a230809]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[packages/apps/DerpQuest]
+DerpQuest: Fix ticker timeout SeekBar stuck <6 days ago> [d219835]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+DerpQuest: Make notifications master switches summaries dynamic <6 days ago> [650b63a]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+DerpQuest: Make LockScreen master switches summaries dynamic <6 days ago> [490fb35]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+DerpQuest: Make QuickSettings master switches summaries dynamic <6 days ago> [ba0f395]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+DerpQuest: Make StatusBar master switches summaries dynamic <6 days ago> [27cefd4]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 
 [scripts]
-scripts: updater: Use git remote to fetch changes <11 hours ago> [c9ccbdf]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-scripts: updater: Push info.sh in a separate commit <12 days ago> [b861437]
+scripts: updater: make sure no local changes exist in repo <5 days ago> [2411d58]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 
 
 ====================
-     07-06-2020
+     07-13-2020
 ====================
 
-[packages/apps/OpenDelta]
-Merge remote-tracking branch 'omni/android-10' into ten <2 days ago> [b0d6c48]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[vendor/pixelstyle]
-pixelstyle: Add Linotte font [2/2] <4 days ago> [dbbb1e1]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-pixelstyle: Add EvolveSans font [2/2] <4 days ago> [f5ca987]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-pixelstyle: Don't build google specific overlays for VANILLA <4 days ago> [48d8dc8]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-[SQUASH] Remove OPScreenRecorder <6 days ago> [12e5633]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-pixelstyle: Import PixelConfigOverlay* GoogleConfigOverlay GoogleWebViewOverlay for full GMS support <5 months ago> [65853b1]
-by: Arseniy Graur (argraur@aosip.dev)
-
-
-====================
-     07-05-2020
-====================
-
-[frameworks/base]
-screenrecord: UI Improvements <5 days ago> [1fcad7eecee]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-base: Do not condition VoWiFi icon change on calls <3 days ago> [f970e6da9d9]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-SystemUI: Update RU translation (#31) <3 days ago> [1dfb00e0f39]
-by: Northn (57762732+Northn@users.noreply.github.com)
-base: Add Linotte font [1/2] <3 days ago> [4f92d3fb898]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-base: Use only 18px size icon for notification count <4 days ago> [bcc6de52d67]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-base: overlays: Add EvolveSans font [1/2] <4 days ago> [cff5a183da4]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-Show infinity for large notification counts <3 years, 5 months ago> [d29155827be]
-by: d34d (clark@cyngn.com)
-SystemUI: Forward-port notification counters [1/2] <6 years ago> [07ea6f180e4]
-by: Steve Kondik (steve@cyngn.com)
-SystemUI: Add USB Tether tile <5 years ago> [a3fcc8c8d98]
-by: BestPig (bestpig82@gmail.com)
-Revert "base: SystemUI: add OmniRecord based qs tile" <5 days ago> [6fa6c4bf209]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-SystemUI: PowerMenu: Use AOSP recorder for screen record button <5 days ago> [1cb7e9a8f76]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/apps/DeskClock]
-DeskClock: Remove notification sound from firing and snoozing channels <3 weeks ago> [22ec01749]
-by: Michael W (baddaemon87@gmail.com)
-DeskClock: Replace ViewPager with manual fragment handling <3 weeks ago> [f71fd84d6]
-by: Michael W (baddaemon87@gmail.com)
+[device/aosip/sepolicy]
+sepolicy: treat vnswap as zram <4 months ago> [4e00cde]
+by: Park Ju Hyung (qkrwngud825@gmail.com)
 
 [packages/apps/Settings]
-Settings: Randomize DerpQuest's summary <4 weeks ago> [0cc092a58b]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-Settings: Update RU translation (#15,#16) <4 weeks ago> [39f3f0affa]
-by: RunningMango (36758157+RunningMango@users.noreply.github.com)
-
-
-====================
-     07-04-2020
-====================
-
-[packages/apps/Launcher3]
-Trebuchet: Replace LockClock widget with DeskClock <6 months ago> [141b2d934]
-by: Arne Coucheron (arco68@gmail.com)
-Trebuchet: Add 5x6, 5x7 and 6x6 default workspaces <3 months ago> [401a82b87]
-by: dwardo (benjamin.reveille@gmail.com)
-Update default workspace <8 months ago> [c6800ad0c]
-by: Joey (joey@lineageos.org)
-Revert "Add developer options for grid change for Styles" <8 months ago> [eaff55378]
-by: Luca Stefani (luca.stefani.ge1@gmail.com)
+Settings: Update Chinese translations <7 days ago> [ee8fbf266d]
+by: ALKALiKong (alikongalk@gmail.com)
 
 [packages/apps/DerpQuest]
-DerpQuest: Add a switch for notification counters [2/2] <4 days ago> [92630bf]
+DerpQuest: Code cleanup of 1a7fbe7 <7 days ago> [0a13920]
 by: Ido Ben-Hur (idoybh2@gmail.com)
-DerpQuest: Fixed typos in strings (#69) <5 days ago> [2f514b2]
-by: Northn (57762732+Northn@users.noreply.github.com)
-DerpQuest: Update RU translation (#68,#70,#71) <10 days ago> [7bed9b1]
-by: Northn (57762732+Northn@users.noreply.github.com)
+DerpQuest: Update Chinese translations (#72) <7 days ago> [db0d858]
+by: ALKALiKong (54100342+ALKALiKong233@users.noreply.github.com)
 
-
-====================
-     07-03-2020
-====================
-
-[packages/apps/Launcher3]
-Revert "Launcher3: we never want to disable grid control provider" <4 days ago> [323aa1ec9]
-by: Josh Fox (XlxFoXxlX) (joshfox87@gmail.com)
-Disable QSB on first screen by default <3 years ago> [ecc0203e4]
-by: Arne Coucheron (arco68@gmail.com)
-QSB: request round search bar <1 year, 6 months ago> [9741faa77]
-by: Edward Cross (edward.k.cross@gmail.com)
-Trebuchet: Update default workspace <9 months ago> [bb5f061eb]
-by: Bruno Martins (bgcngm@gmail.com)
-proguard: Also keep FixedScaleDrawable <1 year, 10 months ago> [4db701b72]
-by: Diogo Ferreira (diogo@underdev.org)
-
-
-====================
-     07-02-2020
-====================
-
-[manifest]
-manifest: Track our own fork of Matlog <5 days ago> [93bb6fa]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-manifest: Stop tracking OmniRecord <5 days ago> [820d441]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[frameworks/av]
-[2/2] av: Remove restrictions for system audio record <4 months ago> [eec025405]
-by: jhenrique09 (jhenrique09.mcz@hotmail.com)
-
-[frameworks/base]
-[1/2] base: Remove restrictions for system audio record <4 months ago> [595d2ded4c1]
-by: jhenrique09 (jhenrique09.mcz@hotmail.com)
-Unlink screenrecord toggle from featureflags and enable it <8 months ago> [c55bf5008f4]
-by: ezio84 (brabus84@gmail.com)
-SystemUI: Add ScreenRecord Tile <8 months ago> [68abf87dd71]
-by: ZeNiXxX (zenixxx.havoc@gmail.com)
-
-[vendor/aosip]
-Revert "vendor: add OmniRecord to build" <5 days ago> [cf22b49]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-
-====================
-     07-01-2020
-====================
-
-[frameworks/base]
-base: Add support to disable h265 on screenrecorder <10 weeks ago> [a850bc6b9ee]
-by: El Dainosor (eldainosor@gmail.com)
-base: Set a better screenrec notification icon <3 months ago> [1c19ddb8912]
-by: El Dainosor (eldainosor@gmail.com)
-Screen rec: Add support for AudioPlaybackCapture <3 months ago> [d27e5f0e6ba]
-by: El Dainosor (eldainosor@gmail.com)
-Screenrec: Switch to low quality switch to a bitrate selector <3 months ago> [af1e43824c6]
-by: El Dainosor (eldainosor@gmail.com)
-Screenrecord: Android R dev preview style dialog <4 months ago> [9eed032afb3]
-by: Alex (du.alexcruz@gmail.com)
-Screenrecord dialog: Make it less ugly <5 months ago> [ab5e7a4936b]
-by: Alex (du.alexcruz@gmail.com)
-Screenrecorder: don't show heads up notification <6 months ago> [d26acee72c2]
-by: ezio84 (brabus84@gmail.com)
-Screenrecord: remember last recording options <7 months ago> [36a68f76e33]
-by: ezio84 (brabus84@gmail.com)
-Screenrecord: fix possible SystemUI FC when stopping <8 months ago> [e44872369d6]
-by: ezio84 (brabus84@gmail.com)
-SystemUI: ScreenRec: Redesign the dialog <8 months ago> [24b6ec85390]
-by: Anushek Prasal (anushekprasal@gmail.com)
-Screenrec: use HEVC H.265 codec, add low quality option, fixes <8 months ago> [bdd2f6c6ca6]
-by: ezio84 (brabus84@gmail.com)
-Screenrec: allow to show a blinking red stop dot <8 months ago> [df4d83c0a18]
-by: ezio84 (brabus84@gmail.com)
-Screenrecord: Change save location and make sure dirs exist <9 months ago> [393139f6ce7]
-by: Surge Raval (Surge1223@gmail.com)
-Screenrecord: Start delayed <7 months ago> [15e83b3b610]
-by: ezio84 (brabus84@gmail.com)
-Set Assistant UID of the current user. <9 months ago> [539a2e3d5a0]
-by: Wang ArvinX (arvinx.wang@intel.com)
-
-[packages/apps/DeskClock]
-DeskClock: Move navigation bar to bottom <4 weeks ago> [da10fa833]
-by: Michael W (baddaemon87@gmail.com)
-DeskClock: also apply disabled color to annotations <4 weeks ago> [090055ccb]
-by: Jesse Chan (jc@lineageos.org)
-DeskClock: Come to the dark side... <4 weeks ago> [16f2d6baf]
-by: Michael W (baddaemon87@gmail.com)
-DeskClock: Rework notification channel implementation <5 weeks ago> [d8bfcd4a1]
-by: Michael W (baddaemon87@gmail.com)
+[packages/apps/OpenDelta]
+OpenDelta: Update Chinese translations (#4) <7 days ago> [0f743ca]
+by: ALKALiKong (54100342+ALKALiKong233@users.noreply.github.com)
 
 
