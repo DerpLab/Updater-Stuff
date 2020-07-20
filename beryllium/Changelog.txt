@@ -1,8 +1,6 @@
-- Updated QP Gallery
-- Merged July Security Patch
-- Added Evolve Sans Font
-- Added Linotte Font
-- Improved UI of Screen Recorder
-- Disabled ZRAM - Enabled ZSWAP/VNSWAP
-- Merged Linux Tag 4.9.230 in Kernel
-- Merged CAF tag 'LA.UM.8.3.r1-08100-sdm845.0' in Kernel
+- Switched to QTI Power Hal
+- Updated Blobs from MIUI 11.0.8.0
+- Added Switch Styles
+- Added RGB Accent Picker
+- Added NavBar Pulse
+- Refactored LockScreen Font Type & Size
