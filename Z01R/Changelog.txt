@@ -1,133 +1,219 @@
 ====================
-     06-24-2020
-====================
-
-[build/make]
-Move changelog generation to the system image generation stage <5 weeks ago> [426e65f2f]
-by: Kailash (kailash.sudhakar@gmail.com)
-
-[build/soong]
-soong: java: Specify larger heap size for metalava <8 months ago> [1354882f]
-by: Michael W (baddaemon87@gmail.com)
-soong: java: Tune java compiler flags for low ram systems <8 months ago> [dc99f1c2]
-by: Nicholas Lim (nicknitewolf@lineageos.org)
-
-[frameworks/base]
-SystemUI: Don't show VoLTE icon when VoWiFi is showing <13 hours ago> [4cbacae4]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-base: Allow hiding VoWiFi StatusBar icon <23 hours ago> [e8ed92f7]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-SystemUI: support VoWIFI icons <5 weeks ago> [b6cd7bff]
-by: Weijie Wang (weijiew@codeaurora.org)
-base: PowerManagerService: Wake on charge regardless of AoD settings <9 hours ago> [061c87d2]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[device/asus/Z01R]
-DeviceParts: KeyHandler: Fix proximity sensor logic <8 hours ago> [3872100]
-by: Kailash (kailash.sudhakar@gmail.com)
-
-[kernel/asus/sdm845]
-sched: walt: Correct WALT window size initialization <2 years, 10 months ago> [20d2bc56c]
-by: Vikram Mulukutla (markivx@codeaurora.org)
-sched: Call init_sched_energy_costs() before sched_energy_probe() <2 years, 3 months ago> [aca4012f3]
-by: Puja Gupta (pujag@codeaurora.org)
-sched: set min & max capacity CPUs in sched_energy_probe <2 years ago> [997845a05]
-by: Connor O'Brien (connoro@google.com)
-
-
-====================
-     06-23-2020
-====================
-
-[vendor/aosip]
-vendor: Fix Logic for Building PixelLiveWallpaperPrebuilt <33 hours ago> [7651431]
-by: Aman Singh (amankumarsingh1412@gmail.com)
-
-[device/asus/Z01R]
-DeviceParts: Add doze pulse as a gesture action <7 weeks ago> [aa8ebe4]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-DeviceParts: Drop KCAL for now <34 hours ago> [ea4681f]
-by: Kailash (kailash.sudhakar@gmail.com)
-Z01R: init: Shrink AUX packagelist <2 days ago> [0f0ee27]
-by: Kailash (kailash.sudhakar@gmail.com)
-DeviceParts: Nuke tilt check <2 days ago> [bea50ba]
-by: Kailash (kailash.sudhakar@gmail.com)
-
-
-====================
-     06-22-2020
+     07-20-2020
 ====================
 
 [frameworks/base]
-base: Hide 'R style' notification headers by default [1/2] <2 days ago> [6870439e]
+base: Nuke accent overlays [1/3] <5 months ago> [4371395a815]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+base: CarrierLabel: Improve settings observer <17 hours ago> [97b520d1cc9]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+base: Allow setting QS clock size separately [1/2] <17 hours ago> [f54d826e399]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[packages/apps/Settings]
+Settings: Nuke accent overlays [2/3] <5 months ago> [860e98d3d3]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[packages/apps/ThemePicker]
+ThemePicker: Remove accent color step <5 months ago> [f4302f2]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[vendor/overlay]
+overlay: Nuke accent overlays [3/3] <5 months ago> [5e0be05]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 
 [packages/apps/DerpQuest]
-DerpQuest: Hide 'R style' notification headers by default [2/2] <2 days ago> [715adb5]
+DerpQuest: Allow setting QS clock size separately [2/2] <16 hours ago> [20856b1]
 by: Ido Ben-Hur (idoybh2@gmail.com)
+DerpQuest: Add RGB accent presets <5 months ago> [1592ddd]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+DerpQuest: Introduce RGB accenter [2/2] <4 months ago> [da1c7cf]
+by: spezi77 (spezi7713@gmx.net)
 
-[kernel/asus/sdm845]
-[1/2] focaltech_touch: Assign unique keycodes to a few gestures <3 days ago> [bb052c525]
-by: Kailash (kailash.sudhakar@gmail.com)
-
-
-====================
-     06-21-2020
-====================
-
-[packages/apps/Matlog]
-Merge "MatLog: cleanup unneded strings" into android-10 <3 days ago> [7f32560]
-by: Max Weninger (max.weninger@gmail.com)
-MatLog: cleanup unneded strings <3 days ago> [0db5768]
-by: maxwen (max.weninger@gmail.com)
-
-[prebuilts/clang/host/linux-x86]
-Update prebuilt Clang to r383902c. <5 days ago> [a7ae3f97]
-by: Stephen Hines (srhines@google.com)
-
-[kernel/asus/sdm845]
-Regenerate defconfig <3 days ago> [ee2e22397]
-by: Kailash (kailash.sudhakar@gmail.com)
+[device/asus/Z01R]
+Z01R: Update TWRP to 3.4.0 <52 minutes ago> [37fbef3]
+by: Jackeagle (jackeagle102@gmail.com)
 
 
 ====================
-     06-20-2020
+     07-19-2020
 ====================
 
 [build/make]
-build: remove $(PRODUCT_OUT)/recovery/root on build <6 months ago> [c2b76f801]
-by: kessaras (theodoroupaulos@gmail.com)
+make: Generate changelog for prebuilt recovery-ramdisk as well (#7) <25 hours ago> [20b7590dd]
+by: Kailash (kailash.sudhakar@gmail.com)
 
+[device/aosip/sepolicy]
+aosip: common: add rules for RGB/HSL accentpicker <7 months ago> [4e7e41a]
+by: Ashwin R C (ashwin2001achu@gmail.com)
 
-====================
-     06-19-2020
-====================
-
-[packages/apps/Matlog]
-Automatic translation import <5 days ago> [49007ec]
-by: maxwen (max.weninger@gmail.com)
+[frameworks/base]
+base: Introduce RGB accenter [1/2] <1 year, 3 months ago> [943cfd107ed]
+by: Kshitij Gupta (kshitijgm@gmail.com)
+base: Refactor LockScreen font type & size implementation further <25 hours ago> [639518e806e]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+base: Refactor LockScreen elements font type & size implementation <2 days ago> [7eab381d62e]
+by: Ido Ben-Hur (idoybh2@gmail.com)
 
 [packages/apps/DerpQuest]
-DerpQuest: One navbar switch to rule them all <5 days ago> [2ca1dca]
+DerpQuest: Add a name fitting easter egg ;) <2 days ago> [b5b82b8]
 by: Ido Ben-Hur (idoybh2@gmail.com)
-DerpQuest: Arrow keys while typing resurrection [2/2] <5 days ago> [7d61217]
-by: maxwen (max.weninger@gmail.com)
 
-[packages/apps/OpenDelta]
-OpenDelta: force white text on colored buttons <2 weeks ago> [9e22ef7]
-by: maxwen (max.weninger@gmail.com)
+[kernel/asus/sdm845]
+Reset qcacld, qca-wifi-host-cmn and fw-api to LA.UM.8.3.r1-06300-sdm845.0 <25 hours ago> [b513051c6c3f]
+by: Kailash (kailash.sudhakar@gmail.com)
 
 
 ====================
-     06-18-2020
+     07-18-2020
 ====================
 
-[packages/apps/Dialer]
-Automatic translation import <6 days ago> [f12f25c]
-by: Akhil Narang (akhilnarang.1999@gmail.com)
+[external/pulse]
+Pulse: Do not show when navbar is hidden <5 days ago> [e4e8384]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[frameworks/base]
+[SQUASH]base: Revert VoWiFi icon <2 days ago> [8157877c569]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+base: Utils: Add a function to check for gestural NavBar <2 days ago> [0a577f44505]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+Revert "Allow to choose lockscreen or Ambient on wake gestures [1/2]" <3 days ago> [db0eb56c210]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[packages/apps/Settings]
+Settings: Ensure hide pill is off when not using gestures <2 days ago> [addc8635b4]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+Revert "Allow to choose lockscreen or Ambient on wake gestures [2/2]" <3 days ago> [bf5e859d54]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[packages/apps/DerpQuest]
+DerpQuest: Add Stockish Switch Style [2/3] <1 year, 4 months ago> [098323a]
+by: AnkitGourav (Ankitgourav035@gmail.com)
+DerpQuest: Switch styles [2/3] <3 weeks ago> [67f84a2]
+by: SKULSHADY (anushekprasal@gmail.com)
+DerpQuest: Warn the user when pulse is not showing <5 days ago> [93b5e36]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+
+====================
+     07-17-2020
+====================
+
+[frameworks/base]
+base: Add Stockish Switch Style [1/3] <1 year, 4 months ago> [026540a1e7f]
+by: AnkitGourav (Ankitgourav035@gmail.com)
+
+[vendor/overlay]
+overlay: Add Stockish Switch Style [3/3] <1 year, 4 months ago> [e3ccf99]
+by: =AnkitGourav (Ankitgourav035@gmail.com)
+overlay: Switch Styles [3/3] <3 weeks ago> [2e72e81]
+by: SKULSHADY (anushekprasal@gmail.com)
+
+[packages/apps/DerpQuest]
+DerpQuest: Update RU translation (#73) <5 days ago> [a9b3a68]
+by: RunningMango (36758157+RunningMango@users.noreply.github.com)
+DerpQuest: Convert NavBar pulse to a master switch <6 days ago> [94454d2]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+
+====================
+     07-16-2020
+====================
+
+[manifest]
+manifest: Track our own fork of external/pulse <5 days ago> [22c0b2f]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[frameworks/base]
+base: Switch Styles [1/3] <3 weeks ago> [8e4d1b639fd]
+by: SKULSHADY (anushekprasal@gmail.com)
 
 [packages/apps/Launcher3]
-Automatic translation import <6 days ago> [9aa8331]
+Automatic translation import <5 days ago> [4028bcf3e]
 by: Akhil Narang (akhilnarang.1999@gmail.com)
+
+[kernel/asus/sdm845]
+Update Wireguard to v1.0.20200712 <5 days ago> [8f2916cc7fcb]
+by: Kailash (kailash.sudhakar@gmail.com)
+
+
+====================
+     07-15-2020
+====================
+
+[frameworks/base]
+base: Backup navbar pulse settings <6 days ago> [ac3428ceea1]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+base: Add automatic album art color mode for navbar pulse [1/2] <5 weeks ago> [18b9601fdb8]
+by: Ezio Lacandia Bijelkic (brabus84@gmail.com)
+base: Pulse navbar audio gfx visualizer for Android 10 [1/2] <9 weeks ago> [4bddee8e91d]
+by: bigrushdog (randall.rushing@gmail.com)
+
+[packages/apps/Settings]
+Settings: add RU translation (#18) <5 days ago> [bd7a3d598b]
+by: RunningMango (36758157+RunningMango@users.noreply.github.com)
+
+[system/core]
+init.rc: disable kernel module autoloading <4 months ago> [617a28418]
+by: Eric Biggers (ebiggers@google.com)
+
+[packages/apps/DerpQuest]
+DerpQuest: Add automatic album art color mode for navbar pulse [2/2] <5 weeks ago> [65fa418]
+by: Ezio Lacandia Bijelkic (brabus84@gmail.com)
+DerpQuest: Pulse navbar audio gfx visualizer for Android 10 [2/2] <6 weeks ago> [1073aaf]
+by: bigrushdog (randall.rushing@gmail.com)
+DerpQuest: ButtonSettings: Use the assigned resolver var <6 days ago> [96dff33]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+
+====================
+     07-14-2020
+====================
+
+[build/soong]
+Re-allow relative paths for modules <6 months ago> [c804e397]
+by: Surge1223 (Surge1223@gmail.com)
+
+[frameworks/base]
+AudioService: fix audio mode not reset to MODE_NORMAL <3 months ago> [6754113be38]
+by: wumin3 (wumin3@xiaomi.com)
+LockSettingsService : Restrict access to getpassword API <8 months ago> [5f265f20f30]
+by: Prerna Kalla (prernak@codeaurora.org)
+Fix WebView vulnerability by disallowing file access <3 months ago> [bb092995492]
+by: Chen Xu (fionaxu@google.com)
+base: Make sound tile toggle to silent instead of DnD <6 days ago> [c54080c61b0]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+base: Make lockscreen timeout configurable [1/2] <6 weeks ago> [2554aebcad2]
+by: Alex Cruz (du.alexcruz@gmail.com)
+base: Settings: Backup album art filter <7 days ago> [a682a230809]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[packages/apps/DeskClock]
+translations import from LOS <7 days ago> [35cf46557]
+by: Abdulwahab Isam (abdoi94.iq@gmail.com)
+
+[packages/apps/Settings]
+Settings: Make lockscreen timeout configurable [2/2] <4 weeks ago> [7637153b5c]
+by: Alex Cruz (du.alexcruz@gmail.com)
+Settings: Ensure SeekBars with interval have a default value <7 days ago> [6ec3a98752]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[packages/apps/DerpQuest]
+DerpQuest: Guard new dynamic summaries against bad translations <6 days ago> [23a4c22]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+DerpQuest: Ensure SeekBars with interval have a default value <7 days ago> [8ccde9f]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+DerpQuest: Fix ticker timeout SeekBar stuck <7 days ago> [d219835]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+DerpQuest: Make notifications master switches summaries dynamic <7 days ago> [650b63a]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+DerpQuest: Make LockScreen master switches summaries dynamic <7 days ago> [490fb35]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+DerpQuest: Make QuickSettings master switches summaries dynamic <7 days ago> [ba0f395]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[scripts]
+scripts: updater: make sure no local changes exist in repo <6 days ago> [2411d58]
+by: Ido Ben-Hur (idoybh2@gmail.com)
 
 
