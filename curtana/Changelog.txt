@@ -1,0 +1,307 @@
+====================
+     07-21-2020
+====================
+
+[manifest]
+branches <13 hours ago> [d8326bb]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+lineage: Track QTI BT repos <8 weeks ago> [f96f371]
+by: Pig (pig.priv@gmail.com)
+
+[frameworks/base]
+Update .gitignore <3 months ago> [11ca3c7c024]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+BLE: Fix NPE during start advertising <1 year, 11 months ago> [723dfeeebd0]
+by: Sravan Voleti (sravankumar@codeaurora.org)
+Fix build errors <1 year, 6 months ago> [a911124e549]
+by: Scott Lobdell (slobdell@google.com)
+Fix BLE transport discovery scan filter <1 year, 4 months ago> [df1352c2f99]
+by: Subramanian Srinivasan (subrsrin@codeaurora.org)
+BT: Relocate A2DP codec strings for translation <7 weeks ago> [f75e2306906]
+by: dianlujitao (dianlujitao@lineageos.org)
+Enable codec change request when mode changes in aptX-adaptive <12 months ago> [f3bdee806c5]
+by: Naval saini (saini@codeaurora.org)
+Keep a null check before accessing the BluetoothA2dpWrapper APIs. <1 year, 8 months ago> [9dc1fb1b360]
+by: Satheesh Kumar Pallemoni (spallemo@codeaurora.org)
+Bluetooth: Fix for out of bound exception <12 months ago> [2d518dd1179]
+by: pramod kotreshappa (kpramod@codeaurora.org)
+BT Dev: Increase array size for codec selection in Dev Op <1 year, 10 months ago> [68010cdc177]
+by: Gurpreet Ghai (gghai@codeaurora.org)
+Keep the BluetoothHeadset finalize() method protected <1 year, 10 months ago> [e5a3455a920]
+by: Diego Wilson (diegowilson@google.com)
+Bluetooth: Fix for Global reference table overflow issue[1/2] <2 years, 8 months ago> [8afd8d5aa1b]
+by: Bandari Ramesh (ramban@codeaurora.org)
+BT: Add new intent to broadcast IOT device details <2 years, 10 months ago> [a89044ecf22]
+by: Gurpreet Ghai (gghai@codeaurora.org)
+BT_Audio: Updated Check for TWS+ switch <6 months ago> [03c357472fe]
+by: Gurpreet Ghai (gghai@codeaurora.org)
+TWS_A2DP: Handle active device change between TWS+ earbuds <1 year, 2 months ago> [c87560af1f2]
+by: pramod kotreshappa (kpramod@codeaurora.org)
+audio: Add support for APTX TWSP audio codec <1 year, 3 months ago> [68a719eb247]
+by: Dhananjay Kumar (dhakumar@codeaurora.org)
+Use BluetoothUtils instead of Utils <1 year, 11 months ago> [f877e1318cf]
+by: Diego Wilson (diegowilson@google.com)
+GAP: Handle the race condition cases in auto connect logic <5 months ago> [76b6eceac60]
+by: Venkata Jagadeesh Garaga (vgaraga@codeaurora.org)
+Obex: Squashed commit of the following <2 years, 6 months ago> [0005c8cf7cb]
+by: Sravan Kumar V (sravankumar@codeaurora.org)
+Add scan filter for Transport Discovery data <1 year, 5 months ago> [c9ff52dcbf9]
+by: Subramanian Srinivasan (subrsrin@codeaurora.org)
+Add support for Transport discovery AD type (1/2) <2 years, 1 month ago> [885c2004c8d]
+by: Subramanian Srinivasan (subrsrin@codeaurora.org)
+Bluetooth: TWSP: Support Battery Status information display <1 year, 3 months ago> [37988d807e3]
+by: Bhakthavatsala Raghavendra (braghave@codeaurora.org)
+GAP: Reset bondingInitiatedLocally flag(1/3) <1 year, 1 month ago> [36631679839]
+by: Venkata Jagadeesh Garaga (vgaraga@codeaurora.org)
+Bluetooth-TWS: Disable outgoing connection to 2nd earbud <1 year, 10 months ago> [bb1367a197d]
+by: Kiran Kelageri (kirankelageri@codeaurora.org)
+Bluetooth-TWS: Disable outgoing connection for 2nd earbud. <1 year, 11 months ago> [d0ba06d8212]
+by: Kiran Kelageri (kirankelageri@codeaurora.org)
+Bluetooth: Rename bluetooth property to support new P Treble rules <2 years, 1 month ago> [5b773a9a19c]
+by: Safoorah Banu Shaik (safoorah@codeaurora.org)
+Bluetooth: Unpair both earbuds on unpair. <2 years, 4 months ago> [84af27661c0]
+by: Kiran Kelageri (kirankelageri@codeaurora.org)
+Bluetooth: Add SDK API support for TWS feature (2) <2 years, 4 months ago> [052f53928d2]
+by: Bandari Ramesh (ramban@codeaurora.org)
+Revert the change: AudioService: remove dead BT code. <1 year, 1 month ago> [65102dba9d6]
+by: Samyak Jain (samyjain@codeaurora.org)
+Add BluetoothQualityReport class(1/2) <1 year, 1 month ago> [59fdaa6cd85]
+by: Mingbo Zhang (mingboz@codeaurora.org)
+
+[frameworks/native]
+Revert "surfaceflinger: Merge caf changes" <6 hours ago> [dea30a608]
+by: 4PERTURE (slicey2001@gmail.com)
+Revert "SurfaceFlinger: Exclude CAF extensions from non-QC devices" <6 hours ago> [69a30b13d]
+by: 4PERTURE (slicey2001@gmail.com)
+
+[packages/apps/Bluetooth]
+Stub TWS related APIs <8 weeks ago> [66625157]
+by: dianlujitao (dianlujitao@lineageos.org)
+GAP: Reset bondingInitiatedLocally flag(2/3) <1 year, 1 month ago> [4f2eb247]
+by: Venkata Jagadeesh Garaga (vgaraga@codeaurora.org)
+BT: API to update quiet mode status in Adapter service [1/3] <1 year, 9 months ago> [3631f99a]
+by: M Safoorah Banu (safoorah@codeaurora.org)
+Bluetooth: Enable Hybrid Audio from App <1 year, 3 months ago> [f7ec6bc7]
+by: Srinu Jella (sjella@codeaurora.org)
+Add BLE Scan Phy parameter to scan API <2 years, 6 months ago> [63eeea8e]
+by: Subramanian Srinivasan (subrsrin@codeaurora.org)
+
+[packages/apps/Settings]
+BT: Use translated a2dp codec strings <7 weeks ago> [ad39cf2b82]
+by: dianlujitao (dianlujitao@lineageos.org)
+codec support for DevUI am: f915bd9438 <1 year, 4 months ago> [3ec29cfe6a]
+by: Naval saini (saini@codeaurora.org)
+BT Settings: Adding aptX Adaptive codec entry in Settings <2 years, 1 month ago> [a3487ca0b9]
+by: Gurpreet Ghai (gghai@codeaurora.org)
+Bluetooth-TWS: UI updates based on Filter matched <11 months ago> [b7235caddf]
+by: zhenchao (zhenchao@codeaurora.org)
+Bluetooth-TWS: UI updates based on profile connection. <1 year, 11 months ago> [f9d9661f5f]
+by: Kiran Kelageri (kirankelageri@codeaurora.org)
+Fix build error <1 year, 11 months ago> [8f69ab4afd]
+by: Jiyong Park (jiyong@google.com)
+Bluetooth-TWS: Filter TWS devices <2 years ago> [fe449ee65d]
+by: Kiran Kelageri (kirankelageri@codeaurora.org)
+Bluetooth: Create new catogory for earbuds <2 years, 4 months ago> [f932465ac2]
+by: Kiran Kelageri (kirankelageri@codeaurora.org)
+
+[system/bt]
+GAP: Reset bondingInitiatedLocally flag(3/3) <1 year, 1 month ago> [19e740231]
+by: Venkata Jagadeesh Garaga (vgaraga@codeaurora.org)
+Bluetooth: Enable Hybrid Audio from stack <1 year, 4 months ago> [96cab993b]
+by: Srinu Jella (sjella@codeaurora.org)
+Add scan filter for Transport Discovery data <1 year, 5 months ago> [8350f550b]
+by: Subramanian Srinivasan (subrsrin@codeaurora.org)
+TWS-A2DP: Add TWS+ codec index <1 year, 10 months ago> [2ed66a7ad]
+by: pramod kotreshappa (kpramod@codeaurora.org)
+BT: API to update quiet mode status in Adapter service [3/3] <1 year, 9 months ago> [4cce7706c]
+by: M Safoorah Banu (safoorah@codeaurora.org)
+BT: Adding APTX-Adaptive codec to BT HAL <2 years, 1 month ago> [8adf742d6]
+by: Gurpreet Ghai (gghai@codeaurora.org)
+Add BLE Scan Phy parameter to scan API <2 years, 3 months ago> [223065e34]
+by: Subramanian Srinivasan (subrsrin@codeaurora.org)
+Bluetooth: Add SDK API support for TWS feature (1) <2 years, 4 months ago> [fdc7f5f18]
+by: Ramesh Bandari (ramban@codeaurora.org)
+
+
+====================
+     07-20-2020
+====================
+
+[build/make]
+make: Generate changelog for prebuilt recovery-ramdisk as well (#7) <2 days ago> [20b7590dd]
+by: Kailash (kailash.sudhakar@gmail.com)
+
+[device/aosip/sepolicy]
+aosip: common: add rules for RGB/HSL accentpicker <7 months ago> [4e7e41a]
+by: Ashwin R C (ashwin2001achu@gmail.com)
+
+[frameworks/base]
+base: Nuke accent overlays [1/3] <5 months ago> [4371395a815]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+base: CarrierLabel: Improve settings observer <28 hours ago> [97b520d1cc9]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+base: Allow setting QS clock size separately [1/2] <28 hours ago> [f54d826e399]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+base: Introduce RGB accenter [1/2] <1 year, 3 months ago> [943cfd107ed]
+by: Kshitij Gupta (kshitijgm@gmail.com)
+base: Refactor LockScreen font type & size implementation further <2 days ago> [639518e806e]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[packages/apps/Settings]
+Settings: Nuke accent overlays [2/3] <5 months ago> [860e98d3d3]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[packages/apps/ThemePicker]
+ThemePicker: Remove accent color step <5 months ago> [f4302f2]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[vendor/overlay]
+overlay: Nuke accent overlays [3/3] <5 months ago> [5e0be05]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[packages/apps/DerpQuest]
+DerpQuest: Allow setting QS clock size separately [2/2] <27 hours ago> [20856b1]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+DerpQuest: Add RGB accent presets <5 months ago> [1592ddd]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+DerpQuest: Introduce RGB accenter [2/2] <4 months ago> [da1c7cf]
+by: spezi77 (spezi7713@gmx.net)
+
+
+====================
+     07-19-2020
+====================
+
+[external/pulse]
+Pulse: Do not show when navbar is hidden <5 days ago> [e4e8384]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[frameworks/base]
+base: Refactor LockScreen elements font type & size implementation <2 days ago> [7eab381d62e]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+[SQUASH]base: Revert VoWiFi icon <3 days ago> [8157877c569]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+base: Utils: Add a function to check for gestural NavBar <3 days ago> [0a577f44505]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+Revert "Allow to choose lockscreen or Ambient on wake gestures [1/2]" <3 days ago> [db0eb56c210]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[packages/apps/Settings]
+Settings: Ensure hide pill is off when not using gestures <3 days ago> [addc8635b4]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[packages/apps/DerpQuest]
+DerpQuest: Add a name fitting easter egg ;) <2 days ago> [b5b82b8]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+DerpQuest: Add Stockish Switch Style [2/3] <1 year, 4 months ago> [098323a]
+by: AnkitGourav (Ankitgourav035@gmail.com)
+DerpQuest: Switch styles [2/3] <3 weeks ago> [67f84a2]
+by: SKULSHADY (anushekprasal@gmail.com)
+DerpQuest: Warn the user when pulse is not showing <5 days ago> [93b5e36]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+
+====================
+     07-18-2020
+====================
+
+[frameworks/base]
+base: Add Stockish Switch Style [1/3] <1 year, 4 months ago> [026540a1e7f]
+by: AnkitGourav (Ankitgourav035@gmail.com)
+
+[packages/apps/Settings]
+Revert "Allow to choose lockscreen or Ambient on wake gestures [2/2]" <3 days ago> [bf5e859d54]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[vendor/overlay]
+overlay: Add Stockish Switch Style [3/3] <1 year, 4 months ago> [e3ccf99]
+by: =AnkitGourav (Ankitgourav035@gmail.com)
+overlay: Switch Styles [3/3] <3 weeks ago> [2e72e81]
+by: SKULSHADY (anushekprasal@gmail.com)
+
+[packages/apps/DerpQuest]
+DerpQuest: Update RU translation (#73) <6 days ago> [a9b3a68]
+by: RunningMango (36758157+RunningMango@users.noreply.github.com)
+DerpQuest: Convert NavBar pulse to a master switch <6 days ago> [94454d2]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+
+====================
+     07-17-2020
+====================
+
+[frameworks/base]
+base: Switch Styles [1/3] <3 weeks ago> [8e4d1b639fd]
+by: SKULSHADY (anushekprasal@gmail.com)
+
+[packages/apps/Launcher3]
+Automatic translation import <5 days ago> [4028bcf3e]
+by: Akhil Narang (akhilnarang.1999@gmail.com)
+
+
+====================
+     07-16-2020
+====================
+
+[manifest]
+manifest: Track our own fork of external/pulse <5 days ago> [22c0b2f]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[frameworks/base]
+base: Backup navbar pulse settings <6 days ago> [ac3428ceea1]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[packages/apps/Settings]
+Settings: add RU translation (#18) <6 days ago> [bd7a3d598b]
+by: RunningMango (36758157+RunningMango@users.noreply.github.com)
+
+[system/core]
+init.rc: disable kernel module autoloading <4 months ago> [617a28418]
+by: Eric Biggers (ebiggers@google.com)
+
+
+====================
+     07-15-2020
+====================
+
+[build/soong]
+Re-allow relative paths for modules <6 months ago> [c804e397]
+by: Surge1223 (Surge1223@gmail.com)
+
+[frameworks/base]
+base: Add automatic album art color mode for navbar pulse [1/2] <5 weeks ago> [18b9601fdb8]
+by: Ezio Lacandia Bijelkic (brabus84@gmail.com)
+base: Pulse navbar audio gfx visualizer for Android 10 [1/2] <9 weeks ago> [4bddee8e91d]
+by: bigrushdog (randall.rushing@gmail.com)
+AudioService: fix audio mode not reset to MODE_NORMAL <3 months ago> [6754113be38]
+by: wumin3 (wumin3@xiaomi.com)
+LockSettingsService : Restrict access to getpassword API <8 months ago> [5f265f20f30]
+by: Prerna Kalla (prernak@codeaurora.org)
+Fix WebView vulnerability by disallowing file access <3 months ago> [bb092995492]
+by: Chen Xu (fionaxu@google.com)
+base: Make sound tile toggle to silent instead of DnD <7 days ago> [c54080c61b0]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[packages/apps/Settings]
+Settings: Make lockscreen timeout configurable [2/2] <4 weeks ago> [7637153b5c]
+by: Alex Cruz (du.alexcruz@gmail.com)
+Settings: Ensure SeekBars with interval have a default value <7 days ago> [6ec3a98752]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[packages/apps/DerpQuest]
+DerpQuest: Add automatic album art color mode for navbar pulse [2/2] <5 weeks ago> [65fa418]
+by: Ezio Lacandia Bijelkic (brabus84@gmail.com)
+DerpQuest: Pulse navbar audio gfx visualizer for Android 10 [2/2] <6 weeks ago> [1073aaf]
+by: bigrushdog (randall.rushing@gmail.com)
+DerpQuest: ButtonSettings: Use the assigned resolver var <7 days ago> [96dff33]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+DerpQuest: Guard new dynamic summaries against bad translations <7 days ago> [23a4c22]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+DerpQuest: Ensure SeekBars with interval have a default value <7 days ago> [8ccde9f]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[scripts]
+scripts: updater: make sure no local changes exist in repo <7 days ago> [2411d58]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+
