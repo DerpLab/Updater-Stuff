@@ -3,9 +3,9 @@
 ######################
 
 - switch to userbuild
-- sepolicy:cleanup and revome all neverallows
+- sepolicy:cleanup and remove all neverallows
 - power-libperfmgr:cleanup
-- Update libqti-perfd blob from Taimen QQ3A.200705.002
+- Update libqti-perfd blobs from Taimen QQ3A.200705.002
 - rootdir: Set permissions for nodes used by power HAL
 - rootdir: remove interaction lock when idle
 - power-libperfmgr: Remove ATRACE instances
