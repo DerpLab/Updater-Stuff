@@ -1,6 +1,8 @@
-- Switched to QTI Power Hal
-- Updated Blobs from MIUI 11.0.8.0
-- Added Switch Styles
-- Added RGB Accent Picker
-- Added NavBar Pulse
-- Refactored LockScreen Font Type & Size
+- Switched to QTI BT Stack
+- Updated Blobs from MIUI 11.0.9.0
+- Fixed RGB Accent Picker
+- Updated FireFox Lite
+- Updated Adreno & Vulkan Blobs
+- Updated Required Firmware Link
+
+Latest MIUI 11.0.9.0 Firmware Required.
