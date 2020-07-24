@@ -1,181 +1,243 @@
 ====================
-     07-12-2020
+     07-24-2020
 ====================
 
 
 ====================
-     07-11-2020
+     07-23-2020
+====================
+
+[external/pulse]
+Pulse: Do not show when navbar is hidden <9 days ago> [7c4854f]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[vendor/overlay]
+overlay: Nuke accent overlays [3/3] <5 months ago> [ea320ce]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+
+====================
+     07-22-2020
 ====================
 
 [frameworks/base]
-Revert "base: SystemUI: add separate config for pulse brightness [1/2]" <2 days ago> [903ce8e905d]
+base: NetworkTraffic: Cleanup some code & have a consistent default <2 days ago> [158e4bdeef8]
 by: Ido Ben-Hur (idoybh2@gmail.com)
+base: SystemUI: Update RU translation (#34) <2 days ago> [667ba4d9441]
+by: Northn (57762732+Northn@users.noreply.github.com)
+
+[packages/apps/Settings]
+Settings: Updated RU translation (#19) <2 days ago> [c1e70476b1]
+by: Northn (57762732+Northn@users.noreply.github.com)
 
 [packages/apps/DerpQuest]
-DerpQuest: Remove custom doze brightness settings <2 days ago> [40020a5]
+DerpQuest: Allow smaller network traffic font sizes <2 days ago> [b3c689c]
 by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[scripts]
-scripts: updater: Offer to direct link for OpenDelta <2 days ago> [5cca7d4]
-by: Ido Ben-Hur (idoybh2@gmail.com)
+DerpQuest: Update RU translation (#75) <2 days ago> [595ca62]
+by: Northn (57762732+Northn@users.noreply.github.com)
 
 
 ====================
-     07-10-2020
-====================
-
-[frameworks/base]
-FODCircleView: Update FOD icon position on DreamingStateChanged <6 weeks ago> [7b62b4f26a8]
-by: Ashwin R C (ashwin2001achu@gmail.com)
-
-[packages/apps/Contacts]
-Contacts: Make the launch screen follow the system theme <4 weeks ago> [9c66735e0]
-by: Scott Warner (Tortel1210@gmail.com)
-
-[packages/apps/Dialer]
-Automatic translation import <3 days ago> [ddd6a529f]
-by: Akhil Narang (akhilnarang.1999@gmail.com)
-
-[packages/apps/Messaging]
-Automatic translation import <3 days ago> [42b2e5e]
-by: Akhil Narang (akhilnarang.1999@gmail.com)
-
-[vendor/gapps]
-Revert "gapps: Drop overlays" <2 days ago> [62208b8]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[vendor/pixelstyle]
-pixelstyle: Add Linotte font [2/2] <8 days ago> [1501a8f]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-pixelstyle: Add EvolveSans font [2/2] <8 days ago> [460c820]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-pixelstyle: Don't build google specific overlays for VANILLA <9 days ago> [dd02c41]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-[SQUASH] Remove OPScreenRecorder <10 days ago> [eac5390]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-
-====================
-     07-09-2020
-====================
-
-[frameworks/base]
-base: QS: Make sure we don't show an empty row <4 days ago> [9fa8f78a0a0]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/apps/Dialer]
-Dialer: Use a DayNight launch theme <3 weeks ago> [f4b2a5430]
-by: Scott Warner (Tortel1210@gmail.com)
-
-[packages/apps/Messaging]
-Messaging: Use a DayNight launch theme <3 weeks ago> [f6685e8]
-by: Scott Warner (Tortel1210@gmail.com)
-
-[system/core]
-adb: Look for shell executable in alternate places <2 years, 11 months ago> [7bd5bdb2b]
-by: Tom Marshall (tdm.code@gmail.com)
-
-[packages/apps/OpenDelta]
-OpenDelta: Add a null check for info image visibility <4 days ago> [fd77b58]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-
-====================
-     07-08-2020
-====================
-
-[frameworks/av]
-Add persist.sys.phh.disable_a2dp_offload property to force a2dp offload <7 weeks ago> [c7fd34fd9]
-by: Pierre-Hugues Husson (phh@phh.me)
-
-[frameworks/base]
-base: Fix freeform window moving/resizing doesn't work <9 weeks ago> [607c5b2efc6]
-by: utzcoz (utzcoz@gmail.com)
-
-[system/bt]
-Add persist.sys.phh.disable_a2dp_offload property to force a2dp offload <7 weeks ago> [cd0a289c3]
-by: Pierre-Hugues Husson (phh@phh.me)
-
-
-====================
-     07-07-2020
+     07-21-2020
 ====================
 
 [manifest]
-Merge tag 'android-10.0.0_r40' into ten <5 days ago> [675dc06]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-Manifest for Android 10.0.0 Release 40 <6 days ago> [5383244]
-by: The Android Open Source Project (initial-contribution@android.com)
+lineage: Track QTI BT repos <9 weeks ago> [824ae51]
+by: Pig (pig.priv@gmail.com)
 
 [build/make]
-Merge tag 'android-10.0.0_r40' into HEAD <5 days ago> [bf43f35c6]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[frameworks/base]
-VolumeDialog: Launch Q expanded volume panel on arrow longpress <2 weeks ago> [06203df745c]
-by: Adhitya Mohan (me@adhityamohan.in)
-
-[frameworks/native]
-Merge tag 'android-10.0.0_r40' into staging/ten-android-10.0.0_r40 <5 days ago> [1f2c99574]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/apps/Matlog]
-Matlog: Add a simple QS tile <10 days ago> [7b01e8a]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/services/Telephony]
-Merge tag 'android-10.0.0_r40' into staging/ten-android-10.0.0_r40 <5 days ago> [62ecdb1ed]
+make: Don't build AOSP claendar, email & music for vanilla <3 days ago> [812bfdec1]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 
 [scripts]
-scripts: updater: Use git remote to fetch changes <5 days ago> [c9ccbdf]
+Revert "scripts: updater: Do not offer to upload to SourceForge" <3 days ago> [27445b5]
 by: Ido Ben-Hur (idoybh2@gmail.com)
-scripts: updater: Push info.sh in a separate commit <2 weeks ago> [b861437]
+
+[vendor/pixelstyle]
+pixelstyle: Build package overlays for vanilla <3 days ago> [0c001a6]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 
 
 ====================
-     07-06-2020
+     07-20-2020
 ====================
 
 [frameworks/base]
-screenrecord: UI Improvements <10 days ago> [1fcad7eecee]
+BLE: Fix NPE during start advertising <1 year, 11 months ago> [723dfeeebd0]
+by: Sravan Voleti (sravankumar@codeaurora.org)
+Fix build errors <1 year, 6 months ago> [a911124e549]
+by: Scott Lobdell (slobdell@google.com)
+Fix BLE transport discovery scan filter <1 year, 4 months ago> [df1352c2f99]
+by: Subramanian Srinivasan (subrsrin@codeaurora.org)
+BT: Relocate A2DP codec strings for translation <7 weeks ago> [f75e2306906]
+by: dianlujitao (dianlujitao@lineageos.org)
+Enable codec change request when mode changes in aptX-adaptive <12 months ago> [f3bdee806c5]
+by: Naval saini (saini@codeaurora.org)
+Keep a null check before accessing the BluetoothA2dpWrapper APIs. <1 year, 9 months ago> [9dc1fb1b360]
+by: Satheesh Kumar Pallemoni (spallemo@codeaurora.org)
+Bluetooth: Fix for out of bound exception <1 year ago> [2d518dd1179]
+by: pramod kotreshappa (kpramod@codeaurora.org)
+BT Dev: Increase array size for codec selection in Dev Op <1 year, 10 months ago> [68010cdc177]
+by: Gurpreet Ghai (gghai@codeaurora.org)
+Keep the BluetoothHeadset finalize() method protected <1 year, 10 months ago> [e5a3455a920]
+by: Diego Wilson (diegowilson@google.com)
+Bluetooth: Fix for Global reference table overflow issue[1/2] <2 years, 9 months ago> [8afd8d5aa1b]
+by: Bandari Ramesh (ramban@codeaurora.org)
+BT: Add new intent to broadcast IOT device details <2 years, 11 months ago> [a89044ecf22]
+by: Gurpreet Ghai (gghai@codeaurora.org)
+BT_Audio: Updated Check for TWS+ switch <6 months ago> [03c357472fe]
+by: Gurpreet Ghai (gghai@codeaurora.org)
+TWS_A2DP: Handle active device change between TWS+ earbuds <1 year, 3 months ago> [c87560af1f2]
+by: pramod kotreshappa (kpramod@codeaurora.org)
+audio: Add support for APTX TWSP audio codec <1 year, 3 months ago> [68a719eb247]
+by: Dhananjay Kumar (dhakumar@codeaurora.org)
+Use BluetoothUtils instead of Utils <1 year, 11 months ago> [f877e1318cf]
+by: Diego Wilson (diegowilson@google.com)
+GAP: Handle the race condition cases in auto connect logic <5 months ago> [76b6eceac60]
+by: Venkata Jagadeesh Garaga (vgaraga@codeaurora.org)
+Obex: Squashed commit of the following <2 years, 6 months ago> [0005c8cf7cb]
+by: Sravan Kumar V (sravankumar@codeaurora.org)
+Add scan filter for Transport Discovery data <1 year, 5 months ago> [c9ff52dcbf9]
+by: Subramanian Srinivasan (subrsrin@codeaurora.org)
+Add support for Transport discovery AD type (1/2) <2 years, 1 month ago> [885c2004c8d]
+by: Subramanian Srinivasan (subrsrin@codeaurora.org)
+Bluetooth: TWSP: Support Battery Status information display <1 year, 3 months ago> [37988d807e3]
+by: Bhakthavatsala Raghavendra (braghave@codeaurora.org)
+GAP: Reset bondingInitiatedLocally flag(1/3) <1 year, 1 month ago> [36631679839]
+by: Venkata Jagadeesh Garaga (vgaraga@codeaurora.org)
+Bluetooth-TWS: Disable outgoing connection to 2nd earbud <1 year, 10 months ago> [bb1367a197d]
+by: Kiran Kelageri (kirankelageri@codeaurora.org)
+Bluetooth-TWS: Disable outgoing connection for 2nd earbud. <1 year, 11 months ago> [d0ba06d8212]
+by: Kiran Kelageri (kirankelageri@codeaurora.org)
+Bluetooth: Rename bluetooth property to support new P Treble rules <2 years, 1 month ago> [5b773a9a19c]
+by: Safoorah Banu Shaik (safoorah@codeaurora.org)
+Bluetooth: Unpair both earbuds on unpair. <2 years, 4 months ago> [84af27661c0]
+by: Kiran Kelageri (kirankelageri@codeaurora.org)
+Bluetooth: Add SDK API support for TWS feature (2) <2 years, 4 months ago> [052f53928d2]
+by: Bandari Ramesh (ramban@codeaurora.org)
+Revert the change: AudioService: remove dead BT code. <1 year, 1 month ago> [65102dba9d6]
+by: Samyak Jain (samyjain@codeaurora.org)
+Add BluetoothQualityReport class(1/2) <1 year, 1 month ago> [59fdaa6cd85]
+by: Mingbo Zhang (mingboz@codeaurora.org)
+base: Nuke accent overlays [1/3] <5 months ago> [4371395a815]
 by: Ido Ben-Hur (idoybh2@gmail.com)
-base: Do not condition VoWiFi icon change on calls <8 days ago> [f970e6da9d9]
+base: CarrierLabel: Improve settings observer <5 days ago> [97b520d1cc9]
 by: Ido Ben-Hur (idoybh2@gmail.com)
-SystemUI: Update RU translation (#31) <8 days ago> [1dfb00e0f39]
-by: Northn (57762732+Northn@users.noreply.github.com)
-base: Add Linotte font [1/2] <8 days ago> [4f92d3fb898]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-base: Use only 18px size icon for notification count <8 days ago> [bcc6de52d67]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-base: overlays: Add EvolveSans font [1/2] <8 days ago> [cff5a183da4]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-Show infinity for large notification counts <3 years, 5 months ago> [d29155827be]
-by: d34d (clark@cyngn.com)
-SystemUI: Forward-port notification counters [1/2] <6 years ago> [07ea6f180e4]
-by: Steve Kondik (steve@cyngn.com)
-SystemUI: Add USB Tether tile <5 years ago> [a3fcc8c8d98]
-by: BestPig (bestpig82@gmail.com)
-Revert "base: SystemUI: add OmniRecord based qs tile" <10 days ago> [6fa6c4bf209]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-SystemUI: PowerMenu: Use AOSP recorder for screen record button <10 days ago> [1cb7e9a8f76]
+base: Allow setting QS clock size separately [1/2] <5 days ago> [f54d826e399]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 
-[packages/apps/DeskClock]
-DeskClock: Remove notification sound from firing and snoozing channels <4 weeks ago> [22ec01749]
-by: Michael W (baddaemon87@gmail.com)
-DeskClock: Replace ViewPager with manual fragment handling <4 weeks ago> [f71fd84d6]
-by: Michael W (baddaemon87@gmail.com)
+[packages/apps/Bluetooth]
+Stub TWS related APIs <8 weeks ago> [66625157]
+by: dianlujitao (dianlujitao@lineageos.org)
+GAP: Reset bondingInitiatedLocally flag(2/3) <1 year, 1 month ago> [4f2eb247]
+by: Venkata Jagadeesh Garaga (vgaraga@codeaurora.org)
+BT: API to update quiet mode status in Adapter service [1/3] <1 year, 9 months ago> [3631f99a]
+by: M Safoorah Banu (safoorah@codeaurora.org)
+Bluetooth: Enable Hybrid Audio from App <1 year, 3 months ago> [f7ec6bc7]
+by: Srinu Jella (sjella@codeaurora.org)
+Add BLE Scan Phy parameter to scan API <2 years, 6 months ago> [63eeea8e]
+by: Subramanian Srinivasan (subrsrin@codeaurora.org)
 
 [packages/apps/Settings]
-Settings: Randomize DerpQuest's summary <4 weeks ago> [0cc092a58b]
+BT: Use translated a2dp codec strings <7 weeks ago> [ad39cf2b82]
+by: dianlujitao (dianlujitao@lineageos.org)
+codec support for DevUI am: f915bd9438 <1 year, 4 months ago> [3ec29cfe6a]
+by: Naval saini (saini@codeaurora.org)
+BT Settings: Adding aptX Adaptive codec entry in Settings <2 years, 1 month ago> [a3487ca0b9]
+by: Gurpreet Ghai (gghai@codeaurora.org)
+Bluetooth-TWS: UI updates based on Filter matched <11 months ago> [b7235caddf]
+by: zhenchao (zhenchao@codeaurora.org)
+Bluetooth-TWS: UI updates based on profile connection. <1 year, 11 months ago> [f9d9661f5f]
+by: Kiran Kelageri (kirankelageri@codeaurora.org)
+Fix build error <1 year, 11 months ago> [8f69ab4afd]
+by: Jiyong Park (jiyong@google.com)
+Bluetooth-TWS: Filter TWS devices <2 years ago> [fe449ee65d]
+by: Kiran Kelageri (kirankelageri@codeaurora.org)
+Bluetooth: Create new catogory for earbuds <2 years, 4 months ago> [f932465ac2]
+by: Kiran Kelageri (kirankelageri@codeaurora.org)
+Settings: Nuke accent overlays [2/3] <5 months ago> [860e98d3d3]
 by: Ido Ben-Hur (idoybh2@gmail.com)
-Settings: Update RU translation (#15,#16) <4 weeks ago> [39f3f0affa]
-by: RunningMango (36758157+RunningMango@users.noreply.github.com)
 
-[packages/apps/OpenDelta]
-Merge remote-tracking branch 'omni/android-10' into ten <6 days ago> [b0d6c48]
+[packages/apps/ThemePicker]
+ThemePicker: Remove accent color step <5 months ago> [f4302f2]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[system/bt]
+GAP: Reset bondingInitiatedLocally flag(3/3) <1 year, 1 month ago> [19e740231]
+by: Venkata Jagadeesh Garaga (vgaraga@codeaurora.org)
+Bluetooth: Enable Hybrid Audio from stack <1 year, 4 months ago> [96cab993b]
+by: Srinu Jella (sjella@codeaurora.org)
+Add scan filter for Transport Discovery data <1 year, 5 months ago> [8350f550b]
+by: Subramanian Srinivasan (subrsrin@codeaurora.org)
+TWS-A2DP: Add TWS+ codec index <1 year, 10 months ago> [2ed66a7ad]
+by: pramod kotreshappa (kpramod@codeaurora.org)
+BT: API to update quiet mode status in Adapter service [3/3] <1 year, 9 months ago> [4cce7706c]
+by: M Safoorah Banu (safoorah@codeaurora.org)
+BT: Adding APTX-Adaptive codec to BT HAL <2 years, 1 month ago> [8adf742d6]
+by: Gurpreet Ghai (gghai@codeaurora.org)
+Add BLE Scan Phy parameter to scan API <2 years, 3 months ago> [223065e34]
+by: Subramanian Srinivasan (subrsrin@codeaurora.org)
+Bluetooth: Add SDK API support for TWS feature (1) <2 years, 4 months ago> [fdc7f5f18]
+by: Ramesh Bandari (ramban@codeaurora.org)
+
+[packages/apps/DerpQuest]
+DerpQuest: Allow setting QS clock size separately [2/2] <5 days ago> [20856b1]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+DerpQuest: Add RGB accent presets <5 months ago> [1592ddd]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+DerpQuest: Introduce RGB accenter [2/2] <4 months ago> [da1c7cf]
+by: spezi77 (spezi7713@gmx.net)
+
+
+====================
+     07-19-2020
+====================
+
+[build/make]
+make: Generate changelog for prebuilt recovery-ramdisk as well (#7) <5 days ago> [20b7590dd]
+by: Kailash (kailash.sudhakar@gmail.com)
+
+[device/aosip/sepolicy]
+aosip: common: add rules for RGB/HSL accentpicker <7 months ago> [4e7e41a]
+by: Ashwin R C (ashwin2001achu@gmail.com)
+
+[frameworks/base]
+base: Introduce RGB accenter [1/2] <1 year, 3 months ago> [943cfd107ed]
+by: Kshitij Gupta (kshitijgm@gmail.com)
+base: Refactor LockScreen font type & size implementation further <5 days ago> [639518e806e]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+base: Refactor LockScreen elements font type & size implementation <6 days ago> [7eab381d62e]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[packages/apps/DerpQuest]
+DerpQuest: Add a name fitting easter egg ;) <6 days ago> [b5b82b8]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+
+====================
+     07-18-2020
+====================
+
+[frameworks/base]
+[SQUASH]base: Revert VoWiFi icon <6 days ago> [8157877c569]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+base: Utils: Add a function to check for gestural NavBar <6 days ago> [0a577f44505]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+Revert "Allow to choose lockscreen or Ambient on wake gestures [1/2]" <7 days ago> [db0eb56c210]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[packages/apps/Settings]
+Settings: Ensure hide pill is off when not using gestures <6 days ago> [addc8635b4]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+Revert "Allow to choose lockscreen or Ambient on wake gestures [2/2]" <7 days ago> [bf5e859d54]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[packages/apps/DerpQuest]
+DerpQuest: Add Stockish Switch Style [2/3] <1 year, 4 months ago> [098323a]
+by: AnkitGourav (Ankitgourav035@gmail.com)
+DerpQuest: Switch styles [2/3] <3 weeks ago> [67f84a2]
+by: SKULSHADY (anushekprasal@gmail.com)
+DerpQuest: Warn the user when pulse is not showing <9 days ago> [93b5e36]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 
 
