@@ -1,63 +1,34 @@
 Device changelog
 
-- Initial MIUI vendor version with LOS FOD 2.0 extension
-- July security patch
-- derp source synced to the latest
-- added vowifi and native video calling support
-- adjusted status bar corner and height
-- increased maximum no. of visible notifications
-- adaptive brightness improvements
-- DC dimming support
-- Dynamic thermal profile implementation
-- Gesture improvements and added options with multiple intensities
-- perf kernel inlined
-- added custom doze package
-- added FPS tile
-- adapted exact values for lockscreen charging information
-- netwrok improvements
-- added multiuser support
-- added raise to wake feature
-- added aptX and aptxHD props
-- Fixed Ok Google!
-- allow intrusive Battery LED
-- added vector icons to ambient settings
-- misc. fixes and performance improvements
+- Switched to qcom bt stack
+- Fixed usb debugging turning auto off after a reboot
+- Brightness improvements
+- Update displayfeature fod command to match miui
+- Minimum vendor version bumbed based on the latest vendors release
+- Carrier Config updated
+- Reverted doze autobrightness
+- Screen fade off disabled
+- FIxed low mic volume issue
 
 Rom changelog
 
-- Merged July security patch (r40)
-- Reworked expanded volume dialog (fixes many bugs with it)
-- Lowered fullscreen gesture trigger area
-- Fixed fullscreen pill showing on landscape for some back heights
-- Fixed a FC for new FOD implementation
-- Fixed screen stabilization QS tile
-- Added StatusBar notification counters
-- Added USB tethering QS tile
-- Added log QS tile
-- Added EvolveSans & Linotte system fonts
-- Added MatLog QS tile
-- Added Bootlegger's AOSP screen recorder (& improved UI)
-- Removed Omni & OOS Screen recorders
-- Removed internal recording restrictions for 3rd party apps
-- Removed useless / non working system fonts
-- Updated GApps
-- Randomize DerpQuest summary with funny strings
-- Reworked blink flashlight on call, again. This time I'm done, Promise 
-- Fixed reboot for APEX update
-- Added derp blue theme
-- Added FOD extensions support (irrelevent for this device)
-- Added arrow keys on navbar while typing
-- Added StatusBar VoWiFi icon (& a switch)
-- Update & Apply custom carrier label position correctly
-- Fixed inactive WiFi icon in some icon packs
-- Fixed the double navbar switch issues (for hw buttons devices)
-- Minor fix for the new OpenDelta UI
-- Disable "R style" notification headers by default
-- Wake on charge regardless of AoD settings
-- Updates to translations
-- Some more minor derps/bugs fixes
+- Fixed the no default dialer issue
+- Added navbar pulse
+- Made master switches summaries dynamic (in DerpQuest)
+- Added yet more settings to backup array
+- Added an easter egg
+- Made sound QS tile toggle to silent instead of DND
+- Added back RGB accent picker (works fine with 3rd parties now)
+- Added back RGB accent presets
+- Removed the color step from ThemePicker
+- Removed color overlays
+- Removed lockscreen / ambient wake gesture switch (was not working properly)
+- Allowed setting QS clock size separately
+- Refactored fonts & sizes implementation (reduced 2600~ lines of bad, bad code to 260~) you can actually feel the difference in QS, SB and especially LS
+- A lot of other bug / code fixes all around
+- Updates to translationses
 
-Note : If you are already on DerpFest previous OSS builds you are required to do a clean flash since the version is not an OSS version. You need to flash the latest vendor version according to your region. Refer below,
-- V12.0.1.0 for India
+Note : You need to flash the latest vendor version according to your region. Refer below,
+- V12.0.2.0 for India
 - V12.0.2.0 for China
 - V12.0.1.0 for Other device (global/eu/russia)
