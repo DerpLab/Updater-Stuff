@@ -1,41 +1,38 @@
-Rom ChangeLogs :
-- Fixed system crashing after connected to Android Auto or started screen record
-- OPScreenRecorder: Updated to 2.3.0 (From OP6T OB5)
-- Removed restrictions for system audio record
-- Cleaned up pixel live wallpaper port
-- Updated some qs tile icons to MD2
-- Ported pixel navigation bar
-- Ported more Assist things from Pixel SystemUI
-- QS blur improvements
-- Fixed binary clock update
-- Added Eggtimer to Caffeine tile
-- DataSwitchTile: Added drawable for No SIM
-- Added outline style to caffeine qs tile drawable
-- Added advanced location qs tile options
-- Added new long click QS tiles panel for mobile data, bluetooth, data tile, wifi and nfc
-- Partial screenshot block gestures/headsup: code improvements
-- Fixed screenshot shutter sound toggle
-- Screenshot: Removed white flash if dark mode is enabled
-- Added a toggle for the QS tint
-- Allowed to backup LS clock & date styles values
-- Added a permission group for signature spoofing
-- Make sure media artwork blur restored radius value is valid
-- Added full accent sammy clock style
-- Brand new colorful and shape adaptable icons under DerpQuest section
-- Disabled junky LS clock & slice transition animations
-- Fixed padding bug when header image is enabled but not selected
-- Cleaned up running services fragment layout
-- Added notification log history
-- Brought back pixel layout in qs panel
-- Added Flame primary color
-- Added OnePlus Dark primary color
-- Removed duplicate exposures
-- Cleaned up hardcoded colors and used/overlay AOSP values
-- Added Matlog prebuilt
-- Some more things maybe I can't remember more :P
+Rom Source Changelogs :
+-Merged July security patch (r40)
+-Reworked expanded volume dialog (fixes many bugs with it)
+-Lowered fullscreen gesture trigger area
+-Fixed fullscreen pill showing on landscape for some back heights
+-Fixed a FC for new FOD implementation (irrelevant for this device)
+-Fixed screen stabilization QS tile
+-Added StatusBar notification counters
+-Added USB tethering QS tile
+-Added log QS tile
+-Added EvolveSans & Linotte system fonts
+-Added MatLog QS tile
+-Added Bootlegger's AOSP screen recorder (& improved UI)
+-Removed Omni & OOS Screen recorders
+-Removed internal recording restrictions for 3rd party apps
+-Removed useless / non working system fonts
+-Updated GApps
+-Randomize DerpQuest summary with funny strings
+-Reworked blink flashlight on call, again.
+-Fixed reboot for APEX update
+-Added derp blue theme
+-Added FOD extensions support (irrelevent for this device)
+-Added arrow keys on navbar while typing
+-Added StatusBar VoWiFi icon (& a switch)
+-Update & Apply custom carrier label position correctly
+-Fixed inactive WiFi icon in some icon packs
+-Fixed the double navbar switch issues (for hw buttons devices)
+-Minor fix for the new OpenDelta UI
+-Disable "R style" notification headers by default
+-Wake on charge regardless of AoD settings
+-Updates to translations
+-Fix freeform window moving/resizing doesn't work
+-Reworked DerpQuest
+-Some more minor derps/bugs fixes
 
-Device ChangeLogs :
-- Synced rom source
-- April Security Patch
-- Updated Coral Fingerprint to April
-- Some other fixes
+Device Changelogs :
+-New Device/Vendor Tree Based on Lineage with alot of fixes & improvments
+-Stock Kernel As Defaul (4.9.230)
