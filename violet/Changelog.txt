@@ -1,4 +1,17 @@
 =================
+     27-07-2020
+=================
+
+• violet: Merged latest linux kernel tag into 4.14.189
+• violet: Moved to QTI BT
+• violet: Update July fingerprint from flame
+• violet: Enable fluence for audio and voice recording
+• violet: Add pixel live wallpaper package
+• violet: Drop unused memory optimization property
+• violet: Merge tag 'LA.UM.8.9.r1-09600-SM6xx.0
+• violet: Enable Google Recorder for all
+
+=================
      16-07-2020
 =================
 
