@@ -2,48 +2,62 @@
 ## DEVICE CHANGELOG ##
 ######################
 
-e4f9c729a4da msm: mdss: add idle state node
-df0ecd07 dm660-common: data-ipa-cfg-mgr: Merge tag 'LA.UM.8.2.r1-06900-sdm660.0'
-082d070b IMS: Enable IMS feature flags for supported carriers
-533320b7 sdm660-common: Exclude Snap overlays from RRO
-53f8af3c sdm660-common: Exclude lineage-sdk overlays from RRO
-9536da3d sdm660-common: Enforce RRO for all resource overlays
-ffc87e69 sdm660-common: allow auto-brightness while in doze
-36da9008 sdm660-common: Change USB autosuspend delay to 7s by commandline.
-4a64812e sdm660-common: wifi: remove duplicated configs
-16bcf357 sdm660-common: whyred: init: Add custom init to set proper variants (#55)
-ceef839c qcom : device : Update static iuicc names in device
-c8b772b1 Adding com.skyhook.blp into the whitelist
-24d2bf06 init.qcom.usb.sh: Set USB default composition to 9091
-059ed20a sdm660-common: overlay: Limit alpha compositing functionality
-f26cf285 sdm660-common: Parts: Calculate expotenial LED Brightness slider values
-d26a3634 sdm660-common: Switch lmkd to use minfree levels for kill decisions
-b7e48fd5 sdm660-common: Increase ro.lmk.medium to prevent kills at medium vmpressure
-5c24af19 sdm660-common: Update lmkd configuration properties
-47090aec sdm660: props: enable zygote preforking
-2c1e82f7 sdm660-common: Make FM radio opt-in
-dfed0c84 sdm660-common: Use Qcrild from  LA.UM.8.2.r1-06500-sdm660.0
-2619310f sdm660-common: Update DATA IPA Hal to LA.UM.8.2.r1-06700-sdm660.0
-4e9b883b sdm660-common: Update Gps Hal to LA.UM.8.2.r1-06700-sdm660.0
-d9c83af8 sdm660-common: Update blobs from LA.UM.8.2.r1-06700-sdm660.0
-1c5a84ba sdm660-common: Remove unused lower-end codecs
-42f44a4d sdm660-common: Increase audio HAL buffer size to 240
-00532cc8 sdm660-common: init: Remove unexistent sensor service
-8aa64ac6 sdm660-common: Update blobs from LA.UM.8.2.r1-06600-sdm660.0
-eb18e31f sdm660-common: prop: Add persist.vendor.dpm.nsrm.bkg.evt prop
-6677ea8a sdm660-common: sepolicy: Allow dpmd set ctl_stop_prop
-6105fa74 sdm660-common: Is dpmservice the product permission?
-ecb40f10 sdm660-common: Update Sensor Blobs to CAF
-a0b70bb9 sdm660-common: Update Display utils Blobs
-1a056d6d2eb3 net: wireguard: Update to 1.0.20200623
-ca72c629aaf1 Merge tag 'LA.UM.8.2.r1-06900-sdm660.0' of https://source.codeaurora.org/quic/la/kernel/msm-4.4 into HEAD
-a808f7c18861 drivers: gpu: Increase adreno bus data limit
-3552e4b67364 Merge 4.4.229 into kernel.lnx.4.4.r38-rel
+- Bug fixes and improvements
+- Fixed stereo mic
+- Qti bluetooth
+- Brought back 24bit audio
+- TWRP lags fixed
+- Switched to PELT
+- Cleanup
+- Might fix pagb lags( who knows)
+- Upstreamed kernel to 4.4.232
+- sdm660-common: prop: Disable a2dp offload by default
+- sdm660-common: overlay: Rework doze Autobrightness values
+- sdm660-common: prop: Set Perf related Props from sdm660
 
 ######################
 ##  ROM  CHANGELOG  ##
 ######################
 
+- Merged august security patch (r41)
+- Fixed Freeform window moving & resize issues
+- QS make sure we dont show empty row
+- Make lockscreen timeout configurable
+- Fix WebView vulnerability by disallowing file access
+- Added Pulse Navbar
+- Added automatic album art color mode for navbar pulse 
+- Added Switch Styles
+- Reverted Vowifi Icon Implementation
+- Refactor LockScreen elements font type & size implementation
+- Added RGB accenter
+- Added Bluetooth QTI Implementation
+- Improved Network Traffic Monitor
+- Added support for a custom icon for Toast 
+- Allow showing music heads up on new tracks
+- Added QS header styles
+- Added Powermenu Background filter 
+- Make Master switches summaries dynamic 
+- Added a name fitting easter egg
+- Added Derp Clear Primary
+- Added Snap Camera Support
+- Updates to translations
+- Some more minor derps/bugs fixes
+- Fixed the no default dialer issue
+- Added navbar pulse
+- Made master switches summaries dynamic (in DerpQuest)
+- Added yet more settings to backup array
+- Added an easter egg
+- Made sound QS tile toggle to silent instead of DND
+- Added back RGB accent picker (works fine with 3rd parties now)
+- Added back RGB accent presets
+- Removed the color step from ThemePicker
+- Removed color overlays
+- Removed lockscreen / ambient wake gesture switch (was not working properly)
+- Allowed setting QS clock size separately
+- Refactored fonts & sizes implementation (reduced 2600~ lines of bad, bad code to 260~)
+- ^ you can actually feel the difference in QS, SB and especially LS
+- A lot of other bug / code fixes all around
+- Updates to translations
 - Merged July security patch (r40)
 - Reworked expanded volume dialog (fixes many bugs with it)
 - Lowered fullscreen gesture trigger area
