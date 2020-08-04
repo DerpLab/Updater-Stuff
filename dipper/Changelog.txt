@@ -1,233 +1,353 @@
 ====================
-     07-21-2020
+     08-04-2020
 ====================
 
-[frameworks/base]
-base: Nuke accent overlays [1/3] <5 months ago> [4371395a815]
+[manifest]
+Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/platform/manifest into ten <5 hours ago> [6a84861]
 by: Ido Ben-Hur (idoybh2@gmail.com)
-base: CarrierLabel: Improve settings observer <24 hours ago> [97b520d1cc9]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-base: Allow setting QS clock size separately [1/2] <24 hours ago> [f54d826e399]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/apps/Settings]
-Settings: Nuke accent overlays [2/3] <5 months ago> [860e98d3d3]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/apps/ThemePicker]
-ThemePicker: Remove accent color step <5 months ago> [f4302f2]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[vendor/overlay]
-overlay: Nuke accent overlays [3/3] <5 months ago> [5e0be05]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/apps/DerpQuest]
-DerpQuest: Allow setting QS clock size separately [2/2] <23 hours ago> [20856b1]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-DerpQuest: Add RGB accent presets <5 months ago> [1592ddd]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-DerpQuest: Introduce RGB accenter [2/2] <4 months ago> [da1c7cf]
-by: spezi77 (spezi7713@gmx.net)
-
-[device/xiaomi/dipper]
-dipper: Update dependencies <22 hours ago> [ddd50e6]
-by: ALKALiKong (alikongalk@gmail.com)
-
-[device/xiaomi/sdm845-common]
-sdm845-common: Update dependencies <22 hours ago> [6fe3579]
-by: ALKALiKong (alikongalk@gmail.com)
-sdm845-common: Switch to common QTI power HAL <4 days ago> [529b67a]
-by: Bruno Martins (bgcngm@gmail.com)
-
-[kernel/xiaomi/sdm845]
-defconfig: Change CONFIG_LOCALVERSION <23 hours ago> [a20107f56e79]
-by: ALKALiKong (alikongalk@gmail.com)
-Makefile: Use O3 and polly for clang <3 months ago> [fbca3f849583]
-by: Twisted (36546624+TwistedPrime@users.noreply.github.com)
-
-
-====================
-     07-20-2020
-====================
+Manifest for Android 10.0.0 Release 41 (QQ3A.200805.001) <6 hours ago> [458a841]
+by: The Android Open Source Project (initial-contribution@android.com)
+manifest: Track Snap camera from AOSiP <19 hours ago> [5268110]
+by: Murtaza@Piplod (murtaza1926@gmail.com)
 
 [build/make]
-make: Generate changelog for prebuilt recovery-ramdisk as well (#7) <32 hours ago> [20b7590dd]
-by: Kailash (kailash.sudhakar@gmail.com)
+Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/platform/build into HEAD <5 hours ago> [26f2481f3]
+by: Ido Ben-Hur (idoybh2@gmail.com)
 
-[device/aosip/sepolicy]
-aosip: common: add rules for RGB/HSL accentpicker <7 months ago> [4e7e41a]
-by: Ashwin R C (ashwin2001achu@gmail.com)
+[external/gptfdisk]
+Merge tag 'android-10.0.0_r41' into ten <6 hours ago> [aad8539]
+by: Akhil Narang (me@akhilnarang.dev)
+
+[frameworks/av]
+Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/platform/frameworks/av into ten <5 hours ago> [3ddea8400]
+by: Ido Ben-Hur (idoybh2@gmail.com)
 
 [frameworks/base]
-base: Introduce RGB accenter [1/2] <1 year, 3 months ago> [943cfd107ed]
-by: Kshitij Gupta (kshitijgm@gmail.com)
-base: Refactor LockScreen font type & size implementation further <32 hours ago> [639518e806e]
+Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/platform/frameworks/base into ten <5 hours ago> [a36ca80b795]
 by: Ido Ben-Hur (idoybh2@gmail.com)
-base: Refactor LockScreen elements font type & size implementation <2 days ago> [7eab381d62e]
+FODCircleView: Let us call show() when mIsBouncer() && !isPinOrPattern() <3 months ago> [c8f7061aac0]
+by: LuK1337 (priv.luk@gmail.com)
+Camera: allow camera to use power key as shutter <8 years ago> [0e72c13d002]
+by: Danesh M (daneshm90@gmail.com)
+
+[packages/apps/Settings]
+Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/platform/packages/apps/Settings into HEAD <5 hours ago> [ae6c3c35b9]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 
-[packages/apps/DerpQuest]
-DerpQuest: Add a name fitting easter egg ;) <2 days ago> [b5b82b8]
+[packages/services/Telephony]
+Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/platform/packages/services/Telephony into HEAD <5 hours ago> [99bd78805]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 
-[device/xiaomi/dipper]
-dipper: rootdir: Enable kernel's usb fast charge by default <2 days ago> [00b0a1a]
-by: ALKALiKong (alikongalk@gmail.com)
-dipper: Switch to my own kernel and use proton clang to build <24 hours ago> [834bfd9]
-by: ALKALiKong (alikongalk@gmail.com)
-
-[device/xiaomi/sdm845-common]
-sdm845-common: Fix-up audio policy configurations <3 weeks ago> [aa1172a]
-by: Bruno Martins (bgcngm@gmail.com)
-sdm845-common: Move clang version to the device tree <2 days ago> [95a9222]
-by: ALKALiKong (alikongalk@gmail.com)
+[scripts]
+scripts: aosp-merger: Make sure AOSP remote is valid <25 minutes ago> [b45917a]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+scripts: aosp-merger: Don't detach all heads <26 minutes ago> [b4ff52f]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+scripts: aosp-merger: Manually merge build/make & manifest before sync <5 hours ago> [83a8ca1]
+by: Ido Ben-Hur (idoybh2@gmail.com)
 
 [kernel/xiaomi/sdm845]
-Add Drivedroid Support <12 months ago> [7f80acf73aa5]
-by: Michael (loukerismichalis@gmail.com)
-drivers: misc: implement usb fast charge mode <3 years ago> [9b7e7f07ce4f]
-by: engstk (eng.stk@sapo.pt)
-script: Fix up build script <2 days ago> [80a8b4f9f6a8]
+f2fs: inode: s/f2fs_msg/f2fs_warn/g <19 hours ago> [979f32fd674d]
+by: PIPIPIG23366 (pig.priv@gmail.com)
+fs: drop_caches: expose mm_drop_caches() <1 year, 4 months ago> [ac8dec0c4680]
+by: Park Ju Hyung (qkrwngud825@gmail.com)
+f2fs: explicitly flush device upon foreground GC <1 year, 4 months ago> [ad2094ed587a]
+by: Park Ju Hyung (qkrwngud825@gmail.com)
+f2fs/rapid_gc: Clean up return codes <1 year, 4 months ago> [5bc1313cba05]
+by: Artem Labazov (123321artyom@gmail.com)
+f2fs/rapid_gc: Do not wait until all invalid blocks are discarded <1 year, 6 months ago> [d20dd5b163e3]
+by: Park Ju Hyung (qkrwngud825@gmail.com)
+f2fs: Switch FB notifier API to MSM DRM notifier <1 year, 7 months ago> [6e84eee97141]
+by: Park Ju Hyung (qkrwngud825@gmail.com)
+f2fs: Convert wakelock APIs to wakeup_source <1 year, 7 months ago> [685267fec58a]
+by: Park Ju Hyung (qkrwngud825@gmail.com)
+f2fs: Implement rapid GC for Android <1 year, 7 months ago> [2c286dc85c01]
+by: Park Ju Hyung (qkrwngud825@gmail.com)
+f2fs: set ioprio of GC kthread to idle <2 years, 10 months ago> [2aaf0a68a4cd]
+by: Park Ju Hyung (qkrwngud825@gmail.com)
+mm/migrate: new migrate mode MIGRATE_SYNC_NO_COPY <2 years, 11 months ago> [3a12159dc1a0]
+by: Jérôme Glisse (jglisse@redhat.com)
+
+
+====================
+     08-03-2020
+====================
+
+[packages/apps/Settings]
+Settings: Update Simplified Chinese translations <2 days ago> [907f35d11e]
+by: onlymash (im@fiepi.me)
+
+
+====================
+     08-02-2020
+====================
+
+[frameworks/base]
+FODCircleView: Show while bouncer is requesting Pattern or PIN <5 days ago> [2673811209d]
+by: TheScarastic (warabhishek@gmail.com)
+base: Allow setting PowerMenu background blur radius [2/2] <3 days ago> [4c95d476e85]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+base: Improve PowerMenu backround filter code <4 days ago> [cfb37d17200]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+base: Powermenu Background filter [1/2] <7 weeks ago> [d5305ff59df]
+by: AnkitGourav (Ankitgourav035@gmail.com)
+
+[vendor/overlay]
+overlay: Add Derp Clear Primary <5 days ago> [c5b2162]
+by: deadmanxxd (deadmanxxd@gmail.com)
+
+[packages/apps/DerpQuest]
+DerpQuest: Allow setting PowerMenu background blur radius [2/2] <3 days ago> [a12652a]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[device/xiaomi/sdm845-common]
+sdm845-common: add parameters for Hotspot 2.0 <1 year, 9 months ago> [6c5752c]
+by: Ecco Park (eccopark@google.com)
+sdm845-common: wpa_supplicant(overlay): Increase max bss count <2 years, 4 months ago> [f4466f5]
+by: Roshan Pius (rpius@google.com)
+sdm845-common: No BSS flush for 2018 devices <1 year, 7 months ago> [0df0525]
+by: xshu (xshu@google.com)
+sdm845-common: Enable Fast BSS Transition <3 months ago> [33840ad]
+by: xNombre (kartapolska@gmail.com)
+
+[kernel/xiaomi/sdm845]
+techpack: sound_control: remove the speaker bits <1 year, 8 months ago> [f17045aa9681]
+by: Francisco Franco (franciscofranco.1990@gmail.com)
+wcd934x: sound control: reset headphone digital gain to user value <2 years, 2 months ago> [17d3ac95666b]
+by: flar2 (asegaert@gmail.com)
+wcd934x: add sound control <2 years, 2 months ago> [785042ded00a]
+by: flar2 (asegaert@gmail.com)
+K-lapse v5.0 : <1 year, 2 months ago> [7f60fda179ad]
+by: tanish2k09 (tanish2k09.dev@gmail.com)
+Introducing KLapse - A kernel level livedisplay module v4.0 <1 year, 5 months ago> [faf75e52f528]
+by: tanish2k09 (tanish2k09.dev@gmail.com)
+msm: camera_v2: remove gcc invocations <9 months ago> [7d4c4fd3189e]
+by: Petri Gynther (pgynther@google.com)
+arm64: vdso32: Fix '--prefix=' value for newer versions of clang <12 days ago> [57864a65988d]
+by: Nathan Chancellor (natechancellor@gmail.com)
+Merge branch 'android-4.9-q' of https://android.googlesource.com/kernel/common into HEAD <3 days ago> [f073ca8bc5d9]
 by: ALKALiKong (alikongalk@gmail.com)
-Merge branch 'android-4.9-q' of https://android.googlesource.com/kernel/common into lineage-17.1 <2 days ago> [8077fa631442]
+configs: Disable CONFIG_CC_STACKPROTECTOR_STRONG <3 days ago> [6be97da2082f]
 by: ALKALiKong (alikongalk@gmail.com)
 
 [prebuilts/clang/host/linux-x86/clang-proton]
-Update to 20200719 build <2 days ago> [bddccf2]
+Update to 20200801 build <2 days ago> [45c59ca]
 by: Danny (danny@kdrag0n.dev)
 
 
 ====================
-     07-19-2020
+     08-01-2020
 ====================
 
-[external/pulse]
-Pulse: Do not show when navbar is hidden <5 days ago> [e4e8384]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
 [frameworks/base]
-[SQUASH]base: Revert VoWiFi icon <2 days ago> [8157877c569]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-base: Utils: Add a function to check for gestural NavBar <3 days ago> [0a577f44505]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-Revert "Allow to choose lockscreen or Ambient on wake gestures [1/2]" <3 days ago> [db0eb56c210]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/apps/Settings]
-Settings: Ensure hide pill is off when not using gestures <3 days ago> [addc8635b4]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-Revert "Allow to choose lockscreen or Ambient on wake gestures [2/2]" <3 days ago> [bf5e859d54]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/apps/DerpQuest]
-DerpQuest: Add Stockish Switch Style [2/3] <1 year, 4 months ago> [098323a]
-by: AnkitGourav (Ankitgourav035@gmail.com)
-DerpQuest: Switch styles [2/3] <3 weeks ago> [67f84a2]
+base: Add QS header styles [1/3] <5 days ago> [405fd498ee6]
 by: SKULSHADY (anushekprasal@gmail.com)
-DerpQuest: Warn the user when pulse is not showing <5 days ago> [93b5e36]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-
-====================
-     07-18-2020
-====================
-
-[frameworks/base]
-base: Add Stockish Switch Style [1/3] <1 year, 4 months ago> [026540a1e7f]
-by: AnkitGourav (Ankitgourav035@gmail.com)
 
 [vendor/overlay]
-overlay: Add Stockish Switch Style [3/3] <1 year, 4 months ago> [e3ccf99]
-by: =AnkitGourav (Ankitgourav035@gmail.com)
-overlay: Switch Styles [3/3] <3 weeks ago> [2e72e81]
+overlay: Add QS header styles [3/3] <1 year, 9 months ago> [f69f0bf]
+by: Anushek Prasal (anushekprasal@gmail.com)
+
+[packages/apps/DerpQuest]
+DerpQuest: Convert PowerMenu background filters to be a master switch <3 days ago> [3e270e8]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+DerpQuest: Add powermenu Background Filters [2/2] <5 days ago> [f391bb4]
+by: Aston-Martinn (advaithbhat9@gmail.com)
+DerpQuest: Add QS header styles [2/3] <5 days ago> [e8daf60]
 by: SKULSHADY (anushekprasal@gmail.com)
 
+[kernel/xiaomi/sdm845]
+Merge 4.9.232 into android-4.9-q <3 days ago> [8ed2f64299b7]
+by: Greg Kroah-Hartman (gregkh@google.com)
+Linux 4.9.232 <3 days ago> [8d6b541290cb]
+by: Greg Kroah-Hartman (gregkh@linuxfoundation.org)
+perf: Make perf able to build with latest libbfd <5 weeks ago> [eef50fa1f4db]
+by: Changbin Du (changbin.du@gmail.com)
+perf tools: Fix snprint warnings for gcc 8 <5 weeks ago> [f578600eba26]
+by: Jiri Olsa (jolsa@kernel.org)
+perf annotate: Use asprintf when formatting objdump command line <5 weeks ago> [666fe39b0e7d]
+by: Arnaldo Carvalho de Melo (acme@redhat.com)
+perf probe: Fix to check blacklist address correctly <5 weeks ago> [045c228b26f5]
+by: Masami Hiramatsu (mhiramat@kernel.org)
+xfs: set format back to extents if xfs_bmap_extents_to_btree <2 years, 4 months ago> [8e5f820e14e9]
+by: Eric Sandeen (sandeen@redhat.com)
+regmap: debugfs: check count when read regmap file <5 months ago> [65cddd579e3c]
+by: Peng Fan (peng.fan@nxp.com)
+drivers/net/wan/x25_asy: Fix to make it work <3 weeks ago> [4effbbdc8cf0]
+by: Xie He (xie.he.0141@gmail.com)
+ip6_gre: fix null-ptr-deref in ip6gre_init_net() <3 weeks ago> [479be5229bd8]
+by: Wei Yongjun (weiyongjun1@huawei.com)
+tcp: allow at most one TLP probe per flight <11 days ago> [35c3c8f01ca0]
+by: Yuchung Cheng (ycheng@google.com)
+AX.25: Prevent integer overflows in connect and sendmsg <11 days ago> [15a9765cf8dd]
+by: Dan Carpenter (dan.carpenter@oracle.com)
+rxrpc: Fix sendmsg() returning EPIPE due to recvmsg() returning ENODATA <2 weeks ago> [3a74e2808eba]
+by: David Howells (dhowells@redhat.com)
+net: udp: Fix wrong clean up for IS_UDPLITE macro <2 weeks ago> [feed32a3a405]
+by: Miaohe Lin (linmiaohe@huawei.com)
+net-sysfs: add a newline when printing 'tx_timeout' by sysfs <2 weeks ago> [c0e3a9a4c4c9]
+by: Xiongfeng Wang (wangxiongfeng2@huawei.com)
+dev: Defer free of skbs in flush_backlog <11 days ago> [b7441315b8d2]
+by: Subash Abhinov Kasiviswanathan (subashab@codeaurora.org)
+AX.25: Prevent out-of-bounds read in ax25_sendmsg() <12 days ago> [8b097fc4484f]
+by: Peilin Ye (yepeilin.cs@gmail.com)
+AX.25: Fix out-of-bounds read in ax25_connect() <12 days ago> [9aaa5f94050e]
+by: Peilin Ye (yepeilin.cs@gmail.com)
+ath9k: Fix regression with Atheros 9271 <3 weeks ago> [6f02463c52d5]
+by: Mark O'Donovan (shiftee@posteo.net)
+ath9k: Fix general protection fault in ath9k_hif_usb_rx_cb <4 months ago> [a70c4a2f2512]
+by: Qiujun Huang (hqjagain@gmail.com)
+parisc: Add atomic64_set_release() define to avoid CPU soft lockups <2 weeks ago> [518d1af92be8]
+by: John David Anglin (dave.anglin@bell.net)
+io-mapping: indicate mapping failure <11 days ago> [77f6d9368c07]
+by: Michael J. Ruhl (michael.j.ruhl@intel.com)
+mm/memcg: fix refcount error while moving and swapping <11 days ago> [bcd79c5d5887]
+by: Hugh Dickins (hughd@google.com)
+Makefile: Fix GCC_TOOLCHAIN_DIR prefix for Clang cross compilation <13 days ago> [d98d958276c7]
+by: Fangrui Song (maskray@google.com)
+vt: Reject zero-sized screen buffer size. <3 weeks ago> [3307b4ec6d22]
+by: Tetsuo Handa (penguin-kernel@I-love.SAKURA.ne.jp)
+serial: 8250_mtk: Fix high-speed baud rates clamping <3 weeks ago> [bce9a1f25501]
+by: Serge Semin (Sergey.Semin@baikalelectronics.ru)
+serial: 8250: fix null-ptr-deref in serial8250_start_tx() <13 days ago> [81e57039ebbc]
+by: Yang Yingliang (yangyingliang@huawei.com)
+staging: comedi: addi_apci_1564: check INSN_CONFIG_DIGITAL_TRIG shift <2 weeks ago> [75a0cbaaee35]
+by: Ian Abbott (abbotti@mev.co.uk)
+staging: comedi: addi_apci_1500: check INSN_CONFIG_DIGITAL_TRIG shift <2 weeks ago> [ecceea19a193]
+by: Ian Abbott (abbotti@mev.co.uk)
+staging: comedi: ni_6527: fix INSN_CONFIG_DIGITAL_TRIG support <2 weeks ago> [63fe8c960844]
+by: Ian Abbott (abbotti@mev.co.uk)
+staging: comedi: addi_apci_1032: check INSN_CONFIG_DIGITAL_TRIG shift <2 weeks ago> [bfe0aac5e4fa]
+by: Ian Abbott (abbotti@mev.co.uk)
+staging: wlan-ng: properly check endpoint types <12 days ago> [c2646b964bee]
+by: Rustam Kovhaev (rkovhaev@gmail.com)
+Revert "cifs: Fix the target file was deleted when rename failed." <11 days ago> [13b502bbee22]
+by: Steve French (stfrench@microsoft.com)
+usb: xhci: Fix ASM2142/ASM3142 DMA addressing <3 weeks ago> [41f5f86a7105]
+by: Forest Crossman (cyrozap@gmail.com)
+usb: xhci-mtk: fix the failure of bandwidth allocation <4 weeks ago> [a9423d50bb58]
+by: Chunfeng Yun (chunfeng.yun@mediatek.com)
+x86: math-emu: Fix up 'cmp' insn for clang ias <10 weeks ago> [8844e1707f2d]
+by: Arnd Bergmann (arnd@arndb.de)
+arm64: Use test_tsk_thread_flag() for checking TIF_SINGLESTEP <6 months ago> [998c0852c528]
+by: Will Deacon (will@kernel.org)
+usb: gadget: udc: gr_udc: fix memleak on error handling path in gr_ep_init() <5 weeks ago> [f038d105d093]
+by: Evgeny Novikov (novikov@ispras.ru)
+dmaengine: ioat setting ioat timeout as module parameter <5 weeks ago> [9ef026214f70]
+by: Leonid Ravich (Leonid.Ravich@emc.com)
+regmap: dev_get_regmap_match(): fix string comparison <5 weeks ago> [05f479dce24e]
+by: Marc Kleine-Budde (mkl@pengutronix.de)
+dmaengine: tegra210-adma: Fix runtime PM imbalance on error <6 weeks ago> [8830292dcf40]
+by: Dinghao Liu (dinghao.liu@zju.edu.cn)
+HID: apple: Disable Fn-key key-re-mapping on clone keyboards <6 weeks ago> [d1893610f6c7]
+by: Hans de Goede (hdegoede@redhat.com)
+HID: i2c-hid: add Mediacom FlexBook edge13 to descriptor override <7 weeks ago> [95c0fa1eca9c]
+by: Federico Ricchiuto (fed.ricchiuto@gmail.com)
+scripts/decode_stacktrace: strip basepath from all paths <11 days ago> [5e085f2f1536]
+by: Pi-Hsun Shih (pihsun@chromium.org)
+net: smc91x: Fix possible memory leak in smc_drv_probe() <3 weeks ago> [49c4d85072aa]
+by: Wang Hai (wanghai38@huawei.com)
+net: dp83640: fix SIOCSHWTSTAMP to update the struct with actual configuration <3 weeks ago> [059e2392bf81]
+by: Sergey Organov (sorganov@gmail.com)
+ax88172a: fix ax88172a_unbind() failures <3 weeks ago> [041aff4ad947]
+by: George Kennedy (george.kennedy@oracle.com)
+hippi: Fix a size used in a 'pci_free_consistent()' in an error handling path <3 weeks ago> [7a1d03dead97]
+by: Christophe JAILLET (christophe.jaillet@wanadoo.fr)
+bnxt_en: Fix race when modifying pause settings. <3 weeks ago> [1ff463b64f61]
+by: Vasundhara Volam (vasundhara-v.volam@broadcom.com)
+btrfs: fix mount failure caused by race with umount <3 weeks ago> [59b6d2218da8]
+by: Boris Burkov (boris@bur.io)
+btrfs: fix double free on ulist after backref resolution failure <3 weeks ago> [c6ff26b1d0e5]
+by: Filipe Manana (fdmanana@suse.com)
+ASoC: rt5670: Correct RT5670_LDO_SEL_MASK <5 weeks ago> [f91620544707]
+by: Hans de Goede (hdegoede@redhat.com)
+ALSA: info: Drop WARN_ON() from buffer NULL sanity check <3 weeks ago> [4881d9b6cc9a]
+by: Takashi Iwai (tiwai@suse.de)
+uprobes: Change handle_swbp() to send SIGTRAP with si_code=SI_KERNEL, to fix GDB regression <11 days ago> [fe6ba50d4354]
+by: Oleg Nesterov (oleg@redhat.com)
+SUNRPC reverting d03727b248d0 ("NFSv4 fix CLOSE not waiting for direct IO compeletion") <3 weeks ago> [968bef603af1]
+by: Olga Kornievskaia (kolga@netapp.com)
+drm/nouveau/i2c/g94-: increase NV_PMGR_DP_AUXCTL_TRANSACTREQ timeout <6 weeks ago> [237169c0b9a3]
+by: Ben Skeggs (bskeggs@redhat.com)
+net: sky2: initialize return of gm_phy_read <4 weeks ago> [31b10f2c3541]
+by: Tom Rix (trix@redhat.com)
+drivers/net/wan/lapbether: Fixed the value of hard_header_len <4 weeks ago> [4d565f464cc5]
+by: Xie He (xie.he.0141@gmail.com)
+xtensa: update *pos in cpuinfo_op.next <5 weeks ago> [55ba6c928c36]
+by: Max Filippov (jcmvbkbc@gmail.com)
+xtensa: fix __sync_fetch_and_{and,or}_4 declarations <9 weeks ago> [068dae90d471]
+by: Max Filippov (jcmvbkbc@gmail.com)
+scsi: scsi_transport_spi: Fix function pointer check <5 weeks ago> [f7a447122fed]
+by: Tom Rix (trix@redhat.com)
+mac80211: allow rx of mesh eapol frames with default rx key <6 weeks ago> [12b513804a76]
+by: Markus Theil (markus.theil@tu-ilmenau.de)
+pinctrl: amd: fix npins for uart0 in kerncz_groups <7 weeks ago> [309767dbe8ba]
+by: Jacky Hu (hengqing.hu@gmail.com)
+
+[vendor/xiaomi/dipper]
+dipper: Sync blobs to V11.0.5.0.QEAMIXM * From MIUI Xiaomi Mi 8 Global V11.0.5.0.QEAMIXM <3 days ago> [f764f87]
+by: ALKALiKong (alikongalk@gmail.com)
+
+[vendor/xiaomi/sdm845-common]
+sdm845-common: Sync blobs to V11.0.5.0.QEAMIXM * From MIUI Xiaomi Mi 8 Global V11.0.5.0.QEAMIXM <3 days ago> [1eb3511]
+by: ALKALiKong (alikongalk@gmail.com)
+
+
+====================
+     07-31-2020
+====================
+
 [packages/apps/DerpQuest]
-DerpQuest: Update RU translation (#73) <6 days ago> [a9b3a68]
-by: RunningMango (36758157+RunningMango@users.noreply.github.com)
-DerpQuest: Convert NavBar pulse to a master switch <6 days ago> [94454d2]
+DerpQuest: Remove default summaries for master switches <5 days ago> [755d849]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 
 
 ====================
-     07-17-2020
-====================
-
-[manifest]
-manifest: Track our own fork of external/pulse <5 days ago> [22c0b2f]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[frameworks/base]
-base: Switch Styles [1/3] <3 weeks ago> [8e4d1b639fd]
-by: SKULSHADY (anushekprasal@gmail.com)
-
-[packages/apps/Launcher3]
-Automatic translation import <5 days ago> [4028bcf3e]
-by: Akhil Narang (akhilnarang.1999@gmail.com)
-
-
-====================
-     07-16-2020
+     07-30-2020
 ====================
 
 [frameworks/base]
-base: Backup navbar pulse settings <6 days ago> [ac3428ceea1]
-by: Ido Ben-Hur (idoybh2@gmail.com)
+base: Separate vibrate drawable for vol panel from common icon <6 days ago> [fadb1f57b7c]
+by: Adhitya Mohan (me@adhityamohan.in)
+
+
+====================
+     07-29-2020
+====================
+
+[frameworks/base]
+base: Allow showing music heads up on new tracks [1/2] <4 months ago> [0c36252d03d]
+by: ezio84 (brabus84@gmail.com)
+SystemUI: Make clock truly invisible <9 weeks ago> [eb8a76979f2]
+by: Michael W (baddaemon87@gmail.com)
+SystemUI: Fix QS Detail Header <7 weeks ago> [779a7b616ed]
+by: Michael W (baddaemon87@gmail.com)
+Add USSD codes over IMS feature <7 months ago> [fe5f5101b8b]
+by: Masaho Nishikawa (masaho.nishikawa@sony.com)
+Telephony: IMS: Cache subscriber associated uri <8 weeks ago> [d2381384886]
+by: Muhammed Siju (msiju@codeaurora.org)
+SystemUI: Fix SystemUI failed to go to doze issue <1 year, 2 months ago> [6226f2677df]
+by: Weijie Wang (weijiew@codeaurora.org)
+base: Oh, yet another padding fix commit? <2 weeks ago> [f702bad0a4d]
+by: Josh Fox (XlxFoXxlX) (joshfox87@gmail.com)
+
+[packages/apps/DeskClock]
+DeskClock: Use system fonts <7 months ago> [dd2f16480]
+by: Pranav Vashi (neobuddy89@gmail.com)
+DeskClock: update adaptive icon <2 weeks ago> [e6bc26aba]
+by: Abdulwahab Isam (abdoi94.iq@gmail.com)
+
+[packages/apps/Dialer]
+Fix theme for PostCallActivity <7 months ago> [67c25093b]
+by: Sungjae (sung_jae.kim@samsung.com)
 
 [packages/apps/Settings]
-Settings: add RU translation (#18) <6 days ago> [bd7a3d598b]
+Settings: Updated RU translation (#19,#20) <12 days ago> [0d86698df4]
+by: Northn (57762732+Northn@users.noreply.github.com)
+
+[packages/apps/DerpQuest]
+DerpQuest: Fixed RU translation (#76) <6 days ago> [1356b63]
 by: RunningMango (36758157+RunningMango@users.noreply.github.com)
-
-[system/core]
-init.rc: disable kernel module autoloading <4 months ago> [617a28418]
-by: Eric Biggers (ebiggers@google.com)
-
-[packages/apps/DerpQuest]
-DerpQuest: Add automatic album art color mode for navbar pulse [2/2] <5 weeks ago> [65fa418]
-by: Ezio Lacandia Bijelkic (brabus84@gmail.com)
-DerpQuest: Pulse navbar audio gfx visualizer for Android 10 [2/2] <6 weeks ago> [1073aaf]
-by: bigrushdog (randall.rushing@gmail.com)
-
-
-====================
-     07-15-2020
-====================
-
-[build/soong]
-Re-allow relative paths for modules <6 months ago> [c804e397]
-by: Surge1223 (Surge1223@gmail.com)
-
-[frameworks/base]
-base: Add automatic album art color mode for navbar pulse [1/2] <5 weeks ago> [18b9601fdb8]
-by: Ezio Lacandia Bijelkic (brabus84@gmail.com)
-base: Pulse navbar audio gfx visualizer for Android 10 [1/2] <9 weeks ago> [4bddee8e91d]
-by: bigrushdog (randall.rushing@gmail.com)
-AudioService: fix audio mode not reset to MODE_NORMAL <3 months ago> [6754113be38]
-by: wumin3 (wumin3@xiaomi.com)
-LockSettingsService : Restrict access to getpassword API <8 months ago> [5f265f20f30]
-by: Prerna Kalla (prernak@codeaurora.org)
-Fix WebView vulnerability by disallowing file access <3 months ago> [bb092995492]
-by: Chen Xu (fionaxu@google.com)
-base: Make sound tile toggle to silent instead of DnD <6 days ago> [c54080c61b0]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/apps/Settings]
-Settings: Make lockscreen timeout configurable [2/2] <4 weeks ago> [7637153b5c]
-by: Alex Cruz (du.alexcruz@gmail.com)
-Settings: Ensure SeekBars with interval have a default value <7 days ago> [6ec3a98752]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/apps/DerpQuest]
-DerpQuest: ButtonSettings: Use the assigned resolver var <6 days ago> [96dff33]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-DerpQuest: Guard new dynamic summaries against bad translations <7 days ago> [23a4c22]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-DerpQuest: Ensure SeekBars with interval have a default value <7 days ago> [8ccde9f]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[scripts]
-scripts: updater: make sure no local changes exist in repo <7 days ago> [2411d58]
-by: Ido Ben-Hur (idoybh2@gmail.com)
+DerpQuest: Allow showing music heads up on new tracks [2/2] <4 months ago> [4d8c8a7]
+by: ezio84 (brabus84@gmail.com)
 
 
