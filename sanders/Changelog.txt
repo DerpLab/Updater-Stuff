@@ -1,63 +1,57 @@
-Changelog for Official DerpFest Build Update 07.07.2020 for Sanders:
+Changelog for Official DerpFest Build Update 04.08.2020 for Sanders:
 
 [SOURCE]
 
-• Merged July security patch (10.0_r40)
-• Fixed the disable navbar toggle (now no need of any module)
-• Updated WebView
-• Randomized the DerpQuest summary (so cool)
-• Added DerpBlue and removed KronicGreen
-• Updated Bluetooth battery level assets
-• Use AOSP bluetooth icon when showing battery level
-• DerpQuest: Add drill
-• Increase ringer vibrate icon width/height in expanded volume panel to match the other icons
-• VolumeDialog: Show the notification stream when unlinked
-• VolumeDialog: Fix muting streams with a minimal volume of 1 (eg; alarm)
-• Added vibration patterns from OOS
-• Allow choosing a custom vibration pattern
-• Added Flashlight blink on incoming calls
-• Allow to flash on call only when entirely silent
-• Added DND & Rate settings to flash on call
-• Fixed notification LED blink for missed calls
-• Added QS Header data usage info
-• Tint all power menu icons with the system accent
-• SystemUI: Long press Caffeine for infinite duration
-• Fixed screen stabilization after r38 merge
-• Added Log tile associated with MatLog
-• Added arrow keys while typing to move cursor left/right
-• Removed useless / non working fonts
-• Removed OOS and omni screen recorder
-• Added AOSP screen recorder
-• ScreenRecord: Redesign it to look like from Android R
-• Forward-port notification counters
-• Show infinity for large notification counts
-• Added USB Tether tile
-• Added EvolveSans font
-• Added Linotte font
-• Removed internal recording restrictions for 3rd party apps
-• Fixed fullscreen gesture trigger area
-• Lowered fullscreen pill showing on landscape for some back heights
+• Merged August security patch (10.0_r41)
+• Added various switch styles
+• Introduced RGB accenter
+• Added RGB accent presets
+• Pulse navbar audio gfx visualizer for Android 10
+• Made the DerpQuest's subsection's summaries dynamic
+• Improved the vibrate icon on status bar
+• Allowed showing music heads up on new tracks
+• Added QS header styles
+• Added Powermenu Background filter
+• Allowed setting PowerMenu background blur radius
+• Implemented qti-bt stack
+• Added Derp Clear Primary
+• Add automatic album art color mode for navbar pulse
+• Backup navbar pulse settings
+• Warn the user when pulse is not showing
+• Settings: Backup album art filter
+• Make lockscreen timeout configurable
+• Refactored lockscreen and statusbar fonts & sizes implementation (reduced 2600~ lines of bad, bad code to 260~)^ you can actually feel the difference in QS, SB and especially LS
+• StatusBar: Improve custom settings observer
+• NetworkTraffic: Cleanup some code & have a consistent default
+• DerpQuest: Added a name fitting easter egg ;) (DerpQuest- About- Tap on DerpFest logo)
 • Maybe more things can't remember ;P
 
 
 [DEVICE]
 
-• Switched to CAF surfaceflinger
-• Updated egl drivers to V@454.0
-• Updated vulkan drivers to v@1.1.128
-• Updated WFD from daisy Q
-• Updated SmsOrganizer.apk to v1.1.171
-• Default browser is Via (again)
-• Default I/O scheduler now cfq
+• Increased media volume steps to 30
+• Enabled support for VoLTE, VT and VoWiFi, RTT for specific operator (may or may not work)
+• Added Snap Camera by default
+• Added QPerformance and UxPerformance jars for boost framework
+• Imported QPerformance and UxPerformance jars as boot dex jars
+• Updated QPerformance and UxPerformance jars
+• Updated perf vintf & configs from LA.UM.8.6.r1-04400-89xx
+• Updated fingerprint & firmware blobs from LA.UM.8.6.r1-04400-89xx
+• Updated peripheral blobs from LA.UM.8.6.r1-04400-89xx
+• Updated perf & iop blobs from LA.UM.8.6.r1-04400-89xx
+• Updated media blobs from LA.UM.8.6.r1-04400-89xx
+• Updated qcril database and other missed misc blobs
+• Updated qdutils, sensors caliberate & cnss blobs from LA.UM.8.6.r1-04400-89xx
+• Added missing group oem_2950 to init scripts
+• Updated display config binaries from LA.UM.8.6.r1-04400-89xx
+• Updated display HAL packages and manifest
+• Updated dsi and netmgr configs from LA.UM.8.6.r1-04400-89xx
 • More under-the-hood changes ;)
 
 
 [MISC]
 
-• Added OOS style dismiss all button (toggle)
-• Added shishu clocks (derpquest- lockscreen- clockstyle)
-• Added divided lines, sfuny, oroño, mnml box and mnml minimal clocks (styles & wallpapers)
-• Implemented the custom fonts to new clocks
+• Removed Shishu clocks
 
 
 #StayDerped
