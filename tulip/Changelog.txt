@@ -1,6 +1,7 @@
  ► Device Changelog
 
-• Kernel upstreamed to 4.4.223
+• Kernel upstreamed to 4.4.232
+• Coral august FP
 • Source sync
 
 
@@ -8,212 +9,135 @@
 
 ► Source Changelog
 
+
 ====================
-     07-20-2020
+     08-05-2020
 ====================
 
-[build/make]
-make: Generate changelog for prebuilt recovery-ramdisk as well (#7) <21 hours ago> [20b7590dd]
-by: Kailash (kailash.sudhakar@gmail.com)
-
-[frameworks/base]
-base: Nuke accent overlays [1/3] <5 months ago> [4371395a815]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-base: CarrierLabel: Improve settings observer <12 hours ago> [97b520d1cc9]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-base: Allow setting QS clock size separately [1/2] <12 hours ago> [f54d826e399]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-base: Introduce RGB accenter [1/2] <1 year, 3 months ago> [943cfd107ed]
-by: Kshitij Gupta (kshitijgm@gmail.com)
-base: Refactor LockScreen font type & size implementation further <20 hours ago> [639518e806e]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/apps/Settings]
-Settings: Nuke accent overlays [2/3] <5 months ago> [860e98d3d3]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/apps/ThemePicker]
-ThemePicker: Remove accent color step <5 months ago> [f4302f2]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[vendor/overlay]
-overlay: Nuke accent overlays [3/3] <5 months ago> [5e0be05]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/apps/DerpQuest]
-DerpQuest: Allow setting QS clock size separately [2/2] <12 hours ago> [20856b1]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-DerpQuest: Add RGB accent presets <5 months ago> [1592ddd]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-DerpQuest: Introduce RGB accenter [2/2] <4 months ago> [da1c7cf]
-by: spezi77 (spezi7713@gmx.net)
+[prebuilts/gcc/linux-x86/aarch64/aarch64-elf]
+Import GCC 10.2, binutils 2.35 <15 hours ago> [c5bde62]
+by: Park Ju Hyung (qkrwngud825@gmail.com)
 
 
 ====================
-     07-19-2020
-====================
-
-[device/aosip/sepolicy]
-aosip: common: add rules for RGB/HSL accentpicker <7 months ago> [4e7e41a]
-by: Ashwin R C (ashwin2001achu@gmail.com)
-
-[frameworks/base]
-base: Refactor LockScreen elements font type & size implementation <2 days ago> [7eab381d62e]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-[SQUASH]base: Revert VoWiFi icon <2 days ago> [8157877c569]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/apps/DerpQuest]
-DerpQuest: Add a name fitting easter egg ;) <34 hours ago> [b5b82b8]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-
-====================
-     07-18-2020
-====================
-
-[external/pulse]
-Pulse: Do not show when navbar is hidden <5 days ago> [e4e8384]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[frameworks/base]
-base: Utils: Add a function to check for gestural NavBar <2 days ago> [0a577f44505]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-Revert "Allow to choose lockscreen or Ambient on wake gestures [1/2]" <3 days ago> [db0eb56c210]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/apps/Settings]
-Settings: Ensure hide pill is off when not using gestures <2 days ago> [addc8635b4]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-Revert "Allow to choose lockscreen or Ambient on wake gestures [2/2]" <3 days ago> [bf5e859d54]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/apps/DerpQuest]
-DerpQuest: Add Stockish Switch Style [2/3] <1 year, 4 months ago> [098323a]
-by: AnkitGourav (Ankitgourav035@gmail.com)
-DerpQuest: Switch styles [2/3] <3 weeks ago> [67f84a2]
-by: SKULSHADY (anushekprasal@gmail.com)
-DerpQuest: Warn the user when pulse is not showing <5 days ago> [93b5e36]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-
-====================
-     07-17-2020
-====================
-
-[frameworks/base]
-base: Add Stockish Switch Style [1/3] <1 year, 4 months ago> [026540a1e7f]
-by: AnkitGourav (Ankitgourav035@gmail.com)
-base: Switch Styles [1/3] <3 weeks ago> [8e4d1b639fd]
-by: SKULSHADY (anushekprasal@gmail.com)
-
-[vendor/overlay]
-overlay: Add Stockish Switch Style [3/3] <1 year, 4 months ago> [e3ccf99]
-by: =AnkitGourav (Ankitgourav035@gmail.com)
-overlay: Switch Styles [3/3] <3 weeks ago> [2e72e81]
-by: SKULSHADY (anushekprasal@gmail.com)
-
-[packages/apps/DerpQuest]
-DerpQuest: Update RU translation (#73) <5 days ago> [a9b3a68]
-by: RunningMango (36758157+RunningMango@users.noreply.github.com)
-DerpQuest: Convert NavBar pulse to a master switch <6 days ago> [94454d2]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-
-====================
-     07-16-2020
+     08-04-2020
 ====================
 
 [manifest]
-manifest: Track our own fork of external/pulse <5 days ago> [22c0b2f]
+Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/platform/manifest into ten <2 days ago> [6a84861]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+Manifest for Android 10.0.0 Release 41 (QQ3A.200805.001) <2 days ago> [458a841]
+by: The Android Open Source Project (initial-contribution@android.com)
+
+[build/make]
+Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/platform/build into HEAD <2 days ago> [26f2481f3]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 
-[packages/apps/Launcher3]
-Automatic translation import <4 days ago> [4028bcf3e]
-by: Akhil Narang (akhilnarang.1999@gmail.com)
+[external/gptfdisk]
+Merge tag 'android-10.0.0_r41' into ten <2 days ago> [aad8539]
+by: Akhil Narang (me@akhilnarang.dev)
 
-
-====================
-     07-15-2020
-====================
-
-[build/soong]
-Re-allow relative paths for modules <6 months ago> [c804e397]
-by: Surge1223 (Surge1223@gmail.com)
+[frameworks/av]
+Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/platform/frameworks/av into ten <2 days ago> [3ddea8400]
+by: Ido Ben-Hur (idoybh2@gmail.com)
 
 [frameworks/base]
-base: Backup navbar pulse settings <6 days ago> [ac3428ceea1]
+base: StatusBar: Improve custom settings observer <2 days ago> [0553caabffc]
 by: Ido Ben-Hur (idoybh2@gmail.com)
-base: Add automatic album art color mode for navbar pulse [1/2] <5 weeks ago> [18b9601fdb8]
-by: Ezio Lacandia Bijelkic (brabus84@gmail.com)
-base: Pulse navbar audio gfx visualizer for Android 10 [1/2] <9 weeks ago> [4bddee8e91d]
-by: bigrushdog (randall.rushing@gmail.com)
-AudioService: fix audio mode not reset to MODE_NORMAL <3 months ago> [6754113be38]
-by: wumin3 (wumin3@xiaomi.com)
-LockSettingsService : Restrict access to getpassword API <8 months ago> [5f265f20f30]
-by: Prerna Kalla (prernak@codeaurora.org)
-Fix WebView vulnerability by disallowing file access <3 months ago> [bb092995492]
-by: Chen Xu (fionaxu@google.com)
-base: Make sound tile toggle to silent instead of DnD <6 days ago> [c54080c61b0]
+Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/platform/frameworks/base into ten <2 days ago> [a36ca80b795]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 
 [packages/apps/Settings]
-Settings: add RU translation (#18) <5 days ago> [bd7a3d598b]
-by: RunningMango (36758157+RunningMango@users.noreply.github.com)
-Settings: Make lockscreen timeout configurable [2/2] <4 weeks ago> [7637153b5c]
-by: Alex Cruz (du.alexcruz@gmail.com)
-Settings: Ensure SeekBars with interval have a default value <7 days ago> [6ec3a98752]
+Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/platform/packages/apps/Settings into HEAD <2 days ago> [ae6c3c35b9]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 
-[system/core]
-init.rc: disable kernel module autoloading <4 months ago> [617a28418]
-by: Eric Biggers (ebiggers@google.com)
-
-[packages/apps/DerpQuest]
-DerpQuest: Add automatic album art color mode for navbar pulse [2/2] <5 weeks ago> [65fa418]
-by: Ezio Lacandia Bijelkic (brabus84@gmail.com)
-DerpQuest: Pulse navbar audio gfx visualizer for Android 10 [2/2] <6 weeks ago> [1073aaf]
-by: bigrushdog (randall.rushing@gmail.com)
-DerpQuest: ButtonSettings: Use the assigned resolver var <6 days ago> [96dff33]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-
-====================
-     07-14-2020
-====================
-
-[frameworks/base]
-base: Make lockscreen timeout configurable [1/2] <6 weeks ago> [2554aebcad2]
-by: Alex Cruz (du.alexcruz@gmail.com)
-base: Settings: Backup album art filter <7 days ago> [a682a230809]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/apps/DeskClock]
-translations import from LOS <7 days ago> [35cf46557]
-by: Abdulwahab Isam (abdoi94.iq@gmail.com)
-AOSP/DeskClock - Call executePendingTransactions only if mFragmentManager is not destroyed. Fixes the crash bug. Code matches internal code. <13 days ago> [09a310db5]
-by: Raman Tenneti (rtenneti@google.com)
-DeskClock: add increasing volume option for alarm clocks <7 days ago> [002b35ac4]
-by: Pavel Kirpichyov (pavel.kirpichyov@gmail.com)
-
-[packages/apps/DerpQuest]
-DerpQuest: Guard new dynamic summaries against bad translations <6 days ago> [23a4c22]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-DerpQuest: Ensure SeekBars with interval have a default value <7 days ago> [8ccde9f]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-DerpQuest: Fix ticker timeout SeekBar stuck <7 days ago> [d219835]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-DerpQuest: Make notifications master switches summaries dynamic <7 days ago> [650b63a]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-DerpQuest: Make LockScreen master switches summaries dynamic <7 days ago> [490fb35]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-DerpQuest: Make QuickSettings master switches summaries dynamic <7 days ago> [ba0f395]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-DerpQuest: Make StatusBar master switches summaries dynamic <7 days ago> [27cefd4]
+[packages/services/Telephony]
+Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/platform/packages/services/Telephony into HEAD <2 days ago> [99bd78805]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 
 [scripts]
-scripts: updater: make sure no local changes exist in repo <6 days ago> [2411d58]
+scripts: aosp-merger: Make sure AOSP remote is valid <2 days ago> [b45917a]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+scripts: aosp-merger: Don't detach all heads <2 days ago> [b4ff52f]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+scripts: aosp-merger: Manually merge build/make & manifest before sync <2 days ago> [83a8ca1]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+
+====================
+     08-03-2020
+====================
+
+[manifest]
+manifest: Track Snap camera from AOSiP <2 days ago> [5268110]
+by: Murtaza@Piplod (murtaza1926@gmail.com)
+
+[frameworks/base]
+FODCircleView: Let us call show() when mIsBouncer() && !isPinOrPattern() <3 months ago> [c8f7061aac0]
+by: LuK1337 (priv.luk@gmail.com)
+Camera: allow camera to use power key as shutter <8 years ago> [0e72c13d002]
+by: Danesh M (daneshm90@gmail.com)
+
+
+====================
+     08-02-2020
+====================
+
+[packages/apps/Settings]
+Settings: Update Simplified Chinese translations <4 days ago> [907f35d11e]
+by: onlymash (im@fiepi.me)
+
+
+====================
+     08-01-2020
+====================
+
+[frameworks/base]
+FODCircleView: Show while bouncer is requesting Pattern or PIN <7 days ago> [2673811209d]
+by: TheScarastic (warabhishek@gmail.com)
+base: Allow setting PowerMenu background blur radius [2/2] <5 days ago> [4c95d476e85]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+base: Improve PowerMenu backround filter code <5 days ago> [cfb37d17200]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+base: Powermenu Background filter [1/2] <7 weeks ago> [d5305ff59df]
+by: AnkitGourav (Ankitgourav035@gmail.com)
+
+[vendor/overlay]
+overlay: Add Derp Clear Primary <7 days ago> [c5b2162]
+by: deadmanxxd (deadmanxxd@gmail.com)
+
+[packages/apps/DerpQuest]
+DerpQuest: Allow setting PowerMenu background blur radius [2/2] <5 days ago> [a12652a]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+DerpQuest: Convert PowerMenu background filters to be a master switch <5 days ago> [3e270e8]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+DerpQuest: Add powermenu Background Filters [2/2] <7 days ago> [f391bb4]
+by: Aston-Martinn (advaithbhat9@gmail.com)
+
+
+====================
+     07-31-2020
+====================
+
+[frameworks/base]
+base: Add QS header styles [1/3] <7 days ago> [405fd498ee6]
+by: SKULSHADY (anushekprasal@gmail.com)
+
+[vendor/overlay]
+overlay: Add QS header styles [3/3] <1 year, 9 months ago> [f69f0bf]
+by: Anushek Prasal (anushekprasal@gmail.com)
+
+[packages/apps/DerpQuest]
+DerpQuest: Add QS header styles [2/3] <7 days ago> [e8daf60]
+by: SKULSHADY (anushekprasal@gmail.com)
+
+
+====================
+     07-30-2020
+====================
+
+[packages/apps/DerpQuest]
+DerpQuest: Remove default summaries for master switches <7 days ago> [755d849]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 
 
