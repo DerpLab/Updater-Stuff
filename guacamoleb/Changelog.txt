@@ -1,41 +1,175 @@
 ====================
+     08-04-2020
+====================
+
+[build/make]
+Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/platform/build into HEAD <24 hours ago> [26f2481f3]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[frameworks/av]
+Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/platform/frameworks/av into ten <23 hours ago> [3ddea8400]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[frameworks/base]
+FOD: Hide FOD icon on AOD. If AOD is on then FOD icon will be changed to transparent. it will be restored to selected icon if AOD is off or pattern is visible. <47 minutes ago> [5810e167186]
+by: AbShaheen184 (abuzar_shaheen2006@yahoo.com)
+Port face unlock feature <4 months ago> [3d0bed7a3c8]
+by: jhenrique09 (jhenrique09.mcz@hotmail.com)
+base: StatusBar: Improve custom settings observer <18 hours ago> [0553caabffc]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/platform/frameworks/base into ten <23 hours ago> [a36ca80b795]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[packages/apps/Settings]
+Port face unlock feature <4 months ago> [762b34e278]
+by: jhenrique09 (jhenrique09.mcz@hotmail.com)
+Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/platform/packages/apps/Settings into HEAD <23 hours ago> [ae6c3c35b9]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[packages/services/Telephony]
+Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/platform/packages/services/Telephony into HEAD <23 hours ago> [99bd78805]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[vendor/aosip]
+1/3 Port face unlock feature <7 weeks ago> [675a2b4]
+by: AbShaheen184 (abuzar_shaheen2006@yahoo.com)
+
+[scripts]
+scripts: aosp-merger: Make sure AOSP remote is valid <19 hours ago> [b45917a]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+scripts: aosp-merger: Don't detach all heads <19 hours ago> [b4ff52f]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+scripts: aosp-merger: Manually merge build/make & manifest before sync <24 hours ago> [83a8ca1]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[device/oneplus/sm8150-common]
+DeviceParts: Add toast icons from OOS slider toast. <2 hours ago> [6cbbde0]
+by: AbShaheen184 (abuzar_shaheen2006@yahoo.com)
+
+[kernel/oneplus/sm8150]
+Revert "fixup! input: touchscreen: Expose every possible gesture" <10 hours ago> [a7f5b49702e0]
+by: AbShaheen184 (abuzar_shaheen2006@yahoo.com)
+
+[kernel/oneplus/sm8150]
+Revert "fixup! input: touchscreen: Expose every possible gesture" <10 hours ago> [a7f5b49702e0]
+by: AbShaheen184 (abuzar_shaheen2006@yahoo.com)
+
+[packages/services/Telephony]
+Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/platform/packages/services/Telephony into HEAD <23 hours ago> [99bd78805]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[packages/services/Telephony]
+Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/platform/packages/services/Telephony into HEAD <23 hours ago> [99bd78805]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+
+====================
+     08-03-2020
+====================
+
+[manifest]
+Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/platform/manifest into ten <24 hours ago> [6a84861]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+Manifest for Android 10.0.0 Release 41 (QQ3A.200805.001) <25 hours ago> [458a841]
+by: The Android Open Source Project (initial-contribution@android.com)
+manifest: Track Snap camera from AOSiP <2 days ago> [5268110]
+by: Murtaza@Piplod (murtaza1926@gmail.com)
+
+[external/gptfdisk]
+Merge tag 'android-10.0.0_r41' into ten <25 hours ago> [aad8539]
+by: Akhil Narang (me@akhilnarang.dev)
+
+[frameworks/base]
+FODCircleView: Let us call show() when mIsBouncer() && !isPinOrPattern() <3 months ago> [c8f7061aac0]
+by: LuK1337 (priv.luk@gmail.com)
+Camera: allow camera to use power key as shutter <8 years ago> [0e72c13d002]
+by: Danesh M (daneshm90@gmail.com)
+
+
+====================
+     08-02-2020
+====================
+
+[packages/apps/Settings]
+Settings: Update Simplified Chinese translations <3 days ago> [907f35d11e]
+by: onlymash (im@fiepi.me)
+
+
+====================
+     08-01-2020
+====================
+
+[frameworks/base]
+FODCircleView: Show while bouncer is requesting Pattern or PIN <6 days ago> [2673811209d]
+by: TheScarastic (warabhishek@gmail.com)
+base: Allow setting PowerMenu background blur radius [2/2] <4 days ago> [4c95d476e85]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+base: Improve PowerMenu backround filter code <4 days ago> [cfb37d17200]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+base: Powermenu Background filter [1/2] <7 weeks ago> [d5305ff59df]
+by: AnkitGourav (Ankitgourav035@gmail.com)
+
+[vendor/overlay]
+overlay: Add Derp Clear Primary <6 days ago> [c5b2162]
+by: deadmanxxd (deadmanxxd@gmail.com)
+
+[packages/apps/DerpQuest]
+DerpQuest: Allow setting PowerMenu background blur radius [2/2] <4 days ago> [a12652a]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+DerpQuest: Convert PowerMenu background filters to be a master switch <4 days ago> [3e270e8]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+
+====================
+     07-31-2020
+====================
+
+[frameworks/base]
+base: Add QS header styles [1/3] <6 days ago> [405fd498ee6]
+by: SKULSHADY (anushekprasal@gmail.com)
+
+[vendor/overlay]
+overlay: Add QS header styles [3/3] <1 year, 9 months ago> [f69f0bf]
+by: Anushek Prasal (anushekprasal@gmail.com)
+
+[packages/apps/DerpQuest]
+DerpQuest: Add powermenu Background Filters [2/2] <6 days ago> [f391bb4]
+by: Aston-Martinn (advaithbhat9@gmail.com)
+DerpQuest: Add QS header styles [2/3] <6 days ago> [e8daf60]
+by: SKULSHADY (anushekprasal@gmail.com)
+
+
+====================
+     07-30-2020
+====================
+
+[packages/apps/DerpQuest]
+DerpQuest: Remove default summaries for master switches <6 days ago> [755d849]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+
+====================
      07-29-2020
 ====================
 
 [frameworks/base]
-Port face unlock feature <4 months ago> [5841293c9a6]
-by: jhenrique09 (jhenrique09.mcz@hotmail.com)
+base: Separate vibrate drawable for vol panel from common icon <6 days ago> [fadb1f57b7c]
+by: Adhitya Mohan (me@adhityamohan.in)
 
 [packages/apps/DeskClock]
 DeskClock: Use system fonts <7 months ago> [dd2f16480]
 by: Pranav Vashi (neobuddy89@gmail.com)
-DeskClock: update adaptive icon <11 days ago> [e6bc26aba]
+DeskClock: update adaptive icon <2 weeks ago> [e6bc26aba]
 by: Abdulwahab Isam (abdoi94.iq@gmail.com)
 
 [packages/apps/Dialer]
 Fix theme for PostCallActivity <7 months ago> [67c25093b]
 by: Sungjae (sung_jae.kim@samsung.com)
 
-[packages/apps/Settings]
-Port face unlock feature <4 months ago> [1aa7158c19]
-by: jhenrique09 (jhenrique09.mcz@hotmail.com)
-
-[vendor/aosip]
-1/3 Port face unlock feature <6 weeks ago> [f6449ee]
-by: AbShaheen184 (abuzar_shaheen2006@yahoo.com)
-
 [device/oneplus/sm8150-common]
-DeviceParts: Change fps overlay icon. <3 hours ago> [97cd47b]
+DeviceParts: Change fps overlay icon. <6 days ago> [97cd47b]
 by: AbShaheen184 (abuzar_shaheen2006@yahoo.com)
-DeviceParts: Make alert slider toast look like OOS. <3 hours ago> [d5cddf8]
-by: AbShaheen184 (abuzar_shaheen2006@yahoo.com)
-
-[kernel/oneplus/sm8150]
-Revert "fixup! input: touchscreen: Expose every possible gesture" <70 minutes ago> [450a91d7af2d]
-by: AbShaheen184 (abuzar_shaheen2006@yahoo.com)
-
-[kernel/oneplus/sm8150]
-Revert "fixup! input: touchscreen: Expose every possible gesture" <70 minutes ago> [450a91d7af2d]
+DeviceParts: Make alert slider toast look like OOS. <6 days ago> [d5cddf8]
 by: AbShaheen184 (abuzar_shaheen2006@yahoo.com)
 
 
@@ -46,33 +180,33 @@ by: AbShaheen184 (abuzar_shaheen2006@yahoo.com)
 [frameworks/base]
 base: Allow showing music heads up on new tracks [1/2] <4 months ago> [0c36252d03d]
 by: ezio84 (brabus84@gmail.com)
-SystemUI: Make clock truly invisible <8 weeks ago> [eb8a76979f2]
+SystemUI: Make clock truly invisible <9 weeks ago> [eb8a76979f2]
 by: Michael W (baddaemon87@gmail.com)
-SystemUI: Fix QS Detail Header <6 weeks ago> [779a7b616ed]
+SystemUI: Fix QS Detail Header <7 weeks ago> [779a7b616ed]
 by: Michael W (baddaemon87@gmail.com)
 Add USSD codes over IMS feature <7 months ago> [fe5f5101b8b]
 by: Masaho Nishikawa (masaho.nishikawa@sony.com)
-Telephony: IMS: Cache subscriber associated uri <7 weeks ago> [d2381384886]
+Telephony: IMS: Cache subscriber associated uri <8 weeks ago> [d2381384886]
 by: Muhammed Siju (msiju@codeaurora.org)
 SystemUI: Fix SystemUI failed to go to doze issue <1 year, 2 months ago> [6226f2677df]
 by: Weijie Wang (weijiew@codeaurora.org)
-base: Oh, yet another padding fix commit? <10 days ago> [f702bad0a4d]
+base: Oh, yet another padding fix commit? <2 weeks ago> [f702bad0a4d]
 by: Josh Fox (XlxFoXxlX) (joshfox87@gmail.com)
 
 [packages/apps/Settings]
-Settings: Updated RU translation (#19,#20) <7 days ago> [0d86698df4]
+Settings: Updated RU translation (#19,#20) <13 days ago> [0d86698df4]
 by: Northn (57762732+Northn@users.noreply.github.com)
 
 [packages/apps/DerpQuest]
-DerpQuest: Fixed RU translation (#76) <30 hours ago> [1356b63]
+DerpQuest: Fixed RU translation (#76) <7 days ago> [1356b63]
 by: RunningMango (36758157+RunningMango@users.noreply.github.com)
 DerpQuest: Allow showing music heads up on new tracks [2/2] <4 months ago> [4d8c8a7]
 by: ezio84 (brabus84@gmail.com)
 
 [device/oneplus/sm8150-common]
-DeviceParts Removed USB OTG switch and little code cleanup. <2 days ago> [cfe7de3]
+DeviceParts Removed USB OTG switch and little code cleanup. <8 days ago> [cfe7de3]
 by: AbShaheen184 (abuzar_shaheen2006@yahoo.com)
-DeviceParts: Beautify device parts a bit. <2 days ago> [847bba4]
+DeviceParts: Beautify device parts a bit. <8 days ago> [847bba4]
 by: AbShaheen184 (abuzar_shaheen2006@yahoo.com)
 
 
@@ -81,11 +215,11 @@ by: AbShaheen184 (abuzar_shaheen2006@yahoo.com)
 ====================
 
 [device/oneplus/sm8150-common]
-DeviceParts: Disable dolby switch. <2 days ago> [9c18dd7]
+DeviceParts: Disable dolby switch. <8 days ago> [9c18dd7]
 by: AbShaheen184 (abuzar_shaheen2006@yahoo.com)
-sepolicy: improved sepolicy daniels from audit2allow missing. <2 days ago> [7367a4a]
+sepolicy: improved sepolicy daniels from audit2allow missing. <8 days ago> [7367a4a]
 by: AbShaheen184 (abuzar_shaheen2006@yahoo.com)
-DeviceParts: Reworked Device off-screen gestures. Added swipe gestures and more actions. <2 days ago> [7384cd5]
+DeviceParts: Reworked Device off-screen gestures. Added swipe gestures and more actions. <8 days ago> [7384cd5]
 by: maxwen (max.weninger@gmail.com)
 
 
@@ -104,13 +238,13 @@ Protected Apps: Switch to BiometricPrompt <9 months ago> [32f8ceac5]
 by: Luca Stefani (luca.stefani.ge1@gmail.com)
 Launcher: implement hidden & protected apps <1 year, 6 months ago> [ca427fce8]
 by: Joey (joey@lineageos.org)
-Launcher3: rebrand to Kronic Launcher <4 days ago> [a9bfab47e]
+Launcher3: rebrand to Kronic Launcher <10 days ago> [a9bfab47e]
 by: Abdulwahab Isam (abdoi94.iq@gmail.com)
-Shade: Attempt to open market when clicking on Source in app info <7 weeks ago> [b1871e9f2]
+Shade: Attempt to open market when clicking on Source in app info <8 weeks ago> [b1871e9f2]
 by: Amir Zaidi (azaidi@live.nl)
-Shade: Use THREAD_POOL_EXECUTOR for InfoBottomSheet.java <7 weeks ago> [bafebdfd6]
+Shade: Use THREAD_POOL_EXECUTOR for InfoBottomSheet.java <8 weeks ago> [bafebdfd6]
 by: Amir Zaidi (azaidi@live.nl)
-Shade: Extract app metadata in bottom sheet on background thread <8 weeks ago> [01a98220b]
+Shade: Extract app metadata in bottom sheet on background thread <9 weeks ago> [01a98220b]
 by: Amir Zaidi (azaidi@live.nl)
 
 
@@ -118,22 +252,28 @@ by: Amir Zaidi (azaidi@live.nl)
      07-25-2020
 ====================
 
+[packages/apps/DeskClock]
+DeskClock: Setup data model before calling super.onStart() <3 weeks ago> [fe76be9c6]
+by: LuK1337 (priv.luk@gmail.com)
+DeskClock: Fix alarm clock screen show black  when screen locked; <3 weeks ago> [4b194f016]
+by: Raman Tenneti (rtenneti@google.com)
+
 [packages/apps/Launcher3]
-Launcher: Fix font family for App Info sheet <9 weeks ago> [491c054c2]
+Launcher: Fix font family for App Info sheet <10 weeks ago> [491c054c2]
 by: Pranav Vashi (neobuddy89@gmail.com)
 IconLoader: Apply alpha from child icon to adaptive icon wrapper <6 months ago> [0e32f22fe]
 by: Amir Zaidi (azaidi@live.nl)
 IconLoader: Add CONFIG_HINT_NO_DRAG option for drawables <6 months ago> [b36eefb78]
 by: Amir Zaidi (azaidi@live.nl)
-Launcher: Skip wrapping when creating masked icon pack icons <2 months ago> [a2291246b]
+Launcher: Skip wrapping when creating masked icon pack icons <3 months ago> [a2291246b]
 by: Amir Zaidi (azaidi@live.nl)
-Launcher3: Use system fonts <10 weeks ago> [51e1a19da]
+Launcher3: Use system fonts <3 months ago> [51e1a19da]
 by: Pranav Vashi (neobuddy89@gmail.com)
-Launcher: Fix icon pack calendar using default drawable ID <10 weeks ago> [0ab2e4026]
+Launcher: Fix icon pack calendar using default drawable ID <3 months ago> [0ab2e4026]
 by: Amir Zaidi (azaidi@live.nl)
-Launcher: Set icon pack to "Default" if the current icon pack has no icon <10 weeks ago> [654b794cd]
+Launcher: Set icon pack to "Default" if the current icon pack has no icon <3 months ago> [654b794cd]
 by: Amir Zaidi (azaidi@live.nl)
-Launcher: Filter icon packs without icon from selection menu in app info <10 weeks ago> [bdcbbc58d]
+Launcher: Filter icon packs without icon from selection menu in app info <3 months ago> [bdcbbc58d]
 by: Amir Zaidi (azaidi@live.nl)
 
 
@@ -142,14 +282,8 @@ by: Amir Zaidi (azaidi@live.nl)
 ====================
 
 [frameworks/base]
-base: Toast: Add support for a custom icon <5 days ago> [9e90df31e4b]
+base: Toast: Add support for a custom icon <11 days ago> [9e90df31e4b]
 by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/apps/DeskClock]
-DeskClock: Setup data model before calling super.onStart() <2 weeks ago> [fe76be9c6]
-by: LuK1337 (priv.luk@gmail.com)
-DeskClock: Fix alarm clock screen show black  when screen locked; <2 weeks ago> [4b194f016]
-by: Raman Tenneti (rtenneti@google.com)
 
 
 ====================
@@ -157,7 +291,7 @@ by: Raman Tenneti (rtenneti@google.com)
 ====================
 
 [external/pulse]
-Pulse: Do not show when navbar is hidden <2 weeks ago> [7c4854f]
+Pulse: Do not show when navbar is hidden <3 weeks ago> [7c4854f]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 
 [vendor/overlay]
@@ -170,273 +304,15 @@ by: Ido Ben-Hur (idoybh2@gmail.com)
 ====================
 
 [frameworks/base]
-base: NetworkTraffic: Cleanup some code & have a consistent default <7 days ago> [158e4bdeef8]
+base: NetworkTraffic: Cleanup some code & have a consistent default <13 days ago> [158e4bdeef8]
 by: Ido Ben-Hur (idoybh2@gmail.com)
-base: SystemUI: Update RU translation (#34) <7 days ago> [667ba4d9441]
+base: SystemUI: Update RU translation (#34) <13 days ago> [667ba4d9441]
 by: Northn (57762732+Northn@users.noreply.github.com)
 
 [packages/apps/DerpQuest]
-DerpQuest: Allow smaller network traffic font sizes <7 days ago> [b3c689c]
+DerpQuest: Allow smaller network traffic font sizes <13 days ago> [b3c689c]
 by: Ido Ben-Hur (idoybh2@gmail.com)
-DerpQuest: Update RU translation (#75) <7 days ago> [595ca62]
+DerpQuest: Update RU translation (#75) <13 days ago> [595ca62]
 by: Northn (57762732+Northn@users.noreply.github.com)
-
-
-====================
-     07-21-2020
-====================
-
-[manifest]
-lineage: Track QTI BT repos <9 weeks ago> [824ae51]
-by: Pig (pig.priv@gmail.com)
-
-[build/make]
-make: Don't build AOSP claendar, email & music for vanilla <8 days ago> [812bfdec1]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[scripts]
-Revert "scripts: updater: Do not offer to upload to SourceForge" <8 days ago> [27445b5]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[vendor/pixelstyle]
-pixelstyle: Build package overlays for vanilla <8 days ago> [0c001a6]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-
-====================
-     07-20-2020
-====================
-
-[frameworks/base]
-BLE: Fix NPE during start advertising <1 year, 11 months ago> [723dfeeebd0]
-by: Sravan Voleti (sravankumar@codeaurora.org)
-Fix build errors <1 year, 6 months ago> [a911124e549]
-by: Scott Lobdell (slobdell@google.com)
-Fix BLE transport discovery scan filter <1 year, 4 months ago> [df1352c2f99]
-by: Subramanian Srinivasan (subrsrin@codeaurora.org)
-BT: Relocate A2DP codec strings for translation <8 weeks ago> [f75e2306906]
-by: dianlujitao (dianlujitao@lineageos.org)
-Enable codec change request when mode changes in aptX-adaptive <12 months ago> [f3bdee806c5]
-by: Naval saini (saini@codeaurora.org)
-Keep a null check before accessing the BluetoothA2dpWrapper APIs. <1 year, 9 months ago> [9dc1fb1b360]
-by: Satheesh Kumar Pallemoni (spallemo@codeaurora.org)
-Bluetooth: Fix for out of bound exception <1 year ago> [2d518dd1179]
-by: pramod kotreshappa (kpramod@codeaurora.org)
-BT Dev: Increase array size for codec selection in Dev Op <1 year, 10 months ago> [68010cdc177]
-by: Gurpreet Ghai (gghai@codeaurora.org)
-Keep the BluetoothHeadset finalize() method protected <1 year, 10 months ago> [e5a3455a920]
-by: Diego Wilson (diegowilson@google.com)
-Bluetooth: Fix for Global reference table overflow issue[1/2] <2 years, 9 months ago> [8afd8d5aa1b]
-by: Bandari Ramesh (ramban@codeaurora.org)
-BT: Add new intent to broadcast IOT device details <2 years, 11 months ago> [a89044ecf22]
-by: Gurpreet Ghai (gghai@codeaurora.org)
-BT_Audio: Updated Check for TWS+ switch <6 months ago> [03c357472fe]
-by: Gurpreet Ghai (gghai@codeaurora.org)
-TWS_A2DP: Handle active device change between TWS+ earbuds <1 year, 3 months ago> [c87560af1f2]
-by: pramod kotreshappa (kpramod@codeaurora.org)
-audio: Add support for APTX TWSP audio codec <1 year, 3 months ago> [68a719eb247]
-by: Dhananjay Kumar (dhakumar@codeaurora.org)
-Use BluetoothUtils instead of Utils <2 years ago> [f877e1318cf]
-by: Diego Wilson (diegowilson@google.com)
-GAP: Handle the race condition cases in auto connect logic <5 months ago> [76b6eceac60]
-by: Venkata Jagadeesh Garaga (vgaraga@codeaurora.org)
-Obex: Squashed commit of the following <2 years, 6 months ago> [0005c8cf7cb]
-by: Sravan Kumar V (sravankumar@codeaurora.org)
-Add scan filter for Transport Discovery data <1 year, 5 months ago> [c9ff52dcbf9]
-by: Subramanian Srinivasan (subrsrin@codeaurora.org)
-Add support for Transport discovery AD type (1/2) <2 years, 1 month ago> [885c2004c8d]
-by: Subramanian Srinivasan (subrsrin@codeaurora.org)
-Bluetooth: TWSP: Support Battery Status information display <1 year, 3 months ago> [37988d807e3]
-by: Bhakthavatsala Raghavendra (braghave@codeaurora.org)
-GAP: Reset bondingInitiatedLocally flag(1/3) <1 year, 1 month ago> [36631679839]
-by: Venkata Jagadeesh Garaga (vgaraga@codeaurora.org)
-Bluetooth-TWS: Disable outgoing connection to 2nd earbud <1 year, 10 months ago> [bb1367a197d]
-by: Kiran Kelageri (kirankelageri@codeaurora.org)
-Bluetooth-TWS: Disable outgoing connection for 2nd earbud. <1 year, 11 months ago> [d0ba06d8212]
-by: Kiran Kelageri (kirankelageri@codeaurora.org)
-Bluetooth: Rename bluetooth property to support new P Treble rules <2 years, 1 month ago> [5b773a9a19c]
-by: Safoorah Banu Shaik (safoorah@codeaurora.org)
-Bluetooth: Unpair both earbuds on unpair. <2 years, 4 months ago> [84af27661c0]
-by: Kiran Kelageri (kirankelageri@codeaurora.org)
-Bluetooth: Add SDK API support for TWS feature (2) <2 years, 4 months ago> [052f53928d2]
-by: Bandari Ramesh (ramban@codeaurora.org)
-Revert the change: AudioService: remove dead BT code. <1 year, 1 month ago> [65102dba9d6]
-by: Samyak Jain (samyjain@codeaurora.org)
-Add BluetoothQualityReport class(1/2) <1 year, 1 month ago> [59fdaa6cd85]
-by: Mingbo Zhang (mingboz@codeaurora.org)
-base: Nuke accent overlays [1/3] <5 months ago> [4371395a815]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-base: CarrierLabel: Improve settings observer <10 days ago> [97b520d1cc9]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-base: Allow setting QS clock size separately [1/2] <10 days ago> [f54d826e399]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/apps/Bluetooth]
-Stub TWS related APIs <9 weeks ago> [66625157]
-by: dianlujitao (dianlujitao@lineageos.org)
-GAP: Reset bondingInitiatedLocally flag(2/3) <1 year, 1 month ago> [4f2eb247]
-by: Venkata Jagadeesh Garaga (vgaraga@codeaurora.org)
-BT: API to update quiet mode status in Adapter service [1/3] <1 year, 9 months ago> [3631f99a]
-by: M Safoorah Banu (safoorah@codeaurora.org)
-Bluetooth: Enable Hybrid Audio from App <1 year, 3 months ago> [f7ec6bc7]
-by: Srinu Jella (sjella@codeaurora.org)
-Add BLE Scan Phy parameter to scan API <2 years, 6 months ago> [63eeea8e]
-by: Subramanian Srinivasan (subrsrin@codeaurora.org)
-
-[packages/apps/Settings]
-BT: Use translated a2dp codec strings <8 weeks ago> [ad39cf2b82]
-by: dianlujitao (dianlujitao@lineageos.org)
-codec support for DevUI am: f915bd9438 <1 year, 4 months ago> [3ec29cfe6a]
-by: Naval saini (saini@codeaurora.org)
-BT Settings: Adding aptX Adaptive codec entry in Settings <2 years, 1 month ago> [a3487ca0b9]
-by: Gurpreet Ghai (gghai@codeaurora.org)
-Bluetooth-TWS: UI updates based on Filter matched <11 months ago> [b7235caddf]
-by: zhenchao (zhenchao@codeaurora.org)
-Bluetooth-TWS: UI updates based on profile connection. <1 year, 11 months ago> [f9d9661f5f]
-by: Kiran Kelageri (kirankelageri@codeaurora.org)
-Fix build error <2 years ago> [8f69ab4afd]
-by: Jiyong Park (jiyong@google.com)
-Bluetooth-TWS: Filter TWS devices <2 years ago> [fe449ee65d]
-by: Kiran Kelageri (kirankelageri@codeaurora.org)
-Bluetooth: Create new catogory for earbuds <2 years, 4 months ago> [f932465ac2]
-by: Kiran Kelageri (kirankelageri@codeaurora.org)
-Settings: Nuke accent overlays [2/3] <5 months ago> [860e98d3d3]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/apps/ThemePicker]
-ThemePicker: Remove accent color step <6 months ago> [f4302f2]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[system/bt]
-GAP: Reset bondingInitiatedLocally flag(3/3) <1 year, 1 month ago> [19e740231]
-by: Venkata Jagadeesh Garaga (vgaraga@codeaurora.org)
-Bluetooth: Enable Hybrid Audio from stack <1 year, 4 months ago> [96cab993b]
-by: Srinu Jella (sjella@codeaurora.org)
-Add scan filter for Transport Discovery data <1 year, 5 months ago> [8350f550b]
-by: Subramanian Srinivasan (subrsrin@codeaurora.org)
-TWS-A2DP: Add TWS+ codec index <1 year, 10 months ago> [2ed66a7ad]
-by: pramod kotreshappa (kpramod@codeaurora.org)
-BT: API to update quiet mode status in Adapter service [3/3] <1 year, 9 months ago> [4cce7706c]
-by: M Safoorah Banu (safoorah@codeaurora.org)
-BT: Adding APTX-Adaptive codec to BT HAL <2 years, 1 month ago> [8adf742d6]
-by: Gurpreet Ghai (gghai@codeaurora.org)
-Add BLE Scan Phy parameter to scan API <2 years, 4 months ago> [223065e34]
-by: Subramanian Srinivasan (subrsrin@codeaurora.org)
-Bluetooth: Add SDK API support for TWS feature (1) <2 years, 4 months ago> [fdc7f5f18]
-by: Ramesh Bandari (ramban@codeaurora.org)
-
-[packages/apps/DerpQuest]
-DerpQuest: Allow setting QS clock size separately [2/2] <10 days ago> [20856b1]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-DerpQuest: Add RGB accent presets <5 months ago> [1592ddd]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-DerpQuest: Introduce RGB accenter [2/2] <5 months ago> [da1c7cf]
-by: spezi77 (spezi7713@gmx.net)
-
-
-====================
-     07-19-2020
-====================
-
-[build/make]
-make: Generate changelog for prebuilt recovery-ramdisk as well (#7) <10 days ago> [20b7590dd]
-by: Kailash (kailash.sudhakar@gmail.com)
-
-[device/aosip/sepolicy]
-aosip: common: add rules for RGB/HSL accentpicker <7 months ago> [4e7e41a]
-by: Ashwin R C (ashwin2001achu@gmail.com)
-
-[frameworks/base]
-base: Introduce RGB accenter [1/2] <1 year, 3 months ago> [943cfd107ed]
-by: Kshitij Gupta (kshitijgm@gmail.com)
-base: Refactor LockScreen font type & size implementation further <10 days ago> [639518e806e]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-base: Refactor LockScreen elements font type & size implementation <11 days ago> [7eab381d62e]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/apps/DerpQuest]
-DerpQuest: Add a name fitting easter egg ;) <11 days ago> [b5b82b8]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-
-====================
-     07-18-2020
-====================
-
-[frameworks/base]
-[SQUASH]base: Revert VoWiFi icon <11 days ago> [8157877c569]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-base: Utils: Add a function to check for gestural NavBar <11 days ago> [0a577f44505]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-Revert "Allow to choose lockscreen or Ambient on wake gestures [1/2]" <12 days ago> [db0eb56c210]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/apps/Launcher3]
-AospLauncher: Clear all icon overrides when changing global icon pack <7 months ago> [562ffaf97]
-by: Amir Zaidi (azaidi@live.nl)
-AospLauncher: Bypass adaptive icon wrapping with icon pack icons <7 months ago> [b19963278]
-by: Amir Zaidi (azaidi@live.nl)
-IconLoader: Add config hint to bypass adaptive icon wrapping <7 months ago> [061dd8702]
-by: Amir Zaidi (azaidi@live.nl)
-Launcher3: Add Icon Pack Support from Shade Launcher <7 months ago> [5266ac2db]
-by: Amir Zaidi (azaidi@live.nl)
-AospLauncher: Add AppInfo Bottom Sheet from Shade Launcher <7 months ago> [96aa64a21]
-by: Amir Zaidi (azaidi@live.nl)
-Revert "Add simple iconpack support" <2 weeks ago> [7fdf0b70a]
-by: Abdulwahab Isam (abdoi94.iq@gmail.com)
-Launcher3: Workaround the Icon pack issue on adaptive apps <7 months ago> [d7a54803a]
-by: ElDainosor (eldainosor@gmail.com)
-
-[packages/apps/Settings]
-Settings: Ensure hide pill is off when not using gestures <11 days ago> [addc8635b4]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-Revert "Allow to choose lockscreen or Ambient on wake gestures [2/2]" <12 days ago> [bf5e859d54]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/apps/DerpQuest]
-DerpQuest: Add Stockish Switch Style [2/3] <1 year, 4 months ago> [098323a]
-by: AnkitGourav (Ankitgourav035@gmail.com)
-DerpQuest: Switch styles [2/3] <4 weeks ago> [67f84a2]
-by: SKULSHADY (anushekprasal@gmail.com)
-DerpQuest: Warn the user when pulse is not showing <2 weeks ago> [93b5e36]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-
-====================
-     07-17-2020
-====================
-
-[frameworks/base]
-base: Add Stockish Switch Style [1/3] <1 year, 4 months ago> [026540a1e7f]
-by: AnkitGourav (Ankitgourav035@gmail.com)
-
-[vendor/overlay]
-overlay: Add Stockish Switch Style [3/3] <1 year, 4 months ago> [e3ccf99]
-by: =AnkitGourav (Ankitgourav035@gmail.com)
-overlay: Switch Styles [3/3] <4 weeks ago> [2e72e81]
-by: SKULSHADY (anushekprasal@gmail.com)
-
-[packages/apps/DerpQuest]
-DerpQuest: Update RU translation (#73) <2 weeks ago> [a9b3a68]
-by: RunningMango (36758157+RunningMango@users.noreply.github.com)
-DerpQuest: Convert NavBar pulse to a master switch <2 weeks ago> [94454d2]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-
-====================
-     07-16-2020
-====================
-
-[manifest]
-manifest: Track our own fork of external/pulse <2 weeks ago> [22c0b2f]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[frameworks/base]
-base: Switch Styles [1/3] <4 weeks ago> [8e4d1b639fd]
-by: SKULSHADY (anushekprasal@gmail.com)
-
-[packages/apps/Launcher3]
-Automatic translation import <2 weeks ago> [4028bcf3e]
-by: Akhil Narang (akhilnarang.1999@gmail.com)
 
 
