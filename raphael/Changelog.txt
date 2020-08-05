@@ -1,32 +1,40 @@
-Device changelog
+Device Changelog
 
-- Switched to qcom bt stack
-- Fixed usb debugging turning auto off after a reboot
-- Brightness improvements
-- Update displayfeature fod command to match miui
-- Minimum vendor version bumbed based on the latest vendors release
-- Carrier Config updated
-- Reverted doze autobrightness
-- Screen fade off disabled
-- FIxed low mic volume issue
+- Removed audio platform and moved to xiaomi's acdb
+- Updated props from latest MIUI
+- Enables assisted IWLAN
+- Imported vendor overlays
+- Use stock vibration pattern
+- Force system to override vendor overlays
+- Status bar corner padding and height improvements
+- Fixed FOD animation offset
+- Misc enhancements
 
-Rom changelog
+ROM Changelog
 
-- Fixed the no default dialer issue
-- Added navbar pulse
-- Made master switches summaries dynamic (in DerpQuest)
-- Added yet more settings to backup array
-- Added an easter egg
-- Made sound QS tile toggle to silent instead of DND
-- Added back RGB accent picker (works fine with 3rd parties now)
-- Added back RGB accent presets
-- Removed the color step from ThemePicker
-- Removed color overlays
-- Removed lockscreen / ambient wake gesture switch (was not working properly)
-- Allowed setting QS clock size separately
-- Refactored fonts & sizes implementation (reduced 2600~ lines of bad, bad code to 260~) you can actually feel the difference in QS, SB and especially LS
-- A lot of other bug / code fixes all around
-- Updates to translationses
+- Merged august security patch (r41)
+- Fixed Freeform window moving & resize issues
+- QS make sure we dont show empty row
+- Make lockscreen timeout configurable
+- Fix WebView vulnerability by disallowing file access
+- Added Pulse Navbar
+- Added automatic album art color mode for navbar pulse 
+- Added Switch Styles
+- Reverted Vowifi Icon Implementation
+- Refactor LockScreen elements font type & size implementation
+- Added RGB accenter
+- Added Bluetooth QTI Implementation
+- Improved Network Traffic Monitor
+- Added support for a custom icon for Toast 
+- Allow showing music heads up on new tracks
+- Added QS header styles
+- Added Powermenu Background filter 
+- Make Master switches summaries dynamic 
+- Added a name fitting easter egg
+- Added Derp Clear Primary
+- Added Snap Camera Support
+- Updates to translations
+- Some more minor derps/bugs fixes
 
 Note : You need to flash the latest vendor version according to your region. Refer below,
 - V12.0.2.0 for India
