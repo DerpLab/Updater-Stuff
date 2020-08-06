@@ -1,8 +1,6 @@
-- Switched to QTI BT Stack
-- Updated Blobs from MIUI 11.0.9.0
-- Fixed RGB Accent Picker
-- Updated FireFox Lite
-- Updated Adreno & Vulkan Blobs
-- Updated Required Firmware Link
-
-Latest MIUI 11.0.9.0 Firmware Required.
+- Merged August Security Patch
+- Updated MiPa Kernel to 4.9.232
+- Updated GCam Go
+- Added Power Menu Background Filter
+- Added QS Tile Styles
+- Added QS Header Styles
