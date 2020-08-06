@@ -1,16 +1,46 @@
-Device Side:
-- Rebase Derpfest Tree And Removed Some Unused Commit
-- Fixed screenrecord FC
-- Fixed default system haptics strength thanks @beingstargazer
-- Switch to power HAL v1.2
-- Fixed IR Blaster issue
-- Under the hood improvements
-- Fix Lagging issue
+Device: Xiaomi Redmi 4X
+Device maintainer: Bikram Mukherjee
 
-Kernel Side:
-- Upstream SolarisKernel v4.9.230
-- Compile kernel with Clang 11.0.3
-- Merge Tag LA.UM.7.6.2.r1-11900-89xx.0
-- Merge Wlan/Prima to LA.UM.7.6.2.r1-11900-89xx.0
-- Update wireguard to version 1.0.20200712
-- Enable 32-bit vDSO
+Date :- 06/08/2020
+================
+
+Device Changelog:
+----------------
+- Introduce  Moto Dolby v3 (thank's @amandwivedi0)
+- update data-ipa-cfg-mgr from LA.UM.8.6.2.r1-07800-89xx.0
+- Switch fingerprint to walleye (Fixed CTS Pass)
+- Limit hotspot to 12 devices
+- wifi: set beacon missed count threshold
+- IMS: Filter out the conference host in the CEP
+- Enable QPower and Deep sleep at the same time
+- Enabled Higher fling velocities for smoother scrolling and better responsiveness
+- overlay: Show DocumentsUI internal storage by default
+- Change cpu set for camera daemon
+- Kernel: Upstreamed to 4.9.232
+- Compiled kernel Proton-Clang  20200801
+
+Source Changelog:
+----------------
+- Merged august security patch (r41)
+- Fixed Freeform window moving & resize issues
+- QS make sure we dont show empty row
+-  Make lockscreen timeout configurable
+- Fix WebView vulnerability by disallowing file access
+- Added Pulse Navbar
+- Added automatic album art color mode for navbar pulse
+- Added Switch Styles
+- Reverted Vowifi Icon Implementation
+- Refactor LockScreen elements font type & size implementation
+- Added RGB accenter
+- Added Bluetooth QTI Implementation
+- Improved Network Traffic Monitor
+- Added support for a custom icon for Toast
+- Allow showing music heads up on new tracks
+- Added QS header styles
+- Added Powermenu Background filter
+- Make Master switches summaries dynamic
+- Added a name fitting easter egg
+- Added Derp Clear Primary
+- Added Snap Camera Support
+- Updates to translations
+- Some more minor derps/bugs fixes
