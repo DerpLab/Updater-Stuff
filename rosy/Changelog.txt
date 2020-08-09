@@ -1,23 +1,140 @@
-DerpFest Changelog
-- Added Option to hide lock icon on lockscreen
-- Added Option to change the device hostname
-- Added navbar editor back to navbar tuner
-- Added vibration tick when opening notification panel
-- Added missing national roaming infos for several countries and provider
-- Changed charging thresholds
-- Revised Mult SIM ringtone settings
-- Only German and Russian translations for Textclock
-- Removed Blur settings search bar and switched back to Pixel DocumentsUI
-- Improvements to make animations smoother
-- Update Russian translations for DerpQuest
+====================
+     08-09-2020
+====================
 
-Device side Changelog
-• Rebased msm8953-common tree
-• Fixed hotspot issues
-• Fixed memory leak
-• Attempt to fix Airtel 4G calling
-• Using doge kernel as prebuilt
-• Fixed bluetooth calling issues
-• Configured dalvik heap according to 2GB/3GB variants
-• Chrome issues fixed
-- CLEAN flash or else device will be bricked.
+
+====================
+     08-08-2020
+====================
+
+
+====================
+     08-07-2020
+====================
+
+[frameworks/base]
+BatteryService: Add VOOC charging support <3 days ago> [824269e5d4c]
+by: karthick111 (karthick111@users.noreply.github.com)
+base: SystemUI: Fix Active Color For QS Tile Styles <6 weeks ago> [502570a07e0]
+by: rohan (purohit.rohan@gmail.com)
+base: Add CircleOutline QS Tile Style [1/3] <1 year, 6 months ago> [28bc7fa877e]
+by: sayan7848 (sayan7848@gmail.com)
+base: Add Cookie QS Style [1/3] <1 year, 6 months ago> [4986746dd78]
+by: HrX03 (dn.bianco03@gmail.com)
+base: Add More QS Tile Styles [1/3] <7 weeks ago> [184f1b42ac0]
+by: El Dainosor (eldainosor@gmail.com)
+base: Introduce QS Tile Style Picker [1/3] <1 year, 10 months ago> [decc2239edf]
+by: calebcabob (calphonic@gmail.com)
+
+[packages/apps/Settings]
+Settings: Add CircleOutline QS Tile Style [2/3] <1 year, 6 months ago> [94d66c5683]
+by: sayan7848 (sayan7848@gmail.com)
+Settings: Add Cookie QS Style [2/3] <1 year, 6 months ago> [c8baf9de13]
+by: HrX03 (dn.bianco03@gmail.com)
+Settings: Add More QS Tiles Styles [2/3] <2 years, 2 months ago> [b9e1d6ecbc]
+by: eldainosor (eldainosor@gmail.com)
+Settings: Introduce QS Tile Style Picker [2/3] <7 weeks ago> [3cdb2c4541]
+by: calebcabob (calphonic@gmail.com)
+
+[vendor/overlay]
+vendor: Add CircleOutline QS Tile Style [3/3] <1 year, 6 months ago> [6aad46f]
+by: sayan7848 (sayan7848@gmail.com)
+vendor: Add Cookie QS Style [3/3] <1 year, 6 months ago> [6556cd5]
+by: HrX03 (dn.bianco03@gmail.com)
+vendor: Add More QS Tile Styles [3/3] <1 year, 9 months ago> [b65baaa]
+by: ElDainosor (eldainosor@gmail.com)
+vendor: Introduce QS Tile Style Picker [3/3] <1 year, 10 months ago> [898eaaf]
+by: calebcabob (calphonic@gmail.com)
+
+
+====================
+     08-06-2020
+====================
+
+[device/qcom/sepolicy]
+sepolicy: Allow system_server to read persist camera props <1 year, 7 months ago> [a7652e05]
+by: dianlujitao (dianlujitao@lineageos.org)
+
+
+====================
+     08-05-2020
+====================
+
+[prebuilts/gcc/linux-x86/aarch64/aarch64-elf]
+Import GCC 10.2, binutils 2.35 <4 days ago> [c5bde62]
+by: Park Ju Hyung (qkrwngud825@gmail.com)
+
+
+====================
+     08-04-2020
+====================
+
+[manifest]
+Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/platform/manifest into ten <5 days ago> [6a84861]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+Manifest for Android 10.0.0 Release 41 (QQ3A.200805.001) <5 days ago> [458a841]
+by: The Android Open Source Project (initial-contribution@android.com)
+
+[build/make]
+Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/platform/build into HEAD <5 days ago> [26f2481f3]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[external/gptfdisk]
+Merge tag 'android-10.0.0_r41' into ten <5 days ago> [aad8539]
+by: Akhil Narang (me@akhilnarang.dev)
+
+[frameworks/av]
+Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/platform/frameworks/av into ten <5 days ago> [3ddea8400]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[frameworks/base]
+base: StatusBar: Improve custom settings observer <5 days ago> [0553caabffc]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/platform/frameworks/base into ten <5 days ago> [a36ca80b795]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[packages/apps/Settings]
+Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/platform/packages/apps/Settings into HEAD <5 days ago> [ae6c3c35b9]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[packages/services/Telephony]
+Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/platform/packages/services/Telephony into HEAD <5 days ago> [99bd78805]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[scripts]
+scripts: aosp-merger: Make sure AOSP remote is valid <5 days ago> [b45917a]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+scripts: aosp-merger: Don't detach all heads <5 days ago> [b4ff52f]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+scripts: aosp-merger: Manually merge build/make & manifest before sync <5 days ago> [83a8ca1]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+
+====================
+     08-03-2020
+====================
+
+[manifest]
+manifest: Track Snap camera from AOSiP <6 days ago> [5268110]
+by: Murtaza@Piplod (murtaza1926@gmail.com)
+
+[frameworks/base]
+FODCircleView: Let us call show() when mIsBouncer() && !isPinOrPattern() <3 months ago> [c8f7061aac0]
+by: LuK1337 (priv.luk@gmail.com)
+Camera: allow camera to use power key as shutter <8 years ago> [0e72c13d002]
+by: Danesh M (daneshm90@gmail.com)
+
+
+====================
+     08-02-2020
+====================
+
+[packages/apps/PermissionController]
+PermissionController: force the hub <3 weeks ago> [fdc5bded]
+by: Anay Wadhera (awadhera@berkeley.edu)
+
+[packages/apps/Settings]
+Settings: Update Simplified Chinese translations <7 days ago> [907f35d11e]
+by: onlymash (im@fiepi.me)
+
+
