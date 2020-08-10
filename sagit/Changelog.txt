@@ -1,0 +1,95 @@
+====================
+     08-10-2020
+====================
+
+[frameworks/base]
+base: Toast: Custom icon should not be static <17 hours ago> [e0e6a6a4]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[device/xiaomi/sagit]
+DerpFest: go official! <21 hours ago> [4efae75]
+by: BedrockDigger (callmebedrockdigger@gmail.com)
+
+
+====================
+     08-09-2020
+====================
+
+[packages/apps/Settings]
+Revert "Keyguard: Forward port lockscreen quick unlock (2/2)" <29 hours ago> [cc0c8c6]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[vendor/aosip]
+qcom: Add atoll platform <3 months ago> [cc68d1b]
+by: TheHitMan7 (krtik.vrma@gmail.com)
+
+[packages/apps/DerpQuest]
+DerpQuest: Enforce QS tile tint for appropriate QS tile styles <2 days ago> [92972cd]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[device/xiaomi/msm8998-common]
+Remove HD notification for VoLTE <29 hours ago> [4dd86f7]
+by: neobuddy89 (neobuddy89@gmail.com)
+
+
+====================
+     08-08-2020
+====================
+
+
+====================
+     08-07-2020
+====================
+
+[device/qcom/sepolicy]
+sepolicy: Allow system_server to read persist camera props <1 year, 7 months ago> [a7652e0]
+by: dianlujitao (dianlujitao@lineageos.org)
+
+[vendor/overlay]
+vendor: Add CircleOutline QS Tile Style [3/3] <1 year, 6 months ago> [6aad46f]
+by: sayan7848 (sayan7848@gmail.com)
+
+
+====================
+     08-06-2020
+====================
+
+
+====================
+     08-05-2020
+====================
+
+[prebuilts/gcc/linux-x86/aarch64/aarch64-elf]
+Import GCC 10.2, binutils 2.35 <6 days ago> [c5bde62]
+by: Park Ju Hyung (qkrwngud825@gmail.com)
+
+
+====================
+     08-04-2020
+====================
+
+[manifest]
+Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/platform/manifest into ten <7 days ago> [6a84861]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[build/make]
+Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/platform/build into HEAD <7 days ago> [26f2481]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[external/gptfdisk]
+Merge tag 'android-10.0.0_r41' into ten <7 days ago> [aad8539]
+by: Akhil Narang (me@akhilnarang.dev)
+
+[frameworks/av]
+Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/platform/frameworks/av into ten <7 days ago> [3ddea84]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[packages/services/Telephony]
+Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/platform/packages/services/Telephony into HEAD <7 days ago> [99bd788]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[scripts]
+scripts: aosp-merger: Make sure AOSP remote is valid <7 days ago> [b45917a]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+
