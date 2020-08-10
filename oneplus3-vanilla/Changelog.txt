@@ -1,219 +1,241 @@
 ====================
-     06-18-2020
-====================
-
-[packages/apps/Dialer]
-Automatic translation import <17 hours ago> [f12f25c29]
-by: Akhil Narang (akhilnarang.1999@gmail.com)
-
-[packages/apps/Launcher3]
-Automatic translation import <17 hours ago> [9aa833129]
-by: Akhil Narang (akhilnarang.1999@gmail.com)
-
-[packages/apps/OpenDelta]
-OpenDelta: force white text on colored buttons <9 days ago> [9e22ef7]
-by: maxwen (max.weninger@gmail.com)
-
-[device/oneplus/oneplus3]
-op3: Updater moved to GDrive <85 minutes ago> [a4b8a86]
-by: Gaurav241 (gaurav.govinda2420@gmail.com)
-op3: sepolicy: Fix SEPolicy denials for DeviceParts <3 hours ago> [de2206e]
-by: Gaurav241 (gaurav.govinda2420@gmail.com)
-op3: DeviceParts: Vibrator Permission <4 hours ago> [01e0ee7]
-by: Gaurav241 (gaurav.govinda2420@gmail.com)
-op3: Re-Introduce DeviceParts <8 days ago> [161534e]
-by: idoybh (idoybh2@gmail.com)
-
-
-====================
-     06-17-2020
+     08-10-2020
 ====================
 
 [frameworks/base]
-SystemUI: Update custom carrier label position correctly <2 days ago> [3a3da3faaa2]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-overlays: Fix inactive state Wifi Icon in Circular & Filled Icon Pack <2 days ago> [eb79aa4401d]
-by: Aman Singh (amankumarsingh1412@gmail.com)
-
-[packages/apps/DerpQuest]
-DerpQuest: Update RU translation (#67) <2 days ago> [fd0d485]
-by: RunningMango (36758157+RunningMango@users.noreply.github.com)
-
-[packages/apps/OpenDelta]
-OpenDelta: Fix RU translation (#3) <2 days ago> [d899ff5]
-by: RunningMango (36758157+RunningMango@users.noreply.github.com)
-
-[scripts]
-scripts: updater: Support new info.sh <4 days ago> [8b01ddf]
+Revert "Keyguard: Forward port lockscreen quick unlock (1/2)" <23 hours ago> [e1319ba85a5]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 
-
-====================
-     06-16-2020
-====================
-
-[frameworks/base]
-FODCircleView: Add support for pressed fod layer <4 weeks ago> [03e0b117626]
-by: TheScarastic (warabhishek@gmail.com)
-Revert "FODCircleView: dispatch onPress to HAL only after dimming is applied" <4 days ago> [85cf4e78443]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-SystemUI: Long press Caffeine for infinite duration <4 weeks ago> [073c1cba27f]
-by: chillger (alexander.loskutov@gmail.com)
-
-[hardware/qcom-caf/sm8150/display]
-sdm: mark FOD pressed layer by setting a bit on ZPOS <4 weeks ago> [f5e564cf]
-by: Demon000 (demonsingur@gmail.com)
-
-[packages/services/Telecomm]
-Telecomm: Add a null check to custom ring vibration <3 days ago> [42ac0212]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/apps/DerpQuest]
-DerpQuest: Actually save carrier label placement setting <2 days ago> [002ac9f]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-
-====================
-     06-15-2020
-====================
-
-[frameworks/base]
-overlays: Tint all power menu icons with the system accent <9 weeks ago> [45303e3a0c5]
-by: spezi77 (spezi7713@gmx.net)
-
-[frameworks/native]
-surfaceflinger: change usageBits type to uint64_t <3 weeks ago> [845990e28]
-by: Pierre-Hugues Husson (phhusson@gmail.com)
-surfaceflinger: Add support for extension lib <3 weeks ago> [20c395d89]
-by: Pierre-Hugues Husson (phh@phh.me)
-
-[vendor/aosip]
-soong: Add flag for fod extension <3 weeks ago> [85562ad]
-by: TheScarastic (warabhishek@gmail.com)
-
-[scripts]
-scripts: updater: Adapt to new file host <5 days ago> [90f5d07]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-
-====================
-     06-14-2020
-====================
-
-[frameworks/base]
-base: Use a proper settings validator for qs_datausage <4 days ago> [2a212396dd2]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-SystemUI: QSHeaderDataUsage: hide usage if device is disconnected <3 weeks ago> [5b79ba6f114]
-by: AnkitGourav (Ankitgourav035@gmail.com)
-SystemUI: QSHeaderDataUsage: show Wi-Fi usage when connected to Wi-Fi <3 weeks ago> [0cbc906e90b]
-by: AnkitGourav (Ankitgourav035@gmail.com)
-SystemUI: QSHeaderDataUsage: add icon and improve view <3 weeks ago> [0dc75ce8621]
-by: AnkitGourav (Ankitgourav035@gmail.com)
-SystemUI: QSHeaderDataUsage: update view immediately after change <4 weeks ago> [d7bab8995cf]
-by: AnkitGourav (Ankitgourav035@gmail.com)
-SystemUI: QSHeaderDataUsage: add ability to show daily/monthly [1/2] <4 weeks ago> [0ed2ea03d56]
-by: AnkitGourav (Ankitgourav035@gmail.com)
-SystemUI: QS Header data usage info: improve layout and view <4 weeks ago> [1c961970dfb]
-by: AnkitGourav (Ankitgourav035@gmail.com)
-aosipUtils: add method to check if device is connected to Wi-Fi <3 weeks ago> [c208bd8b423]
-by: AnkitGourav (Ankitgourav035@gmail.com)
-aosipUtils: add method to get today's passed time <4 weeks ago> [a5b6d27c50f]
-by: AnkitGourav (Ankitgourav035@gmail.com)
-aosipUtils: Add method to check for both wifi and mobile connections <6 months ago> [61e2a229a54]
-by: Alex Cruz (du.alexcruz@gmail.com)
-SystemUI: QS Header data usage info: don't show used <4 weeks ago> [688a5f5dcde]
-by: AnkitGourav (Ankitgourav035@gmail.com)
-SystemUI: QS Header data usage info [1/2] <5 months ago> [cd19526a3a9]
-by: 00day0 (therandomuser11@gmail.com)
-base: Fix notification LED blink for missed calls <7 weeks ago> [ee974f8dccf]
-by: Vaisakh Murali (vaisakhmurali@gmail.com)
-
-[system/core]
-Ignore class_{reset|start}_post_data on non-updatable APEX. <11 months ago> [455966eea]
-by: Martijn Coenen (maco@google.com)
-
-[vendor/overlay]
-overlay: Add Derp Blue theme <5 days ago> [c1fce60]
-by: Aman Singh (amankumarsingh1412@gmail.com)
-
-[packages/apps/DerpQuest]
-DerpQuest: QSHeaderDataUsage: add ability to show daily/monthly [2/2] <4 weeks ago> [153545a]
-by: AnkitGourav (Ankitgourav035@gmail.com)
-DerpQuest: QS Header data usage info [2/2] <5 months ago> [b25cc40]
-by: 00day0 (therandomuser11@gmail.com)
-DerpQuest: Add DND & Rate settings to flash on call [3/3] <5 days ago> [d51ce45]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/apps/OpenDelta]
-OpenDelta: Adapt to the new file host <5 days ago> [00e1ad0]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[prebuilts/clang/host/linux-x86]
-Update prebuilt Clang to r383902b. <8 days ago> [39c5f60d]
-by: Stephen Hines (srhines@google.com)
-
-[scripts]
-scripts: updater: Print diff with no pager <3 weeks ago> [82e6c11]
+[packages/apps/Settings]
+Revert "Keyguard: Forward port lockscreen quick unlock (2/2)" <23 hours ago> [cc0c8c6e96]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 
 [device/oneplus/oneplus3]
-op3: rootdir: DeviceParts Permission <6 days ago> [b78f2d9]
+op3: Squash data-ipa-cfg-mgr <15 hours ago> [9053105]
 by: Gaurav241 (gaurav.govinda2420@gmail.com)
 
 [packages/apps/GoogleCamera]
-op3: Update GCamera APK <4 days ago> [416fa0e]
-by: ajithzres (ajithzres@gmail.com)
+op3: Update GCamera APK <70 minutes ago> [1638f39]
+by: Gaurav241 (gaurav.govinda2420@gmail.com)
 
 
 ====================
-     06-13-2020
+     08-09-2020
 ====================
-
-[frameworks/base]
-base: Add DND & Rate settings to flash on call [1/3] <5 days ago> [341c3374b5c]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-base: Allow to flash on call only when entirely silent [1/3] <8 days ago> [6372450f2ca]
-by: Ido Ben-Hur (idoybh2@gmail.com)
 
 [packages/apps/Settings]
-Settings: Randomize DerpQuest's summary <6 days ago> [4003d4ca89]
+base: Move QS tile style to DerpQuest [1/2] <2 days ago> [37bd493560]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 
-[packages/services/Telecomm]
-Telecomm: Add DND & Rate settings to flash on call [2/3] <5 days ago> [a78325f4]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-Telecomm: Allow to flash on call only when entirely silent [2/3] <8 days ago> [570b0673]
-by: Ido Ben-Hur (idoybh2@gmail.com)
+[vendor/aosip]
+qcom: Add atoll platform <3 months ago> [cc68d1b]
+by: TheHitMan7 (krtik.vrma@gmail.com)
+BoardConfigQcom: Allow a device to opt-out hardset of PRODUCT_SOONG_NAMESPACES <3 months ago> [57bfab8]
+by: Andrew Hexen (SyberHexen@gmail.com)
 
 [packages/apps/DerpQuest]
-DerpQuest: Allow to flash on call only when entirely silent [3/3] <8 days ago> [84a1cb0]
+DerpQuest: Enforce QS tile tint for appropriate QS tile styles <30 hours ago> [92972cd]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+DerpQuest: Move QS tile style to DerpQuest [2/2] <2 days ago> [b9ec8ac]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 
 [device/oneplus/oneplus3]
-op3: Swap Keylayout <6 days ago> [6294bc4]
+op3: Update DRM from LA.UM.8.6.r1-04000-89xx.0 <7 weeks ago> [930a31d]
 by: Gaurav241 (gaurav.govinda2420@gmail.com)
-op3: Track Vendor <8 days ago> [f34c2f4]
+op3: Track Vendor <2 days ago> [0c6d232]
+by: Gaurav241 (gaurav.govinda2420@gmail.com)
+Revert "op3: update Wi-Fi from LA.UM.8.6.r1-04400-89xx.0" <2 days ago> [37ac3c5]
+by: Gaurav241 (gaurav.govinda2420@gmail.com)
+op3: Update data-ipa-cfg-mgr from LA.UM.8.6.r1-04400-89xx.0 <7 weeks ago> [3c35990]
+by: Gaurav241 (gaurav.govinda2420@gmail.com)
+op3: Add few apps as hal1package <7 weeks ago> [ba3bc1b]
+by: Gaurav241 (gaurav.govinda2420@gmail.com)
+op3: Target uses the QTI Bluetooth stack. <5 months ago> [d7a8b8a]
+by: Alexander Koskovich (zvnexus@outlook.com)
+init.qcom.rc : remove time_daemon <3 months ago> [fab0748]
+by: Gaurav241 (gaurav.govinda2420@gmail.com)
+op3: Update CarrierConfig from LA.UM.8.12.r1-10400-sm8250.0. <3 months ago> [a04931b]
+by: Gaurav241 (gaurav.govinda2420@gmail.com)
+op3: Update Widevine to v1.2. <5 months ago> [657a07b]
+by: Alexander Koskovich (zvnexus@outlook.com)
+op3: Add vendor manifest entry for IBtConfigStore. <1 year, 6 months ago> [4fc770e]
+by: Nitin Shivpure (nshivpur@codeaurora.org)
+op3: Add vendor manifest entry for BT HIDL 2.0. <1 year, 4 months ago> [ebcfc7e]
+by: Srinu Jella (sjella@codeaurora.org)
+op3: Add default BTSAR HAL 1.0 to manifest. <1 year, 6 months ago> [dab586c]
+by: Subramanian Srinivasan (subrsrin@codeaurora.org)
+op3: Update display configuration HAL to v2.0. <8 months ago> [70e673a]
+by: Karthi Kandasamy (kartka@codeaurora.org)
+op3: Bring back IOP HAL, bump to v2.0. <5 months ago> [7de3b63]
+by: Alexander Koskovich (zvnexus@outlook.com)
+op3: Update Perf HAL to v2.0. <1 year, 7 months ago> [8d2a33a]
+by: Shashi Shekar Shankar (ssbang@codeaurora.org)
+op3: Import performance (IOP) stack from LA.UM.8.6.r1-04400-89xx.0 <7 weeks ago> [561ab23]
+by: Gaurav241 (gaurav.govinda2420@gmail.com)
+op3: Import performance stack from LA.UM.8.6.r1-04000-89xx.0 <7 weeks ago> [aae6f51]
+by: Gaurav241 (gaurav.govinda2420@gmail.com)
+op3: update Wi-Fi from LA.UM.8.6.r1-04400-89xx.0 <7 weeks ago> [c30eb2c]
+by: Gaurav241 (gaurav.govinda2420@gmail.com)
+op3: Make Script Compatible for aosp ROMs <7 weeks ago> [69a1d92]
+by: Gaurav241 (gaurav.govinda2420@gmail.com)
+op3: Update CDSP blobs from LA.UM.8.6.r1-04400-89xx.0 <7 weeks ago> [0a51084]
+by: Gaurav241 (gaurav.govinda2420@gmail.com)
+op3: Update Wi-Fi Display blobs from LA.UM.8.6.r1-04400-89xx.0 <7 weeks ago> [cfeaeff]
+by: Gaurav241 (gaurav.govinda2420@gmail.com)
+op3: Update TimeService from LA.UM.8.6.2.r1-06600-89xx.0 <7 weeks ago> [cfadb92]
+by: Gaurav241 (gaurav.govinda2420@gmail.com)
+op3: Update power-off alarm blobs from LA.UM.8.6.r1-04400-89xx.0 <7 weeks ago> [507878a]
+by: Gaurav241 (gaurav.govinda2420@gmail.com)
+op3: Update postprocessing from LA.UM.8.6.r1-04400-89xx.0 <7 weeks ago> [6687403]
+by: Gaurav241 (gaurav.govinda2420@gmail.com)
+op3: Update Peripheral Manager from LA.UM.8.6.r1-04400-89xx.0 <7 weeks ago> [2c3ff16]
+by: Gaurav241 (gaurav.govinda2420@gmail.com)
+op3: Update Media from LA.UM.8.6.r1-04400-89xx.0 <7 weeks ago> [5a48480]
+by: Gaurav241 (gaurav.govinda2420@gmail.com)
+op3: Update Listen Blobs from LA.UM.8.6.r1-04400-89xx.0 <7 weeks ago> [14b16bc]
+by: Gaurav241 (gaurav.govinda2420@gmail.com)
+
+[vendor/oneplus/oneplus3]
+op3: Add dirac blobs <3 months ago> [61274d4]
 by: Gaurav241 (gaurav.govinda2420@gmail.com)
 
 
 ====================
-     06-12-2020
+     08-08-2020
+====================
+
+[frameworks/base]
+BatteryService: Add VOOC charging support <5 days ago> [824269e5d4c]
+by: karthick111 (karthick111@users.noreply.github.com)
+base: SystemUI: Fix Active Color For QS Tile Styles <6 weeks ago> [502570a07e0]
+by: rohan (purohit.rohan@gmail.com)
+base: Add CircleOutline QS Tile Style [1/3] <1 year, 6 months ago> [28bc7fa877e]
+by: sayan7848 (sayan7848@gmail.com)
+base: Add Cookie QS Style [1/3] <1 year, 6 months ago> [4986746dd78]
+by: HrX03 (dn.bianco03@gmail.com)
+base: Add More QS Tile Styles [1/3] <7 weeks ago> [184f1b42ac0]
+by: El Dainosor (eldainosor@gmail.com)
+base: Introduce QS Tile Style Picker [1/3] <1 year, 10 months ago> [decc2239edf]
+by: calebcabob (calphonic@gmail.com)
+
+[packages/apps/Settings]
+Settings: Add CircleOutline QS Tile Style [2/3] <1 year, 6 months ago> [94d66c5683]
+by: sayan7848 (sayan7848@gmail.com)
+Settings: Add Cookie QS Style [2/3] <1 year, 6 months ago> [c8baf9de13]
+by: HrX03 (dn.bianco03@gmail.com)
+Settings: Add More QS Tiles Styles [2/3] <2 years, 2 months ago> [b9e1d6ecbc]
+by: eldainosor (eldainosor@gmail.com)
+Settings: Introduce QS Tile Style Picker [2/3] <7 weeks ago> [3cdb2c4541]
+by: calebcabob (calphonic@gmail.com)
+
+[vendor/overlay]
+vendor: Add CircleOutline QS Tile Style [3/3] <1 year, 6 months ago> [6aad46f]
+by: sayan7848 (sayan7848@gmail.com)
+vendor: Add Cookie QS Style [3/3] <1 year, 6 months ago> [6556cd5]
+by: HrX03 (dn.bianco03@gmail.com)
+vendor: Add More QS Tile Styles [3/3] <1 year, 9 months ago> [b65baaa]
+by: ElDainosor (eldainosor@gmail.com)
+vendor: Introduce QS Tile Style Picker [3/3] <1 year, 10 months ago> [898eaaf]
+by: calebcabob (calphonic@gmail.com)
+
+[device/oneplus/oneplus3]
+Update Graphics/Vulkan from from LA.UM.8.6.r1-04400-89xx.0 <7 weeks ago> [9a47935]
+by: Gaurav241 (gaurav.govinda2420@gmail.com)
+op3: Update Gatekeeper/Keystore blobs from LA.UM.8.6.r1-04400-89xx.0 <7 weeks ago> [cc2566c]
+by: Gaurav241 (gaurav.govinda2420@gmail.com)
+op3: Import fingerprint stack from OOS <7 weeks ago> [501a566]
+by: ZVNexus (ZVNexus@outlook.com)
+op3: Update DPM from LA.UM.8.6.r1-04400-89xx.0 <7 weeks ago> [280e3b8]
+by: Gaurav241 (gaurav.govinda2420@gmail.com)
+op3:  Update CNE from LA.UM.8.6.r1-04400-89xx.0 <7 weeks ago> [57f102f]
+by: Gaurav241 (gaurav.govinda2420@gmail.com)
+op3: Update QTI bluetooth stack from LA.UM.8.6.r1-04400-89xx.0 <7 weeks ago> [29391d7]
+by: Gaurav241 (gaurav.govinda2420@gmail.com)
+op3: update audio stack from LA.UM.8.6.r1-04400-89xx.0 <7 weeks ago> [c3f35ef]
+by: Gaurav241 (gaurav.govinda2420@gmail.com)
+op3: Update ADSP/ADSP Modules from LA.UM.8.6.r1-04400-89xx.0 <7 weeks ago> [297ba51]
+by: Gaurav241 (gaurav.govinda2420@gmail.com)
+op3: Update factory version to v2.1 <6 months ago> [d2806c9]
+by: Pavan Kumar M (rpavan@codeaurora.org)
+op3: configs: Add voip_tx profile to policy conf <1 year, 1 month ago> [0b406d5]
+by: Sujin Panicker (spanic@codeaurora.org)
+
+[vendor/oneplus/oneplus3]
+Revert "op3: update Wi-Fi from LA.UM.8.6.r1-04400-89xx.0" <3 days ago> [8c63016]
+by: Gaurav241 (gaurav.govinda2420@gmail.com)
+
+
+====================
+     08-07-2020
+====================
+
+[device/qcom/sepolicy]
+sepolicy: Allow system_server to read persist camera props <1 year, 7 months ago> [a7652e05]
+by: dianlujitao (dianlujitao@lineageos.org)
+
+
+====================
+     08-06-2020
+====================
+
+
+====================
+     08-05-2020
+====================
+
+[prebuilts/gcc/linux-x86/aarch64/aarch64-elf]
+Import GCC 10.2, binutils 2.35 <5 days ago> [c5bde62]
+by: Park Ju Hyung (qkrwngud825@gmail.com)
+
+
+====================
+     08-04-2020
 ====================
 
 [manifest]
-manifest: Track msm8998 audio HAL from poad <7 days ago> [089cfdc]
+Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/platform/manifest into ten <6 days ago> [6a84861]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+Manifest for Android 10.0.0 Release 41 (QQ3A.200805.001) <6 days ago> [458a841]
+by: The Android Open Source Project (initial-contribution@android.com)
+manifest: Track Snap camera from AOSiP <7 days ago> [5268110]
+by: Murtaza@Piplod (murtaza1926@gmail.com)
+
+[build/make]
+Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/platform/build into HEAD <6 days ago> [26f2481f3]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 
-[packages/apps/Matlog]
-MatLog: create better widget images <7 days ago> [a2d513f]
-by: maxwen (max.weninger@gmail.com)
+[external/gptfdisk]
+Merge tag 'android-10.0.0_r41' into ten <6 days ago> [aad8539]
+by: Akhil Narang (me@akhilnarang.dev)
+
+[frameworks/av]
+Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/platform/frameworks/av into ten <6 days ago> [3ddea8400]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[frameworks/base]
+base: StatusBar: Improve custom settings observer <6 days ago> [0553caabffc]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/platform/frameworks/base into ten <6 days ago> [a36ca80b795]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+FODCircleView: Let us call show() when mIsBouncer() && !isPinOrPattern() <3 months ago> [c8f7061aac0]
+by: LuK1337 (priv.luk@gmail.com)
+Camera: allow camera to use power key as shutter <8 years ago> [0e72c13d002]
+by: Danesh M (daneshm90@gmail.com)
 
 [packages/apps/Settings]
-Settings: Add RU translation for vibration patterns (#15) <6 days ago> [fa5da95520]
-by: RunningMango (36758157+RunningMango@users.noreply.github.com)
+Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/platform/packages/apps/Settings into HEAD <6 days ago> [ae6c3c35b9]
+by: Ido Ben-Hur (idoybh2@gmail.com)
 
-[packages/apps/OpenDelta]
-OpenDelta: Update RU translation (#2) <6 days ago> [ec93023]
-by: RunningMango (36758157+RunningMango@users.noreply.github.com)
+[packages/services/Telephony]
+Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/platform/packages/services/Telephony into HEAD <6 days ago> [99bd78805]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[scripts]
+scripts: aosp-merger: Make sure AOSP remote is valid <6 days ago> [b45917a]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+scripts: aosp-merger: Don't detach all heads <6 days ago> [b4ff52f]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+scripts: aosp-merger: Manually merge build/make & manifest before sync <6 days ago> [83a8ca1]
+by: Ido Ben-Hur (idoybh2@gmail.com)
 
 
