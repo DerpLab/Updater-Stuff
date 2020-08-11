@@ -1,259 +1,157 @@
 ====================
-     07-13-2020
+     08-11-2020
 ====================
 
 [device/realme/RMX1971]
-RMX1971: sepolicy: Address more denials <41 minutes ago> [4d6ca3a]
+RMX1971: sepolicy: Address more denials <15 hours ago> [72ac19e]
 by: kaderbava (ksbava7325@gmail.com)
-RMX1921: overlay: Enable Proximity check on wake <2 days ago> [26b6056]
+
+
+====================
+     08-10-2020
+====================
+
+
+====================
+     08-09-2020
+====================
+
+[frameworks/base]
+Update KeyguardIndicationController.java <3 months ago> [932f87da017]
+by: sarfraz15 (62404255+sarfraz15@users.noreply.github.com)
+
+[vendor/aosip]
+qcom: Add atoll platform <3 months ago> [cc68d1b]
+by: TheHitMan7 (krtik.vrma@gmail.com)
+BoardConfigQcom: Allow a device to opt-out hardset of PRODUCT_SOONG_NAMESPACES <3 months ago> [57bfab8]
+by: Andrew Hexen (SyberHexen@gmail.com)
+
+[device/realme/RMX1971]
+RMX1971: Update Coral August Fingerprint <3 days ago> [764cd98]
+by: kaderbava (ksbava7325@gmail.com)
+RMX1971: Enable VOOC Charging <7 weeks ago> [7a433e2]
+by: kaderbava (ksbava7325@gmail.com)
+RMX1971: Disable NearbyMessagingService and DiscoveryService <3 months ago> [a897728]
+by: Michael W (baddaemon87@gmail.com)
+RMX1971: overlay: Enable Wired/BT headset focus mode <9 days ago> [bb40a71]
+by: neobuddy89 (neobuddy89@gmail.com)
+RMX1971: overlay: Disable vendor mismatch warning <9 days ago> [5d1b4d9]
+by: Sonal Singh (sonal.singh.19993@gmail.com)
+RMX1971: overlay: Update some overlays <5 days ago> [12695f7]
+by: kaderbava (ksbava7325@gmail.com)
+RMX1971: Compile with Proton Clang <9 days ago> [1072cfc]
+by: kaderbava (ksbava7325@gmail.com)
+RMX1971: parts: Switch to pickup sensor <11 days ago> [6bf4838]
+by: SagarMakhar (sagarmakhar@gmail.com)
+RMX1971: overlay: Allow all apps to use smart replies <11 months ago> [d4181df]
+by: David Trpchevski (trpcevski.david@gmail.com)
+RMX1971: overlay: show battery icon & estimate in QS header <13 days ago> [87e414c]
 by: SKULSHADY (anushekprasal@gmail.com)
-RMX1971: Notch-city: We have a display cutout <3 months ago> [7eea964]
-by: AgentFabulous (kshitijgm@gmail.com)
-RMX1971: Add RealmeParts back! <7 hours ago> [fcfa9ca]
+RMX1971: overlay: Enable aux camera for Snap <5 weeks ago> [5403f75]
+by: LuK1337 (priv.luk@gmail.com)
+RMX1971: overlay: Hide unsupported color effects entry of Snap <5 weeks ago> [26206a1]
+by: Wang Han (416810799@qq.com)
+RMX1971: overlay: import Snap overlays <5 weeks ago> [5fd3cd3]
+by: GuaiYiHu (guaiyihu@foxmail.com)
+RMX1971: Overlay: Show DocumentsUI internal storage by default <6 weeks ago> [954b3a2]
+by: Adrian DC (radian.dc@gmail.com)
+RMX1971: Fix redefined PROPERTY_VALUE_MAX <11 months ago> [6c5c74a]
+by: dianlujitao (dianlujitao@lineageos.org)
+RMX1971: Correct the device name <8 days ago> [609e1fc]
+by: bablusss (baaswanthmadhav@gmail.com)
+RMX1971: cleanup fstab <8 days ago> [0403f69]
+by: bablusss (baaswanthmadhav@gmail.com)
+RMX1971: Remove duplicate assert <8 days ago> [1b18c71]
+by: bablusss (baaswanthmadhav@gmail.com)
+RMX1971: Enforce RRO for all resource overlays <1 year, 9 months ago> [1f6cc03]
+by: Anton Hansson (hansson@google.com)
+RMX1971: android.hardware.health@2.0-impl <4 weeks ago> [f368b8c]
+by: bablusss (baaswanthmadhav@gmail.com)
+RMX1971: sepolicy: Address more denials <4 weeks ago> [5bf1383]
 by: kaderbava (ksbava7325@gmail.com)
-Add Official Maintainer string <4 months ago> [bca95dd]
-by: Kader Bava (ksbava7325@gmail.com)
-RMX1971: Derp-ify <7 hours ago> [a85345a]
-by: kaderbava (ksbava7325@gmail.com)
+RMX1971: overlay: Enable Proximity check on wake <4 weeks ago> [04eb325]
+by: SKULSHADY (anushekprasal@gmail.com)
 
 [kernel/realme/RMX1971]
-input: touchpanel_common_driver: Expose every possible gesture <2 weeks ago> [84915faf4da4]
-by: dianlujitao (dianlujitao@gmail.com)
+arm64: vdso32: Fix '--prefix=' value for newer versions of clang <3 weeks ago> [55a628525721]
+by: Nathan Chancellor (natechancellor@gmail.com)
+Makefile: Fix GCC_TOOLCHAIN_DIR prefix for Clang cross compilation <3 weeks ago> [cc5b4c947162]
+by: Fangrui Song (maskray@google.com)
+RMX1921: drivers: power: Fix 2% battery level drop <11 days ago> [2aa859ccd8c7]
+by: Hikari-no-Tenshi (Hikari-no-Tenshi@users.noreply.github.com)
+diag: Use strlcpy/strlcat properly <4 months ago> [4016b01789d6]
+by: improbir (ghosh_probir@yahoo.com)
+[BACKPORT]: drm/msm/sde: add sysfs node in dpu driver to provide fps <2 years ago> [3c1574281ce0]
+by: Shubhashree Dhar (dhar@codeaurora.org)
+techpack/audio: codecs: Fix potential buffer overflows <4 months ago> [ae8091d6de74]
+by: Albert I (kras@raphielgang.org)
 
 
 ====================
-     07-12-2020
+     08-08-2020
 ====================
 
-[device/aosip/sepolicy]
-sepolicy: treat vnswap as zram <3 months ago> [4e00cde]
-by: Park Ju Hyung (qkrwngud825@gmail.com)
+
+====================
+     08-07-2020
+====================
+
+[device/qcom/sepolicy]
+sepolicy: Allow system_server to read persist camera props <1 year, 7 months ago> [a7652e05]
+by: dianlujitao (dianlujitao@lineageos.org)
+
+[frameworks/base]
+BatteryService: Add VOOC charging support <6 days ago> [824269e5d4c]
+by: karthick111 (karthick111@users.noreply.github.com)
+base: SystemUI: Fix Active Color For QS Tile Styles <6 weeks ago> [502570a07e0]
+by: rohan (purohit.rohan@gmail.com)
+base: Add CircleOutline QS Tile Style [1/3] <1 year, 6 months ago> [28bc7fa877e]
+by: sayan7848 (sayan7848@gmail.com)
+base: Add Cookie QS Style [1/3] <1 year, 6 months ago> [4986746dd78]
+by: HrX03 (dn.bianco03@gmail.com)
+base: Add More QS Tile Styles [1/3] <7 weeks ago> [184f1b42ac0]
+by: El Dainosor (eldainosor@gmail.com)
+base: Introduce QS Tile Style Picker [1/3] <1 year, 10 months ago> [decc2239edf]
+by: calebcabob (calphonic@gmail.com)
 
 [packages/apps/Settings]
-Settings: Update Chinese translations <35 hours ago> [ee8fbf266d]
-by: ALKALiKong (alikongalk@gmail.com)
+Settings: Add CircleOutline QS Tile Style [2/3] <1 year, 6 months ago> [94d66c5683]
+by: sayan7848 (sayan7848@gmail.com)
+Settings: Add Cookie QS Style [2/3] <1 year, 6 months ago> [c8baf9de13]
+by: HrX03 (dn.bianco03@gmail.com)
+Settings: Add More QS Tiles Styles [2/3] <2 years, 3 months ago> [b9e1d6ecbc]
+by: eldainosor (eldainosor@gmail.com)
+Settings: Introduce QS Tile Style Picker [2/3] <7 weeks ago> [3cdb2c4541]
+by: calebcabob (calphonic@gmail.com)
 
-[packages/apps/DerpQuest]
-DerpQuest: Update Chinese translations (#72) <27 hours ago> [db0d858]
-by: ALKALiKong (54100342+ALKALiKong233@users.noreply.github.com)
-
-[packages/apps/OpenDelta]
-OpenDelta: Update Chinese translations (#4) <27 hours ago> [0f743ca]
-by: ALKALiKong (54100342+ALKALiKong233@users.noreply.github.com)
+[vendor/overlay]
+vendor: Add CircleOutline QS Tile Style [3/3] <1 year, 6 months ago> [6aad46f]
+by: sayan7848 (sayan7848@gmail.com)
+vendor: Add Cookie QS Style [3/3] <1 year, 6 months ago> [6556cd5]
+by: HrX03 (dn.bianco03@gmail.com)
+vendor: Add More QS Tile Styles [3/3] <1 year, 9 months ago> [b65baaa]
+by: ElDainosor (eldainosor@gmail.com)
+vendor: Introduce QS Tile Style Picker [3/3] <1 year, 10 months ago> [898eaaf]
+by: calebcabob (calphonic@gmail.com)
 
 
 ====================
-     07-11-2020
+     08-06-2020
 ====================
-
-[scripts]
-scripts: updater: Add color coding <2 days ago> [6afb596]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-scripts: updater: Do not offer to upload to SourceForge <2 days ago> [1df8693]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[device/realme/RMX1971]
-RMX1971: Lets go Enforcing <12 days ago> [f697b7c]
-by: bablusss (baaswanthmadhav@gmail.com)
-RMX1971: update vendor dep <3 days ago> [0b10572]
-by: bablusss (baaswanthmadhav@gmail.com)
-Update system.prop <3 days ago> [baadc7b]
-by: bablusss (baaswanthmadhav@gmail.com)
-sdm710-common: Add CAP_SYS_BOOT for charger <3 weeks ago> [b67a16e]
-by: Subbaraman Narayanamurthy (subbaram@codeaurora.org)
-RMX1971: zygote preforking for faster app launch <2 weeks ago> [976f72c]
-by: ctwoon (ctwoon@pixelexperience.org)
-RMX1971: Update build fingerprint from coral July <3 days ago> [1fcca81]
-by: bablusss (baaswanthmadhav@gmail.com)
-RMX1971: build libvndfwk_detect_jni.qti.vendor <3 weeks ago> [066b9bd]
-by: bablusss (baaswanthmadhav@gmail.com)
-RMX1971: Add vendor variant of framework detect modules <1 year, 6 months ago> [4db0d69]
-by: shoudil (stephenli@codeaurora.org)
-RMX1971: Fix rank of QC OMX components <12 months ago> [56860c6]
-by: Sujin Panicker (spanic@codeaurora.org)
-RMX1971: disable edge limit <4 months ago> [2324f5c]
-by: bablusss (baaswanthmadhav@gmail.com)
-RMX1971: update rootdir from realmeui <3 weeks ago> [0978e69]
-by: bablusss (baaswanthmadhav@gmail.com)
-RMX1971: Update blobs to RealmeUI <3 days ago> [713360a]
-by: bablusss (baaswanthmadhav@gmail.com)
-RMX1971: update Radio blobs to Q <4 days ago> [f57ab01]
-by: bablusss (baaswanthmadhav@gmail.com)
-RMX1971: downrev audio to 4.0 <2 months ago> [c530fa1]
-by: SGCMarkus (markusornik@gmail.com)
-RMX1971: Update aptX blobs from crosshatch <3 weeks ago> [ace8653]
-by: luk1337 (priv.luk@gmail.com)
-RMX1921: Override imsdatadaemon <9 months ago> [00390cd]
-by: TheScarastic (warabhishek@gmail.com)
-RMX1971: FR53248: Android Q: Remove hidden API references in ims.apk <1 year, 8 months ago> [40c1e78]
-by: Sumit Das (sumidas@codeaurora.org)
-RMX1971: IMS: decouple ims-ext-common from boot jars <1 year, 7 months ago> [618c738]
-by: Suresh Koleti (skoleti@codeaurora.org)
-Revert "RMX1971: Create system copy of ims-ext-common and add to classpath" <3 weeks ago> [f0ab3c9]
-by: bablusss (baaswanthmadhav@gmail.com)
-RMX1971: Drop no longer needed compat rootfs folders <9 months ago> [68ac35a]
-by: Bruno Martins (bgcngm@gmail.com)
-RMX1971: update gps configs <5 weeks ago> [a0f40ac]
-by: bgcngm (bgcngm@gmail.com)
-RMX1971: Add whitelist to support exposing vendor libs <5 weeks ago> [e097172]
-by: bgcngm (bgcngm@gmail.com)
-RMX1971: Disable ini param nan_separate_iface_support <2 months ago> [1b88a18]
-by: Srinivas Dasari (dasaris@codeaurora.org)
-RMX1971: ini: Remove TxPower2g and 5g from config file <2 months ago> [1bc8137]
-by: Ashish Kumar Dhanotiya (adhanoti@codeaurora.org)
-RMX1971: ini: Disable gEnableConcurrentSTA for Android Q targets <2 months ago> [50cf04e]
-by: Sourav Mohapatra (mohapatr@codeaurora.org)
-RMX1971: Add ini ignore_fw_reg_offload_ind <10 months ago> [c3f3fb3]
-by: Ashish Kumar Dhanotiya (adhanoti@codeaurora.org)
-RMX1971: cleanup wifi config files <2 weeks ago> [3345250]
-by: bablusss (baaswanthmadhav@gmail.com)
-Revert "RMX1971: Enable clang" <2 weeks ago> [cb2acee]
-by: bablusss (baaswanthmadhav@gmail.com)
-RMX1971: config.fs: init: Add AID_VENDOR_THERMAL for thermal-engine <11 months ago> [ce0b1f6]
-by: Ram Chandrasekar (rkumbako@codeaurora.org)
-RMX1971: Add AID_VENDOR_QRTR for qrtr-ns <1 year, 10 months ago> [82484c0]
-by: Chris Lew (clew@codeaurora.org)
-RMX1971: sensors: also import multihal <9 months ago> [f494cfc]
-by: Jan Altensen (info@stricted.net)
-Update CarrierSettings from Google Coral RPB1.200504.018 6520161 <3 weeks ago> [dca830b]
-by: baalajimaestro (me@baalajimaestro.me)
-RMX1971: Restart cameraserver after boot completed <7 weeks ago> [739b8a5]
-by: aviraxp (wanghan1995315@gmail.com)
-Revert "RMX1971: Fix blobs that referenced set_sched_policy" <3 weeks ago> [acb1c2f]
-by: bablusss (baaswanthmadhav@gmail.com)
-update deps <7 days ago> [6e666d2]
-by: bablusss (baaswanthmadhav@gmail.com)
-RMX1971: change audio poanel position to left <3 weeks ago> [c6ace17]
-by: bablusss (baaswanthmadhav@gmail.com)
 
 [kernel/realme/RMX1971]
-Revert "input: touchscreen: Expose every possible gesture" <3 days ago> [4f9423141ceb]
-by: bablusss (baaswanthmadhav@gmail.com)
-Revert "Make sure to use same scancode values as KharaMeParts" <3 days ago> [4feeecb8f5d0]
-by: bablusss (baaswanthmadhav@gmail.com)
-
-
-====================
-     07-10-2020
-====================
-
-[frameworks/base]
-Revert "base: SystemUI: add separate config for pulse brightness [1/2]" <3 days ago> [903ce8e905d]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/apps/Contacts]
-Contacts: Make the launch screen follow the system theme <4 weeks ago> [9c66735e0]
-by: Scott Warner (Tortel1210@gmail.com)
-
-[packages/apps/DerpQuest]
-DerpQuest: Remove custom doze brightness settings <3 days ago> [40020a5]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[scripts]
-scripts: updater: Offer to direct link for OpenDelta <3 days ago> [5cca7d4]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[vendor/gapps]
-Revert "gapps: Drop overlays" <4 days ago> [62208b8]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[vendor/pixelstyle]
-pixelstyle: Add Linotte font [2/2] <10 days ago> [1501a8f]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-pixelstyle: Add EvolveSans font [2/2] <10 days ago> [460c820]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-pixelstyle: Don't build google specific overlays for VANILLA <10 days ago> [dd02c41]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-[SQUASH] Remove OPScreenRecorder <12 days ago> [eac5390]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[vendor/realme/RMX1971]
-RMX1971: Update blobs to RealmeUI <7 days ago> [e74e77f]
+Remove '+' from kernel version <3 years, 11 months ago> [3bdbb5614107]
+by: Aashish15 (techybeing@gmail.com)
+kbuild: avoid unrecognized option error <5 days ago> [3ece1de3a791]
 by: bablusss (baaswanthmadhav@gmail.com)
 
 
 ====================
-     07-09-2020
+     08-05-2020
 ====================
 
-[frameworks/base]
-FODCircleView: Update FOD icon position on DreamingStateChanged <7 weeks ago> [7b62b4f26a8]
-by: Ashwin R C (ashwin2001achu@gmail.com)
-
-[packages/apps/Dialer]
-Automatic translation import <4 days ago> [ddd6a529f]
-by: Akhil Narang (akhilnarang.1999@gmail.com)
-Dialer: Use a DayNight launch theme <3 weeks ago> [f4b2a5430]
-by: Scott Warner (Tortel1210@gmail.com)
-
-[packages/apps/Messaging]
-Automatic translation import <4 days ago> [42b2e5e]
-by: Akhil Narang (akhilnarang.1999@gmail.com)
-Messaging: Use a DayNight launch theme <3 weeks ago> [f6685e8]
-by: Scott Warner (Tortel1210@gmail.com)
-
-
-====================
-     07-08-2020
-====================
-
-[frameworks/av]
-Add persist.sys.phh.disable_a2dp_offload property to force a2dp offload <7 weeks ago> [c7fd34fd9]
-by: Pierre-Hugues Husson (phh@phh.me)
-
-[frameworks/base]
-base: QS: Make sure we don't show an empty row <5 days ago> [9fa8f78a0a0]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[system/bt]
-Add persist.sys.phh.disable_a2dp_offload property to force a2dp offload <7 weeks ago> [cd0a289c3]
-by: Pierre-Hugues Husson (phh@phh.me)
-
-[system/core]
-adb: Look for shell executable in alternate places <2 years, 11 months ago> [7bd5bdb2b]
-by: Tom Marshall (tdm.code@gmail.com)
-
-[packages/apps/OpenDelta]
-OpenDelta: Add a null check for info image visibility <5 days ago> [fd77b58]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-
-====================
-     07-07-2020
-====================
-
-[manifest]
-Merge tag 'android-10.0.0_r40' into ten <7 days ago> [675dc06]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-Manifest for Android 10.0.0 Release 40 <7 days ago> [5383244]
-by: The Android Open Source Project (initial-contribution@android.com)
-
-[build/make]
-Merge tag 'android-10.0.0_r40' into HEAD <7 days ago> [bf43f35c6]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[frameworks/base]
-base: Fix freeform window moving/resizing doesn't work <10 weeks ago> [607c5b2efc6]
-by: utzcoz (utzcoz@gmail.com)
-VolumeDialog: Launch Q expanded volume panel on arrow longpress <3 weeks ago> [06203df745c]
-by: Adhitya Mohan (me@adhityamohan.in)
-
-[frameworks/native]
-Merge tag 'android-10.0.0_r40' into staging/ten-android-10.0.0_r40 <7 days ago> [1f2c99574]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/apps/Matlog]
-Matlog: Add a simple QS tile <11 days ago> [7b01e8a]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/services/Telephony]
-Merge tag 'android-10.0.0_r40' into staging/ten-android-10.0.0_r40 <7 days ago> [62ecdb1ed]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[scripts]
-scripts: updater: Use git remote to fetch changes <7 days ago> [c9ccbdf]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-scripts: updater: Push info.sh in a separate commit <3 weeks ago> [b861437]
-by: Ido Ben-Hur (idoybh2@gmail.com)
+[prebuilts/gcc/linux-x86/aarch64/aarch64-elf]
+Import GCC 10.2, binutils 2.35 <7 days ago> [c5bde62]
+by: Park Ju Hyung (qkrwngud825@gmail.com)
 
 
