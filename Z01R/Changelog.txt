@@ -1,219 +1,171 @@
 ====================
-     07-20-2020
-====================
-
-[frameworks/base]
-base: Nuke accent overlays [1/3] <5 months ago> [4371395a815]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-base: CarrierLabel: Improve settings observer <17 hours ago> [97b520d1cc9]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-base: Allow setting QS clock size separately [1/2] <17 hours ago> [f54d826e399]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/apps/Settings]
-Settings: Nuke accent overlays [2/3] <5 months ago> [860e98d3d3]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/apps/ThemePicker]
-ThemePicker: Remove accent color step <5 months ago> [f4302f2]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[vendor/overlay]
-overlay: Nuke accent overlays [3/3] <5 months ago> [5e0be05]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/apps/DerpQuest]
-DerpQuest: Allow setting QS clock size separately [2/2] <16 hours ago> [20856b1]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-DerpQuest: Add RGB accent presets <5 months ago> [1592ddd]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-DerpQuest: Introduce RGB accenter [2/2] <4 months ago> [da1c7cf]
-by: spezi77 (spezi7713@gmx.net)
-
-[device/asus/Z01R]
-Z01R: Update TWRP to 3.4.0 <52 minutes ago> [37fbef3]
-by: Jackeagle (jackeagle102@gmail.com)
-
-
-====================
-     07-19-2020
-====================
-
-[build/make]
-make: Generate changelog for prebuilt recovery-ramdisk as well (#7) <25 hours ago> [20b7590dd]
-by: Kailash (kailash.sudhakar@gmail.com)
-
-[device/aosip/sepolicy]
-aosip: common: add rules for RGB/HSL accentpicker <7 months ago> [4e7e41a]
-by: Ashwin R C (ashwin2001achu@gmail.com)
-
-[frameworks/base]
-base: Introduce RGB accenter [1/2] <1 year, 3 months ago> [943cfd107ed]
-by: Kshitij Gupta (kshitijgm@gmail.com)
-base: Refactor LockScreen font type & size implementation further <25 hours ago> [639518e806e]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-base: Refactor LockScreen elements font type & size implementation <2 days ago> [7eab381d62e]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/apps/DerpQuest]
-DerpQuest: Add a name fitting easter egg ;) <2 days ago> [b5b82b8]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[kernel/asus/sdm845]
-Reset qcacld, qca-wifi-host-cmn and fw-api to LA.UM.8.3.r1-06300-sdm845.0 <25 hours ago> [b513051c6c3f]
-by: Kailash (kailash.sudhakar@gmail.com)
-
-
-====================
-     07-18-2020
-====================
-
-[external/pulse]
-Pulse: Do not show when navbar is hidden <5 days ago> [e4e8384]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[frameworks/base]
-[SQUASH]base: Revert VoWiFi icon <2 days ago> [8157877c569]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-base: Utils: Add a function to check for gestural NavBar <2 days ago> [0a577f44505]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-Revert "Allow to choose lockscreen or Ambient on wake gestures [1/2]" <3 days ago> [db0eb56c210]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/apps/Settings]
-Settings: Ensure hide pill is off when not using gestures <2 days ago> [addc8635b4]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-Revert "Allow to choose lockscreen or Ambient on wake gestures [2/2]" <3 days ago> [bf5e859d54]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/apps/DerpQuest]
-DerpQuest: Add Stockish Switch Style [2/3] <1 year, 4 months ago> [098323a]
-by: AnkitGourav (Ankitgourav035@gmail.com)
-DerpQuest: Switch styles [2/3] <3 weeks ago> [67f84a2]
-by: SKULSHADY (anushekprasal@gmail.com)
-DerpQuest: Warn the user when pulse is not showing <5 days ago> [93b5e36]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-
-====================
-     07-17-2020
-====================
-
-[frameworks/base]
-base: Add Stockish Switch Style [1/3] <1 year, 4 months ago> [026540a1e7f]
-by: AnkitGourav (Ankitgourav035@gmail.com)
-
-[vendor/overlay]
-overlay: Add Stockish Switch Style [3/3] <1 year, 4 months ago> [e3ccf99]
-by: =AnkitGourav (Ankitgourav035@gmail.com)
-overlay: Switch Styles [3/3] <3 weeks ago> [2e72e81]
-by: SKULSHADY (anushekprasal@gmail.com)
-
-[packages/apps/DerpQuest]
-DerpQuest: Update RU translation (#73) <5 days ago> [a9b3a68]
-by: RunningMango (36758157+RunningMango@users.noreply.github.com)
-DerpQuest: Convert NavBar pulse to a master switch <6 days ago> [94454d2]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-
-====================
-     07-16-2020
+     08-10-2020
 ====================
 
 [manifest]
-manifest: Track our own fork of external/pulse <5 days ago> [22c0b2f]
-by: Ido Ben-Hur (idoybh2@gmail.com)
+manifest: track PotatoPlugins from AOSiP <8 days ago> [461177a]
+by: Josh Fox (XlxFoXxlX) (joshfox87@gmail.com)
+manifest: Track oss vibrator repos (#6) <11 hours ago> [5b5b4f9]
+by: 4PERTURE (38117317+4PERTURE@users.noreply.github.com)
 
 [frameworks/base]
-base: Switch Styles [1/3] <3 weeks ago> [8e4d1b639fd]
-by: SKULSHADY (anushekprasal@gmail.com)
+base: VolumePluginManager: Add default constructor <7 weeks ago> [438ab3ab752]
+by: Kshitij Gupta (kshitijgm@gmail.com)
+base: Allow using plugins even on production <8 weeks ago> [78d34738de7]
+by: HrX03 (dn.bianco03@gmail.com)
+base: Implement VolumePluginManager <7 weeks ago> [5dc84fc664a]
+by: HrX03 (dn.bianco03@gmail.com)
+base: Toast: Custom icon should not be static <28 hours ago> [e0e6a6a4a39]
+by: Ido Ben-Hur (idoybh2@gmail.com)
 
-[packages/apps/Launcher3]
-Automatic translation import <5 days ago> [4028bcf3e]
-by: Akhil Narang (akhilnarang.1999@gmail.com)
+[vendor/overlay]
+packages: include plugin package <7 weeks ago> [df4ec57]
+by: Kshitij Gupta (kshitijgm@gmail.com)
 
-[kernel/asus/sdm845]
-Update Wireguard to v1.0.20200712 <5 days ago> [8f2916cc7fcb]
+[vendor/prebuilts]
+prebuilts: Update Lawnchair to version 2.1-2627 <9 hours ago> [5b931d8]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[packages/apps/DerpQuest]
+DerpQuest: Make all accent color presets 8 char long <4 hours ago> [f0514b2]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+DerpQuest: POSP Vol panel styles <6 weeks ago> [4885b31]
+by: Tejasvp25 (tejasvp25@gmail.com)
+
+[scripts]
+scripts: updater: oops <10 hours ago> [b1b8f07]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[device/asus/Z01R]
+Z01R: Update build version <4 hours ago> [071eaf5]
 by: Kailash (kailash.sudhakar@gmail.com)
 
 
 ====================
-     07-15-2020
+     08-09-2020
 ====================
 
 [frameworks/base]
-base: Backup navbar pulse settings <6 days ago> [ac3428ceea1]
+Revert "Keyguard: Forward port lockscreen quick unlock (1/2)" <2 days ago> [e1319ba85a5]
 by: Ido Ben-Hur (idoybh2@gmail.com)
-base: Add automatic album art color mode for navbar pulse [1/2] <5 weeks ago> [18b9601fdb8]
-by: Ezio Lacandia Bijelkic (brabus84@gmail.com)
-base: Pulse navbar audio gfx visualizer for Android 10 [1/2] <9 weeks ago> [4bddee8e91d]
-by: bigrushdog (randall.rushing@gmail.com)
 
 [packages/apps/Settings]
-Settings: add RU translation (#18) <5 days ago> [bd7a3d598b]
-by: RunningMango (36758157+RunningMango@users.noreply.github.com)
-
-[system/core]
-init.rc: disable kernel module autoloading <4 months ago> [617a28418]
-by: Eric Biggers (ebiggers@google.com)
+Revert "Keyguard: Forward port lockscreen quick unlock (2/2)" <2 days ago> [cc0c8c6e96]
+by: Ido Ben-Hur (idoybh2@gmail.com)
 
 [packages/apps/DerpQuest]
-DerpQuest: Add automatic album art color mode for navbar pulse [2/2] <5 weeks ago> [65fa418]
-by: Ezio Lacandia Bijelkic (brabus84@gmail.com)
-DerpQuest: Pulse navbar audio gfx visualizer for Android 10 [2/2] <6 weeks ago> [1073aaf]
-by: bigrushdog (randall.rushing@gmail.com)
-DerpQuest: ButtonSettings: Use the assigned resolver var <6 days ago> [96dff33]
+DerpQuest: Enforce QS tile tint for appropriate QS tile styles <2 days ago> [92972cd]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 
 
 ====================
-     07-14-2020
+     08-08-2020
 ====================
 
-[build/soong]
-Re-allow relative paths for modules <6 months ago> [c804e397]
-by: Surge1223 (Surge1223@gmail.com)
+[packages/apps/Settings]
+base: Move QS tile style to DerpQuest [1/2] <2 days ago> [37bd493560]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[vendor/aosip]
+qcom: Add atoll platform <3 months ago> [cc68d1b]
+by: TheHitMan7 (krtik.vrma@gmail.com)
+BoardConfigQcom: Allow a device to opt-out hardset of PRODUCT_SOONG_NAMESPACES <3 months ago> [57bfab8]
+by: Andrew Hexen (SyberHexen@gmail.com)
+
+[packages/apps/DerpQuest]
+DerpQuest: Move QS tile style to DerpQuest [2/2] <2 days ago> [b9ec8ac]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[vendor/asus/Z01R]
+Initial commit <2 days ago> [3aa30ed]
+by: Kailash (kailash.sudhakar@gmail.com)
+
+
+====================
+     08-07-2020
+====================
 
 [frameworks/base]
-AudioService: fix audio mode not reset to MODE_NORMAL <3 months ago> [6754113be38]
-by: wumin3 (wumin3@xiaomi.com)
-LockSettingsService : Restrict access to getpassword API <8 months ago> [5f265f20f30]
-by: Prerna Kalla (prernak@codeaurora.org)
-Fix WebView vulnerability by disallowing file access <3 months ago> [bb092995492]
-by: Chen Xu (fionaxu@google.com)
-base: Make sound tile toggle to silent instead of DnD <6 days ago> [c54080c61b0]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-base: Make lockscreen timeout configurable [1/2] <6 weeks ago> [2554aebcad2]
-by: Alex Cruz (du.alexcruz@gmail.com)
-base: Settings: Backup album art filter <7 days ago> [a682a230809]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/apps/DeskClock]
-translations import from LOS <7 days ago> [35cf46557]
-by: Abdulwahab Isam (abdoi94.iq@gmail.com)
+BatteryService: Add VOOC charging support <5 days ago> [824269e5d4c]
+by: karthick111 (karthick111@users.noreply.github.com)
+base: SystemUI: Fix Active Color For QS Tile Styles <6 weeks ago> [502570a07e0]
+by: rohan (purohit.rohan@gmail.com)
+base: Add CircleOutline QS Tile Style [1/3] <1 year, 6 months ago> [28bc7fa877e]
+by: sayan7848 (sayan7848@gmail.com)
+base: Add Cookie QS Style [1/3] <1 year, 6 months ago> [4986746dd78]
+by: HrX03 (dn.bianco03@gmail.com)
+base: Add More QS Tile Styles [1/3] <7 weeks ago> [184f1b42ac0]
+by: El Dainosor (eldainosor@gmail.com)
+base: Introduce QS Tile Style Picker [1/3] <1 year, 10 months ago> [decc2239edf]
+by: calebcabob (calphonic@gmail.com)
 
 [packages/apps/Settings]
-Settings: Make lockscreen timeout configurable [2/2] <4 weeks ago> [7637153b5c]
-by: Alex Cruz (du.alexcruz@gmail.com)
-Settings: Ensure SeekBars with interval have a default value <7 days ago> [6ec3a98752]
-by: Ido Ben-Hur (idoybh2@gmail.com)
+Settings: Add CircleOutline QS Tile Style [2/3] <1 year, 6 months ago> [94d66c5683]
+by: sayan7848 (sayan7848@gmail.com)
+Settings: Add Cookie QS Style [2/3] <1 year, 6 months ago> [c8baf9de13]
+by: HrX03 (dn.bianco03@gmail.com)
+Settings: Add More QS Tiles Styles [2/3] <2 years, 2 months ago> [b9e1d6ecbc]
+by: eldainosor (eldainosor@gmail.com)
+Settings: Introduce QS Tile Style Picker [2/3] <7 weeks ago> [3cdb2c4541]
+by: calebcabob (calphonic@gmail.com)
 
-[packages/apps/DerpQuest]
-DerpQuest: Guard new dynamic summaries against bad translations <6 days ago> [23a4c22]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-DerpQuest: Ensure SeekBars with interval have a default value <7 days ago> [8ccde9f]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-DerpQuest: Fix ticker timeout SeekBar stuck <7 days ago> [d219835]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-DerpQuest: Make notifications master switches summaries dynamic <7 days ago> [650b63a]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-DerpQuest: Make LockScreen master switches summaries dynamic <7 days ago> [490fb35]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-DerpQuest: Make QuickSettings master switches summaries dynamic <7 days ago> [ba0f395]
+[vendor/overlay]
+vendor: Add CircleOutline QS Tile Style [3/3] <1 year, 6 months ago> [6aad46f]
+by: sayan7848 (sayan7848@gmail.com)
+vendor: Add Cookie QS Style [3/3] <1 year, 6 months ago> [6556cd5]
+by: HrX03 (dn.bianco03@gmail.com)
+vendor: Add More QS Tile Styles [3/3] <1 year, 9 months ago> [b65baaa]
+by: ElDainosor (eldainosor@gmail.com)
+vendor: Introduce QS Tile Style Picker [3/3] <1 year, 10 months ago> [898eaaf]
+by: calebcabob (calphonic@gmail.com)
+
+[device/asus/Z01R]
+Z01R: Add Asus apps <3 days ago> [9641622]
+by: rohan purohit (purohit.rohan@gmail.com)
+Z01R: init: Update build fingerprint to Pixel 4 XL august patch <3 days ago> [2e667bd]
+by: Kailash (kailash.sudhakar@gmail.com)
+Z01R: DeviceParts: Add intents for Asus Mobile Manager and PowerSaving2 <8 days ago> [6aedf73]
+by: Aryan Arora (arora.aryan7@gmail.com)
+
+
+====================
+     08-06-2020
+====================
+
+[device/qcom/sepolicy]
+sepolicy: Allow system_server to read persist camera props <1 year, 7 months ago> [a7652e05]
+by: dianlujitao (dianlujitao@lineageos.org)
+
+[device/asus/Z01R]
+Z01R: Add manifest to vendor_overlay <4 days ago> [a6d940b]
+by: Kailash (kailash.sudhakar@gmail.com)
+
+
+====================
+     08-05-2020
+====================
+
+[prebuilts/gcc/linux-x86/aarch64/aarch64-elf]
+Import GCC 10.2, binutils 2.35 <6 days ago> [c5bde62]
+by: Park Ju Hyung (qkrwngud825@gmail.com)
+
+[prebuilts/gcc/linux-x86/arm/arm-eabi]
+Import GCC 10.2, binutils 2.35 <6 days ago> [2e33070]
+by: Park Ju Hyung (qkrwngud825@gmail.com)
+
+
+====================
+     08-04-2020
+====================
+
+[frameworks/base]
+base: StatusBar: Improve custom settings observer <7 days ago> [0553caabffc]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 
 [scripts]
-scripts: updater: make sure no local changes exist in repo <6 days ago> [2411d58]
+scripts: aosp-merger: Make sure AOSP remote is valid <7 days ago> [b45917a]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+scripts: aosp-merger: Don't detach all heads <7 days ago> [b4ff52f]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 
 
