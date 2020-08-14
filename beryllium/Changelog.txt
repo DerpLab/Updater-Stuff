@@ -1,6 +1,5 @@
-- Merged August Security Patch
-- Updated MiPa Kernel to 4.9.232
-- Updated GCam Go
-- Added Power Menu Background Filter
-- Added QS Tile Styles
-- Added QS Header Styles
+- Updated MiPa Kernel to 9.6
+- Added Moto Dolby
+- Added Volume Panel Styles from POSP
+- Improved Edge Lighting
+- Improved QS Tile Styles
