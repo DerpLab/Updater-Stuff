@@ -1,1911 +1,607 @@
 ====================
-     08-04-2020
+     08-14-2020
 ====================
 
-[manifest]
-Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/platform/manifest into ten <22 hours ago> [6a84861]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-Manifest for Android 10.0.0 Release 41 (QQ3A.200805.001) <23 hours ago> [458a841]
-by: The Android Open Source Project (initial-contribution@android.com)
+[device/aosip/sepolicy]
+sepolicy: let matlog read dmesg Matlog creates empty dmesg.txt and this denial shows up in dmesg. <23 hours ago> [7c312f0]
+by: DarkDampSquib (andrin.geiger1998@gmail.com)
 
-[build/make]
-Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/platform/build into HEAD <22 hours ago> [26f2481f3]
+[device/xiaomi/davinci]
+Partial revert "davinci: Enable fluence for audio/voice recording" <2 days ago> [5301b4674]
+by: DarkDampSquib (andrin.geiger1998@gmail.com)
+davinci: Bump required fw to 12.0.3.0 <3 days ago> [fbfe21ef8]
+by: DarkDampSquib (andrin.geiger1998@gmail.com)
+davinci: rootdir: Import task cpu affinity script from RenderBroken <10 weeks ago> [5b016ec14]
+by: celtare21 (celtare21@gmail.com)
+davinci: Copy common audio configs from the audio HAL <3 weeks ago> [1db8567a7]
+by: DarkDampSquib (andrin.geiger1998@gmail.com)
+davinci: Add Dolby <6 weeks ago> [1b6a655bc]
+by: Sonal Singh (sonal.singh.19993@gmail.com)
+davinci: enable PSI monitor <8 months ago> [2c28a2390]
+by: UtsavisGreat (utsavbalar1231@gmail.com)
+davinci: add lmkd options from coral <8 months ago> [df9cc7381]
+by: UtsavisGreat (utsavbalar1231@gmail.com)
+davinci: Update OpenGL & Vulkan <6 weeks ago> [7e16c2566]
+by: DarkDampSquib (andrin.geiger1998@gmail.com)
+davinci: rootdir: allow all filesystems for USB-OTG <8 weeks ago> [89a10cd58]
+by: SVB (shef@intech-stv.ru)
+davinci: update path defining rounded corners <3 months ago> [7a840c8d5]
+by: yankarinRG (yankarinrg@gmail.com)
+davinci: adjust window rounded corners <3 months ago> [727a2e43d]
+by: yankarinRG (yankarinrg@gmail.com)
+davinci: add proper keyguard/statusbar configs for rounded corners <3 months ago> [3e8cf1d72]
+by: yankarinRG (yankarinrg@gmail.com)
+davinci: props: enable zygote preforking <2 months ago> [2ebe1030e]
+by: Nick C (ctwoon@suicide.today)
+davinci: prop: Force enable VoWiFi <3 months ago> [182c04b0d]
+by: PainKiller3 (ninadpatil100@gmail.com)
+davinci: overlay: Ignore RSSNR signal level <1 year, 10 months ago> [1cc0cf0dd]
+by: Henrique Silva (jhenrique09.mcz@hotmail.com)
+davinci: overlay: Disable proximity usage during doze <2 months ago> [ae398e47c]
+by: Demon000 (demonsingur@gmail.com)
+davinci: carrierconfig: Enable VoLTE and VoWiFi for all <3 months ago> [377b2a92a]
+by: RealSchnedi (schnedi3@gmail.com)
+davinci: carrierconfig: Disable HD logo <3 months ago> [fe1bf6030]
+by: Dyneteve (dyneteve@gmail.com)
+davinci: proprietary: Pin modified ims.apk <3 months ago> [5511d9299]
+by: RealSchnedi (schnedi3@gmail.com)
+davinci: Add PixelLiveWallpaper <3 months ago> [414473ff1]
+by: DarkDampSquib (andrin.geiger1998@gmail.com)
+davinci: sepolicy: let MiuiCamera read FOD property <4 months ago> [49bea256d]
+by: Demon000 (demonsingur@gmail.com)
+davinci: Add custom doze package <3 months ago> [47b73904d]
+by: DarkDampSquib (andrin.geiger1998@gmail.com)
+davinci: sepolicy: Address some more denials <2 days ago> [3a17d7ce7]
+by: DarkDampSquib (andrin.geiger1998@gmail.com)
+davinci: sepolicy: Add libperfmgr rules <3 months ago> [a97afd5d7]
+by: DarkDampSquib (andrin.geiger1998@gmail.com)
+davinci: copy libOpenCL to system too <3 months ago> [eb19adb20]
+by: DarkDampSquib (andrin.geiger1998@gmail.com)
+davinci: Set Statusbar padding to 12dp <8 months ago> [821ecc5e6]
+by: DarkDampSquib (andrin.geiger1998@gmail.com)
+davinci: Enable support for pocket mode <6 months ago> [fb607aada]
+by: Dominik Procházka (38187580+ProchyGaming@users.noreply.github.com)
+davinci: Unify back gesture vibratiuon with system wide haptics <5 months ago> [49be76446]
+by: DarkDampSquib (andrin.geiger1998@gmail.com)
+davinci: Enable vibration multiple intensities <1 year, 7 months ago> [d91c9759a]
+by: Murat Kozan (muratkozan350@gmail.com)
+davinci: Set TG Group Link <6 months ago> [7bf305f77]
+by: DarkDampSquib (andrin.geiger1998@gmail.com)
+davinci: Set Maintainer Overlay <7 months ago> [f01c5bd0e]
+by: DarkDampSquib (andrin.geiger1998@gmail.com)
+davinci: parts: Digital-style icon for FPSInfo QS Tile <5 months ago> [aafd92c26]
+by: Nauval Rizky (enuma.alrizky@gmail.com)
+davinci: parts: Add FPS overlay QS tile <6 months ago> [2f9deab75]
 by: Ido Ben-Hur (idoybh2@gmail.com)
+davinci: parts: adapt FPS Info based on exposed data from kernel <5 months ago> [ad5a95c89]
+by: Nauval Rizky (enuma.alrizky@gmail.com)
+davinci: parts: introduce FPS overlay <9 months ago> [138d84a63]
+by: Marko Man (darkobas@gmail.com)
+davinci: parts: Follow Android 10 changes on switchbar <11 months ago> [dca8e0d28]
+by: jhenrique09 (jhenrique09.mcz@hotmail.com)
+davinci: powerhint: tune powerhint <4 weeks ago> [34492fa80]
+by: Pig (pig.priv@gmail.com)
+davinci: powerhint: moorea settings <1 year, 4 months ago> [207a5ac53]
+by: Karthik Gopalan (gkarth@codeaurora.org)
+davinci: PowerHint: change foreground cpuset when app launch <1 year, 8 months ago> [265daeaab]
+by: Rick Yiu (rickyiu@google.com)
+davinci: Fix QoS CPU DMA latency value <1 year, 3 months ago> [c57e52599]
+by: Artem Labazov (123321artyom@gmail.com)
+davinci: power-libperfmgr: add a NOT_INTERACTIVE hint for setInteractive <6 weeks ago> [f41995833]
+by: Jesse Chan (jc@lineageos.org)
+davinci: power-libperfmgr: Scan input devices for eligible DT2W node <7 months ago> [ad9cb2ee9]
+by: Bruno Martins (bgcngm@gmail.com)
+davinci: power-libperfmgr: Add support for event-based tap to wake gesture control <1 year, 6 months ago> [2cd17a96f]
+by: AbhiShek Aggarwal (warabhishek@gmail.com)
+davinci: power-libperfmgr: add an updateHint function for simple hint ops <6 weeks ago> [34b41911d]
+by: Jesse Chan (jc@lineageos.org)
+davinci: power-libperfmgr: declare override="true" in manifest <7 weeks ago> [a98ac4e6f]
+by: Jesse Chan (jc@lineageos.org)
+davinci: power-libperfmgr: initialize powerHAL when boot is completed <7 weeks ago> [d216407df]
+by: Jesse Chan (jc@lineageos.org)
+davinci: power-libperfmgr: remove Google-specific camera and audio hints <7 weeks ago> [2b7303945]
+by: Jesse Chan (jc@lineageos.org)
+davinci: power-libperfmgr: remove Google-specific display LPM control <9 weeks ago> [cf949a4a6]
+by: Jesse Chan (jc@lineageos.org)
+davinci: power-libperfmgr: simply wait if idle state node is not present <9 weeks ago> [f30a8ba44]
+by: Jesse Chan (jc@lineageos.org)
+davinci: power-libperfmgr: adapt and rebrand for xiaomi <9 weeks ago> [225c0415e]
+by: Jesse Chan (jc@lineageos.org)
+davinci: import Pixel libperfmgr Power HAL <9 weeks ago> [89408014f]
+by: Jesse Chan (jc@lineageos.org)
+davinci: init: create camera-daemon stune cgroup <1 year, 1 month ago> [87e5e4bc6]
+by: John Dias (joaodias@google.com)
+davinci: Update init for PELT <8 months ago> [6aadb2431]
+by: kondors1995 (normandija1945@gmail.com)
+davinci: Allow network use for build process <7 months ago> [9b9770370]
+by: DarkDampSquib (andrin.geiger1998@gmail.com)
+davinci: Use proton clang <4 months ago> [56657e294]
+by: DarkDampSquib (andrin.geiger1998@gmail.com)
+Revert "davinci: camera: Build camera provider" <3 days ago> [99c8315bc]
+by: DarkDampSquib (andrin.geiger1998@gmail.com)
+davinci: Include MiuiCamera <11 days ago> [003c7a266]
+by: DarkDampSquib (andrin.geiger1998@gmail.com)
+davinci: Is a phone <8 months ago> [0378d7e29]
+by: DarkDampSquib (andrin.geiger1998@gmail.com)
+davinci: Include GApps <7 months ago> [485904caf]
+by: DarkDampSquib (andrin.geiger1998@gmail.com)
+davinci: Derp-ify <3 months ago> [f1ca08e5a]
+by: DarkDampSquib (andrin.geiger1998@gmail.com)
+davinci: Import update-sha1sums.py from los <7 weeks ago> [acf22ea3b]
+by: dianlujitao (dianlujitao@lineageos.org)
+Revert "davinci: overlay: Hide sRGB toggle in developer options" <3 days ago> [8b92b38cc]
+by: DarkDampSquib (andrin.geiger1998@gmail.com)
+Revert "davinci: camera: Build Snap" <3 days ago> [fb5960cb5]
+by: DarkDampSquib (andrin.geiger1998@gmail.com)
+Revert "davinci: Make fod color transparent and add custom icon" <3 days ago> [7a59d4b43]
+by: DarkDampSquib (andrin.geiger1998@gmail.com)
+Revert "davinci: Build livedisplay" <3 days ago> [4703fe035]
+by: DarkDampSquib (andrin.geiger1998@gmail.com)
+Revert "davinci: Implement SunlightEnhancement LiveDisplay HAL" <3 days ago> [ae8096d37]
+by: DarkDampSquib (andrin.geiger1998@gmail.com)
+Revert "davinci: Build Trust HAL" <3 days ago> [010065ccd]
+by: DarkDampSquib (andrin.geiger1998@gmail.com)
+davinci: Drop unused libnpu.so <4 days ago> [0ce473a22]
+by: Arian (arian.kulmer@web.de)
+davinci: List additional native libraries to expose to apps <2 years, 4 months ago> [fde0d9587]
+by: Bruno Martins (bgcngm@gmail.com)
 
-[external/gptfdisk]
-Merge tag 'android-10.0.0_r41' into ten <22 hours ago> [aad8539]
-by: Akhil Narang (me@akhilnarang.dev)
+[kernel/xiaomi/davinci]
+defconfig: disable CONFIG_MSM_DEBUGCC_SM8150, CONFIG_MSM_DEBUGCC_SM6150 <21 hours ago> [f8433aabaa74]
+by: Rick Yiu (rickyiu@google.com)
 
-[frameworks/av]
-Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/platform/frameworks/av into ten <21 hours ago> [3ddea8400]
-by: Ido Ben-Hur (idoybh2@gmail.com)
+
+====================
+     08-13-2020
+====================
 
 [frameworks/base]
-DozeSensors: only use proximity sensor if supported <4 months ago> [af1d6739b44]
+fwb: Add screen off fod [1/2] <5 weeks ago> [a9edaef0ee6]
+by: TheScarastic (warabhishek@gmail.com)
+DozeSensors: only use proximity sensor if supported <4 months ago> [1d54178d3cb]
 by: Demon000 (demonsingur@gmail.com)
-base: StatusBar: Improve custom settings observer <16 hours ago> [0553caabffc]
+base: Simplify ambient light color mode settings [1/2] <2 days ago> [6823b94c039]
 by: Ido Ben-Hur (idoybh2@gmail.com)
-Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/platform/frameworks/base into ten <21 hours ago> [a36ca80b795]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/apps/Settings]
-Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/platform/packages/apps/Settings into HEAD <21 hours ago> [ae6c3c35b9]
+base: Default custom ambient light color to accent [1/2] <2 days ago> [7fb494cc3a2]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 
-[packages/services/Telephony]
-Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/platform/packages/services/Telephony into HEAD <21 hours ago> [99bd78805]
+[packages/apps/DerpQuest]
+DerpQuest: Simplify ambient light color mode settings [2/2] <2 days ago> [9fdfa59]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+DerpQuest: Default custom ambient light color to accent [2/2] <2 days ago> [9d14f57]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[kernel/xiaomi/davinci]
+Revert "selinux: Relocate ss_initialized and selinux_enforcing to separate 4k" <1 year, 7 months ago> [8989b4673efc]
+by: Nick Desaulniers (ndesaulniers@google.com)
+Revert "msm: kgsl: Add gpu_frequency trace during SLUMBER entry and exit" <25 hours ago> [45960d9f1b33]
+by: vantoman (Mustafa.vantom@gmail.com)
+Revert "msm: kgsl: Add gpu_frequency tracepoint to power trace system" <25 hours ago> [5451762530d6]
+by: vantoman (Mustafa.vantom@gmail.com)
+Revert "mutex: Add a delay into the SPIN_ON_OWNER wait loop." <2 months ago> [423a34340c73]
+by: Sultan Alsawaf (sultan@kerneltoast.com)
+cpufreq: stats: replace the global lock with atomic <1 year, 5 months ago> [a6ec4ed88161]
+by: Kyle Lin (kylelin@google.com)
+defconfig: Always report stock kernel version to fsck.f2fs <26 hours ago> [24a30e9f01e9]
+by: DarkDampSquib (andrin.geiger1998@gmail.com)
+f2fs: Add support for reporting a fake kernel version to fsck <12 days ago> [d1b1788a26f9]
+by: Danny Lin (danny@kdrag0n.dev)
+disp: msm: sde: fix a warning in kms_update_pm_qos <10 weeks ago> [9f75f6c068e1]
+by: Yaroslav Furman (yaro330@gmail.com)
+irqdomain: Ignore IRQ 120 for F10 <8 days ago> [9512c0dfdc44]
+by: PIPIPIG233666 (pig.priv@gmail.com)
+Revert "qcacld-3.0: Import Xiaomi changes" <2 days ago> [7fba408bd672]
+by: vantoman (Mustafa.vantom@gmail.com)
+mbcache: make sure c_entry_count is not decremented past zero <2 years, 7 months ago> [a6048f58b5ff]
+by: Jiang Biao (jiang.biao2@zte.com.cn)
+kallsyms: reduce size a little on 64-bit <1 year, 11 months ago> [9cd15967c3c9]
+by: Jan Beulich (JBeulich@suse.com)
+scripts: Fixed printf format mismatch <2 years, 3 months ago> [ff085e27c438]
+by: nixiaoming (nixiaoming@huawei.com)
+kallsyms: lower alignment on ARM <1 year, 7 months ago> [4d3408baca46]
+by: Mathias Krause (minipli@googlemail.com)
+cpuidle: enter_state: Don't needlessly calculate diff time <1 year, 11 months ago> [511d7ea58af0]
+by: Fieah Lim (kw@fieahl.im)
+FROMLIST: cpu: fix cache warnings when resuming from deep suspend <3 years, 8 months ago> [17c255acfa10]
+by: Sudeep Holla (sudeep.holla@arm.com)
+arm64: Disable -fwhole-program for vDSO <5 months ago> [ccd93cab3b06]
+by: Sultan Alsawaf (sultan@kerneltoast.com)
+init/main.c: add sync point between each level <2 years, 5 months ago> [ff0d8c199c10]
+by: Wei Wang (wvw@google.com)
+teckpack: codecs: Use scnprintf() for robustness <4 months ago> [02eb66e05600]
+by: Yaroslav Furman (yaro330@gmail.com)
+msm: camera: properly kill debug logging <3 months ago> [36516b487646]
+by: Yaroslav Furman (yaro330@gmail.com)
+msm-camera: Stop ISP devices when SMMU fault <1 year ago> [8863db07cb40]
+by: Chris Ye (lzye@google.com)
+iommu/arm-smmu: reduce tlb sync poll retry latency <8 months ago> [a2a78527d3ed]
+by: Prakash Gupta (guptap@codeaurora.org)
+drm: msm: add idle state sysfs node <2 years, 8 months ago> [adcf4ecd4c30]
+by: Adrian Salido (salidoa@google.com)
+drm/msm: dsi-ctrl: remove extra buffer copy <1 year, 1 month ago> [7b67cb4523a5]
+by: Adrian Salido (salidoa@google.com)
+cpuidle: lpm-levels: Reorganize code to calculate next wakeup <8 months ago> [64fe1c27a677]
+by: Maulik Shah (mkshah@codeaurora.org)
+techpack: silence some more debugging <5 months ago> [ce985a70c057]
+by: Yaroslav Furman (yaro330@gmail.com)
+techpack: q6asm: stfu <5 months ago> [85ef96622ca0]
+by: Yaroslav Furman (yaro330@gmail.com)
+sound: usb: fix the kernel panic on headset <10 months ago> [6e185c123313]
+by: kim.ba (kim.ba@oneplus.com)
+ALSA: control_compat: Don't dynamically allocate single-use structs <1 year, 1 month ago> [6d80aec2b6a8]
+by: Sultan Alsawaf (sultan@kerneltoast.com)
+Makefile: Use -O3 on Clang <1 year ago> [da63545fcdc4]
+by: Danny Lin (danny@kdrag0n.dev)
+Makefile: Optimize for sm6150's Kryo 485 CPU setup <1 year ago> [55a2b3b27ca0]
+by: Danny Lin (danny@kdrag0n.dev)
+scsi: ufs: Only apply pm_qos to the CPU servicing UFS interrupts <1 year, 3 months ago> [a9263b893bba]
+by: Sultan Alsawaf (sultan@kerneltoast.com)
+scsi: ufs: Remove 10 ms CPU idle latency unvote timeout <1 year, 3 months ago> [60e2841f2a5a]
+by: Sultan Alsawaf (sultan@kerneltoast.com)
+scsi: ufs: set autohibern8 timer regardless of hibern8_on_idle <5 months ago> [f05574037c40]
+by: Jaegeuk Kim (jaegeuk@google.com)
+scsi: ufs: disable hibern8_on_idle <5 months ago> [aa2c36d1fa5a]
+by: Jaegeuk Kim (jaegeuk@google.com)
+scsi: ufs: check memory region correctly <2 years, 4 months ago> [abaf791cc67a]
+by: Jaegeuk Kim (jaegeuk@google.com)
+scsi: ufs: atomic update for clkgating_enable <1 year, 2 months ago> [2f2d3d5ce707]
+by: Jaegeuk Kim (jaegeuk@google.com)
+scsi: ufs: don't check register on clk-gating <1 year ago> [35a2de340d9b]
+by: Jaegeuk Kim (jaegeuk@google.com)
+scsi: ufs: disable HIBERN8_WITH_CLK_GATING <1 year, 3 months ago> [ffa52d0da2d8]
+by: Jaegeuk Kim (jaegeuk@google.com)
+scsi: ufs: use async operation for hibern8 operation <1 year, 1 month ago> [efc81b97b023]
+by: Martin Liu (liumartin@google.com)
+Revert "scsi: ufs: update VCCQ and VCCQ2 min value" <6 months ago> [5d5d498ced79]
+by: Randall Huang (huangrandall@google.com)
+Revert "Revert "Revert "scsi: ufs-qcom: Add flag to keep track of PHY's power state""" <12 months ago> [d8339e46833a]
+by: Jaegeuk Kim (jaegeuk@google.com)
+Revert "scsi: ufs: fix wrong command type of UTRD for UFSHCI v2.1" <1 year, 2 months ago> [67a25e8d6a0b]
+by: Martin Liu (liumartin@google.com)
+Revert "scsi: ufs: Fix regulator load and icc-level configuration" <1 year ago> [93e15eae5ca6]
+by: Leo Liou (leoliou@google.com)
+scsi: ufs: Don't turn of the link for WDC devices during LPM <7 months ago> [d243473c827f]
+by: Veerabhadrarao Badiganti (vbadigan@codeaurora.org)
+scsi: ufs: disable interrupt in clk-gating <2 years, 2 months ago> [61c4b295c89d]
+by: Jaegeuk Kim (jaegeuk@google.com)
+scsi: ufs: disable clock scaling <2 years, 3 months ago> [75ff3f6681b7]
+by: Mimi Wu (mimiwu@google.com)
+phy: qcom-ufs-v4: update UFS register dump sequence <9 months ago> [02cbb185f854]
+by: UtsavisGreat (utsavbalar1231@gmail.com)
+scsi: ufs: increase power control timeout <1 year, 2 months ago> [c08a4f8f6eb4]
+by: Demon000 (demonsingur@gmail.com)
+ufs: increase doorbell clear timeout to 40s <5 months ago> [bc2e97d88370]
+by: UtsavBalar1231 (utsavbalar1231@gmail.com)
+scsi: ufs: increase query timeout <9 months ago> [5ee0f6c663c3]
+by: Demon000 (demonsingur@gmail.com)
+scsi: ufs: update debugfs creation permissions <9 months ago> [4cef5bc3eaca]
+by: UtsavisGreat (utsavbalar1231@gmail.com)
+scsi: ufs: adjust WAIT_AFTER_REF_CLK_UNGATE sleep times <1 year, 2 months ago> [3a55124a2117]
+by: Demon000 (demonsingur@gmail.com)
+scsi: ufs: add WAIT_AFTER_REF_CLK_UNGATE quirk to Sandisk devices <1 year, 2 months ago> [fdc9e5359c4f]
+by: Demon000 (demonsingur@gmail.com)
+
+[frameworks/base]
+fwb: Add screen off fod [1/2] <5 weeks ago> [a9edaef0ee6]
+by: TheScarastic (warabhishek@gmail.com)
+DozeSensors: only use proximity sensor if supported <4 months ago> [1d54178d3cb]
+by: Demon000 (demonsingur@gmail.com)
+base: Simplify ambient light color mode settings [1/2] <2 days ago> [6823b94c039]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+base: Default custom ambient light color to accent [1/2] <2 days ago> [7fb494cc3a2]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+
+====================
+     08-12-2020
+====================
+
+[external/pulse]
+pulse: Support the new RGB accent picker <2 days ago> [4c86dfb]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 
 [scripts]
-scripts: aosp-merger: Make sure AOSP remote is valid <17 hours ago> [b45917a]
+scripts: updater: oops <4 days ago> [9dc9c10]
 by: Ido Ben-Hur (idoybh2@gmail.com)
-scripts: aosp-merger: Don't detach all heads <17 hours ago> [b4ff52f]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-scripts: aosp-merger: Manually merge build/make & manifest before sync <21 hours ago> [83a8ca1]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[device/xiaomi/davinci]
-davinci: Tune powerhint <2 weeks ago> [2ed6f88eb]
-by: Pig (pig.priv@gmail.com)
-davinci: gps: Lower gps debug level <6 years ago> [4b7019e75]
-by: Michael Bestas (mikeioannina@gmail.com)
-davinci: gps: Fix non-ASCII character in gps.conf <6 months ago> [5c8af1fe8]
-by: dianlujitao (dianlujitao@lineageos.org)
-davinci: Import GPS configs from MIUI V12.0.1.0.QFJMIXM <2 days ago> [eb0d12d0c]
-by: Arian (arian.kulmer@web.de)
-davinci: Build GNSS HAL <10 months ago> [d0a7f5799]
-by: dianlujitao (dianlujitao@lineageos.org)
-davinci: gps: Clean up <2 days ago> [a763b9328]
-by: Arian (arian.kulmer@web.de)
-davinci: gps: Import gnsspps from LA.UM.8.9.r1-03800-sm6150.0 <2 days ago> [5f4e1b1f2]
-by: Arian (arian.kulmer@web.de)
-davinci: gps: Import from LA.UM.8.9.r1-03800-sm6150.0 <2 days ago> [cf5ad12c1]
-by: Arian (arian.kulmer@web.de)
-davinci: Add xtra_root_cert for xtwifi-inet-agent <2 days ago> [742a0c28d]
-by: Arian (arian.kulmer@web.de)
-davinci: sepolicy: Address some denials <11 days ago> [a660cf374]
-by: DarkDampSquib (andrin.geiger1998@gmail.com)
-davinci: Copy common audio configs from the audio HAL <11 days ago> [715ea386b]
-by: DarkDampSquib (andrin.geiger1998@gmail.com)
-davinci: Enable fluence for audio/voice recording <9 weeks ago> [62fb91c6c]
-by: Adithya R (radithya2002@gmail.com)
-davinci: proprietary: Add aptX and aptX-HD audio blobs <10 weeks ago> [b8cc6e62b]
-by: AbhiShek Aggarwal (warabhishek@gmail.com)
-davinci: Add bluetooth system props <4 weeks ago> [d9ffc8558]
-by: DarkDampSquib (andrin.geiger1998@gmail.com)
-davinci: init: Set hardware sku to davinci * Only enable NFC for specific variants if the sku is set. <4 weeks ago> [c6613a413]
-by: PIPIPIG233666 (pig.priv@gmail.com)
-davinci: Add Dolby <5 weeks ago> [1167b5299]
-by: Sonal Singh (sonal.singh.19993@gmail.com)
-davinci: enable PSI monitor <8 months ago> [25cbdfde9]
-by: UtsavisGreat (utsavbalar1231@gmail.com)
-davinci: add lmkd options from coral <8 months ago> [579df54ea]
-by: UtsavisGreat (utsavbalar1231@gmail.com)
-davinci: Bump required fw to 12.0.1.0 <4 weeks ago> [0e25caf07]
-by: DarkDampSquib (andrin.geiger1998@gmail.com)
-davinci: Update OpenGL & Vulkan <4 weeks ago> [b79716686]
-by: DarkDampSquib (andrin.geiger1998@gmail.com)
-davinci: rootdir: allow all filesystems for USB-OTG <7 weeks ago> [84b74c8f1]
-by: SVB (shef@intech-stv.ru)
-davinci: update path defining rounded corners <3 months ago> [f65f95d8a]
-by: yankarinRG (yankarinrg@gmail.com)
-davinci: adjust window rounded corners <3 months ago> [ec8c56d56]
-by: yankarinRG (yankarinrg@gmail.com)
-davinci: add proper keyguard/statusbar configs for rounded corners <3 months ago> [290b2a0ee]
-by: yankarinRG (yankarinrg@gmail.com)
-davinci: props: enable zygote preforking <9 weeks ago> [64d903208]
-by: Nick C (ctwoon@suicide.today)
-davinci: prop: Force enable VoWiFi <3 months ago> [9515dd551]
-by: PainKiller3 (ninadpatil100@gmail.com)
-davinci: overlay: Ignore RSSNR signal level <1 year, 10 months ago> [cd8aa011d]
-by: Henrique Silva (jhenrique09.mcz@hotmail.com)
-davinci: overlay: Disable proximity usage during doze <9 weeks ago> [9ebebddc7]
-by: Demon000 (demonsingur@gmail.com)
-davinci: carrierconfig: Enable VoLTE and VoWiFi for all <10 weeks ago> [08c3097b5]
-by: RealSchnedi (schnedi3@gmail.com)
-davinci: carrierconfig: Disable HD logo <2 months ago> [d0a43fd02]
-by: Dyneteve (dyneteve@gmail.com)
-davinci: proprietary: Pin modified ims.apk <2 months ago> [2f0d0423d]
-by: RealSchnedi (schnedi3@gmail.com)
-davinci: Add PixelLiveWallpaper <2 months ago> [6ebc25da5]
-by: DarkDampSquib (andrin.geiger1998@gmail.com)
-davinci:  sepolicy: allow appdomain to get persist_camera_prop <3 months ago> [0cfb54bcc]
-by: LuK1337 (priv.luk@gmail.com)
-davinci: sepolicy: let MiuiCamera read FOD property <4 months ago> [e3ee5e9dd]
-by: Demon000 (demonsingur@gmail.com)
-davinci: sepolicy: Address more denials <3 months ago> [c336c9e68]
-by: DarkDampSquib (andrin.geiger1998@gmail.com)
-davinci: Add Hotword Enrollment support <1 year, 1 month ago> [369863876]
-by: Luca Stefani (luca.stefani.ge1@gmail.com)
-davinci: sepolicy address more denials <3 months ago> [fedf05b6b]
-by: DarkDampSquib (andrin.geiger1998@gmail.com)
-davinci: Add custom doze package <3 months ago> [230730e71]
-by: DarkDampSquib (andrin.geiger1998@gmail.com)
-davinci: sepolicy: Add libperfmgr rules <3 months ago> [b0333d5a9]
-by: DarkDampSquib (andrin.geiger1998@gmail.com)
-davinci: copy libOpenCL to system too <3 months ago> [53240d65e]
-by: DarkDampSquib (andrin.geiger1998@gmail.com)
-davinci: Set Statusbar padding to 12dp <8 months ago> [b9da54b73]
-by: DarkDampSquib (andrin.geiger1998@gmail.com)
-davinci : Enable support for pocket mode <6 months ago> [20164145c]
-by: Dominik Procházka (38187580+ProchyGaming@users.noreply.github.com)
-davinci: Unify back gesture vibratiuon with system wide haptics <5 months ago> [24afaea37]
-by: DarkDampSquib (andrin.geiger1998@gmail.com)
-davinci: Enable vibration multiple intensities <1 year, 6 months ago> [d5302ef30]
-by: Murat Kozan (muratkozan350@gmail.com)
-davinci: Set TG Group Link <6 months ago> [9c043143d]
-by: DarkDampSquib (andrin.geiger1998@gmail.com)
-davinci: Set Maintainer Overlay <6 months ago> [9dc2576df]
-by: DarkDampSquib (andrin.geiger1998@gmail.com)
-davinci: parts: Digital-style icon for FPSInfo QS Tile <5 months ago> [59aa455c5]
-by: Nauval Rizky (enuma.alrizky@gmail.com)
-davinci: parts: Add FPS overlay QS tile <6 months ago> [1bbc8063c]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-davinci: parts: adapt FPS Info based on exposed data from kernel <5 months ago> [487147287]
-by: Nauval Rizky (enuma.alrizky@gmail.com)
-davinci: parts: introduce FPS overlay <9 months ago> [f6c62ffe8]
-by: Marko Man (darkobas@gmail.com)
-davinci: parts: Follow Android 10 changes on switchbar <11 months ago> [4f891767b]
-by: jhenrique09 (jhenrique09.mcz@hotmail.com)
-davinci: powerhint: moorea settings <1 year, 4 months ago> [826404c60]
-by: Karthik Gopalan (gkarth@codeaurora.org)
-davinci: PowerHint: change foreground cpuset when app launch <1 year, 8 months ago> [29f350fb1]
-by: Rick Yiu (rickyiu@google.com)
-davinci: Fix QoS CPU DMA latency value <1 year, 3 months ago> [50c47cfc3]
-by: Artem Labazov (123321artyom@gmail.com)
-davinci: power-libperfmgr: add a NOT_INTERACTIVE hint for setInteractive <5 weeks ago> [84e4af6e1]
-by: Jesse Chan (jc@lineageos.org)
-davinci: power-libperfmgr: Add support for event-based tap to wake gesture control <1 year, 6 months ago> [651a051cf]
-by: AbhiShek Aggarwal (warabhishek@gmail.com)
-davinci: power-libperfmgr: add an updateHint function for simple hint ops <5 weeks ago> [431eed190]
-by: Jesse Chan (jc@lineageos.org)
-davinci: power-libperfmgr: declare override="true" in manifest <5 weeks ago> [b0748a9a9]
-by: Jesse Chan (jc@lineageos.org)
-davinci: power-libperfmgr: initialize powerHAL when boot is completed <5 weeks ago> [6dc622995]
-by: Jesse Chan (jc@lineageos.org)
-davinci: power-libperfmgr: remove Google-specific camera and audio hints <5 weeks ago> [37f5e3164]
-by: Jesse Chan (jc@lineageos.org)
-davinci: power-libperfmgr: remove Google-specific display LPM control <8 weeks ago> [580be60b9]
-by: Jesse Chan (jc@lineageos.org)
-davinci: power-libperfmgr: simply wait if idle state node is not present <8 weeks ago> [364e94dcc]
-by: Jesse Chan (jc@lineageos.org)
-davinci: power-libperfmgr: adapt and rebrand for xiaomi <8 weeks ago> [a16bbba02]
-by: Jesse Chan (jc@lineageos.org)
-davinci: import Pixel libperfmgr Power HAL <8 weeks ago> [a40401551]
-by: Jesse Chan (jc@lineageos.org)
-davinci: init: create camera-daemon stune cgroup <1 year ago> [f8fbe16d9]
-by: John Dias (joaodias@google.com)
-davinci: Allow network use for build process <7 months ago> [463bacf79]
-by: DarkDampSquib (andrin.geiger1998@gmail.com)
-davinci: Use proton clang <4 months ago> [29a769af4]
-by: DarkDampSquib (andrin.geiger1998@gmail.com)
-Revert "davinci: camera: Build camera provider" <3 months ago> [04c885760]
-by: DarkDampSquib (andrin.geiger1998@gmail.com)
-davinci: Include MiuiCamera <22 hours ago> [de83b42b8]
-by: DarkDampSquib (andrin.geiger1998@gmail.com)
-davinci: Is a phone <7 months ago> [61994561f]
-by: DarkDampSquib (andrin.geiger1998@gmail.com)
-davinci: Include GApps <6 months ago> [4a4e082b5]
-by: DarkDampSquib (andrin.geiger1998@gmail.com)
-davinci: Derp-ify <3 months ago> [e36a65442]
-by: DarkDampSquib (andrin.geiger1998@gmail.com)
-Revert "davinci: Switch to QTI bt stack" <4 weeks ago> [b65efc5e7]
-by: DarkDampSquib (andrin.geiger1998@gmail.com)
-Revert "davinci: overlay: Import Bluetooth overlay from LA.UM.8.9.r1-09200-SM6xx.0" <4 weeks ago> [e75cf5dd9]
-by: DarkDampSquib (andrin.geiger1998@gmail.com)
-Revert "davinci: overlay: Hide sRGB toggle in developer options" <4 weeks ago> [1923f3edb]
-by: DarkDampSquib (andrin.geiger1998@gmail.com)
-Revert "davinci: camera: Build Snap" <4 weeks ago> [34dc7eb2b]
-by: DarkDampSquib (andrin.geiger1998@gmail.com)
-Revert "davinci: Make fod color transparent and add custom icon" <4 weeks ago> [514773bbd]
-by: DarkDampSquib (andrin.geiger1998@gmail.com)
-Revert "davinci: Build livedisplay" <4 weeks ago> [b4abaca66]
-by: DarkDampSquib (andrin.geiger1998@gmail.com)
-Revert "davinci: Implement SunlightEnhancement LiveDisplay HAL" <4 weeks ago> [1ddabe3f9]
-by: DarkDampSquib (andrin.geiger1998@gmail.com)
-Revert "davinci: Build Trust HAL" <4 weeks ago> [282a83b53]
-by: DarkDampSquib (andrin.geiger1998@gmail.com)
-davinci: Import update-sha1sums.py from los <5 weeks ago> [1f1b1635a]
-by: dianlujitao (dianlujitao@lineageos.org)
-
-[kernel/xiaomi/davinci]
-defconfig: use 1000Hz timer <13 hours ago> [f51e2bd162cf]
-by: vantoman (Mustafa.vantom@gmail.com)
-defconfig: disable SECURITY_SMACK <13 hours ago> [ff5ddc6cf0a4]
-by: vantoman (Mustafa.vantom@gmail.com)
-sock: inline SELinux's sk_security to struct sock <8 weeks ago> [34e56d6e7c72]
-by: Park Ju Hyung (qkrwngud825@gmail.com)
-xattr: Avoid dynamically allocating memory in getxattr for small xattrs <5 months ago> [4e195343523a]
-by: Sultan Alsawaf (sultan@kerneltoast.com)
-defconfig: Disable stack frame size warning <1 year ago> [ea429d2f1b5a]
-by: Sultan Alsawaf (sultan@kerneltoast.com)
-drm/sde: use buffer from the stack space <5 months ago> [ee4d0b3a5536]
-by: Park Ju Hyung (qkrwngud825@gmail.com)
-ARM64: configs: davinci: Bump stack frame size warning threshold to 6 KiB <11 months ago> [ddb6ca8fbd28]
-by: Danny Lin (danny@kdrag0n.dev)
-ARM64: configs: davinci: disable profiling support <1 year, 4 months ago> [627f25cd0e69]
-by: Danny Lin (danny@kdrag0n.dev)
-android: binder_alloc: supress logging <4 months ago> [9820a07252cc]
-by: Yaroslav Furman (yaro330@gmail.com)
-qcom-rpmh-mailbox: silence, driver! <6 months ago> [5afda21fb70a]
-by: Yaroslav Furman (yaro330@gmail.com)
-ext4/super: silence annoying magisk related dmesg spam <5 months ago> [338cff8afb41]
-by: Yaroslav Furman (yaro330@gmail.com)
-kernel: silence suspends/resume logging <1 year, 1 month ago> [9409a50c3e57]
-by: Yaroslav Furman (yaro330@gmail.com)
-msm_vidc: silence video instance open/close spam <1 year, 2 months ago> [ffce88e6356e]
-by: Yaroslav Furman (yaro330@gmail.com)
-ANDROID: defconfig: Disable CONFIG_RT_GROUP_SCHED <6 months ago> [44840433e319]
-by: Suren Baghdasaryan (surenb@google.com)
-pinctrl: msm: Remove explicit barriers from mmio ops where unneeded <9 weeks ago> [f185b64292c5]
-by: Sultan Alsawaf (sultan@kerneltoast.com)
-ion: fix a mismatch of dma attr in free. <1 year, 3 months ago> [df0db33b8955]
-by: Wei Wang (wvw@google.com)
-defconfig: Disable Qualcomm's resume IRQ logging <10 weeks ago> [1ede19d1a802]
-by: idkwhoiam322 (idkwhoiam322@raphielgang.org)
-irqchip: gicv3: Allow CONFIG_QCOM_SHOW_RESUME_IRQ to be disabled <2 months ago> [72a15cadb36b]
-by: Danny Lin (danny@kdrag0n.dev)
-printk: Add sleep time offset to all timestamps <1 year, 4 months ago> [5ed6d396802f]
-by: Danny Lin (danny@kdrag0n.dev)
-fs: f2fs: enlarge min_fsync_blocks to 20 <4 months ago> [6b2963f96578]
-by: Jesse Chan (jc@linux.com)
-Merge tag 'LA.UM.8.1.r1-15600-sm8150.0' of https://source.codeaurora.org/quic/la/platform/vendor/opensource/audio-kernel into VantomKernel <14 hours ago> [126e8183c6ff]
-by: vantoman (Mustafa.vantom@gmail.com)
-Merge tag 'LA.UM.8.1.r1-15600-sm8150.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/qca-wifi-host-cmn into VantomKernel <22 hours ago> [91bff521538d]
-by: vantoman (Mustafa.vantom@gmail.com)
-Merge tag 'LA.UM.8.1.r1-15600-sm8150.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/fw-api into VantomKernel <22 hours ago> [77467d225931]
-by: vantoman (Mustafa.vantom@gmail.com)
-Merge tag 'LA.UM.8.1.r1-15600-sm8150.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/qcacld-3.0 into VantomKernel <22 hours ago> [32772f16c95d]
-by: vantoman (Mustafa.vantom@gmail.com)
-Merge tag 'LA.UM.8.1.r1-15600-sm8150.0' of https://source.codeaurora.org/quic/la/kernel/msm-4.14 into VantomKernel <22 hours ago> [16d4b7e46ee4]
-by: vantoman (Mustafa.vantom@gmail.com)
 
 [vendor/xiaomi/davinci]
-davinci: Build GPS hal <2 days ago> [2a9e019]
-by: Arian (arian.kulmer@web.de)
-
-[frameworks/base]
-DozeSensors: only use proximity sensor if supported <4 months ago> [af1d6739b44]
-by: Demon000 (demonsingur@gmail.com)
-base: StatusBar: Improve custom settings observer <16 hours ago> [0553caabffc]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/platform/frameworks/base into ten <21 hours ago> [a36ca80b795]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[vendor/miuicamera]
-Support cepheus, davinci and raphael <29 hours ago> [1ea07bb]
+davinci: Add Moto Dolby blobs * from lake 'QPW30.61-18' <4 months ago> [c2a44bb]
+by: trpsl (trpsl755@gmail.com)
+davinci: Update OpenGL & Vulkan <3 weeks ago> [4bc14b6]
+by: DarkDampSquib (andrin.geiger1998@gmail.com)
+davinci: Use modified ims.apk <3 months ago> [149857f]
+by: RealSchnedi (schnedi3@gmail.com)
+davinci: Sync with device tree <3 days ago> [e0c6361]
 by: DarkDampSquib (andrin.geiger1998@gmail.com)
 
 
 ====================
-     08-03-2020
+     08-11-2020
 ====================
 
 [manifest]
-manifest: Track Snap camera from AOSiP <2 days ago> [5268110]
-by: Murtaza@Piplod (murtaza1926@gmail.com)
+manifest: track PotatoPlugins from AOSiP <12 days ago> [461177a]
+by: Josh Fox (XlxFoXxlX) (joshfox87@gmail.com)
 
 [frameworks/base]
-FODCircleView: Let us call show() when mIsBouncer() && !isPinOrPattern() <3 months ago> [c8f7061aac0]
-by: LuK1337 (priv.luk@gmail.com)
-Camera: allow camera to use power key as shutter <8 years ago> [0e72c13d002]
-by: Danesh M (daneshm90@gmail.com)
+base: VolumePluginManager: Add default constructor <7 weeks ago> [438ab3ab752]
+by: Kshitij Gupta (kshitijgm@gmail.com)
+base: Allow using plugins even on production <9 weeks ago> [78d34738de7]
+by: HrX03 (dn.bianco03@gmail.com)
+base: Implement VolumePluginManager <7 weeks ago> [5dc84fc664a]
+by: HrX03 (dn.bianco03@gmail.com)
+
+[vendor/overlay]
+packages: include plugin package <7 weeks ago> [df4ec57]
+by: Kshitij Gupta (kshitijgm@gmail.com)
+
+[vendor/prebuilts]
+prebuilts: Update Lawnchair to version 2.1-2627 <4 days ago> [5b931d8]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[packages/apps/DerpQuest]
+DerpQuest: Make all accent color presets 8 char long <4 days ago> [f0514b2]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+DerpQuest: POSP Vol panel styles <7 weeks ago> [4885b31]
+by: Tejasvp25 (tejasvp25@gmail.com)
 
 [frameworks/base]
-FODCircleView: Let us call show() when mIsBouncer() && !isPinOrPattern() <3 months ago> [c8f7061aac0]
-by: LuK1337 (priv.luk@gmail.com)
-Camera: allow camera to use power key as shutter <8 years ago> [0e72c13d002]
-by: Danesh M (daneshm90@gmail.com)
+base: VolumePluginManager: Add default constructor <7 weeks ago> [438ab3ab752]
+by: Kshitij Gupta (kshitijgm@gmail.com)
+base: Allow using plugins even on production <9 weeks ago> [78d34738de7]
+by: HrX03 (dn.bianco03@gmail.com)
+base: Implement VolumePluginManager <7 weeks ago> [5dc84fc664a]
+by: HrX03 (dn.bianco03@gmail.com)
 
 
 ====================
-     08-02-2020
+     08-10-2020
 ====================
+
+[manifest]
+manifest: Track oss vibrator repos (#6) <4 days ago> [5b5b4f9]
+by: 4PERTURE (38117317+4PERTURE@users.noreply.github.com)
+
+[frameworks/base]
+base: Toast: Custom icon should not be static <5 days ago> [e0e6a6a4a39]
+by: Ido Ben-Hur (idoybh2@gmail.com)
 
 [packages/apps/Settings]
-Settings: Update Simplified Chinese translations <3 days ago> [907f35d11e]
-by: onlymash (im@fiepi.me)
+Settings: Screen off fod [2/2] <5 weeks ago> [e1d20ef6e0]
+by: TheScarastic (warabhishek@gmail.com)
+
+[device/xiaomi/davinci]
+davinci: fod: Change vendorCode for screen off FOD <5 weeks ago> [229471e62]
+by: TheScarastic (warabhishek@gmail.com)
 
 [kernel/xiaomi/davinci]
-Revert "PM / suspend: Default to suspend-to-idle instead of deep suspend" <2 days ago> [44baf64229de]
-by: vantoman (Mustafa.vantom@gmail.com)
+qcacmn: fix suspicious concatenation of string <5 days ago> [8b9d1486a021]
+by: DarkDampSquib (andrin.geiger1998@gmail.com)
+
+[frameworks/base]
+base: Toast: Custom icon should not be static <5 days ago> [e0e6a6a4a39]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+
+====================
+     08-09-2020
+====================
+
+[frameworks/base]
+Revert "Keyguard: Forward port lockscreen quick unlock (1/2)" <5 days ago> [e1319ba85a5]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[packages/apps/Settings]
+Revert "Keyguard: Forward port lockscreen quick unlock (2/2)" <5 days ago> [cc0c8c6e96]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+base: Move QS tile style to DerpQuest [1/2] <6 days ago> [37bd493560]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[vendor/aosip]
+qcom: Add atoll platform <3 months ago> [cc68d1bc]
+by: TheHitMan7 (krtik.vrma@gmail.com)
+BoardConfigQcom: Allow a device to opt-out hardset of PRODUCT_SOONG_NAMESPACES <3 months ago> [57bfab87]
+by: Andrew Hexen (SyberHexen@gmail.com)
+
+[packages/apps/DerpQuest]
+DerpQuest: Enforce QS tile tint for appropriate QS tile styles <6 days ago> [92972cd]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+DerpQuest: Move QS tile style to DerpQuest [2/2] <6 days ago> [b9ec8ac]
+by: Ido Ben-Hur (idoybh2@gmail.com)
 
 [prebuilts/clang/host/linux-x86/clang-proton]
-Update to 20200801 build <3 days ago> [45c59ca]
+Update to 20200808 build <6 days ago> [b0b32ba]
 by: Danny (danny@kdrag0n.dev)
 
-
-====================
-     08-01-2020
-====================
-
 [frameworks/base]
-FODCircleView: Show while bouncer is requesting Pattern or PIN <6 days ago> [2673811209d]
-by: TheScarastic (warabhishek@gmail.com)
-base: Allow setting PowerMenu background blur radius [2/2] <4 days ago> [4c95d476e85]
+Revert "Keyguard: Forward port lockscreen quick unlock (1/2)" <5 days ago> [e1319ba85a5]
 by: Ido Ben-Hur (idoybh2@gmail.com)
-base: Improve PowerMenu backround filter code <4 days ago> [cfb37d17200]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-base: Powermenu Background filter [1/2] <7 weeks ago> [d5305ff59df]
-by: AnkitGourav (Ankitgourav035@gmail.com)
 
-[vendor/overlay]
-overlay: Add Derp Clear Primary <6 days ago> [c5b2162]
-by: deadmanxxd (deadmanxxd@gmail.com)
 
-[packages/apps/DerpQuest]
-DerpQuest: Allow setting PowerMenu background blur radius [2/2] <4 days ago> [a12652a]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-DerpQuest: Convert PowerMenu background filters to be a master switch <4 days ago> [3e270e8]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-DerpQuest: Add powermenu Background Filters [2/2] <6 days ago> [f391bb4]
-by: Aston-Martinn (advaithbhat9@gmail.com)
+====================
+     08-08-2020
+====================
 
 [kernel/xiaomi/davinci]
-Merge branch 'kernel.lnx.4.14.r4-rel' of https://github.com/android-linux-stable/msm-4.14 into VantomKernel <4 days ago> [547c013d88f6]
+qcacld: fix suspicious concatenation of string <6 days ago> [e652e809c8d8]
 by: vantoman (Mustafa.vantom@gmail.com)
-qcacld-3.0: Free a bunch of pkts at once <4 months ago> [bbff728851c4]
-by: Julian Liu (wlootlxt123@gmail.com)
-kernel: Force sched_walt_rotate_big_tasks to 0 <2 weeks ago> [4183190b139d]
+binder: Compile out debugfs code <3 weeks ago> [be0af3985b89]
+by: dracarys18 (karthihegde010@gmail.com)
+binder: Import binder from 4.19 <3 weeks ago> [3b2e3c283091]
+by: dracarys18 (karthihegde010@gmail.com)
+defconfig: disable CONFIG_LOGO <6 days ago> [99c2ecb7bbdf]
+by: vantoman (Mustafa.vantom@gmail.com)
+defconfig: Disable debugfs <6 days ago> [2335de3f3ca7]
+by: vantoman (Mustafa.vantom@gmail.com)
+kmemleak: remove DEBUG_FS dependency <1 year, 1 month ago> [a2b1aadf52b9]
+by: Yaroslav Furman (yaro330@gmail.com)
+msm: clk: fix build errors with disabled debugfs <1 year, 2 months ago> [4dea4b79c1f2]
+by: Yaroslav Furman (yaro330@gmail.com)
+ufshcd: fix 'parameter name omitted' error <8 months ago> [9e4281b51a9a]
+by: Yaroslav Furman (yaro330@gmail.com)
+mhi_netdev: fix debug_fs related error <8 months ago> [1204180c61b7]
+by: Yaroslav Furman (yaro330@gmail.com)
+techpack: fix the rest of debug_fs related errors <8 months ago> [546768980da2]
+by: Yaroslav Furman (yaro330@gmail.com)
+msm: gsi: disable debug driver <8 months ago> [13cc47c4f8a6]
+by: Yaroslav Furman (yaro330@gmail.com)
+msm: tsens: fix broken loggers <1 year, 2 months ago> [9ec493c40184]
+by: Yaroslav Furman (yaro330@gmail.com)
+msm: ipa: enable debugfs usage <1 year, 2 months ago> [e90d911e3b85]
+by: Yaroslav Furman (yaro330@gmail.com)
+drm: sde: ifdef an unused function <1 year, 2 months ago> [a0d906023c32]
+by: Yaroslav Furman (yaro330@gmail.com)
+drm: dp: enable debugfs usage <1 year, 2 months ago> [5649718df3ca]
+by: Yaroslav Furman (yaro330@gmail.com)
+msm: qcedev: don't bail out if debugfs is disabled <1 year, 2 months ago> [7de666de1e3d]
+by: Yaroslav Furman (yaro330@gmail.com)
+drm/msm: Don't bail out when debugfs creation fails <1 year, 9 months ago> [630c334cac1d]
+by: Sultan Alsawaf (sultan@kerneltoast.com)
+drm/msm/dsi-staging: Don't bail out when debugfs creation fails <1 year, 9 months ago> [bc6cac1f1a9c]
+by: Sultan Alsawaf (sultan@kerneltoast.com)
+msm: crypto: fix compilation with debugfs disabled <1 year, 2 months ago> [ad47d54140d3]
+by: Yaroslav Furman (yaro330@gmail.com)
+techpack: fix compilation with debugfs disabled <1 year, 2 months ago> [3b56669c5174]
+by: Yaroslav Furman (yaro330@gmail.com)
+crypto: msm: Don't bail out when debugfs creation fails <1 year, 9 months ago> [f5cc741b20b7]
+by: Sultan Alsawaf (sultan@kerneltoast.com)
+wakeup: Enable debugfs usage <1 year, 9 months ago> [6d230f23e9b8]
+by: Sultan Alsawaf (sultan@kerneltoast.com)
+debugfs: Always compile core debugfs driver for Android kernels <1 year, 9 months ago> [1285fdc30cd3]
+by: Sultan Alsawaf (sultan@kerneltoast.com)
+msm: sps: Fix compile errors when debugfs is disabled <1 year, 9 months ago> [bbf3587b245e]
+by: Sultan Alsawaf (sultan@kerneltoast.com)
+msm: ipa3: Fix compile errors when debugfs is disabled <1 year, 9 months ago> [d86a68bc9bae]
+by: Sultan Alsawaf (sultan@kerneltoast.com)
+firmware: qcom: Remove debugfs dependency from tz-log driver <1 year, 9 months ago> [3b006a9fd17b]
+by: Sultan Alsawaf (sultan@kerneltoast.com)
+clk: Fix compile errors when debugfs is disabled <1 year, 9 months ago> [bf50f8a6cd50]
+by: Sultan Alsawaf (sultan@kerneltoast.com)
+msm: vidc: Fix broken debugfs creation error checks and error paths <1 year, 9 months ago> [e341f0a1505c]
+by: Sultan Alsawaf (sultan@kerneltoast.com)
+msm: sde: Fix compile errors when debugfs is disabled <1 year, 9 months ago> [7cd74bf5a640]
+by: Sultan Alsawaf (sultan@kerneltoast.com)
+msm: vidc: increase msm_vidc_hw_rsp_timeout to 1500 <1 year, 1 month ago> [486456475a20]
+by: Govindaraj Rajagopal (grajagop@codeaurora.org)
+PM / core: Add support to skip power management in device/driver model <1 year, 6 months ago> [c4dfa7edf517]
+by: Sudeep Holla (sudeep.holla@arm.com)
+seq_file: Introduce DEFINE_SHOW_ATTRIBUTE() helper macro <2 years, 7 months ago> [78dea5e869c5]
+by: Andy Shevchenko (andriy.shevchenko@linux.intel.com)
+mfd: ab8500: Introduce DEFINE_SHOW_ATTRIBUTE() macro <2 years, 8 months ago> [a0ccd9499ed8]
+by: Andy Shevchenko (andriy.shevchenko@linux.intel.com)
+Bluetooth: introduce DEFINE_SHOW_ATTRIBUTE() macro <2 years, 9 months ago> [397793d3987d]
+by: Andy Shevchenko (andriy.shevchenko@linux.intel.com)
+msm: kgsl: Make idle_timer read-only <3 weeks ago> [9474385a30e9]
 by: celtare21 (celtare21@gmail.com)
-sched: debug: enable debugfs <7 months ago> [fbf3ceace38c]
-by: YaroST12 (yaro330@gmail.com)
-Revert "sched: turn off the TTWU_QUEUE feature" <12 months ago> [dfa71cdd2608]
-by: idkwhoiam322 (idkwhoiam322@raphielgang.org)
-mm: Increase vmstat interval <1 year, 2 months ago> [4b3df346c9bb]
-by: Tyler Nijmeh (tylernij@gmail.com)
-Merge 4.14.191 into kernel.lnx.4.14.r4-rel <4 days ago> [148dae0c71a7]
+sched: Defend cfs and rt bandwidth quota against overflow <4 months ago> [790114eda15c]
+by: Huaixin Chang (changhuaixin@linux.alibaba.com)
+sched/fair: Replace zero-length array with flexible-array <3 months ago> [fead0512e36d]
+by: Gustavo A. R. Silva (gustavoars@kernel.org)
+Merge branch 'kernel.lnx.4.14.r4-rel' of https://github.com/android-linux-stable/msm-4.14 into VantomKernel <6 days ago> [b2560201991d]
+by: vantoman (Mustafa.vantom@gmail.com)
+Merge 4.14.193 into kernel.lnx.4.14.r4-rel <7 days ago> [b963ffed1d01]
 by: Nathan Chancellor (natechancellor@gmail.com)
-
-[frameworks/base]
-FODCircleView: Show while bouncer is requesting Pattern or PIN <6 days ago> [2673811209d]
-by: TheScarastic (warabhishek@gmail.com)
-base: Allow setting PowerMenu background blur radius [2/2] <4 days ago> [4c95d476e85]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-base: Improve PowerMenu backround filter code <4 days ago> [cfb37d17200]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-base: Powermenu Background filter [1/2] <7 weeks ago> [d5305ff59df]
-by: AnkitGourav (Ankitgourav035@gmail.com)
-
-
-====================
-     07-31-2020
-====================
-
-[frameworks/base]
-base: Add QS header styles [1/3] <6 days ago> [405fd498ee6]
-by: SKULSHADY (anushekprasal@gmail.com)
-
-[vendor/overlay]
-overlay: Add QS header styles [3/3] <1 year, 9 months ago> [f69f0bf]
-by: Anushek Prasal (anushekprasal@gmail.com)
-
-[packages/apps/DerpQuest]
-DerpQuest: Add QS header styles [2/3] <6 days ago> [e8daf60]
-by: SKULSHADY (anushekprasal@gmail.com)
-
-[kernel/xiaomi/davinci]
-Linux 4.14.191 <4 days ago> [7f2c5eb458b8]
-by: Greg Kroah-Hartman (gregkh@linuxfoundation.org)
-xfs: set format back to extents if xfs_bmap_extents_to_btree <2 years, 4 months ago> [8a443ffcf7b5]
-by: Eric Sandeen (sandeen@redhat.com)
-regmap: debugfs: check count when read regmap file <5 months ago> [1f850ba16f92]
-by: Peng Fan (peng.fan@nxp.com)
-mm/page_owner.c: remove drain_all_pages from init_early_allocated_pages <2 years, 7 months ago> [bbacb34b8440]
-by: Oscar Salvador (osalvador@techadventures.net)
-tcp: allow at most one TLP probe per flight <12 days ago> [e72a42b699ba]
-by: Yuchung Cheng (ycheng@google.com)
-rtnetlink: Fix memory(net_device) leak when ->newlink fails <3 weeks ago> [b1f58d61380a]
-by: Weilong Chen (chenweilong@huawei.com)
-ip6_gre: fix null-ptr-deref in ip6gre_init_net() <3 weeks ago> [d6b1ffe225b2]
-by: Wei Yongjun (weiyongjun1@huawei.com)
-AX.25: Prevent integer overflows in connect and sendmsg <12 days ago> [c1142de65e8f]
-by: Dan Carpenter (dan.carpenter@oracle.com)
-rxrpc: Fix sendmsg() returning EPIPE due to recvmsg() returning ENODATA <2 weeks ago> [88fb6b391369]
-by: David Howells (dhowells@redhat.com)
-net: udp: Fix wrong clean up for IS_UDPLITE macro <2 weeks ago> [cc1227c4ad82]
-by: Miaohe Lin (linmiaohe@huawei.com)
-net-sysfs: add a newline when printing 'tx_timeout' by sysfs <2 weeks ago> [f8607dcce059]
-by: Xiongfeng Wang (wangxiongfeng2@huawei.com)
-drivers/net/wan/x25_asy: Fix to make it work <3 weeks ago> [237070f593b2]
-by: Xie He (xie.he.0141@gmail.com)
-dev: Defer free of skbs in flush_backlog <12 days ago> [fbcdf3849aa1]
-by: Subash Abhinov Kasiviswanathan (subashab@codeaurora.org)
-AX.25: Prevent out-of-bounds read in ax25_sendmsg() <13 days ago> [1411bf6e5910]
-by: Peilin Ye (yepeilin.cs@gmail.com)
-AX.25: Fix out-of-bounds read in ax25_connect() <13 days ago> [253c17d93aba]
-by: Peilin Ye (yepeilin.cs@gmail.com)
-devfreq_boost: Don't boost on input events <4 days ago> [22cd558f6a64]
-by: idkwhoiam322 (idkwhoiam322@raphielgang.org)
-Reapply 73f29d2 ("cpufreq: schedutil: Ignore work_in_progress") <4 weeks ago> [0940607c9647]
-by: Vikram Mulukutla (markivx@codeaurora.org)
-[FIXUP]cpufreq: schedutil: Don't set next_freq to UINT_MAX <4 weeks ago> [ebe6879863ec]
-by: Viresh Kumar (viresh.kumar@linaro.org)
-cpufreq: schedutil: Avoid missing updates for one-CPU policies <2 years, 2 months ago> [44d79a5dca99]
-by: Rafael J. Wysocki (rafael.j.wysocki@intel.com)
-schedutil: Allow cpufreq requests to be made even when kthread kicked <4 weeks ago> [e558ee701269]
-by: Joel Fernandes (Google) (joel@joelfernandes.org)
-schedutil: revert 3ba6681f7d95a61c28fd78b9f1b103ca994af6ab <8 days ago> [0573597bc98a]
-by: Yaroslav Furman (yaro330@gmail.com)
-cpufreq: Avoid leaving stale IRQ work items during CPU offline <8 months ago> [deeeea168e28]
-by: Rafael J. Wysocki (rafael.j.wysocki@intel.com)
-cpufreq: schedutil: Queue sugov irq work on policy online cpu <12 months ago> [88f8d1a32683]
-by: Maria Yu (aiquny@codeaurora.org)
-sched/walt: Avoid walt irq work in offlined cpu <12 months ago> [65fc801a6a68]
-by: Maria Yu (aiquny@codeaurora.org)
-Revert "Perf: arm64: Add Snapshot of perf tracepoints" <8 months ago> [dfc1f0b8bd9d]
-by: celtare21 (celtare21@gmail.com)
-kernel: cpu: disallow taking down first cores of clusters <5 months ago> [e4b411c4e415]
-by: Yaroslav Furman (yaro330@gmail.com)
-exec: Add power@2.0 and IOP to tampering blacklist <10 months ago> [e1c97ad3c183]
-by: Panchajanya1999 (panchajanya@azure-dev.live)
-exec: Extend task_is_booster check to cover OxygenOS userspace HALs <8 months ago> [6020cf50bf37]
-by: Adam W. Willis (return.of.octobot@gmail.com)
-mbcache: Speed up cache entry creation <2 months ago> [25ddad9500fc]
-by: Sultan Alsawaf (sultan@kerneltoast.com)
-disp: msm: sde: prevent CPU from sleeping while processing display IRQ <8 weeks ago> [7a0d119f1b37]
-by: Yaroslav Furman (yaro330@gmail.com)
-kernel: Boost to the max for a short amount of time when zygote forks <1 year, 5 months ago> [fd05d6e00405]
-by: Sultan Alsawaf (sultan@kerneltoast.com)
-kernel: Boost whenever a zygote-forked process becomes a top app <1 year, 5 months ago> [e2ee9f10f531]
-by: Sultan Alsawaf (sultan@kerneltoast.com)
-fs: exec: Introduce is_zygote_pid() <8 months ago> [c6e31a75fd0d]
-by: Adam W. Willis (return.of.octobot@gmail.com)
-drm: msm: sde: Boost CPU and DDR when a new frame is ready to be committed <2 years, 1 month ago> [c8691e97a1b8]
-by: Francisco Franco (franciscofranco.1990@gmail.com)
-drm/atomic: Boost CPU and DDR when committing a new frame <1 year, 8 months ago> [17a3fd1621fd]
-by: Sultan Alsawaf (sultan@kerneltoast.com)
-drm/msm: Mark important kthreads as performance critical <1 year, 8 months ago> [bc207f33e857]
-by: Sultan Alsawaf (sultan@kerneltoast.com)
-drm: Mark IRQ as performance critical <1 year, 8 months ago> [d4ad1613eb59]
-by: Sultan Alsawaf (sultan@kerneltoast.com)
-defconfig: enable CIB <5 days ago> [e472d6128d1e]
-by: vantoman (Mustafa.vantom@gmail.com)
-msm: sps: Assign proper BAM destination values <5 weeks ago> [93ca81a03c5d]
-by: Ajay Prathi (aprathi@codeaurora.org)
-cpu_input_boost: disable EAS on app launch <6 months ago> [a2138d7e476a]
-by: idkwhoiam322 (idkwhoiam322@raphielgang.org)
-cpu_input_boost: disable input boost of duration==0 <7 months ago> [cf1997d8f812]
-by: Yaroslav Furman (yaro330@gmail.com)
-cpu_input_boost: add support for boost freqs lower than min freq <1 year, 2 months ago> [4a420c1696ac]
-by: Yaroslav Furman (yaro330@gmail.com)
-cpu_input_boost: Mark boost kthread as performance critical <1 year, 3 months ago> [51b542ab3d86]
-by: Sultan Alsawaf (sultan@kerneltoast.com)
-cpu_input_boost: Introduce driver for event-based CPU boosting <1 year, 3 months ago> [82f7f713d312]
-by: Sultan Alsawaf (sultan@kerneltoast.com)
-cpufreq: Only block min freq setting for booster processes <1 year ago> [1d03b13641b1]
-by: Danny Lin (danny@kdrag0n.dev)
-devfreq_boost: Update and expand to handle CPUBW/LLCCBW boosting <6 months ago> [4a64d16effd2]
-by: idkwhoiam322 (idkwhoiam322@raphielgang.org)
-mm: Boost when memory pressure becomes high <1 year, 4 months ago> [eb1d2a41f989]
-by: Sultan Alsawaf (sultan@kerneltoast.com)
-drm/atomic: boost DDR bus when committing a new frame <1 year, 2 months ago> [12e7f64d1d70]
-by: Yaroslav Furman (yaro330@gmail.com)
-defconfig: enable Devfreq Boost <9 months ago> [6dad5b6ccb4d]
-by: Mustafa (Mustafa.vantom@gmail.com)
-devfreq_boost: Mark boost kthreads as performance critical <8 months ago> [a301edb73f40]
-by: Sultan Alsawaf (sultan@kerneltoast.com)
-devbw: Correctly set DDR node <1 year ago> [a005f54446a8]
-by: Panchajanya1999 (rsk52959@gmail.com)
-devfreq_boost: convert to drm screen state notifier <1 year, 1 month ago> [7bfcb5421a91]
-by: Yaroslav Furman (yaro330@gmail.com)
-devfreq_boost: Introduce devfreq boost driver <1 year, 4 months ago> [8bf3a428874a]
-by: Sultan Alsawaf (sultan@kerneltoast.com)
-kernel: Add API to mark IRQs and kthreads as performance critical <1 year, 2 months ago> [e97e66189179]
-by: Sultan Alsawaf (sultan@kerneltoast.com)
-sched: use sysctl to control energy aware feature <10 months ago> [6b32283e9abd]
-by: Rick Yiu (rickyiu@google.com)
-Merge 4.14.190 into kernel.lnx.4.14.r4-rel <4 days ago> [bfc2ee542874]
-by: Nathan Chancellor (natechancellor@gmail.com)
-Merge 4.14.189 into kernel.lnx.4.14.r4-rel <4 days ago> [caadb4f10775]
-by: Nathan Chancellor (natechancellor@gmail.com)
-
-[frameworks/base]
-base: Add QS header styles [1/3] <6 days ago> [405fd498ee6]
-by: SKULSHADY (anushekprasal@gmail.com)
-
-
-====================
-     07-30-2020
-====================
-
-[packages/apps/DerpQuest]
-DerpQuest: Remove default summaries for master switches <6 days ago> [755d849]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[kernel/xiaomi/davinci]
-Revert "drm: msm: dsi-staging: implement doze mode" <6 days ago> [e877a752a5fb]
-by: SVB22 (shef@intech-stv.ru)
-
-
-====================
-     07-29-2020
-====================
-
-[frameworks/base]
-base: Separate vibrate drawable for vol panel from common icon <6 days ago> [fadb1f57b7c]
-by: Adhitya Mohan (me@adhityamohan.in)
-
-[packages/apps/DeskClock]
-DeskClock: Use system fonts <7 months ago> [dd2f16480]
-by: Pranav Vashi (neobuddy89@gmail.com)
-DeskClock: update adaptive icon <2 weeks ago> [e6bc26aba]
-by: Abdulwahab Isam (abdoi94.iq@gmail.com)
-
-[packages/apps/Dialer]
-Fix theme for PostCallActivity <7 months ago> [67c25093b]
-by: Sungjae (sung_jae.kim@samsung.com)
-
-[kernel/xiaomi/davinci]
-config: enable IP_NF_TARGET_TTL <6 days ago> [64932f0e0f35]
-by: SVB22 (shef@intech-stv.ru)
-defconfig: Regenerate <6 days ago> [fce63bd9e794]
+defconfig: Enable ION_POOL_AUTO_REFILL <7 days ago> [02e4a0598ff2]
 by: DarkDampSquib (andrin.geiger1998@gmail.com)
-fs: Drop fscrypt_sb_free() <9 months ago> [309ad459ca2c]
-by: celtare21 (celtare21@gmail.com)
-Revert "fs-verity: add Kconfig and the helper functions for hashing" <4 months ago> [fd2fcb9a6fc5]
-by: vantoman (Mustafa.vantom@gmail.com)
-Revert "fs-verity: add the hook for file ->open()" <4 months ago> [e9b9fbcc5b5d]
-by: vantoman (Mustafa.vantom@gmail.com)
-Revert "fs-verity: add the hook for file ->setattr()" <4 months ago> [cde126bc42b0]
-by: vantoman (Mustafa.vantom@gmail.com)
-Revert "fs-verity: add data verification hooks for ->readpages()" <4 months ago> [2d58028debba]
-by: vantoman (Mustafa.vantom@gmail.com)
-Revert "fs-verity: implement FS_IOC_ENABLE_VERITY ioctl" <4 months ago> [51df63f906a8]
-by: vantoman (Mustafa.vantom@gmail.com)
-Revert "fs-verity: implement FS_IOC_MEASURE_VERITY ioctl" <4 months ago> [b0f780a819e2]
-by: vantoman (Mustafa.vantom@gmail.com)
-Revert "fs-verity: add SHA-512 support" <4 months ago> [4fc8ac44de83]
-by: vantoman (Mustafa.vantom@gmail.com)
-Revert "fs-verity: support builtin file signatures" <4 months ago> [172d4666cad2]
-by: vantoman (Mustafa.vantom@gmail.com)
-Merge tag '5.6-rc1-4.14' of https://kernel.googlesource.com/pub/scm/linux/kernel/git/jaegeuk/f2fs-stable into VantomKernel <6 days ago> [2c5180f6b0c2]
-by: DarkDampSquib (andrin.geiger1998@gmail.com)
-f2fs: fix ICE support <7 months ago> [734c5a9bba20]
-by: Park Ju Hyung (qkrwngud825@gmail.com)
-f2fs: use a seperate mutex for setting wakelock <12 months ago> [4cff99bf9ce2]
-by: Park Ju Hyung (qkrwngud825@gmail.com)
-f2fs: trigger rapid GC only when screen state actually changes <12 months ago> [75327430a3a7]
-by: Park Ju Hyung (qkrwngud825@gmail.com)
-f2fs: unlock wakelock properly when f2fs_stop_rapid_gc() is called <12 months ago> [43e963c063fa]
-by: Park Ju Hyung (qkrwngud825@gmail.com)
-f2fs: catch a global wakelock instead of per gc_kthread <12 months ago> [6cb734bdad38]
-by: Park Ju Hyung (qkrwngud825@gmail.com)
-f2fs: improve naming schemes for rapid GC <12 months ago> [4485dc37747a]
-by: Park Ju Hyung (qkrwngud825@gmail.com)
-f2fs: mark gc_threads() functions as static <12 months ago> [221cd2cd17c7]
-by: Park Ju Hyung (qkrwngud825@gmail.com)
-f2fs: don't wait with each discards under gc_urgent <1 year, 3 months ago> [c430e72bacde]
-by: Park Ju Hyung (qkrwngud825@gmail.com)
-f2fs: use a more reasonable discard policy for high utilization <1 year, 3 months ago> [7d929cfb5bf7]
-by: Park Ju Hyung (qkrwngud825@gmail.com)
-f2fs: reduce timeout for uncongestion on f2fs_write_cache_pages() <1 year, 3 months ago> [c9b84ab5082d]
-by: Park Ju Hyung (qkrwngud825@gmail.com)
-f2fs: rename /sys/fs/f2fs <1 year, 4 months ago> [74871fac5758]
-by: Park Ju Hyung (qkrwngud825@gmail.com)
-f2fs: do not expose tunables that doesn't work with rapid GC <1 year, 4 months ago> [b1868bf82b36]
-by: Park Ju Hyung (qkrwngud825@gmail.com)
-f2fs: drop caches upon rapid GC exit <1 year, 4 months ago> [86d7e7669436]
-by: Park Ju Hyung (qkrwngud825@gmail.com)
-f2fs: explicitly flush device upon foreground GC <1 year, 4 months ago> [711767acfb9b]
-by: Park Ju Hyung (qkrwngud825@gmail.com)
-f2fs/rapid_gc: Clean up return codes <1 year, 4 months ago> [9ae5b82b018a]
-by: Artem Labazov (123321artyom@gmail.com)
-f2fs/rapid_gc: do not wait until all invalid blocks are discarded <1 year, 6 months ago> [ef2df9f45c4d]
-by: Park Ju Hyung (qkrwngud825@gmail.com)
-f2fs: switch FB notifier API to MSM DRM notifier <1 year, 7 months ago> [3e7f1ce5b409]
-by: Park Ju Hyung (qkrwngud825@gmail.com)
-f2fs: convert wakelock APIs to wakeup_source <1 year, 7 months ago> [4f84c0afeff5]
-by: Park Ju Hyung (qkrwngud825@gmail.com)
-f2fs: implement rapid GC for Android <1 year, 7 months ago> [1f2f99c396cb]
-by: Park Ju Hyung (qkrwngud825@gmail.com)
-f2fs: set ioprio of GC kthread to idle <2 years, 10 months ago> [5cb26a8e784e]
-by: Park Ju Hyung (qkrwngud825@gmail.com)
-f2fs: Fix data corruption issue with FBE <8 months ago> [d95736267c4a]
-by: Sahitya Tummala (stummala@codeaurora.org)
-defconfig: enable CONFIG_UNICODE <8 months ago> [7115421f9c6f]
-by: Park Ju Hyung (qkrwngud825@gmail.com)
-Merge tag '5.5-rc1-4.14' of https://kernel.googlesource.com/pub/scm/linux/kernel/git/jaegeuk/f2fs-stable into VantomKernel <6 days ago> [e32e88801174]
-by: DarkDampSquib (andrin.geiger1998@gmail.com)
-Merge tag '5.4-rc1-4.14' of https://kernel.googlesource.com/pub/scm/linux/kernel/git/jaegeuk/f2fs-stable into VantomKernel <6 days ago> [5cf202d033fa]
-by: DarkDampSquib (andrin.geiger1998@gmail.com)
-Merge tag '5.3-rc1-4.14' of https://kernel.googlesource.com/pub/scm/linux/kernel/git/jaegeuk/f2fs-stable into VantomKernel <6 days ago> [e6dfbbb6c466]
-by: DarkDampSquib (andrin.geiger1998@gmail.com)
-Revert "ext4: Allocate allocation-context on the stack" <5 months ago> [e95a02cf84ce]
-by: vantoman (Mustafa.vantom@gmail.com)
-ext4: remove additional tracings added by CAF <10 months ago> [cb83d35955ff]
-by: Park Ju Hyung (qkrwngud825@gmail.com)
-time: move frequently used functions to headers and declare them inline <2 years, 9 months ago> [fd1dd5c63620]
-by: Park Ju Hyung (qkrwngud825@gmail.com)
-fs: crypto: Fix compilation issue <1 year, 11 months ago> [a8fb3a173470]
-by: Sahitya Tummala (stummala@codeaurora.org)
-fscrypt: remove filesystem specific build config option <1 year, 8 months ago> [bcd8dc7e2441]
-by: Chandan Rajendra (chandan@linux.vnet.ibm.com)
-f2fs: use IS_ENCRYPTED() to check encryption status <1 year, 8 months ago> [6341758cc84a]
-by: Chandan Rajendra (chandan@linux.vnet.ibm.com)
-ext4: use IS_ENCRYPTED() to check encryption status <1 year, 8 months ago> [f9ecdfc5924c]
-by: Chandan Rajendra (chandan@linux.vnet.ibm.com)
-fscrypt: remove CRYPTO_CTR dependency <1 year, 11 months ago> [561d9647846c]
-by: Eric Biggers (ebiggers@google.com)
-fscrypt: return -EXDEV for incompatible rename or link into encrypted dir <1 year, 6 months ago> [16390129f319]
-by: Eric Biggers (ebiggers@google.com)
-fs: remove remaining android_fs tracings <10 months ago> [94d07cf76211]
-by: Park Ju Hyung (qkrwngud825@gmail.com)
-f2fs: remove additional tracings added by CAF <1 year, 1 month ago> [823c2b020a4c]
-by: Park Ju Hyung (qkrwngud825@gmail.com)
-block: fix wrong dun size when merging IOs <1 year, 1 month ago> [1c55ef4ebab7]
-by: Jaegeuk Kim (jaegeuk@google.com)
-drm/msm: minimize qos remap updates <6 days ago> [9b2257fc01e9]
-by: adriansm (adriansm@gmail.com)
-Revert "kernel: time: Add delay after cpu_relax() in tight loops" <6 days ago> [76c8b292fe6a]
-by: vantoman (Mustafa.vantom@gmail.com)
-Revert "msm: kgsl: Relax adreno spin idle tight loop" <6 days ago> [c01f6bb0a54d]
-by: vantoman (Mustafa.vantom@gmail.com)
-Merge branch 'android-4.14-p' of https://android.googlesource.com/kernel/common into VantomKernel <6 days ago> [5c0d096c4c7f]
-by: vantoman (Mustafa.vantom@gmail.com)
-sched: use rq_clock if WALT is not enabled <6 months ago> [d8c9449935da]
-by: Santosh Mardi (gsantosh@codeaurora.org)
-defconfig: Enable SCHEDUTIL_(UP|DOWN)_RATE_LIMIT <9 months ago> [014de9d5be7d]
-by: 0ctobot (return.of.octobot@gmail.com)
-cpufreq: schedutil: Expose default configuration options and apply init protection <8 months ago> [67f4ae525577]
+ion: system_heap: fix a constant-conversion warning <3 weeks ago> [7d681e3f5943]
 by: Yaroslav Furman (yaro330@gmail.com)
-cpufreq_schedutil: remove tracing <5 months ago> [6edc4c3a91db]
-by: Yaroslav Furman (yaro330@gmail.com)
-cpufreq: schedutil: remove tracing from sugov_update_commit <1 year, 2 months ago> [f3e1a8f20805]
-by: Yaroslav Furman (yaro330@gmail.com)
-Merge 4.14.190 into android-4.14-p <6 days ago> [6335af9b87ba]
-by: Greg Kroah-Hartman (gregkh@google.com)
-Linux 4.14.190 <6 days ago> [e5a54aa2d312]
-by: Greg Kroah-Hartman (gregkh@linuxfoundation.org)
-ath9k: Fix regression with Atheros 9271 <4 weeks ago> [d560e7b5e990]
-by: Mark O'Donovan (shiftee@posteo.net)
-ath9k: Fix general protection fault in ath9k_hif_usb_rx_cb <4 months ago> [ecb8ccca5631]
-by: Qiujun Huang (hqjagain@gmail.com)
-parisc: Add atomic64_set_release() define to avoid CPU soft lockups <2 weeks ago> [438d96367d03]
-by: John David Anglin (dave.anglin@bell.net)
-io-mapping: indicate mapping failure <12 days ago> [01f2b73e0da2]
-by: Michael J. Ruhl (michael.j.ruhl@intel.com)
-mm/memcg: fix refcount error while moving and swapping <12 days ago> [a0c487460ce9]
-by: Hugh Dickins (hughd@google.com)
-Makefile: Fix GCC_TOOLCHAIN_DIR prefix for Clang cross compilation <2 weeks ago> [71749b1181ec]
-by: Fangrui Song (maskray@google.com)
-vt: Reject zero-sized screen buffer size. <3 weeks ago> [7cecdf9655ef]
-by: Tetsuo Handa (penguin-kernel@I-love.SAKURA.ne.jp)
-fbdev: Detect integer underflow at "struct fbcon_ops"->clear_margins. <3 weeks ago> [c388072f90cc]
-by: Tetsuo Handa (penguin-kernel@I-love.SAKURA.ne.jp)
-serial: 8250_mtk: Fix high-speed baud rates clamping <3 weeks ago> [ead742adb019]
-by: Serge Semin (Sergey.Semin@baikalelectronics.ru)
-serial: 8250: fix null-ptr-deref in serial8250_start_tx() <2 weeks ago> [c5760ab7aae0]
-by: Yang Yingliang (yangyingliang@huawei.com)
-staging: comedi: addi_apci_1564: check INSN_CONFIG_DIGITAL_TRIG shift <3 weeks ago> [46308fd32f23]
-by: Ian Abbott (abbotti@mev.co.uk)
-staging: comedi: addi_apci_1500: check INSN_CONFIG_DIGITAL_TRIG shift <3 weeks ago> [1eddbd3d59f3]
-by: Ian Abbott (abbotti@mev.co.uk)
-staging: comedi: ni_6527: fix INSN_CONFIG_DIGITAL_TRIG support <3 weeks ago> [7358de4aa593]
-by: Ian Abbott (abbotti@mev.co.uk)
-staging: comedi: addi_apci_1032: check INSN_CONFIG_DIGITAL_TRIG shift <3 weeks ago> [b567ecda4b76]
-by: Ian Abbott (abbotti@mev.co.uk)
-staging: wlan-ng: properly check endpoint types <13 days ago> [27e29448bde6]
-by: Rustam Kovhaev (rkovhaev@gmail.com)
-Revert "cifs: Fix the target file was deleted when rename failed." <12 days ago> [a9fb0709c26b]
-by: Steve French (stfrench@microsoft.com)
-usb: xhci: Fix ASM2142/ASM3142 DMA addressing <3 weeks ago> [70db3c5ec288]
-by: Forest Crossman (cyrozap@gmail.com)
-usb: xhci-mtk: fix the failure of bandwidth allocation <4 weeks ago> [ec9b26263032]
-by: Chunfeng Yun (chunfeng.yun@mediatek.com)
-binder: Don't use mmput() from shrinker function. <3 weeks ago> [d5a5f0e7b39d]
-by: Tetsuo Handa (penguin-kernel@i-love.sakura.ne.jp)
-x86: math-emu: Fix up 'cmp' insn for clang ias <10 weeks ago> [ae3f1e02c9ed]
-by: Arnd Bergmann (arnd@arndb.de)
-arm64: Use test_tsk_thread_flag() for checking TIF_SINGLESTEP <6 months ago> [887e50646547]
-by: Will Deacon (will@kernel.org)
-usb: gadget: udc: gr_udc: fix memleak on error handling path in gr_ep_init() <6 weeks ago> [028792885d6d]
-by: Evgeny Novikov (novikov@ispras.ru)
-Input: synaptics - enable InterTouch for ThinkPad X1E 1st gen <4 weeks ago> [95a3bd3f0aa7]
-by: Ilya Katsnelson (me@0upti.me)
-dmaengine: ioat setting ioat timeout as module parameter <5 weeks ago> [89ee7f7dab15]
-by: Leonid Ravich (Leonid.Ravich@emc.com)
-hwmon: (aspeed-pwm-tacho) Avoid possible buffer overflow <5 weeks ago> [a8626d1e4b1a]
-by: Evgeny Novikov (novikov@ispras.ru)
-regmap: dev_get_regmap_match(): fix string comparison <5 weeks ago> [bfdfb71f92a9]
-by: Marc Kleine-Budde (mkl@pengutronix.de)
-spi: mediatek: use correct SPI_CFG2_REG MACRO <5 weeks ago> [153b6cb86880]
-by: leilk.liu (leilk.liu@mediatek.com)
-Input: add `SW_MACHINE_COVER` <5 weeks ago> [d8b49f70fffa]
-by: Merlijn Wajer (merlijn@wizzup.org)
-dmaengine: tegra210-adma: Fix runtime PM imbalance on error <6 weeks ago> [7db83a5c004b]
-by: Dinghao Liu (dinghao.liu@zju.edu.cn)
-HID: apple: Disable Fn-key key-re-mapping on clone keyboards <6 weeks ago> [5a8f385e1d06]
-by: Hans de Goede (hdegoede@redhat.com)
-HID: i2c-hid: add Mediacom FlexBook edge13 to descriptor override <7 weeks ago> [9861c68e9bcf]
-by: Federico Ricchiuto (fed.ricchiuto@gmail.com)
-scripts/decode_stacktrace: strip basepath from all paths <12 days ago> [0280a1eb2308]
-by: Pi-Hsun Shih (pihsun@chromium.org)
-serial: exar: Fix GPIO configuration for Sealevel cards based on XR17V35X <13 days ago> [7b8d75ae4de2]
-by: Matthew Howell (matthew.howell@sealevel.com)
-bonding: check return value of register_netdevice() in bond_newlink() <13 days ago> [96b61dc0ce81]
-by: Cong Wang (xiyou.wangcong@gmail.com)
-i2c: rcar: always clear ICSAR to avoid side effects <4 weeks ago> [a48f663be2cd]
-by: Wolfram Sang (wsa+renesas@sang-engineering.com)
-ipvs: fix the connection sync failed in some cases <3 weeks ago> [eaca5d0e2899]
-by: guodeqing (geffrey.guo@huawei.com)
-mlxsw: destroy workqueue when trap_register in mlxsw_emad_init <2 weeks ago> [e5c48bab95b4]
-by: Liu Jian (liujian56@huawei.com)
-bonding: check error value of register_netdevice() immediately <2 weeks ago> [5ef388cb6d27]
-by: Taehee Yoo (ap420073@gmail.com)
-net: smc91x: Fix possible memory leak in smc_drv_probe() <3 weeks ago> [3db647de26b5]
-by: Wang Hai (wanghai38@huawei.com)
-drm: sun4i: hdmi: Fix inverted HPD result <4 weeks ago> [07d7e2b80454]
-by: Chen-Yu Tsai (wens@csie.org)
-net: dp83640: fix SIOCSHWTSTAMP to update the struct with actual configuration <3 weeks ago> [60c0b838244d]
-by: Sergey Organov (sorganov@gmail.com)
-ax88172a: fix ax88172a_unbind() failures <3 weeks ago> [26bcc076586d]
-by: George Kennedy (george.kennedy@oracle.com)
-hippi: Fix a size used in a 'pci_free_consistent()' in an error handling path <3 weeks ago> [9b7fcd3c368d]
-by: Christophe JAILLET (christophe.jaillet@wanadoo.fr)
-bnxt_en: Fix race when modifying pause settings. <3 weeks ago> [562c9d04e545]
-by: Vasundhara Volam (vasundhara-v.volam@broadcom.com)
-btrfs: fix page leaks after failure to lock page for delalloc <2 weeks ago> [bb8911560bc8]
-by: Robbie Ko (robbieko@synology.com)
-btrfs: fix mount failure caused by race with umount <3 weeks ago> [a6979ac2c3f7]
-by: Boris Burkov (boris@bur.io)
-btrfs: fix double free on ulist after backref resolution failure <3 weeks ago> [168e8bb88940]
-by: Filipe Manana (fdmanana@suse.com)
-ASoC: rt5670: Correct RT5670_LDO_SEL_MASK <5 weeks ago> [ac7fac2f5ec5]
-by: Hans de Goede (hdegoede@redhat.com)
-ALSA: info: Drop WARN_ON() from buffer NULL sanity check <3 weeks ago> [ac27bfe94f53]
-by: Takashi Iwai (tiwai@suse.de)
-uprobes: Change handle_swbp() to send SIGTRAP with si_code=SI_KERNEL, to fix GDB regression <12 days ago> [ac76becc7532]
-by: Oleg Nesterov (oleg@redhat.com)
-IB/umem: fix reference count leak in ib_umem_odp_get() <3 weeks ago> [2c12c0ac37b4]
-by: Yang Yingliang (yangyingliang@huawei.com)
-spi: spi-fsl-dspi: Exit the ISR with IRQ_NONE when it's not ours <12 months ago> [2631d1bd9656]
-by: Vladimir Oltean (olteanv@gmail.com)
-SUNRPC reverting d03727b248d0 ("NFSv4 fix CLOSE not waiting for direct IO compeletion") <3 weeks ago> [930aee1d1b9f]
-by: Olga Kornievskaia (kolga@netapp.com)
-irqdomain/treewide: Keep firmware node unconditionally allocated <4 weeks ago> [03992c88d71b]
-by: Thomas Gleixner (tglx@linutronix.de)
-drm/nouveau/i2c/g94-: increase NV_PMGR_DP_AUXCTL_TRANSACTREQ timeout <6 weeks ago> [08f7ddd309d0]
-by: Ben Skeggs (bskeggs@redhat.com)
-net: sky2: initialize return of gm_phy_read <5 weeks ago> [a488a80a07a8]
-by: Tom Rix (trix@redhat.com)
-drivers/net/wan/lapbether: Fixed the value of hard_header_len <4 weeks ago> [2ba6bea9138a]
-by: Xie He (xie.he.0141@gmail.com)
-xtensa: update *pos in cpuinfo_op.next <5 weeks ago> [237c7a7d9470]
-by: Max Filippov (jcmvbkbc@gmail.com)
-xtensa: fix __sync_fetch_and_{and,or}_4 declarations <9 weeks ago> [b41b6d12ec00]
-by: Max Filippov (jcmvbkbc@gmail.com)
-scsi: scsi_transport_spi: Fix function pointer check <5 weeks ago> [860b4485caf3]
-by: Tom Rix (trix@redhat.com)
-mac80211: allow rx of mesh eapol frames with default rx key <6 weeks ago> [9255e73a4d37]
-by: Markus Theil (markus.theil@tu-ilmenau.de)
-pinctrl: amd: fix npins for uart0 in kerncz_groups <7 weeks ago> [5f7fb223d77f]
-by: Jacky Hu (hengqing.hu@gmail.com)
-gpio: arizona: put pm_runtime in case of failure <9 weeks ago> [9f86ae2ac860]
-by: Navid Emamdoost (navid.emamdoost@gmail.com)
-gpio: arizona: handle pm_runtime_get_sync failure case <9 weeks ago> [e9103bb424ad]
-by: Navid Emamdoost (navid.emamdoost@gmail.com)
-arm64: vdso32: Fix '--prefix=' value for newer versions of clang <13 days ago> [fdb7d0ca2259]
-by: Nathan Chancellor (natechancellor@gmail.com)
-defconfig: disable cpu_boost and msm_performance <13 days ago> [08f4c3280813]
-by: vantoman (Mustafa.vantom@gmail.com)
-cgroups: Replace synchronize_sched() with synchronize_rcu() <1 year, 9 months ago> [b166d150d2e3]
-by: Paul E. McKenney (paulmck@linux.ibm.com)
-events: Replace synchronize_sched() with synchronize_rcu() <1 year, 9 months ago> [3f80601c7550]
-by: Paul E. McKenney (paulmck@linux.ibm.com)
-slab: Replace synchronize_sched() with synchronize_rcu() <1 year, 9 months ago> [ca3b5bc49320]
-by: Paul E. McKenney (paulmck@linux.ibm.com)
-mm: fix race between kmem_cache destroy, create and deactivate <2 years, 2 months ago> [5a84d88e5c25]
-by: Shakeel Butt (shakeelb@google.com)
-fs/file: Replace synchronize_sched() with synchronize_rcu() <1 year, 9 months ago> [28dae13f661a]
-by: Paul E. McKenney (paulmck@linux.ibm.com)
-kprobes: Replace synchronize_sched() with synchronize_rcu() <1 year, 9 months ago> [dfbd26283781]
-by: Paul E. McKenney (paulmck@linux.ibm.com)
-lockdep: Replace synchronize_sched() with synchronize_rcu() <1 year, 9 months ago> [9af878d2763a]
-by: Paul E. McKenney (paulmck@linux.ibm.com)
-percpu-rwsem: Replace synchronize_sched() with synchronize_rcu() <1 year, 9 months ago> [a0335e287b57]
-by: Paul E. McKenney (paulmck@linux.ibm.com)
-tools/kernel.h: Replace synchronize_sched() with synchronize_rcu() <1 year, 9 months ago> [23d0137b49ea]
-by: Paul E. McKenney (paulmck@linux.ibm.com)
-cpufreq/cpufreq_governor: Replace synchronize_sched() with synchronize_rcu() <1 year, 9 months ago> [8e9622e8c25b]
-by: Paul E. McKenney (paulmck@linux.ibm.com)
-livepatch: Replace synchronize_sched() with synchronize_rcu() <1 year, 9 months ago> [177743d216b3]
-by: Paul E. McKenney (paulmck@linux.ibm.com)
-rcutorture/formal: Replace synchronize_sched() with synchronize_rcu() <1 year, 9 months ago> [506f28a281df]
-by: Paul E. McKenney (paulmck@linux.ibm.com)
-tracing: Replace synchronize_sched() and call_rcu_sched() <1 year, 9 months ago> [b05173c6ad1f]
-by: Paul E. McKenney (paulmck@linux.ibm.com)
-modules: Replace synchronize_sched() and call_rcu_sched() <1 year, 9 months ago> [f7e7b6e65914]
-by: Paul E. McKenney (paulmck@linux.ibm.com)
-net/sched: Replace call_rcu_bh() and rcu_barrier_bh() <1 year, 9 months ago> [cf07a8a62e6a]
-by: Paul E. McKenney (paulmck@linux.ibm.com)
-percpu-refcount: Replace call_rcu_sched() with call_rcu() <1 year, 9 months ago> [033026cc4bac]
-by: Paul E. McKenney (paulmck@linux.ibm.com)
-workqueue: Replace call_rcu_sched() with call_rcu() <1 year, 9 months ago> [2edb0352c1d2]
-by: Paul E. McKenney (paulmck@linux.ibm.com)
-sched/core: Fix preempt warning in ttwu <1 year, 1 month ago> [d7710ec47c27]
-by: Peter Zijlstra (peterz@infradead.org)
-sched/core: Optimize try_to_wake_up() for local wakeups <1 year, 2 months ago> [58f8220ba2f9]
-by: Peter Zijlstra (peterz@infradead.org)
-sched/topology: Skip duplicate group rewrites in build_sched_groups() <1 year, 4 months ago> [5c4d9650bc99]
-by: Valentin Schneider (valentin.schneider@arm.com)
-sched: Replace synchronize_sched() with synchronize_rcu() <1 year, 9 months ago> [150b5322dcee]
-by: Paul E. McKenney (paulmck@linux.ibm.com)
-sched: Replace call_rcu_sched() with call_rcu() <1 year, 9 months ago> [5fd7ec65dcee]
-by: Paul E. McKenney (paulmck@linux.ibm.com)
-sched/wake_q: Add branch prediction hint to wake_q_add() cmpxchg <1 year, 8 months ago> [662a6a7f427f]
-by: Davidlohr Bueso (dave@stgolabs.net)
-sched/membarrier: Replace synchronize_sched() with synchronize_rcu() <2 years, 1 month ago> [9b9630cbd970]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-sched/fair: Fix load_balance redo for !imbalance <1 year, 11 months ago> [d3057218fdba]
-by: Vincent Guittot (vincent.guittot@linaro.org)
-netfilter: conntrack: silent a memory leak warning <2 years, 4 months ago> [516a12002a61]
-by: Cong Wang (xiyou.wangcong@gmail.com)
-net: qualcomm: rmnet: Fix incorrect allocation flag in receive path <1 year, 10 months ago> [9eab54f828fb]
-by: Subash Abhinov Kasiviswanathan (subashab@codeaurora.org)
-rcu: Remove !PREEMPT code from rcu_note_voluntary_context_switch() <2 years, 1 month ago> [f1e27b416815]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-timers: Add a function to start/reduce a timer <2 years, 9 months ago> [0194c8e42ad0]
-by: David Howells (dhowells@redhat.com)
-timer: Convert schedule_timeout() to use from_timer() <2 years, 10 months ago> [dcc65cf09b82]
-by: Kees Cook (keescook@chromium.org)
-rcu: Clean up flavor-related definitions and comments in rcupdate.h <2 years, 1 month ago> [0ed4443a83b6]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcutorture: Fix expected forward progress duration in OOM notifier <1 year, 5 months ago> [342e6515c1c8]
-by: Neeraj Upadhyay (neeraju@codeaurora.org)
-rcutorture: Remove ->ext_irq_conflict field <1 year, 5 months ago> [037105710007]
-by: Paul E. McKenney (paulmck@linux.ibm.com)
-rcutorture: Make rcutorture_extend_mask() comment match the code <1 year, 5 months ago> [f7107d348bca]
-by: Paul E. McKenney (paulmck@linux.ibm.com)
-rcu: Fix nohz status in stall warning <1 year, 5 months ago> [009b44f4bfd6]
-by: Neeraj Upadhyay (neeraju@codeaurora.org)
-rcu: Move forward-progress checkers into tree_stall.h <1 year, 7 months ago> [4b70df3387eb]
-by: Paul E. McKenney (paulmck@linux.ibm.com)
-rcu: Move irq-disabled stall-warning checking to tree_stall.h <1 year, 7 months ago> [7bd54ea79fa2]
-by: Paul E. McKenney (paulmck@linux.ibm.com)
-rcu: Organize functions in tree_stall.h <1 year, 7 months ago> [44de71eec0cb]
-by: Paul E. McKenney (paulmck@linux.ibm.com)
-rcu: Move FAST_NO_HZ stall-warning code to tree_stall.h <1 year, 7 months ago> [2aa61e399f6b]
-by: Paul E. McKenney (paulmck@linux.ibm.com)
-rcu: Inline RCU stall-warning info helper functions <1 year, 7 months ago> [35cd9ca777bf]
-by: Paul E. McKenney (paulmck@linux.ibm.com)
-rcu: Move rcu_print_task_exp_stall() to tree_exp.h <1 year, 7 months ago> [268ab7142b94]
-by: Paul E. McKenney (paulmck@linux.ibm.com)
-rcu: Inline RCU task stall-warning helper functions <1 year, 7 months ago> [622a72401316]
-by: Paul E. McKenney (paulmck@linux.ibm.com)
-rcu: Move RCU CPU stall-warning code out of tree.c <1 year, 7 months ago> [c9ff4a2afb66]
-by: Paul E. McKenney (paulmck@linux.ibm.com)
-rcu: Move RCU CPU stall-warning code out of tree_plugin.h <1 year, 7 months ago> [c4ca454d43db]
-by: Paul E. McKenney (paulmck@linux.ibm.com)
-rcu: Move RCU CPU stall-warning code out of update.c <1 year, 7 months ago> [12f1b4cdbb33]
-by: Paul E. McKenney (paulmck@linux.ibm.com)
-srcu: Remove cleanup_srcu_struct_quiesced() <1 year, 6 months ago> [989a1632189a]
-by: Paul E. McKenney (paulmck@linux.ibm.com)
-srcu: Check for in-flight callbacks in _cleanup_srcu_struct() <1 year, 6 months ago> [41fb410f691e]
-by: Paul E. McKenney (paulmck@linux.ibm.com)
-rcu: Correct READ_ONCE()/WRITE_ONCE() for ->rcu_read_unlock_special <1 year, 4 months ago> [7e29c46e4de0]
-by: Paul E. McKenney (paulmck@linux.ibm.com)
-rcu: Fix typo in tree_exp.h comment <1 year, 4 months ago> [96b402f7d535]
-by: Paul E. McKenney (paulmck@linux.ibm.com)
-rcu: Eliminate redundant NULL-pointer check <1 year, 5 months ago> [53d21e2fa192]
-by: Paul E. McKenney (paulmck@linux.ibm.com)
-rcu: Fix force_qs_rnp() header comment <1 year, 5 months ago> [557fa589b6b0]
-by: Zhouyi Zhou (zhouzhouyi@gmail.com)
-rcu: Update jiffies_to_sched_qs and adjust_jiffies_till_sched_qs() comments <1 year, 5 months ago> [0936f6130037]
-by: Paul E. McKenney (paulmck@linux.ibm.com)
-rcu: Default jiffies_to_sched_qs to jiffies_till_sched_qs <1 year, 5 months ago> [1c3b1e9d7ded]
-by: Neeraj Upadhyay (neeraju@codeaurora.org)
-rcu: Fix self-wakeups for grace-period kthread <1 year, 5 months ago> [bdd9f505f215]
-by: Neeraj Upadhyay (neeraju@codeaurora.org)
-rcu: Report error for bad rcu_nocbs= parameter values <1 year, 5 months ago> [15a01b47bac0]
-by: Paul E. McKenney (paulmck@linux.ibm.com)
-rcu: Allow rcu_nocbs= to specify all CPUs <1 year, 5 months ago> [512ee81411b5]
-by: Paul E. McKenney (paulmck@linux.ibm.com)
-rcu: Move common code out of if-else block <1 year, 5 months ago> [eb316b76017e]
-by: Akira Yokosawa (akiyks@gmail.com)
-rcu: Set rcutree.kthread_prio sysfs access to read-only <1 year, 5 months ago> [3b34f628b25f]
-by: Liu Song (fishland@aliyun.com)
-rcu: Make exit_rcu() handle non-preempted RCU readers <1 year, 6 months ago> [ce9d7cdea75c]
-by: Paul E. McKenney (paulmck@linux.ibm.com)
-rcu: rcu_qs -- Use raise_softirq_irqoff to not save irqs twice <1 year, 6 months ago> [44a3e9a79610]
-by: Cyrill Gorcunov (gorcunov@gmail.com)
-rcu: Avoid unnecessary softirq when system is idle <1 year, 7 months ago> [0860de83cfaf]
-by: Joel Fernandes (Google) (joel@joelfernandes.org)
-rcu: Unconditionally expedite during suspend/hibernate <1 year, 7 months ago> [cc67579ad478]
-by: Paul E. McKenney (paulmck@linux.ibm.com)
-rcuperf: Stop abusing IS_ENABLED() <1 year, 7 months ago> [a47a6738f30e]
-by: Paul E. McKenney (paulmck@linux.ibm.com)
-rcutorture: Add grace period after CPU offline <1 year, 8 months ago> [7c899a99358e]
-by: Paul E. McKenney (paulmck@linux.ibm.com)
-rcutorture: Record grace periods in forward-progress histogram <1 year, 7 months ago> [c434e1959522]
-by: Paul E. McKenney (paulmck@linux.ibm.com)
-srcu: Remove srcu_queue_delayed_work_on() <1 year, 8 months ago> [287d55e87d11]
-by: Sebastian Andrzej Siewior (bigeasy@linutronix.de)
-rcu: Fix obsolete DYNTICK_IRQ_NONIDLE comment <1 year, 8 months ago> [0536720d6391]
-by: Paul E. McKenney (paulmck@linux.ibm.com)
-rcu: Repair rcu_nmi_exit() docbook header <1 year, 8 months ago> [7745dc934c0c]
-by: Paul E. McKenney (paulmck@linux.ibm.com)
-rcu: Remove preemption disabling from expedited CPU selection <1 year, 8 months ago> [ad7f18faa6f3]
-by: Paul E. McKenney (paulmck@linux.ibm.com)
-rcu: Rename rcu_process_callbacks() to rcu_core() for Tree RCU <1 year, 8 months ago> [b7623fdcfcaa]
-by: Paul E. McKenney (paulmck@linux.ibm.com)
-rcu: Rename rcu_check_callbacks() to rcu_sched_clock_irq() <1 year, 8 months ago> [2c42be749e94]
-by: Paul E. McKenney (paulmck@linux.ibm.com)
-rcu: Prevent needless ->gp_seq_needed update in __note_gp_changes() <1 year, 8 months ago> [4e8fa66fe1e6]
-by: Zhang, Jun (jun.zhang@intel.com)
-rcu: Do RCU GP kthread self-wakeup from softirq and interrupt <1 year, 8 months ago> [6ccdf3a920ec]
-by: Zhang, Jun (jun.zhang@intel.com)
-rcu: Add sysrq rcu_node-dump capability <1 year, 8 months ago> [292fcf6c8af6]
-by: Paul E. McKenney (paulmck@linux.ibm.com)
-rcu: Protect rcu_check_gp_kthread_starvation() access to ->gp_flags <1 year, 8 months ago> [258da71ee907]
-by: Paul E. McKenney (paulmck@linux.ibm.com)
-rcu: Improve diagnostics for failed RCU grace-period start <1 year, 8 months ago> [ab19a5a4b5f6]
-by: Paul E. McKenney (paulmck@linux.ibm.com)
-rcu: Update NOCB comments <1 year, 8 months ago> [9b53cab36d5a]
-by: Paul E. McKenney (paulmck@linux.ibm.com)
-rcu: Remove unused rcu_cpu_kthread_cpu per-CPU variable <1 year, 8 months ago> [4488e0abcc86]
-by: Paul E. McKenney (paulmck@linux.ibm.com)
-rcu: Move rcu_cpu_has_work to rcu_data structure <1 year, 8 months ago> [09a0cfd9f9b1]
-by: Paul E. McKenney (paulmck@linux.ibm.com)
-rcu: Remove unused rcu_cpu_kthread_loops per-CPU variable <1 year, 8 months ago> [0208dd781d24]
-by: Paul E. McKenney (paulmck@linux.ibm.com)
-rcu: Move rcu_cpu_kthread_status to rcu_data structure <1 year, 8 months ago> [79ee805afc49]
-by: Paul E. McKenney (paulmck@linux.ibm.com)
-rcu: Move rcu_cpu_kthread_task to rcu_data structure <1 year, 8 months ago> [b88daf1fbdc4]
-by: Paul E. McKenney (paulmck@linux.ibm.com)
-rcu: Accommodate zero jiffies_till_first_fqs and kthread kicking <1 year, 8 months ago> [cdfc3a6f5701]
-by: Paul E. McKenney (paulmck@linux.ibm.com)
-rcu: Discard separate per-CPU callback counts <1 year, 8 months ago> [f07c156197a6]
-by: Paul E. McKenney (paulmck@linux.ibm.com)
-rcu: Inline _synchronize_rcu_expedited() into synchronize_rcu_expedited() <1 year, 8 months ago> [42a9a4d785f8]
-by: Paul E. McKenney (paulmck@linux.ibm.com)
-rcu: Consolidate PREEMPT and !PREEMPT synchronize_rcu() <1 year, 8 months ago> [23f80fb5d874]
-by: Paul E. McKenney (paulmck@linux.ibm.com)
-rcu: Consolidate PREEMPT and !PREEMPT synchronize_rcu_expedited() <1 year, 8 months ago> [b4461d5c442b]
-by: Paul E. McKenney (paulmck@linux.ibm.com)
-rcu: Determine expedited-GP IPI handler at build time <1 year, 8 months ago> [67e4b48b4b5f]
-by: Paul E. McKenney (paulmck@linux.ibm.com)
-rcu: Inline rcu_kthread_do_work() into its sole remaining caller <1 year, 8 months ago> [66020bd158d0]
-by: Paul E. McKenney (paulmck@linux.ibm.com)
-rcu: Eliminate RCU_BH_FLAVOR and RCU_SCHED_FLAVOR <1 year, 8 months ago> [73e957896a68]
-by: Paul E. McKenney (paulmck@linux.ibm.com)
-rcu: Inline force_quiescent_state() into rcu_force_quiescent_state() <1 year, 8 months ago> [73d33e560442]
-by: Paul E. McKenney (paulmck@linux.ibm.com)
-rcu: Make expedited IPI handler return after handling critical section <1 year, 8 months ago> [4661cca99ff5]
-by: Paul E. McKenney (paulmck@linux.ibm.com)
-rcu: Rename and comment changes due to only one rcuo kthread per CPU <1 year, 8 months ago> [fe5a950f0d92]
-by: Paul E. McKenney (paulmck@linux.ibm.com)
-rcutorture: Don't do busted forward-progress testing <1 year, 10 months ago> [abef14f1357d]
-by: Paul E. McKenney (paulmck@linux.ibm.com)
-rcutorture: Use 100ms buckets for forward-progress callback histograms <1 year, 10 months ago> [d28b18d61d9f]
-by: Paul E. McKenney (paulmck@linux.ibm.com)
-rcutorture: Recover from OOM during forward-progress tests <1 year, 10 months ago> [01eb495f5f1e]
-by: Paul E. McKenney (paulmck@linux.ibm.com)
-rcutorture: Print forward-progress test age upon failure <1 year, 10 months ago> [e654e440335d]
-by: Paul E. McKenney (paulmck@linux.ibm.com)
-rcutorture: Print time since GP end upon forward-progress failure <1 year, 10 months ago> [4f0e09054f13]
-by: Paul E. McKenney (paulmck@linux.ibm.com)
-rcutorture: Print histogram of CB invocation at OOM time <1 year, 10 months ago> [b38e1325d6df]
-by: Paul E. McKenney (paulmck@linux.ibm.com)
-rcutorture: Print GP age upon forward-progress failure <1 year, 10 months ago> [f56da16b4512]
-by: Paul E. McKenney (paulmck@linux.ibm.com)
-rcu: Print per-CPU callback counts for forward-progress failures <1 year, 10 months ago> [5a07cfe9a144]
-by: Paul E. McKenney (paulmck@linux.ibm.com)
-rcu: Account for nocb-CPU callback counts in RCU CPU stall warnings <1 year, 10 months ago> [1229053c5f0c]
-by: Paul E. McKenney (paulmck@linux.ibm.com)
-rcutorture: Dump grace-period diagnostics upon forward-progress OOM <1 year, 10 months ago> [c1d86b236bf2]
-by: Paul E. McKenney (paulmck@linux.ibm.com)
-rcutorture: Prepare for asynchronous access to rcu_fwd_startat <1 year, 10 months ago> [3239c9f14412]
-by: Paul E. McKenney (paulmck@linux.ibm.com)
-rcutorture: Affinity forward-progress test to avoid housekeeping CPUs <1 year, 10 months ago> [b57bf134e145]
-by: Paul E. McKenney (paulmck@linux.ibm.com)
-rcutorture: Break up too-long rcu_torture_fwd_prog() function <1 year, 11 months ago> [d035138d583e]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcutorture: Remove cbflood facility <1 year, 11 months ago> [f1dfe5d45f32]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcutorture: Add call_rcu() flooding forward-progress tests <2 years ago> [c0f8ada9c672]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-srcu: Use "ssp" instead of "sp" for srcu_struct pointer <1 year, 9 months ago> [d7a70ad935d2]
-by: Paul E. McKenney (paulmck@linux.ibm.com)
-srcu: Add notrace variants of srcu_read_{lock,unlock} <2 years, 1 month ago> [69182d6ca77d]
-by: Paul McKenney (paulmck@linux.vnet.ibm.com)
-srcu: Fix kernel-doc missing notation <1 year, 11 months ago> [e3673ad88a77]
-by: Randy Dunlap (rdunlap@infradead.org)
-srcu: Add notrace variant of srcu_dereference <2 years, 1 month ago> [127ba5dd0228]
-by: Joel Fernandes (Google) (joel@joelfernandes.org)
-lockdep: Convert some users to const <2 years, 7 months ago> [6294931498b7]
-by: Matthew Wilcox (mawilcox@microsoft.com)
-rcu: Avoid signed integer overflow in rcu_preempt_deferred_qs() <1 year, 9 months ago> [fdd99710ed42]
-by: Paul E. McKenney (paulmck@linux.ibm.com)
-rcu: Replace this_cpu_ptr() with __this_cpu_read() <1 year, 9 months ago> [30a2761dceb7]
-by: Paul E. McKenney (paulmck@linux.ibm.com)
-rcu: Speed up expedited GPs when interrupting RCU reader <1 year, 10 months ago> [35f546d140bd]
-by: Paul E. McKenney (paulmck@linux.ibm.com)
-rcu: Trace end of grace period before end of grace period <1 year, 10 months ago> [f1397b7a3abc]
-by: Paul E. McKenney (paulmck@linux.ibm.com)
-rcu: Adjust the comment of function rcu_is_watching <1 year, 10 months ago> [389150bdfda4]
-by: Zhouyi Zhou (zhouzhouyi@gmail.com)
-rcu: Add jiffies-since-GP-activity to show_rcu_gp_kthreads() <1 year, 10 months ago> [a6dc94daff91]
-by: Paul E. McKenney (paulmck@linux.ibm.com)
-rcu: Add state name to show_rcu_gp_kthreads() output <1 year, 10 months ago> [155d451d73dc]
-by: Paul E. McKenney (paulmck@linux.ibm.com)
-rcu: Parameterize rcu_check_gp_start_stall() <1 year, 10 months ago> [0a5603fd76c7]
-by: Paul E. McKenney (paulmck@linux.ibm.com)
-rcu: Avoid double multiply by HZ <1 year, 10 months ago> [4562af9c2440]
-by: Paul E. McKenney (paulmck@linux.ibm.com)
-rcu: Eliminate BUG_ON() for kernel/rcu/update.c <1 year, 9 months ago> [4db0a702c529]
-by: Paul E. McKenney (paulmck@linux.ibm.com)
-rcu: Eliminate BUG_ON() for kernel/rcu/tree_plugin.h <1 year, 9 months ago> [56e6a50424b7]
-by: Paul E. McKenney (paulmck@linux.ibm.com)
-rcu: Stop expedited grace periods from relying on stop-machine <1 year, 11 months ago> [6f72e2033c12]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-srcu: Prevent __call_srcu() counter wrap with read-side critical section <2 years, 3 months ago> [ce36efd0a43e]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Consolidate the RCU update functions invoked by sync.c <2 years, 1 month ago> [41b619c4b86c]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Eliminate synchronize_rcu_mult() <2 years, 1 month ago> [89e8df03c10f]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-Revert "sched/core: Improve CPU hotplug latency for rcu_expedited=1 case" <7 months ago> [4f336abf4e73]
-by: celtare21 (celtare21@gmail.com)
-rcu: Fix rcu_{node,data} comments about gp_seq_needed <1 year, 10 months ago> [1404d35c6bfb]
-by: Joel Fernandes (Google) (joel@joelfernandes.org)
-rcu: Remove unused rcu_state externs <1 year, 10 months ago> [27af404bb39a]
-by: Joel Fernandes (Google) (joel@joelfernandes.org)
-rcu: Eliminate BUG_ON() for kernel/rcu/tree.c <1 year, 9 months ago> [8976dd97be04]
-by: Paul E. McKenney (paulmck@linux.ibm.com)
-rcu: Eliminate BUG_ON() for sync.c <1 year, 9 months ago> [77ac49e75d91]
-by: Paul E. McKenney (paulmck@linux.ibm.com)
-srcu: Make early-boot call_srcu() reuse workqueue lists <2 years ago> [37be03477dbb]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-srcu: Make call_srcu() available during very early boot <2 years ago> [47f49c646cec]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-kernel/SRCU: provide a static initializer <2 years, 2 months ago> [eb62a2129089]
-by: Sebastian Andrzej Siewior (bigeasy@linutronix.de)
-rcu: Convert rcu_state.ofl_lock to raw_spinlock_t <2 years ago> [d7e94d6d9911]
-by: Mike Galbraith (efault@gmx.de)
-rcu: Remove obsolete ->dynticks_fqs and ->cond_resched_completed <2 years ago> [a1c48d1d1632]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Switch ->dynticks to rcu_data structure, remove rcu_dynticks <2 years ago> [dfdc4ac2e402]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Switch dyntick nesting counters to rcu_data structure <2 years ago> [3bf29014ccb0]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Switch urgent quiescent-state requests to rcu_data structure <2 years ago> [6771f1a78d24]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Switch lazy counts to rcu_data structure <2 years ago> [e6dbbd8d215c]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Switch last accelerate/advance to rcu_data structure <2 years ago> [9aeb5998b366]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Switch ->tick_nohz_enabled_snap to rcu_data structure <2 years ago> [cf061d40123f]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Merge rcu_dynticks structure into rcu_data structure <2 years ago> [426ebaf99a13]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Convert "1UL << x" to "BIT(x)" <2 years ago> [7238a0e15d7a]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Avoid resched_cpu() when rescheduling the current CPU <2 years ago> [dce673df7af4]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: More aggressively enlist scheduler aid for nohz_full CPUs <2 years ago> [9543f7429f07]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Compute jiffies_till_sched_qs from other kernel parameters <2 years ago> [3dc2724671e3]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Provide functions for determining if call_rcu() has been invoked <2 years ago> [ab0a8c9284ae]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Eliminate ->rcu_qs_ctr from the rcu_dynticks structure <2 years, 1 month ago> [0b47a1073d0e]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Motivate Tiny RCU forward progress <2 years, 1 month ago> [3106ffbdf120]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcutorture: Dump reader protection sequence if failures or close calls <2 years, 1 month ago> [0997eb4b8bdf]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Provide improved interrupt-from-idle check in rcu_check_callbacks() <2 years, 1 month ago> [effbac4ce453]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Make need_resched() respond to urgent RCU-QS needs <2 years, 1 month ago> [958d1411d30e]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Inline _rcu_barrier() into its sole remaining caller <2 years, 1 month ago> [bffec1c26b65]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Define rcu_all_qs() only in !PREEMPT builds <2 years, 1 month ago> [2f7f603993dc]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Clean up flavor-related definitions and comments in update.c <2 years, 1 month ago> [efc917e969bb]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Clean up flavor-related definitions and comments in tree_plugin.h <2 years, 1 month ago> [523a959c695f]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Clean up flavor-related definitions and comments in tree_exp.h <2 years, 1 month ago> [370555e664f6]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Clean up flavor-related definitions and comments in tree.c <2 years, 1 month ago> [905f953a9d22]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Clean up flavor-related definitions and comments in tiny.c <2 years, 1 month ago> [31ee7f86feb3]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Clean up flavor-related definitions and comments in srcutree.h <2 years, 1 month ago> [3f73cfd2c6c7]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Clean up flavor-related definitions and comments in rcutorture.c <2 years, 1 month ago> [13b33f2690c6]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Clean up flavor-related definitions and comments in rcu.h <2 years, 1 month ago> [84550ecaf671]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Clean up flavor-related definitions and comments in Kconfig <2 years, 1 month ago> [4bc8e5bbd98c]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Remove now-unused rcutorture APIs <2 years, 1 month ago> [d745a70e03c2]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcuperf: Remove the "rcu_bh" and "sched" torture types <2 years, 1 month ago> [c66ea754064d]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcutorture: Remove the "rcu_bh" and "sched" torture types <2 years, 1 month ago> [f1d76ce2df60]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Stop testing RCU-bh and RCU-sched <2 years, 1 month ago> [f72c7acdd5a6]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcutorture: Add RCU-bh and RCU-sched support for extended readers <2 years, 1 month ago> [bf5c5af5ab4c]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Consolidate RCU-sched update-side function definitions <2 years, 1 month ago> [09d651197be8]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Consolidate RCU-bh update-side function definitions <2 years, 1 month ago> [fa05e2097279]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Pull rcu_gp_kthread() FQS loop into separate function <2 years, 1 month ago> [d6e552ffe278]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Inline increment_cpu_stall_ticks() into its sole caller <2 years, 1 month ago> [9ee09e718d29]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Fix typo in force_qs_rnp()'s parameter's parameter <2 years, 1 month ago> [860612f970e1]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Eliminate initialization-time use of rsp <2 years, 1 month ago> [e5e494ff944a]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Eliminate RCU-barrier use of rsp <2 years, 1 month ago> [75e822897ffd]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Eliminate quiescent-state and grace-period-nonstart use of rsp <2 years, 1 month ago> [688fd99e2beb]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Eliminate callback-invocation/invocation use of rsp <2 years, 1 month ago> [38e47ecb349f]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Eliminate grace-period management code use of rsp <2 years, 1 month ago> [223beb084f57]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Eliminate stall-warning use of rsp <2 years, 1 month ago> [07be3e1f326f]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Restructure rcu_check_gp_kthread_starvation() <2 years, 1 month ago> [6bdb99cb1ab3]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Simplify rcutorture_get_gp_data() <2 years, 1 month ago> [cface0853f7f]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Remove for_each_rcu_flavor() flavor-traversal macro <2 years, 1 month ago> [9bbcc3631c6d]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Remove last non-flavor-traversal rsp local variable from tree_plugin.h <2 years, 1 month ago> [944f8fdc78b2]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Remove rcu_data structure's ->rsp field <2 years, 1 month ago> [32c78845d5a8]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Remove rsp parameter from rcu_node tree accessor macros <2 years, 1 month ago> [d622279b97e3]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Remove rsp parameter from expedited grace-period functions <2 years, 1 month ago> [2489972356f9]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Remove rsp parameter from no-CBs CPU functions <2 years, 1 month ago> [61ab2b06adc8]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Remove rsp parameter from print_cpu_stall_info() <2 years, 1 month ago> [055d5118bbd2]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Remove rsp parameter from rcu_spawn_one_boost_kthread() <2 years, 1 month ago> [b23cd7886757]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Remove rsp parameter from dump_blkd_tasks() and friend <2 years, 1 month ago> [140c79ec7038]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Remove rsp parameter from rcu_print_detail_task_stall() <2 years, 1 month ago> [93b10268829b]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Remove rsp parameter from rcu_init_one() and friends <2 years, 1 month ago> [06dd0ff33119]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Remove rsp parameter from rcu_boot_init_percpu_data() and friends <2 years, 1 month ago> [e461755c4ddd]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Remove rsp parameter from _rcu_barrier() and friends <2 years, 1 month ago> [1da950986ab3]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Remove rsp parameter from __rcu_pending() <2 years, 1 month ago> [5964fc208846]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Remove rsp parameter from __call_rcu() and friend <2 years, 1 month ago> [517f6d5ad8a4]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Remove rsp parameter from __rcu_process_callbacks() <2 years, 1 month ago> [1805f82d4436]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Remove rsp parameter from rcu_check_gp_start_stall() <2 years, 1 month ago> [161fe855f6a1]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Remove rsp parameter from force-quiescent-state functions <2 years, 1 month ago> [4df28f625af4]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Remove rsp parameter from rcu_do_batch() <2 years, 1 month ago> [a198b7239769]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Remove rsp parameter from CPU hotplug functions <2 years, 1 month ago> [328a977b961e]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Remove rsp parameter from rcu_check_quiescent_state() <2 years, 1 month ago> [d00d6017de71]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Remove rsp parameter from rcu_gp_kthread() and friends <2 years, 1 month ago> [7596b1d5417f]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Remove rsp parameter from rcu_gp_slow() <2 years, 1 month ago> [9034b840e080]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Remove rsp parameter from note_gp_changes() <2 years, 1 month ago> [d474e8dfa857]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Remove rsp parameter from __note_gp_changes() <2 years, 1 month ago> [67a459800a62]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Remove rsp parameter from rcu_advance_cbs() <2 years, 1 month ago> [951c8c38965a]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Remove rsp parameter from rcu_accelerate_cbs() <2 years, 1 month ago> [157a67b147b3]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Remove rsp parameter from rcu_accelerate_cbs_unlocked() <2 years, 1 month ago> [083fa6acff43]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Remove rsp parameter from rcu_gp_kthread_wake() <2 years, 1 month ago> [fc689c99836a]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Remove rsp parameter from rcu_future_gp_cleanup() <2 years, 1 month ago> [f1b12fc1a18a]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Remove rsp parameter from check_cpu_stall() <2 years, 1 month ago> [c5d7396dbca4]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Remove rsp parameter from print_cpu_stall() <2 years, 1 month ago> [6b573bcac733]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Remove rsp parameter from print_other_cpu_stall() <2 years, 1 month ago> [38677489bbaf]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Remove rsp parameter from rcu_stall_kick_kthreads() <2 years, 1 month ago> [0f065a6ea90c]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Remove rsp parameter from rcu_dump_cpu_stacks() <2 years, 1 month ago> [72d7cb480fa5]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Remove rsp parameter from rcu_check_gp_kthread_starvation() <2 years, 1 month ago> [2d38aed79bf2]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Remove rsp parameter from record_gp_stall_check_time() <2 years, 1 month ago> [973809b30e83]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Remove rsp parameter from rcu_get_root() <2 years, 1 month ago> [16b94bb4b21e]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Remove rsp parameter from rcu_gp_in_progress() <2 years, 1 month ago> [360987f7c9cb]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Remove rsp parameter from rcu_report_qs_rdp() <2 years, 1 month ago> [2515c699be78]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Remove rsp parameter from rcu_report_unblock_qs_rnp() <2 years, 1 month ago> [38594ad68393]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Remove rsp parameter from rcu_report_qs_rsp() <2 years, 1 month ago> [235c1531835a]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Remove rsp parameter from rcu_report_qs_rnp() <2 years, 1 month ago> [a8cbff157c27]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Remove rcu_data_p pointer to default rcu_data structure <2 years, 1 month ago> [e3ab2b3f8863]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Remove rcu_state_p pointer to default rcu_state structure <2 years, 1 month ago> [296628cda6f4]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Remove rcu_state structure's ->rda field <2 years, 1 month ago> [45120f302c66]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Eliminate rcu_state structure's ->call field <2 years, 1 month ago> [b452bde6a97d]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Remove RCU_STATE_INITIALIZER() <2 years, 1 month ago> [2802af83a145]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Express Tiny RCU updates in terms of RCU rather than RCU-sched <2 years, 1 month ago> [426881ca3adc]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Define RCU-sched API in terms of RCU for Tree RCU PREEMPT builds <2 years, 1 month ago> [d1a745840d47]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-Revert "rcu: Make need_resched() respond to urgent RCU-QS needs" <7 months ago> [ab8b54bc4419]
-by: celtare21 (celtare21@gmail.com)
-rcu: Fix typo in rcu_get_gp_kthreads_prio() header comment <2 years, 1 month ago> [9fc8717b720d]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Drop "wake" parameter from rcu_report_exp_rdp() <2 years, 1 month ago> [68fd33207e70]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Update comments and help text for no more RCU-bh updaters <2 years, 1 month ago> [f430917cb27e]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Define RCU-bh update API in terms of RCU <2 years, 1 month ago> [ddc38e8caaa7]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Report expedited grace periods at context-switch time <2 years, 1 month ago> [0d989e4efec3]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Apply RCU-bh QSes to RCU-sched and RCU-preempt when safe <2 years, 1 month ago> [11d4cacb07b0]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Add warning to detect half-interrupts <2 years, 1 month ago> [6769f5ab7fbe]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Remove now-unused ->b.exp_need_qs field from the rcu_special union <2 years, 1 month ago> [e4f463981583]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Allow processing deferred QSes for exiting RCU-preempt readers <2 years, 1 month ago> [6792e385097a]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcutorture: Test extended "rcu" read-side critical sections <2 years, 1 month ago> [49247fb4fa9c]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Defer reporting RCU-preempt quiescent states when disabled <2 years, 1 month ago> [1ded30ebd402]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Refactor rcu_{nmi,irq}_{enter,exit}() <2 years, 1 month ago> [4b9487cd2078]
-by: Byungchul Park (byungchul.park@lge.com)
-rcutorture: Maintain self-propagating CB only during forward-progress test <2 years ago> [bc571c60179d]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcutorture: Check GP completion at stutter end <2 years ago> [1b8605afd159]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcutorture: Print forward-progress test interval on error <2 years ago> [047de5b7f866]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcutorture: Adjust number of reader kthreads per CPU-hotplug operations <2 years ago> [9ce3275f60d6]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcutorture: Reduce priority of forward-progress testing <2 years, 1 month ago> [dbcb4b2b416b]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcutorture: Limit reader duration if irq or bh disabled <2 years, 1 month ago> [428e8d636ae9]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcutorture: Increase rcu_read_delay() longdelay_ms <2 years, 1 month ago> [41748bbf8187]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcutorture: Add self-propagating callback to forward-progress testing <2 years, 1 month ago> [fb4539ef4593]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcutorture: Vary forward-progress test interval <2 years, 1 month ago> [909f94b0d12f]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcutorture: Avoid no-test complaint if too few forward-progress tries <2 years, 1 month ago> [1373844751a1]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcutorture: Also use GP sequence to judge forward progress <2 years, 1 month ago> [982faac92116]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcutorture: Add forward-progress tests for RCU grace periods <2 years, 1 month ago> [32d859ddf1aa]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcuperf: Warn on bad perf type for built-in tests <2 years, 1 month ago> [e58a902416b1]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcutorture: Warn on bad torture type for built-in tests <2 years, 1 month ago> [4167fe2a7dde]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcutorture: Force occasional reader waits <2 years, 1 month ago> [262396032643]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-sched/swait: Switch to full exclusive mode <2 years, 2 months ago> [ab2e7a0e58cd]
-by: Peter Zijlstra (peterz@infradead.org)
-sched/swait: Remove __prepare_to_swait <2 years, 2 months ago> [e4e29372cb79]
-by: Peter Zijlstra (peterz@infradead.org)
-PM / s2idle: Make s2idle_wait_head swait based <2 years, 2 months ago> [4405e84448fe]
-by: Sebastian Andrzej Siewior (bigeasy@linutronix.de)
-sched/core: Optimize update_stats_*() <2 years, 6 months ago> [18d097e2504e]
-by: Peter Zijlstra (peterz@infradead.org)
-sched/core: Optimize ttwu_stat() <2 years, 7 months ago> [7a87e813a86e]
-by: Peter Zijlstra (peterz@infradead.org)
-sched/deadline: Don't use dubious signed bitfields <2 years, 10 months ago> [126f9c29422f]
-by: Dan Carpenter (dan.carpenter@oracle.com)
-sched/deadline: Use C bitfields for the state flags <2 years, 11 months ago> [7e5b1105ea95]
-by: luca abeni (luca.abeni@santannapisa.it)
-sched/deadline: Fix missing clock update <2 years, 2 months ago> [55e06f7868d0]
-by: Juri Lelli (juri.lelli@redhat.com)
-sched/idle: Micro-optimize the idle loop <2 years, 9 months ago> [1d80e2dbda54]
-by: Cheng Jian (cj.chengjian@huawei.com)
-sched/idle: Move quiet_vmstate() into the NOHZ code <2 years, 11 months ago> [6344960f8ac1]
-by: Peter Zijlstra (peterz@infradead.org)
-idle: Prevent late-arriving interrupts from disrupting offline <1 year, 2 months ago> [94107ab67e2f]
-by: Peter Zijlstra (peterz@infradead.org)
-sched/wait: assert the wait_queue_head lock is held in __wake_up_common <1 year, 11 months ago> [348ff475ed94]
-by: Christoph Hellwig (hch@lst.de)
-sched/debug: Fix potential deadlock when writing to sched_features <2 years ago> [7c447f58bc9b]
-by: Jiada Wang (jiada_wang@mentor.com)
-sched/debug: Use match_string() helper instead of open-coded logic <2 years, 2 months ago> [4028e7fddbe4]
-by: Yisheng Xie (xieyisheng1@huawei.com)
-sched/autogroup: move sched.h include <2 years, 8 months ago> [52c11609190f]
-by: Sergey Senozhatsky (sergey.senozhatsky.work@gmail.com)
-sched/autogroup: remove unneeded kallsyms include <2 years, 8 months ago> [fd57f76cff78]
-by: Sergey Senozhatsky (sergey.senozhatsky.work@gmail.com)
-sched/fair: Remove unused 'curr' parameter from wakeup_gran <2 years, 8 months ago> [7285da12a25b]
-by: Cheng Jian (cj.chengjian@huawei.com)
-sched/clock, sched/cputime: Use lockdep to assert IRQs are disabled/enabled <2 years, 9 months ago> [d264477b80f1]
-by: Frederic Weisbecker (frederic@kernel.org)
-locking/lockdep: Add IRQs disabled/enabled assertion APIs: lockdep_assert_irqs_enabled()/disabled() <2 years, 9 months ago> [984a4724e759]
-by: Frederic Weisbecker (frederic@kernel.org)
-kprobes: Prohibit probing on RCU debug routine <1 year, 6 months ago> [f61ef0de4bcc]
-by: Masami Hiramatsu (mhiramat@kernel.org)
-srcu: Lock srcu_data structure in srcu_gp_start() <1 year, 9 months ago> [054cb7a0eea0]
-by: Dennis Krein (Dennis.Krein@netapp.com)
-rcutorture: Fix rcu_barrier successes counter <2 years, 2 months ago> [d9ee34e69819]
-by: Joel Fernandes (Google) (joel@joelfernandes.org)
-rcutorture: Add support to detect if boost kthread prio is too low <2 years, 2 months ago> [85ed60e5ba3d]
-by: Joel Fernandes (Google) (joel@joelfernandes.org)
-rcutorture: Use monotonic timestamp for stall detection <2 years, 2 months ago> [dc1a752eba1e]
-by: Arnd Bergmann (arnd@arndb.de)
-rcutorture: Make boost test more robust <2 years, 2 months ago> [f939f4cb396b]
-by: Joel Fernandes (Google) (joel@joelfernandes.org)
-rcutorture: Disable RT throttling for boost tests <2 years, 2 months ago> [2f46392c984e]
-by: Joel Fernandes (Google) (joel@joelfernandes.org)
-rcutorture: Emphasize testing of single reader protection type <2 years, 2 months ago> [3187b113a10a]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcutorture: Handle extended read-side critical sections <2 years, 2 months ago> [a903a2e8bcab]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcutorture: Make rcu_torture_timer() use rcu_torture_one_read() <2 years, 2 months ago> [f96e1d9aa30e]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcutorture: Use per-CPU random state for rcu_torture_timer() <2 years, 2 months ago> [972b2f4eaf78]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcutorture: Use atomic increment for n_rcu_torture_timers <2 years, 2 months ago> [d75f959acfbe]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcutorture: Extract common code from rcu_torture_reader() <2 years, 2 months ago> [f52ff8f4ef3e]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcuperf: Remove unused torturing_tasks() function <2 years, 3 months ago> [31dcc43fea14]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Remove rcutorture test version and sequence number <2 years, 3 months ago> [c9e75d205a2b]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcutorture: Change units of onoff_interval to jiffies <2 years, 3 months ago> [45a90874d697]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Assign higher prio to RCU threads if rcutorture is built-in <2 years, 2 months ago> [3f6daf9e8745]
-by: Joel Fernandes (Google) (joel@joelfernandes.org)
-srcu: Add grace-period number to rcutorture statistics printout <2 years, 2 months ago> [32875a80a73b]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Print stall-warning NMI dyntick state in hexadecimal <2 years, 2 months ago> [f943a0ddcd12]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Make rcu_seq_diff() more exact <2 years, 2 months ago> [33844c3b5d9b]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Check the range of jiffies_till_{first,next}_fqs when setting them <2 years, 2 months ago> [98c574a1f8a0]
-by: Byungchul Park (byungchul.park@lge.com)
-rcu: Add diagnostics for rcutorture writer stall warning <2 years, 2 months ago> [4eaf4d4dc165]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Add comment to the last sleep in the rcu tasks loop <2 years, 2 months ago> [10ff44cbd3fc]
-by: Steven Rostedt (VMware) (rostedt@goodmis.org)
-rcu: Add comment documenting how rcu_seq_snap works <2 years, 2 months ago> [70f08f1101b5]
-by: Joel Fernandes (Google) (joel@joelfernandes.org)
-rcu: Use RCU CPU stall timeout for rcu_check_gp_start_stall() <2 years, 3 months ago> [7630e1535be2]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Remove __maybe_unused from rcu_cpu_has_callbacks() <2 years, 3 months ago> [d6d0822a57ca]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Remove "inline" from rcu_perf_print_module_parms() <2 years, 3 months ago> [dcc2d66df119]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Remove "inline" from rcu_torture_print_module_parms() <2 years, 3 months ago> [6577d267308f]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Remove "inline" from panic_on_rcu_stall() and rcu_blocking_is_gp() <2 years, 3 months ago> [a97097f5aea5]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Remove unused local variable "cpu" <2 years, 3 months ago> [cb1e2ea389b4]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Remove unused rcu_kick_nohz_cpu() function <2 years, 3 months ago> [0fcf6e326e04]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Clarify and correct the rcu_preempt_qs() header comment <2 years, 3 months ago> [8c47dce24a04]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Inline rcu_dynticks_momentary_idle() into its sole caller <2 years, 3 months ago> [f99e53187648]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Mark task as .need_qs less aggressively <2 years, 3 months ago> [78eeb417b157]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Improve RCU-tasks naming and comments <2 years, 3 months ago> [32472073fd2c]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Use pr_fmt to prefix "rcu: " to logging output <2 years, 3 months ago> [e4e0164bf489]
-by: Joe Perches (joe@perches.com)
-rcu: Improve rcu_note_voluntary_context_switch() reporting <2 years, 3 months ago> [d13f16c156ae]
-by: Byungchul Park (byungchul.park@lge.com)
-rcu: Account for rcu_all_qs() in cond_resched() <2 years, 9 months ago> [7c0e5bb661a0]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Make rcu_read_unlock_special() static <2 years, 3 months ago> [0dbcd22d4dfc]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Add diagnostics for offline CPUs failing to report QS <2 years, 3 months ago> [bcfba75668d9]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Record ->gp_state for both phases of grace-period initialization <2 years, 3 months ago> [2e4b52502ed3]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Add CPU online/offline state to dump_blkd_tasks() <2 years, 3 months ago> [6ae2e3e3a54f]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Add up-tree information to dump_blkd_tasks() diagnostics <2 years, 3 months ago> [88f925b22f66]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Remove CPU-hotplug failsafe from force-quiescent-state code path <2 years, 3 months ago> [ce70792d12c6]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Remove failsafe check for lost quiescent state <2 years, 3 months ago> [58a784e077c5]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Move grace-period pre-init delay after pre-init <2 years, 3 months ago> [49fe6618585a]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Add RCU-preempt check for waiting on newly onlined CPU <2 years, 3 months ago> [c8d7ac3e56aa]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Fix grace-period hangs due to race with CPU offline <2 years, 2 months ago> [fb2480656ae3]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Fix grace-period hangs from mid-init task resume <2 years, 3 months ago> [4b9cf6f034af]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Suppress false-positive splats from mid-init task resume <2 years, 3 months ago> [1fe05ddf9e32]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Suppress more involved false-positive preempted-task splats <2 years, 3 months ago> [1228e722b633]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Suppress false-positive preempted-task splats <2 years, 3 months ago> [6b291a1ab2e1]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Suppress false-positive offline-CPU lockdep-RCU splat <2 years, 3 months ago> [28eab35e5baf]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Prevent useless FQS scan after all CPUs have checked in <2 years, 3 months ago> [aac1a8e4e4c3]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Replace smp_wmb() with smp_store_release() for stall check <2 years, 3 months ago> [a733235c0150]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Fix typo and add additional debug <2 years, 3 months ago> [150ddbd0c218]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Make rcu_report_unblock_qs_rnp() warn on violated preconditions <2 years, 3 months ago> [b9d28776ea81]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Make rcu_init_new_rnp() stop upon already-set bit <2 years, 3 months ago> [f4993c7414c6]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Fix an obsolete ->qsmaskinit comment <2 years, 3 months ago> [71a5c44c2066]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Clean up handling of tasks blocked across full-rcu_node offline <2 years, 3 months ago> [f82db5504c7f]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Identify grace period is in progress as we advance up the tree <2 years, 2 months ago> [e890968b46b7]
-by: Joel Fernandes (Google) (joel@joelfernandes.org)
-rcu: Use better variable names in funnel locking loop <2 years, 2 months ago> [032a84751d3c]
-by: Joel Fernandes (Google) (joel@joelfernandes.org)
-rcu: Rename the grace-period-request variables and parameters <2 years, 3 months ago> [ce797b791831]
-by: Joel Fernandes (joelaf@google.com)
-rcu: Regularize resetting of rcu_data wrap indicator <2 years, 3 months ago> [5dde1cf49ac0]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcutorture: Correctly handle grace-period sequence wrap <2 years, 3 months ago> [66e3cf72d35f]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Make rcu_start_this_gp() check for grace period already started <2 years, 3 months ago> [6bb611048460]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Fix cpustart tracepoint gp_seq number <2 years, 3 months ago> [0473a7d90354]
-by: Joel Fernandes (Google) (joel@joelfernandes.org)
-rcu: Produce last "CleanupMore" trace only if late-breaking request <2 years, 3 months ago> [534867a0f157]
-by: Joel Fernandes (Google) (joel@joelfernandes.org)
-rcu: Don't funnel-lock above leaf node if GP in progress <2 years, 3 months ago> [91b60cefd668]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Update list of rcu_future_grace_period() trace events <2 years, 4 months ago> [dac435d89346]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Make simple callback acceleration refer to rdp->gp_seq_needed <2 years, 3 months ago> [08d6253c2a83]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Remove ->gpnum and ->completed <2 years, 3 months ago> [8aa6f54766ac]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Convert rcu_fqs tracepoint to ->gp_seq <2 years, 3 months ago> [2a79cd3cc1ff]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Convert rcu_quiescent_state_report tracepoint to ->gp_seq <2 years, 3 months ago> [010c97316c47]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Convert rcu_unlock_preempted_task tracepoint to ->gp_seq <2 years, 3 months ago> [a1e3ea151bc6]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Convert rcu_preempt_task tracepoint to ->gp_seq <2 years, 3 months ago> [6c1971651a7d]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Convert rcu_future_grace_period tracepoint to gp_seq <2 years, 3 months ago> [3ff9493aef67]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Convert rcu_grace_period tracepoint to gp_seq <2 years, 3 months ago> [1e130b09937f]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Make rcu_nocb_wait_gp() check if GP already requested <2 years, 3 months ago> [efa35e535d11]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Move from ->need_future_gp[] to ->gp_seq_needed <2 years, 3 months ago> [5e9115a69929]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcutorture: Convert rcutorture_get_gp_data() to ->gp_seq <2 years, 3 months ago> [ef5235aeef6a]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Make RCU CPU stall warnings use ->gp_seq <2 years, 3 months ago> [e17f9eb8649b]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Convert grace-period requests to ->gp_seq <2 years, 3 months ago> [0950dd60413f]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Convert ->completedqs to ->gp_seq <2 years, 3 months ago> [5a27d8fedeea]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Convert ->rcu_iw_gpnum to ->gp_seq <2 years, 3 months ago> [f7e65e381033]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Move rcu_gp_in_progress() to ->gp_seq <2 years, 3 months ago> [9ba2bc075d86]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Move rcu_nocb_gp_get() to ->gp_seq <2 years, 3 months ago> [a59db863a86b]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Move rcu_try_advance_all_cbs() to ->gp_seq <2 years, 3 months ago> [b794d193e80a]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Move rcu_implicit_dynticks_qs() to ->gp_seq <2 years, 3 months ago> [d121678f5b06]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Convert rcu_gpnum_ovf() to ->gp_seq <2 years, 3 months ago> [bcf8ea40f36c]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Move RCU's grace-period-change code to ->gp_seq <2 years, 3 months ago> [fec181abd344]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Convert conditional grace-period primitives to ->gp_seq <2 years, 3 months ago> [519d746ed5a6]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Make quiescent-state reporting use ->gp_seq <2 years, 3 months ago> [05572ba3d49c]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Convert rcu_check_gp_kthread_starvation() to GP sequence number <2 years, 3 months ago> [978ada4236cb]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Make rcutorture's batches-completed API use ->gp_seq <2 years, 3 months ago> [bd864ad355dd]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Move rcu_gp_slow() to ->gp_seq <2 years, 3 months ago> [882a8d3e4328]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Introduce grace-period sequence numbers <2 years, 3 months ago> [a765e6a2e88c]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Make rcu_gp_cleanup() write only once to ->gp_flags <2 years, 3 months ago> [99aa9f4417d6]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Diagnostics for grace-period startup hangs <2 years, 3 months ago> [e1615fc1052a]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Make expedited GPs handle CPU 0 being offline <2 years, 2 months ago> [e2aa574b16a8]
-by: Boqun Feng (boqun.feng@gmail.com)
-rcu: Exclude near-simultaneous RCU CPU stall warnings <2 years, 4 months ago> [50bfbc6878c5]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Use the proper lockdep annotation in dump_blkd_tasks() <2 years, 5 months ago> [234f6a5d04db]
-by: Boqun Feng (boqun.feng@gmail.com)
-rcu: Add debugging info to assertion <2 years, 8 months ago> [67cb42070141]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-torture: Keep old-school dmesg format <2 years, 3 months ago> [6490894af4c1]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-torture: Make online/offline messages appear only for verbose=2 <2 years, 3 months ago> [2d4af4f56a96]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-srcu: Add address of first callback to rcutorture output <2 years, 2 months ago> [d4f19413f0da]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-srcu: Document that srcu_funnel_gp_start() implies srcu_funnel_exp_start() <2 years, 3 months ago> [50f699067cb1]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-srcu: Fix typos in __call_srcu() header comment <2 years, 3 months ago> [97626e77237d]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Make expedited grace period use direct call on last leaf <2 years, 3 months ago> [dc42b33d63f1]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu/x86: Provide early rcu_cpu_starting() callback <2 years, 2 months ago> [6f77957ce07c]
-by: Peter Zijlstra (peterz@infradead.org)
-rcutorture: Print end-of-test state <2 years, 4 months ago> [9d9bcf2e7aee]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Drop early GP request check from rcu_gp_kthread() <2 years, 4 months ago> [158f3632204e]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Simplify and inline cpu_needs_another_gp() <2 years, 4 months ago> [b7d92851e49e]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: The rcu_gp_cleanup() function does not need cpu_needs_another_gp() <2 years, 4 months ago> [5c98ba89fb1b]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Make rcu_start_this_gp() check for out-of-range requests <2 years, 4 months ago> [0dabe49ab6f6]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Add funnel locking to rcu_start_this_gp() <2 years, 4 months ago> [e315cd0909a8]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Make rcu_start_future_gp() caller select grace period <2 years, 4 months ago> [d08b5cab2bf3]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Inline rcu_start_gp_advanced() into rcu_start_future_gp() <2 years, 4 months ago> [e099798852b5]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Clear request other than RCU_GP_FLAG_INIT at GP end <2 years, 4 months ago> [901d72024896]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Cleanup, don't put ->completed into an int <2 years, 4 months ago> [c9196e998848]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Switch __rcu_process_callbacks() to rcu_accelerate_cbs() <2 years, 4 months ago> [edc2f7373f34]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Avoid __call_rcu_core() root rcu_node ->lock acquisition <2 years, 4 months ago> [640ac67df1ba]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Make rcu_migrate_callbacks wake GP kthread when needed <2 years, 3 months ago> [5600b0534e7e]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Convert ->need_future_gp[] array to boolean <2 years, 4 months ago> [ad573e0f0cc0]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Make rcu_future_needs_gp() check all ->need_future_gps[] elements <2 years, 4 months ago> [28e8cbebdbb8]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Avoid losing ->need_future_gp[] values due to GP start/end races <2 years, 4 months ago> [c6fed033423b]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Make rcu_gp_cleanup() more accurately predict need for new GP <2 years, 4 months ago> [16ac1cba714f]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Make rcu_gp_kthread() check for early-boot activity <2 years, 4 months ago> [1ff3f5156071]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Add accessor macros for the ->need_future_gp[] array <2 years, 4 months ago> [8a55e3e742a4]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Make rcu_start_future_gp()'s grace-period check more precise <2 years, 4 months ago> [ebec95e2ae90]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Improve non-root rcu_cbs_completed() accuracy <2 years, 4 months ago> [fd8c25bc8f08]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Add leaf-node macros <2 years, 4 months ago> [d1d83144fe96]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-srcu: Add cleanup_srcu_struct_quiesced() <2 years, 4 months ago> [d6e9c274a650]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Declare rcu_eqs_special_set() in public header <2 years, 4 months ago> [6d6bcb61bb24]
-by: Yury Norov (ynorov@caviumnetworks.com)
-rcu: Update rcu_bind_gp_kthread() header comment <2 years, 5 months ago> [3ef573277dfb]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Move __rcu_read_lock() and __rcu_read_unlock() to tree_plugin.h <2 years, 5 months ago> [cea552e2054e]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Rename cond_resched_rcu_qs() to cond_resched_tasks_rcu_qs() <2 years, 5 months ago> [c7ca477d7354]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Remove deprecated RCU debugfs tracing code <2 years, 5 months ago> [f4b4679970e4]
-by: Byungchul Park (byungchul.park@lge.com)
-rcu: Call wake_nocb_leader_defer() with 'FORCE' when nocb_q_count is high <2 years, 5 months ago> [b6885b24b4d7]
-by: Byungchul Park (byungchul.park@lge.com)
-rcu: Don't allocate rcu_nocb_mask if no one needs it <2 years, 5 months ago> [de0db28784f9]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Inline rcu_preempt_do_callback() into its sole caller <2 years, 5 months ago> [e46f4a83e26f]
-by: Byungchul Park (byungchul.park@lge.com)
-rcu: exp: Protect all sync_rcu_preempt_exp_done() with rcu_node lock <2 years, 5 months ago> [579ab1ecc369]
-by: Boqun Feng (boqun.feng@gmail.com)
-rcu: exp: Fix "must hold exp_mutex" comments for QS reporting functions <2 years, 5 months ago> [3b878aa7ca0f]
-by: Boqun Feng (boqun.feng@gmail.com)
-rcu: Parallelize expedited grace-period initialization <2 years, 6 months ago> [f20294a3e4e0]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-torture: Provide more sensible nreader/nwriter defaults for rcuperf <2 years, 6 months ago> [ea42364609b4]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcutorture: Record which grace-period primitives are tested <2 years, 8 months ago> [f5295c805eaf]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcutorture: Re-enable testing of dynamic expediting <2 years, 8 months ago> [daa30696ccb7]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcutorture: Avoid fake-writer use of undefined primitives <2 years, 8 months ago> [5a7132c4ce76]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcutorture: Abstract function and module names <2 years, 8 months ago> [22111f1a23e4]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcutorture: Replace multi-instance kzalloc() with kcalloc() <2 years, 8 months ago> [85e8e8db4149]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Remove SRCU throttling <2 years, 6 months ago> [da58305af575]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-srcu: Remove dead code in srcu_gp_end() <2 years, 6 months ago> [6205c12b458d]
-by: Byungchul Park (byungchul.park@lge.com)
-srcu: Reduce scans of srcu_data in counter wrap check <2 years, 6 months ago> [78e51ba450ae]
-by: Ildar Ismagilov (devix84@gmail.com)
-srcu: Prevent sdp->srcu_gp_seq_needed_exp counter wrap <2 years, 6 months ago> [f7eaeac09cd6]
-by: Ildar Ismagilov (devix84@gmail.com)
-srcu: Abstract function name <2 years, 8 months ago> [d9191a44ad00]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Make expedited RCU CPU selection avoid unnecessary stores <2 years, 6 months ago> [c38d20768987]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Trace expedited GP delays due to transitioning CPUs <2 years, 6 months ago> [a0459ddc28cc]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Add more tracing of expedited grace periods <2 years, 6 months ago> [19e6c3206760]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Fix misprint in srcu_funnel_exp_start <2 years, 6 months ago> [6f11c2dab26d]
-by: Ildar Ismagilov (devix84@gmail.com)
-rcu: Use wrapper for lockdep asserts <2 years, 7 months ago> [976495a74735]
-by: Matthew Wilcox (mawilcox@microsoft.com)
-rcu: Remove redundant nxttail index macro define <2 years, 7 months ago> [f80dfd15e554]
-by: Liu, Changcheng (changcheng.liu@intel.com)
-rcu: Consolidate rcu.h #ifdefs <2 years, 7 months ago> [5fa3d15042d6]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: More clearly identify grace-period kthread stack dump <2 years, 7 months ago> [0d26da7c0c1b]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Remove obsolete force-quiescent-state statistics for debugfs <2 years, 7 months ago> [a6632d052655]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Remove obsolete __rcu_pending() statistics for debugfs <2 years, 7 months ago> [1323d3a27f1f]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Remove obsolete callback-invocation statistics for debugfs <2 years, 7 months ago> [984a662e2e97]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Remove obsolete boost statistics for debugfs <2 years, 7 months ago> [55b195b4d771]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Fix CPU offload boot message when no CPUs are offloaded <2 years, 8 months ago> [e30bdf65ae2e]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Remove unnecessary spinlock in rcu_boot_init_percpu_data() <2 years, 8 months ago> [4c070d5c65b7]
-by: Lihao Liang (lianglihao@huawei.com)
-torture: Eliminate torture_runnable and perf_runnable <2 years, 8 months ago> [63c02003eef3]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcutorture: Preempt RCU-preempt readers more vigorously <2 years, 10 months ago> [92a019aae493]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-torture: Reduce #ifdefs for preempt_schedule() <2 years, 10 months ago> [f7c1a54b36e9]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Remove have_rcu_nocb_mask from tree_plugin.h <2 years, 9 months ago> [704724c67e19]
-by: Rakib Mullick (rakib.mullick@gmail.com)
-rcu: Add comment giving debug strategy for double call_rcu() <2 years, 10 months ago> [17559ed1ee3b]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-srcu: Prohibit call_srcu() use under raw spinlocks <2 years, 10 months ago> [689adcb39548]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Simplify rcu_eqs_{enter,exit}() non-idle task debug code <2 years, 10 months ago> [f3b6ad033064]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Fold rcu_eqs_exit_common() into rcu_eqs_exit() <2 years, 10 months ago> [66dfb52e3312]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Fold rcu_eqs_enter_common() into rcu_eqs_enter() <2 years, 10 months ago> [a145bc3fcf5e]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Avoid ->dynticks_nesting store tearing <2 years, 10 months ago> [53d7a62f8391]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Stop duplicating lockdep checks in RCU's idle-entry code <2 years, 10 months ago> [4368c0b7927f]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Add ->dynticks field to rcu_dyntick trace event <2 years, 10 months ago> [881c7de9d056]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Shrink ->dynticks_{nmi_,}nesting from long long to long <2 years, 10 months ago> [33651559c639]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Add tracing to irq/NMI dyntick-idle transitions <2 years, 10 months ago> [6051a10b5b42]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Eliminate rcu_irq_enter_disabled() <2 years, 10 months ago> [9e8ae51b1d14]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Make ->dynticks_nesting be a simple counter <2 years, 10 months ago> [d4a500adacad]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Define rcu_irq_{enter,exit}() in terms of rcu_nmi_{enter,exit}() <2 years, 10 months ago> [e725c04369cc]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Clamp ->dynticks_nmi_nesting at eqs entry/exit <2 years, 10 months ago> [cc784624ed63]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Move rcu_nmi_{enter,exit}() to prepare for consolidation <2 years, 10 months ago> [a3a0f7383587]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Reduce dyntick-idle state space <2 years, 10 months ago> [0c83570712f5]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Avoid ->dynticks_nmi_nesting store tearing <2 years, 10 months ago> [158ffcb75d7e]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Use lockdep to assert IRQs are disabled/enabled <2 years, 9 months ago> [3c9ff1ab2db2]
-by: Frederic Weisbecker (frederic@kernel.org)
-rcu: Convert timers to use timer_setup() <2 years, 9 months ago> [051cf549ac36]
-by: Kees Cook (keescook@chromium.org)
-rcu/segcblist: Include rcupdate.h <2 years, 10 months ago> [7a212cf2bd38]
-by: Sebastian Andrzej Siewior (bigeasy@linutronix.de)
-rcu: Add extended-quiescent-state testing advice <2 years, 10 months ago> [a077b2329ed1]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Suppress lockdep false-positive ->boost_mtx complaints <2 years, 11 months ago> [cbcaeb438d5c]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Do not include rtmutex_common.h unconditionally <2 years, 10 months ago> [5a169675e7db]
-by: Sebastian Andrzej Siewior (bigeasy@linutronix.de)
-rcutorture: Dump writer stack if stalled <2 years, 11 months ago> [d795c310bc6e]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcutorture: Add interrupt-disable capability to stall-warning tests <3 years ago> [0d85ed268170]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Suppress RCU CPU stall warnings while dumping trace <2 years, 11 months ago> [e86072c46836]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Turn off tracing before dumping trace <2 years, 11 months ago> [f82c071e87e4]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Make RCU CPU stall warnings check for irq-disabled CPUs <3 years ago> [15c9594c5c7c]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-sched,rcu: Make cond_resched() provide RCU quiescent state <3 years, 8 months ago> [e80314958279]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-rcu: Create call_rcu_tasks() kthread at boot time <3 years ago> [ce94da8cfc0f]
-by: Paul E. McKenney (paulmck@linux.vnet.ibm.com)
-BACKPORT: mm, page_alloc: wakeup kcompactd even if kswapd cannot free more memory <2 years, 4 months ago> [bcd9b88d5e21]
-by: David Rientjes (rientjes@google.com)
-BACKPORT: mm,vmscan: don't pretend forward progress upon shrinker_rwsem contention <2 years, 4 months ago> [1ad791d29cd3]
-by: Tetsuo Handa (penguin-kernel@I-love.SAKURA.ne.jp)
-BACKPORT: mm: remove unused pgdat->inactive_ratio <2 years, 9 months ago> [25635761021b]
-by: Andrey Ryabinin (aryabinin@virtuozzo.com)
-sched/walt: Access sched_boost_enabled with RCU protection <8 months ago> [bd9af28e2a3e]
-by: Pavankumar Kondeti (pkondeti@codeaurora.org)
-PM / suspend: Default to suspend-to-idle instead of deep suspend <1 year ago> [8e8ba8b088c4]
-by: Danny Lin (danny@kdrag0n.dev)
-binder: fix 4.19 binder compilation on 4.14 <5 months ago> [20851e7e9664]
-by: UtsavBalar1231 (utsavbalar1231@gmail.com)
-binder: checkout to android-4.19 branch at 64b698c15a273b1705c8121cbdbad21171e28a45 <5 months ago> [dd4c578996dd]
-by: UtsavBalar1231 (utsavbalar1231@gmail.com)
-ion: don't call free_buffer_page on failure of ion_hyp_unassign_sg <6 months ago> [579cbb4a641a]
+defconfig: Make Ion allocate in page-sized chunks <5 weeks ago> [dc399ff04c8a]
+by: Sultan Alsawaf (sultan@kerneltoast.com)
+ion: don't wakeup refill threads for order-0 requests <7 months ago> [d22465180364]
 by: Charan Teja Reddy (charante@codeaurora.org)
-arm64: bpf: optimize modulo operation <11 months ago> [0d9be99bba1f]
-by: Jerin Jacob (jerinj@marvell.com)
-locking/osq: Use optimized spinning loop for arm64 <7 months ago> [558f9cb70c4f]
-by: Waiman Long (longman@redhat.com)
-arm64: Implement optimised checksum routine <7 months ago> [bea72f91a91d]
-by: Robin Murphy (robin.murphy@arm.com)
-drivers: thermal: Avoid multiple TSENS controller re-init simultaneously <3 months ago> [c7dbf9d9660f]
-by: Gopala Krishna Nuthaki (gnuthaki@codeaurora.org)
-msm: adsprpc: Fix out of bound read in debugfs_read <5 weeks ago> [4e6f238a6d79]
-by: Jeya R (jeyr@codeaurora.org)
-msm: adsprpc: Reduce logging in map/unmap IOCTLs <6 weeks ago> [da6f90c51fdf]
-by: Mohammed Nayeem Ur Rahman (mohara@codeaurora.org)
-dfc: fix null pointer access <7 weeks ago> [7a90e6b650bb]
-by: Subash Abhinov Kasiviswanathan (subashab@codeaurora.org)
-locking/qspinlock: Remove unnecessary BUG_ON() call <1 year, 5 months ago> [00c321aeb866]
-by: Waiman Long (longman@redhat.com)
-locking/qspinlock_stat: Track the no MCS node available case <1 year, 6 months ago> [7581348d2e67]
-by: Waiman Long (longman@redhat.com)
-locking/qspinlock: Handle > 4 slowpath nesting levels <1 year, 6 months ago> [4fc52c691d1b]
-by: Waiman Long (longman@redhat.com)
-locking/pvqspinlock: Extend node size when pvqspinlock is configured <1 year, 10 months ago> [2f78a4b8619a]
-by: Waiman Long (longman@redhat.com)
-locking/spinlocks: Remove an instruction from spin and write locks <2 years ago> [3d27b2cd591e]
-by: Matthew Wilcox (willy@infradead.org)
-locking/qspinlock: Use smp_store_release() in queued_spin_unlock() <2 years, 3 months ago> [27e9a1651959]
-by: Will Deacon (will.deacon@arm.com)
-locking/qspinlock_stat: Count instances of nested lock slowpaths <1 year, 10 months ago> [b2324a6b4db7]
-by: Waiman Long (longman@redhat.com)
-locking/qspinlock, x86: Provide liveness guarantee <1 year, 8 months ago> [9860d3fc8651]
-by: Peter Zijlstra (peterz@infradead.org)
-locking/qspinlock: Rework some comments <1 year, 10 months ago> [41892262f7c0]
-by: Peter Zijlstra (peterz@infradead.org)
-locking/qspinlock: Re-order code <1 year, 10 months ago> [eb31846cc1f1]
-by: Peter Zijlstra (peterz@infradead.org)
-locking/qspinlock: Add stat tracking for pending vs. slowpath <2 years, 3 months ago> [277e8360a7ea]
-by: Waiman Long (longman@redhat.com)
-locking/qspinlock: Use try_cmpxchg() instead of cmpxchg() when locking <2 years, 3 months ago> [7e0dda92989f]
-by: Will Deacon (will.deacon@arm.com)
-locking/qspinlock: Elide back-to-back RELEASE operations with smp_wmb() <2 years, 3 months ago> [ea25e518dbb4]
-by: Will Deacon (will.deacon@arm.com)
-locking/qspinlock: Use smp_cond_load_relaxed() to wait for next node <2 years, 3 months ago> [24110d979a7c]
-by: Will Deacon (will.deacon@arm.com)
-locking/qspinlock: Use atomic_cond_read_acquire() <2 years, 3 months ago> [b634bc4bd41e]
-by: Will Deacon (will.deacon@arm.com)
-Revert "locking/qspinlock: Re-order code" <1 year, 7 months ago> [1be6e4e4962a]
-by: kdrag0n (dragon@khronodragon.com)
-Revert "locking/qspinlock, x86: Provide liveness guarantee" <1 year, 7 months ago> [ac733979b970]
-by: kdrag0n (dragon@khronodragon.com)
-arm64: kconfig: Ensure spinlock fastpaths are inlined if !PREEMPT <2 years, 5 months ago> [e69f80bbd3ef]
-by: Will Deacon (will.deacon@arm.com)
-thermal: core: skip update disabled thermal zones after suspend <1 year, 4 months ago> [fe0df988c42c]
-by: Wei Wang (wvw@google.com)
-arm64: barrier: Implement smp_cond_load_relaxed <2 years, 6 months ago> [84e0560aba38]
-by: Will Deacon (will.deacon@arm.com)
-locking/barriers: Introduce smp_cond_load_relaxed() and atomic_cond_read_relaxed() <2 years, 3 months ago> [2d48891dfb9c]
-by: Will Deacon (will.deacon@arm.com)
-arm64: locking: Replace ticket lock implementation with qspinlock <2 years, 5 months ago> [5f7e53abd64d]
-by: Will Deacon (will.deacon@arm.com)
-locking/spinlocks/arm64: Remove smp_mb() from arch_spin_is_locked() <2 years, 3 months ago> [2d8393ea3868]
-by: Andrea Parri (andrea.parri@amarulasolutions.com)
-locking/arch: Remove dummy arch_{read,spin,write}_lock_flags() implementations <2 years, 10 months ago> [7f8d65f9ec16]
-by: Will Deacon (will.deacon@arm.com)
-locking/arch: Remove dummy arch_{read,spin,write}_relax() implementations <2 years, 10 months ago> [10bf5fe75b84]
-by: Will Deacon (will.deacon@arm.com)
-block: replace io_schedule with io_schedule_timeout <2 years, 11 months ago> [f668e8cc1fba]
-by: Jaegeuk Kim (jaegeuk@google.com)
-mm: do not reclaim excessively at high-order allocation <2 years, 1 month ago> [88be0ea7fada]
-by: Minchan Kim (minchan@google.com)
-exec: use bprm from the stack space <5 months ago> [c9b45a64453e]
-by: Park Ju Hyung (qkrwngud825@gmail.com)
-bpf: avoid dynamic memory allocation for small value buffers <5 months ago> [bf9f504bd544]
-by: Park Ju Hyung (qkrwngud825@gmail.com)
-ANDROID: sdcardfs: Alloc memory only when needed in __sdcardfs_lookup() <7 months ago> [3d045a3d51b3]
+ion: Fix pool refill error <8 months ago> [b701c3155692]
+by: Chris Goldsworthy (cgoldswo@codeaurora.org)
+ion: store private heap data into ion pools <8 months ago> [415fdca8c7cb]
+by: Sudarshan Rajagopalan (sudaraja@codeaurora.org)
+ion: msm_ion: Add freeze_late and restore_early callbacks <9 months ago> [947b93152e0a]
+by: Shreyas K K (shrekk@codeaurora.org)
+ion: Add pm_ops for msm_ion driver <11 months ago> [523d01d95ec3]
+by: Patrick Daly (pdaly@codeaurora.org)
+ion: remove cpu binding of pool refill kthreads <11 months ago> [a9cf76535d88]
+by: Sudarshan Rajagopalan (sudaraja@codeaurora.org)
+ion: enable debugfs for ion heaps <12 months ago> [7f6ac95718d1]
+by: Sudarshan Rajagopalan (sudaraja@codeaurora.org)
+staging: android: ion: Bail out upon SIGKILL when allocating memory. <1 year, 1 month ago> [44bdde85cd07]
+by: Tetsuo Handa (penguin-kernel@I-love.SAKURA.ne.jp)
+ion: skip refilling for order 0 pools <1 year, 2 months ago> [5eeafe46a137]
+by: Sudarshan Rajagopalan (sudaraja@codeaurora.org)
+ion: shrink the lower order pools first <1 year, 2 months ago> [262e579eadde]
+by: Sudarshan Rajagopalan (sudaraja@codeaurora.org)
+ion: defer pool refill on low zone watermarks <1 year, 2 months ago> [d4ffb46466b5]
+by: Sudarshan Rajagopalan (sudaraja@codeaurora.org)
+ion: Implement ion heap pool auto refill <1 year, 3 months ago> [5318b17ed9bd]
+by: Sudarshan Rajagopalan (sudaraja@codeaurora.org)
+staging: android: ion: Remove unnecessary blank line <2 years, 3 months ago> [96da9af378b2]
+by: Nathan Chancellor (natechancellor@gmail.com)
+staging: android: Kconfig; Remove excessive hyphens <2 years, 3 months ago> [c603ead5d12d]
+by: Nathan Chancellor (natechancellor@gmail.com)
+staging: android: ion: remove duplicate buffer field initializes <2 years, 4 months ago> [246ec849acd4]
+by: Todd Poynor (toddpoynor@google.com)
+staging: android: ion: Update wording in drivers/staging/android/ion/Kconfig <2 years, 5 months ago> [303591abb8b6]
+by: Phillip Potter (phil@philpotter.co.uk)
+staging: android: ion: Remove check of idev->debug_root <2 years, 6 months ago> [14b900d3f854]
+by: Yisheng Xie (xieyisheng1@huawei.com)
+staging: android: ion: Remove check of debug_file <2 years, 6 months ago> [658af3c6e306]
+by: Yisheng Xie (xieyisheng1@huawei.com)
+staging: android: ion: Cleanup ion_page_pool_alloc_pages <2 years, 6 months ago> [c3a278b52822]
+by: Yisheng Xie (xieyisheng1@huawei.com)
+staging: android: ion: Return void instead of int <2 years, 6 months ago> [4f5c4915d22f]
+by: Yisheng Xie (xieyisheng1@huawei.com)
+staging: android: ion: Remove dead code in ion_page_pool_free <2 years, 6 months ago> [8f44becdc1dd]
+by: Yisheng Xie (xieyisheng1@huawei.com)
+staging: android: ion: Remove lable debugfs_done <2 years, 6 months ago> [7e7de8e0b91a]
+by: Yisheng Xie (xieyisheng1@huawei.com)
+staging: android: ion: Avoid NULL point in error path <2 years, 6 months ago> [7b65713c49f3]
+by: Yisheng Xie (xieyisheng1@huawei.com)
+staging: android: ion: Nuke ion_page_pool_init <2 years, 6 months ago> [3a5c906a8c9d]
+by: Yisheng Xie (xieyisheng1@huawei.com)
+staging: android: ion: Remove unused include files for ion_page_pool.c <2 years, 6 months ago> [df8f520b96d5]
+by: Yisheng Xie (xieyisheng1@huawei.com)
+staging: android: ion: Remove unused declaration ion_buffer_fault_user_mappings <2 years, 6 months ago> [4a3122718f68]
+by: Yisheng Xie (xieyisheng1@huawei.com)
+staging: android: check for error from register_shrinker in ion_heap_init_shrinker <2 years, 8 months ago> [1656867a8e39]
+by: Xiongwei Song (sxwjean@gmail.com)
+staging: android: add identifiers to function parameters <2 years, 8 months ago> [1b46c5c50005]
+by: Ashish Kalra (eashishkalra@gmail.com)
+staging: android: Fix checkpatch.pl error <2 years, 8 months ago> [ebad7eda9369]
+by: Ashish Kalra (eashishkalra@gmail.com)
+staging: android: Fix checkpatch.pl error <2 years, 9 months ago> [5785c9bf39b2]
+by: Sidong Yang (realwakka@gmail.com)
+staging: ion: simplify ioctl args checking function <2 years, 10 months ago> [5c96e81b544d]
+by: Benjamin Gaignard (benjamin.gaignard@linaro.org)
+ion: system_heap: Speed up system heap allocations <1 year ago> [94604e2b2322]
 by: Sultan Alsawaf (sultan@kerneltoast.com)
-ext4: Allocate 128-byte allocation context on the stack <5 months ago> [9fa5ac03479a]
-by: Sultan Alsawaf (sultan@kerneltoast.com)
-printk: use buffer from the stack space <5 months ago> [d1421264b9c7]
-by: Park Ju Hyung (qkrwngud825@gmail.com)
-kthread: use buffer from the stack space <5 months ago> [874c3c35bc96]
-by: Park Ju Hyung (qkrwngud825@gmail.com)
-defconfig: Enable BPF_JIT <3 weeks ago> [09192a6ae12b]
+i2c-qcom-geni: move geni_i2c_driver_init to async probe <1 year, 3 months ago> [b01041e89fef]
+by: Rick Yiu (rickyiu@google.com)
+msm: kgsl: move kgsl_3d_init to async probe <1 year, 3 months ago> [944a8ade6dab]
+by: Rick Yiu (rickyiu@google.com)
+soc/qcom: move icnss_initialize to async probe <1 year, 3 months ago> [88fba3790607]
+by: Rick Yiu (rickyiu@google.com)
+ion/msm: move msm_ion_init to async probe <1 year, 3 months ago> [dbc39cc5c73e]
+by: Rick Yiu (rickyiu@google.com)
+drm/msm: move msm_drm_register to async probe <1 year, 3 months ago> [283ba5238af5]
+by: Rick Yiu (rickyiu@google.com)
+drivers: i2c: support per-device async suspend <1 year, 2 months ago> [1349e71a7b74]
+by: Harpreet "Eli" Sangha (eliptus@google.com)
+soc:qcom:icnss Async suspend/resume callbacks. <1 year, 2 months ago> [ce7f084f07b9]
+by: Vincent Palomares (paillon@google.com)
+Merge branch 'kernel.lnx.4.14.r4-rel' of https://github.com/android-linux-stable/msm-4.14 into VantomKernel <7 days ago> [c997edaa792e]
 by: vantoman (Mustafa.vantom@gmail.com)
-bpf: Allow building BPF JIT without module support on arm64 <12 months ago> [c7fffa7a02e2]
-by: Danny Lin (danny@kdrag0n.dev)
-arm64/bpf: don't allocate BPF JIT programs in module memory <1 year, 8 months ago> [a3006c86ec09]
-by: Ard Biesheuvel (ard.biesheuvel@linaro.org)
-bpf: add __weak hook for allocating executable memory <1 year, 8 months ago> [d51c22a4d646]
-by: Ard Biesheuvel (ard.biesheuvel@linaro.org)
-bpf, arm64: save 4 bytes in prologue when ebpf insns came from cbpf <2 years, 3 months ago> [ad6c21b510b7]
-by: Daniel Borkmann (daniel@iogearbox.net)
-bpf, arm64: save 4 bytes of unneeded stack space <2 years, 3 months ago> [99e4558fb437]
-by: Daniel Borkmann (daniel@iogearbox.net)
-bpf, arm64: remove obsolete exception handling from div/mod <2 years, 6 months ago> [9e88dd153732]
-by: Daniel Borkmann (daniel@iogearbox.net)
-bpf: fix subprog verifier bypass by div/mod by 0 exception <2 years, 6 months ago> [c5d9073b6ce8]
-by: Daniel Borkmann (daniel@iogearbox.net)
-bpf: fix net.core.bpf_jit_enable race <2 years, 8 months ago> [a70b38069667]
-by: Alexei Starovoitov (ast@fb.com)
-UPSTREAM: bpf: permit multiple bpf attachments for a single perf event <2 years, 9 months ago> [fb84076ddb8d]
-by: Yonghong Song (yhs@fb.com)
-UPSTREAM: bpf: use the same condition in perf event set/free bpf handler <2 years, 9 months ago> [d485d53fcd14]
-by: Yonghong Song (yhs@fb.com)
-UPSTREAM: bpf: multi program support for cgroup+bpf <2 years, 10 months ago> [03b2fb885815]
-by: Alexei Starovoitov (ast@fb.com)
-Optimized Console FrameBuffer for upto 70% increase in Performance <2 years, 9 months ago> [f862268f50f6]
-by: gustavoss (fgenfb@yahoo.com)
-defconfig: Disable task autogrouping <4 weeks ago> [2f9dad800f94]
-by: Tyler Nijmeh (tylernij@gmail.com)
-smp2p: revert commits that added wakelocking capabilities <4 weeks ago> [92219784c3af]
-by: YaroST12 (yaro330@gmail.com)
-BACKPORT: sched/core: Distribute tasks within affinity masks <3 months ago> [7d095d774dca]
-by: Paul Turner (pjt@google.com)
-sched: Spare resched IPI when prio changes on a single fair task <8 months ago> [4f02d1426ce0]
-by: Frederic Weisbecker (frederic@kernel.org)
-sched: fair: Stop running idle_balance on active migration kick <1 year, 1 month ago> [6298226229ea]
-by: Lingutla Chandrasekhar (clingutla@codeaurora.org)
-sched/fair: Optimize the tick path active migration <1 year, 4 months ago> [419771ef7eb6]
-by: Pavankumar Kondeti (pkondeti@codeaurora.org)
-posix_cpu_timer: Check cpu_clock_sample() return value <3 months ago> [d38eb4067e0f]
-by: Sultan Alsawaf (sultan@kerneltoast.com)
-mm: compaction: avoid 100% CPU usage during compaction when a task is killed <1 year ago> [40a6cf63a61b]
-by: Mel Gorman (mgorman@techsingularity.net)
-sched: Allow realtime tasks to consume entire sched periods <6 months ago> [dfffae680811]
-by: Tyler Nijmeh (tylernij@gmail.com)
-mm: Do not periodically flush dirty pages <5 months ago> [fd5d160315b2]
-by: Tyler Nijmeh (tylernij@gmail.com)
-drivers: cpufreq: Remove performance cpu governor dependancy <1 year, 8 months ago> [741f06ac9d9c]
-by: tytydraco (tylernij@gmail.com)
-Revert "qcacld-3.0: Enable SAE and GCMP by default" <7 months ago> [c0da1d3e0574]
-by: Sultan Alsawaf (sultan@kerneltoast.com)
-
-[frameworks/base]
-base: Separate vibrate drawable for vol panel from common icon <6 days ago> [fadb1f57b7c]
-by: Adhitya Mohan (me@adhityamohan.in)
+Revert "qcacld-3.0: add wlan_hdd_cfg.h" <8 days ago> [4c4ef492dfbf]
+by: vantoman (Mustafa.vantom@gmail.com)
+Revert "qcacld-3.0: wlan_hdd_cfg: Remove drop_bcn_on_chan_mismatch ini" <8 days ago> [54cc1c04f255]
+by: vantoman (Mustafa.vantom@gmail.com)
+Revert "qcacld-3.0: wlan_hdd_cfg: Remove TxPower2g and 5g from config file" <8 days ago> [9f956c9532e1]
+by: vantoman (Mustafa.vantom@gmail.com)
+Revert "qcacld-3.0: wlan_hdd_cfg: Enable Auto BMPS feature" <8 days ago> [e7058581d55d]
+by: vantoman (Mustafa.vantom@gmail.com)
+Revert "qcacld: read config file from wlan_cfg_ini.h" <8 days ago> [74a004f949ed]
+by: vantoman (Mustafa.vantom@gmail.com)
+Revert "qcacld: free wlan_cfg_buf after loading" <8 days ago> [c7e12a61699c]
+by: vantoman (Mustafa.vantom@gmail.com)
+Revert "qcacld-3.0: ini: Disable gEnableConcurrentSTA for Android Q targets" <8 days ago> [f70988682f7b]
+by: vantoman (Mustafa.vantom@gmail.com)
+defconfig: tweak cib <9 days ago> [d9f1e485bd91]
+by: vantoman (Mustafa.vantom@gmail.com)
 
 
