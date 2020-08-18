@@ -1,44 +1,79 @@
-######################
-###DEVICE CHANGELOG###
-######################
+#############
+###DEVICE###
+############
+- Fixed weird brightness issues at high temps
+- fall back to thermals from jasmine V11.0.4.0.QDIMIXM
+- Update GPU drivers to v454
+- kang some rendering props
+- Misc stuff
 
-[*]Update all blobs from  jasmine-user-10-QKQ1.190910.002-V11.0.11.0.QDIMIXM-release-keys
-[*]Add proper powerhints for SD 636
-[*]Bump vendor security patch level from Jasmine V11.0.11.0.QDIMIXM
-[*]Speed up fingerprint enrollment and unlock
-[*]Added Gcam go and removed mi cam
-[*]Added XiaomiDoze back
-[*]Merged'LA.UM.8.2.r2-02300-sdm660.0' caf tag into the kernel
-[*]Upstream wireguard to 1.0.20200729 snapshot
-[*]Import binder from android-4.19-q branch from android common
-[*]Fix ViLTE for Smartfren carrier (Indo)
-[*]Upstreamed kernel to linux version 4.4.232
-[*]Compile kernel with clang 11.0.3
-[*]Some misc changes
+############
+###SOURCE###
+############
 
-######################
-###SOURCE CHANGELOG###
-######################
-[*]Merged august security patch (r41)
-[*]Fixed Freeform window moving & resize issues
-[*]QS make sure we dont show empty row
-[*]Make lockscreen timeout configurable
-[*]Fix WebView vulnerability by disallowing file access
-[*]Added Pulse Navbar
-[*]Added automatic album art color mode for navbar pulse
-[*]Added Switch Styles
-[*]Reverted Vowifi Icon Implementation
-[*]Refactor LockScreen elements font type & size implementation
-[*]Added RGB accenter
-[*]Added Bluetooth QTI Implementation
-[*]Improved Network Traffic Monitor
-[*]Added support for a custom icon for Toast
-[*]Allow showing music heads up on new tracks
-[*]Added QS header styles
-[*]Added Powermenu Background filter
-[*]Make Master switches summaries dynamic
-[*]Added a name fitting easter egg
-[*]Added Derp Clear Primary
-[*]Added Snap Camera Support
-[*]Updates to translations
-[*]Some more minor derps/bugs fixes
+[manifest]
+manifest: track our own fork of PotatoPlugins <3 days ago> [10ae5e1]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[frameworks/base]
+base: GamingModeTile: Improve code <4 days ago> [f663e6f467b]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[packages/apps/PotatoPlugins]
+plugins: Separate vibrate drawable for vol panel from common icon   @marshmello61 - do it for plugins  *impl: https://github.com/DerpLab/platform_frameworks_base/commit/fadb1f57b7c5de3557e208f6a8acc6897f4df3e8 <3 days ago> [b43e751]
+by: poad42 (me@adhityamohan.in)
+plugins: Launch Q expanded volume panel on arrow longpress  *for AospPanel and CompactPanel <4 days ago> [3c5c86d]
+by: poad42 (me@adhityamohan.in)
+
+
+====================
+     08-15-2020
+====================
+
+[frameworks/base]
+base: Refactor PowerMenu background filter code <4 days ago> [6c0401c68ce]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+base: Update LockScreen date size when needed <5 days ago> [58ba6e6511f]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[vendor/xiaomi/whyred]
+use thermals from jasmine V11.0.4.0.QDIMIXM <5 days ago> [4d5fbd0]
+by: sreekfreak995 (sreekfreak995@gmail.com)
+
+
+====================
+     08-14-2020
+====================
+
+[device/aosip/sepolicy]
+sepolicy: let matlog read dmesg Matlog creates empty dmesg.txt and this denial shows up in dmesg. <5 days ago> [7c312f0]
+by: DarkDampSquib (andrin.geiger1998@gmail.com)
+
+[vendor/xiaomi/whyred]
+Clean up useless stuff <9 days ago> [cc9296f]
+by: sreekfreak995 (sreekfreak995@gmail.com)
+Update GPU drivers to v454 <6 days ago> [08f4a17]
+by: ?UTF-8?q?Arda=20S=C3=BCzen?= (55506979+ardasuzen@users.noreply.github.com)
+
+
+====================
+     08-13-2020
+====================
+
+[external/pulse]
+pulse: Support the new RGB accent picker <6 days ago> [4c86dfb]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[frameworks/base]
+base: Simplify ambient light color mode settings [1/2] <6 days ago> [6823b94c039]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+base: Default custom ambient light color to accent [1/2] <6 days ago> [7fb494cc3a2]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[packages/apps/DerpQuest]
+DerpQuest: Simplify ambient light color mode settings [2/2] <6 days ago> [9fdfa59]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+DerpQuest: Default custom ambient light color to accent [2/2] <6 days ago> [9d14f57]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+
