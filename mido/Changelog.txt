@@ -1,144 +1,108 @@
 ====================
-     08-05-2020
+     08-19-2020
 ====================
 
 [vendor/aosip]
-derpfest: remove some  packages in order to decrease rom size <9 weeks ago> [e94325a]
+derpfest: remove some  packages in order to decrease rom size <2 months ago> [e1535b8]
 by: erickeagle3 (sayanchakraborty334@gmail.com)
 
 [packages/apps/OmniStyle]
-OmniStyle: nuke some unwanted headers <6 months ago> [19ec3ea]
+OmniStyle: nuke some unwanted headers <6 months ago> [b827bb6]
 by: Mayur (ultramayur123@gmail.com)
-
-[prebuilts/gcc/linux-x86/aarch64/aarch64-elf]
-Import GCC 10.2, binutils 2.35 <14 hours ago> [c5bde62]
-by: Park Ju Hyung (qkrwngud825@gmail.com)
 
 [vendor/pixelstyle]
-debloat <5 months ago> [16cb00c]
+debloat <5 months ago> [232f4c6]
 by: Mayur (ultramayur123@gmail.com)
 
 
 ====================
-     08-04-2020
+     08-18-2020
 ====================
 
-[manifest]
-Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/platform/manifest into ten <2 days ago> [6a84861]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-Manifest for Android 10.0.0 Release 41 (QQ3A.200805.001) <2 days ago> [458a841]
-by: The Android Open Source Project (initial-contribution@android.com)
-
-[build/make]
-Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/platform/build into HEAD <2 days ago> [26f2481f3]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[external/gptfdisk]
-Merge tag 'android-10.0.0_r41' into ten <2 days ago> [aad8539]
-by: Akhil Narang (me@akhilnarang.dev)
-
-[frameworks/av]
-Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/platform/frameworks/av into ten <2 days ago> [3ddea8400]
+[external/sqlite]
+Revert "Reduce sync safety levels from 3 to 1" <31 hours ago> [c856151]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 
 [frameworks/base]
-base: StatusBar: Improve custom settings observer <2 days ago> [0553caabffc]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/platform/frameworks/base into ten <2 days ago> [a36ca80b795]
+base: Add gaming mode QS tile settings <2 days ago> [8739831fac0]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 
 [packages/apps/Settings]
-Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/platform/packages/apps/Settings into HEAD <2 days ago> [ae6c3c35b9]
-by: Ido Ben-Hur (idoybh2@gmail.com)
+Settings: Update Greek tranlations (#23) <29 hours ago> [fdb55305ab]
+by: CrisBalGreece (crisbaladim@yahoo.gr)
 
-[packages/services/Telephony]
-Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/platform/packages/services/Telephony into HEAD <2 days ago> [99bd78805]
-by: Ido Ben-Hur (idoybh2@gmail.com)
+[packages/apps/DerpQuest]
+DerpQuest: Update Greek translations (#81) <29 hours ago> [7509c15]
+by: CrisBalGreece (crisbaladim@yahoo.gr)
 
-[scripts]
-scripts: aosp-merger: Make sure AOSP remote is valid <2 days ago> [b45917a]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-scripts: aosp-merger: Don't detach all heads <2 days ago> [b4ff52f]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-scripts: aosp-merger: Manually merge build/make & manifest before sync <2 days ago> [83a8ca1]
-by: Ido Ben-Hur (idoybh2@gmail.com)
+[prebuilts/clang/host/linux-x86]
+Update prebuilt Clang to r399163 (11.0.4). <5 days ago> [e7684bbc]
+by: Stephen Hines (srhines@google.com)
 
 
 ====================
-     08-03-2020
+     08-17-2020
+====================
+
+[frameworks/base]
+base: overlays: Add new icon shapes from Android R <8 weeks ago> [77771d130db]
+by: Andrew Thomas (itz63c@statixos.com)
+
+[frameworks/native]
+Merge caf sf changes  * from LA.UM.8.2.r2-02300-sdm660.0 <4 weeks ago> [2b1af2990]
+by: Adhitya Mohan (me@adhityamohan.in)
+
+[hardware/qcom-caf/sm8150/display]
+sdm: mark FOD pressed layer by setting a bit on ZPOS <3 months ago> [522d9e2e]
+by: Demon000 (demonsingur@gmail.com)
+
+[packages/apps/DerpQuest]
+DerpQuest: Don't translate Volume Panel Values <4 days ago> [01c4aa0]
+by: Northn (57762732+Northn@users.noreply.github.com)
+
+
+====================
+     08-16-2020
+====================
+
+
+====================
+     08-15-2020
 ====================
 
 [manifest]
-manifest: Track Snap camera from AOSiP <2 days ago> [5268110]
-by: Murtaza@Piplod (murtaza1926@gmail.com)
+manifest: track our own fork of PotatoPlugins <4 days ago> [10ae5e1]
+by: Ido Ben-Hur (idoybh2@gmail.com)
 
 [frameworks/base]
-FODCircleView: Let us call show() when mIsBouncer() && !isPinOrPattern() <3 months ago> [c8f7061aac0]
-by: LuK1337 (priv.luk@gmail.com)
-Camera: allow camera to use power key as shutter <8 years ago> [0e72c13d002]
-by: Danesh M (daneshm90@gmail.com)
+base: GamingModeTile: Improve code <5 days ago> [f663e6f467b]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[packages/apps/PotatoPlugins]
+plugins: Separate vibrate drawable for vol panel from common icon   @marshmello61 - do it for plugins  *impl: https://github.com/DerpLab/platform_frameworks_base/commit/fadb1f57b7c5de3557e208f6a8acc6897f4df3e8 <4 days ago> [b43e751]
+by: poad42 (me@adhityamohan.in)
+plugins: Launch Q expanded volume panel on arrow longpress  *for AospPanel and CompactPanel <4 days ago> [3c5c86d]
+by: poad42 (me@adhityamohan.in)
 
 
 ====================
-     08-02-2020
-====================
-
-[packages/apps/Settings]
-Settings: Update Simplified Chinese translations <4 days ago> [907f35d11e]
-by: onlymash (im@fiepi.me)
-
-
-====================
-     08-01-2020
+     08-14-2020
 ====================
 
 [frameworks/base]
-FODCircleView: Show while bouncer is requesting Pattern or PIN <7 days ago> [2673811209d]
-by: TheScarastic (warabhishek@gmail.com)
-base: Allow setting PowerMenu background blur radius [2/2] <5 days ago> [4c95d476e85]
+base: Refactor PowerMenu background filter code <5 days ago> [6c0401c68ce]
 by: Ido Ben-Hur (idoybh2@gmail.com)
-base: Improve PowerMenu backround filter code <5 days ago> [cfb37d17200]
+base: Update LockScreen date size when needed <6 days ago> [58ba6e6511f]
 by: Ido Ben-Hur (idoybh2@gmail.com)
-base: Powermenu Background filter [1/2] <7 weeks ago> [d5305ff59df]
-by: AnkitGourav (Ankitgourav035@gmail.com)
-
-[vendor/overlay]
-overlay: Add Derp Clear Primary <7 days ago> [c5b2162]
-by: deadmanxxd (deadmanxxd@gmail.com)
-
-[packages/apps/DerpQuest]
-DerpQuest: Allow setting PowerMenu background blur radius [2/2] <5 days ago> [a12652a]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-DerpQuest: Convert PowerMenu background filters to be a master switch <5 days ago> [3e270e8]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-DerpQuest: Add powermenu Background Filters [2/2] <7 days ago> [f391bb4]
-by: Aston-Martinn (advaithbhat9@gmail.com)
 
 
 ====================
-     07-31-2020
+     08-13-2020
 ====================
 
-[frameworks/base]
-base: Add QS header styles [1/3] <7 days ago> [405fd498ee6]
-by: SKULSHADY (anushekprasal@gmail.com)
-
-[vendor/overlay]
-overlay: Add QS header styles [3/3] <1 year, 9 months ago> [f69f0bf]
-by: Anushek Prasal (anushekprasal@gmail.com)
-
-[packages/apps/DerpQuest]
-DerpQuest: Add QS header styles [2/3] <7 days ago> [e8daf60]
-by: SKULSHADY (anushekprasal@gmail.com)
-
-
-====================
-     07-30-2020
-====================
-
-[packages/apps/DerpQuest]
-DerpQuest: Remove default summaries for master switches <7 days ago> [755d849]
-by: Ido Ben-Hur (idoybh2@gmail.com)
+[device/aosip/sepolicy]
+sepolicy: let matlog read dmesg Matlog creates empty dmesg.txt and this denial shows up in dmesg. <6 days ago> [7c312f0]
+by: DarkDampSquib (andrin.geiger1998@gmail.com)
 
 
 
