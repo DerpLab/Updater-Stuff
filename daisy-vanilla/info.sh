@@ -1,4 +1,4 @@
 DEVICE_NAME="daisy"
 TGNAME="@hotorou"
-MAINTAINER="Zunaued Dihan"
+MAINTAINER="Hotorou Oreki"
 DISCUSSION=""

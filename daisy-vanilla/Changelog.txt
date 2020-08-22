@@ -1,97 +1,25 @@
-====================
-     08-21-2020
-====================
+Device Changelog
 
-[device/qcom/sepolicy]
-Revert "sepolicy: Allow system_server to read persist camera props" <2 days ago> [0130c6e7]
-by: Murtaza@Piplod (murtaza1926@gmail.com)
-
-[system/sepolicy]
-Fix neverallows for spectrum policy (#6) <4 months ago> [bbc92089]
-by: mylove90 (50009562+mylove90@users.noreply.github.com)
-Add persist.spectrum.profile. <4 months ago> [fac865ca]
-by: SuperDroidBond (superdroidbond@yahoo.com)
-
-
-====================
-     08-20-2020
-====================
+- Address sepolicy denials
+- New HAL3|HAL1 Switch button profiles & QS Tiles (No need to root and reboot).
+- Add dirac QS tile
+- Add f2fs userdata entry
+- 2GB as zram - enough for a 3GB/4GB device
+- Parameters for Hotspot 2.0
+- Wifi Bonding For 2.4ghz band 
+- Introduce LMKD
+- Improve Bluetooth + Wi-Fi Coexistence
+- BlueTooth co-existence parameters
+- MiuiCam - Dual camera watermark & Fixed selfies with mottled colors - Thx @LuPeSolTec 
+- Update to Coral's August fingerprint
+- And other improvements
 
 
-====================
-     08-19-2020
-====================
+ROM Changelog
 
-[frameworks/base]
-base: Make gaming mode QS tile save and load the state of settings <2 days ago> [9ac85397a56]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-
-====================
-     08-18-2020
-====================
-
-[external/sqlite]
-Revert "Reduce sync safety levels from 3 to 1" <3 days ago> [c856151]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/apps/Settings]
-Settings: Update Greek tranlations (#23) <3 days ago> [fdb55305ab]
-by: CrisBalGreece (crisbaladim@yahoo.gr)
-
-[packages/apps/DerpQuest]
-DerpQuest: Update Greek translations (#81) <3 days ago> [7509c15]
-by: CrisBalGreece (crisbaladim@yahoo.gr)
-
-[prebuilts/clang/host/linux-x86]
-Update prebuilt Clang to r399163 (11.0.4). <7 days ago> [e7684bbc]
-by: Stephen Hines (srhines@google.com)
-
-
-====================
-     08-17-2020
-====================
-
-[frameworks/base]
-base: Add gaming mode QS tile settings <4 days ago> [8739831fac0]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-base: overlays: Add new icon shapes from Android R <8 weeks ago> [77771d130db]
-by: Andrew Thomas (itz63c@statixos.com)
-
-[frameworks/native]
-Merge caf sf changes  * from LA.UM.8.2.r2-02300-sdm660.0 <4 weeks ago> [2b1af2990]
-by: Adhitya Mohan (me@adhityamohan.in)
-
-[hardware/qcom-caf/sm8150/display]
-sdm: mark FOD pressed layer by setting a bit on ZPOS <3 months ago> [522d9e2e]
-by: Demon000 (demonsingur@gmail.com)
-
-[packages/apps/DerpQuest]
-DerpQuest: Don't translate Volume Panel Values <6 days ago> [01c4aa0]
-by: Northn (57762732+Northn@users.noreply.github.com)
-
-
-====================
-     08-16-2020
-====================
-
-
-====================
-     08-15-2020
-====================
-
-[manifest]
-manifest: track our own fork of PotatoPlugins <6 days ago> [10ae5e1]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[frameworks/base]
-base: GamingModeTile: Improve code <7 days ago> [f663e6f467b]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/apps/PotatoPlugins]
-plugins: Separate vibrate drawable for vol panel from common icon   @marshmello61 - do it for plugins  *impl: https://github.com/DerpLab/platform_frameworks_base/commit/fadb1f57b7c5de3557e208f6a8acc6897f4df3e8 <6 days ago> [b43e751]
-by: poad42 (me@adhityamohan.in)
-plugins: Launch Q expanded volume panel on arrow longpress  *for AospPanel and CompactPanel <7 days ago> [3c5c86d]
-by: poad42 (me@adhityamohan.in)
-
-
+- Added QS Tile Styles
+- Added new icon shapes from R
+- Added gaming mode QS tile settings
+- Set default custom ambient light colour to accent
+- Added Volume panel styles
+- Optimizations and fixes
