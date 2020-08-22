@@ -1,40 +1,18 @@
 Device Changelog
 
-- Removed audio platform and moved to xiaomi's acdb
-- Updated props from latest MIUI
-- Enables assisted IWLAN
-- Imported vendor overlays
-- Use stock vibration pattern
-- Force system to override vendor overlays
-- Status bar corner padding and height improvements
-- Fixed FOD animation offset
+- Added Screen Off FOD
+- Fixed voice recording
+- Set dynamic thermal interval to 5 sec
 - Misc enhancements
 
 ROM Changelog
 
-- Merged august security patch (r41)
-- Fixed Freeform window moving & resize issues
-- QS make sure we dont show empty row
-- Make lockscreen timeout configurable
-- Fix WebView vulnerability by disallowing file access
-- Added Pulse Navbar
-- Added automatic album art color mode for navbar pulse 
-- Added Switch Styles
-- Reverted Vowifi Icon Implementation
-- Refactor LockScreen elements font type & size implementation
-- Added RGB accenter
-- Added Bluetooth QTI Implementation
-- Improved Network Traffic Monitor
-- Added support for a custom icon for Toast 
-- Allow showing music heads up on new tracks
-- Added QS header styles
-- Added Powermenu Background filter 
-- Make Master switches summaries dynamic 
-- Added a name fitting easter egg
-- Added Derp Clear Primary
-- Added Snap Camera Support
-- Updates to translations
-- Some more minor derps/bugs fixes
+- Added QS Tile Styles
+- Added new icon shapes from R
+- Added gaming mode QS tile settings
+- Set default custom ambient light colour to accent
+- Added Volume panel styles
+- Optimizations and fixes
 
 Note : You need to flash the latest vendor version according to your region. Refer below,
 - V12.0.2.0 for India
