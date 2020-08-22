@@ -1,95 +1,75 @@
 ====================
-     08-10-2020
+     08-22-2020
 ====================
-
-[frameworks/base]
-base: Toast: Custom icon should not be static <17 hours ago> [e0e6a6a4]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[device/xiaomi/sagit]
-DerpFest: go official! <21 hours ago> [4efae75]
-by: BedrockDigger (callmebedrockdigger@gmail.com)
-
-
-====================
-     08-09-2020
-====================
-
-[packages/apps/Settings]
-Revert "Keyguard: Forward port lockscreen quick unlock (2/2)" <29 hours ago> [cc0c8c6]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[vendor/aosip]
-qcom: Add atoll platform <3 months ago> [cc68d1b]
-by: TheHitMan7 (krtik.vrma@gmail.com)
-
-[packages/apps/DerpQuest]
-DerpQuest: Enforce QS tile tint for appropriate QS tile styles <2 days ago> [92972cd]
-by: Ido Ben-Hur (idoybh2@gmail.com)
 
 [device/xiaomi/msm8998-common]
-Remove HD notification for VoLTE <29 hours ago> [4dd86f7]
-by: neobuddy89 (neobuddy89@gmail.com)
+Fix: disable HD notification <24 hours ago> [e5c2639]
+by: Estel (callmebedrockdigger@gmail.com)
 
 
 ====================
-     08-08-2020
-====================
-
-
-====================
-     08-07-2020
+     08-21-2020
 ====================
 
 [device/qcom/sepolicy]
-sepolicy: Allow system_server to read persist camera props <1 year, 7 months ago> [a7652e0]
-by: dianlujitao (dianlujitao@lineageos.org)
+Revert "sepolicy: Allow system_server to read persist camera props" <2 days ago> [0130c6e]
+by: Murtaza@Piplod (murtaza1926@gmail.com)
 
-[vendor/overlay]
-vendor: Add CircleOutline QS Tile Style [3/3] <1 year, 6 months ago> [6aad46f]
-by: sayan7848 (sayan7848@gmail.com)
-
-
-====================
-     08-06-2020
-====================
+[kernel/xiaomi/msm8998]
+qcacld-3.0: Delete extra characters <2 days ago> [54207d87]
+by: kenzoreed (thesupernikkce@yandex.ru)
 
 
 ====================
-     08-05-2020
+     08-20-2020
 ====================
 
-[prebuilts/gcc/linux-x86/aarch64/aarch64-elf]
-Import GCC 10.2, binutils 2.35 <6 days ago> [c5bde62]
-by: Park Ju Hyung (qkrwngud825@gmail.com)
-
-
-====================
-     08-04-2020
-====================
-
-[manifest]
-Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/platform/manifest into ten <7 days ago> [6a84861]
+[frameworks/base]
+base: Make gaming mode QS tile save and load the state of settings <3 days ago> [9ac85397]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 
-[build/make]
-Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/platform/build into HEAD <7 days ago> [26f2481]
+
+====================
+     08-19-2020
+====================
+
+
+====================
+     08-18-2020
+====================
+
+[external/sqlite]
+Revert "Reduce sync safety levels from 3 to 1" <4 days ago> [c856151]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 
-[external/gptfdisk]
-Merge tag 'android-10.0.0_r41' into ten <7 days ago> [aad8539]
-by: Akhil Narang (me@akhilnarang.dev)
+[packages/apps/Settings]
+Settings: Update Greek tranlations (#23) <4 days ago> [fdb5530]
+by: CrisBalGreece (crisbaladim@yahoo.gr)
 
-[frameworks/av]
-Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/platform/frameworks/av into ten <7 days ago> [3ddea84]
-by: Ido Ben-Hur (idoybh2@gmail.com)
+[packages/apps/DerpQuest]
+DerpQuest: Update Greek translations (#81) <4 days ago> [7509c15]
+by: CrisBalGreece (crisbaladim@yahoo.gr)
 
-[packages/services/Telephony]
-Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/platform/packages/services/Telephony into HEAD <7 days ago> [99bd788]
-by: Ido Ben-Hur (idoybh2@gmail.com)
+[prebuilts/clang/host/linux-x86]
+Update prebuilt Clang to r399163 (11.0.4). <8 days ago> [e7684bbc]
+by: Stephen Hines (srhines@google.com)
 
-[scripts]
-scripts: aosp-merger: Make sure AOSP remote is valid <7 days ago> [b45917a]
-by: Ido Ben-Hur (idoybh2@gmail.com)
+
+====================
+     08-17-2020
+====================
+
+[frameworks/native]
+Merge caf sf changes  * from LA.UM.8.2.r2-02300-sdm660.0 <5 weeks ago> [2b1af29]
+by: Adhitya Mohan (me@adhityamohan.in)
+
+[hardware/qcom-caf/sm8150/display]
+sdm: mark FOD pressed layer by setting a bit on ZPOS <3 months ago> [522d9e2]
+by: Demon000 (demonsingur@gmail.com)
+
+
+====================
+     08-16-2020
+====================
 
 
