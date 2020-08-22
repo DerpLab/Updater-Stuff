@@ -1,18 +1,32 @@
 ====================
+     08-21-2020
+====================
+
+[device/qcom/sepolicy]
+Revert "sepolicy: Allow system_server to read persist camera props" <2 days ago> [0130c6e7]
+by: Murtaza@Piplod (murtaza1926@gmail.com)
+
+
+====================
+     08-20-2020
+====================
+
+[frameworks/base]
+base: Make gaming mode QS tile save and load the state of settings <3 days ago> [9ac85397a56]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+
+====================
      08-19-2020
 ====================
 
-[vendor/aosip]
-derpfest: remove some  packages in order to decrease rom size <2 months ago> [e1535b8]
-by: erickeagle3 (sayanchakraborty334@gmail.com)
+[packages/apps/Settings]
+Settings: Update Greek tranlations (#23) <4 days ago> [fdb55305ab]
+by: CrisBalGreece (crisbaladim@yahoo.gr)
 
-[packages/apps/OmniStyle]
-OmniStyle: nuke some unwanted headers <6 months ago> [b827bb6]
-by: Mayur (ultramayur123@gmail.com)
-
-[vendor/pixelstyle]
-debloat <5 months ago> [232f4c6]
-by: Mayur (ultramayur123@gmail.com)
+[packages/apps/DerpQuest]
+DerpQuest: Update Greek translations (#81) <4 days ago> [7509c15]
+by: CrisBalGreece (crisbaladim@yahoo.gr)
 
 
 ====================
@@ -20,23 +34,19 @@ by: Mayur (ultramayur123@gmail.com)
 ====================
 
 [external/sqlite]
-Revert "Reduce sync safety levels from 3 to 1" <31 hours ago> [c856151]
+Revert "Reduce sync safety levels from 3 to 1" <4 days ago> [c856151]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 
 [frameworks/base]
-base: Add gaming mode QS tile settings <2 days ago> [8739831fac0]
+base: Add gaming mode QS tile settings <5 days ago> [8739831fac0]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 
-[packages/apps/Settings]
-Settings: Update Greek tranlations (#23) <29 hours ago> [fdb55305ab]
-by: CrisBalGreece (crisbaladim@yahoo.gr)
-
-[packages/apps/DerpQuest]
-DerpQuest: Update Greek translations (#81) <29 hours ago> [7509c15]
-by: CrisBalGreece (crisbaladim@yahoo.gr)
+[frameworks/native]
+Merge caf sf changes  * from LA.UM.8.2.r2-02300-sdm660.0 <5 weeks ago> [2b1af2990]
+by: Adhitya Mohan (me@adhityamohan.in)
 
 [prebuilts/clang/host/linux-x86]
-Update prebuilt Clang to r399163 (11.0.4). <5 days ago> [e7684bbc]
+Update prebuilt Clang to r399163 (11.0.4). <8 days ago> [e7684bbc]
 by: Stephen Hines (srhines@google.com)
 
 
@@ -48,61 +58,16 @@ by: Stephen Hines (srhines@google.com)
 base: overlays: Add new icon shapes from Android R <8 weeks ago> [77771d130db]
 by: Andrew Thomas (itz63c@statixos.com)
 
-[frameworks/native]
-Merge caf sf changes  * from LA.UM.8.2.r2-02300-sdm660.0 <4 weeks ago> [2b1af2990]
-by: Adhitya Mohan (me@adhityamohan.in)
-
 [hardware/qcom-caf/sm8150/display]
 sdm: mark FOD pressed layer by setting a bit on ZPOS <3 months ago> [522d9e2e]
 by: Demon000 (demonsingur@gmail.com)
 
 [packages/apps/DerpQuest]
-DerpQuest: Don't translate Volume Panel Values <4 days ago> [01c4aa0]
+DerpQuest: Don't translate Volume Panel Values <7 days ago> [01c4aa0]
 by: Northn (57762732+Northn@users.noreply.github.com)
 
 
 ====================
      08-16-2020
 ====================
-
-
-====================
-     08-15-2020
-====================
-
-[manifest]
-manifest: track our own fork of PotatoPlugins <4 days ago> [10ae5e1]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[frameworks/base]
-base: GamingModeTile: Improve code <5 days ago> [f663e6f467b]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/apps/PotatoPlugins]
-plugins: Separate vibrate drawable for vol panel from common icon   @marshmello61 - do it for plugins  *impl: https://github.com/DerpLab/platform_frameworks_base/commit/fadb1f57b7c5de3557e208f6a8acc6897f4df3e8 <4 days ago> [b43e751]
-by: poad42 (me@adhityamohan.in)
-plugins: Launch Q expanded volume panel on arrow longpress  *for AospPanel and CompactPanel <4 days ago> [3c5c86d]
-by: poad42 (me@adhityamohan.in)
-
-
-====================
-     08-14-2020
-====================
-
-[frameworks/base]
-base: Refactor PowerMenu background filter code <5 days ago> [6c0401c68ce]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-base: Update LockScreen date size when needed <6 days ago> [58ba6e6511f]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-
-====================
-     08-13-2020
-====================
-
-[device/aosip/sepolicy]
-sepolicy: let matlog read dmesg Matlog creates empty dmesg.txt and this denial shows up in dmesg. <6 days ago> [7c312f0]
-by: DarkDampSquib (andrin.geiger1998@gmail.com)
-
-
 
