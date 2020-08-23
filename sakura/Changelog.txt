@@ -1,0 +1,25 @@
+2020-08-23
+
+Device:
+
+* Updated to revvz kernel v6.0
+* Added Dirac sound
+* Selinux permissive for now
+* Updated Miui camera
+* Other small changes and improvements
+
+ROM:
+
+* Added gaming mode QS tile settings (in tile's detail view)
+* Made gaming mode tile actually save/restore the state of settings from before it was toggled
+* Added new icon shapes from R
+* Solved the small lockscreen date bug
+* Refactored powermenu backgroud filter code, solved the render atifact it had
+* Allowed builtin matlog to read dmesg
+* Fixed the vibrate drawable in volume panels (again)
+* Merged caf changes into frameworks/native (solves screen recorder lags)
+* Increased sqlite sync safety back to 3
+* Above possibly fixes the "can't sign in" bug some users experienced
+* Updates to translations
+* Some other small derp fixes
+
