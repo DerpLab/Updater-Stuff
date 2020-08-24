@@ -13,6 +13,8 @@ Device Changelog
 - MiuiCam - Dual camera watermark & Fixed selfies with mottled colors - Thx @LuPeSolTec 
 - Update to Coral's August fingerprint
 - And other improvements
+- Added Vibration feedback in Xiaomi parts
+- Added Usb fast charge
 
 
 ROM Changelog

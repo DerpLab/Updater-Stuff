@@ -1,4 +1,4 @@
-DEVICE_NAME="daisy"
+DEVICE_NAME="Xiaomi Mi A2 Lite"
 TGNAME="@hotorou"
 MAINTAINER="Hotorou Oreki"
-DISCUSSION=""
+DISCUSSION="https://t.me/DerpDaisy"
