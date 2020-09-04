@@ -1,87 +1,105 @@
 ====================
-     08-23-2020
+     09-04-2020
 ====================
 
 [frameworks/base]
-base: Add Mi 10 Ultra FOD animations [1/2] <22 hours ago> [38d22f0c944]
-by: Raaj52 (mail2raaj52@gmail.com)
+base: Only enable ambient edge lightning when AoD is on <31 hours ago> [c92082b578c]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+FODCircleView: Don't show on certain cases <5 months ago> [0924633a52b]
+by: jhenrique09 (jhenrique09.mcz@hotmail.com)
+FODCircleView: Enable hardware acceleration <2 weeks ago> [4c3b6c811c2]
+by: Hikari-no-Tenshi (kyryljan.serhij@gmail.com)
+Add FOD system overlay types <9 weeks ago> [87bd6b23307]
+by: Hikari-no-Tenshi (kyryljan.serhij@gmail.com)
+FODCircleView: Post calls of main hal functions on background thread <9 weeks ago> [f5d6905b701]
+by: Hikari-no-Tenshi (kyryljan.serhij@gmail.com)
+FODCircleView: Use Handler for Icon dim color filter <2 weeks ago> [8c333df9b88]
+by: Hikari-no-Tenshi (kyryljan.serhij@gmail.com)
+FODCircleView: Reduce calls for FingerprintInscreen daemon init <2 weeks ago> [0fbe30beb99]
+by: Hikari-no-Tenshi (kyryljan.serhij@gmail.com)
+SystemUI: add pulsing callback to KeyguardUpdateMonitor <11 months ago> [3dc08949086]
+by: Marko Man (darkobas@gmail.com)
+FOD: Use removeViewImmediate to remove views <5 weeks ago> [eaa1001aaf8]
+by: Hikari-no-Tenshi (kyryljan.serhij@gmail.com)
+FODCircleView: Change show/hide of pressed view <8 weeks ago> [1cb92f1ef40]
+by: Hikari-no-Tenshi (kyryljan.serhij@gmail.com)
+
+
+====================
+     09-03-2020
+====================
+
+[packages/apps/OpenDelta]
+OpenDelta: Add missing greek translations (#5) <2 days ago> [66af5d6]
+by: CrisBalGreece (crisbaladim@yahoo.gr)
+
+[hardware/qcom-caf/msm8998/display]
+display: Add interface to set display attributes <4 months ago> [8190e79b]
+by: Dileep Marchya (dmarchya@codeaurora.org)
+
+
+====================
+     09-02-2020
+====================
+
+
+====================
+     09-01-2020
+====================
+
+
+====================
+     08-31-2020
+====================
+
+[frameworks/base]
+SystemUI: allow setting custom cutout shapes <8 months ago> [2fe9914ede3]
+by: Park Ju Hyung (qkrwngud825@gmail.com)
+base: Update Chinese translation <5 days ago> [5adc974db68]
+by: ZONGQUAN-HU (1114807608@qq.com)
 
 [packages/apps/DerpQuest]
-DerpQuest: Add Mi 10 Ultra FOD animations [2/2] <22 hours ago> [7e71424]
-by: Raaj52 (mail2raaj52@gmail.com)
+DerpQuest: Hide corner radius for devices that have a custom cutout <4 days ago> [ce072df]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[prebuilts/clang/host/linux-x86/clang-proton]
+Update to 20200831 build <4 days ago> [ece6368]
+by: Danny (danny@kdrag0n.dev)
 
 
 ====================
-     08-22-2020
-====================
-
-
-====================
-     08-21-2020
-====================
-
-[device/qcom/sepolicy]
-Revert "sepolicy: Allow system_server to read persist camera props" <3 days ago> [0130c6e7]
-by: Murtaza@Piplod (murtaza1926@gmail.com)
-
-
-====================
-     08-20-2020
+     08-30-2020
 ====================
 
 [frameworks/base]
-base: Make gaming mode QS tile save and load the state of settings <4 days ago> [9ac85397a56]
+SystemUI: FODCircleView: Animate the icon dim <5 days ago> [ca07be11fe8]
 by: Ido Ben-Hur (idoybh2@gmail.com)
-
-
-====================
-     08-19-2020
-====================
-
-[external/sqlite]
-Revert "Reduce sync safety levels from 3 to 1" <5 days ago> [c856151]
+SystemUI: FODCircleView: Improve pressed state code <5 days ago> [fa2caeefbdd]
 by: Ido Ben-Hur (idoybh2@gmail.com)
+SystemUI: Updated RU translation <6 days ago> [c1cace52317]
+by: Northn (57762732+Northn@users.noreply.github.com)
+base: Chinese translation for type clock <11 days ago> [e6783ceecb8]
+by: ZONGQUAN-HU (1114807608@qq.com)
+SystemUI: Add OOS Q VoLTE <7 days ago> [917930736c7]
+by: SKULSHADY (anushekprasal@gmail.com)
 
 [packages/apps/Settings]
-Settings: Update Greek tranlations (#23) <5 days ago> [fdb55305ab]
-by: CrisBalGreece (crisbaladim@yahoo.gr)
+Settings: Avoid enforcing weird backgrounds <10 weeks ago> [43510f28df]
+by: El Dainosor (eldainosor@gmail.com)
+Settings: Add Chinese translation for random summary (#24) <6 days ago> [94abc3ac4f]
+by: ZONGQUAN-HU (36360150+ZONGQUAN-HU@users.noreply.github.com)
 
 [packages/apps/DerpQuest]
-DerpQuest: Update Greek translations (#81) <5 days ago> [7509c15]
-by: CrisBalGreece (crisbaladim@yahoo.gr)
-
-[prebuilts/clang/host/linux-x86]
-Update prebuilt Clang to r399163 (11.0.4). <9 days ago> [e7684bbc]
-by: Stephen Hines (srhines@google.com)
-
-
-====================
-     08-18-2020
-====================
-
-[frameworks/base]
-base: Add gaming mode QS tile settings <6 days ago> [8739831fac0]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[frameworks/native]
-Merge caf sf changes  * from LA.UM.8.2.r2-02300-sdm660.0 <5 weeks ago> [2b1af2990]
-by: Adhitya Mohan (me@adhityamohan.in)
-
-
-====================
-     08-17-2020
-====================
-
-[frameworks/base]
-base: overlays: Add new icon shapes from Android R <8 weeks ago> [77771d130db]
-by: Andrew Thomas (itz63c@statixos.com)
-
-[hardware/qcom-caf/sm8150/display]
-sdm: mark FOD pressed layer by setting a bit on ZPOS <3 months ago> [522d9e2e]
-by: Demon000 (demonsingur@gmail.com)
-
-[packages/apps/DerpQuest]
-DerpQuest: Don't translate Volume Panel Values <8 days ago> [01c4aa0]
+DerpQuest: Update RU translation <6 days ago> [0f69287]
 by: Northn (57762732+Northn@users.noreply.github.com)
+
+
+====================
+     08-29-2020
+====================
+
+[prebuilts/clang/host/linux-x86/clang-proton]
+readme: Document fix for stpcpy error <7 days ago> [32f1732]
+by: Danny Lin (danny@kdrag0n.dev)
 
 
