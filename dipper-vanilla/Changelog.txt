@@ -1,225 +1,79 @@
 ====================
-     08-28-2020
+     09-11-2020
+====================
+
+
+====================
+     09-10-2020
+====================
+
+
+====================
+     09-09-2020
+====================
+
+[packages/providers/DownloadProvider]
+Merge tag 'android-10.0.0_r46' into staging/ten-android-10.0.0_r46 <2 days ago> [0a5ddf52]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+
+====================
+     09-08-2020
 ====================
 
 [frameworks/base]
-FODCircleView: Dim FOD icon <3 months ago> [002c7bcaebc]
-by: Serhij Kyryljan (kyryljan.serhij@gmail.com)
-base: Add config for notification LED <10 hours ago> [5dbb7d286d9]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/apps/DerpQuest]
-DerpQuest: Hide LED section for unsupported devices <10 hours ago> [ee8b376]
-by: Ido Ben-Hur (idoybh2@gmail.com)
+base: Update Chinese translation <5 days ago> [132839a4c88]
+by: ZONGQUAN-HU (36360150+ZONGQUAN-HU@users.noreply.github.com)
 
 
 ====================
-     08-27-2020
+     09-07-2020
 ====================
 
-[packages/apps/Matlog]
-Merge remote-tracking branch 'omni/android-10' into HEAD <2 days ago> [c125d29]
-by: Ido Ben-Hur (idoybh2@gmail.com)
 
-[packages/apps/OpenDelta]
-Merge remote-tracking branch 'omni/android-10' into ten <2 days ago> [ce430eb]
-by: Ido Ben-Hur (idoybh2@gmail.com)
+====================
+     09-06-2020
+====================
+
+[frameworks/base]
+Don't send interaction hint for unnecessary events <2 years, 2 months ago> [8a30a07a6a4]
+by: Alex Naidis (alex.naidis@paranoidandroid.co)
+Permissions: Stop auto-granting location to system browsers <3 months ago> [c17bd8db737]
+by: Daniel Micay (danielmicay@gmail.com)
+Notifications: Make USB-Debugging notification less important <4 months ago> [6db71500dac]
+by: Michael W (baddaemon87@gmail.com)
+Notification: Fix no icon shown for data limit notification <3 years, 2 months ago> [0764eab3cea]
+by: Sridhar Kasukurthi (skasuk@codeaurora.org)
+
+[packages/apps/Settings]
+Settings: restyle that horrible sim select dialog <3 months ago> [a86fc4a3d4]
+by: maxwen (max.weninger@gmail.com)
 
 [kernel/xiaomi/sdm845]
-Merge branch 'android-4.9-q' of https://android.googlesource.com/kernel/common into HEAD <2 days ago> [7afe53bf3594]
+Merge branch 'lineage-17.1' of https://github.com/LineageOS/android_kernel_xiaomi_sdm845 into lineage-17.1 <5 days ago> [7da012c94fed]
+by: ALKALiKong (alikongalk@gmail.com)
+Use tg bot to upload <5 days ago> [7011140824ef]
+by: ALKALiKong (alikongalk@gmail.com)
+lib/string.c: implement stpcpy <6 days ago> [d8fa3e7aa4a4]
+by: Nick Desaulniers (ndesaulniers@google.com)
+Use drone to build <6 days ago> [4c4dbf31bab3]
 by: ALKALiKong (alikongalk@gmail.com)
 
 
 ====================
-     08-26-2020
-====================
-
-[vendor/overlay]
-overlay: improve Lead Black primary <3 days ago> [6cc6c3f]
-by: Mayur (ultramayur123@gmail.com)
-
-[kernel/xiaomi/sdm845]
-Merge 4.9.234 into android-4.9-q <2 days ago> [acdc56dd94d2]
-by: Greg Kroah-Hartman (gregkh@google.com)
-Linux 4.9.234 <2 days ago> [c6a15d151e35]
-by: Greg Kroah-Hartman (gregkh@linuxfoundation.org)
-KVM: arm/arm64: Don't reschedule in unmap_stage2_range() <4 days ago> [c0ca97bcfc0b]
-by: Will Deacon (will@kernel.org)
-xen: don't reschedule in preemption off sections <8 days ago> [606c6eb9f8a9]
-by: Juergen Gross (jgross@suse.com)
-mm/hugetlb: fix calculation of adjust_range_if_pmd_sharing_possible <3 weeks ago> [fe5f83b16307]
-by: Peter Xu (peterx@redhat.com)
-do_epoll_ctl(): clean the failure exits up a bit <6 days ago> [b3ce6ca929dc]
-by: Al Viro (viro@zeniv.linux.org.uk)
-epoll: Keep a reference on files added to the check list <9 days ago> [9bbd20326fef]
-by: Marc Zyngier (maz@kernel.org)
-powerpc: Allow 4224 bytes of stack expansion for the signal frame <5 weeks ago> [a7fef53a41da]
-by: Michael Ellerman (mpe@ellerman.id.au)
-powerpc/pseries: Do not initiate shutdown when system is running on UPS <8 days ago> [13ad432444c1]
-by: Vasant Hegde (hegdevasant@linux.vnet.ibm.com)
-net: dsa: b53: check for timeout <7 days ago> [b1fea03057ef]
-by: Tom Rix (trix@redhat.com)
-ASoC: intel: Fix memleak in sst_media_open <2 weeks ago> [f46eec970530]
-by: Dinghao Liu (dinghao.liu@zju.edu.cn)
-net: fec: correct the error path for regulator disable in probe <2 weeks ago> [3f9f6b032d23]
-by: Fugang Duan (fugang.duan@nxp.com)
-i40e: Set RX_ONLY mode for unicast promiscuous on VLAN <3 weeks ago> [f3926733dcdc]
-by: Przemyslaw Patynowski (przemyslawx.patynowski@intel.com)
-ext4: fix potential negative array index in do_split() <2 months ago> [539ae3e03875]
-by: Eric Sandeen (sandeen@redhat.com)
-alpha: fix annotation of io{read,write}{16,32}be() <2 weeks ago> [cc0c6b17f948]
-by: Luc Van Oostenryck (luc.vanoostenryck@gmail.com)
-xfs: Fix UBSAN null-ptr-deref in xfs_sysfs_init <3 weeks ago> [a7631e087f1e]
-by: Eiichi Tsukata (devel@etsukata.com)
-virtio_ring: Avoid loop when vq is broken in virtqueue_poll <4 weeks ago> [057069c26fd3]
-by: Mao Wenan (wenan.mao@linux.alibaba.com)
-scsi: libfc: Free skb in fc_disc_gpn_id_resp() for valid cases <4 weeks ago> [958f6e406c1c]
-by: Javed Hasan (jhasan@marvell.com)
-jffs2: fix UAF problem <2 months ago> [4afde5c2320a]
-by: Zhe Li (lizhe67@huawei.com)
-xfs: fix inode quota reservation checks <6 weeks ago> [00d495ebd489]
-by: Darrick J. Wong (darrick.wong@oracle.com)
-m68knommu: fix overwriting of bits in ColdFire V3 cache control <3 months ago> [aac5d7539f28]
-by: Greg Ungerer (gerg@linux-m68k.org)
-Input: psmouse - add a newline when printing 'proto' by sysfs <5 weeks ago> [609e9302f163]
-by: Xiongfeng Wang (wangxiongfeng2@huawei.com)
-media: vpss: clean up resources in init <7 weeks ago> [0bd77f37daf7]
-by: Evgeny Novikov (novikov@ispras.ru)
-media: budget-core: Improve exception handling in budget_register() <3 months ago> [3264112eb59b]
-by: Chuhong Yuan (hslester96@gmail.com)
-scsi: ufs: Add DELAY_BEFORE_LPM quirk for Micron devices <3 months ago> [e42d52cafb1a]
-by: Stanley Chu (stanley.chu@mediatek.com)
-ext4: fix checking of directory entry validity for inline directories <4 weeks ago> [f6f3fdf5052b]
-by: Jan Kara (jack@suse.cz)
-ext4: clean up ext4_match() and callers <3 years, 4 months ago> [b522f43beefc]
-by: Eric Biggers (ebiggers@google.com)
-mm, page_alloc: fix core hung in free_pcppages_bulk() <7 days ago> [1a4029e931dc]
-by: Charan Teja Reddy (charante@codeaurora.org)
-mm: include CMA pages in lowmem_reserve at boot <7 days ago> [8c6a0bcb20a8]
-by: Doug Berger (opendmb@gmail.com)
-kernel/relay.c: fix memleak on destroy relay channel <7 days ago> [6662601e5790]
-by: Wei Yongjun (weiyongjun1@huawei.com)
-romfs: fix uninitialized memory leak in romfs_dev_read() <7 days ago> [6d26d0821647]
-by: Jann Horn (jannh@google.com)
-btrfs: don't show full path of bind mounts in subvol= <5 weeks ago> [daea4542b133]
-by: Josef Bacik (josef@toxicpanda.com)
-btrfs: export helpers for subvolume name/id resolution <6 months ago> [ba33ed7e3d43]
-by: Marcos Paulo de Souza (mpdesouza@suse.com)
-khugepaged: adjust VM_BUG_ON_MM() in __khugepaged_enter() <7 days ago> [cdb3f8b6c5b7]
-by: Hugh Dickins (hughd@google.com)
-khugepaged: khugepaged_test_exit() check mmget_still_valid() <3 weeks ago> [db63d1862181]
-by: Hugh Dickins (hughd@google.com)
-tracing/hwlat: Honor the tracing_cpumask <4 weeks ago> [854cbc3db303]
-by: Kevin Hao (haokexin@gmail.com)
-tracing: Clean up the hwlat binding code <3 years, 7 months ago> [ee458aa7a03a]
-by: Steven Rostedt (VMware) (rostedt@goodmis.org)
-perf probe: Fix memory leakage when the probe point is not found <7 weeks ago> [b907dd1d2ddb]
-by: Masami Hiramatsu (mhiramat@kernel.org)
-drm/imx: imx-ldb: Disable both channels for split mode in enc->disable() <7 weeks ago> [71e7ac9ae8f0]
-by: Liu Ying (victor.liu@nxp.com)
-x86/asm: Add instruction suffixes to bitops <2 years, 6 months ago> [7ee66a8a71cf]
-by: Jan Beulich (JBeulich@suse.com)
-x86/asm: Remove unnecessary \n\t in front of CC_SET() from asm templates <3 years ago> [3f2bea782ec1]
-by: Uros Bizjak (ubizjak@gmail.com)
-
-
-====================
-     08-25-2020
+     09-05-2020
 ====================
 
 [frameworks/base]
-VibratorService: implement OnePlus proprietary vibrator format [squashed] <8 months ago> [c556514f7cd]
-by: rituj (ritujbeniwal@gmail.com)
+base: Call gaming mode tile gaming macro <7 days ago> [df3deb015d7]
+by: Ido Ben-Hur (idoybh2@gmail.com)
 
+[packages/apps/PotatoPlugins]
+plugins: Use system corner radius where needed <2 weeks ago> [1baddd1]
+by: ZeNiXxX (zenixxx.havoc@gmail.com)
 
-====================
-     08-24-2020
-====================
-
-[frameworks/base]
-base: Remove Duplicate FOD animations [1/2] <5 days ago> [febe857036b]
-by: Raaj52 (mail2raaj52@gmail.com)
-
-[packages/apps/DerpQuest]
-DerpQuest: Remove duplicate FOD animations [2/2] <5 days ago> [e865fe1]
-by: Raaj52 (mail2raaj52@gmail.com)
-
-[device/xiaomi/dipper]
-dipper: Kang brightness overlay from PE <4 days ago> [38f70c6]
-by: ALKALiKong (alikongalk@gmail.com)
-dipper: Update dependencies <3 weeks ago> [99fa784]
-by: ALKALiKong (alikongalk@gmail.com)
-dipper: Switch to my own kernel and use candy clang to build <3 weeks ago> [1c028fb]
-by: ALKALiKong (alikongalk@gmail.com)
-dipper: rootdir: Enable kernel's usb fast charge by default <6 weeks ago> [d3dd8e8]
-by: ALKALiKong (alikongalk@gmail.com)
-dipper: Unset VINTF target level <8 weeks ago> [9c8369e]
-by: Bruno Martins (bgcngm@gmail.com)
-dipper: Set Opendelta to new link for VANILLA <8 weeks ago> [c7a35fb]
-by: ALKALiKong (alikongalk@gmail.com)
-dipper: Switch to OSS fingerprint HIDL <3 months ago> [ef3b9da]
-by: Bruno Martins (bgcngm@gmail.com)
-dipper: Build with Google recorder <3 months ago> [655ea53]
-by: Henrique Pereira (hlcpereira@pixelexperience.org)
-dipper: Remove build type flags <4 months ago> [33700ab]
-by: ALKALiKong (54100342+ALKALiKong233@users.noreply.github.com)
-dipper: Switch to DPI of 420 <6 months ago> [3681d55]
-by: argraur (argraur@aosip.dev)
-dipper: rootdir: set zram size to 50% of total ram [1/2] <4 months ago> [251114e]
-by: Angga Satya Putra (anggasp@hotmail.com)
-dipper: rootdir: tune zram performance [1/2] <3 years, 3 months ago> [6c51cec]
-by: Wei Wang (wvw@google.com)
-dipper: Use blueline power profile <10 months ago> [66af8fc]
-by: argraur (argraur@gmail.com)
-dipper: Use one size radius for all corners <5 months ago> [07c35e5]
-by: Alex (badnwz.ad@gmail.com)
-dipper: Enable wide color display support <1 year, 1 month ago> [51aacf2]
-by: argraur (argraur@gmail.com)
-dipper: Stop overriding TARGET_DEVICE <12 months ago> [0f94d3d]
-by: LuK1337 (priv.luk@gmail.com)
-dipper: Move libnfc-nci.conf to /product <1 year, 10 months ago> [209bd6a]
-by: Anton Hansson (hansson@google.com)
-dipper: Removed not used blobs <5 months ago> [05517de]
-by: ALKALiKong (alikongalk@gmail.com)
-dipper: Move calib xml to device tree <5 months ago> [334bb14]
-by: Henrique Pereira (hlcpereira@pixelexperience.org)
-dipper: Add recovery & FW links overlays <3 weeks ago> [3e52ddc]
-by: ALKALiKong (alikongalk@gmail.com)
-dipper: Add display colour configs to overlay <6 months ago> [e5ce940]
-by: 1nfrag (sil3ntcll@gmail.com)
-dipper: Add face unlock cam id property <5 months ago> [337d60b]
-by: Henrique Pereira (hlcpereira@pixelexperience.org)
-dipper: Move system props to product <8 months ago> [bb9f00c]
-by: Dyneteve (dyneteve@pixelexperience.org)
-dipper: Use TARGET_SCREEN_DENSITY <1 year, 7 months ago> [de30aad]
-by: Anton Hansson (hansson@google.com)
-dipper: Mark as having overridden commands <2 years, 2 months ago> [5840e63]
-by: Dan Willemsen (dwillemsen@google.com)
-dipper: Split system and vendor props <6 months ago> [57f7ff9]
-by: Bruno Martins (bgcngm@gmail.com)
-Revert "Revert "dipper: Set face unlock camera ID"" <5 months ago> [0ffdf3e]
-by: Henrique Pereira (hlcpereira@pixelexperience.org)
-
-
-====================
-     08-23-2020
-====================
-
-[frameworks/base]
-base: Add Mi 10 Ultra FOD animations [1/2] <6 days ago> [38d22f0c944]
-by: Raaj52 (mail2raaj52@gmail.com)
-
-[packages/apps/DerpQuest]
-DerpQuest: Add Mi 10 Ultra FOD animations [2/2] <6 days ago> [7e71424]
-by: Raaj52 (mail2raaj52@gmail.com)
-
-[kernel/xiaomi/sdm845]
-Merge branch 'android-4.9-q' of https://android.googlesource.com/kernel/common into HEAD <5 days ago> [2540893aa09a]
-by: ALKALiKong (alikongalk@gmail.com)
-
-
-====================
-     08-22-2020
-====================
+[prebuilts/clang/host/linux-x86]
+Update prebuilt Clang to r399163 (11.0.4). <2 weeks ago> [6107c42a]
+by: Stephen Hines (srhines@google.com)
 
 
