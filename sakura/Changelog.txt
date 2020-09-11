@@ -1,25 +1,50 @@
-2020-08-23
+Update Date: 11 sept 2020
 
-Device:
+- Device Side Changelogs:
+[*]SELinux now enforcing
+[*]Fixed an audio hal error
+[*]Removed RBG led lights as device doesnt support
+[*]Updated revvz tunings
+[*]Updated kernel to revvz6.E
 
-* Updated to revvz kernel v6.0
-* Added Dirac sound
-* Selinux permissive for now
-* Updated Miui camera
-* Other small changes and improvements
+- Kernel Side Changelogs
 
-ROM:
+[*]Improved network speeds
+[*]Powersaving tweaks
+[*]Misc optimizations
+[*]Improved Process Reclaim(multitasking)
+[*]Improved battery consumption and idle
+[*]More system performance improvements(Scheduler and HW)
+[*]WiFi powersaving changes
+[*]Improved network performance
+[*]Increased HW button responsiveness
+[*]Disabled redundant system components
+[*]Added KCAL
+[*]Misc bugfixes
 
-* Added gaming mode QS tile settings (in tile's detail view)
-* Made gaming mode tile actually save/restore the state of settings from before it was toggled
-* Added new icon shapes from R
-* Solved the small lockscreen date bug
-* Refactored powermenu backgroud filter code, solved the render atifact it had
-* Allowed builtin matlog to read dmesg
-* Fixed the vibrate drawable in volume panels (again)
-* Merged caf changes into frameworks/native (solves screen recorder lags)
-* Increased sqlite sync safety back to 3
-* Above possibly fixes the "can't sign in" bug some users experienced
-* Updates to translations
-* Some other small derp fixes
+- Source Changelogs
+
+[*]Merged august security patch (r41)
+[*]Fixed Freeform window moving & resize issues
+[*]QS make sure we dont show empty row
+[*]Make lockscreen timeout configurable
+[*]Fix WebView vulnerability by disallowing file access
+[*]Added Pulse Navbar
+[*]Added automatic album art color mode for navbar pulse 
+[*]Added Switch Styles
+[*]Reverted Vowifi Icon Implementation
+[*]Refactor LockScreen elements font type & size implementation
+[*]Added RGB accenter
+[*]Added Bluetooth QTI Implementation
+[*]Improved Network Traffic Monitor
+[*]Added support for a custom icon for Toast 
+[*]Allow showing music heads up on new tracks
+[*]Added QS header styles
+[*]Added Powermenu Background filter 
+[*]Make Master switches summaries dynamic 
+[*]Added a name fitting easter egg
+[*]Added Derp Clear Primary
+[*]Added Snap Camera Support
+[*]Updates to translations
+[*]Some more minor derps/bugs fixes
 
