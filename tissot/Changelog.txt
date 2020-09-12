@@ -1,171 +1,185 @@
 ====================
-     08-04-2020
+     09-12-2020
 ====================
 
 [manifest]
-Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/platform/manifest into ten <8 hours ago> [6a84861]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-Manifest for Android 10.0.0 Release 41 (QQ3A.200805.001) <8 hours ago> [458a841]
-by: The Android Open Source Project (initial-contribution@android.com)
-manifest: Track Snap camera from AOSiP <22 hours ago> [5268110]
-by: Murtaza@Piplod (murtaza1926@gmail.com)
-
-[build/make]
-Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/platform/build into HEAD <8 hours ago> [26f2481f3]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[device/qcom/sepolicy]
-sepolicy: Allow system_server to read persist camera props <1 year, 7 months ago> [1198d024]
-by: dianlujitao (dianlujitao@lineageos.org)
-
-[external/gptfdisk]
-Merge tag 'android-10.0.0_r41' into ten <8 hours ago> [aad8539]
-by: Akhil Narang (me@akhilnarang.dev)
-
-[frameworks/av]
-Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/platform/frameworks/av into ten <7 hours ago> [3ddea8400]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[frameworks/base]
-base: StatusBar: Improve custom settings observer <80 minutes ago> [0553caabffc]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/platform/frameworks/base into ten <7 hours ago> [a36ca80b795]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-FODCircleView: Let us call show() when mIsBouncer() && !isPinOrPattern() <3 months ago> [c8f7061aac0]
-by: LuK1337 (priv.luk@gmail.com)
-Camera: allow camera to use power key as shutter <8 years ago> [0e72c13d002]
-by: Danesh M (daneshm90@gmail.com)
-
-[packages/apps/Settings]
-Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/platform/packages/apps/Settings into HEAD <7 hours ago> [ae6c3c35b9]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/services/Telephony]
-Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/platform/packages/services/Telephony into HEAD <7 hours ago> [99bd78805]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[scripts]
-scripts: aosp-merger: Make sure AOSP remote is valid <3 hours ago> [b45917a]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-scripts: aosp-merger: Don't detach all heads <3 hours ago> [b4ff52f]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-scripts: aosp-merger: Manually merge build/make & manifest before sync <7 hours ago> [83a8ca1]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-
-====================
-     08-03-2020
-====================
-
-[packages/apps/Settings]
-Settings: Update Simplified Chinese translations <3 days ago> [907f35d11e]
-by: onlymash (im@fiepi.me)
-
-
-====================
-     08-02-2020
-====================
-
-[frameworks/base]
-FODCircleView: Show while bouncer is requesting Pattern or PIN <5 days ago> [2673811209d]
-by: TheScarastic (warabhishek@gmail.com)
-base: Allow setting PowerMenu background blur radius [2/2] <3 days ago> [4c95d476e85]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-base: Improve PowerMenu backround filter code <4 days ago> [cfb37d17200]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-base: Powermenu Background filter [1/2] <7 weeks ago> [d5305ff59df]
-by: AnkitGourav (Ankitgourav035@gmail.com)
-
-[vendor/overlay]
-overlay: Add Derp Clear Primary <6 days ago> [c5b2162]
-by: deadmanxxd (deadmanxxd@gmail.com)
-
-[packages/apps/DerpQuest]
-DerpQuest: Allow setting PowerMenu background blur radius [2/2] <3 days ago> [a12652a]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[prebuilts/clang/host/linux-x86/clang-proton]
-Update to 20200801 build <2 days ago> [45c59ca]
-by: Danny (danny@kdrag0n.dev)
-
-
-====================
-     08-01-2020
-====================
-
-[packages/apps/DerpQuest]
-DerpQuest: Convert PowerMenu background filters to be a master switch <3 days ago> [3e270e8]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-DerpQuest: Add powermenu Background Filters [2/2] <6 days ago> [f391bb4]
-by: Aston-Martinn (advaithbhat9@gmail.com)
-
-
-====================
-     07-31-2020
-====================
-
-[frameworks/base]
-base: Add QS header styles [1/3] <5 days ago> [405fd498ee6]
-by: SKULSHADY (anushekprasal@gmail.com)
-
-[vendor/overlay]
-overlay: Add QS header styles [3/3] <1 year, 9 months ago> [f69f0bf]
-by: Anushek Prasal (anushekprasal@gmail.com)
-
-[packages/apps/DerpQuest]
-DerpQuest: Add QS header styles [2/3] <5 days ago> [e8daf60]
-by: SKULSHADY (anushekprasal@gmail.com)
-DerpQuest: Remove default summaries for master switches <5 days ago> [755d849]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-
-====================
-     07-30-2020
-====================
-
-[frameworks/base]
-base: Separate vibrate drawable for vol panel from common icon <6 days ago> [fadb1f57b7c]
-by: Adhitya Mohan (me@adhityamohan.in)
-
-
-====================
-     07-29-2020
-====================
-
-[frameworks/base]
-base: Allow showing music heads up on new tracks [1/2] <4 months ago> [0c36252d03d]
-by: ezio84 (brabus84@gmail.com)
-SystemUI: Make clock truly invisible <9 weeks ago> [eb8a76979f2]
-by: Michael W (baddaemon87@gmail.com)
-SystemUI: Fix QS Detail Header <7 weeks ago> [779a7b616ed]
-by: Michael W (baddaemon87@gmail.com)
-Add USSD codes over IMS feature <7 months ago> [fe5f5101b8b]
-by: Masaho Nishikawa (masaho.nishikawa@sony.com)
-Telephony: IMS: Cache subscriber associated uri <8 weeks ago> [d2381384886]
-by: Muhammed Siju (msiju@codeaurora.org)
-SystemUI: Fix SystemUI failed to go to doze issue <1 year, 2 months ago> [6226f2677df]
-by: Weijie Wang (weijiew@codeaurora.org)
-base: Oh, yet another padding fix commit? <2 weeks ago> [f702bad0a4d]
+manifest: track external/sonivox <2 days ago> [95bb9bd]
 by: Josh Fox (XlxFoXxlX) (joshfox87@gmail.com)
 
-[packages/apps/DeskClock]
-DeskClock: Use system fonts <7 months ago> [dd2f16480]
-by: Pranav Vashi (neobuddy89@gmail.com)
-DeskClock: update adaptive icon <2 weeks ago> [e6bc26aba]
-by: Abdulwahab Isam (abdoi94.iq@gmail.com)
+[build/make]
+Bump SPl to 2020-09-05 <2 days ago> [50c4ae51e]
+by: Akhil Narang (me@akhilnarang.dev)
 
-[packages/apps/Dialer]
-Fix theme for PostCallActivity <7 months ago> [67c25093b]
-by: Sungjae (sung_jae.kim@samsung.com)
+[external/sonivox]
+Check data consistency in mdls parsing <5 months ago> [5f5954e]
+by: Harish Mahendrakar (harish.mahendrakar@ittiam.com)
+
+[frameworks/av]
+AudioFlinger: fix fast capture silence <4 months ago> [48a343422]
+by: Eric Laurent (elaurent@google.com)
+Delete an uninitialized object in AACExtractor <11 months ago> [274b82073]
+by: Chuangjie Xia (chuangjie.xia@mediatek.com)
+clearkey hidl: fix oob read in decrypt <4 months ago> [50b2ad6c3]
+by: Robert Shih (robertshih@google.com)
+
+[frameworks/base]
+DO NOT MERGE: Remove unused intent in NiNotification <3 months ago> [4b79ec44574]
+by: Yu-Han Yang (yuhany@google.com)
+Mark implicit PendingIntents as immutable <6 weeks ago> [f2426ebe04d]
+by: Steve Elliott (steell@google.com)
+Add missing isShellUser check <10 weeks ago> [b0f2af2ed1e]
+by: John Reck (jreck@google.com)
+Do not set referrerUri on SessionInfo for non-owners <6 months ago> [69ac6ab5d9f]
+by: Patrick Baumann (patb@google.com)
+Tests no screenshot is copied when user consent timed out <3 months ago> [60a6709058d]
+by: Rhed Jao (rhedjao@google.com)
+Revert "Ignores protected broadcasts if not priv-app" <3 months ago> [196246d2b5b]
+by: Winson Chiu (chiuwinson@google.com)
+Make view intent immutable <3 months ago> [924b9d4491a]
+by: Beth Thibodeau (ethibodeau@google.com)
+Remove unused intent in NFW notification <3 months ago> [aae6b7bdfec]
+by: Yu-Han Yang (yuhany@google.com)
+Only autoVerify at install for new hosts <4 months ago> [c45386c917c]
+by: Christopher Tate (ctate@google.com)
+DO NOT MERGE: Verify INSTALL_PACKAGES permissions when adding installer package <5 months ago> [e2a456c3728]
+by: Winson (chiuwinson@google.com)
+Revert "Revoke 'always' web handler status when not autoverifying" <6 months ago> [acfa17fe029]
+by: Chris Tate (ctate@android.com)
+
+[frameworks/native]
+Call Layer::getLayerDebugInfo from the main thread <3 months ago> [8fe747d4f]
+by: Vishnu Nair (vishnun@google.com)
+Copy Screenshot to fd if and only if user consent approved <5 months ago> [ab49a518a]
+by: Abhijeet Kaur (abkaur@google.com)
+
+[frameworks/opt/net/wifi]
+[Passpoint] Remove R2 broadcasts <3 months ago> [a2a75d8fc]
+by: Hai Shalom (haishalom@google.com)
+
+[frameworks/opt/telephony]
+Use FLAG_IMMUTABLE for MultiSimSettingController <4 months ago> [064170693]
+by: Shuo Qian (shuoq@google.com)
+Add package checking with Uid in EuiccController#getEid <6 weeks ago> [5e7e58d11]
+by: Shuo Qian (shuoq@google.com)
+Use FLAG_IMMUTABLE for InstallCarrierAppUtils <4 months ago> [42da8e223]
+by: Shuo Qian (shuoq@google.com)
+Use FLAG_IMMUTABLE for InboundSmsHandler <4 months ago> [105a83145]
+by: Shuo Qian (shuoq@google.com)
+Use FLAG_IMMUTABLE for CarrierKeyDownloadManager <4 months ago> [33159a10f]
+by: Shuo Qian (shuoq@google.com)
+Use FLAG_IMMUTABLE for CarrierServiceStateTracker <4 months ago> [97a63124c]
+by: Shuo Qian (shuoq@google.com)
+Use FLAG_IMMUTABLE for ServiceStateTracker <4 months ago> [8437c371a]
+by: Shuo Qian (shuoq@google.com)
+Restrict access to the resolution PendingIntent created by EuiccController to EuiccResolutionUiDispatcherActivity <4 months ago> [91b17d266]
+by: Peter Wang (tpwang@google.com)
+Added FLAG_IMMUTABLE flag for security purposes <4 months ago> [62457f8e0]
+by: Jack Yu (jackyu@google.com)
+
+[packages/apps/Bluetooth]
+SAP: Ensure pending intent is immutable <7 weeks ago> [7f167e53]
+by: Chienyuan (chienyuanhuang@google.com)
 
 [packages/apps/Settings]
-Settings: Updated RU translation (#19,#20) <13 days ago> [0d86698df4]
-by: Northn (57762732+Northn@users.noreply.github.com)
+Enable the filterTouchesWhenObscured in Special app access <2 months ago> [2a674d8a4d]
+by: Sunny Shao (sunnyshao@google.com)
+Prevent overlay drawing on top of Bluetooth discovery request dialog <4 months ago> [fac65223d3]
+by: Jakub Pawlowski (jpawlowski@google.com)
+Prevent overlay drawing on top of Bluetooth pairing dialog <4 months ago> [e23c24baeb]
+by: Jakub Pawlowski (jpawlowski@google.com)
 
-[packages/apps/DerpQuest]
-DerpQuest: Fixed RU translation (#76) <7 days ago> [1356b63]
-by: RunningMango (36758157+RunningMango@users.noreply.github.com)
-DerpQuest: Allow showing music heads up on new tracks [2/2] <4 months ago> [4d8c8a7]
-by: ezio84 (brabus84@gmail.com)
+[packages/services/Telephony]
+Use PendingIntent.FLAG_IMMUTABLE in PendingIntent in NotificationMgr <5 months ago> [8de167e89]
+by: Shuo Qian (shuoq@google.com)
+Restrict access to the resolution PendingIntent created by EuiccController to EuiccResolutionUiDispatcherActivity <4 months ago> [f24bbd190]
+by: Peter Wang (tpwang@google.com)
+Specify the component for the ACTION_SHOW_ECM_EXIT_DIALOG Intent <4 months ago> [baf05c2a8]
+by: Brad Ebinger (breadley@google.com)
+
+[system/bt]
+Fix possible OOB when receive gatt read type response data <7 weeks ago> [a8fe28622]
+by: weichinweng (weichinweng@google.com)
+Remove pairing on incoming bond request <3 months ago> [6a2884943]
+by: Myles Watson (mylesgw@google.com)
+Enable bitpool sanity checks <4 months ago> [c371696f1]
+by: Joseph Pirozzo (pirozzoj@google.com)
+
+[system/core]
+libutils: check vsnprintf error <7 weeks ago> [e80f830a0]
+by: Steven Moreland (smoreland@google.com)
+String16::remove - avoid overflow <4 months ago> [de0a1d748]
+by: Steven Moreland (smoreland@google.com)
+
+[system/sepolicy]
+Don't give uid-based categories to app_zygote and isolated processes. <3 months ago> [3b6274bb]
+by: Martijn Coenen (maco@google.com)
+
+[vendor/overlay]
+overlay: Allow default notification listener access for Lawnchair <21 hours ago> [c0d469e]
+by: NurKeinNeid (mralexman3000@gmail.com)
+overlay: Move defaultListenerAccessPackages to overlay [2/2] <21 hours ago> [7eafa2a]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[vendor/pixelstyle]
+pixelstyle: Move defaultListenerAccessPackages to overlay [1/2] <21 hours ago> [ef64bf8]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+
+====================
+     09-11-2020
+====================
+
+
+====================
+     09-10-2020
+====================
+
+[packages/apps/PermissionController]
+DO NOT MERGE Use permission group definintion if defined in PermissionController <5 months ago> [d3034b98]
+by: Evan Severson (evanseverson@google.com)
+Update PermissionChecker usages to avoid unnecessary attribution. <12 months ago> [6ecece3c]
+by: Svet Ganov (svetoslavganov@google.com)
+
+
+====================
+     09-09-2020
+====================
+
+[packages/providers/DownloadProvider]
+Merge tag 'android-10.0.0_r46' into staging/ten-android-10.0.0_r46 <3 days ago> [0a5ddf52]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+
+====================
+     09-08-2020
+====================
+
+[frameworks/base]
+base: Update Chinese translation <6 days ago> [132839a4c88]
+by: ZONGQUAN-HU (36360150+ZONGQUAN-HU@users.noreply.github.com)
+
+
+====================
+     09-07-2020
+====================
+
+
+====================
+     09-06-2020
+====================
+
+[frameworks/base]
+Don't send interaction hint for unnecessary events <2 years, 2 months ago> [8a30a07a6a4]
+by: Alex Naidis (alex.naidis@paranoidandroid.co)
+Permissions: Stop auto-granting location to system browsers <3 months ago> [c17bd8db737]
+by: Daniel Micay (danielmicay@gmail.com)
+Notifications: Make USB-Debugging notification less important <4 months ago> [6db71500dac]
+by: Michael W (baddaemon87@gmail.com)
+Notification: Fix no icon shown for data limit notification <3 years, 2 months ago> [0764eab3cea]
+by: Sridhar Kasukurthi (skasuk@codeaurora.org)
+
+[packages/apps/Settings]
+Settings: restyle that horrible sim select dialog <3 months ago> [a86fc4a3d4]
+by: maxwen (max.weninger@gmail.com)
 
 
