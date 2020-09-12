@@ -1,317 +1,269 @@
 ====================
-     08-29-2020
+     09-12-2020
+====================
+
+[build/make]
+Bump SPl to 2020-09-05 <2 days ago> [50c4ae51e7]
+by: Akhil Narang (me@akhilnarang.dev)
+
+[external/sonivox]
+Check data consistency in mdls parsing <5 months ago> [5f5954e]
+by: Harish Mahendrakar (harish.mahendrakar@ittiam.com)
+
+[frameworks/av]
+AudioFlinger: fix fast capture silence <4 months ago> [48a3434229]
+by: Eric Laurent (elaurent@google.com)
+Delete an uninitialized object in AACExtractor <11 months ago> [274b820739]
+by: Chuangjie Xia (chuangjie.xia@mediatek.com)
+clearkey hidl: fix oob read in decrypt <4 months ago> [50b2ad6c3c]
+by: Robert Shih (robertshih@google.com)
+
+[frameworks/base]
+DO NOT MERGE: Remove unused intent in NiNotification <3 months ago> [4b79ec445741]
+by: Yu-Han Yang (yuhany@google.com)
+Mark implicit PendingIntents as immutable <6 weeks ago> [f2426ebe04d5]
+by: Steve Elliott (steell@google.com)
+Add missing isShellUser check <10 weeks ago> [b0f2af2ed1ef]
+by: John Reck (jreck@google.com)
+Do not set referrerUri on SessionInfo for non-owners <6 months ago> [69ac6ab5d9fe]
+by: Patrick Baumann (patb@google.com)
+Tests no screenshot is copied when user consent timed out <3 months ago> [60a6709058d3]
+by: Rhed Jao (rhedjao@google.com)
+Revert "Ignores protected broadcasts if not priv-app" <3 months ago> [196246d2b5bf]
+by: Winson Chiu (chiuwinson@google.com)
+Make view intent immutable <3 months ago> [924b9d4491ae]
+by: Beth Thibodeau (ethibodeau@google.com)
+Remove unused intent in NFW notification <3 months ago> [aae6b7bdfecf]
+by: Yu-Han Yang (yuhany@google.com)
+Only autoVerify at install for new hosts <4 months ago> [c45386c917cd]
+by: Christopher Tate (ctate@google.com)
+DO NOT MERGE: Verify INSTALL_PACKAGES permissions when adding installer package <5 months ago> [e2a456c37289]
+by: Winson (chiuwinson@google.com)
+Revert "Revoke 'always' web handler status when not autoverifying" <6 months ago> [acfa17fe0299]
+by: Chris Tate (ctate@android.com)
+
+[frameworks/native]
+Call Layer::getLayerDebugInfo from the main thread <3 months ago> [8fe747d4f]
+by: Vishnu Nair (vishnun@google.com)
+Copy Screenshot to fd if and only if user consent approved <5 months ago> [ab49a518a]
+by: Abhijeet Kaur (abkaur@google.com)
+
+[frameworks/opt/net/wifi]
+[Passpoint] Remove R2 broadcasts <3 months ago> [a2a75d8fc]
+by: Hai Shalom (haishalom@google.com)
+
+[frameworks/opt/telephony]
+Use FLAG_IMMUTABLE for MultiSimSettingController <4 months ago> [0641706937]
+by: Shuo Qian (shuoq@google.com)
+Add package checking with Uid in EuiccController#getEid <6 weeks ago> [5e7e58d110]
+by: Shuo Qian (shuoq@google.com)
+Use FLAG_IMMUTABLE for InstallCarrierAppUtils <4 months ago> [42da8e2233]
+by: Shuo Qian (shuoq@google.com)
+Use FLAG_IMMUTABLE for InboundSmsHandler <4 months ago> [105a831452]
+by: Shuo Qian (shuoq@google.com)
+Use FLAG_IMMUTABLE for CarrierKeyDownloadManager <4 months ago> [33159a10fb]
+by: Shuo Qian (shuoq@google.com)
+Use FLAG_IMMUTABLE for CarrierServiceStateTracker <4 months ago> [97a63124c0]
+by: Shuo Qian (shuoq@google.com)
+Use FLAG_IMMUTABLE for ServiceStateTracker <4 months ago> [8437c371ab]
+by: Shuo Qian (shuoq@google.com)
+Restrict access to the resolution PendingIntent created by EuiccController to EuiccResolutionUiDispatcherActivity <4 months ago> [91b17d2661]
+by: Peter Wang (tpwang@google.com)
+Added FLAG_IMMUTABLE flag for security purposes <4 months ago> [62457f8e01]
+by: Jack Yu (jackyu@google.com)
+
+[packages/apps/Bluetooth]
+SAP: Ensure pending intent is immutable <7 weeks ago> [7f167e537]
+by: Chienyuan (chienyuanhuang@google.com)
+
+[packages/apps/Settings]
+Enable the filterTouchesWhenObscured in Special app access <2 months ago> [2a674d8a4d]
+by: Sunny Shao (sunnyshao@google.com)
+Prevent overlay drawing on top of Bluetooth discovery request dialog <4 months ago> [fac65223d3]
+by: Jakub Pawlowski (jpawlowski@google.com)
+Prevent overlay drawing on top of Bluetooth pairing dialog <4 months ago> [e23c24baeb]
+by: Jakub Pawlowski (jpawlowski@google.com)
+
+[packages/services/Telephony]
+Use PendingIntent.FLAG_IMMUTABLE in PendingIntent in NotificationMgr <5 months ago> [8de167e89]
+by: Shuo Qian (shuoq@google.com)
+Restrict access to the resolution PendingIntent created by EuiccController to EuiccResolutionUiDispatcherActivity <4 months ago> [f24bbd190]
+by: Peter Wang (tpwang@google.com)
+Specify the component for the ACTION_SHOW_ECM_EXIT_DIALOG Intent <4 months ago> [baf05c2a8]
+by: Brad Ebinger (breadley@google.com)
+
+[system/bt]
+Fix possible OOB when receive gatt read type response data <7 weeks ago> [a8fe28622]
+by: weichinweng (weichinweng@google.com)
+Remove pairing on incoming bond request <3 months ago> [6a2884943]
+by: Myles Watson (mylesgw@google.com)
+Enable bitpool sanity checks <4 months ago> [c371696f1]
+by: Joseph Pirozzo (pirozzoj@google.com)
+
+[system/core]
+libutils: check vsnprintf error <6 weeks ago> [e80f830a0]
+by: Steven Moreland (smoreland@google.com)
+String16::remove - avoid overflow <4 months ago> [de0a1d748]
+by: Steven Moreland (smoreland@google.com)
+
+[system/sepolicy]
+Don't give uid-based categories to app_zygote and isolated processes. <3 months ago> [3b6274bb3]
+by: Martijn Coenen (maco@google.com)
+
+[vendor/overlay]
+overlay: Allow default notification listener access for Lawnchair <18 hours ago> [c0d469e]
+by: NurKeinNeid (mralexman3000@gmail.com)
+overlay: Move defaultListenerAccessPackages to overlay [2/2] <18 hours ago> [7eafa2a]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[vendor/pixelstyle]
+pixelstyle: Move defaultListenerAccessPackages to overlay [1/2] <18 hours ago> [ef64bf8]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+
+====================
+     09-11-2020
+====================
+
+
+====================
+     09-10-2020
+====================
+
+[packages/apps/PermissionController]
+DO NOT MERGE Use permission group definintion if defined in PermissionController <5 months ago> [d3034b98]
+by: Evan Severson (evanseverson@google.com)
+Update PermissionChecker usages to avoid unnecessary attribution. <12 months ago> [6ecece3c]
+by: Svet Ganov (svetoslavganov@google.com)
+
+[packages/providers/DownloadProvider]
+Merge tag 'android-10.0.0_r46' into staging/ten-android-10.0.0_r46 <3 days ago> [0a5ddf52]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[vendor/oneplus]
+Revert "{hotdogb, sm8150-common}: update blobs from OnePlus7TOxygen_14.O.18_GLO_018_2007240040" <3 days ago> [f75303757]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[vendor/oneplus]
+Revert "{hotdogb, sm8150-common}: update blobs from OnePlus7TOxygen_14.O.18_GLO_018_2007240040" <3 days ago> [f75303757]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+
+====================
+     09-09-2020
+====================
+
+[device/oneplus/guacamole]
+CI tag <12 days ago> [ce78ecf]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+guacamole: overlay: Sync config_autoBrightnessLevels and config_autoBrightnessDisplayValuesNits with OOS <7 weeks ago> [32027e6]
+by: gnumdk (gnumdk@gmail.com)
+guacamole: Pull in partition flags from sm8150-common <6 days ago> [45d54c7]
+by: LuK1337 (priv.luk@gmail.com)
+
+
+====================
+     09-08-2020
 ====================
 
 [frameworks/base]
-Update .gitignore <4 months ago> [796f27ab45fb]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-base: Chinese translation for type clock <5 days ago> [f70aa833ab90]
-by: ZONGQUAN-HU (1114807608@qq.com)
-SystemUI: Add OOS Q VoLTE <25 hours ago> [917930736c7f]
-by: SKULSHADY (anushekprasal@gmail.com)
-
-[packages/apps/Settings]
-Settings: Add Chinese translation for random summary (#24) <34 minutes ago> [94abc3ac4f]
+base: Update Chinese translation <6 days ago> [132839a4c882]
 by: ZONGQUAN-HU (36360150+ZONGQUAN-HU@users.noreply.github.com)
 
 [device/oneplus/guacamole]
-Official tag <12 minutes ago> [ec8ca36]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-guacamole: Update maintainer names <12 minutes ago> [e7c854c]
-by: Ido Ben-Hur (idoybh2@gmail.com)
+guacamole: Nuke display mode hack <4 months ago> [d30afd4]
+by: Erfan Abdi (erfangplus@gmail.com)
+dependencies: we don't need to use diff vendors for both devices anymore <4 days ago> [f0e7287]
+by: Omkar Chandorkar (forumomkar@gmail.com)
 
 [device/oneplus/sm8150-common]
-sm8150-common: Make off-screen gesture proximity check follow config <2 hours ago> [e93ccf69f]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-sm8150-common: Remove config_suspendWhenScreenOffDueToProximity <3 hours ago> [2cac2035e]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-sm8150-common: Generic slider toast offset <12 hours ago> [01d29231f]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-msm8998-common: Add RGB accent picker support for slider icon <3 weeks ago> [5603d7d4c]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-DeviceParts: Add icons to the slider toasts <5 weeks ago> [f3183d2c6]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-msm8998-common: DeviceParts: Implement OOS like toasts for alarm slider <1 year, 8 months ago> [4c7d569c1]
-by: DennySPB (dennyspb@gmail.com)
+sm8150-common: wifi: Relax WiFi re-association RSSI thresholds <10 months ago> [3ee400056]
+by: Sultanxda (sultanxda@gmail.com)
 
 
 ====================
-     08-28-2020
+     09-07-2020
+====================
+
+
+====================
+     09-06-2020
 ====================
 
 [frameworks/base]
-FODCircleView: Dim FOD icon <3 months ago> [002c7bcaebc9]
-by: Serhij Kyryljan (kyryljan.serhij@gmail.com)
-base: Add config for notification LED <2 days ago> [5dbb7d286d96]
-by: Ido Ben-Hur (idoybh2@gmail.com)
+Don't send interaction hint for unnecessary events <2 years, 2 months ago> [8a30a07a6a43]
+by: Alex Naidis (alex.naidis@paranoidandroid.co)
+Permissions: Stop auto-granting location to system browsers <3 months ago> [c17bd8db737e]
+by: Daniel Micay (danielmicay@gmail.com)
+Notifications: Make USB-Debugging notification less important <4 months ago> [6db71500dac0]
+by: Michael W (baddaemon87@gmail.com)
+Notification: Fix no icon shown for data limit notification <3 years, 2 months ago> [0764eab3cea5]
+by: Sridhar Kasukurthi (skasuk@codeaurora.org)
 
-[packages/apps/DerpQuest]
-DerpQuest: Hide LED section for unsupported devices <2 days ago> [ee8b376b0]
-by: Ido Ben-Hur (idoybh2@gmail.com)
+[packages/apps/Settings]
+Settings: restyle that horrible sim select dialog <3 months ago> [a86fc4a3d4]
+by: maxwen (max.weninger@gmail.com)
 
-[device/oneplus/guacamole]
-guacamole: Have a sane rounded corners content padding <2 days ago> [4a5b97c]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-guacamole: Increase max visible notification icons <2 days ago> [f864af4]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-guacamole: Add to lunch menu <4 days ago> [300436f]
-by: Ido Ben-Hur (idoybh2@gmail.com)
+[kernel/oneplus/poad]
+Makefile: Disable compound-token-split-by-space when using clang <7 days ago> [be75f78e84ecd]
+by: Adhitya Mohan (me@adhityamohan.in)
+lib/string.c: implement stpcpy <3 weeks ago> [3b018d28b4431]
+by: Nick Desaulniers (ndesaulniers@google.com)
+Merge branch 'android-4.4-p' of https://android.googlesource.com/kernel/common into HEAD <7 days ago> [15b3e89c59bdb]
+by: Adhitya Mohan (me@adhityamohan.in)
+
+[vendor/oneplus]
+{hotdogb, sm8150-common}: update blobs from OnePlus7TOxygen_14.O.18_GLO_018_2007240040 <6 days ago> [04c079ad0]
+by: Omkar Chandorkar (forumomkar@gmail.com)
+{guacamole, sm8150-common}: update blobs from OnePlus7ProOxygen_21.P.28_GLO_028_2007240027 <6 days ago> [c07cd6512]
+by: Omkar Chandorkar (forumomkar@gmail.com)
+Update telephony from cepheus <7 days ago> [3acd1c249]
+by: Omkar Chandorkar (forumomkar@gmail.com)
 
 [device/oneplus/sm8150-common]
-sm8150-common: Set gesture nav as default <7 weeks ago> [38496e99c]
-by: Dan Cartier (nospamdan1@gmail.com)
-sm8150-common: Add tri-state-key calibration daemon <10 months ago> [71a7d3c00]
+overlay:CarrierConfig: Disable config_update_service_status for all carriers <6 days ago> [cf082c0f6]
+by: Adhitya Mohan (me@adhityamohan.in)
+sm8150-common: Add product audio props <5 weeks ago> [32622ef8a]
 by: Hikari-no-Tenshi (kyryljan.serhij@gmail.com)
-DeviceParts: remove hall sensor calibration support <2 days ago> [96b025ca4]
+sm8150-common: Remove few props not used in OOS 10.3.4 <5 weeks ago> [003502ffb]
+by: Hikari-no-Tenshi (kyryljan.serhij@gmail.com)
+sm8150-common: Sync audio props with OOS <5 weeks ago> [e158cfbc1]
+by: Hikari-no-Tenshi (kyryljan.serhij@gmail.com)
+sm8150-common: update vendor SPL from OOS 10.3.4 <5 weeks ago> [2ffda946c]
+by: Lup Gabriel (gwolf2u.website@gmail.com)
+sm8150-common: Set parser input buffer size as on OOS <3 months ago> [627c6b814]
+by: Hikari-no-Tenshi (kyryljan.serhij@gmail.com)
+sm8150-common: Add adreno props <3 months ago> [dbf8a3294]
+by: Hikari-no-Tenshi (kyryljan.serhij@gmail.com)
+sm8150-common: Set vendor prop to disable 3d-tonemap on UI <1 year, 4 months ago> [da4baba64]
+by: Sushil Chauhan (sushilchauhan@codeaurora.org)
+sm8150-common: enable Optimize Refresh feature <1 year, 6 months ago> [94b79537f]
+by: Padmanabhan Komanduru (pkomandu@codeaurora.org)
+sm8150-common: add needed blobs and sepolicy for newer OOS Cam <3 months ago> [970606195]
+by: chandra (chandra.chaganti@hotmail.com)
+sm8150-common: sed qti_libpermissions.xml during extract instead of pinning <2 years, 2 months ago> [8b3672d16]
+by: Michael Bestas (mkbestas@lineageos.org)
+sm8150-common: add missing vendor.oneplus.camera.CameraMDMHIDL blob <4 months ago> [ff81818f9]
+by: Lup Gabriel (gwolf2u.website@gmail.com)
+proprietary-files: update telephony from cepheus <7 days ago> [1d5f7fc5c]
 by: Omkar Chandorkar (forumomkar@gmail.com)
-sm8150-common: Update fod behavior <3 months ago> [2e5e6cc2b]
-by: Michele Bono (bono.michele94@gmail.com)
-sm8150-common: We do not have a notification LED <2 days ago> [103f805d2]
+
+[kernel/oneplus/sm8150]
+BUILD <10 days ago> [fb252e80732d]
 by: Ido Ben-Hur (idoybh2@gmail.com)
-sm8150-common: Allow to always display front camera open dialog <2 days ago> [85533e9c0]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-camera_helper: Show alert dialog before raising camera when screen is off <2 days ago> [bfb93a3eb]
-by: rituj (ritujbeniwal@gmail.com)
+include/linux/ (device-mapper/kernel) : Fix Clang-12 warnings <12 days ago> [719964d675b3]
+by: E-Neptune (z1281552865@gmail.com)
+
+[vendor/oneplus]
+{hotdogb, sm8150-common}: update blobs from OnePlus7TOxygen_14.O.18_GLO_018_2007240040 <6 days ago> [04c079ad0]
+by: Omkar Chandorkar (forumomkar@gmail.com)
+{guacamole, sm8150-common}: update blobs from OnePlus7ProOxygen_21.P.28_GLO_028_2007240027 <6 days ago> [c07cd6512]
+by: Omkar Chandorkar (forumomkar@gmail.com)
+Update telephony from cepheus <7 days ago> [3acd1c249]
+by: Omkar Chandorkar (forumomkar@gmail.com)
 
 [prebuilts/clang/host/linux-x86/clang-proton]
-readme: Document fix for stpcpy error <29 hours ago> [32f1732]
-by: Danny Lin (danny@kdrag0n.dev)
-
-
-====================
-     08-27-2020
-====================
-
-[packages/apps/Matlog]
-Merge remote-tracking branch 'omni/android-10' into HEAD <3 days ago> [c125d29]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/apps/OpenDelta]
-Merge remote-tracking branch 'omni/android-10' into ten <3 days ago> [ce430eb]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-
-====================
-     08-26-2020
-====================
-
-[vendor/overlay]
-overlay: improve Lead Black primary <4 days ago> [6cc6c3f]
-by: Mayur (ultramayur123@gmail.com)
-
-[kernel/oneplus/poad]
-Merge branch 'android-4.4-p' of https://android.googlesource.com/kernel/common into HEAD <3 days ago> [dae82a6f841de]
-by: Adhitya Mohan (me@adhityamohan.in)
-Merge tag 'LA.UM.8.1.r1-15800-sm8150.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/qca-wifi-host-cmn into HEAD <3 days ago> [ab0c873325861]
-by: Adhitya Mohan (me@adhityamohan.in)
-Merge tag 'LA.UM.8.1.r1-15800-sm8150.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/fw-api into HEAD <3 days ago> [a46227d3ebcea]
-by: Adhitya Mohan (me@adhityamohan.in)
-Merge tag 'LA.UM.8.1.r1-15800-sm8150.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/qcacld-3.0 into HEAD <3 days ago> [94c1c09a63a77]
-by: Adhitya Mohan (me@adhityamohan.in)
-Revert "msm: kgsl: Mark the scratch buffer as privileged" <3 days ago> [483b9e05ac722]
-by: Adhitya Mohan (me@adhityamohan.in)
-Merge tag 'LA.UM.8.4.r1-05900-8x98.0' of https://source.codeaurora.org/quic/la/kernel/msm-4.4 into HEAD <3 days ago> [d32e296feb26d]
-by: Adhitya Mohan (me@adhityamohan.in)
-Merge 4.4.234 into android-4.4-p <3 days ago> [7aa6c9e0a0688]
-by: Greg Kroah-Hartman (gregkh@google.com)
-Linux 4.4.234 <3 days ago> [61b7ab3507b38]
-by: Greg Kroah-Hartman (gregkh@linuxfoundation.org)
-KVM: arm/arm64: Don't reschedule in unmap_stage2_range() <5 days ago> [1dee8b843cba4]
-by: Will Deacon (will@kernel.org)
-omapfb: dss: Fix max fclk divider for omap36xx <7 weeks ago> [61e37ca3378f3]
-by: Adam Ford (aford173@gmail.com)
-xen: don't reschedule in preemption off sections <9 days ago> [18037dda39742]
-by: Juergen Gross (jgross@suse.com)
-mm/hugetlb: fix calculation of adjust_range_if_pmd_sharing_possible <3 weeks ago> [e37966441481d]
-by: Peter Xu (peterx@redhat.com)
-do_epoll_ctl(): clean the failure exits up a bit <7 days ago> [d85e2b06662e7]
-by: Al Viro (viro@zeniv.linux.org.uk)
-epoll: Keep a reference on files added to the check list <10 days ago> [89077f38db728]
-by: Marc Zyngier (maz@kernel.org)
-powerpc: Allow 4224 bytes of stack expansion for the signal frame <5 weeks ago> [fabab559053d5]
-by: Michael Ellerman (mpe@ellerman.id.au)
-ASoC: intel: Fix memleak in sst_media_open <2 weeks ago> [a65608b5f6710]
-by: Dinghao Liu (dinghao.liu@zju.edu.cn)
-ext4: fix potential negative array index in do_split() <2 months ago> [059b148010547]
-by: Eric Sandeen (sandeen@redhat.com)
-alpha: fix annotation of io{read,write}{16,32}be() <3 weeks ago> [d0f13ebd32e13]
-by: Luc Van Oostenryck (luc.vanoostenryck@gmail.com)
-xfs: Fix UBSAN null-ptr-deref in xfs_sysfs_init <3 weeks ago> [cc97b011468dc]
-by: Eiichi Tsukata (devel@etsukata.com)
-virtio_ring: Avoid loop when vq is broken in virtqueue_poll <4 weeks ago> [759717b5c6cfe]
-by: Mao Wenan (wenan.mao@linux.alibaba.com)
-scsi: libfc: Free skb in fc_disc_gpn_id_resp() for valid cases <4 weeks ago> [49aae8e6f90f3]
-by: Javed Hasan (jhasan@marvell.com)
-jffs2: fix UAF problem <2 months ago> [6156e6259c3d7]
-by: Zhe Li (lizhe67@huawei.com)
-xfs: fix inode quota reservation checks <7 weeks ago> [340778e7c7f05]
-by: Darrick J. Wong (darrick.wong@oracle.com)
-m68knommu: fix overwriting of bits in ColdFire V3 cache control <3 months ago> [650504dcda62b]
-by: Greg Ungerer (gerg@linux-m68k.org)
-Input: psmouse - add a newline when printing 'proto' by sysfs <5 weeks ago> [1d75cce5bddbf]
-by: Xiongfeng Wang (wangxiongfeng2@huawei.com)
-media: vpss: clean up resources in init <7 weeks ago> [49abd862875fe]
-by: Evgeny Novikov (novikov@ispras.ru)
-media: budget-core: Improve exception handling in budget_register() <3 months ago> [407f42f84082d]
-by: Chuhong Yuan (hslester96@gmail.com)
-ext4: fix checking of directory entry validity for inline directories <4 weeks ago> [c6fda7312fa96]
-by: Jan Kara (jack@suse.cz)
-ext4: clean up ext4_match() and callers <3 years, 4 months ago> [4cd702fe93848]
-by: Eric Biggers (ebiggers@google.com)
-mm, page_alloc: fix core hung in free_pcppages_bulk() <9 days ago> [0c9ce43da97d6]
-by: Charan Teja Reddy (charante@codeaurora.org)
-mm: include CMA pages in lowmem_reserve at boot <9 days ago> [bd7f430181d9a]
-by: Doug Berger (opendmb@gmail.com)
-romfs: fix uninitialized memory leak in romfs_dev_read() <9 days ago> [2935e0a3cec1f]
-by: Jann Horn (jannh@google.com)
-btrfs: don't show full path of bind mounts in subvol= <5 weeks ago> [72bb6330b9905]
-by: Josef Bacik (josef@toxicpanda.com)
-btrfs: export helpers for subvolume name/id resolution <6 months ago> [6ebec50298965]
-by: Marcos Paulo de Souza (mpdesouza@suse.com)
-khugepaged: adjust VM_BUG_ON_MM() in __khugepaged_enter() <9 days ago> [04af681e4c46d]
-by: Hugh Dickins (hughd@google.com)
-khugepaged: khugepaged_test_exit() check mmget_still_valid() <3 weeks ago> [f7d00e2816ae3]
-by: Hugh Dickins (hughd@google.com)
-coredump: fix race condition between collapse_huge_page() and core dumping <1 year, 3 months ago> [c2c5147ee93e3]
-by: Andrea Arcangeli (aarcange@redhat.com)
-watchdog: f71808e_wdt: remove use of wrong watchdog_info option <3 months ago> [4b1003c3b6d8e]
-by: Ahmad Fatoum (a.fatoum@pengutronix.de)
-watchdog: f71808e_wdt: indicate WDIOF_CARDRESET support in watchdog_info.options <3 months ago> [53a29e11b2ef7]
-by: Ahmad Fatoum (a.fatoum@pengutronix.de)
-net/compat: Add missing sock updates for SCM_RIGHTS <3 months ago> [34c2166235171]
-by: Kees Cook (keescook@chromium.org)
-perf probe: Fix memory leakage when the probe point is not found <7 weeks ago> [c5f1fa154b317]
-by: Masami Hiramatsu (mhiramat@kernel.org)
-drm/imx: imx-ldb: Disable both channels for split mode in enc->disable() <7 weeks ago> [4e09fc7e22302]
-by: Liu Ying (victor.liu@nxp.com)
-
-[device/oneplus/sm8150-common]
-Revert "sm8150-common: Update CAF telephony stack" <3 days ago> [0301761aa]
-by: Omkar Chandorkar (forumomkar@gmail.com)
-Revert "sm8150-common: Pin patched ims to remove HD notification" <3 days ago> [490a49744]
-by: Omkar Chandorkar (forumomkar@gmail.com)
-sepolicy: allow system_server to see battery info <3 days ago> [8118f2b7e]
-by: Omkar Chandorkar (forumomkar@gmail.com)
-dependencies: remove additional , <4 days ago> [bb94a0098]
-by: Omkar Chandorkar (forumomkar@gmail.com)
-
-[kernel/oneplus/sm8150]
-lib/string.c: implement stpcpy <4 days ago> [fd8f6a5a44fc]
-by: Nick Desaulniers (ndesaulniers@google.com)
-/proc/cmdline: change verifiedbootstate for all models <5 months ago> [54f701b63973]
-by: Anirudh Gupta (anirudhgupta109@aosip.dev)
-
-
-====================
-     08-25-2020
-====================
-
-[frameworks/base]
-VibratorService: implement OnePlus proprietary vibrator format [squashed] <8 months ago> [c556514f7cd7]
-by: rituj (ritujbeniwal@gmail.com)
-
-[device/oneplus/sm8150-common]
-update dependencies <6 days ago> [b85027b35]
-by: Omkar Chandorkar (forumomkar@gmail.com)
-DeviceParts: remove dolby also remove some unused strings <6 days ago> [b6410ef94]
-by: Omkar Chandorkar (forumomkar@gmail.com)
-BoardConfigCommon: switch to weeb kernel <7 days ago> [ca5c3d18b]
-by: Omkar Chandorkar (forumomkar@gmail.com)
-DeviceParts: Update a few strings <7 days ago> [f8282a672]
-by: Omkar Chandorkar (forumomkar@gmail.com)
-Automatic translation import <9 days ago> [9c647dfd8]
-by: maxwen (max.weninger@gmail.com)
-DeviceParts: Update DC Dimming Tile icon <8 weeks ago> [e859242ca]
-by: Omkar Chandorkar (forumomkar@gmail.com)
-DeviceParts: Make DC Dimming tile show active status <10 months ago> [20730bf4b]
-by: Marko Man (darkobas@gmail.com)
-DeviceParts: Add DC Dimming QS tile <1 year, 1 month ago> [63e843787]
-by: Anirudh Gupta (anirudhgupta109@gmail.com)
-DeviceParts: Add doze pulse as a gesture action <4 months ago> [e3deef954]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-DeviceParts: Digital-style icon for FPSInfo QS Tile <6 months ago> [06d529072]
-by: Nauval Rizky (enuma.alrizky@gmail.com)
-DeviceParts: Exclude from recents <5 months ago> [809e49ab2]
-by: Adhitya Mohan (me@adhityamohan.in)
-DeviceParts: Rename to Oneplus Extras -Advanced is well too memey <7 months ago> [17d8fcdbb]
-by: Adhitya Mohan (me@adhityamohan.in)
-msm8998-common: DeviceParts: Avoid OOB exception if restored slider settings value is invalid <6 months ago> [81fe50d36]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-msm8998-common: DeviceParts: Add FPS overlay QS tile <7 months ago> [9361ef150]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-msm8998-common: set flag to intent FLAG_ACTIVITY_NEW_TASK to open deviceparts activity - Fixes panel modes qs tile crash <7 weeks ago> [a9ea82209]
-by: Adhitya Mohan (me@adhityamohan.in)
-sm8150-common: disable mask layer hint <5 months ago> [4076f05b4]
-by: Lup Gabriel (gwolf2u.website@gmail.com)
-
-
-====================
-     08-24-2020
-====================
-
-[frameworks/base]
-base: Remove Duplicate FOD animations [1/2] <6 days ago> [febe857036ba]
-by: Raaj52 (mail2raaj52@gmail.com)
-
-[packages/apps/DerpQuest]
-DerpQuest: Remove duplicate FOD animations [2/2] <6 days ago> [e865fe12a]
-by: Raaj52 (mail2raaj52@gmail.com)
-
-[kernel/oneplus/poad]
-Merge tag 'LA.UM.8.1.r1-15600-sm8150.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/qca-wifi-host-cmn into HEAD <6 days ago> [9e8f6db7eda18]
-by: Adhitya Mohan (me@adhityamohan.in)
-Merge tag 'LA.UM.8.1.r1-15600-sm8150.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/fw-api into HEAD <6 days ago> [0b4a65aa3f8c5]
-by: Adhitya Mohan (me@adhityamohan.in)
-Merge tag 'LA.UM.8.1.r1-15600-sm8150.0' of https://source.codeaurora.org/quic/la/platform/vendor/qcom-opensource/wlan/qcacld-3.0 into HEAD <6 days ago> [2e9cc42befc28]
-by: Adhitya Mohan (me@adhityamohan.in)
-Merge branch 'android-4.4-p' of https://android.googlesource.com/kernel/common into HEAD <6 days ago> [d2ea49b74f8dd]
-by: Adhitya Mohan (me@adhityamohan.in)
-
-[device/oneplus/guacamole]
-Derpify some more stuff <6 days ago> [26f3cb0]
-by: baljeethakur (v21.vky@gmail.com)
-Pop-up camera support (adapt for Derpfest) credits : AOSPA and LOS <9 days ago> [f8fcc26]
-by: baljeethakur (v21.vky@gmail.com)
-Derpify <9 days ago> [a66b49c]
-by: baljeethakur (v21.vky@gmail.com)
-
-[kernel/oneplus/sm8150]
-defconfig: lets meme the name <5 days ago> [02fb89d8dedd]
-by: Omkar Chandorkar (forumomkar@gmail.com)
-defconfig: disable relr <5 days ago> [3cbfe2c9be6d]
-by: Omkar Chandorkar (forumomkar@gmail.com)
-defconfig: enable selinux audit <5 days ago> [1c02776ae750]
-by: Omkar Chandorkar (forumomkar@gmail.com)
-Set correct techpack header install directory <1 year, 2 months ago> [e2e27f159357]
-by: Rashed Abdel-Tawab (rashed@linux.com)
-
-
-====================
-     08-23-2020
-====================
-
-[frameworks/base]
-base: Add Mi 10 Ultra FOD animations [1/2] <7 days ago> [38d22f0c944f]
-by: Raaj52 (mail2raaj52@gmail.com)
-
-[packages/apps/DerpQuest]
-DerpQuest: Add Mi 10 Ultra FOD animations [2/2] <7 days ago> [7e714243c]
-by: Raaj52 (mail2raaj52@gmail.com)
-
-[vendor/oneplus]
-Revert "sm8150-common: Update QTI telephony stack" <9 days ago> [713857508]
-by: baljeethakur (v21.vky@gmail.com)
-Revert "sm8150-common: Patch ims.apk to remove HD notification" <9 days ago> [60269657f]
-by: baljeethakur (v21.vky@gmail.com)
-sm8150-common: Extract blobs from OOS 10.0.5 <9 weeks ago> [3d94f72c8]
-by: Anirudh Gupta (anirudhgupta109@aosip.dev)
-
-[vendor/oneplus]
-Revert "sm8150-common: Update QTI telephony stack" <9 days ago> [713857508]
-by: baljeethakur (v21.vky@gmail.com)
-Revert "sm8150-common: Patch ims.apk to remove HD notification" <9 days ago> [60269657f]
-by: baljeethakur (v21.vky@gmail.com)
-sm8150-common: Extract blobs from OOS 10.0.5 <9 weeks ago> [3d94f72c8]
-by: Anirudh Gupta (anirudhgupta109@aosip.dev)
+Update to 20200906 build <6 days ago> [2295e58]
+by: Danny (danny@kdrag0n.dev)
 
 
