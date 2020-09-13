@@ -1,58 +1,34 @@
-Changelog for Official DerpFest Build Update 04.08.2020 for Sanders:
+Changelog for Official DerpFest Build Update 13.09.2020 for Sanders:
 
-[SOURCE]
+ [SOURCE]
 
-• Merged August security patch (10.0_r41)
-• Added various switch styles
-• Introduced RGB accenter
-• Added RGB accent presets
-• Pulse navbar audio gfx visualizer for Android 10
-• Made the DerpQuest's subsection's summaries dynamic
-• Improved the vibrate icon on status bar
-• Allowed showing music heads up on new tracks
-• Added QS header styles
-• Added Powermenu Background filter
-• Allowed setting PowerMenu background blur radius
-• Implemented qti-bt stack
-• Added Derp Clear Primary
-• Add automatic album art color mode for navbar pulse
-• Backup navbar pulse settings
-• Warn the user when pulse is not showing
-• Settings: Backup album art filter
-• Make lockscreen timeout configurable
-• Refactored lockscreen and statusbar fonts & sizes implementation (reduced 2600~ lines of bad, bad code to 260~)^ you can actually feel the difference in QS, SB and especially LS
-• StatusBar: Improve custom settings observer
-• NetworkTraffic: Cleanup some code & have a consistent default
-• DerpQuest: Added a name fitting easter egg ;) (DerpQuest- About- Tap on DerpFest logo)
+• Merged September security patch
+• Introduced QS tile styles
+• Added POSP's volume panel styles
+• Added new icon shapes from Android R
+• Added gaming macro QS tile settings
+• Added OOS Q VoLTE
+• Improved Lead Black primary
+• Stop auto-granting location to system browsers
+• Fixed no icon shown for data limit notification
+• Don't send interaction hint for unnecessary events
+• Made USB debugging notification less important
+• Merged some CAF surfaceflinger changes
+• Updated Lawnchair to version 2.1-2627
 • Maybe more things can't remember ;P
 
 
 [DEVICE]
 
-• Increased media volume steps to 30
-• Enabled support for VoLTE, VT and VoWiFi, RTT for specific operator (may or may not work)
-• Added Snap Camera by default
-• Added QPerformance and UxPerformance jars for boost framework
-• Imported QPerformance and UxPerformance jars as boot dex jars
-• Updated QPerformance and UxPerformance jars
-• Updated perf vintf & configs from LA.UM.8.6.r1-04400-89xx
-• Updated fingerprint & firmware blobs from LA.UM.8.6.r1-04400-89xx
-• Updated peripheral blobs from LA.UM.8.6.r1-04400-89xx
-• Updated perf & iop blobs from LA.UM.8.6.r1-04400-89xx
-• Updated media blobs from LA.UM.8.6.r1-04400-89xx
-• Updated qcril database and other missed misc blobs
-• Updated qdutils, sensors caliberate & cnss blobs from LA.UM.8.6.r1-04400-89xx
-• Added missing group oem_2950 to init scripts
-• Updated display config binaries from LA.UM.8.6.r1-04400-89xx
-• Updated display HAL packages and manifest
-• Updated dsi and netmgr configs from LA.UM.8.6.r1-04400-89xx
+• Updated egl drivers to V@474.0 (Date:06/12/20)
+• Added Moto Audio (updated version of Moto Dolby)
+• Enabled APIv2 for Snap
+• Declared that the device supports bokeh mode
+• MotoActions: summary that matches other settings
+• Do not keep fingerprint in system-background (faster fp unlock)
+• Updated some qs tile icons (airplane mode, data saver, flashlight)
+• Updated prebuilts (QuicPic Gallery, SmsOrganizer, Via)
 • More under-the-hood changes ;)
-
-
-[MISC]
-
-• Removed Shishu clocks
-
 
 #StayDerped
 
