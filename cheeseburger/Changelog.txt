@@ -1,183 +1,235 @@
 ====================
-     08-11-2020
+     09-12-2020
 ====================
 
-[manifest]
-manifest: track PotatoPlugins from AOSiP <9 days ago> [461177a]
-by: Josh Fox (XlxFoXxlX) (joshfox87@gmail.com)
+[build/make]
+Bump SPl to 2020-09-05 <2 days ago> [50c4ae51e7]
+by: Akhil Narang (me@akhilnarang.dev)
+
+[external/sonivox]
+Check data consistency in mdls parsing <5 months ago> [5f5954e]
+by: Harish Mahendrakar (harish.mahendrakar@ittiam.com)
+
+[frameworks/av]
+AudioFlinger: fix fast capture silence <4 months ago> [48a3434229]
+by: Eric Laurent (elaurent@google.com)
+Delete an uninitialized object in AACExtractor <11 months ago> [274b820739]
+by: Chuangjie Xia (chuangjie.xia@mediatek.com)
+clearkey hidl: fix oob read in decrypt <4 months ago> [50b2ad6c3c]
+by: Robert Shih (robertshih@google.com)
 
 [frameworks/base]
-Update .gitignore <3 months ago> [e9e46b88e203]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-base: VolumePluginManager: Add default constructor <7 weeks ago> [438ab3ab752d]
-by: Kshitij Gupta (kshitijgm@gmail.com)
-base: Allow using plugins even on production <8 weeks ago> [78d34738de78]
-by: HrX03 (dn.bianco03@gmail.com)
-base: Implement VolumePluginManager <7 weeks ago> [5dc84fc664a9]
-by: HrX03 (dn.bianco03@gmail.com)
+DO NOT MERGE: Remove unused intent in NiNotification <3 months ago> [4b79ec445741]
+by: Yu-Han Yang (yuhany@google.com)
+Mark implicit PendingIntents as immutable <6 weeks ago> [f2426ebe04d5]
+by: Steve Elliott (steell@google.com)
+Add missing isShellUser check <10 weeks ago> [b0f2af2ed1ef]
+by: John Reck (jreck@google.com)
+Do not set referrerUri on SessionInfo for non-owners <6 months ago> [69ac6ab5d9fe]
+by: Patrick Baumann (patb@google.com)
+Tests no screenshot is copied when user consent timed out <3 months ago> [60a6709058d3]
+by: Rhed Jao (rhedjao@google.com)
+Revert "Ignores protected broadcasts if not priv-app" <3 months ago> [196246d2b5bf]
+by: Winson Chiu (chiuwinson@google.com)
+Make view intent immutable <3 months ago> [924b9d4491ae]
+by: Beth Thibodeau (ethibodeau@google.com)
+Remove unused intent in NFW notification <3 months ago> [aae6b7bdfecf]
+by: Yu-Han Yang (yuhany@google.com)
+Only autoVerify at install for new hosts <4 months ago> [c45386c917cd]
+by: Christopher Tate (ctate@google.com)
+DO NOT MERGE: Verify INSTALL_PACKAGES permissions when adding installer package <5 months ago> [e2a456c37289]
+by: Winson (chiuwinson@google.com)
+Revert "Revoke 'always' web handler status when not autoverifying" <6 months ago> [acfa17fe0299]
+by: Chris Tate (ctate@android.com)
 
-[vendor/overlay]
-packages: include plugin package <7 weeks ago> [df4ec57]
-by: Kshitij Gupta (kshitijgm@gmail.com)
+[frameworks/native]
+Call Layer::getLayerDebugInfo from the main thread <3 months ago> [8fe747d4f]
+by: Vishnu Nair (vishnun@google.com)
+Copy Screenshot to fd if and only if user consent approved <5 months ago> [ab49a518a]
+by: Abhijeet Kaur (abkaur@google.com)
 
-[packages/apps/DerpQuest]
-DerpQuest: Make all accent color presets 8 char long <20 hours ago> [f0514b251]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-DerpQuest: POSP Vol panel styles <6 weeks ago> [4885b317a]
-by: Tejasvp25 (tejasvp25@gmail.com)
+[frameworks/opt/net/wifi]
+[Passpoint] Remove R2 broadcasts <3 months ago> [a2a75d8fc]
+by: Hai Shalom (haishalom@google.com)
 
-[scripts]
-scripts: updater: oops <26 hours ago> [9dc9c10]
-by: Ido Ben-Hur (idoybh2@gmail.com)
+[frameworks/opt/telephony]
+Use FLAG_IMMUTABLE for MultiSimSettingController <4 months ago> [0641706937]
+by: Shuo Qian (shuoq@google.com)
+Add package checking with Uid in EuiccController#getEid <6 weeks ago> [5e7e58d110]
+by: Shuo Qian (shuoq@google.com)
+Use FLAG_IMMUTABLE for InstallCarrierAppUtils <4 months ago> [42da8e2233]
+by: Shuo Qian (shuoq@google.com)
+Use FLAG_IMMUTABLE for InboundSmsHandler <4 months ago> [105a831452]
+by: Shuo Qian (shuoq@google.com)
+Use FLAG_IMMUTABLE for CarrierKeyDownloadManager <4 months ago> [33159a10fb]
+by: Shuo Qian (shuoq@google.com)
+Use FLAG_IMMUTABLE for CarrierServiceStateTracker <4 months ago> [97a63124c0]
+by: Shuo Qian (shuoq@google.com)
+Use FLAG_IMMUTABLE for ServiceStateTracker <4 months ago> [8437c371ab]
+by: Shuo Qian (shuoq@google.com)
+Restrict access to the resolution PendingIntent created by EuiccController to EuiccResolutionUiDispatcherActivity <4 months ago> [91b17d2661]
+by: Peter Wang (tpwang@google.com)
+Added FLAG_IMMUTABLE flag for security purposes <4 months ago> [62457f8e01]
+by: Jack Yu (jackyu@google.com)
 
-[device/oneplus/msm8998-common]
-Build poad's kernel <4 weeks ago> [ea71e4090]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-msm8998-common: Add RGB accent picker support for slider icon <11 hours ago> [d3f3c34ad]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-
-====================
-     08-10-2020
-====================
-
-[manifest]
-manifest: Track oss vibrator repos (#6) <27 hours ago> [5b5b4f9]
-by: 4PERTURE (38117317+4PERTURE@users.noreply.github.com)
-
-[frameworks/base]
-base: Toast: Custom icon should not be static <2 days ago> [e0e6a6a4a398]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[vendor/prebuilts]
-prebuilts: Update Lawnchair to version 2.1-2627 <25 hours ago> [5b931d84]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-
-====================
-     08-09-2020
-====================
-
-[frameworks/base]
-Revert "Keyguard: Forward port lockscreen quick unlock (1/2)" <2 days ago> [e1319ba85a59]
-by: Ido Ben-Hur (idoybh2@gmail.com)
+[packages/apps/Bluetooth]
+SAP: Ensure pending intent is immutable <7 weeks ago> [7f167e537]
+by: Chienyuan (chienyuanhuang@google.com)
 
 [packages/apps/Settings]
-Revert "Keyguard: Forward port lockscreen quick unlock (2/2)" <2 days ago> [cc0c8c6e96]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-base: Move QS tile style to DerpQuest [1/2] <3 days ago> [37bd493560]
+Enable the filterTouchesWhenObscured in Special app access <2 months ago> [2a674d8a4d]
+by: Sunny Shao (sunnyshao@google.com)
+Prevent overlay drawing on top of Bluetooth discovery request dialog <4 months ago> [fac65223d3]
+by: Jakub Pawlowski (jpawlowski@google.com)
+Prevent overlay drawing on top of Bluetooth pairing dialog <4 months ago> [e23c24baeb]
+by: Jakub Pawlowski (jpawlowski@google.com)
+
+[packages/services/Telephony]
+Use PendingIntent.FLAG_IMMUTABLE in PendingIntent in NotificationMgr <5 months ago> [8de167e89]
+by: Shuo Qian (shuoq@google.com)
+Restrict access to the resolution PendingIntent created by EuiccController to EuiccResolutionUiDispatcherActivity <4 months ago> [f24bbd190]
+by: Peter Wang (tpwang@google.com)
+Specify the component for the ACTION_SHOW_ECM_EXIT_DIALOG Intent <4 months ago> [baf05c2a8]
+by: Brad Ebinger (breadley@google.com)
+
+[system/bt]
+Fix possible OOB when receive gatt read type response data <7 weeks ago> [a8fe28622]
+by: weichinweng (weichinweng@google.com)
+Remove pairing on incoming bond request <3 months ago> [6a2884943]
+by: Myles Watson (mylesgw@google.com)
+Enable bitpool sanity checks <4 months ago> [c371696f1]
+by: Joseph Pirozzo (pirozzoj@google.com)
+
+[system/core]
+libutils: check vsnprintf error <7 weeks ago> [e80f830a0]
+by: Steven Moreland (smoreland@google.com)
+String16::remove - avoid overflow <4 months ago> [de0a1d748]
+by: Steven Moreland (smoreland@google.com)
+
+[system/sepolicy]
+Don't give uid-based categories to app_zygote and isolated processes. <3 months ago> [3b6274bb3]
+by: Martijn Coenen (maco@google.com)
+
+[vendor/overlay]
+overlay: Allow default notification listener access for Lawnchair <22 hours ago> [c0d469e]
+by: NurKeinNeid (mralexman3000@gmail.com)
+overlay: Move defaultListenerAccessPackages to overlay [2/2] <22 hours ago> [7eafa2a]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 
-[packages/apps/DerpQuest]
-DerpQuest: Enforce QS tile tint for appropriate QS tile styles <3 days ago> [92972cd6e]
+[vendor/pixelstyle]
+pixelstyle: Move defaultListenerAccessPackages to overlay [1/2] <22 hours ago> [ef64bf8]
 by: Ido Ben-Hur (idoybh2@gmail.com)
-DerpQuest: Move QS tile style to DerpQuest [2/2] <3 days ago> [b9ec8ac6f]
+
+[device/oneplus/dumpling]
+official <60 minutes ago> [64c2a1b]
 by: Ido Ben-Hur (idoybh2@gmail.com)
+
+
+====================
+     09-11-2020
+====================
+
+
+====================
+     09-10-2020
+====================
+
+[packages/apps/PermissionController]
+DO NOT MERGE Use permission group definintion if defined in PermissionController <5 months ago> [d3034b98]
+by: Evan Severson (evanseverson@google.com)
+Update PermissionChecker usages to avoid unnecessary attribution. <12 months ago> [6ecece3c]
+by: Svet Ganov (svetoslavganov@google.com)
+
+
+====================
+     09-09-2020
+====================
+
+[packages/providers/DownloadProvider]
+Merge tag 'android-10.0.0_r46' into staging/ten-android-10.0.0_r46 <3 days ago> [0a5ddf52]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+[device/oneplus/guacamole]
+CI tag <12 days ago> [ce78ecf]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+
+
+====================
+     09-08-2020
+====================
+
+[frameworks/base]
+base: Update Chinese translation <6 days ago> [132839a4c882]
+by: ZONGQUAN-HU (36360150+ZONGQUAN-HU@users.noreply.github.com)
+
+[device/oneplus/guacamole]
+guacamole: overlay: Sync config_autoBrightnessLevels and config_autoBrightnessDisplayValuesNits with OOS <7 weeks ago> [32027e6]
+by: gnumdk (gnumdk@gmail.com)
+guacamole: Pull in partition flags from sm8150-common <6 days ago> [45d54c7]
+by: LuK1337 (priv.luk@gmail.com)
+guacamole: Nuke display mode hack <4 months ago> [d30afd4]
+by: Erfan Abdi (erfangplus@gmail.com)
+dependencies: we don't need to use diff vendors for both devices anymore <4 days ago> [f0e7287]
+by: Omkar Chandorkar (forumomkar@gmail.com)
+
+[device/oneplus/sm8150-common]
+sm8150-common: wifi: Relax WiFi re-association RSSI thresholds <10 months ago> [3ee400056]
+by: Sultanxda (sultanxda@gmail.com)
+
+
+====================
+     09-07-2020
+====================
+
+
+====================
+     09-06-2020
+====================
+
+[frameworks/base]
+Don't send interaction hint for unnecessary events <2 years, 2 months ago> [8a30a07a6a43]
+by: Alex Naidis (alex.naidis@paranoidandroid.co)
+Permissions: Stop auto-granting location to system browsers <3 months ago> [c17bd8db737e]
+by: Daniel Micay (danielmicay@gmail.com)
+Notifications: Make USB-Debugging notification less important <4 months ago> [6db71500dac0]
+by: Michael W (baddaemon87@gmail.com)
+Notification: Fix no icon shown for data limit notification <3 years, 2 months ago> [0764eab3cea5]
+by: Sridhar Kasukurthi (skasuk@codeaurora.org)
+
+[packages/apps/Settings]
+Settings: restyle that horrible sim select dialog <3 months ago> [a86fc4a3d4]
+by: maxwen (max.weninger@gmail.com)
+
+[device/oneplus/sm8150-common]
+overlay:CarrierConfig: Disable config_update_service_status for all carriers <6 days ago> [cf082c0f6]
+by: Adhitya Mohan (me@adhityamohan.in)
+sm8150-common: Add product audio props <5 weeks ago> [32622ef8a]
+by: Hikari-no-Tenshi (kyryljan.serhij@gmail.com)
+sm8150-common: Remove few props not used in OOS 10.3.4 <5 weeks ago> [003502ffb]
+by: Hikari-no-Tenshi (kyryljan.serhij@gmail.com)
+sm8150-common: Sync audio props with OOS <5 weeks ago> [e158cfbc1]
+by: Hikari-no-Tenshi (kyryljan.serhij@gmail.com)
+sm8150-common: update vendor SPL from OOS 10.3.4 <5 weeks ago> [2ffda946c]
+by: Lup Gabriel (gwolf2u.website@gmail.com)
+sm8150-common: Set parser input buffer size as on OOS <3 months ago> [627c6b814]
+by: Hikari-no-Tenshi (kyryljan.serhij@gmail.com)
+sm8150-common: Add adreno props <3 months ago> [dbf8a3294]
+by: Hikari-no-Tenshi (kyryljan.serhij@gmail.com)
+sm8150-common: Set vendor prop to disable 3d-tonemap on UI <1 year, 4 months ago> [da4baba64]
+by: Sushil Chauhan (sushilchauhan@codeaurora.org)
+sm8150-common: enable Optimize Refresh feature <1 year, 6 months ago> [94b79537f]
+by: Padmanabhan Komanduru (pkomandu@codeaurora.org)
+sm8150-common: add needed blobs and sepolicy for newer OOS Cam <3 months ago> [970606195]
+by: chandra (chandra.chaganti@hotmail.com)
+sm8150-common: sed qti_libpermissions.xml during extract instead of pinning <2 years, 2 months ago> [8b3672d16]
+by: Michael Bestas (mkbestas@lineageos.org)
+sm8150-common: add missing vendor.oneplus.camera.CameraMDMHIDL blob <4 months ago> [ff81818f9]
+by: Lup Gabriel (gwolf2u.website@gmail.com)
+proprietary-files: update telephony from cepheus <7 days ago> [1d5f7fc5c]
+by: Omkar Chandorkar (forumomkar@gmail.com)
 
 [prebuilts/clang/host/linux-x86/clang-proton]
-Update to 20200808 build <3 days ago> [b0b32ba]
+Update to 20200906 build <7 days ago> [2295e58]
 by: Danny (danny@kdrag0n.dev)
-
-
-====================
-     08-08-2020
-====================
-
-[vendor/aosip]
-qcom: Add atoll platform <3 months ago> [cc68d1bc]
-by: TheHitMan7 (krtik.vrma@gmail.com)
-BoardConfigQcom: Allow a device to opt-out hardset of PRODUCT_SOONG_NAMESPACES <3 months ago> [57bfab87]
-by: Andrew Hexen (SyberHexen@gmail.com)
-
-[kernel/oneplus/poad]
-platform: ipa: use power efficient workingqueues <10 months ago> [18f41683dc2ef]
-by: Julian Liu (wlootlxt123@gmail.com)
-sched/fair: Fix -Wunused-but-set-variable warnings <12 months ago> [6b9dcb5e2ebf0]
-by: Qian Cai (cai@lca.pw)
-sched/fair: Fix low cpu usage with high throttling by removing expiration of cpu-local slices <1 year, 1 month ago> [92251afcd47df]
-by: Dave Chiluk (chiluk+linux@indeed.com)
-BACKPORT: thermal: core: using power_efficient_wq for thermal worker <1 year, 11 months ago> [f7112ed1310b7]
-by: Jeson Gao (jeson.gao@unisoc.com)
-FROMLIST: sched/fair: util_est: fast ramp-up EWMA on utilization increases <10 months ago> [e46caa51d0c54]
-by: Patrick Bellasi (patrick.bellasi@matbug.com)
-kgsl/adreno: Properly set GPU timeout <1 year, 7 months ago> [cdfa337644f1e]
-by: celtare21 (celtare21@gmail.com)
-msm: kgsl: Omit referencing pointers in traces <1 year, 4 months ago> [bea894fc7f844]
-by: Harshdeep Dhatt (hdhatt@codeaurora.org)
-msm: kgsl: Ensure GPU gdscs are off in SLUMBER and during hard reset <1 year, 1 month ago> [3a5cbcdf7dea6]
-by: Deepak Kumar (dkumar@codeaurora.org)
-kernel: Rename dirty_background_ratio <10 months ago> [544660ce69b5d]
-by: celtare21 (celtare21@gmail.com)
-msm: kgsl: Fix drawqueue timer race condition <1 year, 4 months ago> [bc4cab0d92ad7]
-by: Harshdeep Dhatt (hdhatt@codeaurora.org)
-mdss: move to async probe <10 months ago> [260527e6bbb50]
-by: idkwhoiam322 (idkwhoiam322@raphielgang.org)
-ion/msm: move msm_ion_init to async probe <1 year, 3 months ago> [21247d8035264]
-by: Rick Yiu (rickyiu@google.com)
-msm: kgsl: move kgsl_3d_init to async probe <1 year, 3 months ago> [f3f14b7b6d07d]
-by: Rick Yiu (rickyiu@google.com)
-kgsl: add low_prio_worker thread <1 year, 1 month ago> [5c3c1989a8e06]
-by: Tim Murray (timmurray@google.com)
-sched/fair: refine check for sync wake-up <1 year, 5 months ago> [a7dd6d506d54a]
-by: Rick Yiu (rickyiu@google.com)
-Merge branch 'android-4.4-p' of https://android.googlesource.com/kernel/common into HEAD <3 days ago> [650fb68068638]
-by: Adhitya Mohan (me@adhityamohan.in)
-
-
-====================
-     08-07-2020
-====================
-
-[device/qcom/sepolicy]
-sepolicy: Allow system_server to read persist camera props <1 year, 7 months ago> [a7652e050]
-by: dianlujitao (dianlujitao@lineageos.org)
-
-[frameworks/base]
-BatteryService: Add VOOC charging support <6 days ago> [824269e5d4c0]
-by: karthick111 (karthick111@users.noreply.github.com)
-base: SystemUI: Fix Active Color For QS Tile Styles <6 weeks ago> [502570a07e01]
-by: rohan (purohit.rohan@gmail.com)
-base: Add CircleOutline QS Tile Style [1/3] <1 year, 6 months ago> [28bc7fa877e2]
-by: sayan7848 (sayan7848@gmail.com)
-base: Add Cookie QS Style [1/3] <1 year, 6 months ago> [4986746dd783]
-by: HrX03 (dn.bianco03@gmail.com)
-base: Add More QS Tile Styles [1/3] <7 weeks ago> [184f1b42ac07]
-by: El Dainosor (eldainosor@gmail.com)
-base: Introduce QS Tile Style Picker [1/3] <1 year, 10 months ago> [decc2239edfc]
-by: calebcabob (calphonic@gmail.com)
-
-[packages/apps/Settings]
-Settings: Add CircleOutline QS Tile Style [2/3] <1 year, 6 months ago> [94d66c5683]
-by: sayan7848 (sayan7848@gmail.com)
-Settings: Add Cookie QS Style [2/3] <1 year, 6 months ago> [c8baf9de13]
-by: HrX03 (dn.bianco03@gmail.com)
-Settings: Add More QS Tiles Styles [2/3] <2 years, 3 months ago> [b9e1d6ecbc]
-by: eldainosor (eldainosor@gmail.com)
-Settings: Introduce QS Tile Style Picker [2/3] <7 weeks ago> [3cdb2c4541]
-by: calebcabob (calphonic@gmail.com)
-
-[vendor/overlay]
-vendor: Add CircleOutline QS Tile Style [3/3] <1 year, 6 months ago> [6aad46f]
-by: sayan7848 (sayan7848@gmail.com)
-vendor: Add Cookie QS Style [3/3] <1 year, 6 months ago> [6556cd5]
-by: HrX03 (dn.bianco03@gmail.com)
-vendor: Add More QS Tile Styles [3/3] <1 year, 9 months ago> [b65baaa]
-by: ElDainosor (eldainosor@gmail.com)
-vendor: Introduce QS Tile Style Picker [3/3] <1 year, 10 months ago> [898eaaf]
-by: calebcabob (calphonic@gmail.com)
-
-
-====================
-     08-06-2020
-====================
-
-
-====================
-     08-05-2020
-====================
-
-[prebuilts/gcc/linux-x86/aarch64/aarch64-elf]
-Import GCC 10.2, binutils 2.35 <7 days ago> [c5bde62]
-by: Park Ju Hyung (qkrwngud825@gmail.com)
 
 
