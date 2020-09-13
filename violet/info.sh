@@ -1,4 +1,4 @@
 DEVICE_NAME="Redmi Note 7 Pro"
-TGNAME="Arpon5691"
-MAINTAINER="Arpon Sarkar"
+TGNAME="dasshubham762"
+MAINTAINER="Shubham Das"
 DISCUSSION="https://t.me/derpfestviolet"
