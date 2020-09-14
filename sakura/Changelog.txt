@@ -1,3 +1,30 @@
+Update Date: 14 sept 2020
+
+- Device side Changelogs:
+
+[*]Fix status bar padding
+[*]Other small improvements...
+
+- Rom side changelogs:
+
+• Merged September security patch
+• Introduced QS tile styles
+• Added POSP's volume panel styles
+• Added new icon shapes from Android R
+• Added gaming macro QS tile settings
+• Added OOS Q VoLTE
+• Improved Lead Black primary
+• Stop auto-granting location to system browsers
+• Fixed no icon shown for data limit notification
+• Don't send interaction hint for unnecessary events
+• Made USB debugging notification less important
+• Merged some CAF surfaceflinger changes
+• Updated Lawnchair to version 2.1-2627
+• Maybe more things can't remember ;P
+
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
 Update Date: 11 sept 2020
 
 - Device Side Changelogs:
