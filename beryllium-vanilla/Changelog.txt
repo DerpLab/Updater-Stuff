@@ -1,5 +1,7 @@
-- Updated MiPa Kernel to 9.6
-- Added Moto Dolby
-- Added Volume Panel Styles from POSP
-- Improved Edge Lighting
-- Improved QS Tile Styles
+- Merged September Security Patch
+- Updated MiPa Kernel to 4.9.236
+- Updated QP Gallery
+- Updated Blobs from MIUI 12.0.1.0 Global Stable
+- Updated Required Firmware Link
+- Updated Recommended Recovery Link
+- Added Adreno Props
