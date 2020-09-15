@@ -1,28 +1,35 @@
 Device: Xiaomi Redmi 4X
 Device maintainer: Bikram Mukherjee
 
-Date :- 21/08/2020
+Date :- 15/09/2020
 ================
 
 Device Changelog:
 ----------------
-- Import power Hal From LA.UM.8.6.2.r1-08100-89xx.0
-- Import Thermal Hal From LA.UM.8.6.2.r1-08100-89xx.0
-- set zRam swap to 1GB
-- Add Prebuilt QPGallery v8.1.2
-- Add prebuilt Via Browser to v4.0.5
-- Add Prebuilt PulseMusic v2.0.0
-- Padding Fixed
-- Increase system_icon_area weight
-- Add property value to indicate support for dual SIM mode
-- Update thermal-engine.conf
-- Kernel: Upstreamed to 4.9.232
-- Merged Caf tag LA.UM.8.6.2.r1-08100-89xx.0
-- Compiled with Proton Clang  20200808
+- fixed flickering screen
+- Disable window rounded corner animations
+- update data-ipa-cfg-mgr from LA.UM.8.6.2.r1-08400-89xx.0
+- Update rootdir script from LA.UM.8.6.2.r1-08400-89xx.0
+- Use Cloudflare DNS servers as hints
+- Add full Support Carrier Smartfren ViLTE
+- Kernel: Upstreamed to 4.9.236
+- Compiled kernel with Proton Clang 12
 
 Source Changelog:
 ----------------
-- Introduce QS Tile Style Picker
-- Add gaming mode QS tile settings
-- Add new icon shapes from Android R
-- Refactor PowerMenu background filter
+- Merged september security patch (r46)
+- Added Q/S Tiles Style Picker
+- Added POSP Volume Panel Styles
+- Modified Ambient Light color mode Settings
+- Improved PowerMenu backround filter
+- Added Gaming Mode QS Tile Settings (Gaming Macro)
+- Added new icon shapes from Android R
+- FOD improvements
+- Implemented OnePlus proprietary vibrator format
+- Added OOS Q VoLTE Icon
+- Added custom cutout shapes settings
+- Restyle that horrible sim select dialog
+- Fix no icon shown for data limit notification
+- Make USB-Debugging notification less important
+- Stop auto-granting location to system browsers
+- Updated translations
