@@ -26,10 +26,6 @@ by: Abhijeet Kaur (abkaur@google.com)
      09-14-2020
 ====================
 
-[packages/apps/Launcher3]
-Launcher3: improve protected app names style <6 weeks ago> [1cbb1e890]
-by: Joey (joey@lineageos.org)
-
 [vendor/aosip]
 kernel: Use CPATH for including host headers <2 weeks ago> [a51dd86]
 by: LuK1337 (priv.luk@gmail.com)
@@ -39,12 +35,8 @@ by: LuK1337 (priv.luk@gmail.com)
      09-13-2020
 ====================
 
-[manifest]
-manifest: track external/sonivox <6 days ago> [95bb9bd]
-by: Josh Fox (XlxFoXxlX) (joshfox87@gmail.com)
-
 [build/make]
-sign_target_apks: Replace update-payload-key.pub.pem in RECOVERY as well <4 days ago> [1b99b8d32]
+sign_target_apks: Replace update-payload-key.pub.pem in RECOVERY as well <5 days ago> [1b99b8d32]
 by: LuK1337 (priv.luk@gmail.com)
 build_image: Allow disabling custom inode count calculation <10 days ago> [ab976790b]
 by: Christian Oder (myself5@carbonrom.org)
@@ -66,6 +58,19 @@ releasetools: GetCareMap supports non-sparse image. <1 year, 5 months ago> [c93b
 by: Tao Bao (tbao@google.com)
 Bump SPl to 2020-09-05 <6 days ago> [24378b4dc]
 by: Akhil Narang (me@akhilnarang.dev)
+
+[packages/apps/Launcher3]
+Launcher3: improve protected app names style <6 weeks ago> [1cbb1e890]
+by: Joey (joey@lineageos.org)
+
+
+====================
+     09-12-2020
+====================
+
+[manifest]
+manifest: track external/sonivox <6 days ago> [95bb9bd]
+by: Josh Fox (XlxFoXxlX) (joshfox87@gmail.com)
 
 [external/sonivox]
 Check data consistency in mdls parsing <5 months ago> [5f5954e]
@@ -165,19 +170,14 @@ by: Steven Moreland (smoreland@google.com)
 Don't give uid-based categories to app_zygote and isolated processes. <3 months ago> [3b6274bb]
 by: Martijn Coenen (maco@google.com)
 
-
-====================
-     09-12-2020
-====================
-
 [vendor/overlay]
-overlay: Allow default notification listener access for Lawnchair <4 days ago> [c0d469e]
+overlay: Allow default notification listener access for Lawnchair <5 days ago> [c0d469e]
 by: NurKeinNeid (mralexman3000@gmail.com)
-overlay: Move defaultListenerAccessPackages to overlay [2/2] <4 days ago> [7eafa2a]
+overlay: Move defaultListenerAccessPackages to overlay [2/2] <5 days ago> [7eafa2a]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 
 [vendor/pixelstyle]
-pixelstyle: Move defaultListenerAccessPackages to overlay [1/2] <4 days ago> [ef64bf8]
+pixelstyle: Move defaultListenerAccessPackages to overlay [1/2] <5 days ago> [ef64bf8]
 by: Ido Ben-Hur (idoybh2@gmail.com)
 
 
@@ -185,19 +185,15 @@ by: Ido Ben-Hur (idoybh2@gmail.com)
      09-11-2020
 ====================
 
-[packages/apps/PermissionController]
-DO NOT MERGE Use permission group definintion if defined in PermissionController <5 months ago> [d3034b98]
-by: Evan Severson (evanseverson@google.com)
-Update PermissionChecker usages to avoid unnecessary attribution. <12 months ago> [6ecece3c]
-by: Svet Ganov (svetoslavganov@google.com)
-
 
 ====================
      09-10-2020
 ====================
 
-[packages/providers/DownloadProvider]
-Merge tag 'android-10.0.0_r46' into staging/ten-android-10.0.0_r46 <7 days ago> [0a5ddf52]
-by: Ido Ben-Hur (idoybh2@gmail.com)
+[packages/apps/PermissionController]
+DO NOT MERGE Use permission group definintion if defined in PermissionController <5 months ago> [d3034b98]
+by: Evan Severson (evanseverson@google.com)
+Update PermissionChecker usages to avoid unnecessary attribution. <12 months ago> [6ecece3c]
+by: Svet Ganov (svetoslavganov@google.com)
 
 
