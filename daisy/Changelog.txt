@@ -1,4 +1,26 @@
-Device Changelog
+-Device Changelog
+(15-08-2020)
+> import surface flinger offsets from Sunfish
+> Import Thermal From Olive 
+> disable audio ULL mode 
+> disable ULL mode for speakers
+> Replace qcom's deep_buffer with AOSP low_latency
+> fixed rounded corners values
+> Checkout USB Ramdisk From LA.UM.8.6.2.r1-07600-89xx.0
+> Use Cloudflare DNS servers as hints 
+> XiaomiParts: Add More TCP Congestion Algorithm
+> Enable VoWIFI/ViLTE for Airtel(Bihar)
+> Limit hotspot to 12 devices 
+> Update WCNSS_qcom_cfg.ini from deen's PPK29.68-16-8 
+> wifi: set beacon missed count threshold
+> Update CarrierConfig from LA.UM.8.6.r1-04000-89xx.0 
+> Add full Support Carrier Smartfren ViLTE
+> Set thermal profile on boot
+> Add f2fs from mido 
+> overlay: Disable vendor mismatch warning
+> build libbthost_if from hardware/qcom 
+> Enabled Codec2
+> build libbthost_if from hardware/qcom 
 
 (26-08-2020)
 > Added TWRP
@@ -35,6 +57,25 @@ Device Changelog
 
 ROM Changelog
 
+(September)
+- Merged september security patch (r46)
+- Added Q/S Tiles Style Picker
+- Added POSP Volume Panel Styles
+- Modified Ambient Light color mode Settings
+- Improved PowerMenu backround filter
+- Added Gaming Mode QS Tile Settings (Gaming Macro)
+- Added new icon shapes from Android R
+- FOD improvements
+- Implemented OnePlus proprietary vibrator format
+- Added OOS Q VoLTE Icon
+- Added custom cutout shapes settings
+- Restyle that horrible sim select dialog
+- Fix no icon shown for data limit notification
+- Make USB-Debugging notification less important
+- Stop auto-granting location to system browsers
+- Updated translations
+
+(August)
 - Added QS Tile Styles
 - Added new icon shapes from R
 - Added gaming mode QS tile settings
