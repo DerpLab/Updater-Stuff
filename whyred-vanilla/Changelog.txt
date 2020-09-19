@@ -1,79 +1,26 @@
 #############
 ###DEVICE###
 ############
-- Fixed weird brightness issues at high temps
-- fall back to thermals from jasmine V11.0.4.0.QDIMIXM
-- Update GPU drivers to v454
-- kang some rendering props
+- Fixed Nightlight
+- Rebased Kernel
+- Compiled kernel with clang 11.0.4
 - Misc stuff
+
 
 ############
 ###SOURCE###
 ############
-
-[manifest]
-manifest: track our own fork of PotatoPlugins <3 days ago> [10ae5e1]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[frameworks/base]
-base: GamingModeTile: Improve code <4 days ago> [f663e6f467b]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/apps/PotatoPlugins]
-plugins: Separate vibrate drawable for vol panel from common icon   @marshmello61 - do it for plugins  *impl: https://github.com/DerpLab/platform_frameworks_base/commit/fadb1f57b7c5de3557e208f6a8acc6897f4df3e8 <3 days ago> [b43e751]
-by: poad42 (me@adhityamohan.in)
-plugins: Launch Q expanded volume panel on arrow longpress  *for AospPanel and CompactPanel <4 days ago> [3c5c86d]
-by: poad42 (me@adhityamohan.in)
-
-
-====================
-     08-15-2020
-====================
-
-[frameworks/base]
-base: Refactor PowerMenu background filter code <4 days ago> [6c0401c68ce]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-base: Update LockScreen date size when needed <5 days ago> [58ba6e6511f]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[vendor/xiaomi/whyred]
-use thermals from jasmine V11.0.4.0.QDIMIXM <5 days ago> [4d5fbd0]
-by: sreekfreak995 (sreekfreak995@gmail.com)
-
-
-====================
-     08-14-2020
-====================
-
-[device/aosip/sepolicy]
-sepolicy: let matlog read dmesg Matlog creates empty dmesg.txt and this denial shows up in dmesg. <5 days ago> [7c312f0]
-by: DarkDampSquib (andrin.geiger1998@gmail.com)
-
-[vendor/xiaomi/whyred]
-Clean up useless stuff <9 days ago> [cc9296f]
-by: sreekfreak995 (sreekfreak995@gmail.com)
-Update GPU drivers to v454 <6 days ago> [08f4a17]
-by: ?UTF-8?q?Arda=20S=C3=BCzen?= (55506979+ardasuzen@users.noreply.github.com)
-
-
-====================
-     08-13-2020
-====================
-
-[external/pulse]
-pulse: Support the new RGB accent picker <6 days ago> [4c86dfb]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[frameworks/base]
-base: Simplify ambient light color mode settings [1/2] <6 days ago> [6823b94c039]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-base: Default custom ambient light color to accent [1/2] <6 days ago> [7fb494cc3a2]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/apps/DerpQuest]
-DerpQuest: Simplify ambient light color mode settings [2/2] <6 days ago> [9fdfa59]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-DerpQuest: Default custom ambient light color to accent [2/2] <6 days ago> [9d14f57]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-
+- Merged september security patch (r46)
+- Added Q/S Tiles Style Picker
+- Added POSP Volume Panel Styles
+- Modified Ambient Light color mode Settings
+- Improved PowerMenu backround filter
+- Added Gaming Mode QS Tile Settings (Gaming Macro)
+- Added new icon shapes from Android R
+- Added OOS Q VoLTE Icon
+- Added custom cutout shapes settings
+- Restyle that horrible sim select dialog
+- Fix no icon shown for data limit notification
+- Make USB-Debugging notification less important
+- Stop auto-granting location to system browsers
+- Updated translations
