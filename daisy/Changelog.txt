@@ -1,5 +1,5 @@
 -Device Changelog
-(15-08-2020)
+(15-09-2020)
 > import surface flinger offsets from Sunfish
 > Import Thermal From Olive 
 > disable audio ULL mode 
