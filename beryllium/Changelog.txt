@@ -1,7 +1,4 @@
-- Merged September Security Patch
-- Updated MiPa Kernel to 4.9.236
-- Updated QP Gallery
-- Updated Blobs from MIUI 12.0.1.0 Global Stable
-- Updated Required Firmware Link
-- Updated Recommended Recovery Link
-- Added Adreno Props
+- Final Q Build
+- Added Face Lock
+- Added App Lock from AOSPA
+
