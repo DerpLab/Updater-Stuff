@@ -2,6 +2,9 @@
 ## DEVICE CHANGELOG ##
 ######################
 
+*none
+
+*old CHANGELOG
 - Bug fixes and improvements
 - Fixed stereo mic
 - Qti bluetooth
@@ -19,6 +22,9 @@
 ##  ROM  CHANGELOG  ##
 ######################
 
+*ROM sauce update
+
+*old CHANGELOG
 - Merged august security patch (r41)
 - Fixed Freeform window moving & resize issues
 - QS make sure we dont show empty row
