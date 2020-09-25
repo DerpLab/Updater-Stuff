@@ -1,75 +1,35 @@
 ====================
-     08-22-2020
-====================
-
-[device/xiaomi/msm8998-common]
-Fix: disable HD notification <24 hours ago> [e5c2639]
-by: Estel (callmebedrockdigger@gmail.com)
-
-
-====================
-     08-21-2020
-====================
-
-[device/qcom/sepolicy]
-Revert "sepolicy: Allow system_server to read persist camera props" <2 days ago> [0130c6e]
-by: Murtaza@Piplod (murtaza1926@gmail.com)
-
-[kernel/xiaomi/msm8998]
-qcacld-3.0: Delete extra characters <2 days ago> [54207d87]
-by: kenzoreed (thesupernikkce@yandex.ru)
-
-
-====================
-     08-20-2020
-====================
-
-[frameworks/base]
-base: Make gaming mode QS tile save and load the state of settings <3 days ago> [9ac85397]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-
-====================
-     08-19-2020
+     09-25-2020
 ====================
 
 
 ====================
-     08-18-2020
+     09-24-2020
 ====================
-
-[external/sqlite]
-Revert "Reduce sync safety levels from 3 to 1" <4 days ago> [c856151]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/apps/Settings]
-Settings: Update Greek tranlations (#23) <4 days ago> [fdb5530]
-by: CrisBalGreece (crisbaladim@yahoo.gr)
-
-[packages/apps/DerpQuest]
-DerpQuest: Update Greek translations (#81) <4 days ago> [7509c15]
-by: CrisBalGreece (crisbaladim@yahoo.gr)
-
-[prebuilts/clang/host/linux-x86]
-Update prebuilt Clang to r399163 (11.0.4). <8 days ago> [e7684bbc]
-by: Stephen Hines (srhines@google.com)
 
 
 ====================
-     08-17-2020
+     09-23-2020
 ====================
-
-[frameworks/native]
-Merge caf sf changes  * from LA.UM.8.2.r2-02300-sdm660.0 <5 weeks ago> [2b1af29]
-by: Adhitya Mohan (me@adhityamohan.in)
-
-[hardware/qcom-caf/sm8150/display]
-sdm: mark FOD pressed layer by setting a bit on ZPOS <3 months ago> [522d9e2]
-by: Demon000 (demonsingur@gmail.com)
 
 
 ====================
-     08-16-2020
+     09-22-2020
+====================
+
+
+====================
+     09-21-2020
+====================
+
+
+====================
+     09-20-2020
+====================
+
+
+====================
+     09-19-2020
 ====================
 
 
