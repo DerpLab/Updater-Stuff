@@ -1,199 +1,41 @@
 ====================
-     09-13-2020
+     10-03-2020
 ====================
 
-[build/make]
-sign_target_apks: Replace update-payload-key.pub.pem in RECOVERY as well <2 days ago> [1b99b8d32]
-by: LuK1337 (priv.luk@gmail.com)
-build_image: Allow disabling custom inode count calculation <7 days ago> [ab976790b]
-by: Christian Oder (myself5@carbonrom.org)
-Refactor how MODULES-IN-* is defined <3 months ago> [20a458f04]
-by: Dan Willemsen (dwillemsen@google.com)
-base_rules.mk optimizations <3 months ago> [32e84df59]
-by: Dan Willemsen (dwillemsen@google.com)
-Fix test suite data files issue. <6 months ago> [862f03285]
-by: Jaewoong Jung (jungjw@google.com)
-Export list of "installable" files to soong_ui <8 months ago> [2c2d28d0b]
-by: Dan Willemsen (dwillemsen@google.com)
-Rewrite test data logic to make it faster <3 months ago> [f315ed900]
-by: Dan Willemsen (dwillemsen@google.com)
-More performance improvements <3 months ago> [391454102]
-by: Dan Willemsen (dwillemsen@google.com)
-releasetools: Skip on empty care_map. <1 year, 4 months ago> [af2fa9645]
-by: Tao Bao (tbao@google.com)
-releasetools: GetCareMap supports non-sparse image. <1 year, 5 months ago> [c93b2163a]
-by: Tao Bao (tbao@google.com)
-Bump SPl to 2020-09-05 <3 days ago> [24378b4dc]
-by: Akhil Narang (me@akhilnarang.dev)
 
-[packages/apps/Launcher3]
-Launcher3: improve protected app names style <6 weeks ago> [1cbb1e890]
-by: Joey (joey@lineageos.org)
+====================
+     10-02-2020
+====================
+
+
+====================
+     10-01-2020
+====================
+
+
+====================
+     09-30-2020
+====================
 
 [prebuilts/clang/host/linux-x86/clang-proton]
-Update to 20200913 build <9 hours ago> [6c026e2]
+Restore LLVM license <4 days ago> [c20752f]
+by: Danny Lin (danny@kdrag0n.dev)
+Update to 20200929 build <4 days ago> [39bcd72]
 by: Danny (danny@kdrag0n.dev)
 
 
 ====================
-     09-12-2020
-====================
-
-[manifest]
-manifest: track external/sonivox <3 days ago> [95bb9bd]
-by: Josh Fox (XlxFoXxlX) (joshfox87@gmail.com)
-
-[external/sonivox]
-Check data consistency in mdls parsing <5 months ago> [5f5954e]
-by: Harish Mahendrakar (harish.mahendrakar@ittiam.com)
-
-[frameworks/av]
-AudioFlinger: fix fast capture silence <4 months ago> [48a343422]
-by: Eric Laurent (elaurent@google.com)
-Delete an uninitialized object in AACExtractor <11 months ago> [274b82073]
-by: Chuangjie Xia (chuangjie.xia@mediatek.com)
-clearkey hidl: fix oob read in decrypt <5 months ago> [50b2ad6c3]
-by: Robert Shih (robertshih@google.com)
-
-[frameworks/base]
-DO NOT MERGE: Remove unused intent in NiNotification <3 months ago> [4b79ec44574]
-by: Yu-Han Yang (yuhany@google.com)
-Mark implicit PendingIntents as immutable <6 weeks ago> [f2426ebe04d]
-by: Steve Elliott (steell@google.com)
-Add missing isShellUser check <10 weeks ago> [b0f2af2ed1e]
-by: John Reck (jreck@google.com)
-Do not set referrerUri on SessionInfo for non-owners <6 months ago> [69ac6ab5d9f]
-by: Patrick Baumann (patb@google.com)
-Tests no screenshot is copied when user consent timed out <3 months ago> [60a6709058d]
-by: Rhed Jao (rhedjao@google.com)
-Revert "Ignores protected broadcasts if not priv-app" <3 months ago> [196246d2b5b]
-by: Winson Chiu (chiuwinson@google.com)
-Make view intent immutable <3 months ago> [924b9d4491a]
-by: Beth Thibodeau (ethibodeau@google.com)
-Remove unused intent in NFW notification <3 months ago> [aae6b7bdfec]
-by: Yu-Han Yang (yuhany@google.com)
-Only autoVerify at install for new hosts <4 months ago> [c45386c917c]
-by: Christopher Tate (ctate@google.com)
-DO NOT MERGE: Verify INSTALL_PACKAGES permissions when adding installer package <5 months ago> [e2a456c3728]
-by: Winson (chiuwinson@google.com)
-Revert "Revoke 'always' web handler status when not autoverifying" <6 months ago> [acfa17fe029]
-by: Chris Tate (ctate@android.com)
-
-[frameworks/native]
-Call Layer::getLayerDebugInfo from the main thread <3 months ago> [8fe747d4f]
-by: Vishnu Nair (vishnun@google.com)
-Copy Screenshot to fd if and only if user consent approved <6 months ago> [ab49a518a]
-by: Abhijeet Kaur (abkaur@google.com)
-
-[frameworks/opt/net/wifi]
-[Passpoint] Remove R2 broadcasts <3 months ago> [a2a75d8fc]
-by: Hai Shalom (haishalom@google.com)
-
-[frameworks/opt/telephony]
-Use FLAG_IMMUTABLE for MultiSimSettingController <4 months ago> [064170693]
-by: Shuo Qian (shuoq@google.com)
-Add package checking with Uid in EuiccController#getEid <6 weeks ago> [5e7e58d11]
-by: Shuo Qian (shuoq@google.com)
-Use FLAG_IMMUTABLE for InstallCarrierAppUtils <4 months ago> [42da8e223]
-by: Shuo Qian (shuoq@google.com)
-Use FLAG_IMMUTABLE for InboundSmsHandler <4 months ago> [105a83145]
-by: Shuo Qian (shuoq@google.com)
-Use FLAG_IMMUTABLE for CarrierKeyDownloadManager <4 months ago> [33159a10f]
-by: Shuo Qian (shuoq@google.com)
-Use FLAG_IMMUTABLE for CarrierServiceStateTracker <4 months ago> [97a63124c]
-by: Shuo Qian (shuoq@google.com)
-Use FLAG_IMMUTABLE for ServiceStateTracker <4 months ago> [8437c371a]
-by: Shuo Qian (shuoq@google.com)
-Restrict access to the resolution PendingIntent created by EuiccController to EuiccResolutionUiDispatcherActivity <4 months ago> [91b17d266]
-by: Peter Wang (tpwang@google.com)
-Added FLAG_IMMUTABLE flag for security purposes <4 months ago> [62457f8e0]
-by: Jack Yu (jackyu@google.com)
-
-[packages/apps/Bluetooth]
-SAP: Ensure pending intent is immutable <7 weeks ago> [7f167e53]
-by: Chienyuan (chienyuanhuang@google.com)
-
-[packages/apps/Settings]
-Enable the filterTouchesWhenObscured in Special app access <2 months ago> [2a674d8a4d]
-by: Sunny Shao (sunnyshao@google.com)
-Prevent overlay drawing on top of Bluetooth discovery request dialog <4 months ago> [fac65223d3]
-by: Jakub Pawlowski (jpawlowski@google.com)
-Prevent overlay drawing on top of Bluetooth pairing dialog <4 months ago> [e23c24baeb]
-by: Jakub Pawlowski (jpawlowski@google.com)
-
-[packages/services/Telephony]
-Use PendingIntent.FLAG_IMMUTABLE in PendingIntent in NotificationMgr <5 months ago> [8de167e89]
-by: Shuo Qian (shuoq@google.com)
-Restrict access to the resolution PendingIntent created by EuiccController to EuiccResolutionUiDispatcherActivity <4 months ago> [f24bbd190]
-by: Peter Wang (tpwang@google.com)
-Specify the component for the ACTION_SHOW_ECM_EXIT_DIALOG Intent <4 months ago> [baf05c2a8]
-by: Brad Ebinger (breadley@google.com)
-
-[system/bt]
-Fix possible OOB when receive gatt read type response data <7 weeks ago> [a8fe28622]
-by: weichinweng (weichinweng@google.com)
-Remove pairing on incoming bond request <3 months ago> [6a2884943]
-by: Myles Watson (mylesgw@google.com)
-Enable bitpool sanity checks <4 months ago> [c371696f1]
-by: Joseph Pirozzo (pirozzoj@google.com)
-
-[system/core]
-libutils: check vsnprintf error <7 weeks ago> [e80f830a0]
-by: Steven Moreland (smoreland@google.com)
-String16::remove - avoid overflow <4 months ago> [de0a1d748]
-by: Steven Moreland (smoreland@google.com)
-
-[system/sepolicy]
-Don't give uid-based categories to app_zygote and isolated processes. <3 months ago> [3b6274bb]
-by: Martijn Coenen (maco@google.com)
-
-[vendor/overlay]
-overlay: Allow default notification listener access for Lawnchair <2 days ago> [c0d469e]
-by: NurKeinNeid (mralexman3000@gmail.com)
-overlay: Move defaultListenerAccessPackages to overlay [2/2] <2 days ago> [7eafa2a]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[vendor/pixelstyle]
-pixelstyle: Move defaultListenerAccessPackages to overlay [1/2] <2 days ago> [ef64bf8]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-
-====================
-     09-11-2020
+     09-29-2020
 ====================
 
 
 ====================
-     09-10-2020
+     09-28-2020
 ====================
-
-[packages/apps/PermissionController]
-DO NOT MERGE Use permission group definintion if defined in PermissionController <5 months ago> [d3034b98]
-by: Evan Severson (evanseverson@google.com)
-Update PermissionChecker usages to avoid unnecessary attribution. <12 months ago> [6ecece3c]
-by: Svet Ganov (svetoslavganov@google.com)
 
 
 ====================
-     09-09-2020
-====================
-
-[packages/providers/DownloadProvider]
-Merge tag 'android-10.0.0_r46' into staging/ten-android-10.0.0_r46 <4 days ago> [0a5ddf52]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-
-====================
-     09-08-2020
-====================
-
-[frameworks/base]
-base: Update Chinese translation <7 days ago> [132839a4c88]
-by: ZONGQUAN-HU (36360150+ZONGQUAN-HU@users.noreply.github.com)
-
-
-====================
-     09-07-2020
+     09-27-2020
 ====================
 
 
