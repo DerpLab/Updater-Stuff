@@ -1,163 +1,35 @@
 ====================
-     08-04-2020
+     10-04-2020
 ====================
-
-[manifest]
-Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/platform/manifest into ten <11 hours ago> [6a84861]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-Manifest for Android 10.0.0 Release 41 (QQ3A.200805.001) <12 hours ago> [458a841]
-by: The Android Open Source Project (initial-contribution@android.com)
-manifest: Track Snap camera from AOSiP <25 hours ago> [5268110]
-by: Murtaza@Piplod (murtaza1926@gmail.com)
-
-[build/make]
-Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/platform/build into HEAD <11 hours ago> [26f2481f3]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[external/gptfdisk]
-Merge tag 'android-10.0.0_r41' into ten <12 hours ago> [aad8539]
-by: Akhil Narang (me@akhilnarang.dev)
-
-[frameworks/av]
-Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/platform/frameworks/av into ten <11 hours ago> [3ddea8400]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[frameworks/base]
-base: StatusBar: Improve custom settings observer <5 hours ago> [0553caabffc]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/platform/frameworks/base into ten <10 hours ago> [a36ca80b795]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-FODCircleView: Let us call show() when mIsBouncer() && !isPinOrPattern() <3 months ago> [c8f7061aac0]
-by: LuK1337 (priv.luk@gmail.com)
-Camera: allow camera to use power key as shutter <8 years ago> [0e72c13d002]
-by: Danesh M (daneshm90@gmail.com)
-
-[packages/apps/Settings]
-Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/platform/packages/apps/Settings into HEAD <10 hours ago> [ae6c3c35b9]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[packages/services/Telephony]
-Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/platform/packages/services/Telephony into HEAD <10 hours ago> [99bd78805]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-
-[scripts]
-scripts: aosp-merger: Make sure AOSP remote is valid <6 hours ago> [b45917a]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-scripts: aosp-merger: Don't detach all heads <6 hours ago> [b4ff52f]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-scripts: aosp-merger: Manually merge build/make & manifest before sync <11 hours ago> [83a8ca1]
-by: Ido Ben-Hur (idoybh2@gmail.com)
 
 
 ====================
-     08-03-2020
+     10-03-2020
 ====================
-
-[packages/apps/Settings]
-Settings: Update Simplified Chinese translations <3 days ago> [907f35d11e]
-by: onlymash (im@fiepi.me)
 
 
 ====================
-     08-02-2020
+     10-02-2020
 ====================
-
-[packages/apps/DerpQuest]
-DerpQuest: Allow setting PowerMenu background blur radius [2/2] <3 days ago> [a12652a]
-by: Ido Ben-Hur (idoybh2@gmail.com)
 
 
 ====================
-     08-01-2020
+     10-01-2020
 ====================
-
-[frameworks/base]
-FODCircleView: Show while bouncer is requesting Pattern or PIN <5 days ago> [2673811209d]
-by: TheScarastic (warabhishek@gmail.com)
-base: Allow setting PowerMenu background blur radius [2/2] <3 days ago> [4c95d476e85]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-base: Improve PowerMenu backround filter code <4 days ago> [cfb37d17200]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-base: Powermenu Background filter [1/2] <7 weeks ago> [d5305ff59df]
-by: AnkitGourav (Ankitgourav035@gmail.com)
-
-[vendor/overlay]
-overlay: Add Derp Clear Primary <6 days ago> [c5b2162]
-by: deadmanxxd (deadmanxxd@gmail.com)
-
-[packages/apps/DerpQuest]
-DerpQuest: Convert PowerMenu background filters to be a master switch <4 days ago> [3e270e8]
-by: Ido Ben-Hur (idoybh2@gmail.com)
-DerpQuest: Add powermenu Background Filters [2/2] <6 days ago> [f391bb4]
-by: Aston-Martinn (advaithbhat9@gmail.com)
 
 
 ====================
-     07-31-2020
+     09-30-2020
 ====================
-
-[frameworks/base]
-base: Add QS header styles [1/3] <5 days ago> [405fd498ee6]
-by: SKULSHADY (anushekprasal@gmail.com)
-
-[vendor/overlay]
-overlay: Add QS header styles [3/3] <1 year, 9 months ago> [f69f0bf]
-by: Anushek Prasal (anushekprasal@gmail.com)
-
-[packages/apps/DerpQuest]
-DerpQuest: Add QS header styles [2/3] <5 days ago> [e8daf60]
-by: SKULSHADY (anushekprasal@gmail.com)
-DerpQuest: Remove default summaries for master switches <5 days ago> [755d849]
-by: Ido Ben-Hur (idoybh2@gmail.com)
 
 
 ====================
-     07-30-2020
+     09-29-2020
 ====================
-
-[frameworks/base]
-base: Separate vibrate drawable for vol panel from common icon <6 days ago> [fadb1f57b7c]
-by: Adhitya Mohan (me@adhityamohan.in)
 
 
 ====================
-     07-29-2020
+     09-28-2020
 ====================
-
-[frameworks/base]
-base: Allow showing music heads up on new tracks [1/2] <4 months ago> [0c36252d03d]
-by: ezio84 (brabus84@gmail.com)
-SystemUI: Make clock truly invisible <9 weeks ago> [eb8a76979f2]
-by: Michael W (baddaemon87@gmail.com)
-SystemUI: Fix QS Detail Header <7 weeks ago> [779a7b616ed]
-by: Michael W (baddaemon87@gmail.com)
-Add USSD codes over IMS feature <7 months ago> [fe5f5101b8b]
-by: Masaho Nishikawa (masaho.nishikawa@sony.com)
-Telephony: IMS: Cache subscriber associated uri <8 weeks ago> [d2381384886]
-by: Muhammed Siju (msiju@codeaurora.org)
-SystemUI: Fix SystemUI failed to go to doze issue <1 year, 2 months ago> [6226f2677df]
-by: Weijie Wang (weijiew@codeaurora.org)
-base: Oh, yet another padding fix commit? <2 weeks ago> [f702bad0a4d]
-by: Josh Fox (XlxFoXxlX) (joshfox87@gmail.com)
-
-[packages/apps/DeskClock]
-DeskClock: Use system fonts <7 months ago> [dd2f16480]
-by: Pranav Vashi (neobuddy89@gmail.com)
-DeskClock: update adaptive icon <2 weeks ago> [e6bc26aba]
-by: Abdulwahab Isam (abdoi94.iq@gmail.com)
-
-[packages/apps/Dialer]
-Fix theme for PostCallActivity <7 months ago> [67c25093b]
-by: Sungjae (sung_jae.kim@samsung.com)
-
-[packages/apps/Settings]
-Settings: Updated RU translation (#19,#20) <13 days ago> [0d86698df4]
-by: Northn (57762732+Northn@users.noreply.github.com)
-
-[packages/apps/DerpQuest]
-DerpQuest: Fixed RU translation (#76) <7 days ago> [1356b63]
-by: RunningMango (36758157+RunningMango@users.noreply.github.com)
-DerpQuest: Allow showing music heads up on new tracks [2/2] <4 months ago> [4d8c8a7]
-by: ezio84 (brabus84@gmail.com)
 
 
