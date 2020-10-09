@@ -1,9 +1,7 @@
-►  Changelog 
-• Kernel upstreamed to 4.4.237
-• Default kernel changed to sdm660
-• Coral september FP
+►  Changelog 2020-10-09 
+
+• Kernel upstreamed to 4.4.238
+• New feature
+• Coral FP october
 • Fixes and improvements
-• Xiaomi Parts Included
-• MI Sound Enhancer reinserted
-• DT source updated
 • Source sync
