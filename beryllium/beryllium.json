@@ -1,8 +1,10 @@
 {
   "response": [
     {
-     "datetime": 1600911330,
-     "filename": "DerpFest-10-Official-beryllium-20200924-0136.zip"
+     "datetime": 1603105645,
+     "filename": "DerpFest-10-Official-beryllium-20201019-1107.zip",
+     "url": "https://builds.beryllium.workers.dev/DerpFest/GApps/Builds/DerpFest-10-Official-beryllium-20201019-1107.zip",
+     "md5url": "https://builds.beryllium.workers.dev/DerpFest/GApps/MD5/DerpFest-10-Official-beryllium-20201019-1107.zip.md5sum"
     }
   ]
 }
