@@ -1,0 +1,91 @@
+====================
+     11-10-2020
+====================
+
+
+====================
+     11-09-2020
+====================
+
+
+====================
+     11-08-2020
+====================
+
+[manifest]
+Track some lineage fork(s) for 2020-11 ASB patching <2 days ago> [002a5c9]
+by: Kevin F. Haggerty (haggertk@lineageos.org)
+
+[build/make]
+Bump Security String to 2020-11-05 <4 days ago> [7dddacbf8]
+by: Kevin F. Haggerty (haggertk@lineageos.org)
+
+[frameworks/base]
+Merge pull request #1 from X00TD-AOSIP/ten <2 days ago> [f97665a7f2e]
+by: rahul9999 (36025572+rahul9999xda@users.noreply.github.com)
+Accept repeated locale as an input of LocaleList construction. <3 months ago> [fb3b703941f]
+by: Seigo Nonaka (nona@google.com)
+Sanitize more of the notification text fields <3 months ago> [d87cb1e7fb2]
+by: Julia Reynolds (juliacr@google.com)
+DO NOT MERGE Don't allow non-instant permissions for instant apps. <3 months ago> [c8bb237df5a]
+by: Hai Zhang (zhanghai@google.com)
+
+[frameworks/native]
+libbinder_ndk: fix failure when dump/shell are unset <3 months ago> [1d6040a23]
+by: Steven Moreland (smoreland@google.com)
+
+[packages/apps/Bluetooth]
+Pass whether the local device is an atv device to the native layer to determine whether to include pairing dialogs for justworks and encryption only LE pairing <3 months ago> [5fab8335]
+by: Rahul Sabnis (rahulsabnis@google.com)
+
+[packages/apps/CellBroadcastReceiver]
+RESTRICT AUTOMERGE Fix exported broadcast receiver vulnerability <3 months ago> [6bcdae37]
+by: Hall Liu (hallliu@google.com)
+
+[packages/services/Telecomm]
+Fix security vulnerability of TelecomManager#getPhoneAccountsForPackage <5 months ago> [91f093a6]
+by: Grace Jia (xiaotonj@google.com)
+
+[system/bt]
+Send a response to an smp security request depending on the callback event <3 months ago> [eadf7fa49]
+by: Rahul Sabnis (rahulsabnis@google.com)
+Return after removing sample LTK device <10 months ago> [3b84bb29e]
+by: li-wei.cheng (li-wei.cheng@mediatek.com)
+Check whether local device is an ATV device to determine whether to show the consent dialog for BLE pairing in JUSTWORKS and ENCRYPTION_ONLY mode <3 months ago> [f3e591f89]
+by: Rahul Sabnis (rahulsabnis@google.com)
+Shows a consent dialog on the local device when pairing a bluetooth low energy device if the local device has a display. <5 months ago> [e037c86f7]
+by: Rahul Sabnis (rahulsabnis@google.com)
+
+[system/core]
+Fail explicitly on length overflow. <6 months ago> [25f1c04f1]
+by: Christopher Ferris (cferris@google.com)
+
+[system/apex]
+Merge tag 'android-security-10.0.0_r48' of https://android.googlesource.com/platform/system/apex into HEAD <3 days ago> [36f2bb1]
+by: jhenrique09 (jhenrique09.mcz@hotmail.com)
+
+[system/netd]
+Fix OOB read in DNS resolver <3 months ago> [ed565943]
+by: Ken Chen (cken@google.com)
+
+
+====================
+     11-07-2020
+====================
+
+
+====================
+     11-06-2020
+====================
+
+
+====================
+     11-05-2020
+====================
+
+
+====================
+     11-04-2020
+====================
+
+
