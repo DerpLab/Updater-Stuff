@@ -1,79 +1,355 @@
 ====================
-     09-11-2020
+     11-15-2020
 ====================
 
-
-====================
-     09-10-2020
-====================
-
-
-====================
-     09-09-2020
-====================
-
-[packages/providers/DownloadProvider]
-Merge tag 'android-10.0.0_r46' into staging/ten-android-10.0.0_r46 <2 days ago> [0a5ddf52]
-by: Ido Ben-Hur (idoybh2@gmail.com)
+[device/xiaomi/dipper]
+dipper: Track new kernel <4 hours ago> [e2a4f37]
+by: ALKALiKong (alikongalk@gmail.com)
 
 
 ====================
-     09-08-2020
+     11-14-2020
 ====================
-
-[frameworks/base]
-base: Update Chinese translation <5 days ago> [132839a4c88]
-by: ZONGQUAN-HU (36360150+ZONGQUAN-HU@users.noreply.github.com)
-
-
-====================
-     09-07-2020
-====================
-
-
-====================
-     09-06-2020
-====================
-
-[frameworks/base]
-Don't send interaction hint for unnecessary events <2 years, 2 months ago> [8a30a07a6a4]
-by: Alex Naidis (alex.naidis@paranoidandroid.co)
-Permissions: Stop auto-granting location to system browsers <3 months ago> [c17bd8db737]
-by: Daniel Micay (danielmicay@gmail.com)
-Notifications: Make USB-Debugging notification less important <4 months ago> [6db71500dac]
-by: Michael W (baddaemon87@gmail.com)
-Notification: Fix no icon shown for data limit notification <3 years, 2 months ago> [0764eab3cea]
-by: Sridhar Kasukurthi (skasuk@codeaurora.org)
-
-[packages/apps/Settings]
-Settings: restyle that horrible sim select dialog <3 months ago> [a86fc4a3d4]
-by: maxwen (max.weninger@gmail.com)
 
 [kernel/xiaomi/sdm845]
-Merge branch 'lineage-17.1' of https://github.com/LineageOS/android_kernel_xiaomi_sdm845 into lineage-17.1 <5 days ago> [7da012c94fed]
+Merge branch 'kernel.lnx.4.9.r25-rel' of https://github.com/android-linux-stable/msm-4.9 into eleven <2 days ago> [22ab198b8bac]
 by: ALKALiKong (alikongalk@gmail.com)
-Use tg bot to upload <5 days ago> [7011140824ef]
-by: ALKALiKong (alikongalk@gmail.com)
-lib/string.c: implement stpcpy <6 days ago> [d8fa3e7aa4a4]
-by: Nick Desaulniers (ndesaulniers@google.com)
-Use drone to build <6 days ago> [4c4dbf31bab3]
-by: ALKALiKong (alikongalk@gmail.com)
+stock_defconfig: Sync last changes <4 months ago> [c959ec25bc09]
+by: palaych (palaychm@yandex.ru)
+kernel: Use the stock sdm845-device config for /proc/config.gz <2 years ago> [8bba669e5fce]
+by: Sultan Alsawaf (sultan@kerneltoast.com)
 
 
 ====================
-     09-05-2020
+     11-13-2020
 ====================
+
+[kernel/xiaomi/sdm845]
+Merge 4.9.243 into kernel.lnx.4.9.r25-rel <3 days ago> [60768a2236c8]
+by: Nathan Chancellor (natechancellor@gmail.com)
+Merge 4.9.242 into kernel.lnx.4.9.r25-rel <3 days ago> [9ed71870a8f1]
+by: Nathan Chancellor (natechancellor@gmail.com)
+
+
+====================
+     11-12-2020
+====================
+
+
+====================
+     11-11-2020
+====================
+
+[kernel/xiaomi/sdm845]
+Linux 4.9.243 <5 days ago> [6c52daf91779]
+by: Greg Kroah-Hartman (gregkh@linuxfoundation.org)
+powercap: restrict energy meter to root access <5 days ago> [04533793ac10]
+by: Len Brown (len.brown@intel.com)
+drivers: touchscreen: Remove /proc/touchpanel symlinks <1 year, 10 months ago> [1e601cc37ae7]
+by: Bruno Martins (bgcngm@gmail.com)
+drivers: input: touchscreen: Import the latest changes from Xiaomi <1 year, 11 months ago> [26bb6315646f]
+by: Yuvraj Saxena (yuvrajx2@gmail.com)
+touchscreen: fts_521: Add simple gesture on/off sysfs node and symlink for DT2W <2 years, 2 months ago> [d815be944518]
+by: 1nfrag (sil3ntcll@gmail.com)
+
+
+====================
+     11-10-2020
+====================
+
+[kernel/xiaomi/sdm845]
+Linux 4.9.242 <5 days ago> [206734eadd3c]
+by: Greg Kroah-Hartman (gregkh@linuxfoundation.org)
+Revert "ARC: entry: fix potential EFA clobber when TIF_SYSCALL_TRACE" <4 weeks ago> [fc6220f23dc2]
+by: Vineet Gupta (Vineet.Gupta1@synopsys.com)
+ARC: stack unwinding: avoid indefinite looping <3 weeks ago> [6ffed409b0a0]
+by: Vineet Gupta (vgupta@synopsys.com)
+USB: Add NO_LPM quirk for Kingston flash drive <13 days ago> [c382e1a5d346]
+by: Alan Stern (stern@rowland.harvard.edu)
+USB: serial: option: add Telit FN980 composition 0x1055 <12 days ago> [01aa849b6241]
+by: Daniele Palmas (dnlplm@gmail.com)
+USB: serial: option: add LE910Cx compositions 0x1203, 0x1230, 0x1231 <2 weeks ago> [7efc53922c89]
+by: Daniele Palmas (dnlplm@gmail.com)
+USB: serial: cyberjack: fix write-URB completion race <3 weeks ago> [9690d9dcdfbe]
+by: Johan Hovold (johan@kernel.org)
+serial: txx9: add missing platform_driver_unregister() on error in serial_txx9_init <12 days ago> [b1e2e61ce75d]
+by: Qinglang Miao (miaoqinglang@huawei.com)
+serial: 8250_mtk: Fix uart_get_baud_rate warning <13 days ago> [ac9faff6d713]
+by: Claire Chang (tientzu@chromium.org)
+fork: fix copy_process(CLONE_PARENT) race with the exiting ->real_parent <8 days ago> [66be43d81870]
+by: Eddy Wu (itseddy0402@gmail.com)
+vt: Disable KD_FONT_OP_COPY <7 days ago> [5ca7f073e680]
+by: Daniel Vetter (daniel.vetter@ffwll.ch)
+ACPI: NFIT: Fix comparison to '-ENXIO' <3 weeks ago> [2da887bc7534]
+by: Zhang Qilong (zhangqilong3@huawei.com)
+vsock: use ns_capable_noaudit() on socket create <3 weeks ago> [380faa74a12e]
+by: Jeff Vander Stoep (jeffv@google.com)
+scsi: core: Don't start concurrent async scan on same host <5 weeks ago> [bf89e8199c88]
+by: Ming Lei (ming.lei@redhat.com)
+of: Fix reserved-memory overlap detection <4 weeks ago> [4089e235fcdd]
+by: Vincent Whitchurch (vincent.whitchurch@axis.com)
+x86/kexec: Use up-to-dated screen_info copy to fill boot params <5 weeks ago> [5eb9f353c2d3]
+by: Kairui Song (kasong@redhat.com)
+ARM: dts: sun4i-a10: fix cpu_alert temperature <6 weeks ago> [83f5b7bb7926]
+by: Clément Péron (peron.clem@gmail.com)
+tracing: Fix out of bounds write in get_trace_buf <2 weeks ago> [b134320e5bde]
+by: Qiujun Huang (hqjagain@gmail.com)
+ftrace: Handle tracing when switching between context <2 weeks ago> [59cc02cbe6c0]
+by: Steven Rostedt (VMware) (rostedt@goodmis.org)
+ftrace: Fix recursion check for NMI test <2 weeks ago> [ee395fa2962c]
+by: Steven Rostedt (VMware) (rostedt@goodmis.org)
+kthread_worker: prevent queuing delayed work from timer_fn when it is being canceled <13 days ago> [a1ffa0673dd1]
+by: Zqiang (qiang.zhang@windriver.com)
+ALSA: usb-audio: Add implicit feedback quirk for Qu-16 <11 days ago> [1332c71e576f]
+by: Geoffrey D. Bennett (g@b4.vu)
+Fonts: Replace discarded const qualifier <13 days ago> [7dadd4eb8da3]
+by: Lee Jones (lee.jones@linaro.org)
+gianfar: Account for Tx PTP timestamp in the skb headroom <4 weeks ago> [8a0ae1b6bd16]
+by: Claudiu Manoil (claudiu.manoil@nxp.com)
+gianfar: Replace skb_realloc_headroom with skb_cow_head for PTP <2 weeks ago> [8bfd746cedf4]
+by: Claudiu Manoil (claudiu.manoil@nxp.com)
+tipc: fix use-after-free in tipc_bcast_get_mode <3 months ago> [7153ef83273e]
+by: Hoang Huu Le (hoang.h.le@dektech.com.au)
+xen/events: don't use chip_data for legacy IRQs <7 weeks ago> [e96ca904aef2]
+by: Juergen Gross (jgross@suse.com)
+staging: octeon: Drop on uncorrectable alignment or FCS error <4 weeks ago> [7dfd2c1eb3d1]
+by: Alexander Sverdlin (alexander.sverdlin@nokia.com)
+staging: octeon: repair "fixed-link" support <4 weeks ago> [797c828f603b]
+by: Alexander Sverdlin (alexander.sverdlin@nokia.com)
+staging: comedi: cb_pcidas: Allow 2-channel commands for AO subdevice <4 weeks ago> [95b519460577]
+by: Ian Abbott (abbotti@mev.co.uk)
+KVM: arm64: Fix AArch32 handling of DBGD{CCINT,SCRext} and DBGVCR <2 weeks ago> [1ba973aafb5a]
+by: Marc Zyngier (maz@kernel.org)
+device property: Don't clear secondary pointer for shared primary firmware node <3 weeks ago> [f94d62fb2b24]
+by: Andy Shevchenko (andriy.shevchenko@linux.intel.com)
+device property: Keep secondary firmware node secondary by type <3 weeks ago> [bf3f57394877]
+by: Andy Shevchenko (andriy.shevchenko@linux.intel.com)
+ARM: s3c24xx: fix missing system reset <3 months ago> [1c71edbce57f]
+by: Krzysztof Kozlowski (krzk@kernel.org)
+ARM: samsung: fix PM debug build with DEBUG_LL but !MMU <9 weeks ago> [2e76c253a015]
+by: Krzysztof Kozlowski (krzk@kernel.org)
+hil/parisc: Disable HIL driver when it gets stuck <4 weeks ago> [f7ef2b3c9fd1]
+by: Helge Deller (deller@gmx.de)
+cachefiles: Handle readpage error correctly <3 weeks ago> [0e3c04165f04]
+by: Matthew Wilcox (Oracle) (willy@infradead.org)
+arm64: berlin: Select DW_APB_TIMER_OF <5 weeks ago> [291f614da687]
+by: Jisheng Zhang (Jisheng.Zhang@synaptics.com)
+tty: make FONTX ioctl use the tty pointer they were actually passed <3 weeks ago> [ea5dd52c3568]
+by: Linus Torvalds (torvalds@linux-foundation.org)
+rtc: rx8010: don't modify the global rtc ops <9 weeks ago> [3aaeaed8a8f0]
+by: Bartosz Golaszewski (bgolaszewski@baylibre.com)
+vringh: fix __vringh_iov() when riov and wiov are different <5 weeks ago> [075ba2223991]
+by: Stefano Garzarella (sgarzare@redhat.com)
+ring-buffer: Return 0 on success from ring_buffer_resize() <4 weeks ago> [f14b7bf830fa]
+by: Qiujun Huang (hqjagain@gmail.com)
+9P: Cast to loff_t before multiplying <6 weeks ago> [ddfff3b4c98e]
+by: Matthew Wilcox (Oracle) (willy@infradead.org)
+libceph: clear con->out_msg on Policy::stateful_server faults <6 weeks ago> [568b54b91cb9]
+by: Ilya Dryomov (idryomov@gmail.com)
+ceph: promote to unsigned long long before shifting <6 weeks ago> [fab99223d048]
+by: Matthew Wilcox (Oracle) (willy@infradead.org)
+ia64: fix build error with !COREDUMP <4 weeks ago> [1c01388c5e29]
+by: Krzysztof Kozlowski (krzk@kernel.org)
+ubi: check kthread_should_stop() after the setting of task state <6 months ago> [63a84e3a9829]
+by: Zhihao Cheng (chengzhihao1@huawei.com)
+ubifs: dent: Fix some potential memory leaks while iterating entries <6 months ago> [fd10a2f785c7]
+by: Zhihao Cheng (chengzhihao1@huawei.com)
+powerpc/powernv/elog: Fix race while processing OPAL error log event. <6 weeks ago> [29b6e4eefe85]
+by: Mahesh Salgaonkar (mahesh@linux.ibm.com)
+powerpc: Warn about use of smt_snooze_delay <3 months ago> [45f0ea796c0d]
+by: Joel Stanley (joel@jms.id.au)
+iio:gyro:itg3200: Fix timestamp alignment and prevent data leak. <4 months ago> [84509066d3b8]
+by: Jonathan Cameron (Jonathan.Cameron@huawei.com)
+iio:adc:ti-adc12138 Fix alignment issue with timestamp <4 months ago> [3b2291a0dea5]
+by: Jonathan Cameron (Jonathan.Cameron@huawei.com)
+iio:light:si1145: Fix timestamp alignment and prevent data leak. <4 months ago> [1b638796f262]
+by: Jonathan Cameron (Jonathan.Cameron@huawei.com)
+dmaengine: dma-jz4780: Fix race in jz4780_dma_tx_status <6 weeks ago> [633bf0cd1972]
+by: Paul Cercueil (paul@crapouillou.net)
+vt: keyboard, extend func_buf_lock to readers <4 weeks ago> [04a6e5aa75e7]
+by: Jiri Slaby (jslaby@suse.cz)
+vt: keyboard, simplify vt_kdgkbsent <4 weeks ago> [2f7ed3b41f24]
+by: Jiri Slaby (jslaby@suse.cz)
+usb: host: fsl-mph-dr-of: check return of dma_set_mask() <5 weeks ago> [31affb07c4f4]
+by: Ran Wang (ran.wang_1@nxp.com)
+usb: dwc3: core: don't trigger runtime pm when remove driver <4 months ago> [054ace8119b2]
+by: Li Jun (jun.li@nxp.com)
+usb: dwc3: core: add phy cleanup for probe error handling <4 months ago> [8ac08f568673]
+by: Li Jun (jun.li@nxp.com)
+btrfs: fix use-after-free on readahead extent after failure to create it <5 weeks ago> [511f3b9722ed]
+by: Filipe Manana (fdmanana@suse.com)
+btrfs: cleanup cow block on error <7 weeks ago> [b7aabd776926]
+by: Josef Bacik (josef@toxicpanda.com)
+btrfs: reschedule if necessary when logging directory items <9 weeks ago> [51b365133913]
+by: Filipe Manana (fdmanana@suse.com)
+scsi: mptfusion: Fix null pointer dereferences in mptscsih_remove() <3 weeks ago> [4a59ea4d11e7]
+by: Helge Deller (deller@gmx.de)
+w1: mxc_w1: Fix timeout resolution problem leading to bus error <7 weeks ago> [ff9cef29e66a]
+by: Martin Fuzzey (martin.fuzzey@flowbird.group)
+acpi-cpufreq: Honor _PSD table setting on new AMD CPUs <4 weeks ago> [38e60b77c9fc]
+by: Wei Huang (wei.huang2@amd.com)
+ACPI: debug: don't allow debugging when ACPI is disabled <5 weeks ago> [e0c41b8b8f11]
+by: Jamie Iles (jamie@nuviainc.com)
+ACPI: video: use ACPI backlight for HP 635 Notebook <9 weeks ago> [f29b91d6ea19]
+by: Alex Hung (alex.hung@canonical.com)
+ACPI / extlog: Check for RDMSR failure <7 weeks ago> [e320749a32e8]
+by: Ben Hutchings (ben@decadent.org.uk)
+NFS: fix nfs_path in case of a rename retry <6 weeks ago> [e8edcd6bd905]
+by: Ashish Sangwan (ashishsangwan2@gmail.com)
+fs: Don't invalidate page buffers in block_write_full_page() <2 months ago> [acef5107e2ea]
+by: Jan Kara (jack@suse.cz)
+leds: bcm6328, bcm6358: use devres LED registering function <8 weeks ago> [acdf4f1d7da1]
+by: Marek Behún (marek.behun@nic.cz)
+perf/x86/amd/ibs: Fix raw sample data accumulation <10 weeks ago> [66348e142d33]
+by: Kim Phillips (kim.phillips@amd.com)
+perf/x86/amd/ibs: Don't include randomized bits in get_ibs_op_count() <10 weeks ago> [df383f9814c5]
+by: Kim Phillips (kim.phillips@amd.com)
+md/raid5: fix oops during stripe resizing <6 weeks ago> [4c09a618ed14]
+by: Song Liu (songliubraving@fb.com)
+ARM: dts: s5pv210: remove dedicated 'audio-subsystem' node <10 weeks ago> [dc984c639e76]
+by: Krzysztof Kozlowski (krzk@kernel.org)
+ARM: dts: s5pv210: move PMU node out of clock controller <10 weeks ago> [61626b647759]
+by: Krzysztof Kozlowski (krzk@kernel.org)
+ARM: dts: s5pv210: remove DMA controller bus node name to fix dtschema warnings <10 weeks ago> [35229d686529]
+by: Krzysztof Kozlowski (krzk@kernel.org)
+memory: emif: Remove bogus debugfs error handling <3 months ago> [158c1bbb57dc]
+by: Dan Carpenter (dan.carpenter@oracle.com)
+gfs2: add validation checks for size of superblock <5 weeks ago> [ac39f79f81fc]
+by: Anant Thazhemadam (anant.thazhemadam@gmail.com)
+ext4: Detect already used quota file early <4 weeks ago> [2603470d462d]
+by: Jan Kara (jack@suse.cz)
+drivers: watchdog: rdc321x_wdt: Fix race condition bugs <3 months ago> [e92df84c4f74]
+by: Madhuparna Bhowmik (madhuparnabhowmik10@gmail.com)
+net: 9p: initialize sun_server.sun_path to have addr's value only when addr is valid <5 weeks ago> [ff4a19854259]
+by: Anant Thazhemadam (anant.thazhemadam@gmail.com)
+clk: ti: clockdomain: fix static checker warning <10 weeks ago> [ff53a5872f12]
+by: Tero Kristo (t-kristo@ti.com)
+md/bitmap: md_bitmap_get_counter returns wrong blocks <6 weeks ago> [a43817fda768]
+by: Zhao Heming (heming.zhao@suse.com)
+power: supply: test_power: add missing newlines when printing parameters by sysfs <2 months ago> [808427bebda9]
+by: Xiongfeng Wang (wangxiongfeng2@huawei.com)
+bus/fsl_mc: Do not rely on caller to provide non NULL mc_io <7 weeks ago> [ac4998bbf881]
+by: Diana Craciun (diana.craciun@oss.nxp.com)
+drivers/net/wan/hdlc_fr: Correctly handle special skb->protocol values <7 weeks ago> [a42d588fbdef]
+by: Xie He (xie.he.0141@gmail.com)
+arm64/mm: return cpu_all_mask when node is NUMA_NO_NODE <8 weeks ago> [ed121ea5a381]
+by: Zhengyuan Liu (liuzhengyuan@tj.kylinos.cn)
+USB: adutux: fix debugging <8 weeks ago> [eeecf316e6f8]
+by: Oliver Neukum (oneukum@suse.com)
+cpufreq: sti-cpufreq: add stih418 support <3 months ago> [b36818fdc8e7]
+by: Alain Volmat (avolmat@me.com)
+kgdb: Make "kgdbcon" work properly with "kgdb_earlycon" <5 months ago> [6be061083d7e]
+by: Douglas Anderson (dianders@chromium.org)
+printk: reduce LOG_BUF_SHIFT range for H8300 <3 months ago> [7756acd808bc]
+by: John Ogness (john.ogness@linutronix.de)
+mmc: via-sdmmc: Fix data race bug <3 months ago> [9ab6e78230ac]
+by: Madhuparna Bhowmik (madhuparnabhowmik10@gmail.com)
+media: tw5864: check status of tw5864_frameinterval_get <3 months ago> [338a4c01239f]
+by: Tom Rix (trix@redhat.com)
+ath10k: fix VHT NSS calculation when STBC is enabled <3 months ago> [7f288898fc76]
+by: Sathishkumar Muruganandam (murugana@codeaurora.org)
+video: fbdev: pvr2fb: initialize variables <4 months ago> [2b0df39a67bc]
+by: Tom Rix (trix@redhat.com)
+xfs: fix realtime bitmap/summary file truncation when growing rt volume <6 weeks ago> [b72172a4814e]
+by: Darrick J. Wong (darrick.wong@oracle.com)
+ARM: 8997/2: hw_breakpoint: Handle inexact watchpoint addresses <3 months ago> [e8f7f0932b14]
+by: Douglas Anderson (dianders@chromium.org)
+um: change sigio_spinlock to a mutex <5 months ago> [529db6661c59]
+by: Johannes Berg (johannes.berg@intel.com)
+f2fs: fix to check segment boundary during SIT page readahead <7 weeks ago> [865d3206c041]
+by: Chao Yu (yuchao0@huawei.com)
+f2fs: add trace exit in exception path <8 weeks ago> [8f5ddf7a7402]
+by: Zhang Qilong (zhangqilong3@huawei.com)
+sparc64: remove mm_cpumask clearing to fix kthread_use_mm race <9 weeks ago> [0e6277eb590c]
+by: Nicholas Piggin (npiggin@gmail.com)
+powerpc/powernv/smp: Fix spurious DBG() warning <3 months ago> [726e1b2fc403]
+by: Oliver O'Halloran (oohall@gmail.com)
+mlxsw: core: Fix use-after-free in mlxsw_emad_trans_finish() <3 weeks ago> [4eacae981749]
+by: Amit Cohen (amcohen@nvidia.com)
+fscrypt: use EEXIST when file already uses different policy <3 years, 11 months ago> [a9b9c9988de5]
+by: Eric Biggers (ebiggers@google.com)
+fscrypto: move ioctl processing more fully into common code <4 years ago> [3326d00ca023]
+by: Eric Biggers (ebiggers@google.com)
+fscrypt: return -EXDEV for incompatible rename or link into encrypted dir <1 year, 10 months ago> [a5edcea7ae17]
+by: Eric Biggers (ebiggers@google.com)
+ata: sata_rcar: Fix DMA boundary mask <8 weeks ago> [d4629b0d6d7a]
+by: Geert Uytterhoeven (geert+renesas@glider.be)
+mtd: lpddr: Fix bad logic in print_drs_error <7 months ago> [609c0dea93f1]
+by: Gustavo A. R. Silva (gustavo@embeddedor.com)
+p54: avoid accessing the data mapped to streaming DMA <4 months ago> [ad3394d7f62b]
+by: Jia-Ju Bai (baijiaju@tsinghua.edu.cn)
+fuse: fix page dereference after free <8 weeks ago> [1b47891c58b8]
+by: Miklos Szeredi (mszeredi@redhat.com)
+arch/x86/amd/ibs: Fix re-arming IBS Fetch <10 weeks ago> [c54cd254fbaf]
+by: Kim Phillips (kim.phillips@amd.com)
+tipc: fix memory leak caused by tipc_buf_append() <3 weeks ago> [f955928611df]
+by: Tung Nguyen (tung.q.nguyen@dektech.com.au)
+ravb: Fix bit fields checking in ravb_hwtstamp_get() <3 weeks ago> [01edc74dd902]
+by: Andrew Gabbasov (andrew_gabbasov@mentor.com)
+efivarfs: Replace invalid slashes with exclamation marks in dentries. <7 weeks ago> [e3f04230b97b]
+by: Michael Schaller (misch@google.com)
+powerpc/powernv/opal-dump : Use IRQ_HANDLED instead of numbers in interrupt handler <3 years, 9 months ago> [3657ef47741d]
+by: Mukesh Ojha (mukesh02@linux.vnet.ibm.com)
+scripts/setlocalversion: make git describe output more reliable <8 weeks ago> [861c5ce033f3]
+by: Rasmus Villemoes (linux@rasmusvillemoes.dk)
+SUNRPC: ECONNREFUSED should cause a rebind. <3 years, 3 months ago> [433cf1eda478]
+by: NeilBrown (neilb@suse.com)
+
+
+====================
+     11-09-2020
+====================
+
+[manifest]
+Track some lineage fork(s) for 2020-11 ASB patching <7 days ago> [002a5c9]
+by: Kevin F. Haggerty (haggertk@lineageos.org)
+
+[build/make]
+Bump Security String to 2020-11-05 <9 days ago> [7dddacbf8]
+by: Kevin F. Haggerty (haggertk@lineageos.org)
 
 [frameworks/base]
-base: Call gaming mode tile gaming macro <7 days ago> [df3deb015d7]
-by: Ido Ben-Hur (idoybh2@gmail.com)
+Merge pull request #1 from X00TD-AOSIP/ten <7 days ago> [f97665a7f2e]
+by: rahul9999 (36025572+rahul9999xda@users.noreply.github.com)
+Accept repeated locale as an input of LocaleList construction. <3 months ago> [fb3b703941f]
+by: Seigo Nonaka (nona@google.com)
+Sanitize more of the notification text fields <3 months ago> [d87cb1e7fb2]
+by: Julia Reynolds (juliacr@google.com)
+DO NOT MERGE Don't allow non-instant permissions for instant apps. <3 months ago> [c8bb237df5a]
+by: Hai Zhang (zhanghai@google.com)
 
-[packages/apps/PotatoPlugins]
-plugins: Use system corner radius where needed <2 weeks ago> [1baddd1]
-by: ZeNiXxX (zenixxx.havoc@gmail.com)
+[frameworks/native]
+libbinder_ndk: fix failure when dump/shell are unset <3 months ago> [1d6040a23]
+by: Steven Moreland (smoreland@google.com)
 
-[prebuilts/clang/host/linux-x86]
-Update prebuilt Clang to r399163 (11.0.4). <2 weeks ago> [6107c42a]
-by: Stephen Hines (srhines@google.com)
+[packages/apps/Bluetooth]
+Pass whether the local device is an atv device to the native layer to determine whether to include pairing dialogs for justworks and encryption only LE pairing <4 months ago> [5fab8335]
+by: Rahul Sabnis (rahulsabnis@google.com)
+
+[packages/apps/CellBroadcastReceiver]
+RESTRICT AUTOMERGE Fix exported broadcast receiver vulnerability <3 months ago> [6bcdae37]
+by: Hall Liu (hallliu@google.com)
+
+[packages/services/Telecomm]
+Fix security vulnerability of TelecomManager#getPhoneAccountsForPackage <5 months ago> [91f093a6]
+by: Grace Jia (xiaotonj@google.com)
+
+[system/bt]
+Send a response to an smp security request depending on the callback event <3 months ago> [eadf7fa49]
+by: Rahul Sabnis (rahulsabnis@google.com)
+Return after removing sample LTK device <10 months ago> [3b84bb29e]
+by: li-wei.cheng (li-wei.cheng@mediatek.com)
+Check whether local device is an ATV device to determine whether to show the consent dialog for BLE pairing in JUSTWORKS and ENCRYPTION_ONLY mode <4 months ago> [f3e591f89]
+by: Rahul Sabnis (rahulsabnis@google.com)
+Shows a consent dialog on the local device when pairing a bluetooth low energy device if the local device has a display. <5 months ago> [e037c86f7]
+by: Rahul Sabnis (rahulsabnis@google.com)
+
+[system/core]
+Fail explicitly on length overflow. <6 months ago> [25f1c04f1]
+by: Christopher Ferris (cferris@google.com)
+
+[system/netd]
+Fix OOB read in DNS resolver <4 months ago> [ed565943]
+by: Ken Chen (cken@google.com)
 
 
